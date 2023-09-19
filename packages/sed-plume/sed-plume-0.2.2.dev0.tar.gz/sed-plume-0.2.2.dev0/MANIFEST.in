@@ -1,0 +1,8 @@
+include CHANGES.rst
+include CITATION.cff
+
+exclude .pre-commit-config.yaml
+exclude requirements*.txt
+exclude notebooks/*.ipynb
+exclude noxfile.py
+recursive-exclude news *
