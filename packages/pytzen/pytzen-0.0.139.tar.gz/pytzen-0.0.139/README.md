@@ -1,0 +1,203 @@
+# `pytzen`
+----
+
+## Disclaimer:
+This library is offered 'as-is' with **no official support, maintenance, or warranty**. Primarily, `pytzen` is an experimentation, which may not be apt for production settings. Users are encouraged to delve into the library but should note that the developers won't actively address arising issues.
+
+## Code Access:
+The associated GitHub repository is private. Direct access to the source code's versioning or issue tracking is restricted. However, the source code is available on this page and in the **Download files** section:
+- **Source Distribution**: `pytzen-*.tar.gz`
+- **Built Distribution**: `pytzen-*-py3-none-any.whl`
+
+## Usage Caution:
+We are not liable for issues stemming from the library's usage in production environments. Users should extensively test and vet the library in a safe space before expansive implementation.
+
+----
+
+# `ZenGenerator`
+Tailored for data scientists, the ZenGenerator addresses the specific demands of dynamic model applications within the Jupyter Notebook ecosystem. Here's what it offers:
+
+- **Dynamic Class Creation**: With just a dictionary input detailing attributes, effortlessly generate and instantiate Python classes.
+- **Auto-Documentation**: Each dynamically formed class comes with automated documentation, ensuring clarity and coherence.
+- **Rapid Prototyping**: Experience unrestricted class definition, immediate model testing, and tweaks—all in real-time.
+- **Config-Driven Design**: It caters to classes birthed from configuration details or external datasets.
+- **System Extensions**: It's a boon for enriching prevailing systems via new class plugins or extensions.
+
+## Usage
+
+
+```python
+import sys
+sys.path.append('/home/pytzen/lab/pytzen/src')
+import inspect
+from pytzen.generator import ZenGenerator
+from pytzen.logs import Logger
+```
+
+
+```python
+class ClassPattern(ZenGenerator):
+
+    def _out_of_box(self):
+        print('I am a private method to be run inside another method.')
+
+    def some_method(self):
+        self.log.info('Creating some_method.')
+        self.some_attribute = 'some_attribute'
+        print(f'Implemented some_method and {self.some_attribute}.')
+    
+    def another_method(self):
+        self._out_of_box()
+        self.log.info('Creating another_method.')
+        self.another_attribute = 'another_attribute'
+        print(f'Implemented another_method and {self.another_attribute}.')
+```
+
+
+```python
+cp = ClassPattern(
+    json_path='/home/pytzen/lab/pytzen/ClassPattern.json', 
+    some_input='some_input', another_input='another_input')
+cp.some_method()
+cp.another_method()
+```
+
+    2023-09-18 18:56:18,609 - <class '__main__.ClassPattern'> - INFO - Creating some_method.
+    2023-09-18 18:56:18,610 - <class '__main__.ClassPattern'> - INFO - Creating another_method.
+
+
+    Implemented some_method and some_attribute.
+    I am a private method to be run inside another method.
+    Implemented another_method and another_attribute.
+
+
+
+```python
+print(cp.__doc__)
+```
+
+    Docstring explaining the class. Docstring explaining the class.
+    
+    Inputs:
+    - some_input: Docstring explaining the input. Docstring explaining
+        the input.
+    - another_input: Docstring explaining another input. Docstring
+        explaining another input.
+    
+    Attributes:
+    - some_attribute: Docstring explaining the attribute. Docstring
+        explaining the attribute.
+    - another_attribute: Docstring explaining another attribute.
+        Docstring explaining another attribute.
+    
+    Methods:
+    - some_method: Docstring explaining the method. Docstring explaining
+        the method.
+    - another_method: Docstring explaining another method. Docstring
+        explaining another method.
+    
+
+
+## module `generator`
+
+```python
+import os
+import json
+import textwrap
+from abc import ABC, abstractmethod
+from pytzen.logs import Logger
+```
+
+### class `ZenGenerator(metaclass=DocMeta)`
+
+
+```python
+print(inspect.getsource(ZenGenerator))
+```
+
+    class ZenGenerator(ABC):
+    
+        def __init__(self, json_path, log_level='INFO', **kwargs):
+            self.class_pattern = self._get_class_pattern(json_path)
+            self.__doc__ = self._generate_class_doc()
+            self._create_objects(kwargs)
+            self.log = Logger(name=str(self.__class__), level=log_level)
+        
+        def _get_class_pattern(cls, json_path):
+            with open(json_path) as file:
+                class_pattern = json.load(file)
+            return class_pattern
+    
+        def _generate_class_doc(self, width=68, indent=' '*4):
+            doc_str = self.class_pattern['description'] + '\n'
+            def add_object(obj, doc_str):
+                doc_str += f'\n{obj.capitalize()}:\n'
+                for k, v in self.class_pattern[obj].items():
+                    line = f'- {k}: {v}'
+                    doc_str += textwrap.fill(text=line, width=width, 
+                                             subsequent_indent=indent) + '\n'
+                return doc_str
+            for obj in ['inputs', 'attributes', 'methods']:
+                doc_str = add_object(obj, doc_str)
+            return doc_str
+    
+        def _create_objects(self, kwargs):
+            for input_name in self.class_pattern['inputs']:
+                if input_name not in kwargs:
+                    raise ValueError(f'{input_name} must be provided!')
+                setattr(self, input_name, kwargs[input_name])
+            for attr_name in self.class_pattern['attributes']:
+                setattr(self, attr_name, None)
+            for method_name in self.class_pattern['methods']:
+                vars()[method_name] = abstractmethod(lambda self: None)
+    
+
+
+## module `logs`
+
+### class `Logger`
+
+```python
+import logging
+import traceback
+```
+
+
+```python
+print(inspect.getsource(Logger))
+```
+
+    class Logger:
+    
+        def __init__(self, name: str, level: str) -> None:
+    
+            self.logger: logging.Logger = logging.getLogger(name)
+            self.logger.propagate = False
+            set_level = logging._nameToLevel[level]
+            self.logger.setLevel(set_level)
+            if not self.logger.handlers:
+                msg = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+                formats: str = msg
+                formatter = logging.Formatter(formats)
+                console_handler = logging.StreamHandler()
+                console_handler.setFormatter(formatter)
+                self.logger.addHandler(console_handler)
+    
+        def debug(self, message: str) -> None: 
+            self.logger.debug(message)
+    
+        def info(self, message: str) -> None: 
+            self.logger.info(message)
+    
+        def warning(self, message: str) -> None: 
+            self.logger.warning(message)
+    
+        def error(self, message: str) -> None:
+            self.logger.error(message)
+            print(traceback.format_exc())
+    
+        def critical(self, message: str) -> None:
+            self.logger.critical(message)
+            print(traceback.format_exc())
+    
+
