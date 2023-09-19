@@ -1,0 +1,11 @@
+svg.path
+numpy
+opencv-python
+svgwrite
+ndl-ocr-tools
+xsd_validator
+beautifulsoup4
+lxml
+tqdm
+
+[dev]
