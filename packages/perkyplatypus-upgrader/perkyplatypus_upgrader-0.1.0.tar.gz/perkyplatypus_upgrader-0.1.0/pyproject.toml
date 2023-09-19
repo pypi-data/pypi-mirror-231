@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "perkyplatypus-upgrader"
+version = "0.1.0"
+description = ""
+authors = ["David Taliaferro <dtaliaferro@nshe.nevada.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
