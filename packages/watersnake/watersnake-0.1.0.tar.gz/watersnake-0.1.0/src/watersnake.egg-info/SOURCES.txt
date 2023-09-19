@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/watersnake/__init__.py
+src/watersnake/_aligner.c
+src/watersnake.egg-info/PKG-INFO
+src/watersnake.egg-info/SOURCES.txt
+src/watersnake.egg-info/dependency_links.txt
+src/watersnake.egg-info/top_level.txt
