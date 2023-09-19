@@ -1,0 +1,9 @@
+TidyX/TextPreprocessor.py,sha256=bE8cwJBrDszIFpJZ6Nm8VgsZx5ZQWKSv05hEJ2zqnqo,18947
+TidyX/__init__.py,sha256=DDXL4KJIoB0NWN59N3hj407SLP5kGd775kjQb_VSK7I,51
+tests/__init__.py,sha256=DDXL4KJIoB0NWN59N3hj407SLP5kGd775kjQb_VSK7I,51
+tests/textpreprocessor_tests.py,sha256=u_RtwIkLIVI76_1LWynd-N6VNLNZurru0IgZoASHxbg,1514
+tidyX-1.0.3.dist-info/LICENSE.rst,sha256=NtlCjU7kPRMf2jhdxFYKenOWm73dJXPca2fzK_IUDFM,1094
+tidyX-1.0.3.dist-info/METADATA,sha256=fKLia3PnVlJgRJi6fV2D3Egr3qsPqSlG5J20d_TW6sk,957
+tidyX-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tidyX-1.0.3.dist-info/top_level.txt,sha256=IdI8T8eDPl_W3xWdzPo4hVa3KlJGgnq7t5oIUEJ-J3E,6
+tidyX-1.0.3.dist-info/RECORD,,
