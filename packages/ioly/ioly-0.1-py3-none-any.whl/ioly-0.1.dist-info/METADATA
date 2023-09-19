@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ioly
+Version: 0.1
+Summary: none
+Home-page: https://github.com/Karol-G/ioly
+Author-email: karol.gotkowski@dkfz.de
+License: private
+Requires-Dist: numpy
+
