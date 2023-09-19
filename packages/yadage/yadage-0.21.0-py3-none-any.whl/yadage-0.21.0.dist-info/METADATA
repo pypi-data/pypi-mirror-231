@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: yadage
+Version: 0.21.0
+Summary: yadage - YAML based adage
+Home-page: https://github.com/yadage/yadage
+Author: Lukas Heinrich
+Author-email: lukas.heinrich@cern.ch
+License: MIT
+Project-URL: Documentation, https://github.com/yadage/yadage
+Project-URL: Source Code, https://github.com/yadage/yadage
+Project-URL: Issue Tracker, https://github.com/yadage/yadage/issues
+Keywords: physics yadage
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: adage >=0.10.2
+Requires-Dist: packtivity >=0.16.2
+Requires-Dist: yadage-schemas >=0.10.0
+Requires-Dist: click >=7.0
+Requires-Dist: psutil
+Requires-Dist: requests[security] >=2.9
+Requires-Dist: pyyaml
+Requires-Dist: jsonref
+Requires-Dist: jsonschema
+Requires-Dist: jsonpointer >=1.10
+Requires-Dist: jsonpath-rw
+Requires-Dist: checksumdir
+Requires-Dist: glob2
+Requires-Dist: jq
+Provides-Extra: all
+Requires-Dist: adage[viz] >=0.10.3 ; extra == 'all'
+Requires-Dist: black[jupyter] >=22.1.0 ; extra == 'all'
+Requires-Dist: celery ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: pydotplus >=2.0.0 ; extra == 'all'
+Requires-Dist: pyflakes ; extra == 'all'
+Requires-Dist: pytest-cov >=2.5.1 ; extra == 'all'
+Requires-Dist: pytest >=6.0.0 ; extra == 'all'
+Requires-Dist: redis ; extra == 'all'
+Provides-Extra: celery
+Requires-Dist: celery ; extra == 'celery'
+Requires-Dist: redis ; extra == 'celery'
+Provides-Extra: develop
+Requires-Dist: adage[viz] >=0.10.3 ; extra == 'develop'
+Requires-Dist: pydotplus >=2.0.0 ; extra == 'develop'
+Requires-Dist: pre-commit ; extra == 'develop'
+Requires-Dist: pytest >=6.0.0 ; extra == 'develop'
+Requires-Dist: pytest-cov >=2.5.1 ; extra == 'develop'
+Provides-Extra: lint
+Requires-Dist: pyflakes ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: black[jupyter] >=22.1.0 ; extra == 'lint'
+Provides-Extra: viz
+Requires-Dist: adage[viz] >=0.10.3 ; extra == 'viz'
+Requires-Dist: pydotplus >=2.0.0 ; extra == 'viz'
+
+# yadage - yaml based adage
+
+[![arXiv](https://img.shields.io/badge/arXiv-1706.01878-orange.svg)](https://arxiv.org/abs/1706.01878)
+[![DOI](https://zenodo.org/badge/53543066.svg)](https://zenodo.org/badge/latestdoi/53543066)
+[![PyPI version](https://badge.fury.io/py/yadage.svg)](https://badge.fury.io/py/yadage)
+[![GitHub Actions Status: CI](https://github.com/yadage/yadage/workflows/CI/CD/badge.svg)](https://github.com/yadage/yadage/actions?query=workflow%3ACI%2FCD+branch%3Amaster)
+[![Code Coverage](https://codecov.io/gh/yadage/yadage/graph/badge.svg?branch=master)](https://codecov.io/gh/yadage/yadage?branch=master)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/yadage/yadage.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/yadage/yadage/latest/files/)
+[![CodeFactor](https://www.codefactor.io/repository/github/yadage/yadage/badge)](https://www.codefactor.io/repository/github/yadage/yadage)
+[![Documentation Status](https://readthedocs.org/projects/yadage/badge/?version=latest)](http://yadage.readthedocs.io/en/latest/?badge=latest)
+[![](https://images.microbadger.com/badges/version/yadage/yadage.svg)](https://microbadger.com/images/yadage/yadage "Get your own version badge on microbadger.com")
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+This package reads and executes workflows adhering to the workflow JSON schemas defined at https://github.com/yadage/yadage-schemas such as the ones stored in the community repository https://github.com/yadage/yadage-workflows. For executing the individual steps it mainly uses the packtivity python bindings provided by https://github.com/yadage/packtivity.
+
+### Example Workflow
+
+```
+cat << 'EOF' > workflow.yml
+stages:
+- name: hello_world
+  dependencies: [init]
+  scheduler:
+    scheduler_type: singlestep-stage
+    parameters:
+      name: {step: init, output: name}
+      outputfile: '{workdir}/hello_world.txt'
+    step:
+      process:
+        process_type: 'string-interpolated-cmd'
+        cmd: 'echo Hello my Name is {name} | tee {outputfile}'
+      publisher:
+        publisher_type: 'frompar-pub'
+        outputmap:
+          outputfile: outputfile
+      environment:
+        environment_type: 'docker-encapsulated'
+        image: busybox
+EOF
+```
+
+You can try this workflow via
+
+```
+yadage-run -p name="John Doe"
+```
+
+For more thorough examples, please see the [documentation](http://yadage.readthedocs.io/en/latest/)
+
+### Possible Backends:
+
+Yadage can run on various backends such as multiprocessing pools, ipython clusters, or celery clusters. If human intervention is needed for certain steps, it can also be run interactively.
+
+### Published versions of related packages (main dependencies of yadage)
+
+| package | version |
+| ------------- |-------------|
+| packtivity     | [![PyPI version](https://badge.fury.io/py/packtivity.svg)](https://badge.fury.io/py/packtivity) |
+| yadage-schemas    | [![PyPI version](https://badge.fury.io/py/yadage-schemas.svg)](https://badge.fury.io/py/yadage-schemas)      |   
+| adage | [![PyPI version](https://badge.fury.io/py/adage.svg)](https://badge.fury.io/py/adage)      |  
