@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: demo_py_package
+Version: 0.1
+Summary: Simple package to learn the process of publishing a python package to PyPI
+Home-page: https://github.com/AdrianSLopez/demo_py_package
+Author: Adrian Salgado Lopez
+Author-email: adrianlopezdev@gmail.com
+License: MIT
+Download-URL: https://github.com/AdrianSLopez/demo_py_package.git
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
