@@ -1,0 +1,9 @@
+LICENCE.TXT
+pyproject.toml
+src/multicfg/__init__.py
+src/multicfg/config.py
+src/multicfg.egg-info/PKG-INFO
+src/multicfg.egg-info/SOURCES.txt
+src/multicfg.egg-info/dependency_links.txt
+src/multicfg.egg-info/top_level.txt
+tests/test.py
