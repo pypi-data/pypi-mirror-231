@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: micropython_qr
+Version: 0.0.1
+Summary: Uploaded micro python qrcode library
+Author-email: Code Cadets <codecadets@cgs.act.edu.au>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Description-Content-Type: text/markdown
+
+# micropython_qr
+
+For MicroPython only.
+
+Uploaded code from https://github.com/JASchilz/uQR/blob/master/uQR.py
