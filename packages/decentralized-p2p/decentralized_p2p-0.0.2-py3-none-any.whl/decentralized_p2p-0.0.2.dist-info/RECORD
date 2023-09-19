@@ -1,0 +1,7 @@
+src/decentralized-p2p/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/decentralized-p2p/peer.py,sha256=Kf3O1KZl6-Q3Icz9qorg6zEdj3klTAoOxNys_uQwryQ,23502
+src/decentralized-p2p/signature.py,sha256=UgEpxG18f0gZPydPHOG_yqK4AK38fOrGWnG-cNSzKi8,1625
+decentralized_p2p-0.0.2.dist-info/METADATA,sha256=tO3OwdrdKRze-F56cNRFon-sErPQJIGVYUNvS0I5nXs,1918
+decentralized_p2p-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+decentralized_p2p-0.0.2.dist-info/licenses/LICENSE,sha256=GX-Lrj95URv4c_8Si_64RYr4lOOaTKgnToxVgV6Tevw,1084
+decentralized_p2p-0.0.2.dist-info/RECORD,,
