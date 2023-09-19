@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "spectraldatawrapperstest"
+version = "0.1.0"
+description = ""
+authors = ["Maciej Marczynski <maciej@spectral.finance>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
