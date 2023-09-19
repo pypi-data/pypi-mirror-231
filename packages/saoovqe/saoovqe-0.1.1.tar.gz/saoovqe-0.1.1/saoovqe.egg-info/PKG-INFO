@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: saoovqe
+Version: 0.1
+Summary: State-averaged Orbital-optimized Variational Quantum Eigensolver with the Qiskit library.
+Home-page: https://gitlab.com/MartinBeseda/sa-oo-vqe-qiskit
+License-File: LICENSE.md
+
+================================================================
+State-averaged Orbital-optimized Variational Quantum Eigensolver
+================================================================
