@@ -1,0 +1,3 @@
+include cythonautoinstall/requirements.txt
+include cythonautoinstall/thirdparty.json
+include cythonautoinstall/README.MD

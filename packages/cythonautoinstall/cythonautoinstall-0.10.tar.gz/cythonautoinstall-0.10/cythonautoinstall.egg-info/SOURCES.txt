@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythonautoinstall/README.MD
+cythonautoinstall/__init__.py
+cythonautoinstall/requirements.txt
+cythonautoinstall/thirdparty.json
+cythonautoinstall.egg-info/PKG-INFO
+cythonautoinstall.egg-info/SOURCES.txt
+cythonautoinstall.egg-info/dependency_links.txt
+cythonautoinstall.egg-info/requires.txt
+cythonautoinstall.egg-info/top_level.txt
