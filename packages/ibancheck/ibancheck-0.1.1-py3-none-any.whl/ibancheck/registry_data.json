@@ -1,0 +1,690 @@
+[
+  {
+    "country_name": "Andorra",
+    "country": "AD",
+    "bban_length": 20,
+    "bban_example": "00012030200359100100",
+    "iban_example": "AD1200012030200359100100",
+    "iban_format_example": "AD12 0001 2030 2003 5910 0100"
+  },
+  {
+    "country_name": "United Arab Emirates (The)",
+    "country": "AE",
+    "bban_length": 19,
+    "bban_example": "0331234567890123456",
+    "iban_example": "AE070331234567890123456",
+    "iban_format_example": "AE07 0331 2345 6789 0123 456"
+  },
+  {
+    "country_name": "Albania",
+    "country": "AL",
+    "bban_length": 24,
+    "bban_example": "212110090000000235698741",
+    "iban_example": "AL47212110090000000235698741",
+    "iban_format_example": "AL47 2121 1009 0000 0002 3569 8741"
+  },
+  {
+    "country_name": "Austria",
+    "country": "AT",
+    "bban_length": 16,
+    "bban_example": "1904300234573201",
+    "iban_example": "AT611904300234573201",
+    "iban_format_example": "AT61 1904 3002 3457 3201"
+  },
+  {
+    "country_name": "Azerbaijan",
+    "country": "AZ",
+    "bban_length": 24,
+    "bban_example": "NABZ00000000137010001944",
+    "iban_example": "AZ21NABZ00000000137010001944",
+    "iban_format_example": "AZ21 NABZ 0000 0000 1370 1000 1944"
+  },
+  {
+    "country_name": "Bosnia and Herzegovina",
+    "country": "BA",
+    "bban_length": 16,
+    "bban_example": "1990440001200279",
+    "iban_example": "BA391290079401028494",
+    "iban_format_example": "BA39 1290 0794 0102 8494"
+  },
+  {
+    "country_name": "Belgium",
+    "country": "BE",
+    "bban_length": 12,
+    "bban_example": "539007547034",
+    "iban_example": "BE68539007547034",
+    "iban_format_example": "BE68 5390 0754 7034"
+  },
+  {
+    "country_name": "Bulgaria",
+    "country": "BG",
+    "bban_length": 18,
+    "bban_example": "BNBG96611020345678",
+    "iban_example": "BG80BNBG96611020345678",
+    "iban_format_example": "BG80 BNBG 9661 1020 3456 78"
+  },
+  {
+    "country_name": "Bahrain",
+    "country": "BH",
+    "bban_length": 18,
+    "bban_example": "BMAG00001299123456",
+    "iban_example": "BH67BMAG00001299123456",
+    "iban_format_example": "BH67 BMAG 0000 1299 1234 56"
+  },
+  {
+    "country_name": "Burundi",
+    "country": "BI",
+    "bban_length": 23,
+    "bban_example": "10000100010000332045181",
+    "iban_example": "BI4210000100010000332045181",
+    "iban_format_example": "BI42 10000 10001 00003320451 81"
+  },
+  {
+    "country_name": "Brazil",
+    "country": "BR",
+    "bban_length": 25,
+    "bban_example": "00360305000010009795493P1",
+    "iban_example": "BR1800360305000010009795493C1",
+    "iban_format_example": "BR18 0036 0305 0000 1000 9795 493C 1"
+  },
+  {
+    "country_name": "Republic of Belarus",
+    "country": "BY",
+    "bban_length": 24,
+    "bban_example": "NBRB 3600900000002Z00AB00",
+    "iban_example": "BY13NBRB3600900000002Z00AB00",
+    "iban_format_example": "BY13 NBRB 3600 9000 0000 2Z00 AB00"
+  },
+  {
+    "country_name": "Switzerland",
+    "country": "CH",
+    "bban_length": 17,
+    "bban_example": "00762011623852957",
+    "iban_example": "CH9300762011623852957",
+    "iban_format_example": "CH93 0076 2011 6238 5295 7"
+  },
+  {
+    "country_name": "Costa Rica",
+    "country": "CR",
+    "bban_length": 18,
+    "bban_example": "15202001026284066",
+    "iban_example": "CR05015202001026284066",
+    "iban_format_example": "CR05 0152 0200 1026 2840 66"
+  },
+  {
+    "country_name": "Cyprus",
+    "country": "CY",
+    "bban_length": 24,
+    "bban_example": "002001280000001200527600",
+    "iban_example": "CY17002001280000001200527600",
+    "iban_format_example": "CY17 0020 0128 0000 0012 0052 7600"
+  },
+  {
+    "country_name": "Czechia",
+    "country": "CZ",
+    "bban_length": 20,
+    "bban_example": "08000000192000145399",
+    "iban_example": "CZ6508000000192000145399",
+    "iban_format_example": "CZ65 0800 0000 1920 0014 5399"
+  },
+  {
+    "country_name": "Germany",
+    "country": "DE",
+    "bban_length": 18,
+    "bban_example": "370400440532013000",
+    "iban_example": "DE89370400440532013000",
+    "iban_format_example": "DE89 3704 0044 0532 0130 00"
+  },
+  {
+    "country_name": "Djibouti",
+    "country": "DJ",
+    "bban_length": 23,
+    "bban_example": "00010000000154000100186",
+    "iban_example": "DJ2100010000000154000100186",
+    "iban_format_example": "DJ21 0001 0000 0001 5400 0100 186"
+  },
+  {
+    "country_name": "Denmark",
+    "country": "DK",
+    "bban_length": 14,
+    "bban_example": "00400440116243",
+    "iban_example": "DK5000400440116243",
+    "iban_format_example": "DK50 0040 0440 1162 43"
+  },
+  {
+    "country_name": "Dominican Republic",
+    "country": "DO",
+    "bban_length": 24,
+    "bban_example": "BAGR00000001212453611324",
+    "iban_example": "DO28BAGR00000001212453611324",
+    "iban_format_example": "DO28 BAGR 0000 0001 2124 5361 1324"
+  },
+  {
+    "country_name": "Estonia",
+    "country": "EE",
+    "bban_length": 16,
+    "bban_example": "2200221020145685",
+    "iban_example": "EE382200221020145685",
+    "iban_format_example": "EE38 2200 2210 2014 5685"
+  },
+  {
+    "country_name": "Egypt",
+    "country": "EG",
+    "bban_length": 25,
+    "bban_example": "0019000500000000263180002",
+    "iban_example": "EG380019000500000000263180002",
+    "iban_format_example": "EG380019000500000000263180002"
+  },
+  {
+    "country_name": "Spain",
+    "country": "ES",
+    "bban_length": 20,
+    "bban_example": "21000418450200051332",
+    "iban_example": "ES9121000418450200051332",
+    "iban_format_example": "ES91 2100 0418 4502 0005 1332"
+  },
+  {
+    "country_name": "Finland",
+    "country": "FI",
+    "bban_length": 14,
+    "bban_example": "N/A",
+    "iban_example": "FI2112345600000785",
+    "iban_format_example": "FI21 1234 5600 0007 85"
+  },
+  {
+    "country_name": "Falkland Islands",
+    "country": "FK",
+    "bban_length": 14,
+    "bban_example": "SC123456789012",
+    "iban_example": "FK88SC123456789012",
+    "iban_format_example": "FK88 SC12 3456 7890 12"
+  },
+  {
+    "country_name": "Faroe Islands",
+    "country": "FO",
+    "bban_length": 14,
+    "bban_example": "64600001631634",
+    "iban_example": "FO6264600001631634",
+    "iban_format_example": "FO62 6460 0001 6316 34"
+  },
+  {
+    "country_name": "France",
+    "country": "FR",
+    "bban_length": 23,
+    "bban_example": "20041010050500013M02606",
+    "iban_example": "FR1420041010050500013M02606",
+    "iban_format_example": "FR14 2004 1010 0505 0001 3M02 606"
+  },
+  {
+    "country_name": "United Kingdom",
+    "country": "GB",
+    "bban_length": 18,
+    "bban_example": "NWBK60161331926819",
+    "iban_example": "GB29NWBK60161331926819",
+    "iban_format_example": "GB29 NWBK 6016 1331 9268 19"
+  },
+  {
+    "country_name": "Georgia",
+    "country": "GE",
+    "bban_length": 18,
+    "bban_example": "NB0000000101904917",
+    "iban_example": "GE29NB0000000101904917",
+    "iban_format_example": "GE29 NB00 0000 0101 9049 17"
+  },
+  {
+    "country_name": "Gibraltar",
+    "country": "GI",
+    "bban_length": 19,
+    "bban_example": "NWBK000000007099453",
+    "iban_example": "GI75NWBK000000007099453",
+    "iban_format_example": "GI75 NWBK 0000 0000 7099 453"
+  },
+  {
+    "country_name": "Greenland",
+    "country": "GL",
+    "bban_length": 14,
+    "bban_example": "64710001000206",
+    "iban_example": "GL8964710001000206",
+    "iban_format_example": "GL89 6471 0001 0002 06"
+  },
+  {
+    "country_name": "Greece",
+    "country": "GR",
+    "bban_length": 23,
+    "bban_example": "01101250000000012300695",
+    "iban_example": "GR1601101250000000012300695",
+    "iban_format_example": "GR16 0110 1250 0000 0001 2300 695"
+  },
+  {
+    "country_name": "Guatemala",
+    "country": "GT",
+    "bban_length": 24,
+    "bban_example": "TRAJ01020000001210029690",
+    "iban_example": "GT82TRAJ01020000001210029690",
+    "iban_format_example": "GT82 TRAJ 0102 0000 0012 1002 9690"
+  },
+  {
+    "country_name": "Croatia",
+    "country": "HR",
+    "bban_length": 17,
+    "bban_example": "10010051863000160",
+    "iban_example": "HR1210010051863000160",
+    "iban_format_example": "HR12 1001 0051 8630 0016 0"
+  },
+  {
+    "country_name": "Hungary",
+    "country": "HU",
+    "bban_length": 24,
+    "bban_example": "117730161111101800000000",
+    "iban_example": "HU42117730161111101800000000",
+    "iban_format_example": "HU42 1177 3016 1111 1018 0000 0000"
+  },
+  {
+    "country_name": "Ireland",
+    "country": "IE",
+    "bban_length": 18,
+    "bban_example": "AIBK93115212345678",
+    "iban_example": "IE29AIBK93115212345678",
+    "iban_format_example": "IE29 AIBK 9311 5212 3456 78"
+  },
+  {
+    "country_name": "Israel",
+    "country": "IL",
+    "bban_length": 19,
+    "bban_example": "010800000099999999",
+    "iban_example": "IL620108000000099999999",
+    "iban_format_example": "IL62 0108 0000 0009 9999 999"
+  },
+  {
+    "country_name": "Iraq",
+    "country": "IQ",
+    "bban_length": 19,
+    "bban_example": "NBIQ850123456789012",
+    "iban_example": "IQ98NBIQ850123456789012",
+    "iban_format_example": "IQ98 NBIQ 8501 2345 6789 012"
+  },
+  {
+    "country_name": "Iceland",
+    "country": "IS",
+    "bban_length": 22,
+    "bban_example": "0159260076545510730339",
+    "iban_example": "IS140159260076545510730339",
+    "iban_format_example": "IS14 0159 2600 7654 5510 7303 39"
+  },
+  {
+    "country_name": "Italy",
+    "country": "IT",
+    "bban_length": 23,
+    "bban_example": "X0542811101000000123456",
+    "iban_example": "IT60X0542811101000000123456",
+    "iban_format_example": "IT60 X054 2811 1010 0000 0123 456"
+  },
+  {
+    "country_name": "Jordan",
+    "country": "JO",
+    "bban_length": 26,
+    "bban_example": "CBJO0010000000000131000302",
+    "iban_example": "JO94CBJO0010000000000131000302",
+    "iban_format_example": "JO94 CBJO 0010 0000 0000 0131 0003 02"
+  },
+  {
+    "country_name": "Kuwait",
+    "country": "KW",
+    "bban_length": 26,
+    "bban_example": "CBKU0000000000001234560101",
+    "iban_example": "KW81CBKU0000000000001234560101",
+    "iban_format_example": "KW81 CBKU 0000 0000 0000 1234 5601 01"
+  },
+  {
+    "country_name": "Kazakhstan",
+    "country": "KZ",
+    "bban_length": 16,
+    "bban_example": "125KZT5004100100",
+    "iban_example": "KZ86125KZT5004100100",
+    "iban_format_example": "KZ86 125K ZT50 0410 0100"
+  },
+  {
+    "country_name": "Lebanon",
+    "country": "LB",
+    "bban_length": 24,
+    "bban_example": "0999 0000 0001 0019 0122 9114",
+    "iban_example": "LB62099900000001001901229114",
+    "iban_format_example": "LB62 0999 0000 0001 0019 0122 9114"
+  },
+  {
+    "country_name": "Saint Lucia",
+    "country": "LC",
+    "bban_length": 28,
+    "bban_example": "HEMM000100010012001200023015",
+    "iban_example": "LC55HEMM000100010012001200023015",
+    "iban_format_example": "LC55 HEMM 0001 0001 0012 0012 0002 3015"
+  },
+  {
+    "country_name": "Liechtenstein",
+    "country": "LI",
+    "bban_length": 17,
+    "bban_example": "088100002324013AA",
+    "iban_example": "LI21088100002324013AA",
+    "iban_format_example": "LI21 0881 0000 2324 013A A"
+  },
+  {
+    "country_name": "Lithuania",
+    "country": "LT",
+    "bban_length": 16,
+    "bban_example": "1000011101001000",
+    "iban_example": "LT121000011101001000",
+    "iban_format_example": "LT12 1000 0111 0100 1000"
+  },
+  {
+    "country_name": "Luxembourg",
+    "country": "LU",
+    "bban_length": 16,
+    "bban_example": "0019400644750000",
+    "iban_example": "LU280019400644750000",
+    "iban_format_example": "LU28 0019 4006 4475 0000"
+  },
+  {
+    "country_name": "Latvia",
+    "country": "LV",
+    "bban_length": 17,
+    "bban_example": "BANK0000435195001",
+    "iban_example": "LV80BANK0000435195001",
+    "iban_format_example": "LV80 BANK 0000 4351 9500 1"
+  },
+  {
+    "country_name": "Libya",
+    "country": "LY",
+    "bban_length": 21,
+    "bban_example": "002048000020100120361",
+    "iban_example": "LY83002048000020100120361",
+    "iban_format_example": "LY83 002 048 000020100120361"
+  },
+  {
+    "country_name": "Monaco",
+    "country": "MC",
+    "bban_length": 23,
+    "bban_example": "11222 00001 01234567890 30",
+    "iban_example": "MC5811222000010123456789030",
+    "iban_format_example": "MC58 1122 2000 0101 2345 6789 030"
+  },
+  {
+    "country_name": "Moldova",
+    "country": "MD",
+    "bban_length": 20,
+    "bban_example": "AG000225100013104168",
+    "iban_example": "MD24AG000225100013104168",
+    "iban_format_example": "MD24 AG00 0225 1000 1310 4168"
+  },
+  {
+    "country_name": "Montenegro",
+    "country": "ME",
+    "bban_length": 18,
+    "bban_example": "505000012345678951",
+    "iban_example": "ME25505000012345678951",
+    "iban_format_example": "ME25 5050 0001 2345 6789 51"
+  },
+  {
+    "country_name": "Macedonia",
+    "country": "MK",
+    "bban_length": 15,
+    "bban_example": "250120000058984",
+    "iban_example": "MK07250120000058984",
+    "iban_format_example": "MK07 2501 2000 0058 984"
+  },
+  {
+    "country_name": "Mongolia",
+    "country": "MN",
+    "bban_length": 16,
+    "bban_example": "1234123456789123",
+    "iban_example": "MN121234123456789123",
+    "iban_format_example": "MN12 1234 1234 5678 9123"
+  },
+  {
+    "country_name": "Mauritania",
+    "country": "MR",
+    "bban_length": 23,
+    "bban_example": "00020001010000123456753",
+    "iban_example": "MR1300020001010000123456753",
+    "iban_format_example": "MR13 0002 0001 0100 0012 3456 753"
+  },
+  {
+    "country_name": "Malta",
+    "country": "MT",
+    "bban_length": 27,
+    "bban_example": "MALT011000012345MTLCAST001S",
+    "iban_example": "MT84MALT011000012345MTLCAST001S",
+    "iban_format_example": "MT84 MALT 0110 0001 2345 MTLC AST0 01S"
+  },
+  {
+    "country_name": "Mauritius",
+    "country": "MU",
+    "bban_length": 26,
+    "bban_example": "BOMM0101101030300200000MUR",
+    "iban_example": "MU17BOMM0101101030300200000MUR",
+    "iban_format_example": "MU17 BOMM 0101 1010 3030 0200 000M UR"
+  },
+  {
+    "country_name": "Nicaragua",
+    "country": "NI",
+    "bban_length": 24,
+    "bban_example": "BAPR00000013000003558124",
+    "iban_example": "NI04BAPR00000013000003558124",
+    "iban_format_example": "NI04 BAPR 0000 0013 0000 0355 8124"
+  },
+  {
+    "country_name": "Netherlands (The)",
+    "country": "NL",
+    "bban_length": 14,
+    "bban_example": "ABNA0417164300",
+    "iban_example": "NL91ABNA0417164300",
+    "iban_format_example": "NL91 ABNA 0417 1643 00"
+  },
+  {
+    "country_name": "Norway",
+    "country": "NO",
+    "bban_length": 11,
+    "bban_example": "86011117947",
+    "iban_example": "NO9386011117947",
+    "iban_format_example": "NO93 8601 1117 947"
+  },
+  {
+    "country_name": "Pakistan",
+    "country": "PK",
+    "bban_length": 20,
+    "bban_example": "SCBL0000001123456702",
+    "iban_example": "PK36SCBL0000001123456702",
+    "iban_format_example": "PK36 SCBL 0000 0011 2345 6702"
+  },
+  {
+    "country_name": "Poland",
+    "country": "PL",
+    "bban_length": 24,
+    "bban_example": "109010140000071219812874",
+    "iban_example": "PL61109010140000071219812874",
+    "iban_format_example": "PL61 1090 1014 0000 0712 1981 2874"
+  },
+  {
+    "country_name": "\"Palestine, State of\"",
+    "country": "PS",
+    "bban_length": 25,
+    "bban_example": "PALS000000000400123456702",
+    "iban_example": "PS92PALS000000000400123456702",
+    "iban_format_example": "PS92 PALS 0000 0000 0400 1234 5670 2"
+  },
+  {
+    "country_name": "Portugal",
+    "country": "PT",
+    "bban_length": 21,
+    "bban_example": "000201231234567890154",
+    "iban_example": "PT50000201231234567890154",
+    "iban_format_example": "PT50 0002 0123 1234 5678 9015 4"
+  },
+  {
+    "country_name": "Qatar",
+    "country": "QA",
+    "bban_length": 25,
+    "bban_example": "DOHB00001234567890ABCDEFG",
+    "iban_example": "QA58DOHB00001234567890ABCDEFG",
+    "iban_format_example": "QA58 DOHB 0000 1234 5678 90AB CDEF G"
+  },
+  {
+    "country_name": "Romania",
+    "country": "RO",
+    "bban_length": 20,
+    "bban_example": "AAAA1B31007593840000",
+    "iban_example": "RO49AAAA1B31007593840000",
+    "iban_format_example": "RO49 AAAA 1B31 0075 9384 0000"
+  },
+  {
+    "country_name": "Serbia",
+    "country": "RS",
+    "bban_length": 18,
+    "bban_example": "260005601001611379",
+    "iban_example": "RS35260005601001611379",
+    "iban_format_example": "RS35 2600 0560 1001 6113 79"
+  },
+  {
+    "country_name": "Russia",
+    "country": "RU",
+    "bban_length": 29,
+    "bban_example": "044525225 40817 810 5 3809 1310419",
+    "iban_example": "RU1704452522540817810538091310419",
+    "iban_format_example": "RU17 0445 2522 5408 1781 0538 0913 1041 9"
+  },
+  {
+    "country_name": "Saudi Arabia",
+    "country": "SA",
+    "bban_length": 20,
+    "bban_example": "80000000608010167519",
+    "iban_example": "SA0380000000608010167519",
+    "iban_format_example": "SA03 8000 0000 6080 1016 7519"
+  },
+  {
+    "country_name": "Seychelles",
+    "country": "SC",
+    "bban_length": 27,
+    "bban_example": "SSCB11010000000000001497USD",
+    "iban_example": "SC18SSCB11010000000000001497USD",
+    "iban_format_example": "SC18 SSCB 1101 0000 0000 0000 1497 USD"
+  },
+  {
+    "country_name": "Sudan",
+    "country": "SD",
+    "bban_length": 14,
+    "bban_example": "29010501234001",
+    "iban_example": "SD2129010501234001",
+    "iban_format_example": "SD21 2901 0501 2340 01"
+  },
+  {
+    "country_name": "Sweden",
+    "country": "SE",
+    "bban_length": 20,
+    "bban_example": "50000000058398257466",
+    "iban_example": "SE4550000000058398257466",
+    "iban_format_example": "SE45 5000 0000 0583 9825 7466"
+  },
+  {
+    "country_name": "Slovenia",
+    "country": "SI",
+    "bban_length": 15,
+    "bban_example": "263300012039086",
+    "iban_example": "SI56263300012039086",
+    "iban_format_example": "SI56 2633 0001 2039 086"
+  },
+  {
+    "country_name": "Slovakia",
+    "country": "SK",
+    "bban_length": 20,
+    "bban_example": "12000000198742637541",
+    "iban_example": "SK3112000000198742637541",
+    "iban_format_example": "SK31 1200 0000 1987 4263 7541"
+  },
+  {
+    "country_name": "San Marino",
+    "country": "SM",
+    "bban_length": 23,
+    "bban_example": "U0322509800000000270100",
+    "iban_example": "SM86U0322509800000000270100",
+    "iban_format_example": "SM86 U032 2509 8000 0000 0270 100"
+  },
+  {
+    "country_name": "Somalia",
+    "country": "SO",
+    "bban_length": 19,
+    "bban_example": "1000001001000100141",
+    "iban_example": "SO211000001001000100141",
+    "iban_format_example": "SO21 1000 0010 0100 0100 141"
+  },
+  {
+    "country_name": "Sao Tome and Principe",
+    "country": "ST",
+    "bban_length": 21,
+    "bban_example": "000200010192194210112",
+    "iban_example": "ST68000200010192194210112",
+    "iban_format_example": "ST68 0002 0001 0192 1942 1011 2 "
+  },
+  {
+    "country_name": "El Salvador",
+    "country": "SV",
+    "bban_length": 24,
+    "bban_example": "CENR00000000000000700025",
+    "iban_example": "SV62CENR00000000000000700025",
+    "iban_format_example": "SV 62 CENR 00000000000000700025"
+  },
+  {
+    "country_name": "Timor-Leste",
+    "country": "TL",
+    "bban_length": 19,
+    "bban_example": "0080012345678910157",
+    "iban_example": "TL380080012345678910157",
+    "iban_format_example": "TL38 0080 0123 4567 8910 157"
+  },
+  {
+    "country_name": "Tunisia",
+    "country": "TN",
+    "bban_length": 20,
+    "bban_example": "10006035183598478831",
+    "iban_example": "TN5910006035183598478831",
+    "iban_format_example": "TN59 1000 6035 1835 9847 8831"
+  },
+  {
+    "country_name": "Turkey",
+    "country": "TR",
+    "bban_length": 22,
+    "bban_example": "0006100519786457841326",
+    "iban_example": "TR330006100519786457841326",
+    "iban_format_example": "TR33 0006 1005 1978 6457 8413 26"
+  },
+  {
+    "country_name": "Ukraine",
+    "country": "UA",
+    "bban_length": 25,
+    "bban_example": "3223130000026007233566001",
+    "iban_example": "UA213223130000026007233566001",
+    "iban_format_example": "UA21 3223 1300 0002 6007 2335 6600 1"
+  },
+  {
+    "country_name": "Vatican City State",
+    "country": "VA",
+    "bban_length": 18,
+    "bban_example": "001123000012345678",
+    "iban_example": "VA59001123000012345678",
+    "iban_format_example": "VA59 001 1230 0001 2345 678"
+  },
+  {
+    "country_name": "Virgin Islands",
+    "country": "VG",
+    "bban_length": 20,
+    "bban_example": "VPVG0000012345678901",
+    "iban_example": "VG96VPVG0000012345678901",
+    "iban_format_example": "VG96 VPVG 0000 0123 4567 8901"
+  },
+  {
+    "country_name": "Kosovo",
+    "country": "XK",
+    "bban_length": 16,
+    "bban_example": "1212012345678906",
+    "iban_example": "XK051212012345678906",
+    "iban_format_example": "XK05 1212 0123 4567 8906"
+  }
+]
