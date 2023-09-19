@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ApiBot"
+version = "0.0.3"
+authors = [
+    { name="gadeluca", email="gadeluca@gmail.com" },
+]
+description = "Api Odoo - Botmaker"
+readme = "ApiBot/README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GAD1959/ApiBot"
