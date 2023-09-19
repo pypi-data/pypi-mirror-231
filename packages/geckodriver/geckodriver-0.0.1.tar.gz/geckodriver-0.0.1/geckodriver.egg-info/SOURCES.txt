@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+geckodriver.egg-info/PKG-INFO
+geckodriver.egg-info/SOURCES.txt
+geckodriver.egg-info/dependency_links.txt
+geckodriver.egg-info/top_level.txt
