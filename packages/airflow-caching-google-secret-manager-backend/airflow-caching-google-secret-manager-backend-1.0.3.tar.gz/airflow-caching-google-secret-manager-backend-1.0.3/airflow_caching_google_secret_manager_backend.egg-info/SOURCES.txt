@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+airflow_caching_google_secret_manager_backend.egg-info/PKG-INFO
+airflow_caching_google_secret_manager_backend.egg-info/SOURCES.txt
+airflow_caching_google_secret_manager_backend.egg-info/dependency_links.txt
+airflow_caching_google_secret_manager_backend.egg-info/requires.txt
+airflow_caching_google_secret_manager_backend.egg-info/top_level.txt
+caching_secrets_manager_backend/__init__.py
+caching_secrets_manager_backend/caching_secrets_manager_backend.py
