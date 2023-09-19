@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pimplife
+Version: 0.1.1
+Summary: Provider of Insights and Meaning into Programs.
+License: Unlicense
+Author: Dominik Teiml
+Author-email: 18601956+hacker-DOM@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: rich-click (>=1.6.1,<2.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: tree-sitter (>=0.20.2,<0.21.0)
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# ring
+
+> One ring to rule them all.
+
+(Lord of the Rings (I think))
+
+Check out [planning
+issues](https://github.com/hacker-DOM/ring/issues?q=label%3Aplanning+sort%3Acreated-desc),
+eg [Planning 1](https://github.com/hacker-DOM/ring/issues/1)
+
