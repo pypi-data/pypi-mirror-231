@@ -1,0 +1,10 @@
+README.md
+setup.py
+lyapynov/DynamicalSystem.py
+lyapynov/Lyapunov.py
+lyapynov/__init__.py
+lyapynov.egg-info/PKG-INFO
+lyapynov.egg-info/SOURCES.txt
+lyapynov.egg-info/dependency_links.txt
+lyapynov.egg-info/requires.txt
+lyapynov.egg-info/top_level.txt
