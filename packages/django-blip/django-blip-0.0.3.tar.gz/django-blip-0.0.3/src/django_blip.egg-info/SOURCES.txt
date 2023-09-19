@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/blip/__init__.py
+src/blip/constants.py
+src/blip/custom_test_runner.py
+src/blip/service.py
+src/django_blip.egg-info/PKG-INFO
+src/django_blip.egg-info/SOURCES.txt
+src/django_blip.egg-info/dependency_links.txt
+src/django_blip.egg-info/not-zip-safe
+src/django_blip.egg-info/requires.txt
+src/django_blip.egg-info/top_level.txt
