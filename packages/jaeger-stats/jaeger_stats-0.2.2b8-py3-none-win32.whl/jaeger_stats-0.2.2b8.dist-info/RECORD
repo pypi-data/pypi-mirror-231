@@ -1,0 +1,7 @@
+jaeger_stats-0.2.2b8.dist-info/METADATA,sha256=uAJ8NkcqgbJD8jj708AGrPjUk0Gi9J7RcueyQJQl3dk,16961
+jaeger_stats-0.2.2b8.dist-info/WHEEL,sha256=P1fhmoSF1GsYEYoQoizEzEur-2XynoSbsU-I3WUbUFs,89
+jaeger_stats-0.2.2b8.data/scripts/trace_analysis.exe,sha256=GckNaNBfjRWMerhND4TnTx86yfKC--YPSqLxJDJg7ew,2535424
+jaeger_stats-0.2.2b8.data/scripts/stitch.exe,sha256=RVZoaRUvzugwNwToTAU-bHysNYVJDOfvQhju-yPN4Ag,1002496
+jaeger_stats-0.2.2b8.data/scripts/show_traces.exe,sha256=7N58srpAwEnlmuYV1ro9yiXfxYwJe4blbzdTyoCTN18,1069056
+jaeger_stats-0.2.2b8.data/scripts/dotgraph.exe,sha256=OEOA0_JY0nvsM5hREspx_li_y8RE_5OQb9xclMhwl7Q,809472
+jaeger_stats-0.2.2b8.dist-info/RECORD,,
