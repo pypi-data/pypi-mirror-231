@@ -1,0 +1,12 @@
+resumer/__init__.py,sha256=viWL9pDkE2_IRLvVjikdVgoM7iIYHMQLv_p58L9p1pk,128
+resumer/cli.py,sha256=59GP9dfT00OZNh7oolmhtsGz_8hXXijzvR-QrqkYTjA,2570
+resumer/utils.py,sha256=4OlMH-ovakdsPoGNLfSlLijHD4n_yZgPh6XCWsGg1NI,2422
+resumer/engines/__init__.py,sha256=tieYoYsX9gFvMBwuDTo5ZP-aGP62ismRW6sFNwVkCgA,427
+resumer/engines/base.py,sha256=-ICDfGnrHI1pctNwTjj5YhUh8BVlppzfqsI_Rhdkio0,2419
+resumer/engines/tex.py,sha256=GvpkdyxdrWwucGErEmy-Dpmp9tuCpiIo34JdCluGtzE,1100
+resumer-0.1.0.dist-info/LICENSE,sha256=Nk5ZGmgXUZnhTvNG0hMbFj5BtZtgH1NTN6JJyuIYTso,1085
+resumer-0.1.0.dist-info/METADATA,sha256=ve7UgNPOax9bhDgvvnzpaZSZQl4q8o2wlT7T9p9mhXo,1977
+resumer-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+resumer-0.1.0.dist-info/entry_points.txt,sha256=hIR0j41VHkzfLxkxScrryP66Qug--PFWzRjeSHUF59c,45
+resumer-0.1.0.dist-info/top_level.txt,sha256=51P9J98C41_YMoQe0h8WFogwgWkGXsYHeDJWgvzauuQ,8
+resumer-0.1.0.dist-info/RECORD,,
