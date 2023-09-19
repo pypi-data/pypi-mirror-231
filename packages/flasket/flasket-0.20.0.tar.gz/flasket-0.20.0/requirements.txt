@@ -1,0 +1,13 @@
+# vim: ft=conf
+attr
+torxtools>=1.0.4
+# Middleware functionnalities
+gunicorn
+flask_gordon~=0.20.0
+# /api backend
+connexion[flask,swagger-ui]>=2.14.2,<3.0.0
+flask~=2.2.0
+werkzeug~=2.2.0
+# /app backend
+dash
+dash_bootstrap_components
