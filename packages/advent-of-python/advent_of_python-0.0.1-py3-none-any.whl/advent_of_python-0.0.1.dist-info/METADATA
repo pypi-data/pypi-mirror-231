@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: advent-of-python
+Version: 0.0.1
+Summary: Tool for completing advent of code challenges without leaving the terminal.
+Project-URL: Homepage, https://github.com/Selyss/advent-of-python
+Project-URL: Bug Tracker, https://github.com/Selyss/advent-of-python/issues
+Author: Selyss, LegendaryAKx3
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# advent-of-python
