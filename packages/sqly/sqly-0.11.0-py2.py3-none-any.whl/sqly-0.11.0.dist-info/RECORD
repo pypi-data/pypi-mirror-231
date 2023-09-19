@@ -1,0 +1,16 @@
+sqly/__init__.py,sha256=4HmRbHiTwK96gzth6behh5iA9n66PercyxMeL8vFIZI,74
+sqly/__main__.py,sha256=SwLM-tmEjW-MxU271UcYiS4dJ8lTgm_TWUyhvp7gp0U,3005
+sqly/dialect.py,sha256=PeVmK9ZeYdh-EEORTaPTMKNq8paHxlaWRjxXR2CZd7A,3322
+sqly/lib.py,sha256=ZSyQUXgrazhm4FurycJID699tev4poX9MxOR84N_TdM,492
+sqly/migration.py,sha256=RjOI9RzDZkOlKuXv06AQUfkCZ3p3AsikxCRcrJqDsIQ,19205
+sqly/queries.py,sha256=brylu570nVFydZFhcwPJyft8_a6LeypSNbOx4Q2DvwY,3777
+sqly/query.py,sha256=ndF-dd9cl68JjWnlvjNGcH4ruTggdseBbtaQIBp80GA,3607
+sqly/sql.py,sha256=tTgraXX2Xrbl6k_U93h9QMCHYqyeiMcAGJ7lpmB6j0I,10413
+sqly/migrations/20211105034808482_init.yaml,sha256=05RaRynRZMgi6yQqqmhaOdr_krPtWDn-DHhl4FJcxwo,884
+testapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqly-0.11.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+sqly-0.11.0.dist-info/METADATA,sha256=YhRoJ18aRzs-2gTFa9L0o-wCpCiAqosQspqQawfoxQk,3862
+sqly-0.11.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sqly-0.11.0.dist-info/entry_points.txt,sha256=x9LGyWfjjfB74PKevR5YidiXfZjOQbNoed79wE2CTRc,45
+sqly-0.11.0.dist-info/top_level.txt,sha256=fbI-bgikgwIHYwJ0nNbxiE9HG56XolxG9zvPSHNa9Ks,13
+sqly-0.11.0.dist-info/RECORD,,
