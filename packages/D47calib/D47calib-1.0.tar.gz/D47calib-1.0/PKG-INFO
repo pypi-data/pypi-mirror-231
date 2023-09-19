@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: D47calib
+Version: 1.0
+Summary: Generate, combine, display and apply Δ47 calibrations
+Author-email: Mathieu Daëron <daeron@lsce.ipsl.fr>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: ogls
+Requires-Dist: click
+Project-URL: Documentation, https://mdaeron.github.io/D47calib
+Project-URL: Home, https://github.com/mdaeron/D47calib
+
+# D47calib
+
+Generate, combine, display and apply Δ<sub>47</sub> calibrations.
+
+## Contact
+
+All questions and suggestions are welcome and should be directed at [Mathieu Daëron](mailto:daeron@lsce.ipsl.fr?subject=[D47calib]), or feel free to open an issue [here](https://github.com/mdaeron/D47calib/issues).
+
+## Documentation
+
+For the full API and examples, see [https://mdaeron.github.io/D47calib].
+
+[https://mdaeron.github.io/D47calib]: https://mdaeron.github.io/D47calib
+
