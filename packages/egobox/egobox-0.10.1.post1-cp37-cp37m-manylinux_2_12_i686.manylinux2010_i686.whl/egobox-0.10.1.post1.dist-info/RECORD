@@ -1,0 +1,12 @@
+egobox-0.10.1.post1.dist-info/METADATA,sha256=ejMn1ChuWMTDb9u5ZkJOHBQ6UuA8Fxq2byIEj-ePqEw,7187
+egobox-0.10.1.post1.dist-info/WHEEL,sha256=h4KwYkKuhhPdI1Q-LLSTLV3tQ-l8tAvKScwNfwBeY34,124
+egobox-0.10.1.post1.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+egobox/__init__.py,sha256=w4NzN-NO7DMHFzvjeBsBwBAbSx7fHbaZl01JV4ycLQI,22
+egobox/examples/kriging.py,sha256=Ro9-p67NHLkDId_SEQjmzw1GMegEKz5bI0O4kMT9Q-c,753
+egobox/examples/optim_g24.py,sha256=zSUVOtHSLIlPLUZ9W_9LbDzb-KZ6EiTfcD3CZcoVkhA,1590
+egobox/tests/test_egor.py,sha256=Pp2H4DsAhksY8_Ya0Y5-pp4pTJfdikcB-wKF0kWvUdc,5633
+egobox/tests/test_utils.py,sha256=phkwCYODeuh4hcoudBSXAKRKuak0huc0z9r002HU1gU,951
+egobox/tests/test_mixintegor.py,sha256=BMjs2ek1J6ogviorZYHhqvnW0W3syarfm2N1nEjrlhI,1753
+egobox/tests/test_gpmix.py,sha256=778YSMZNXQKXFbQ4wdoMUM5bRFU2lxQ3deg6TKoMkZA,1782
+egobox/egobox.cpython-37m-i386-linux-gnu.so,sha256=xOHGCT_3bSmzPf8aetti95SHTYv7ifkrJTBYgZGkblY,18392704
+egobox-0.10.1.post1.dist-info/RECORD,,
