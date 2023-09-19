@@ -1,0 +1,13 @@
+edupfr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edupfr/_m3_imports.py,sha256=vHQR9YUakoaHA4oVbthkGiKlCHbAMN0ncUXFwZsCRmk,770
+edupfr/snils_by_data/__init__.py,sha256=KcM88-9Ga2s0RjVyGLgeQyBwCN5-SvZIHVWmFBV6lJQ,6259
+edupfr/snils_by_data/actions.py,sha256=TMSUrHOywHm7XgMcUfiBFQfZVLZrY2eg_F33yZNSVR0,5127
+edupfr/snils_by_data/helpers.py,sha256=yJ88DnxgnQkynoPoN6fWQiZ3c8tQFlfM9XErOxuerfI,20035
+edupfr/snils_by_data/settings.py,sha256=ysbMYkXlMxpqNHDyhI3VyxtYLguNJ0sDw2zjXtsFDHo,1007
+edupfr/snils_by_data/snils-request-button.js,sha256=6nfgPHyEBiNzaR6DwiOM3KxuSED05t33yNCLiudci5U,3818
+edupfr/snils_by_data/ui.py,sha256=kWcGwZ-0l1LPOTXP2ccCd_EWegg_KBkzMVbNH6OrQQQ,5523
+edupfr-0.3.0.dist-info/METADATA,sha256=0lgMd8jZrnx7DZ0o2L8eIZ5OUQeytLhcsq0hmVvAL94,277
+edupfr-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+edupfr-0.3.0.dist-info/dependency_links.txt,sha256=RNlr4t-BxZRm7e_IfVo1ikr5ln-7viimzLHvQMO1C_Q,43
+edupfr-0.3.0.dist-info/top_level.txt,sha256=HtonEtduiX9D4pByeiaxPzX56XpcJ9abyIdPGqqYBm0,7
+edupfr-0.3.0.dist-info/RECORD,,
