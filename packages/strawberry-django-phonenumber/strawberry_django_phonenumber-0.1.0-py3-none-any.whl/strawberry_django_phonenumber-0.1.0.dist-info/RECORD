@@ -1,0 +1,7 @@
+strawberry_django_phonenumber/__init__.py,sha256=rGE16HljSFt0uPYxvCCLR8aTPNkR_qXfiXyPiNwUMm0,39
+strawberry_django_phonenumber/types/__init__.py,sha256=lEsO5R3DHpeD2vg1jLVTt2rgSpskT_P8qZiJ-_qhUiU,46
+strawberry_django_phonenumber/types/phone_number.py,sha256=ci5hR1AXa0DEjpk26lGiNRdwZbZg62mbY3ViK4zNGFA,1283
+strawberry_django_phonenumber-0.1.0.dist-info/LICENSE.md,sha256=EkdkZnUab4V1BtxLvZKpvfU04jKtFT1jnvxYk-yQne0,1075
+strawberry_django_phonenumber-0.1.0.dist-info/METADATA,sha256=92py-ma4PPtnzqapWJ_Kfydf4xupbJ-E7zLZ948thn4,3713
+strawberry_django_phonenumber-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+strawberry_django_phonenumber-0.1.0.dist-info/RECORD,,
