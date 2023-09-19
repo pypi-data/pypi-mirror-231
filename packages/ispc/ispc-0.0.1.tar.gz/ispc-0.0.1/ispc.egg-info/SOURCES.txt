@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ispc.egg-info/PKG-INFO
+ispc.egg-info/SOURCES.txt
+ispc.egg-info/dependency_links.txt
+ispc.egg-info/top_level.txt
