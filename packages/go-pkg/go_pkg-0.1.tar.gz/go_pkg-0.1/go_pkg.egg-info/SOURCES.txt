@@ -1,0 +1,5 @@
+setup.py
+go_pkg.egg-info/PKG-INFO
+go_pkg.egg-info/SOURCES.txt
+go_pkg.egg-info/dependency_links.txt
+go_pkg.egg-info/top_level.txt
