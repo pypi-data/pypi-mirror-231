@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: tgtg-msg
+Version: 0.1.4
+Summary: tg msg
+License: MIT
+Author: HUAJUNSHU
+Author-email: 0x11a1@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pillow (>=9.3.0,<10.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: Telethon (==1.26.0)
+Requires-Dist: aiohttp (>=3.8.3,<4.0.0)
+Requires-Dist: cryptg (>=0.4.0,<0.5.0)
+Requires-Dist: hachoir (>=3.1.3,<4.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: pymongo (>=4.3.3,<5.0.0)
+Requires-Dist: pytesseract (>=0.3.7,<0.4.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: python-socks[asyncio] (>=2.4.2,<3.0.0)
+Requires-Dist: requests[socks] (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: streamlit (>=1.15.2,<2.0.0)
+Requires-Dist: tg-login (>=0.0.4,<0.0.5)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Requires-Dist: verlat (>=0.1.0,<0.2.0)
+Requires-Dist: watermark.py (>=0.0.3,<0.0.4)
+Description-Content-Type: text/markdown
+
+# start
+```bash
+poetry install
+poetry shell
+python ./tests/test_time.py
+test-env
+python3 -m venv .venv
+source .venv/bin/activate
+```
