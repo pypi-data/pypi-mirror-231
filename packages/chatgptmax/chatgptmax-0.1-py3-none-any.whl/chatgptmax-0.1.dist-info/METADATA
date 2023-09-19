@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chatgptmax
+Version: 0.1
+Summary: A module to interact with ChatGPT with extended input.
+Home-page: https://github.com/victoriadrake/chatgptmax/
+Author: Victoria Drake
+Author-email: hello@victoria.dev
+License: MIT
+Keywords: chatgpt openai
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: re
+
