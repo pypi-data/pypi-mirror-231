@@ -1,0 +1,9 @@
+setup.py
+crawford_turing_calculator_project/__init__.py
+crawford_turing_calculator_project/crawford_turing_calculator_project.py
+crawford_turing_calculator_project.egg-info/PKG-INFO
+crawford_turing_calculator_project.egg-info/SOURCES.txt
+crawford_turing_calculator_project.egg-info/dependency_links.txt
+crawford_turing_calculator_project.egg-info/not-zip-safe
+crawford_turing_calculator_project.egg-info/requires.txt
+crawford_turing_calculator_project.egg-info/top_level.txt
