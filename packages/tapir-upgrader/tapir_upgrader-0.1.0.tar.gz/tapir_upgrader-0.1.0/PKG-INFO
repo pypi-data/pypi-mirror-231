@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tapir-upgrader
+Version: 0.1.0
+Summary: 
+Author: EG Tapir
+Author-email: eg-tapir@tapir.org
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
