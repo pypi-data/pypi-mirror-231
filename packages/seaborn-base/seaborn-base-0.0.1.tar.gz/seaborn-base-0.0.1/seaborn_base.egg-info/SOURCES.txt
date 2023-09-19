@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+seaborn_base.egg-info/PKG-INFO
+seaborn_base.egg-info/SOURCES.txt
+seaborn_base.egg-info/dependency_links.txt
+seaborn_base.egg-info/top_level.txt
