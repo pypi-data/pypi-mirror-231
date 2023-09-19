@@ -1,0 +1,9 @@
+pypsupertime/__init__.py,sha256=LOZ-LsH_zqX4aTp2tF5OokdheONZyyzyIWZbEowUhbM,34
+pypsupertime/model.py,sha256=GxuTdheOcFzo4IYdorqz9RuWypYEhwtTrtrsx1HkTck,17839
+pypsupertime/parameter_search.py,sha256=aLNVKFRPpWqK3F7pjDC6iDXbrQSPt49GecP-2vA_HwU,8078
+pypsupertime/plots.py,sha256=-lNrfoYHnRlGFJQduFjPEBTvgzeeyyR-kdxOYiKYhx4,10640
+pypsupertime/preprocessing.py,sha256=HL51cnwv5XnKmxysy1RnmME-DVbvLLZ7_K4OSYeU2Ck,12943
+pypsupertime/psupertime.py,sha256=5Dn6Hf09mWrG_wiav5XAAGTDWXeEOeuPjLK4wYSS7gU,9041
+pypsupertime-1.2.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pypsupertime-1.2.2.dist-info/METADATA,sha256=9V0TMbPsTgWvea7zB8m4yMazZKqOo0YdGO9nFe63QSg,6014
+pypsupertime-1.2.2.dist-info/RECORD,,
