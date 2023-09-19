@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+rust_gnu.egg-info/PKG-INFO
+rust_gnu.egg-info/SOURCES.txt
+rust_gnu.egg-info/dependency_links.txt
+rust_gnu.egg-info/top_level.txt
