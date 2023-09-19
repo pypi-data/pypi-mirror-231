@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: snowflake-deployer
+Version: 0.1.0
+Summary: Snowflake state based deployer
+Author: Justin Hanson, Jernej Plankelj
+License-File: LICENSE
