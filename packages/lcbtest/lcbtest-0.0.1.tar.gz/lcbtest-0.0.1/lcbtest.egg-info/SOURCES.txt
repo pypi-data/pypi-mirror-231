@@ -1,0 +1,8 @@
+setup.py
+lcbtest/__init__.py
+lcbtest.egg-info/PKG-INFO
+lcbtest.egg-info/SOURCES.txt
+lcbtest.egg-info/dependency_links.txt
+lcbtest.egg-info/not-zip-safe
+lcbtest.egg-info/requires.txt
+lcbtest.egg-info/top_level.txt
