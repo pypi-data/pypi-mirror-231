@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libclang_cpp.egg-info/PKG-INFO
+libclang_cpp.egg-info/SOURCES.txt
+libclang_cpp.egg-info/dependency_links.txt
+libclang_cpp.egg-info/top_level.txt
