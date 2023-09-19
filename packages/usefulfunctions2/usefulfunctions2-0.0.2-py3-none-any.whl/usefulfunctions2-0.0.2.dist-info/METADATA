@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: usefulfunctions2
+Version: 0.0.2
+Summary: A compilation of useful python functions.
+Project-URL: Homepage, https://github.com/dimani128/UsefulPythonFunctions
+Project-URL: Bug Tracker, https://github.com/dimani128/UsefulPythonFunctions/issues
+Author-email: dimani128 <dimani128.github@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+# Useful Python Functions
+
+Compilation of useful python functions.
+
+## Changelog
+
+### v0.1.0
+#### 9/13
+ - Added changelog
+ - Added menu function
+ - Separated functions into different files
