@@ -1,0 +1,9 @@
+django_enforced_choices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_enforced_choices/models.py,sha256=9JWXV94buJU58m67LJJMoWy2d6jSEq75-AxceWlSGEY,1112
+django_enforced_choices/fields/__init__.py,sha256=qi5uj_q9vGYDPhatwWY6y60mGFO4AYx9QwhuFhwpnwI,4625
+django_enforced_choices/fields/postgres.py,sha256=GnvzHPAf-Pyph_wKqr_MZFXQ_KAEP2Sig_c7UpZsxDU,1192
+django_enforced_choices-0.1.2.dist-info/LICENSE,sha256=G30-JOeTW6-LV_9zhUe8yj1lG-hEny1W3u3FY3Dze1E,1529
+django_enforced_choices-0.1.2.dist-info/METADATA,sha256=WX9f6u-CjZFOY4ZCuQ9ZukAOtEOR_8q7dFwJYZTbBwE,4777
+django_enforced_choices-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_enforced_choices-0.1.2.dist-info/top_level.txt,sha256=MpeAf9-iv0wQaWNe0wIDCqpdUEKngGfLuagrbyOdzrA,24
+django_enforced_choices-0.1.2.dist-info/RECORD,,
