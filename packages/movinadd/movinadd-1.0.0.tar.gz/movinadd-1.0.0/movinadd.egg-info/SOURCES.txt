@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+add/__init__.py
+add/add.py
+movinadd.egg-info/PKG-INFO
+movinadd.egg-info/SOURCES.txt
+movinadd.egg-info/dependency_links.txt
+movinadd.egg-info/top_level.txt
