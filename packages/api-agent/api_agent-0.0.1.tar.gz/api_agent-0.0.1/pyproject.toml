@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api_agent"
+version = "0.0.1"
+authors = [
+  { name="QiangLi", email="qiangli@microsoft.com" },
+]
+description = "API Agent. Enables copilot to use thousands of APIs"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
