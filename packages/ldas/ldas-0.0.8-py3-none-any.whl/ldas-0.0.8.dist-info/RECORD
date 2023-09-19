@@ -1,0 +1,11 @@
+ldas/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+ldas/_modidx.py,sha256=gnKTyiaXWbbG8SDkScI7P13rFjchSHuPorqXjkQaatE,4718
+ldas/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+ldas/iiif.py,sha256=0WXnjswD_Z86guo6PbgmdXqADMmcDFv8q5PmKafWUhU,33810
+ldas/svg.py,sha256=l2iXf4g6miBdDrs8vNs2vJCf1Faf7lgK_eV70IvYC-Y,7342
+ldas-0.0.8.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+ldas-0.0.8.dist-info/METADATA,sha256=gOHV3PEVIWwIFdLnJ4sz0vV2Za2NyEPWM485qo2813o,1270
+ldas-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ldas-0.0.8.dist-info/entry_points.txt,sha256=J2Gs-kvC2AUfN_5oAIpPCMdjE26g_UjKvdZ80-Dd9-g,51
+ldas-0.0.8.dist-info/top_level.txt,sha256=cMDndzj9XJqo2BPnU6u7NPYRcHqainU02v5ArypEruc,5
+ldas-0.0.8.dist-info/RECORD,,
