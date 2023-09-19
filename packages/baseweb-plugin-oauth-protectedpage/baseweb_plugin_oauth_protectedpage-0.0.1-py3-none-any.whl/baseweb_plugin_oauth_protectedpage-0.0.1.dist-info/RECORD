@@ -1,0 +1,14 @@
+baseweb_plugin_oauth_protectedpage/__init__.py,sha256=Gp_nFhH9WQW4vxp4OwR_bgUl6BAAHYc0iymNx1mUeNk,300
+baseweb_plugin_oauth_protectedpage/auth.js,sha256=xWkSBs1xM8PweWPzpRdm-0R8mdm-htoakOBtoqLZNhc,2135
+baseweb_plugin_oauth_protectedpage/auth.py,sha256=YiP87AbDhL4CS7I9PhTC4hKvApJNKm-ZmDXr2ocnt_c,3703
+baseweb_plugin_oauth_protectedpage/protectedpage.js,sha256=0E7Yooozdr2apaB7q1jUwm8xHCpY-2k1KXfiUyv_F_4,2052
+docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docs/conf.py,sha256=VCzeZf77IK1v1tQZ1IRnaOOHziiqbw8HHekqUwyVMIE,1192
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/app.py,sha256=N73lIlvHPGpsAp1-vOfCjX9H6dAJB4uLLi8zhSqxAZE,1018
+example/fake_mongo.py,sha256=9YY57Sy4ZZ-hM1kOv8iMyPu6m8ITklyijxYHKcTDI8s,1011
+baseweb_plugin_oauth_protectedpage-0.0.1.dist-info/LICENSE.txt,sha256=xYQ3PbQs5hmZuSI_JThDPcyb5MpNnGs35Hp2STWlwjs,1057
+baseweb_plugin_oauth_protectedpage-0.0.1.dist-info/METADATA,sha256=MHbkFq7rcyAudK7WuCh6qHmYp1LUSdlPmBJVMKiED5g,2201
+baseweb_plugin_oauth_protectedpage-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+baseweb_plugin_oauth_protectedpage-0.0.1.dist-info/top_level.txt,sha256=0LzL9eY-mzAnn78CUrWAk679uUaNOZsYUgElpNG_UfA,48
+baseweb_plugin_oauth_protectedpage-0.0.1.dist-info/RECORD,,

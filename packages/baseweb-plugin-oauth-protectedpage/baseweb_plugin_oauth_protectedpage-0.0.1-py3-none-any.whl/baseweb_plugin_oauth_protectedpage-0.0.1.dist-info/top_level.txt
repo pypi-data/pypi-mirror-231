@@ -1,0 +1,3 @@
+baseweb_plugin_oauth_protectedpage
+docs
+example
