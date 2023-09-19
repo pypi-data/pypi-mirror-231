@@ -1,0 +1,14 @@
+==========================
+Django 4.2.6 release notes
+==========================
+
+*Expected October 2, 2023*
+
+Django 4.2.6 fixes several bugs in 4.2.5.
+
+Bugfixes
+========
+
+* Fixed a regression in Django 4.2.5 where overriding the deprecated
+  ``DEFAULT_FILE_STORAGE`` and ``STATICFILES_STORAGE`` settings in tests caused
+  the main ``STORAGES`` to mutate (:ticket:`34821`).
