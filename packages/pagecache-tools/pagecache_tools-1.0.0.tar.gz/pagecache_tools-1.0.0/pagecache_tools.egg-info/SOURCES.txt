@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pagecache_tools/__init__.py
+pagecache_tools.egg-info/PKG-INFO
+pagecache_tools.egg-info/SOURCES.txt
+pagecache_tools.egg-info/dependency_links.txt
+pagecache_tools.egg-info/entry_points.txt
+pagecache_tools.egg-info/not-zip-safe
+pagecache_tools.egg-info/requires.txt
+pagecache_tools.egg-info/top_level.txt
+pagecache_tools/pagecache_hit_miss/__init__.py
+pagecache_tools/pagecache_hit_miss/cli.py
+pagecache_tools/pagecache_hit_miss/configure_logging.py
+pagecache_tools/pagecache_hit_miss/pagecache_hit_miss.py
+requirements/requirements.txt

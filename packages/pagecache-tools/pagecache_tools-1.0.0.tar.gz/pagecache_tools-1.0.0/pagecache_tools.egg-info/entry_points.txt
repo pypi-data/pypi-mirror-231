@@ -1,0 +1,2 @@
+[console_scripts]
+pagecache_hit_miss = pagecache_tools.pagecache_hit_miss.cli:main
