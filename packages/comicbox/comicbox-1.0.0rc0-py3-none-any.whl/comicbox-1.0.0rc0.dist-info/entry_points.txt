@@ -1,0 +1,4 @@
+[console_scripts]
+comicbox=comicbox.cli:main
+comicfn2dict=comicfn2dict.cli:main
+
