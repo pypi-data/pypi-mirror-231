@@ -1,0 +1,14 @@
+notion_python_client/__init__.py,sha256=Jizv9nNeDqa3eqrACUxHRpVOHehCT41LT1VzOfPJB3A,42
+notion_python_client/client.py,sha256=epijF25OksT5oElrR_ZZtbn9hifd4csC0_kLJ1u_UlA,249
+notion_python_client/constants.py,sha256=iSQyYS004Su1QJZhxbwaPZ6FruWgYwZYl2kd-daRq1Q,59
+notion_python_client/core.py,sha256=NE7fdI4XnYbfb96ezSdnHEyTRR7kfnHve71zzlWTAMY,498
+notion_python_client/exceptions.py,sha256=K10XDboy3H0ARsGH0-4NyTaWXwtB8MHLQhuEZ_z2iyQ,1011
+notion_python_client/validation.py,sha256=b66bvMe5MLAfD0-99N2Oe-nWogzJcmij9QzhPvdRi_I,1326
+notion_python_client/handlers/__init__.py,sha256=ucQZ4LUWRi-AJ5namBqPUDBOQLC6KTmR4zupakLnIu0,84
+notion_python_client/handlers/database_handler.py,sha256=ITVnMRIBusmj_EU-pJ6leFg5vZI9MydmSg8UQJ64Ikc,1016
+notion_python_client/handlers/handler.py,sha256=46DQeiSsADLTWDQZlWO_SrQ6TTuoGT1KR7P5GkGiirU,985
+notion_python_client/handlers/page_handler.py,sha256=v7AsIhX_ClkwOSLmubG3aCuIZQD0R-yXSQv8dzVO77A,5082
+notion_python_client-0.0.1a1.dist-info/METADATA,sha256=7TcA5XqBsMNQkGLaA6j-nLwhCtFIfi9OEuTw8kJ0Nsc,2724
+notion_python_client-0.0.1a1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+notion_python_client-0.0.1a1.dist-info/top_level.txt,sha256=6_Jh6BGJFnEvU6VkfIrv0L0MT_7cBRwYrvNtX4iCjxo,21
+notion_python_client-0.0.1a1.dist-info/RECORD,,
