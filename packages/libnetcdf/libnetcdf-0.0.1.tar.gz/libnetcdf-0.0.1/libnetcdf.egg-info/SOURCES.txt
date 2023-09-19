@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libnetcdf.egg-info/PKG-INFO
+libnetcdf.egg-info/SOURCES.txt
+libnetcdf.egg-info/dependency_links.txt
+libnetcdf.egg-info/top_level.txt
