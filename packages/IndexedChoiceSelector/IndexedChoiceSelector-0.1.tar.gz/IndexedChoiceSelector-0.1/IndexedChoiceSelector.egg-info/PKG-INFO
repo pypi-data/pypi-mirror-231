@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: IndexedChoiceSelector
+Version: 0.1
+Summary: IndexedChoiceSelector is a basic selector class that displays given options with numbers. This allows the user to choose an option either by number, or by name.
+Home-page: https://github.com/amcsparron2793-Water/IndexedChoiceSelector
+Author: Amcsparron
+Author-email: amcsparron@albanyny.gov
+License: MIT License
+Download-URL: https://github.com/amcsparron2793-Water/IndexedChoiceSelector/archive/refs/tags/0.1.tar.gz
+Description: UNKNOWN
+Keywords: interface,selection,numerical selection
+Platform: UNKNOWN

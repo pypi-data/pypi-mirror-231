@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+IndexedChoiceSelector/IndexedChoiceSelector.py
+IndexedChoiceSelector/__init__.py
+IndexedChoiceSelector.egg-info/PKG-INFO
+IndexedChoiceSelector.egg-info/SOURCES.txt
+IndexedChoiceSelector.egg-info/dependency_links.txt
+IndexedChoiceSelector.egg-info/top_level.txt
