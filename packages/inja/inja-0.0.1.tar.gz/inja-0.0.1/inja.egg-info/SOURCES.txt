@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+inja.egg-info/PKG-INFO
+inja.egg-info/SOURCES.txt
+inja.egg-info/dependency_links.txt
+inja.egg-info/top_level.txt
