@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: spiffysalamander-upgrader
+Version: 0.1.0
+Summary: 
+Author: Karl Reuss
+Author-email: reuss@umd.edu
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
