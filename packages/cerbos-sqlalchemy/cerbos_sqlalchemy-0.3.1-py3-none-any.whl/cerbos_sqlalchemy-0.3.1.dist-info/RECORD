@@ -1,0 +1,5 @@
+cerbos_sqlalchemy/__init__.py,sha256=fSZXywDnYNf4h33pj0Ye40hHa3Stya15j28MSf9xt_c,165
+cerbos_sqlalchemy/query.py,sha256=bqZoamx_FL2gg7xT16UrSInbm5t8xoCVDFNNdrCEySk,5755
+cerbos_sqlalchemy-0.3.1.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+cerbos_sqlalchemy-0.3.1.dist-info/METADATA,sha256=b3r5cV9QcgikLH3V-oG9ThlIWDHszcLZnWYwQ40m76g,5618
+cerbos_sqlalchemy-0.3.1.dist-info/RECORD,,
