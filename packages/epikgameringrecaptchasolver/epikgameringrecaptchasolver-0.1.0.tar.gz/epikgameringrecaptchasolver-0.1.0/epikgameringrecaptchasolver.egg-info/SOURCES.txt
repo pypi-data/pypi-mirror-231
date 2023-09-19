@@ -1,0 +1,8 @@
+setup.py
+epikgameringrecaptchasolver/__init__.py
+epikgameringrecaptchasolver/components.py
+epikgameringrecaptchasolver.egg-info/PKG-INFO
+epikgameringrecaptchasolver.egg-info/SOURCES.txt
+epikgameringrecaptchasolver.egg-info/dependency_links.txt
+epikgameringrecaptchasolver.egg-info/requires.txt
+epikgameringrecaptchasolver.egg-info/top_level.txt
