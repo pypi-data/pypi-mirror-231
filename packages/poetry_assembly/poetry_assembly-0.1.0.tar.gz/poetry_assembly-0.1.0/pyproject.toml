@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry_assembly"
+version = "0.1.0"
+description = ""
+authors = ["qingqinzhan <qingqinzhan@tencent.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+shshsh = "^1.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+assembly = "poetry_assembly:Assembly"
