@@ -1,0 +1,2 @@
+# nonebot-plugin-diss-anybody
+

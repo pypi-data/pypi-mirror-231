@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nonebot-plugin-diss-anybody"
+version = "1.0.0"
+description = "一个在指定的用户发言时，有几率回复指定的内容的nonebot插件"
+authors = ["SherkeyXD <253294679@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nonebot_plugin_diss_anybody"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tinydb = "^4.8.0"
+nonebot2 = "^2.1.0"
+nonebot-adapter-cqhttp = "^2.0.0b1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[pypi]
+username = "__token__"
+password = "pypi-AgEIcHlwaS5vcmcCJDYzMTY0YjYwLTU2YzQtNGM3Yi1iZDdlLWQ3Y2FkYWI0MzQ2MQACKlszLCJhNjYzYWYyZC0zNGE0LTQ0YTMtYmQ3OS0yNjc0NTRmMjhlODEiXQAABiBOGKsOgtOEgAQBp3Gj2FOl2NTPkAjgnkXQc3ZKOQvPFA"
