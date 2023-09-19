@@ -1,0 +1,9 @@
+lexset/LexsetManager.py,sha256=Oq4ZaJVrQ3JR_5KXNSFhGomAd3XdJ5qBR2W-KOMvYa4,22697
+lexset/__init__.py,sha256=s6RPBYkFpCm6-MFvlLapZv5J92WA_sgSQ6VuMpCcsrw,118
+lexset/credentials.py,sha256=IEyDAmhTV4X-TTxE33MBXcZuUqRTH0Q4TqioqjVPpRM,1845
+lexset/review.py,sha256=UraW0Bgh04BpUfdKPjkcVhM4qJVyIZEz9sLElzNFvls,21225
+lexset/test_ssim.py,sha256=6Y1-TkqbEZ7byq29pGAP1bSsW5u3aByAJ4lmWcfN8vY,306
+lexset-4.1.9.dist-info/METADATA,sha256=JwLT6SKEy5EG3haNSc-wiji-vzxX0pcPZdpTVaGa3Uc,401
+lexset-4.1.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lexset-4.1.9.dist-info/top_level.txt,sha256=ER0h9U3jST0YvVx_c2L_lGv439flKRCB0BLH-9on864,7
+lexset-4.1.9.dist-info/RECORD,,
