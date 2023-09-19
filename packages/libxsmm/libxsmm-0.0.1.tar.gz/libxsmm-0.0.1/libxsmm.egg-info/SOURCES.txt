@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libxsmm.egg-info/PKG-INFO
+libxsmm.egg-info/SOURCES.txt
+libxsmm.egg-info/dependency_links.txt
+libxsmm.egg-info/top_level.txt
