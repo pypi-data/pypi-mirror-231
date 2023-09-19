@@ -1,0 +1,6 @@
+setup.py
+slick_siphon/__init__.py
+slick_siphon.egg-info/PKG-INFO
+slick_siphon.egg-info/SOURCES.txt
+slick_siphon.egg-info/dependency_links.txt
+slick_siphon.egg-info/top_level.txt
