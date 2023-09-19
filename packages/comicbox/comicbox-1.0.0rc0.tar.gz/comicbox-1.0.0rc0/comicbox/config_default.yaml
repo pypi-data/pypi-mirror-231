@@ -1,0 +1,39 @@
+comicbox:
+  # Options
+  config: null
+  delete_orig: False
+  delete_tags: False
+  dest_path: .
+  dry_run: False
+  loglevel: INFO
+  metadata: {}
+  metadata_cli: null
+  read:
+    [
+      "cli",
+      "comet",
+      "comicbookinfo",
+      "comicinfo",
+      "comictagger",
+      "filename",
+      "json",
+      "pdf",
+      "yaml",
+    ]
+  read_ignore: []
+  recurse: False
+  tagger: null
+  # API Options
+  close_fd: True
+  # Actions
+  cbz: False
+  cover: False
+  export: []
+  import_paths: []
+  index_from: null
+  index_to: null
+  print: ""
+  rename: False
+  write: []
+  # Targets
+  paths: null
