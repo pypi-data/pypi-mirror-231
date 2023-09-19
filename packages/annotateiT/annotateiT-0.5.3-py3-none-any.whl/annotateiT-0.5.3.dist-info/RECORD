@@ -1,0 +1,12 @@
+annotateiT/GensimBertDataProcessor.py,sha256=IJQSLAu_D8wrGAzOQ3Z9I8HuAnRTOyEuxdO4lUMKFQM,2335
+annotateiT/__init__.py,sha256=cRCUilNscAUmFsq0rgeXz4Y_GTBk4zcwmwOH3cRzwv0,14081
+annotateiT/bertTopic.py,sha256=nBmeJuwY_jxJRBuOUbU35yXzIIlt3EJyDulVpSx3Djw,6546
+annotateiT/conllProcessing.py,sha256=lSl5ofX0iEM8OeTS9FNS7ABhyTYgRY2o8MLDwYOBPKY,5596
+annotateiT/gensimTopic.py,sha256=1nWbZTZ9nW7L9k9yp41d8yUi9nLIlS2X61FDqPqEhDA,4369
+annotateiT/labelStudio.py,sha256=S6HIwcRhyAS0lLMeoqPyrifO6QPg2EmrmW-4dAlOmt4,4447
+annotateiT/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annotateiT/scrapDissert.py,sha256=KbR7e-kObZQ2W1iv_SC3Ymz-LhX7R--SQHzYxmZ5VZA,17573
+annotateiT-0.5.3.dist-info/METADATA,sha256=FW1vFF31gUFSo0flcW754wgPAqHhoy9qsfkwaGZtS0E,470
+annotateiT-0.5.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+annotateiT-0.5.3.dist-info/top_level.txt,sha256=HJrrhhLw15je5S-8XZjm6dkB0Jc93R9awZC-FqyL9Tw,11
+annotateiT-0.5.3.dist-info/RECORD,,
