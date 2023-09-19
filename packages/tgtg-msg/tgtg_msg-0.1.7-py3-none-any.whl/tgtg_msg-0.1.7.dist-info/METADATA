@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tgtg-msg
+Version: 0.1.7
+Summary: tg msg
+License: MIT
+Author: JUN
+Author-email: 0x11a1@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-socks[asyncio] (>=2.4.2,<3.0.0)
+Requires-Dist: requests[socks] (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# start
+```bash
+poetry install
+poetry shell
+python ./tests/test_time.py
+test-env
+python3 -m venv .venv
+source .venv/bin/activate
+```

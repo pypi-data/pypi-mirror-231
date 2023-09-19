@@ -1,0 +1,10 @@
+tgtg_msg/__init__.py,sha256=i7YZxSbaPf8F2p9wKwmgTBrIBQKE41iDdILORZY6PCw,138
+tgtg_msg/comm/__init__.py,sha256=1MW3i0kzzc2MMu_q4ReNY6HlESF3nZzyZi6bxROjWiY,145
+tgtg_msg/comm/parse_tuple.py,sha256=u2n9p3lsDlC7KwWieBnx7JXf8tcWJP7XlxUTG9EuE4c,202
+tgtg_msg/comm/print_env.py,sha256=vPXammmjIMMYqRHcupUP2eT7RyE47pANn7qhsq0ge84,377
+tgtg_msg/version.py,sha256=LrvH7gPB_b0_vrYF51fUTAk3k5xMXTGSUZud2OK8yr8,107
+tgtg_msg-0.1.7.dist-info/entry_points.txt,sha256=zMajpeqGMJqeXfkxJ1d-5zGu36AnfcMMXDA_pHmM5Ts,117
+tgtg_msg-0.1.7.dist-info/LICENSE,sha256=GpsSQnpgiF-NkahDuT5nd228eZKU_kC6gyk9QXbY6KQ,1067
+tgtg_msg-0.1.7.dist-info/METADATA,sha256=3yYz3uXt-fLjkA33WJt400BtQ1EOrGfHPJn3_CwUcK4,580
+tgtg_msg-0.1.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tgtg_msg-0.1.7.dist-info/RECORD,,
