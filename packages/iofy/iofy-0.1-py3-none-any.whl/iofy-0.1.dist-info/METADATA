@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: iofy
+Version: 0.1
+Summary: none
+Home-page: https://github.com/Karol-G/iofy
+Author-email: karol.gotkowski@dkfz.de
+License: private
+Requires-Dist: numpy
+
