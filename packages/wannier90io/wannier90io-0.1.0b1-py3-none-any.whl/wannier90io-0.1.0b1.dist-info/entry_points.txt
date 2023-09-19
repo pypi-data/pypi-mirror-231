@@ -1,0 +1,2 @@
+[console_scripts]
+w90io = wannier90io.__main__:main
