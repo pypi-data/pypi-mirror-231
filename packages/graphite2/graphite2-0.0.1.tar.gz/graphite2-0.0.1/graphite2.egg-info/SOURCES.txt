@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+graphite2.egg-info/PKG-INFO
+graphite2.egg-info/SOURCES.txt
+graphite2.egg-info/dependency_links.txt
+graphite2.egg-info/top_level.txt
