@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+brailleify.egg-info/PKG-INFO
+brailleify.egg-info/SOURCES.txt
+brailleify.egg-info/dependency_links.txt
+brailleify.egg-info/top_level.txt
