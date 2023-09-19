@@ -1,0 +1,30 @@
+
+
+[tool.poetry]
+name = "ariksa_policy_cli"
+version = "0.1.1"
+description = ""
+authors = ["tahash <tahash@ariksa.com>"]
+readme = "README.md"
+packages = [{include = "ariksa_policy_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmodel = "^0.0.8"
+loguru = "^0.7.2"
+aiohttp = "^3.8.5"
+requests = "^2.31.0"
+typer-cli = "^0.0.13"
+
+[project.scripts]
+my-client = "ariksa_policy_cli/app/main.app"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[pypi]
+username = "__token__"
+password = "pypi-AgEIcHlwaS5vcmcCJGE5OTFkZTQ1LWU0NWMtNDRkZS05ZmFhLTUxMjM1ODA4MTk5YgACKlszLCJkZTgzMjg5Yy0yZmJmLTRjYmMtOGMyYS1hNzYwYThmYjU2N2YiXQAABiABrvTYUo8QCNyaO7LHEexng-9gjB-eCkslNO5H9B7emQ"
