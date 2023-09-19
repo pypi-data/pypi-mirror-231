@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dazbo-aoc-commons
+Version: 0.1.2
+Summary: A set up of helper functions and classes to assist with Advent of Code problems
+Home-page: https://github.com/derailed-dash/Advent-of-Code
+Author: derailed-dash
+Description-Content-Type: text/markdown
+
+# dazbo-aoc-commons
+
+Helper functions and classes, to assist with Advent of Code challenges.
+
+## Install
+
+pip install dazbo-aoc-commons
+
+## Use
+
+import aoc_common.aoc_commons as td
