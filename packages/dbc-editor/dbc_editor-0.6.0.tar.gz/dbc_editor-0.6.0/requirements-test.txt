@@ -1,0 +1,6 @@
+tox
+mypy >= 1.5.1
+pytest
+
+pudb
+pytest-pudb
