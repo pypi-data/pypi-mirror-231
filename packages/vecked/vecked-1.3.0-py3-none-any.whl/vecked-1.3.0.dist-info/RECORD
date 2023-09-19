@@ -1,0 +1,16 @@
+vecked/VERSION,sha256=ZNI_hY71Gw-Zbklm1OJ8A3G0N-LSeHiQsfetItTsVmM,6
+vecked/__init__.py,sha256=Sdi3pg2nFLzlZ_Y2qtOrqumG2Xzmh3ENKPR7NB1WkwA,225
+vecked/logging.py,sha256=xQZmPrQDKXNK6sDGzpBB8fEdHnDswKlRyRUSNsXD6xk,88
+vecked/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vecked/types.py,sha256=qTRd-HUkvY96TinwOxW1j2aqmVLin6yk9jvwJYHULIs,104
+vecked/version.py,sha256=xVxMCV4fOfO2hrNpFf2MomJKt62FVCon-zACahRGbP0,188
+vecked/vector2/__init__.py,sha256=GWYbyWyfa4PFUWaSaruvLGebqq10LrtomSqKRdTR3pA,195
+vecked/vector2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vecked/vector2/vector2.py,sha256=PWVTupXTWDEVexaI_NXYIK7SMKH6wVy5M6MeJUp6CsY,3021
+vecked/vector2/vector2f.py,sha256=aNKMoIgYhjO-qXMeX-OyhJL-BNHUJ9M3BQdNJa4hCC4,1991
+vecked/vector2/vector2i.py,sha256=uiwDNIV2vDNVU0u-aF1sQMYV1sYMg-Jq1q_cVyFHl6w,4026
+vecked-1.3.0.dist-info/LICENSE,sha256=jXz8xZq3cMjXXQ2Hb9sj6RNKFigwHmut-OnbWc-uHOU,1073
+vecked-1.3.0.dist-info/METADATA,sha256=Vf547pTvB5SQcfTqwm5B1obFecXxAswYZg_gGGIqmUY,1455
+vecked-1.3.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+vecked-1.3.0.dist-info/top_level.txt,sha256=wtLGfZwMefViXQX0BAm1ZGkLg2wl75goMHcFjJckIJE,7
+vecked-1.3.0.dist-info/RECORD,,
