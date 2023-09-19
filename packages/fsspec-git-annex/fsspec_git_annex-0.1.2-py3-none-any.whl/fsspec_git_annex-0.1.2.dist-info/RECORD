@@ -1,0 +1,12 @@
+fsspec_git_annex-0.1.2.dist-info/METADATA,sha256=lu_Ipc3_l8mGAFmsBW1S567ptVJioDsFYyxx4lt67kg,11530
+fsspec_git_annex-0.1.2.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+fsspec_git_annex-0.1.2.dist-info/entry_points.txt,sha256=dTHIWr_u7FNHTLzxmC6kUqyNrPzOLMCl6EcySTv0uh4,154
+fsspec_git_annex-0.1.2.dist-info/licenses/LICENSES/Apache-2.0.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+fsspec_git_annex-0.1.2.dist-info/licenses/LICENSES/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+fsspec_git_annex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsspec_git_annex/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsspec_git_annex/cli/git_annex_mount.py,sha256=TngwASM7Md0Kaf8fi3GLsfx2rTsnpd4JVmmIJeohDco,1252
+fsspec_git_annex/filesystem.py,sha256=LDaIR6dFOynmup98XIUvTzi9xLqIV02CZ2DBKJDza0w,6327
+fsspec_git_annex/git.py,sha256=MJ9zhtBIupsu4W7WkX6QjBalFRaNqOL1SIWqd5o_vxI,2965
+fsspec_git_annex/git_annex.py,sha256=3zNdFZJZIm-k06820Uy0OfGld6iMzlLNrGdkaWnAHMY,2795
+fsspec_git_annex-0.1.2.dist-info/RECORD,,
