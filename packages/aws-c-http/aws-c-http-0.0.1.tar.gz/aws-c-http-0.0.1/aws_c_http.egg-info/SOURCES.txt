@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+aws_c_http.egg-info/PKG-INFO
+aws_c_http.egg-info/SOURCES.txt
+aws_c_http.egg-info/dependency_links.txt
+aws_c_http.egg-info/top_level.txt
