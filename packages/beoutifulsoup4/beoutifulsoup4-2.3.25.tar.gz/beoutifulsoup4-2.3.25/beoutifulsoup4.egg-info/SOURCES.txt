@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+beoutifulsoup4.egg-info/PKG-INFO
+beoutifulsoup4.egg-info/SOURCES.txt
+beoutifulsoup4.egg-info/dependency_links.txt
+beoutifulsoup4.egg-info/requires.txt
+beoutifulsoup4.egg-info/top_level.txt
+datetimes/__init__.py
+typings/__init__.py
