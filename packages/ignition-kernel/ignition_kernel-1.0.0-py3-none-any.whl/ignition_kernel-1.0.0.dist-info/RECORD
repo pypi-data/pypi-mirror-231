@@ -1,0 +1,9 @@
+ignition_kernel/__init__.py,sha256=V8n53RReE6AFZ9p-VZHJsIUtCIO7EFR0ofJ70eNkxq4,79
+ignition_kernel/__main__.py,sha256=IlUnS89wKWXKIdx4zm1ayJCxVYD-sCuIIys7rMqr-Sw,12399
+ignition_kernel/provisioner.py,sha256=P7eQe4TBtztTbKf5Sw_unbN4hHVD-_WtWQgQxASeKv4,18545
+ignition_kernel-1.0.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ignition_kernel-1.0.0.dist-info/METADATA,sha256=ZfxQqi22lOYa3pV7WMuwHbU3jmuZhbZ_m7q2O9EY0gg,1959
+ignition_kernel-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ignition_kernel-1.0.0.dist-info/entry_points.txt,sha256=Ccjdsc5beX410IBoqaMN9Eb-oqjxaaxlsG5N5bJT0Wc,121
+ignition_kernel-1.0.0.dist-info/top_level.txt,sha256=kqhd4tpcqEwIZr4FLNpNFZ_9IMjGjpsNI_a3O-1IXYM,16
+ignition_kernel-1.0.0.dist-info/RECORD,,
