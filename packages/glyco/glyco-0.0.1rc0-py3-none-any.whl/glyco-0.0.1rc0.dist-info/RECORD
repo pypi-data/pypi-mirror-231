@@ -1,0 +1,12 @@
+glyco/__init__.py,sha256=9LUat57sJS7vpbBZwjclJWdTzpyva3VoSJedoHQZAiw,102
+glyco/constants.py,sha256=XGkkQyV3biSxeJ1Azbw-lGFV7zThgISpRF894OlD430,227
+glyco/features.py,sha256=chG3GNX2BBDTWIuSVfZUJ_YF_ZVBSoel2d_AN0OChS0,6
+glyco/glucose.py,sha256=tyT4QdLGgteqe_fvAXLj-ua9v3G47n1YhpzLzLBGmEM,45151
+glyco/meals.py,sha256=LrbPWLxYR-EUeFMytGz8mNBwwKYYlU3vDQ66V3McIEU,20452
+glyco/utils.py,sha256=iqJA209713e_iQhR1gbXnYyfKzqILm8uWXVVi1nHxow,4476
+glyco-0.0.1rc0.dist-info/LICENSE,sha256=aM2DzV95HyHQbqpv-VvQYPTlmfCbhRTzgJVg2Xam6vY,1075
+glyco-0.0.1rc0.dist-info/METADATA,sha256=M-_LuHUMbwSgy8nMe5JXk5AwNu6srqRTDbH3mJMtqUY,8381
+glyco-0.0.1rc0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+glyco-0.0.1rc0.dist-info/entry_points.txt,sha256=k37rq2D1t-7Jp3_mthHMpAoqkaqxpp0Lt3sYkaZ__Y8,46
+glyco-0.0.1rc0.dist-info/top_level.txt,sha256=7vlJVSQy1ff7_zMPgQ1Av-PqajfGAlp98TwqlCKCOHU,6
+glyco-0.0.1rc0.dist-info/RECORD,,
