@@ -1,0 +1,2 @@
+[console_scripts]
+generate = stemmabench.cli:app
