@@ -1,0 +1,5 @@
+[console_scripts]
+metasynth = metasynth.__main__:main
+
+[metasynth.distribution_provider]
+builtin = metasynth.provider:BuiltinDistributionProvider
