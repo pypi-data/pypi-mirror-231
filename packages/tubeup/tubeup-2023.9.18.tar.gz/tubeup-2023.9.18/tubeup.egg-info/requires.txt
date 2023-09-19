@@ -1,0 +1,4 @@
+internetarchive
+urllib3
+docopt==0.6.2
+yt-dlp
