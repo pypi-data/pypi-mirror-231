@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bg-reports-sdk
+Version: 1.0.2
+Summary: Software development kit for creating reports and their schedulers.
+Home-page: UNKNOWN
+Author: Nikita Surov
+Author-email: n.surov@focus.bi
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: pytz
+
+UNKNOWN
+

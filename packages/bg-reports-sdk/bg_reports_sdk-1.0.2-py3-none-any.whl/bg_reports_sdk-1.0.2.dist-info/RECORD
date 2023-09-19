@@ -1,0 +1,13 @@
+bg_reports_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bg_reports_sdk/config.py,sha256=GctY4pmHd4EUrwEMm9q52JASf25CV9qy9FnbzxY-fTE,177
+bg_reports_sdk/data_provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bg_reports_sdk/data_provider/data_provider.py,sha256=eXBTylOLKZ-2hy5mMrGlvScDCYMLRjbkSyGNgEg8cxA,6763
+bg_reports_sdk/report_executor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bg_reports_sdk/report_executor/report_executor.py,sha256=OPCEgr3jn6dVb-Y5JdWu-E3CwIrLuh1pH7g7iZWrJjo,12045
+bg_reports_sdk/scheduler_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bg_reports_sdk/scheduler_manager/scheduler.py,sha256=ewRR4qemq9dt4rIY9oT8Jerj188ZfS08HaIgmhAAOLs,1372
+bg_reports_sdk/scheduler_manager/scheduler_manager.py,sha256=fhzobJdaXGN2ZMgbppmIJx8YwxjRjk6WAuBwjvooPgU,10358
+bg_reports_sdk-1.0.2.dist-info/METADATA,sha256=xyfUNqnbruf-J3Y5y2vXKn7no2ArduZoU520aZeH2WE,324
+bg_reports_sdk-1.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bg_reports_sdk-1.0.2.dist-info/top_level.txt,sha256=MIJ9m74BAhy5zphebuHzgSATZLPsnqnxmBE_rHM_bko,15
+bg_reports_sdk-1.0.2.dist-info/RECORD,,
