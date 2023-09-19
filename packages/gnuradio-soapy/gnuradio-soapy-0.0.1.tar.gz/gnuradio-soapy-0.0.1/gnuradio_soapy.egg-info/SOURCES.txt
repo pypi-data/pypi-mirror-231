@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+gnuradio_soapy.egg-info/PKG-INFO
+gnuradio_soapy.egg-info/SOURCES.txt
+gnuradio_soapy.egg-info/dependency_links.txt
+gnuradio_soapy.egg-info/top_level.txt
