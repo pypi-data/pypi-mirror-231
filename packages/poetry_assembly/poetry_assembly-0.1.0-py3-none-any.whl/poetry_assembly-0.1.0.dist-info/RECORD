@@ -1,0 +1,7 @@
+poetry_assembly/__init__.py,sha256=leUnh8ke_nERRbu05sA-4nY00MW9ggnhrd5pwr5q8Pg,70
+poetry_assembly/assembly.py,sha256=O-9OrVZE6w8izE3uBoyTqpFQGi5rmKjO6VGD52Q3eY8,3520
+poetry_assembly/setup_template.py,sha256=3O7i5xviBDAwW-w9xfUkV-o5CXJx1baicBQmTdPEU_o,479
+poetry_assembly-0.1.0.dist-info/METADATA,sha256=qfZZKVuShkdEnjZ5jjnZE1MgDGb9DhFqTML7BwYHwCQ,486
+poetry_assembly-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_assembly-0.1.0.dist-info/entry_points.txt,sha256=Glvz1riOT_oNblEaiRbsX-FYb-4FoTrCZ4MxBLrF4SY,63
+poetry_assembly-0.1.0.dist-info/RECORD,,
