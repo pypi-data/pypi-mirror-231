@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+confusion_matrix/__init__.py
+confusion_matrix/version.py
+confusion_matrix_sebastian_achim_mueller.egg-info/PKG-INFO
+confusion_matrix_sebastian_achim_mueller.egg-info/SOURCES.txt
+confusion_matrix_sebastian_achim_mueller.egg-info/dependency_links.txt
+confusion_matrix_sebastian_achim_mueller.egg-info/top_level.txt
