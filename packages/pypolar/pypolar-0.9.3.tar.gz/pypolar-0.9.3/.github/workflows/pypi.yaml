@@ -1,0 +1,37 @@
+---
+name: Publish to PyPI on Tag
+
+on:
+  push:
+    tags:
+      - '*'
+  workflow_dispatch:  # allow manual triggering
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: pypi repository
+      url: https://pypi.org/p/pypolar
+
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Build
+        run: |
+          pip install setuptools wheel twine build
+          pip install -r requirements.txt
+          python -m build
+
+      - name: Publish package to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          verbose: true

@@ -1,0 +1,32 @@
+---
+name: Update CITATION.cff on Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  update-citation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install requests PyYAML
+
+      - name: Update CITATION.cff
+        run: |
+          python .github/scripts/update_citation.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --exit-code || (git add CITATION.cff && git commit -m "Update CITATION.cff with latest release date" && git push)
