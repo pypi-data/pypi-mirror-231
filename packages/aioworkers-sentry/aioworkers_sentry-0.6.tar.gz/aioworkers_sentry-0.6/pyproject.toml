@@ -1,0 +1,177 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aioworkers-sentry"
+dynamic = ["version"]
+description = "aioworkers plugin for Sentry"
+readme = "README.rst"
+license = "Apache-2.0"
+requires-python = ">=3.8"
+authors = [
+    { name = "Alexander Bogushov", email = "abogushov@gmail.com" },
+    { name = "Alexander Malev", email = "malev@somedev.ru" },
+]
+keywords = [
+    "aioworkers",
+    "sentry",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "aioworkers>=0.13",
+    "sentry-sdk>=1.22",
+]
+[project.optional-dependencies]
+dev-test = [
+    "aioworkers==0.27.0",
+    "sentry-sdk==1.31.0",
+    "coverage[toml]==7.2.7",
+    "pytest==7.4.2",
+    "pytest-aioworkers[asyncio]==0.4",
+    "pytest-mock==3.11.1",
+    "pyyaml==6.0.1",
+]
+dev-lint = [
+    "ruff==0.0.290",
+    "isort==5.12.0",
+    "black==23.9.1",
+    "mypy==1.5.1",
+]
+
+[project.entry-points.aioworkers]
+sentry = "aioworkers_sentry"
+
+[project.urls]
+Homepage = "https://github.com/aioworkers/aioworkers-sentry"
+Documentation = "https://github.com/aioworkers/aioworkers-sentry#readme"
+Issues = "https://github.com/aioworkers/aioworkers-sentry/issues"
+Source = "https://github.com/aioworkers/aioworkers-sentry"
+
+[tool.hatch.version]
+path = "aioworkers_sentry/__init__.py"
+
+[tool.hatch.build]
+include = [
+    "/aioworkers_sentry",
+]
+
+[tool.hatch.envs.default]
+features = [
+    "dev-test",
+]
+[tool.hatch.envs.default.scripts]
+cov = [
+    "coverage run -m pytest",
+    "coverage report",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = [
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = [
+    "aioworkers_sentry",
+    "tests",
+]
+addopts = [
+    "--doctest-modules",
+]
+
+[tool.coverage.run]
+branch = false
+parallel = false
+source = [
+    "aioworkers_sentry",
+    "tests",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "no cov",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py38",
+    "py39",
+    "py310",
+    "py311",
+    "py312",
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+force_single_line = false
+include_trailing_comma = true
+
+[tool.mypy]
+follow_imports = "silent"
+strict_optional = true
+warn_redundant_casts = true
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.hatch.envs.lint]
+python = "3.8"
+features = [
+    "dev-lint",
+]
+[tool.hatch.envs.lint.scripts]
+typing = "mypy --install-types --non-interactive {args:aioworkers_sentry tests}"
+style = [
+    "ruff {args:aioworkers_sentry tests}",
+    "isort --check-only --diff {args:aioworkers_sentry tests}",
+    "black --check --diff {args:aioworkers_sentry tests}",
+]
+fmt = [
+    "ruff --fix {args:aioworkers_sentry tests}",
+    "isort {args:aioworkers_sentry tests}",
+    "black {args:aioworkers_sentry tests}",
+    "style",
+]
+all = [
+    "style",
+    "typing",
+]
+
+[tool.hatch.envs.template]
+detached = true
+dependencies = [
+    "scaraplate",
+]
+[tool.hatch.envs.template.scripts]
+update = [
+    "scaraplate rollup --no-input {args:../cookiecutter-aioworkers-plugin} ."
+]
+clone = [
+    "git clone https://github.com/aioworkers/cookiecutter-aioworkers-plugin {args:../cookiecutter-aioworkers-plugin}"
+]
