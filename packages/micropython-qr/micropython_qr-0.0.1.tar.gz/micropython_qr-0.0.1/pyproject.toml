@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "micropython_qr"
+version = "0.0.1"
+authors = [
+  { name="Code Cadets", email="codecadets@cgs.act.edu.au" }
+]
+description = "Uploaded micro python qrcode library"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: MicroPython",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
