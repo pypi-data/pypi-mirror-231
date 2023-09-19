@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nDimAssociations/AlcraftWilliamsAssociation.py
+src/nDimAssociations/ReportExport.py
+src/nDimAssociations/__init__.py
+src/nDimAssociations/__tests01.py
+src/nDimAssociations/__tests02.py
+src/nDimAssociations/__tests03.py
+src/nDimAssociations/__tests04.py
+src/nDimAssociations/__tests05.py
+src/nDimAssociations/__tests07.py
+src/ra_trivial.egg-info/PKG-INFO
+src/ra_trivial.egg-info/SOURCES.txt
+src/ra_trivial.egg-info/dependency_links.txt
+src/ra_trivial.egg-info/top_level.txt
