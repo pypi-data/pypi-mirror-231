@@ -1,0 +1,2 @@
+[console_scripts]
+holy = holy_cli.cli:entry_point
