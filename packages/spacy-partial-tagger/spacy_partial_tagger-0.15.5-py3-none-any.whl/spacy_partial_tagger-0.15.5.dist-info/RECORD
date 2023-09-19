@@ -1,0 +1,11 @@
+spacy_partial_tagger/__about__.py,sha256=axkldpLAi2TFk3heerDJg_kSegHyvqyTI3ogd991rpE,23
+spacy_partial_tagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacy_partial_tagger/collator.py,sha256=PkCx99P_kqiDBOU98SvtsRCS_ZMFWRO19uoXumWaIJc,2281
+spacy_partial_tagger/pipeline.py,sha256=l53bPxnAgJq7Zb-GwrtclCYE5pELdyLy1njC2V7oMO0,7638
+spacy_partial_tagger/tagger.py,sha256=e04ThgAMKFRkT5pmDaIvVE8MrD-fqRFeCx8-MtJJOq8,3229
+spacy_partial_tagger/util.py,sha256=uOYHbb5H2SMI2Sjg72dNqTHr28VQDftU6tGgfZqm4to,2079
+spacy_partial_tagger-0.15.5.dist-info/METADATA,sha256=2j2pb8Iaq2ryDGVkty0FDcqh5Vk_prVVoBQ6dIxNRuk,4907
+spacy_partial_tagger-0.15.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+spacy_partial_tagger-0.15.5.dist-info/entry_points.txt,sha256=1alnUVZkKhIMjiU0JlTTXpDpWI_m-3pZTJocCJ1Z6Tc,194
+spacy_partial_tagger-0.15.5.dist-info/licenses/LICENSE,sha256=VHgW2uoBXQ7iz0jwHohiHFadmAGqJtCwSN5CIMOo25w,1065
+spacy_partial_tagger-0.15.5.dist-info/RECORD,,
