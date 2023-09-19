@@ -1,0 +1,9 @@
+xia_actor/__init__.py,sha256=BGqG5fWVhkakXYCU6zY2dGuEgBVGHtK2qt7bV0u-v9U,539
+xia_actor/actor.cpython-310-darwin.so,sha256=wISveL2Wk_b1Y47TAgGHhDblmFeetUFJNLnbv2hEDS8,424208
+xia_actor/job.cpython-310-darwin.so,sha256=RsSUXQ-7af_NSWXF9POQbCYD6JfOWINhAFPp05gKj38,355784
+xia_actor/jobs/__init__.py,sha256=v5PevsSwbdPCZxC9LVvusShEUMMvz1ZRDhKIZjJhdJ0,313
+xia_actor-0.0.11.dist-info/LICENSE.txt,sha256=bRB9FMPCldPfgzw5SG187w8daXXQ3DGMmJ2vkox_Idw,156
+xia_actor-0.0.11.dist-info/METADATA,sha256=dA14lQ64grPC3AzC2qJb6MiD2LhvFuawwK6SB6U-trw,409
+xia_actor-0.0.11.dist-info/WHEEL,sha256=_GBdxhF0YdKZzA_NEDPIsUFVjSJB1ihQnB_yQM3J1CI,109
+xia_actor-0.0.11.dist-info/top_level.txt,sha256=-UXLzmsgIuEIUSHRbR6XD-ix4NwhjldjVlG3xjJVuyg,10
+xia_actor-0.0.11.dist-info/RECORD,,
