@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "tgtg-msg"
+version = "0.1.7"
+description = "tg msg"
+authors = ["JUN <0x11a1@proton.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "tgtg_msg" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-socks = { extras = ["asyncio"], version = "^2.4.2" }
+requests = { extras = ["socks"], version = "^2.31.0" }
+
+[tool.poetry.scripts]
+test-env = 'tgtg_msg.comm:print_env'
+tgv = 'tgtg_msg.version:v'
+tgc = 'tgcf.cli:app'
+tgw = 'tgcf.web_ui.run:main'
+
+[tool.poetry.group.dev.dependencies]
+tgcf = "^1.1.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+priority = "default"
