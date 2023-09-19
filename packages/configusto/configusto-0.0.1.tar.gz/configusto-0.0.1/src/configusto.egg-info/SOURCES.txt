@@ -1,0 +1,9 @@
+LICENCE.TXT
+pyproject.toml
+src/__init__.py
+src/config.py
+src/test.py
+src/configusto.egg-info/PKG-INFO
+src/configusto.egg-info/SOURCES.txt
+src/configusto.egg-info/dependency_links.txt
+src/configusto.egg-info/top_level.txt
