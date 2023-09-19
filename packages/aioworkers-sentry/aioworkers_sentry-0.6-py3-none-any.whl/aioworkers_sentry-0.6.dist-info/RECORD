@@ -1,0 +1,8 @@
+aioworkers_sentry/__init__.py,sha256=NZgoLj4-ZgrENPWycekjS0kZ4zGjUmX324s7QzpTjPk,98
+aioworkers_sentry/client.py,sha256=19TQDZYeGS6JXywmG_FLkZhss_4ri_6MrTK3REwVuL8,4134
+aioworkers_sentry/sentry.ini,sha256=8htGbRMzIwzD6Lz-DWmOpMHKk7Gz2VE24kPxzfmyAyM,155
+aioworkers_sentry-0.6.dist-info/METADATA,sha256=ynynsobaGwbIdTGx0v0C9nM8sS3qga7AE2xUnd3jM1o,4281
+aioworkers_sentry-0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+aioworkers_sentry-0.6.dist-info/entry_points.txt,sha256=R8NFpRATsA054ppe9DeUpH6Qrk1SJIuj7l7X6lsM5Ws,40
+aioworkers_sentry-0.6.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aioworkers_sentry-0.6.dist-info/RECORD,,
