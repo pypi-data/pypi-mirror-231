@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ibancheck"
+version = "0.1.1"
+description = "Check if a IBAN bank account number is valid"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Thijs Janssen", email = "thijs@thijsj.nl"}
+]
+keywords = ["validate", "IBAN"]
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3"
+]
+
+[tool.setuptools.package-data]
+ibancheck = ["*.json"]
+
+[project.urls]
+Homepage = "https://github.com/thijsj/iban-check"
+Repository = "https://github.com/thijsj/iban-check.git"
