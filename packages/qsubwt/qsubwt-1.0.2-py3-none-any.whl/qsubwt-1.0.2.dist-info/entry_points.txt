@@ -1,0 +1,2 @@
+[console_scripts]
+qsubwt = qsubwt.qsubwt:main
