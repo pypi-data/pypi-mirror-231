@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+rabbitmq_server.egg-info/PKG-INFO
+rabbitmq_server.egg-info/SOURCES.txt
+rabbitmq_server.egg-info/dependency_links.txt
+rabbitmq_server.egg-info/top_level.txt
