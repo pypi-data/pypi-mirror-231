@@ -1,0 +1,7 @@
+setup.py
+guruji/__init__.py
+guruji/hello.py
+guruji.egg-info/PKG-INFO
+guruji.egg-info/SOURCES.txt
+guruji.egg-info/dependency_links.txt
+guruji.egg-info/top_level.txt
