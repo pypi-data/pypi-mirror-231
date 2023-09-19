@@ -1,0 +1,9 @@
+USports_Scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+USports_Scraper/common_util.py,sha256=bDpdpM5OprYI2c9tVbvm8UY9dx5gqUs5Gx8lA4yZlFM,866
+USports_Scraper/scrape_game_box.py,sha256=OvK0sNc_9ysXyL7gTy7Xz8QcpLUKn_e4R81VXJq_fWM,5165
+USports_Scraper/scrape_game_ids.py,sha256=9tKb9P2iz_TFskfCgNjvcPvI4B7Lxc5NZtdpUOF4zZQ,1110
+USports_Scraper/scrape_season_box.py,sha256=iqFHleigQ8rpC7Ulqdx8KBtt8uMdlGczbN5tWHC5xEw,2874
+usports_scraper-0.0.3.dist-info/METADATA,sha256=C1hQXT-hFdH9-GIPGc24za694nMgeQnFZ2h8HSpCmiY,789
+usports_scraper-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+usports_scraper-0.0.3.dist-info/licenses/LICENCE,sha256=5tPyHCeWPk5bqK1XwVxzwJ3M82Q11PmEKdxRzJLH3_o,1087
+usports_scraper-0.0.3.dist-info/RECORD,,
