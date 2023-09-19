@@ -1,0 +1,3 @@
+gofit
+numpy>=1.12
+scipy
