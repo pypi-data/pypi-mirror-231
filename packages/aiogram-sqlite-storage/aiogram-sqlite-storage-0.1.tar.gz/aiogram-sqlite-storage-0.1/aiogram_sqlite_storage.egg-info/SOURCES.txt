@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+aiogram-sqlite-storage/__init__.py
+aiogram-sqlite-storage/sqlitestore.py
+aiogram_sqlite_storage.egg-info/PKG-INFO
+aiogram_sqlite_storage.egg-info/SOURCES.txt
+aiogram_sqlite_storage.egg-info/dependency_links.txt
+aiogram_sqlite_storage.egg-info/top_level.txt
