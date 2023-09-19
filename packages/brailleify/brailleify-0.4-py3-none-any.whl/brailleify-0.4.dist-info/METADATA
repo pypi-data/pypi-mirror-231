@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: brailleify
+Version: 0.4
+Summary: A Python package for converting text to Braille.
+Author: Michael Erickson
+Author-email: releif@protonmail.com
+License: MIT
+Keywords: Braille
+License-File: LICENSE.md
+
