@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sys-info-extraction
+Version: 0.0.1
+Summary: sys-info-extraction
+Home-page: https://github.com/support-yl/sys-info-extraction/blob/main/README.md
+Author: mrl
+Author-email: insupport@163.com
+Description-Content-Type: text/markdown
+Requires-Dist: psutil
+Requires-Dist: pyyaml
+
+# sys-info-extraction
