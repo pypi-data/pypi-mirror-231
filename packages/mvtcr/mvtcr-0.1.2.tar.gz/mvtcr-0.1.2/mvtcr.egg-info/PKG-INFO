@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mvtcr
+Version: 0.1.2
+Summary: mvTCR: A multimodal generative model to learn a unified representation across TCR sequences and scRNAseq data for joint analysis of single-cell immune profiling data
+Home-page: https://github.com/SchubertLab/mvTCR
+Author: Felix Drost, Yang An, Lisa M Dratva, Rik GH Lindeboom, Muzlifah Haniffa, Sarah A Teichmann, Fabian Theis, Mohammad Lotfollahi, Benjamin Schubert
+Maintainer: Felix Drost, Yang An,  Irene Bonafonte Pardàs, Jan-Philipp Leusch
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+License-File: LICENSE
