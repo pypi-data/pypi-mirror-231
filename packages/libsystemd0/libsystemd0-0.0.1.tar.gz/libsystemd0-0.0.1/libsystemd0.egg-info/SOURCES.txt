@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libsystemd0.egg-info/PKG-INFO
+libsystemd0.egg-info/SOURCES.txt
+libsystemd0.egg-info/dependency_links.txt
+libsystemd0.egg-info/top_level.txt
