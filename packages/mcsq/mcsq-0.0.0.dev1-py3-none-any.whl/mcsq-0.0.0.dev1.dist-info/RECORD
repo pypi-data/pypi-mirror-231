@@ -1,0 +1,9 @@
+mcsq/__init__.py,sha256=AQ2cmz7wNUYLymtVJXEv9VSIVJ0Ey3of-1Z9cchPizk,56
+mcsq/driver.py,sha256=9Op40o8YShRx51zEj3xTLmPhR5uuegV7etymlWuQ1y8,3268
+mcsq/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcsq/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcsq-0.0.0.dev1.dist-info/LICENSE,sha256=xXaRiJXWn1Zi8fTCyU0EXjchITEV-R2HZDi19hD_Wrg,1078
+mcsq-0.0.0.dev1.dist-info/METADATA,sha256=qPt8VGZUvX8Lxd6mEvZH42fxLIZjcI7AUPoYpK1FAQY,1188
+mcsq-0.0.0.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mcsq-0.0.0.dev1.dist-info/top_level.txt,sha256=cykgDI4Ng-1IV-YpXLE3bMTl9yhKzt9gAHzGjNesLW0,5
+mcsq-0.0.0.dev1.dist-info/RECORD,,
