@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: experiments-manager
+Version: 0.1
+Home-page: https://github.com/jvasso/experiments_manager
+Author: Jean Vassoyan
+Author-email: 
+Requires-Python: >=3.6
+Requires-Dist: numpy>=1.19
