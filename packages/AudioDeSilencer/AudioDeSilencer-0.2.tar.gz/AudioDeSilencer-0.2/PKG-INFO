@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: AudioDeSilencer
+Version: 0.2
+Summary: An audio processing tool for detecting and removing silence in audio recordings.
+Home-page: https://github.com/BTawaifi/AudioDeSilencer
+Author: Boutros Tawaifi
+Author-email: boutrous.m.tawaifi@gmail.com
+License-File: LICENSE
