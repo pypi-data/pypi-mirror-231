@@ -1,0 +1,9 @@
+calculate_area/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculate_area/area_calculation.py,sha256=A-2l0FnpFWNxi3AzWSdsUCwtTgG1rZzy0cIyBl_F_aE,4162
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_circl.py,sha256=BaVvoZAT6zXcpUZaiCq6FXJnGMmzIcfakI8CjX7M8mo,553
+test/test_triangle.py,sha256=yxFI3tOo4rxyxZLFGi_p2cQ5X8ecpPkn1zwKAM7Z_Wo,1067
+library_calculate_area-0.0.1.dist-info/METADATA,sha256=maRPH9u6k1Xn6Bhh3W_8L90svwrzNHYZ9MLKctFkntg,478
+library_calculate_area-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+library_calculate_area-0.0.1.dist-info/top_level.txt,sha256=ZNTmnUuCl-n82jMSkF6Ym_k1FYOSzTa6RbHHaUvaN3s,20
+library_calculate_area-0.0.1.dist-info/RECORD,,
