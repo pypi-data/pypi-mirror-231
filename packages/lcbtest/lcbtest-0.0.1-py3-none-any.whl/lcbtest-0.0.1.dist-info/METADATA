@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lcbtest
+Version: 0.0.1
+Summary: LP
+Home-page: https://github.com/halfTaim/lcbtest.git
+Author: LCB
+Author-email: lcvrjqnr@gmail.com
+Keywords: lcbtest,lcb
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
