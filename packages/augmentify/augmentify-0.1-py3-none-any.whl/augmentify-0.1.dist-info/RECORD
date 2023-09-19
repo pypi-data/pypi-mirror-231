@@ -1,0 +1,10 @@
+augmentify/__init__.py,sha256=fvW2b7uBezCCE8EC-jUvX3K0cTfJlWy_y_ZXso5gSH8,121
+augmentify/augmentations.py,sha256=f0HRLGTSKEN87XnmSBgcOtYZMG8bCpvydNYuc1Kx9LE,20622
+augmentify/constants.py,sha256=wXud1JBBM6naHmzngogcAVw0iBswWWRIiXM7e3GHJj8,102
+augmentify/utils.py,sha256=o4JrP473S2rUnsSK88CIr75xsYvjQmwUttIdxUXCt7M,3834
+augmentify/variables.py,sha256=OEFZGtzeWgWFrAXNblGqf1qXfOrNVt29ADJVsgnyhLw,592
+augmentify/wrapper.py,sha256=lZdXtSNxt8_OgTrQNF4NJGPvDGxg3HiKsLNVlWz5LJE,314
+augmentify-0.1.dist-info/METADATA,sha256=_PCFb3zrnbdXy6N-iagIL9DtStFkjLTvKMEcwvGIsLI,241
+augmentify-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+augmentify-0.1.dist-info/top_level.txt,sha256=JhRCdR1Mqwn9m64KcbGaADqbqvOplfji4H0WbRx6BKQ,11
+augmentify-0.1.dist-info/RECORD,,
