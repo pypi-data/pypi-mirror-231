@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+src/suite/__init__.py
+src/suite/global_settings.py
+src/suite/storage_manager.py
+src/suite/time_series.py
+src/suite/analisys/__init__.py
+src/suite/analisys/generator/__init__.py
+src/suite/analisys/generator/random.py
+src/virgosuite.egg-info/PKG-INFO
+src/virgosuite.egg-info/SOURCES.txt
+src/virgosuite.egg-info/dependency_links.txt
+src/virgosuite.egg-info/requires.txt
+src/virgosuite.egg-info/top_level.txt
