@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libssh2_static.egg-info/PKG-INFO
+libssh2_static.egg-info/SOURCES.txt
+libssh2_static.egg-info/dependency_links.txt
+libssh2_static.egg-info/top_level.txt
