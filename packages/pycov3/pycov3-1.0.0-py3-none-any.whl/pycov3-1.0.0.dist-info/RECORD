@@ -1,0 +1,12 @@
+pycov3/Directory.py,sha256=b3p_obASoNgGKfQQVpDr8vrcRrr-uScEYKwmzZbrSxA,3801
+pycov3/File.py,sha256=mgmaAnAvhrpTyCKJH2Z0FjRIMdMTs7UUds2xw0cGtJE,11555
+pycov3/Sequence.py,sha256=HAE08OFTkCnU5KG3mvbyT-IdR-CSV2nRXnpNMxfKD4k,3262
+pycov3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycov3/__main__.py,sha256=46eUnyiwh87L-CR7TQswyfj4fWf74YKeYIZzsyFzIgA,138
+pycov3/cli.py,sha256=RLfZvbAMlNhJ56N5TSMl4Q-V5VOJMpOvhRisJpcBK4Q,3356
+pycov3-1.0.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pycov3-1.0.0.dist-info/METADATA,sha256=RyzPKKNW4OssvnEW_sM626m_YruKT0WjRZ8KKMeOUZA,3521
+pycov3-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pycov3-1.0.0.dist-info/entry_points.txt,sha256=gvp1_c9qBwZ1ALfrooqcouIoPQLcHF5C9cDXEl2vZQc,48
+pycov3-1.0.0.dist-info/top_level.txt,sha256=w7SosCTcbLiKpiynqlgV79fwBslUarS9Y7QKOmVRy3E,7
+pycov3-1.0.0.dist-info/RECORD,,
