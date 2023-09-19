@@ -1,0 +1,6 @@
+README.md
+setup.py
+cofoundergpt.egg-info/PKG-INFO
+cofoundergpt.egg-info/SOURCES.txt
+cofoundergpt.egg-info/dependency_links.txt
+cofoundergpt.egg-info/top_level.txt
