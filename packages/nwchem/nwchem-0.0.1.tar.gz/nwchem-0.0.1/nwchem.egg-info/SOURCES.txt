@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+nwchem.egg-info/PKG-INFO
+nwchem.egg-info/SOURCES.txt
+nwchem.egg-info/dependency_links.txt
+nwchem.egg-info/top_level.txt
