@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "advent-of-python"
+version = "0.0.1"
+authors = [
+  { name="Selyss" },
+  { name="LegendaryAKx3" },
+]
+description = "Tool for completing advent of code challenges without leaving the terminal."
+readme = "README.md"
+requires-python = ">=3.9"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/Selyss/advent-of-python"
+"Bug Tracker" = "https://github.com/Selyss/advent-of-python/issues"
