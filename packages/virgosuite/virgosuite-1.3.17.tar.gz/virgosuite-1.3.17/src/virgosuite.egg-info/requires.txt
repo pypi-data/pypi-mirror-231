@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+pandas
+h5py
+dask
+astropy
+xarray
+pyarrow
+dask[diagnostics]
