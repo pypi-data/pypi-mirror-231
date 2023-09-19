@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+simplescreens.py
+simplescreens.egg-info/PKG-INFO
+simplescreens.egg-info/SOURCES.txt
+simplescreens.egg-info/dependency_links.txt
+simplescreens.egg-info/top_level.txt

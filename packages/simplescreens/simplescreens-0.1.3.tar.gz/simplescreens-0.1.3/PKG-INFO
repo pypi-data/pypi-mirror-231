@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simplescreens
+Version: 0.1.3
+Summary: Simple text-based UI (text screens) used for tree-like data browsing
+Author-email: Arkadiusz Bryndza <arkbryn@gmail.com>
+Project-URL: Homepage, https://github.com/arkbryn/simplescreens
+Project-URL: Bug Tracker, https://github.com/arkbryn/simplescreens/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#simplescreens
+
+Simple text-based UI (text screens) used for tree-like data browsing
