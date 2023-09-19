@@ -1,0 +1,3 @@
+[console_scripts]
+imarith = astroimtools.scripts.imarith:main
+imstats = astroimtools.scripts.imstats:main

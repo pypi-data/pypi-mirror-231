@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: astroimtools
+Version: 0.4.0
+Summary: Astronomical Image Tools
+Author-email: Astroimtools Developers <help@stsci.edu>
+License: Copyright (c) 2015, Association of Universities for Research in Astronomy (AURA)
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are
+        met:
+        
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above copyright
+          notice, this list of conditions and the following disclaimer in the
+          documentation and/or other materials provided with the distribution.
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+        "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+        LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+        A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+        HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+        THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: homepage, https://github.com/spacetelescope/astroimtools
+Project-URL: documentation, https://astroimtools.readthedocs.io/en/stable/
+Keywords: astronomy,astrophysics,images,cutouts,statistics,filtering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: numpy >=1.22
+Requires-Dist: astropy >=5.0
+Requires-Dist: scipy >=1.7.2
+Provides-Extra: all
+Requires-Dist: matplotlib >=3.5 ; extra == 'all'
+Requires-Dist: photutils >=1.5 ; extra == 'all'
+Requires-Dist: reproject >=0.9 ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: astroimtools[all] ; extra == 'docs'
+Requires-Dist: ipython ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-astropy >=1.6 ; extra == 'docs'
+Requires-Dist: tomli ; (python_version < "3.11") and extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-astropy >=0.10 ; extra == 'test'
+
+============
+astroimtools
+============
+
+|PyPI Version| |CI Status| |Codecov Status| |Stable RTD Status| |Astropy|
+
+Astroimtools is a Python package that provides convenience tools for
+working with astronomical images.
+
+.. |PyPI Version| image::  https://img.shields.io/pypi/v/astroimtools.svg?logo=pypi&logoColor=white&label=PyPI
+    :target: https://pypi.org/project/astroimtools/
+    :alt: PyPI Latest Release
+
+.. |Astropy| image:: https://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
+    :target: https://www.astropy.org/
+    :alt: Powered by Astropy
+
+.. |CI Status| image:: https://github.com/spacetelescope/astroimtools/workflows/CI%20Tests/badge.svg#
+    :target: https://github.com/spacetelescope/astroimtools/actions
+    :alt: CI Status
+
+.. |Codecov Status| image:: https://img.shields.io/codecov/c/github/spacetelescope/astroimtools?logo=codecov
+    :target: https://codecov.io/gh/spacetelescope/astroimtools
+    :alt: Codecov Status
+
+.. |Stable RTD Status| image:: https://img.shields.io/readthedocs/astroimtools/latest.svg?logo=read%20the%20docs&logoColor=white&label=Docs&version=stable
+    :target: https://astroimtools.readthedocs.io/en/stable/
+    :alt: Stable Documentation Status
