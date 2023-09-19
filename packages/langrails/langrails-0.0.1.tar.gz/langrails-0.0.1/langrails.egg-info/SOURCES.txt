@@ -1,0 +1,6 @@
+README.md
+setup.py
+langrails.egg-info/PKG-INFO
+langrails.egg-info/SOURCES.txt
+langrails.egg-info/dependency_links.txt
+langrails.egg-info/top_level.txt
