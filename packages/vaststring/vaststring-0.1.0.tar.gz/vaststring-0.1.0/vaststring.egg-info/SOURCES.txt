@@ -1,0 +1,8 @@
+README.md
+setup.py
+vaststring/__init__.py
+vaststring/vaststring.py
+vaststring.egg-info/PKG-INFO
+vaststring.egg-info/SOURCES.txt
+vaststring.egg-info/dependency_links.txt
+vaststring.egg-info/top_level.txt

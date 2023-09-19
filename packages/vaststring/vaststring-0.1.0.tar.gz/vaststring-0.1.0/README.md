@@ -1,0 +1,25 @@
+# VastString Module
+
+The VastString Module provides a collection of functions for performing advanced operations on strings. These functions can be used to tackle various tasks related to string processing, including text similarity measurement, pattern matching, and tokenization.
+
+## Included Functions:
+
+1. `levenshtein_distance`: Calculates the Levenshtein distance between two strings, measuring the minimum number of edits required to transform one string into another.
+
+2. `soundex`: Computes the Soundex code, a phonetic representation of a given string, useful for approximate string matching.
+
+3. `jaro_winkler_distance`: Computes the Jaro-Winkler distance between two strings, indicating their similarity with a higher weight on common prefixes.
+
+4. `extract_substrings`: Extracts all occurrences of a specified substring from a larger string.
+
+5. `tokenize_string`: Splits a string into tokens based on a given regular expression pattern, facilitating natural language processing tasks.
+
+These functions can be utilized in a wide range of applications, from text processing to data cleaning and analysis. Whether you need to measure text similarity, extract specific patterns, or tokenize text for further analysis, this module provides a set of powerful tools to assist you in your projects.
+
+## Usage Example:
+
+```python
+import vaststring
+
+distance = vaststring.levenshtein_distance("kitten", "sitting")
+print(distance)  # Output: 3
