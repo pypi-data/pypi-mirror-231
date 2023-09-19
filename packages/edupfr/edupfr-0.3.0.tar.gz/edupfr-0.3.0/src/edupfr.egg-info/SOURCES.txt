@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+version.conf
+src/edupfr/__init__.py
+src/edupfr/_m3_imports.py
+src/edupfr.egg-info/PKG-INFO
+src/edupfr.egg-info/SOURCES.txt
+src/edupfr.egg-info/dependency_links.txt
+src/edupfr.egg-info/top_level.txt
+src/edupfr/snils_by_data/__init__.py
+src/edupfr/snils_by_data/actions.py
+src/edupfr/snils_by_data/helpers.py
+src/edupfr/snils_by_data/settings.py
+src/edupfr/snils_by_data/snils-request-button.js
+src/edupfr/snils_by_data/ui.py
