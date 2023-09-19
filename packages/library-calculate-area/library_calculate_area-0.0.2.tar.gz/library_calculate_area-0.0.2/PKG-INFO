@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: library_calculate_area
+Version: 0.0.2
+Summary: A library that can calculate the area of a circle by radius and a triangle on three sides.
+Home-page: https://github.com/Yana-K38/library_calculate_area/tree/main
+Author: Yana
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
