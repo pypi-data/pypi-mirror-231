@@ -1,0 +1,3 @@
+[console_scripts]
+chatapi_toolkit = chatapi_toolkit.cli:main
+
