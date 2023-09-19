@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig_base",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "rootDir": "src",
+    "outDir": "lib",
+    "ignoreDeprecations": "5.0"
+  },
+  "references": [{ "path": "../nbdime" }],
+  "include": ["src/**/*.ts"]
+}

@@ -1,0 +1,116 @@
+.nbdime-root .cm-merge {
+  position: relative;
+  white-space: pre;
+  /* style as jp-InputArea-editor: */
+  border: var(--codemirror-border);
+  border-radius: 0px;
+  background: var(--jp-cell-editor-background);
+}
+
+.nbdime-root .cm-merge-grid-panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(18px, auto);
+}
+
+.nbdime-root .cm-merge-left-editor {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.nbdime-root .cm-central-editor {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.nbdime-root .cm-merge-right-editor {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.nbdime-root .cm-merge-editor {
+  grid-column: 1/4;
+  grid-row: 2;
+}
+
+.nbdime-root .cm-diff-grid-panel {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  grid-auto-rows: minmax(18px, auto);
+}
+
+.nbdime-root .cm-diff-left-editor {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.nbdime-root .cm-diff-right-editor {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.nbdime-root .cm-merge-spacer {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 5px,
+    rgba(255, 255, 255, 0.5) 5px,
+    rgba(255, 255, 255, 0.5) 10px
+  );
+}
+
+.nbdime-root .cm-merge-gap {
+  z-index: 2;
+  display: inline-block;
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-left: var(--codemirror-border);
+  border-right: var(--codemirror-border);
+  position: absolute;
+  color: var(--jp-ui-font-color2);
+  background: var(--jp-layout-color2);
+}
+
+.nbdime-root .cm-merge-scrolllock-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.nbdime-root .cm-merge-scrolllock {
+  position: relative;
+  left: -50%;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.nbdime-root .cm-merge-pane {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  width: 100%;
+}
+
+.nbdime-root .cm-merge-pane-rightmost {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+
+.nbdime-root .cm-merge-pane-unchanged {
+  width: 100%;
+}
+
+.nbdime-root .cm-merge-r-deleted,
+.cm-l-deleted,
+.cm-merge-m-deleted {
+  background-color: var(--jp-diff-deleted-color2);
+}
+
+.nbdime-root .cm-gutter {
+  cursor: default;
+}
