@@ -1,0 +1,6 @@
+sklearn-crfsuite
+tqdm
+
+[test]
+pytest
+coverage
