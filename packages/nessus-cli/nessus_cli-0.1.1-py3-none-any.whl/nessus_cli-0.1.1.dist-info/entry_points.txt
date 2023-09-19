@@ -1,0 +1,2 @@
+[console_scripts]
+nessus-cli = nessus_cli.main:main
