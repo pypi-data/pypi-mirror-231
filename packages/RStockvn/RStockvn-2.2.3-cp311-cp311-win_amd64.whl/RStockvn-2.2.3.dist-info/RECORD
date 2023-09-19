@@ -1,0 +1,15 @@
+RStockvn/__init__.cp311-win_amd64.pyd,sha256=QQESd19xBGK3c0muiJ7iBvn7IlGCmpRXZlsgnqcyNrw,45056
+RStockvn/cafef_test.cp311-win_amd64.pyd,sha256=gGSsTNv7qFsT9xIxgLCsSho2bL-ZXlowHQumL4ET6ts,120320
+RStockvn/ls_cafef.cp311-win_amd64.pyd,sha256=8Gw-7XaCqXMy2OkziH6SIn-FMzVn3KKtt4MvgnctucE,54272
+RStockvn/report_vnd.cp311-win_amd64.pyd,sha256=Bz29eIZb3qg2EmxFA7uZPJ-ZOIGDIeMvPz3ICg7pI-g,68096
+RStockvn/stockvn.cp311-win_amd64.pyd,sha256=RHmjiNp_-NM3f9ADvuPU7j9NMnUXr9qD7PpOIrzQDDs,189952
+RStockvn/user_agent.cp311-win_amd64.pyd,sha256=ONLpHf7Bmajum6xHiSKX1RoVRtSbB4BKEpinNSJu3sY,325632
+RStockvn/chrome_driver/__init__.cp311-win_amd64.pyd,sha256=DPdaqjiDzomIGd4ni2xvdyplmd4z5dFtoS1wmSI3xSY,20992
+RStockvn/chrome_driver/chromedriver_setup.cp311-win_amd64.pyd,sha256=jFb9QQ8_Xt_bIv9TTu--m55uFCVRNa9028Ev3Yk29-w,107520
+RStockvn/data/__init__.cp311-win_amd64.pyd,sha256=gfSD6dw81VwgLaNWX2H1Nj7ZHBzVY-4Ot82cvHEdGow,20992
+RStockvn/data/ds_company.cp311-win_amd64.pyd,sha256=p_q9pPEzNgTmhw28URP14NvEmZW8esoAbh_BEo78svA,102400
+RStockvn-2.2.3.dist-info/LICENSE,sha256=JCqCoa4UiX0iKaqXRShKwd6GPsOeC98wrwQy-uFHppo,1090
+RStockvn-2.2.3.dist-info/METADATA,sha256=WacVMdAssFEDHS4OXQxEFzKjoOzIhqu-Wh6kiO89fL8,10793
+RStockvn-2.2.3.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+RStockvn-2.2.3.dist-info/top_level.txt,sha256=TRLl-sz_RCnwlF9LHYuPi3vjl7FKLf7eSkW1vkn6TP8,9
+RStockvn-2.2.3.dist-info/RECORD,,
