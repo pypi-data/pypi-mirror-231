@@ -1,0 +1,17 @@
+SG1AB/__init__.py,sha256=IWSOXJEiJKK3s90bnc4c2wO6zW6Y7lpFtaIllozvkns,1190
+SG1AB/nnfw_api_pybind.cpython-38-aarch64-linux-gnu.so,sha256=iI3lvbQunQJTAx8dTdChcuByrZ3HD-zM9bhA79HOtvg,249504
+SG1AB/nnfw_api_pybind.cpython-38-arm-linux-gnueabihf.so,sha256=BJ--xRQ64JYHtwZUQrfqShDYCO7GkhCAVyOOcjPehBg,166348
+SG1AB/nnfw_api_pybind.cpython-38-x86_64-linux-gnu.so,sha256=co2IMMN3F5I3SUM3YoCYI7yUp8qHoVhMXmvcGct5l5I,237336
+SG1AB/aarch64/libbackend_cpu.so,sha256=VjYCl55OvXa9ddRlu4WtGKatab5FPeDJfPCah6RMP9I,2721736
+SG1AB/aarch64/libnnfw-dev.so,sha256=Gzxsph5jKcwk9IHFxK8jmO7OFHjNUhxG2PuP6M1MrkY,642368
+SG1AB/aarch64/libonert_core.so,sha256=w4URm8sP9vouhCzE-gunMSZxHVZJTnQFYulFuCcj8c0,3184752
+SG1AB/armv7l/libbackend_cpu.so,sha256=ndVKCZ8a48koBa6gI9FGw19wPMIkYtotY-540g_Z7Lw,2010960
+SG1AB/armv7l/libnnfw-dev.so,sha256=AojvliKKu8gh75IrFchKZfHT56fj6-AvnoIkVuM2Aio,422340
+SG1AB/armv7l/libonert_core.so,sha256=ejMwun6FTwPTa7cbge6hUP72ezyoyIG0mEeNAYOkgrw,2174760
+SG1AB/x86_64/libbackend_cpu.so,sha256=UIBTAn75WT-gXulyq3V1systpuKhJuH-i2Z29aZx7D4,3020608
+SG1AB/x86_64/libnnfw-dev.so,sha256=Bj6bbhmZUli4F1qTs8-Sr4GsvUTsxVzvfaU2J6OO4y8,695808
+SG1AB/x86_64/libonert_core.so,sha256=Tn-6bh53Jd_PfxH0ap2cp0UDOc0smsKoiWyx7ZS8Ilw,3377416
+SG1AB-1.0.2.1.dist-info/METADATA,sha256=kAa1FxXrjkWxePYDj-B6VmHTc3msZGWBHecThunr2-w,255
+SG1AB-1.0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SG1AB-1.0.2.1.dist-info/top_level.txt,sha256=AL85HNhSypdWTwgYm2ZcLi8s7pX1pJs4LlAILX39KN0,6
+SG1AB-1.0.2.1.dist-info/RECORD,,
