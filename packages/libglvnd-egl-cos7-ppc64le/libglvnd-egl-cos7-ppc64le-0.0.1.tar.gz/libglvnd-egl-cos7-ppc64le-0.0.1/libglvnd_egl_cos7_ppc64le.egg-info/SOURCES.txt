@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libglvnd_egl_cos7_ppc64le.egg-info/PKG-INFO
+libglvnd_egl_cos7_ppc64le.egg-info/SOURCES.txt
+libglvnd_egl_cos7_ppc64le.egg-info/dependency_links.txt
+libglvnd_egl_cos7_ppc64le.egg-info/top_level.txt
