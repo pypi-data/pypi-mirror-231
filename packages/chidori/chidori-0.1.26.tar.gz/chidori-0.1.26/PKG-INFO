@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: chidori
+Version: 0.1.26
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: typing-extensions >=3 ; python_version < '3.8'
+Requires-Dist: cffi
+Summary: A framework for building LLM based agents
+Home-Page: https://docs.thousandbirds.ai
+Author: Colton Pierson <colton@thousandbirds.ai>
+Author-email: Colton Pierson <colton@thousandbirds.ai>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://github.com/thousandbirds/chidori
+Project-URL: documentation, https://github.com/thousandbirds/chidori/README.md
+Project-URL: repository, https://github.com/thousandbirds/chidori
+
+# Chidori
+
+## Generating Python Client
+- maturin develop --features python
+
+## Generating Nodejs Client
+- npm run build-release
+
+
+Python patterns were implemented while referring to https://github.com/pydantic/pydantic-core/tree/main/python/pydantic_core
