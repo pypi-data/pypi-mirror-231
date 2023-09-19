@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: podio-python
+Version: 0.1.0
+Summary: API wrapper for Podio written in Python
+License: MIT
+Author: Juan Carlos Rios
+Author-email: juankrios15@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# podio-python
+![](https://img.shields.io/badge/version-0.1.0-success) ![](https://img.shields.io/badge/Python-3.8%20|%203.9%20|%203.10%20|%203.11-4B8BBE?logo=python&logoColor=white)  
+
+*podio-python* is an API wrapper for Podio, written in Python.  
+This library uses Oauth2 for authentication.
+## Installing
+```
+pip install podio-python
+```
+## Usage
+```python
+# if you have an access token:
+from podio.client import Client
+client = Client(access_token=access_token)
+```
