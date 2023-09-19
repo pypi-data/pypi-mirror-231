@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+rb_yajl_ruby.egg-info/PKG-INFO
+rb_yajl_ruby.egg-info/SOURCES.txt
+rb_yajl_ruby.egg-info/dependency_links.txt
+rb_yajl_ruby.egg-info/top_level.txt
