@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lib_llm
+Version: 0.1.0
+Summary: python library that contains all AI/ML related code
+Author: Alexander Slessor
+Author-email: alexjslessor@gmail.com.com
+Requires-Python: >=3.11.4,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: fastapi-tools (>=0.0.3,<0.0.4)
+Requires-Dist: langchain (>=0.0.286,<0.0.287)
+Requires-Dist: openai (>=0.28.0,<0.29.0)
+Requires-Dist: openapi-schema-pydantic (==1.2.4)
+Requires-Dist: pydantic (>=1.10.12,<2.0.0)
+Requires-Dist: pymupdf (>=1.23.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+
+
+Van Ben Questions:
+- What is python poetry
+- What is a .whl file
+- What is a coverage report
+- what is python's __all__
+
+
+
