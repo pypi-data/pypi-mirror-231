@@ -1,0 +1,40 @@
+# {{project_name}}
+
+{%- import 'template/context' as ctx with context %}
+
+[![documentation][badge_documentation]]({{ctx.remote_url_pages}}) [![badge_pipeline][]]({{ctx.remote_url_https}}/-/pipelines) [![badge_coverage][]]({{ctx.remote_url_pages}}/coverage) [![badge_maintainability][]]()
+
+[badge_documentation]: {{ctx.remote_url_pages}}/badges/documentation.svg
+[badge_coverage]: {{ctx.remote_url_https}}/badges/{{default_branch}}/coverage.svg
+[badge_pipeline]: {{ctx.remote_url_https}}/badges/{{default_branch}}/pipeline.svg
+[badge_maintainability]: {{ctx.remote_url_pages}}/badges/maintainability.svg
+
+<!-- TODO: extend readme template -->
+
+## Installation
+
+```console
+pip install git+{{ ctx.remote_url_https }}
+```
+
+## Usage
+
+Call the `{{ ctx.cli_command }}` command line interface like this:
+
+```console
+$ {{ ctx.cli_command }}
+Hello, {{project_name}}!
+```
+
+Provide the `--help` option to see supported options and arguments.
+
+---
+*This project was created using the [Project Template for Python](
+{%- if remote == 'github' -%}
+https://github.com/jannismain/python-project-template
+{%- elif remote == 'gitlab-iis' -%}
+https://git01.iis.fhg.de/mkj/project-template
+{%- elif remote == 'gitlab-fhg' -%}
+https://gitlab.cc-asp.fraunhofer.de/mkj/project-template
+{%- endif -%}
+)*
