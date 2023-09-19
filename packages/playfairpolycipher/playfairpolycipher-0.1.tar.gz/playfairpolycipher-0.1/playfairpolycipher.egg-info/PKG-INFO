@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: playfairpolycipher
+Version: 0.1
+Summary: A Python library for the Playfair Cipher
+Home-page: https://github.com/Fluffy-debuger/poly_playfair_cipher
+Author: Fluffy_Debuger,SiddheshGanesh
+Author-email: a69247199@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+```markdown
+# Playfair Poly Cipher
+
+Playfair Poly Cipher(Polyalphabetic Playfair cipher) is a Python library that provides tools for encrypting and decrypting text using the Playfair Cipher with a customizable key matrix.
+
+## Installation
+
+You can install Poly Playfair Cipher using pip:
+
+```bash
+pip install poly-playfair-cipher
+```
+
+## Example
+
+### Encrypting Text
+
+```python
+from playfairpolycipher import PlayfairCipher
+
+# Define a key for the Playfair Cipher
+key = "KEYWORD"
+
+# Initialize the PlayfairCipher with the key
+cipher = PlayfairCipher(key)
+
+# Encrypt a plaintext
+plaintext = "HELLO WORLD"
+ciphertext = cipher.encrypt(plaintext)
+print("Ciphertext:", ciphertext)
+```
+
+### Decrypting Text
+
+```python
+from playfairpolycipher import PlayfairCipher
+
+# Define a key for the Playfair Cipher
+key = "KEYWORD"
+
+# Initialize the PlayfairCipher with the key
+cipher = PlayfairCipher(key)
+
+# Decrypt a ciphertext
+ciphertext = "ILIDGJZTJG"
+plaintext = cipher.decrypt(ciphertext)
+print("Decrypted Text:", plaintext)
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```

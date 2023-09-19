@@ -1,0 +1,9 @@
+License.txt
+README.md
+setup.py
+PlayfairCipher/PlayfairCipher.py
+PlayfairCipher/__init__.py
+playfairpolycipher.egg-info/PKG-INFO
+playfairpolycipher.egg-info/SOURCES.txt
+playfairpolycipher.egg-info/dependency_links.txt
+playfairpolycipher.egg-info/top_level.txt
