@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dragon-upgrader"
+version = "0.1.0"
+description = ""
+authors = ["Dizzy Dolphin <dizzydolphin@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
