@@ -1,0 +1,15 @@
+SemanticStore/StoreObjects.py,sha256=_55LhTbLT1DwpQUn3ag1TJFAzCfvEzDkZIsNfuDKy-I,2422
+SemanticStore/__init__.py,sha256=bU4psu3oAcbidYCbY7gCbHezSx4EdRuy3WN3czduGlE,34
+SemanticStore/driver.py,sha256=SDW3hsFoV-4f0PEL8rWUQRWWCw-C-P1NVuM4eNH61tI,9680
+SemanticStore/models.py,sha256=NBPFd-ejxuqS_dNFlufGaIBFpIbaobHXJTKGNiWhhRU,1704
+SemanticStore/utils.py,sha256=da_YyuXSwCsmddO6XsDjUNcF9DVtYTzHeLPO3WEXS_8,3838
+SemanticStore/pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SemanticStore/pipelines/audiopipeline.py,sha256=OALc10KhzGl-0yVFGzI7cvYPgBS_HM2mB0Y-ly5B0Bk,3450
+SemanticStore/pipelines/basepipeline.py,sha256=sZp0nhK2ijpo5Cfxwp41FH4YfZTqyvGZBK5NjoIN9yc,714
+SemanticStore/pipelines/imagepipeline.py,sha256=9X6aYXl9jMwwaWqMwUux4O8olDgnMZPf9JhGK61_Qsg,4476
+SemanticStore/pipelines/textpipeline.py,sha256=Dlmdu9FxoLm4IgJO23teYQU_VMD3wDTIJQbBjh3VAWc,4909
+semantic_store-0.0.9.dist-info/LICENSE,sha256=Cvl-qNQ20jdOFeXoUyWa9UtnCqOZVqdHYb6tlHhLFcA,1087
+semantic_store-0.0.9.dist-info/METADATA,sha256=FH_1dpo4TahZkhMKxqnlEuk3GXSQlJ0xDJvufRNNx3s,10221
+semantic_store-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+semantic_store-0.0.9.dist-info/top_level.txt,sha256=na3aJDsJaZYUSO14SFwi0G8wrzNa9EjSOQ6YZBPm3wk,14
+semantic_store-0.0.9.dist-info/RECORD,,
