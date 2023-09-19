@@ -1,0 +1,28 @@
+[package]
+name = "candle-pyo3"
+version= "0.2.3"
+edition= "2021"
+description= "Minimalist ML framework."
+repository= "https://github.com/huggingface/candle"
+keywords= ["blas", "tensor", "machine-learning"]
+categories= ["science"]
+license= "MIT OR Apache-2.0"
+readme = "README.md"
+resolver = "2"
+
+[lib]
+name = "candle"
+crate-type = ["cdylib"]
+
+[dependencies]
+candle = { path = "local_dependencies/candle", version = "0.2.3", package = "candle-core" }
+candle-nn = { path = "local_dependencies/candle-nn", version = "0.2.3" }
+pyo3 = { version = "0.19.0", features = ["extension-module"] }
+half = { version = "2.3.1", features = ["num-traits", "use-intrinsics", "rand_distr"] }
+
+[build-dependencies]
+pyo3-build-config = "0.19"
+
+[features]
+default = []
+cuda = ["candle/cuda"]
