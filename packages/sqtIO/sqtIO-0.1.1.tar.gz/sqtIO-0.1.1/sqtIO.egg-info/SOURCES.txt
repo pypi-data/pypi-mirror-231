@@ -1,0 +1,8 @@
+setup.py
+sqtIO/__init__.py
+sqtIO/sqt_io.py
+sqtIO.egg-info/PKG-INFO
+sqtIO.egg-info/SOURCES.txt
+sqtIO.egg-info/dependency_links.txt
+sqtIO.egg-info/requires.txt
+sqtIO.egg-info/top_level.txt
