@@ -1,0 +1,13 @@
+rdfox_runner>=0.5.1
+pandas
+click>=8.0
+
+[:python_version < "3.9"]
+importlib_resources
+
+[docs]
+jupyter-book<0.14,>=0.13
+
+[test]
+pytest
+probs_ontology
