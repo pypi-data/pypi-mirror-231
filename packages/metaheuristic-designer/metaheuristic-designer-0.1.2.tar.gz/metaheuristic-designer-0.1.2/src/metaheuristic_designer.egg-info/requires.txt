@@ -1,0 +1,17 @@
+matplotlib>=3.5
+numpy>=1.21
+scipy>=1.8
+pyparsing>=3.0
+scikit-image>=0.21
+
+[dev]
+pytest>=7.4.0
+coverage>=7.3.1
+pydata-sphinx-theme>=0.13.3
+sphinx>=7.1.1
+pygame>=2.5.0
+networkx>=3.1
+
+[examples]
+pygame>=2.5.0
+networkx>=3.1
