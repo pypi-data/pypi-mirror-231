@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+liblapack.egg-info/PKG-INFO
+liblapack.egg-info/SOURCES.txt
+liblapack.egg-info/dependency_links.txt
+liblapack.egg-info/top_level.txt
