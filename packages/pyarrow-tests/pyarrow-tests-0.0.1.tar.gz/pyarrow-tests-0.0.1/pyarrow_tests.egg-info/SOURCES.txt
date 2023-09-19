@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+pyarrow_tests.egg-info/PKG-INFO
+pyarrow_tests.egg-info/SOURCES.txt
+pyarrow_tests.egg-info/dependency_links.txt
+pyarrow_tests.egg-info/top_level.txt
