@@ -1,0 +1,6 @@
+rich>=9.13.0
+Pillow
+chardet
+lxml
+defusedxml
+pyperclip>=1.8.0
