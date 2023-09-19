@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+posit2023_nbdev/__init__.py
+posit2023_nbdev/_modidx.py
+posit2023_nbdev/card.py
+posit2023_nbdev/core.py
+posit2023_nbdev/deck.py
+posit2023_nbdev.egg-info/PKG-INFO
+posit2023_nbdev.egg-info/SOURCES.txt
+posit2023_nbdev.egg-info/dependency_links.txt
+posit2023_nbdev.egg-info/entry_points.txt
+posit2023_nbdev.egg-info/not-zip-safe
+posit2023_nbdev.egg-info/requires.txt
+posit2023_nbdev.egg-info/top_level.txt
