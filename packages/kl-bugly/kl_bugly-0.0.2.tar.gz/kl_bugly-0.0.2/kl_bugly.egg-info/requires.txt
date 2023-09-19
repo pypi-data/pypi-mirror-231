@@ -1,0 +1,4 @@
+selenium==4.7.2
+requests-html==0.10.0
+requests==2.27.1
+pydantic==1.10.2
