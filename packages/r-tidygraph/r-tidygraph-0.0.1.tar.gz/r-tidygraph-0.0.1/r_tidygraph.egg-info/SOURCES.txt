@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+r_tidygraph.egg-info/PKG-INFO
+r_tidygraph.egg-info/SOURCES.txt
+r_tidygraph.egg-info/dependency_links.txt
+r_tidygraph.egg-info/top_level.txt
