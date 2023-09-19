@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+basapy/__init__.py
+basapy/format.py
+basapy.egg-info/PKG-INFO
+basapy.egg-info/SOURCES.txt
+basapy.egg-info/dependency_links.txt
+basapy.egg-info/requires.txt
+basapy.egg-info/top_level.txt
