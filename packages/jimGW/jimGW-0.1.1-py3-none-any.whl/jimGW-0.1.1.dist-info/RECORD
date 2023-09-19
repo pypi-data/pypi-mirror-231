@@ -1,0 +1,16 @@
+jimgw/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jimgw/constants.py,sha256=pMr6s8WR_zD6wUIAYx6aMqxD_DN9XRb_saRar0RduTk,472
+jimgw/data.py,sha256=7xerRtNTHkc-z5p81KFlPx7Qut-8z_mZuJq2JpMJ2fo,259
+jimgw/detector.py,sha256=So8ThbyBWktQv-uqsF-icvsLwrEiVORjXFEEKB5WEVQ,12101
+jimgw/jim.py,sha256=Y6Sok8rVO1av_WKT4Y_gj3Jza7u3o75U8-ddN5kHazg,5363
+jimgw/likelihood.py,sha256=bvl_x9LoluVMXbwllxdom2bdo5I62Y_n5-8CBoV7B9o,13839
+jimgw/model.py,sha256=BGyZsxLmQ7Q2qUmDDSjvz8E48ffoOEmkm-6rGzFuDvI,287
+jimgw/prior.py,sha256=W6RmA5Bji9GrFETbUwdTdtx_yZl0PnOw5CzqU-E_sLE,3931
+jimgw/utils.py,sha256=boyfzk_Odr2AzXfgwkbEai8GclqlVr2gMCTVKmmlEFM,1112
+jimgw/wave.py,sha256=jWsQqVbTpZPwOtitYlPaGwZ-3o064J2_rf6DjlFO62Q,2853
+jimgw/waveform.py,sha256=m5NXBSI9XwllAOOOkEy2XvVDAgBwdRhwhgh_RiWYUEM,1716
+jimGW-0.1.1.dist-info/LICENSE,sha256=s7n-6SxvTDX8fAgxa7scGeQQQBFA6B7yewNo9Dxa6nk,1066
+jimGW-0.1.1.dist-info/METADATA,sha256=vASv5eTJknhqI-jmrOOS2RYc0QkKnrw2s0xupC-BBdQ,2770
+jimGW-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jimGW-0.1.1.dist-info/top_level.txt,sha256=ZqxP_4bPZuPMsrVP1xnPEJzwWAQ58Wlpg6_KkBNq3y4,6
+jimGW-0.1.1.dist-info/RECORD,,
