@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DataPyNumerics
+Version: 3.0.0
+Summary: A tool to help with data, numerics and serialization.
+Author: chanakya ram sai illa
+Author-email: chanakyaramsaiilla@gmail.com
+Keywords: numerics,datastore,serialize
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A tool that will help with data storage, text to numerics and serialization.
