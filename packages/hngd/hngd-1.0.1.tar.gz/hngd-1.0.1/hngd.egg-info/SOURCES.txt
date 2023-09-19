@@ -1,0 +1,232 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+examples/Animation example/animation_example.py
+examples/Animation example/Outputs/test_animation.gif
+examples/Cooling rate experiments/cooling_rate_animation.py
+examples/Cooling rate experiments/cooling_rate_experiments.py
+examples/Cooling rate experiments/Outputs/Css_vs_temperature.png
+examples/Cooling rate experiments/Outputs/cooling_rate_0.01_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_0.1_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_0.2_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_0.5_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_0.8_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_1.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_10.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_100.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_2.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_20.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_5.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_50.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_8.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/cooling_rate_80.0_node_1_output_file.txt
+examples/Cooling rate experiments/Outputs/example_cooling_rate_10.0_animation.gif
+examples/Cooling rate experiments/Outputs/precipitation_fraction_vs_cooling_rate.png
+examples/Debugging example/debugger_example.py
+examples/Kammenzind experiments/Asymmetric Experiments/experimental_data.py
+examples/Kammenzind experiments/Asymmetric Experiments/kammenzind_asymmetric_experiment_animation.py
+examples/Kammenzind experiments/Asymmetric Experiments/kammenzind_asymmetric_experiments.py
+examples/Kammenzind experiments/Asymmetric Experiments/Data/A53.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Data/A54.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Data/A55a.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Data/A55b.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Data/A56.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Data/readme.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/A53_last_concentration_profile.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/A54_last_concentration_profile.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/A55a_last_concentration_profile.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/A55b_last_concentration_profile.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/A56_last_concentration_profile.txt
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/asymmetric_A53.png
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/asymmetric_A54.png
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/asymmetric_A55a.png
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/asymmetric_A55b.png
+examples/Kammenzind experiments/Asymmetric Experiments/Outputs/asymmetric_A56.png
+examples/Kammenzind experiments/Linear Experiments/experimental_data.py
+examples/Kammenzind experiments/Linear Experiments/kammenzind_linear_experiment_animation.py
+examples/Kammenzind experiments/Linear Experiments/kammenzind_linear_experiments.py
+examples/Kammenzind experiments/Linear Experiments/Data/A09a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A09b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A10a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A10b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A11a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A11b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A12a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A12b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A13.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A13a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A14.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A26a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A26b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A27.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A31.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A45.txt
+examples/Kammenzind experiments/Linear Experiments/Data/A46.txt
+examples/Kammenzind experiments/Linear Experiments/Data/B14.txt
+examples/Kammenzind experiments/Linear Experiments/Data/B15.txt
+examples/Kammenzind experiments/Linear Experiments/Data/B16.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C13.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C14a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C14b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C15a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C15b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C16a.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C16b.txt
+examples/Kammenzind experiments/Linear Experiments/Data/C18.txt
+examples/Kammenzind experiments/Linear Experiments/Data/readme.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A09a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A09b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A10a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A10b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A11a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A11b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A12a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A12b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A13_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A13a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A14_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A26a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A26b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A27_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A31_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A45_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/A46_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/B14_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/B15_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/B16_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C13_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C14a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C14b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C15a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C15b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C16a_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C16b_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/C18_last_concentration_profile.txt
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A09a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A09b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A10a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A10b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A11a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A11b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A12a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A12b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A13.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A13a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A14.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A26a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A26b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A27.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A31.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A45.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_A46.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_B14.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_B15.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_B16.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C13.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C14a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C14b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C15a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C15b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C16a.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C16b.png
+examples/Kammenzind experiments/Linear Experiments/Outputs/linear_C18.png
+examples/Lacroix experiments/lacroix_experiment.py
+examples/Lacroix experiments/lacroix_experiment_animation.py
+examples/Lacroix experiments/Data/lacroix_experimental_data.txt
+examples/Lacroix experiments/Outputs/lacroix_experiment.png
+examples/Lacroix experiments/Outputs/lacroix_experiment_node_1_output_file.txt
+examples/Liner experiments/animation_liner.py
+examples/Liner experiments/example_liner.py
+examples/Liner experiments/Outputs/solubility_factor_0.3_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_0.4_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_0.5_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_0.6_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_0.7_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_0.8_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_0.9_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factor_1.0_last_concentration_profile.txt
+examples/Liner experiments/Outputs/solubility_factors.png
+examples/Model verification/model_verification.py
+examples/Model verification/Outputs/isothermal_precipitation.png
+examples/Model verification/Outputs/isothermal_precipitation_node_1_output_file.txt
+examples/Model verification/Outputs/precipitation_during_heating.png
+examples/Model verification/Outputs/precipitation_during_heating_node_1_output_file.txt
+examples/Model verification/Outputs/precipitation_with_hydrides.png
+examples/Model verification/Outputs/precipitation_with_hydrides_node_1_output_file.txt
+examples/Others/Animate thermal history/animate_thermal_history.py
+examples/Others/Animate thermal history/thermal_history_animation.gif
+examples/Others/Diffusion coefficients/diffusion_coefficients.png
+examples/Others/Diffusion coefficients/diffusion_coefficients.py
+examples/Others/TSSp and TSSd/table_legend.py
+examples/Others/TSSp and TSSd/terminal_solid_solubility.png
+examples/Others/TSSp and TSSd/terminal_solid_solubility.py
+examples/Others/Test timestep calculation/test_timestep_fick_law.py
+examples/Others/Test timestep calculation/test_timestep_kinetics.py
+examples/Others/Test timestep calculation/test_timestep_soret_effect.py
+examples/Others/Test timestep calculation/Outputs/dissolution_10_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/dissolution_1_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/dissolution_2_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/dissolution_5_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/fick_1200_last_concentration_profile.txt
+examples/Others/Test timestep calculation/Outputs/fick_1800_last_concentration_profile.txt
+examples/Others/Test timestep calculation/Outputs/fick_600_last_concentration_profile.txt
+examples/Others/Test timestep calculation/Outputs/fick_verification.png
+examples/Others/Test timestep calculation/Outputs/growth_10_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/growth_1_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/growth_2_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/growth_5_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/kinetics_verification.png
+examples/Others/Test timestep calculation/Outputs/nucleation_10_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/nucleation_1_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/nucleation_2_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/nucleation_5_node_1_output_file.txt
+examples/Others/Test timestep calculation/Outputs/soret_17280_last_concentration_profile.txt
+examples/Others/Test timestep calculation/Outputs/soret_25920_last_concentration_profile.txt
+examples/Others/Test timestep calculation/Outputs/soret_8640_last_concentration_profile.txt
+examples/Others/Test timestep calculation/Outputs/soret_verification.png
+examples/Others/mHNGD parameters/test_TSSd_eff_mHNGD.png
+examples/Others/mHNGD parameters/test_TSSd_eff_mHNGD.py
+examples/Others/mHNGD parameters/test_TSSp_eff_mHNGD.png
+examples/Others/mHNGD parameters/test_TSSp_eff_mHNGD.py
+examples/Sawatzky experiments/sawatzky_experiment_animation.py
+examples/Sawatzky experiments/sawatzky_experiments.py
+examples/Sawatzky experiments/Outputs/sawatzky_experiment_1.png
+examples/Sawatzky experiments/Outputs/sawatzky_experiment_1_last_concentration_profile.txt
+examples/Sawatzky experiments/Outputs/sawatzky_experiment_2.png
+examples/Sawatzky experiments/Outputs/sawatzky_experiment_2_last_concentration_profile.txt
+examples/Simulation example/example_use.py
+examples/Simulation example/Outputs/test_node_1_output_file.txt
+examples/TTT experiments/TTT_experiment.py
+examples/TTT experiments/Outputs/Css_vs_temperature.png
+examples/TTT experiments/Outputs/TTT experiment.txt
+examples/TTT experiments/Outputs/TTT_250C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_255C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_260C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_265C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_270C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_275C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_280C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_285C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_290C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_295C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_300C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_305C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_310C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_315C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_320C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_325C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_330C_node_1_output_file.txt
+examples/TTT experiments/Outputs/TTT_diagram.png
+hngd/.numba_config.yaml
+hngd/__init__.py
+hngd/animation_utils.py
+hngd/default.py
+hngd/hngd.py
+hngd/io_utils.py
+hngd/run.py
+hngd.egg-info/PKG-INFO
+hngd.egg-info/SOURCES.txt
+hngd.egg-info/dependency_links.txt
+hngd.egg-info/requires.txt
+hngd.egg-info/top_level.txt
