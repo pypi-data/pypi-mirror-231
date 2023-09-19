@@ -1,0 +1,11 @@
+candle_nn-0.2.3.dist-info/METADATA,sha256=8XTA0XbD7xInI-9rEqg0VmcF_PnfGyJqoZpMUmFTtRk,1011
+candle_nn-0.2.3.dist-info/WHEEL,sha256=MdaJ6kmW2dr3Wr2yI43Aru_cnAt4stHkYF4ZTyaCYvs,108
+candle/__init__.pyi,sha256=N0buk8q-pqkhpfN2OIu5fCxjgfJ8227shFWsRsHH9gg,10076
+candle/__init__.py,sha256=clF7ueQcAMSjr2SmcbvkCtCpBKkfg2X0XNkMWKFjoaE,107
+candle/typing/__init__.py,sha256=VDUlYx6I4jR7beMmF7YG4sq-ZyKjftCJzEFNgEWqN-w,301
+candle/nn/__init__.pyi,sha256=6692vFnvLhDdmQuTTx7Ffo4UH2oKnrio9WTZb3wVY3E,511
+candle/nn/__init__.py,sha256=9EsnJGzhELKDHiSlaqJXXxHLba26cviwN2M3Y02AnDw,87
+candle/utils/__init__.pyi,sha256=Zb6B4ACh2EP-LLE8xgr--xvMvvUQCTJAk4xKVYdNdJo,1919
+candle/utils/__init__.py,sha256=M8JNepKzDM4AcN37ZhAdDOc1aVcnLTWHNSs3fl9sFiM,368
+candle/candle.cpython-310-x86_64-linux-gnu.so,sha256=qohqeBWlrdTzBVH44GtukRo8jheNeDUzvdfpmCWb0_0,3144600
+candle_nn-0.2.3.dist-info/RECORD,,
