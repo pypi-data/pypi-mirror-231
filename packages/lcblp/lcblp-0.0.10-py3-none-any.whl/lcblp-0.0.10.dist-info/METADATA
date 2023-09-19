@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lcblp
+Version: 0.0.10
+Summary: LPLP
+Home-page: https://github.com/halfTaim/lcblp.git
+Author: LCB
+Author-email: lcvrjqnr@gmail.com
+Keywords: lcblp,lcb
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
