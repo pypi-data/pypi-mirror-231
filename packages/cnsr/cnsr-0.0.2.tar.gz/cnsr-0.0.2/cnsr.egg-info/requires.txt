@@ -1,0 +1,15 @@
+click<9
+ipyfilechooser<1
+jupyter_app_launcher<1,>=0.1
+jupyterlab<4,>=3.1
+matplotlib<4
+mne<2
+mne-nirs<1
+neurokit2<1
+nilearn<1
+numpy<2
+openpyxl<4
+pandas<3
+
+[tests]
+pytest
