@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nations
+Version: 0.0.2
+Summary: A package to retrieve data about different nations.
+Author-email: Jess Stingray <jess@mircoxi.com>
+Project-URL: Homepage, https://github.com/Mircoxi/py-nations
+Project-URL: Bug Tracker, https://github.com/Mircoxi/py-nations
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# py-nations
