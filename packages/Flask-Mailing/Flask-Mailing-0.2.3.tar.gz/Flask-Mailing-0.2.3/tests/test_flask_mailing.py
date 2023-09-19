@@ -1,0 +1,7 @@
+from flask_mailing.config import ConnectionConfig
+
+
+def test_configuration(mail_config):
+    conf = ConnectionConfig.model_validate(mail_config)
+    assert conf.MAIL_USERNAME == "example@test.com"
+    assert conf.MAIL_PORT == 25
