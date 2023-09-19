@@ -1,0 +1,14 @@
+biocommons/example/__init__.py,sha256=YkT0aSo7vp-LqFTxuzQg9RYZ7Q8_9Cg1Lfj5o-Cu4Kw,313
+biocommons/example/__main__.py,sha256=zlVKqnX4aUFtEzOCbFY7JxPdDKP8ti-SyxpOLv6n6z0,609
+biocommons/example/marvin.py,sha256=2e8P-Z03kvGfl3NeyadX2-8f9jmhtmsHmDICzzHEN_U,796
+biocommons/example/marvin_adjacent_test.py,sha256=ZG1LysuTfzSWAZ2nzrwB4cxBqss9piNS8jtr1J7bEoU,163
+biocommons/example/quotes.yaml,sha256=oAPefDmHFOCpFZDl9FaxGT-NSGTTgWZqnFQ5O4MyqBU,1516
+biocommons/example/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biocommons/example/tests/conftest.py,sha256=y0cRRvWrytvumvdG3M_IydxaiNm7Q5IaCcS-nZLSdaw,243
+biocommons/example/tests/marvin_subdir_test.py,sha256=BRJBAeSPdPfrINzefVMgLOP2Fi-InuOLA65u96xl0TU,268
+biocommons.example-0.0.4.dist-info/METADATA,sha256=5_WFk36F1kOWiDYiTF42coid97FrZOjExpX7tsHRwww,3450
+biocommons.example-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+biocommons.example-0.0.4.dist-info/entry_points.txt,sha256=r1iesWL1_lh1_M1fnXNwvyqMSsRhQBtkBSRY-OUJABM,66
+biocommons.example-0.0.4.dist-info/top_level.txt,sha256=v90N5YX9DrKAwfIk6gPvjQQCyYFujscsbpgFXFgRw90,11
+biocommons.example-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+biocommons.example-0.0.4.dist-info/RECORD,,
