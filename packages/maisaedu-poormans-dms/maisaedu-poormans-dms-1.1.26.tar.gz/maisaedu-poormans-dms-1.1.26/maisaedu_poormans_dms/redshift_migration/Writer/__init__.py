@@ -1,0 +1,21 @@
+from .WriterNonCDC import WriterNonCDC
+from .WriterCDC import WriterCDC
+
+
+def constructor(
+    env, struct, migrator_redshift_connector, update_by_cdc, prefect_logger
+):
+    if update_by_cdc is False:
+        return WriterNonCDC(
+            env=env,
+            struct=struct,
+            migrator_redshift_connector=migrator_redshift_connector,
+            prefect_logger=prefect_logger,
+        )
+    else:
+        return WriterCDC(
+            env=env,
+            struct=struct,
+            migrator_redshift_connector=migrator_redshift_connector,
+            prefect_logger=prefect_logger,
+        )
