@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "culib"
+dynamic = ["version"]
+description = "Coils Utilities Library (CULib) is a Python package for modeling air-core electromagnet coils and calculating their physical characteristics based on their geometry and wire informations."
+#readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["coil", "magnetic", "field", "electromagnet", "physics", "simulation", "bobbin", "wire"]
+authors = [
+    {name = "Pierre Letousey", email = "ple@melexis.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "altair >= 5.1",
+    "vl-convert-python >= 0.13",
+    "scipy >= 1.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black >= 23.7",
+    "ruff >= 0.0.285",
+    "pytest >= 7.4",
+    "coverage >= 7.3",
+]
+doc = [
+    "mkdocs >= 1.5",
+    "mkdocs-bootswatch >= 1.0",
+    "mkdocstrings[python] >= 0.23",
+]
+build = [
+    "build>=1.0.3",
+    "twine>=4.0.2"
+]
+
+#[project.urls]
+#Repository = "https://gitlab.melexis.com/ple/culib.git"
+#Documentation = "https://ple.pages.melexis.com/culib/"
+
+[tool.setuptools.dynamic]
+version = {attr = "culib.__version__"}
+
+[tool.black]
+target-versions = ["py37", "py38", "py39", "py310", "py311"]
+include = "culib|tests"
+force-exclude = ".gitignore"
+
+[tool.ruff]
+ignore = ["E402", "E501", "F403", "F405"]
+include = [
+    "culib/*.py",
+    "tests/*.py",
+]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+testpaths = ["culib", "tests"]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]

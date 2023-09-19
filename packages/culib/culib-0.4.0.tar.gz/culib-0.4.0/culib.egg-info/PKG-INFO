@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: culib
+Version: 0.4.0
+Summary: Coils Utilities Library (CULib) is a Python package for modeling air-core electromagnet coils and calculating their physical characteristics based on their geometry and wire informations.
+Author-email: Pierre Letousey <ple@melexis.com>
+Keywords: coil,magnetic,field,electromagnet,physics,simulation,bobbin,wire
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+Requires-Dist: altair>=5.1
+Requires-Dist: vl-convert-python>=0.13
+Requires-Dist: scipy>=1.11
+Provides-Extra: dev
+Requires-Dist: black>=23.7; extra == "dev"
+Requires-Dist: ruff>=0.0.285; extra == "dev"
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: coverage>=7.3; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: mkdocs>=1.5; extra == "doc"
+Requires-Dist: mkdocs-bootswatch>=1.0; extra == "doc"
+Requires-Dist: mkdocstrings[python]>=0.23; extra == "doc"
+Provides-Extra: build
+Requires-Dist: build>=1.0.3; extra == "build"
+Requires-Dist: twine>=4.0.2; extra == "build"
