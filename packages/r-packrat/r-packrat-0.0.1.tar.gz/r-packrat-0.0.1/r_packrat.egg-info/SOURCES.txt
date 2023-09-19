@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+r_packrat.egg-info/PKG-INFO
+r_packrat.egg-info/SOURCES.txt
+r_packrat.egg-info/dependency_links.txt
+r_packrat.egg-info/top_level.txt
