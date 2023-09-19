@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+mcsq/__init__.py
+mcsq/driver.py
+mcsq/py.typed
+mcsq.egg-info/PKG-INFO
+mcsq.egg-info/SOURCES.txt
+mcsq.egg-info/dependency_links.txt
+mcsq.egg-info/top_level.txt
+mcsq/tests/__init__.py

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mcsq
+Version: 0.0.0.dev1
+Summary: A Python driver for Blue Sky Solar Racing MC^2
+Home-page: https://github.com/blueskysolarracing/mcsq
+Author: Blue Sky Solar Racing
+Author-email: blueskysolar@studentorg.utoronto.ca
+License: MIT
+Project-URL: Documentation, https://mcsq.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/blueskysolarracing/mcsq
+Project-URL: Tracker, https://github.com/blueskysolarracing/mcsq/issues
+Keywords: python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+====
+mcsq
+====
+
+A Python driver for Blue Sky Solar Racing MC^2
