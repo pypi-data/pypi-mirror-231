@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dataspecs
+Version: 0.0.1
+Summary: Data specifications definable in data classes
+License: MIT
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# dataspecs
+Data specifications definable in data classes
+
