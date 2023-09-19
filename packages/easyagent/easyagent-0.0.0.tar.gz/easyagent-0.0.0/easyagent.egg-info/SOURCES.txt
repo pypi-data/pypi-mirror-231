@@ -1,0 +1,9 @@
+README.md
+setup.py
+easyagent.egg-info/PKG-INFO
+easyagent.egg-info/SOURCES.txt
+easyagent.egg-info/dependency_links.txt
+easyagent.egg-info/top_level.txt
+teamchain/__init__.py
+teamchain/vector_database/__init__.py
+teamchain/vector_database/in_memory.py
