@@ -1,0 +1,2 @@
+[console_scripts]
+run_agent = clean_agent.main:run_conversation
