@@ -1,0 +1,9 @@
+shapeless/README.md,sha256=ASyZ4-hVUfZgfBtZgKZ6wvmJwPvYiArXZRARI9Vp1uI,25885
+shapeless/__init__.py,sha256=jSCPPZeSxZKhhuSN3_vYU95qQ3Z72rDhV1y3TNewi5M,117
+shapeless/liquid.py,sha256=MH3w-ZErTsqwY-17DhwI_bq7ASO95SE7VMO9AQHpuCw,46194
+shapeless/main.py,sha256=HV9CE5x9-yh3melE43QGRVFA0NLs4UZFQsb1lY4VPEY,8493
+shapeless/meta_learner.py,sha256=g2m7RgRxvvnDtVzn2-59or11MP-7mGCfNrY2bOZ3bQw,370
+shapeless-0.0.8.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+shapeless-0.0.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+shapeless-0.0.8.dist-info/METADATA,sha256=mj5t2uTeSfO8-04yIlKq0Er1p1PmvbByhw3HxlwcC4E,7438
+shapeless-0.0.8.dist-info/RECORD,,
