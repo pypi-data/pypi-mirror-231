@@ -1,0 +1,12 @@
+random_neural_net_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+random_neural_net_models/autoencoder_fastai2022.py,sha256=rU-mJimHxTPcajvHqJEAxQJL7XI8PYzvIKsizD0vpIM,8827
+random_neural_net_models/backprop_rumelhart.py,sha256=y5i59RRNpIslU_fijEPGKAe1AnlcKzalxcksdrsKSnk,4122
+random_neural_net_models/convolution_lecun1990.py,sha256=fFIzbKpVRdVC3VCG-7s6jdhMbN0zu8JQ3M0KPsnz0hw,26058
+random_neural_net_models/perceptron.py,sha256=HB7l8dP4K2UiO9xS0xFnKc4E3DFJy3Az8-8Ul3AX6OA,5954
+random_neural_net_models/utils.py,sha256=p9m03YVNwGm2kypRtvbLV28o063zicsy8tVVOLV_7_c,527
+random_neural_net_models/variational_autoencoder_fastai2022.py,sha256=I7-3oyZ4yMrbRcqp2qqMFHAH_wQsuLiujYHAzSLhRSw,7963
+random_neural_net_models-0.1.0.dist-info/LICENSE,sha256=-lfpGQE12vL4qW9nH5bAu1H9aTmVveUab-nwmvskJmE,1499
+random_neural_net_models-0.1.0.dist-info/METADATA,sha256=ObvhY4v4DWux8lIGloRcoTEn_yqgTusE3iwnAsxtTMc,3255
+random_neural_net_models-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+random_neural_net_models-0.1.0.dist-info/top_level.txt,sha256=LJpI2q-7CiquNmQ3pf-29YaNWhBxBDoxxksZnt2v4gU,25
+random_neural_net_models-0.1.0.dist-info/RECORD,,
