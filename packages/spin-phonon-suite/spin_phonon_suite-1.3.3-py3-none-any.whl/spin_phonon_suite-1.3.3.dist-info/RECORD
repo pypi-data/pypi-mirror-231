@@ -1,0 +1,12 @@
+spin_phonon_suite/__init__.py,sha256=ZU7KUgQv1p5jf-lgmbvJ-tM-AtGznyHOcRUTOwupvWU,152
+spin_phonon_suite/__version__.py,sha256=91qydprSGPLR_XIXgMKlnyCDQsPnsMIrgtMj77Ux08Y,105
+spin_phonon_suite/cli.py,sha256=_PGdtlmJzn0_EzpqUK0DlTDASUqwG7VZT1MSh5up_TA,23088
+spin_phonon_suite/derivative.py,sha256=CboiWMc7TX0zPFZVfSnT1-G_BdAp8tnZEzhOJAxhk4I,1309
+spin_phonon_suite/lvc.py,sha256=Gp7EZZjVKn5NMN7IL8z_btGzwP6eTxsOwVjLnQIqBX0,22355
+spin_phonon_suite/vibrations.py,sha256=yuKHYREZpDZF_NONeMj6aJRVYvqjyGg0-iFXj70xVQ8,18795
+spin_phonon_suite-1.3.3.dist-info/LICENSE,sha256=w9_JIVBsyrO01R7CnRkGmD_yQcWWBZTLi-Xxwjc4ms8,35085
+spin_phonon_suite-1.3.3.dist-info/METADATA,sha256=sZEalDxV9Elg-5aMYdMNMjtOTJWRLZ8aJijMk0b6y0A,4111
+spin_phonon_suite-1.3.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+spin_phonon_suite-1.3.3.dist-info/entry_points.txt,sha256=sK4vQ-Ah78_oLQizVdqWTsqaJdi9RMuYU11VcQhqvqY,65
+spin_phonon_suite-1.3.3.dist-info/top_level.txt,sha256=PZUsRSsrf8lFHO6Y4I7NT2PXDn7wU3qNbugPDbmuQe8,18
+spin_phonon_suite-1.3.3.dist-info/RECORD,,
