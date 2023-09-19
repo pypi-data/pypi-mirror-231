@@ -1,0 +1,2 @@
+[nbdev]
+posit2023_nbdev = posit2023_nbdev._modidx:d
