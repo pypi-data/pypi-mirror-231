@@ -1,0 +1,4 @@
+include src/*
+exclude .idea/*
+exclude dist/*
+exclude venv/*

@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+nations/__init__.py
+nations/main.py
+nations.egg-info/PKG-INFO
+nations.egg-info/SOURCES.txt
+nations.egg-info/dependency_links.txt
+nations.egg-info/not-zip-safe
+nations.egg-info/top_level.txt
