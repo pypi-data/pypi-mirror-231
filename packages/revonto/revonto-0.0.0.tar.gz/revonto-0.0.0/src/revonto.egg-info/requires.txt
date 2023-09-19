@@ -1,0 +1,12 @@
+numpy
+scipy
+statsmodels
+
+[dev]
+pytest
+tox
+ruff
+black
+mypy
+check-manifest
+isort
