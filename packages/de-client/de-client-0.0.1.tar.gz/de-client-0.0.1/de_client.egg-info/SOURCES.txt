@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+de_client/__init__.py
+de_client.egg-info/PKG-INFO
+de_client.egg-info/SOURCES.txt
+de_client.egg-info/dependency_links.txt
+de_client.egg-info/top_level.txt
