@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: recapuccino
+Version: 0.0.1
+Summary: Perform various types of recalibrations in mass spectrometry.
+Home-page: https://github.com/MatteoLacki/recapuccino.git
+Author: Matteo Lacki & David Teschner
+Author-email: matteo.lacki@gmail.com
+License: UNKNOWN
+Keywords: M/Z recalibration,Mass spectrometry recalibrations.,Mokapot,Percolator,Rock'n'Roll,Drugs,Linux
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+
+Perform various types of recalibrations in mass spectrometry (if only: `ceil` is the limit)
+
