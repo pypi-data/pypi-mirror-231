@@ -1,0 +1,2 @@
+[console_scripts]
+ldplayer_init = pyldplayer.init:ld_init

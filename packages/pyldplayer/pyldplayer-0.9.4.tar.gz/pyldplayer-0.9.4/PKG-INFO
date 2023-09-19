@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyldplayer
+Version: 0.9.4
+Summary: python wrapper for ldplayer
+Home-page: https://github.com/ZackaryW/pyldplayer
+Author: Zackary W
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: pydantic
+
+# pyldplayer
+ 
+a python wrapper for ldplayer
+
+## Installation
+
+```bash
+pip install pyldplayer
+```
+
+## Usage
+you can refer to [cli doc](https://www.ldplayer.net/blog/introduction-to-ldplayer-command-line-interface.html) for all options
+
+in addition, this library also supports loading record, keyboard mapping into pydantic dataclasses
+
+more features planned for future versions
+
+- [ ] simulate keyboard
+- [ ] perform recording from python
+
