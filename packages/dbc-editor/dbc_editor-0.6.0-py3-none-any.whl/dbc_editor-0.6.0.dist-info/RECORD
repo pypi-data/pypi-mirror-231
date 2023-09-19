@@ -1,0 +1,12 @@
+dbc_editor/__init__.py,sha256=gVHaxa8_j3F3IBhAVlKIFsE5SPGzhhPnBL7rpYRWxR8,57
+dbc_editor/__main__.py,sha256=g6MKEdihtk0146NpPH1CClXoZdEV-FG5a7Q38NHB6W4,77
+dbc_editor/config.py,sha256=l5Qo38QaIumBmuGUsldSkdQSYRW6WFG598tTpeQqB38,3626
+dbc_editor/main.py,sha256=7zWLFfdoJgEj1W_9DtfuIfEov0Yxzei85vI1aU79ARk,44609
+dbc_editor/model_input_history.py,sha256=bjIZQhlGkLiHnzJPmfE1FN7LXq4oDTM34CLdSX_lRrI,3406
+dbc_editor/runmodule.sh,sha256=sGOkjjYcgX8X2rok20QYE_0Kb1CRDkC9_zwK0vl48d4,144
+dbc_editor/urwid_edit_with_history.py,sha256=HO9CPe2KBXQX0DKiT5yaiKOpgZVX5-CO7aYE2q9t2nI,1549
+dbc_editor-0.6.0.dist-info/entry_points.txt,sha256=UHvbYt0zVX7eiVCzVTnKNupSLH3tIyxJLibHqFcbxJw,51
+dbc_editor-0.6.0.dist-info/LICENSE,sha256=LB4viZx5oTFIra8PUFnAZW1O9GecSS3Covr0qE7W4AQ,657
+dbc_editor-0.6.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+dbc_editor-0.6.0.dist-info/METADATA,sha256=InpMVWAiW7JZsZ8xhfIkwiWq2Y7dAs5N34I9a42zTQ4,2877
+dbc_editor-0.6.0.dist-info/RECORD,,
