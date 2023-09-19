@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+parquet_cpp.egg-info/PKG-INFO
+parquet_cpp.egg-info/SOURCES.txt
+parquet_cpp.egg-info/dependency_links.txt
+parquet_cpp.egg-info/top_level.txt
