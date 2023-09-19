@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+twoSenses.egg-info/PKG-INFO
+twoSenses.egg-info/SOURCES.txt
+twoSenses.egg-info/dependency_links.txt
+twoSenses.egg-info/requires.txt
+twoSenses.egg-info/top_level.txt
+twosenses/__init__.py
