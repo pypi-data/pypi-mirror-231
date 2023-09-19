@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+setup.py
+Meeo/__init__.py
+Meeo/meeo.py
+meeo.egg-info/PKG-INFO
+meeo.egg-info/SOURCES.txt
+meeo.egg-info/dependency_links.txt
+meeo.egg-info/requires.txt
+meeo.egg-info/top_level.txt
