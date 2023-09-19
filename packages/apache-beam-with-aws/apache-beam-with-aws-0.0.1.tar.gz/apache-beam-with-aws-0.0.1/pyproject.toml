@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apache-beam-with-aws"
+version = "0.0.1"
+description = "apache-beam-with-aws"
+readme = "README.md"

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+apache_beam_with_aws.egg-info/PKG-INFO
+apache_beam_with_aws.egg-info/SOURCES.txt
+apache_beam_with_aws.egg-info/dependency_links.txt
+apache_beam_with_aws.egg-info/top_level.txt
