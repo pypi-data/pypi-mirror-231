@@ -1,0 +1,12 @@
+kspl/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+kspl/_run.py,sha256=fVBG5gdc16mIdLiIIbLZyXxgWuFs1HgPHAKvZtGRAAU,343
+kspl/generate.py,sha256=AMy2K9RWPPu3uyoZk-j2zMNdn_k3GbHVTo5AoKz883g,7116
+kspl/gui.py,sha256=VbgyvYDUR-7DyvF7IwyvLtp5sV4tCRU8lH7eiq0GoUo,11729
+kspl/kconfig.py,sha256=tp-I4GT13MQfJ0xIuRYbMOYbjSc8aNLVl04NBu2It8Y,8184
+kspl/main.py,sha256=yA-RGU1ZBSRcnd8_uFFvT-DOKi1Eo5X2r5noALaMKvY,1024
+kspl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kspl-0.1.0.dist-info/LICENSE,sha256=eJwI5n6lDPIjogNcYBln7NKGtreVlek905oBBY_HnxQ,1066
+kspl-0.1.0.dist-info/METADATA,sha256=3bVVZmkma6FJI_32TEDj5dQ327REVOiHpY7J0qGLhhY,5827
+kspl-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+kspl-0.1.0.dist-info/entry_points.txt,sha256=6haBy5AuYGJblw1cWUTx5N41Ilg4YALABhi1psEvruY,39
+kspl-0.1.0.dist-info/RECORD,,
