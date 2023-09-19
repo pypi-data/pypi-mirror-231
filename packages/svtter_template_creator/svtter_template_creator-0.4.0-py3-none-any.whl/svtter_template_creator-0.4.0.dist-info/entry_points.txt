@@ -1,0 +1,3 @@
+[console_scripts]
+stc=tc.__main__:cli
+
