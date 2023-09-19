@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+lima1983analysis/__init__.py
+lima1983analysis/version.py
+lima1983analysis_sebastian_achim_mueller.egg-info/PKG-INFO
+lima1983analysis_sebastian_achim_mueller.egg-info/SOURCES.txt
+lima1983analysis_sebastian_achim_mueller.egg-info/dependency_links.txt
+lima1983analysis_sebastian_achim_mueller.egg-info/top_level.txt
