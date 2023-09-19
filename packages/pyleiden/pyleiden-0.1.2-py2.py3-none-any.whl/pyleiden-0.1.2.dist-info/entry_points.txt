@@ -1,0 +1,3 @@
+[console_scripts]
+pyleiden=pyleiden.pyleiden:main
+
