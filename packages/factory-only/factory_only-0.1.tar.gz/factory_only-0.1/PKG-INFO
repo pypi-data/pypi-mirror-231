@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: factory_only
+Version: 0.1
+Summary: Factory usage mandatory for dataclasses
+Author: Erik J Kostic
+Project-URL: Homepage, https://github.com/eineruntervielen/fac_only
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE

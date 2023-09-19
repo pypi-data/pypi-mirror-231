@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/__init__.py
+src/factory_only.py
+src/factory_only.egg-info/PKG-INFO
+src/factory_only.egg-info/SOURCES.txt
+src/factory_only.egg-info/dependency_links.txt
+src/factory_only.egg-info/top_level.txt
