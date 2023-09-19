@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+spectral_datawrappers.egg-info/PKG-INFO
+spectral_datawrappers.egg-info/SOURCES.txt
+spectral_datawrappers.egg-info/dependency_links.txt
+spectral_datawrappers.egg-info/entry_points.txt
+spectral_datawrappers.egg-info/top_level.txt

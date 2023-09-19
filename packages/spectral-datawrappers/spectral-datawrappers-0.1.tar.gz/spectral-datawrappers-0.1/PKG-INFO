@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: spectral-datawrappers
+Version: 0.1
+Summary: Datawrappers for Spectral Finance
+Home-page: https://github.com/Spectral-Finance/spectral-datawrappers
+Author: Spectral Finance
+Author-email: maciej@spectral.finance
+Keywords: machine learning ai data science web3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# spectral-datawrappers
+Collection of Data Wrappers for Onchain Competitions
