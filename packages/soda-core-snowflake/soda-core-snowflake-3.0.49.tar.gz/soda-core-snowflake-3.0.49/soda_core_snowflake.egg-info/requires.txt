@@ -1,0 +1,2 @@
+soda-core==3.0.49
+snowflake-connector-python~=3.0
