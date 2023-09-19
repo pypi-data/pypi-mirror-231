@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: nynoflow
+Version: 0.3.0
+Summary: NynoFlow
+Home-page: https://github.com/nyno-ai/nynoflow
+License: GPL-3.0
+Author: nyno.ai
+Author-email: eitan@nyno.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: boto3 (>=1.28.44,<2.0.0)
+Requires-Dist: boto3-stubs[s3] (>=1.28.44,<2.0.0)
+Requires-Dist: cattrs (>=23.1.2,<24.0.0)
+Requires-Dist: docstring-parser (>=0.15,<0.16)
+Requires-Dist: google-cloud-storage (>=2.10.0,<3.0.0)
+Requires-Dist: gpt4all (>=1.0.8,<2.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: jsonschema (>=4.19.0,<5.0.0)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: redis (>=5.0.0,<6.0.0)
+Requires-Dist: sentencepiece (>=0.1.99,<0.2.0)
+Requires-Dist: sqlalchemy (>=2.0.20,<3.0.0)
+Requires-Dist: sqlalchemy-stubs (>=0.4,<0.5)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Requires-Dist: tokenizers (>=0.13.3,<0.14.0)
+Requires-Dist: transformers (>=4.32.1,<5.0.0)
+Requires-Dist: types-google-cloud-ndb (>=2.2.0.0,<3.0.0.0)
+Requires-Dist: types-redis (>=4.6.0.5,<5.0.0.0)
+Project-URL: Changelog, https://github.com/nyno-ai/nynoflow/releases
+Project-URL: Documentation, https://nynoflow.readthedocs.io
+Project-URL: Repository, https://github.com/nyno-ai/nynoflow
+Description-Content-Type: text/markdown
+
+# NynoFlow
+
+[![PyPI](https://img.shields.io/pypi/v/nynoflow.svg)][pypi_]
+[![Status](https://img.shields.io/pypi/status/nynoflow.svg)][status]
+[![Python Version](https://img.shields.io/pypi/pyversions/nynoflow)][python version]
+[![License](https://img.shields.io/pypi/l/nynoflow)][license]
+
+[![Read the documentation at https://nynoflow.readthedocs.io/](https://img.shields.io/readthedocs/nynoflow/latest.svg?label=Read%20the%20Docs)][read the docs]
+[![Tests](https://github.com/nyno-ai/nynoflow/workflows/Tests/badge.svg)][tests]
+[![Codecov](https://codecov.io/gh/nyno-ai/nynoflow/branch/main/graph/badge.svg)][codecov]
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+
+[pypi_]: https://pypi.org/project/nynoflow/
+[status]: https://pypi.org/project/nynoflow/
+[python version]: https://pypi.org/project/nynoflow
+[read the docs]: https://nynoflow.readthedocs.io/
+[tests]: https://github.com/nyno-ai/nynoflow/actions?workflow=Tests
+[codecov]: https://app.codecov.io/gh/nyno-ai/nynoflow
+[pre-commit]: https://github.com/pre-commit/pre-commit
+[black]: https://github.com/psf/black
+
+Nynoflow was built out of frustration with current tooling to build LLM applications. Some focus too much on UI building, which is limited at best. Some over-abstract on certain areas to the point that you can't understand what's the prompt being sent to the LLM. So here at nyno-ai, we set to build the best framework and tooling to build LLM applications for developers.
+
+## Features
+
+- TODO
+
+## Requirements
+
+- TODO
+
+## Installation
+
+You can install _NynoFlow_ via [pip] from [PyPI]:
+
+```console
+$ pip install nynoflow
+```
+
+## Usage
+
+- TODO
+
+## Defaults
+
+Here are all the default configuations you should make sure to review when creating an app with nynoflow:
+
+| Config                       | Description                                                                                                                                                                                                                                                                                             | Default |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| flow.completion.token_offset | This is used for the historical message cutoff (removing old messages when the token limit is exceeded). This number is the number of tokens you may require for the answer. This is deliberetly different then the token_limit because you may get more token space since messages are cut as a whole. | 16      |
+|                              |                                                                                                                                                                                                                                                                                                         |         |
+|                              |                                                                                                                                                                                                                                                                                                         |         |
+
+## Contributing
+
+Contributions are very welcome.
+To learn more, see the [Contributor Guide].
+
+## License
+
+Distributed under the terms of the [GPL 3.0 license][license],
+_NynoFlow_ is free and open source software.
+
+## Issues
+
+If you encounter any problems,
+please [file an issue] along with a detailed description.
+
+<!-- github-only -->
+
+[license]: https://github.com/nyno-ai/nynoflow/blob/main/LICENSE
+[contributor guide]: https://github.com/nyno-ai/nynoflow/blob/main/CONTRIBUTING.md
+[command-line reference]: https://nynoflow.readthedocs.io/en/latest/usage.html
+
