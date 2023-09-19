@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nginx-conf
+Version: 0.0.1
+Summary: Nginx conf is a Python package for configuring web services, which automatically configures uwsg and nginx files based on incoming parameters
+Home-page: https://github.com/jiaochanghaoserverss/nginx-conf
+Author: jiaochanghao
+Author-email: Jch_2154195820@163.com
+License: Apache
+Project-URL: Source, https://github.com/jiaochanghaoserverss/nginx-conf
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pymysql
+
+# nginx-conf
+Nginx conf is a Python package for configuring web services, which automatically configures uwsg and nginx files based on incoming parameters

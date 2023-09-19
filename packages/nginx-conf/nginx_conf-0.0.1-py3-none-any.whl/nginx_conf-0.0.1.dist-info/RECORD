@@ -1,0 +1,10 @@
+nginx_conf/__init__.py,sha256=v2Yjq-QS3FKv5fLyfJX6c9n7rGPMcw7hKgYpD1J7KY0,50
+nginx_conf/base_setting.py,sha256=utN2FPNBfBx3OpNGH8z2jvIHPJjWFYqgthsI0qKxbig,2010
+nginx_conf/nginx.py,sha256=2Yd8wVqx2bhlp9QLvmMBBAqghcfDgpAAZ_CftirtopY,2397
+nginx_conf/utils.py,sha256=zCUDniuTGHcDNS1RivpVN4LZa5VaebLWyFwvl1zgBTE,305
+nginx_conf/uwsgi.py,sha256=4gN59l3S6NHYM83ZM2zKPHHgY_JpSXoeqgbWthuVRAw,2468
+nginx_conf-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nginx_conf-0.0.1.dist-info/METADATA,sha256=i_nLiyUOTsBNN2irvrX-zH5o9mixC9csD1hnHEAM8T8,1254
+nginx_conf-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+nginx_conf-0.0.1.dist-info/top_level.txt,sha256=S2qzYUDofysZidod6FV8ouw2BAhRGAX_VBK4GOBqPSk,11
+nginx_conf-0.0.1.dist-info/RECORD,,
