@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: endoflifedate
+Version: 0.10.0
+Summary: endoflife.date
+Home-page: https://github.com/cliffano/endoflife.date-api-clients
+Author: Cliffano Subagio
+Author-email: blah@cliffano.com
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,endoflife.date
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 (<2.1.0,>=1.25.3)
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic (<2,>=1.10.5)
+Requires-Dist: aenum
+
+    Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki)
+    
