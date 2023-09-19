@@ -1,0 +1,5 @@
+[console_scripts]
+create-plots = limonade_plot_utils.create_plots:create_plots
+fix-data = limonade_plot_utils.fix_data:fix_data
+read-hist-data = limonade_plot_utils.read_hist_data:read_hist_data
+read-list-data = limonade_plot_utils.read_list_data:read_list_data
