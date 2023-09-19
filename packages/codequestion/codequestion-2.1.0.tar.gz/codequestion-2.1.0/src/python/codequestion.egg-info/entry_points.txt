@@ -1,0 +1,2 @@
+[console_scripts]
+codequestion = codequestion.console:main
