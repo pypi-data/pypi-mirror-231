@@ -1,0 +1,12 @@
+miniclient/miniclient.py,sha256=9gfPkunhSiINaFGev9kYSGuHmH_ri2Qhz5017mhg0C0,858
+tracim_daemon_sdk/__init__.py,sha256=IV-Lw4pxXBeshLe70uDagRLMTQO50VRVVK2XZWD9eOI,35
+tracim_daemon_sdk/daemon_event.py,sha256=LGNTXwHiFfpVO_kB2WcSjBDvin-YalPjgu1lD3uoSf0,515
+tracim_daemon_sdk/data.py,sha256=xE2f2LJsRzRQHMTBQZYTvl32_vKdxL2ddki7-7pdETY,2034
+tracim_daemon_sdk/event.py,sha256=m-23k3M-vCHn78AK-eVPK5lvymEZzo7D6iCNz0yM3R0,905
+tracim_daemon_sdk/helper.py,sha256=9-fKaIwyp1LAGoJNL5ndGUQK7Ke6a7SIx_sI9D9XT-Q,350
+tracim_daemon_sdk/sdk.py,sha256=0NwQ99HOT2b3bWH1tVyhR-JohK4X2ddXHH1Fb2kS-y4,4227
+tracim_daemon_sdk-1.0.3.dist-info/LICENCE,sha256=_iXi1230kh_xm7-lnJzbZvQsdT06po79SR2cdw-NxkM,1069
+tracim_daemon_sdk-1.0.3.dist-info/METADATA,sha256=BAgjjv6i_vECX2IBbwsRAdAbcYWpVT2i_aip7qsBHjM,7584
+tracim_daemon_sdk-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tracim_daemon_sdk-1.0.3.dist-info/top_level.txt,sha256=urhgtBhJyKrtPI0IuHStBySLnWcVmbJO78PQW-tv5DA,29
+tracim_daemon_sdk-1.0.3.dist-info/RECORD,,
