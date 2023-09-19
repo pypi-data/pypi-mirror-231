@@ -1,0 +1,13 @@
+AUTHORS.md
+LICENSE
+MANIFEST.in
+README.md
+admin_reorder.py
+pyproject.toml
+setup.cfg
+setup.py
+django_modeladmin_reorder_reborn.egg-info/PKG-INFO
+django_modeladmin_reorder_reborn.egg-info/SOURCES.txt
+django_modeladmin_reorder_reborn.egg-info/dependency_links.txt
+django_modeladmin_reorder_reborn.egg-info/requires.txt
+django_modeladmin_reorder_reborn.egg-info/top_level.txt
