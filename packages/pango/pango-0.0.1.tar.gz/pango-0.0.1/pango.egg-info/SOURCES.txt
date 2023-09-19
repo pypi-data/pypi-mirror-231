@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+pango.egg-info/PKG-INFO
+pango.egg-info/SOURCES.txt
+pango.egg-info/dependency_links.txt
+pango.egg-info/top_level.txt
