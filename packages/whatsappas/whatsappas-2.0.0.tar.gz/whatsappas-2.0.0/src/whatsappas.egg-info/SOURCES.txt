@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/whatsappas/__init__.py
+src/whatsappas.egg-info/PKG-INFO
+src/whatsappas.egg-info/SOURCES.txt
+src/whatsappas.egg-info/dependency_links.txt
+src/whatsappas.egg-info/top_level.txt
