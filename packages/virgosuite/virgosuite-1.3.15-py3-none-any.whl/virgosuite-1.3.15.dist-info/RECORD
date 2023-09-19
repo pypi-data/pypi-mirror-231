@@ -1,0 +1,12 @@
+virgosuite/__init__.py,sha256=TNu_2WqQCD860-7rJ3_dnHv_XewRrpRfnvreVbd_y1Y,43
+virgosuite/global_settings.py,sha256=CDhcYgkKVohQRQkp-uMXXh1lgjFMGR4rlnaputmGuE4,3792
+virgosuite/storage_manager.py,sha256=hRDrXg99nfNGLpm5AftsPu27Dw6VmT8CC-0O7w5E5hM,21274
+virgosuite/time_series.py,sha256=jkD8xF2H92Vnca6dkyEYffwHpnP4h1XBTiIt0WNXMUM,65
+virgosuite/analisys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virgosuite/analisys/generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virgosuite/analisys/generator/random.py,sha256=23DxgHu1JPgfAlAAhKqes94RXeLQox_-b8KJwfyn8-A,6567
+virgosuite-1.3.15.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+virgosuite-1.3.15.dist-info/METADATA,sha256=dIMjTY4yF0lh1bephmauY0mTW_SM13pvUMmSB2IOaHw,557
+virgosuite-1.3.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+virgosuite-1.3.15.dist-info/top_level.txt,sha256=dBdKvxWW4ZI5qmcPLqS2ivDMnCRIbLp5Tsopt2EJ7cc,11
+virgosuite-1.3.15.dist-info/RECORD,,
