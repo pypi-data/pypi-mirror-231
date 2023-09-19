@@ -1,0 +1,13 @@
+Package: pollinationDashIo
+Title: pollination-controls component to use with pollination apps to interact with apps
+Version: 1.0.0
+Description: pollination-controls component to use with pollination apps to interact with apps
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: Apache-2.0 + file LICENSE
+URL: https://github.com/https://github.com/pollination/pollination-dash-io
+BugReports: https://github.com/https://github.com/pollination/pollination-dash-io/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
