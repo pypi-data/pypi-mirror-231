@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "send_3_test",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package send_3_test"
+}
