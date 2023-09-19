@@ -1,0 +1,10 @@
+edgeofpy/__init__.py,sha256=zo4G0ZbZalBKHAagkBDICpK3B2IlZMkelmAwyUivBdo,1628
+edgeofpy/avalanche.py,sha256=8kmey-V6eAvwxe4aPmpF3NjD1q75xTBwb-RDZo_EfP8,29000
+edgeofpy/chaos.py,sha256=BJSHKLmTZRNHGTOorqs-Ukv7ZtnEx3KLf6pDjkb03GQ,11573
+edgeofpy/synchrony.py,sha256=nzwYn52vnq8c2xGqL9eJG11shbo1m-Lzh3kFZMl9ULQ,17260
+edgeofpy/utils.py,sha256=2beYYrvwirpUuJk0vwzgjLzWdX4sRvkb_ccgPnU302E,4037
+edgeofpy/VERSION,sha256=do_9yYhavL0G0MuypCKKpQ1BRzNi81PnBEWb-izc4IQ,7
+edgeofpy-0.0.1.dist-info/LICENSE,sha256=Ll4uHz5OY7Rc9gbLlWe-7g72AJiAlnGv8KwS8-STlpM,11543
+edgeofpy-0.0.1.dist-info/METADATA,sha256=YTEJ2wKy_9Fg7z7qnIOr9L5KHgDTghgP_cfH_GQPel4,1478
+edgeofpy-0.0.1.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+edgeofpy-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: edgeofpy
+Version: 0.0.1
+Summary: Tools for brain criticality estimation, especially for M/EEG
+Home-page: https://github.com/jnobyrne/edgeofpy
+License: Apache-2.0
+Author: Jordan O'Byrne
+Author-email: jordan.obyrne@gmail.com
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/jnobyrne/edgeofpy
+Description-Content-Type: text/x-rst
+
+==========
+EDGE OF PY
+==========
+
+Package for assessing the distance to criticality in brain dynamics.
+
+Features
+--------
+Coming soon.
+
+Installation
+------------
+Install edgeofpy by running:
+
+    pip3 install edgeofpy
+
+Documentation
+-------------
+Coming soon.
+
+Change Log
+----------
+Coming soon.
+
+Requirements
+------------
+- Python 3.7 or later
+- numpy
+- scipy
+- matplotlib
+- powerlaw
+- neurokit2
+
+License
+-------
+The project is licensed under the Apache 2.0 license.
+
