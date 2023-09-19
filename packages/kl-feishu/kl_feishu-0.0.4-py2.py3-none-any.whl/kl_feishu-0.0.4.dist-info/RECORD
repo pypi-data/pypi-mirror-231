@@ -1,0 +1,9 @@
+kl_feishu/__init__.py,sha256=G8mItXxs0Pqmxf9amLdAXn7tZzLhSb3WoNVEKvgBMpw,296
+kl_feishu/feishu.py,sha256=eaGv3J_N5vvxexlISNLXKccPTmw8Y_CLxpS65QTJFVU,6683
+kl_feishu/feishu_def.py,sha256=AMW8vRHAXLBV-hI5PutBauMSPPat21nf-08tMD0jC4U,1080
+kl_feishu/version.py,sha256=qP4FeSHFJdeRKDS4fq0JwwUSj_ZC5WsRT2QfL3-esT0,246
+kl_feishu-0.0.4.dist-info/LICENSE,sha256=-NLjGGyXk44yr3T3rY9Hffy52F2Ie3dzDztqRa7jFDo,1082
+kl_feishu-0.0.4.dist-info/METADATA,sha256=MmG5MuN6UE9MhzYfRhV9zvhANm9DCSwYxErnVP3STu8,790
+kl_feishu-0.0.4.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+kl_feishu-0.0.4.dist-info/top_level.txt,sha256=7mfCRKbdFnmuj8VEhmhxGKCuuejjY41uOjD30VfbKRI,10
+kl_feishu-0.0.4.dist-info/RECORD,,
