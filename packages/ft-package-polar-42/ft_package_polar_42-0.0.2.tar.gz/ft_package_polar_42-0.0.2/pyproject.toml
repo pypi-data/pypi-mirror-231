@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ft_package_polar_42"
+version = "0.0.2"
+authors = [
+    { name = "polar", email = "fle-tolg@student.42angouleme.fr" }
+]
+description = "My first python package"
+readme = "README.md"
+requires = ">=3.10.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/polar-42/python_data_science"
+"Bug Tracker" = "https://github.com/polar-42/python_data_science/issues"

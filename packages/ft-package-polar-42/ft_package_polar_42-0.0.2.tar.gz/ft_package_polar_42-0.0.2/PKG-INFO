@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ft_package_polar_42
+Version: 0.0.2
+Summary: My first python package
+Project-URL: Homepage, https://github.com/polar-42/python_data_science
+Project-URL: Bug Tracker, https://github.com/polar-42/python_data_science/issues
+Author-email: polar <fle-tolg@student.42angouleme.fr>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# ft_package
+
+This is a simple example package. Made during Python - 0 - Starting at 42.
