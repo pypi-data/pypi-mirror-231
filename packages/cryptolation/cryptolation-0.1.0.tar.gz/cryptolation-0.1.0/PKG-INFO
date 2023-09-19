@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cryptolation
+Version: 0.1.0
+Summary: My short description for my project.
+Home-page: https://github.com/franceme/cryptolation
+Author: Miles Frantz
+Author-email: frantzme@vt.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: Deployment
+Provides-Extra: Documentation
+
+# Cryptolation
+
+A Python static code analysis tool.
+
+## Reference
+
+If you find this database useful, please cite our NDSS'22 [Poster](https://www.ndss-symposium.org/wp-content/uploads/NDSS2022Poster_paper_28.pdf).
+```tex
+@inproceedings{frantz2022poster,
+  title={POSTER: Precise Detection of Unprecedented Python Cryptographic Misuses Using On-Demand Analysis},
+  author={Frantz, Miles and Xiao, Ya and Pias, Tanmoy Sarkar and Yao, Danfeng Daphne},
+  booktitle={The Network and Distributed System Security (NDSS) Symposium},
+  year={2022}
+}
+```
+
+
