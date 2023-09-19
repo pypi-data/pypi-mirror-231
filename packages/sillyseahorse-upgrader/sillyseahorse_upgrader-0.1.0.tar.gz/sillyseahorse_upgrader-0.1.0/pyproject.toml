@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sillyseahorse-upgrader"
+version = "0.1.0"
+description = ""
+authors = ["Silly Seahorse <sillyseahorse@gitops.internet2.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
