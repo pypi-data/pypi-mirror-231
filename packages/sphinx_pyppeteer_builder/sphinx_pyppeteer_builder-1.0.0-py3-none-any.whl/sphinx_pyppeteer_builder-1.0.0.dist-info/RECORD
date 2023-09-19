@@ -1,0 +1,13 @@
+sphinx_pyppeteer_builder/__init__.py,sha256=zOuCFB9BZSRJIRUYIHjadRSM1x-rpOBefvW25UxybV0,3622
+sphinx_pyppeteer_builder/loghandler.py,sha256=arxuzaoCxX4xrOVJXV0rtvUhO5uCocza5dzAYblha6E,1695
+sphinx_pyppeteer_builder/pyppeteer_builder.py,sha256=FK5jqmr45ExIczZsMb2Px68xvjC0UZSaN4alArDTBqg,4082
+sphinx_pyppeteer_builder/locale/sphinx.pot,sha256=QnRZTyNuZLao5rr25kG-00iSMrOiXOxcEi7Dytjyo44,653
+sphinx_pyppeteer_builder/locale/fr/LC_MESSAGES/sphinx.po,sha256=ZY3CAhWfbYLIdRl80NqVXP-Ee6SJUTABndgWMYXV-R4,656
+sphinx_pyppeteer_builder-1.0.0.dist-info/entry_points.txt,sha256=9q8kBqiZbHpOffijLdfKOkM1tkmSwHlRhzo7Pktpdkk,73
+sphinx_pyppeteer_builder-1.0.0.dist-info/LICENSE,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+sphinx_pyppeteer_builder-1.0.0.dist-info/LICENSE-de,sha256=IIcFvrbfbEGLgh9zss8ZLZ1caDehpZORomHHq-L7Dc4,15282
+sphinx_pyppeteer_builder-1.0.0.dist-info/LICENSE-fr,sha256=FOWbwALhM55VVEUa7a18KxE9x--ULpa0ELVRcJmtbZE,15898
+sphinx_pyppeteer_builder-1.0.0.dist-info/LICENSE-nl,sha256=eiG-ceFOVWhJOrJjpi-odf3iJEY146yhAxkxRXI76-A,15887
+sphinx_pyppeteer_builder-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+sphinx_pyppeteer_builder-1.0.0.dist-info/METADATA,sha256=6_t_lFSF0fsqGSH57paSQVPH86-sMWXjlqmG7jk5qAY,4038
+sphinx_pyppeteer_builder-1.0.0.dist-info/RECORD,,
