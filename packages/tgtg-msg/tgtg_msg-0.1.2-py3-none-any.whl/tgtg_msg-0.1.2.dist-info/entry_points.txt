@@ -1,0 +1,5 @@
+[console_scripts]
+test-env=tgtg_msg.comm:print_env
+tg-msg=tgcf.cli:app
+tg-web=tgcf.web_ui.run:main
+
