@@ -1,0 +1,3 @@
+python-decouple
+validators
+prompt_toolkit
