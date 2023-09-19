@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+nginx_conf/__init__.py
+nginx_conf/base_setting.py
+nginx_conf/nginx.py
+nginx_conf/utils.py
+nginx_conf/uwsgi.py
+nginx_conf.egg-info/PKG-INFO
+nginx_conf.egg-info/SOURCES.txt
+nginx_conf.egg-info/dependency_links.txt
+nginx_conf.egg-info/not-zip-safe
+nginx_conf.egg-info/requires.txt
+nginx_conf.egg-info/top_level.txt
