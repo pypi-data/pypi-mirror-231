@@ -1,0 +1,8 @@
+setup.py
+sunnyday/__init__.py
+sunnyday/sunnyday.py
+weatherforecastks.egg-info/PKG-INFO
+weatherforecastks.egg-info/SOURCES.txt
+weatherforecastks.egg-info/dependency_links.txt
+weatherforecastks.egg-info/requires.txt
+weatherforecastks.egg-info/top_level.txt
