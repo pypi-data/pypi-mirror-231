@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "splashysloth-upgrader"
+version = "0.1.0"
+description = ""
+authors = ["Heather Mitchell <heather.mitchell@vanderbilt.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
