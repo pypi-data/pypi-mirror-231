@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: FletPageManager
+Version: 0.1.1
+Summary: Flet Page Manager
+Author-Email: Zhan Rongrui <2742392377@qq.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: flet>=0.10.1
+Requires-Dist: loguru>=0.7.2
+Description-Content-Type: text/markdown
+
+# Flet Page Manager
+
