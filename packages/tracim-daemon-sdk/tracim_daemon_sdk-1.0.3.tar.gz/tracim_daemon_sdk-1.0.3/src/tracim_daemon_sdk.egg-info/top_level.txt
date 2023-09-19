@@ -1,0 +1,2 @@
+miniclient
+tracim_daemon_sdk

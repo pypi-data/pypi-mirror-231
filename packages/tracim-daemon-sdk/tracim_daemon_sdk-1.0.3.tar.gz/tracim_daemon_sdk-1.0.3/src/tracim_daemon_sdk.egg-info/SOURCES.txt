@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+src/miniclient/miniclient.py
+src/tracim_daemon_sdk/__init__.py
+src/tracim_daemon_sdk/daemon_event.py
+src/tracim_daemon_sdk/data.py
+src/tracim_daemon_sdk/event.py
+src/tracim_daemon_sdk/helper.py
+src/tracim_daemon_sdk/sdk.py
+src/tracim_daemon_sdk.egg-info/PKG-INFO
+src/tracim_daemon_sdk.egg-info/SOURCES.txt
+src/tracim_daemon_sdk.egg-info/dependency_links.txt
+src/tracim_daemon_sdk.egg-info/top_level.txt
