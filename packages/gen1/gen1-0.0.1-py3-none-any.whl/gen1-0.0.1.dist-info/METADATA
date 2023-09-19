@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gen1
+Version: 0.0.1
+Summary: Text to Video synthesis
+Home-page: https://github.com/kyegomez/gen1
+License: MIT
+Keywords: Transformers,zeta scale
+Author: Gen1
+Author-email: kye@apac.ai
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: einops
+Requires-Dist: shapeless
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+
+# Gen1
+My Implementation of " Structure and Content-Guided Video Synthesis with Diffusion Models" by RunwayML
+
+
+
+## Citation
+```
+@misc{2302.03011,
+Author = {Patrick Esser and Johnathan Chiu and Parmida Atighehchian and Jonathan Granskog and Anastasis Germanidis},
+Title = {Structure and Content-Guided Video Synthesis with Diffusion Models},
+Year = {2023},
+Eprint = {arXiv:2302.03011},
+```
+
