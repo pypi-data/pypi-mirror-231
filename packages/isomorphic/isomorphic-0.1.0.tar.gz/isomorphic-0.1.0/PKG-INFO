@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: isomorphic
+Version: 0.1.0
+Summary: isomorphic interfaces for cli, api, yaml, json, gui
+Home-page: https://github.com/geniusrise/isomorphic
+Author: ixaxaar
+Author-email: ixaxaar@geniusrise.ai
+Project-URL: Bug Reports, https://github.com/geniusrise/isomorphic/issues
+Project-URL: Source, https://github.com/geniusrise/isomorphic
+Project-URL: Documentation, https://docs.geniusrise.ai/
+Keywords: argparse,cli,api,yaml,json,gui
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+
+# Isomorphic

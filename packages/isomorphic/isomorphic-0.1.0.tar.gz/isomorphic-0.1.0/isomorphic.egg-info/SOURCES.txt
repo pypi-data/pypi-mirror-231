@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+isomorphic.egg-info/PKG-INFO
+isomorphic.egg-info/SOURCES.txt
+isomorphic.egg-info/dependency_links.txt
+isomorphic.egg-info/requires.txt
+isomorphic.egg-info/top_level.txt
