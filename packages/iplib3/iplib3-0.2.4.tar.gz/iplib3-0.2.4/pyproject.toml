@@ -1,0 +1,215 @@
+[build-system]
+requires = ['poetry-core>=1.2.0', 'wheel',]
+build-backend = 'poetry.core.masonry.api'
+
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+omit = [
+    '.tox/*',
+    'tests/*',
+]
+
+
+[tool.poetry]
+name = 'iplib3'
+version = '0.2.4'
+description = "A modern, object-oriented approach to IP addresses."
+
+authors = ["Lari Liuhamo <lari.liuhamo+pypi@gmail.com>",]
+maintainers = ["Lari Liuhamo <lari.liuhamo+pypi@gmail.com>",]
+
+include = ['CHANGELOG.md', 'LICENSE', 'py.typed',]
+license = 'MIT'
+readme = 'README.md'
+
+homepage = 'https://pypi.org/project/iplib3/'
+repository = 'https://github.com/Diapolo10/iplib3'
+documentation = 'https://github.com/Diapolo10/iplib3/tree/main/docs'
+
+keywords = [
+    'network',
+    'networking',
+    'ip',
+    'ipaddress',
+    'address',
+    'python3',
+    'pathlib',
+]
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Information Technology',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Programming Language :: Python :: Implementation :: PyPy',
+    'Topic :: Internet',
+    'Topic :: Software Development :: Libraries',
+    'Typing :: Typed',
+]
+
+
+[tool.poetry.dependencies]
+python = '^3.9.0'
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = '^1.5.1'
+
+
+[tool.poetry.group.linters]
+optional = true
+
+
+[tool.poetry.group.linters.dependencies]
+ruff = '^0.0.290'
+
+
+[tool.poetry.group.tests]
+optional = true
+
+
+[tool.poetry.group.tests.dependencies]
+pytest = '^7.4.2'
+pytest-cov = '^4.1.0'
+tox = '^4.11.3'
+tox-gh-actions = '^3.1.3'
+
+
+[tool.poetry.urls]
+"Source code" = 'https://github.com/Diapolo10/iplib3'
+"Tracker" = 'https://github.com/Diapolo10/iplib3/issues'
+"Changelog" = 'https://github.com/Diapolo10/iplib3/blob/nightly/CHANGELOG.md' # TODO: Change to use main branch when ready to deploy live
+
+
+[tool.ruff]
+select = [
+    'A',   # Builtins
+    'ANN', # Annotations
+    'ARG', # Unused arguments
+    'B',   # Bugbear
+    'BLE', # Blind except
+    'C4',  # Comprehensions
+    'C90', # mccabe
+    'COM', # Commas
+    'DTZ', # Datetimes
+    'ERA', # Commented-out code
+    'EXE', # Executable
+    'G',   # Logging format
+    'I',   # Isort
+    'ICN', # Import conventions
+    'INP', # Disallow PEP-420 (Implicit namespace packages)
+    'INT', # gettext
+    'ISC', # Implicit str concat
+    'N',   # PEP-8 Naming
+    'NPY', # Numpy
+    'PGH', # Pygrep hooks
+    'PIE', # Unnecessary code
+    'PL',  # Pylint
+    'PT',  # Pytest
+    'PTH', # Use Pathlib
+    'PYI', # Stub files
+    'RET', # Return
+    'RUF', # Ruff
+    'RSE', # Raise
+    'S',   # Bandit
+    'SIM', # Code simplification
+    'SLF', # Private member access
+    'T20', # Print
+    'TCH', # Type checking
+    'TID', # Tidy imports
+    'UP',  # Pyupgrade
+    'W',   # Warnings
+    'YTT', # sys.version
+]
+ignore = [
+    'PLR0913',  # Too many arguments
+]
+ignore-init-module-imports = true
+line-length = 120
+
+
+[tool.ruff.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 11
+
+
+[tool.ruff.per-file-ignores]
+# https://beta.ruff.rs/docs/rules/
+'__init__.py' = ['F401','F403','F405',]
+'tests/*' = ['ANN', 'ARG', 'INP001', 'PLR2004', 'S101', 'SLF001',]
+
+
+[tool.ruff.pylint]
+max-args = 15
+max-branches = 20
+max-returns = 10
+max-statements = 80
+
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 120
+disable = [  # TODO: Improve code so that these can be dropped
+    'R0911', # Too many return statements
+    'R0912', # Too many branches
+    'W0642', # Invalid assignment to self or cls in instance or class method, respectively.
+    'R0801', # Similar lines in 2 files
+]
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = """
+--doctest-modules \
+--cov=./ \
+--cov-append \
+--cov-report html:tests/reports/coverage-html \
+--cov-report xml:tests/reports/coverage.xml \
+--ignore=docs/
+"""
+testpaths = [
+    'tests',
+]
+
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38, py39, py310, py311, pypy3
+isolated_build = True
+
+[gh-actions]
+python =
+    3.9: py39
+    3.10: py310
+    3.11: py311
+    pypy-3.9: pypy3
+
+[gh-actions:env]
+PLATFORM =
+    ubuntu-latest: linux
+    macos-latest: macos
+    windows-latest: windows
+
+[testenv]
+passenv = GITHUB_*
+deps =
+    coverage
+    coveralls[toml]
+    pytest
+    pytest-cov
+    wheel
+commands =
+    coverage run -m pytest
+"""
