@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sstack/__init__.py
+sstack/_stackmodule.c
+sstack.egg-info/PKG-INFO
+sstack.egg-info/SOURCES.txt
+sstack.egg-info/dependency_links.txt
+sstack.egg-info/top_level.txt
