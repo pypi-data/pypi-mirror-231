@@ -1,0 +1,11 @@
+vecked/VERSION,sha256=FXXhr0qV8S9wtO5qatzoFglT2T6hfcJhG5CIPMw607g,6
+vecked/__init__.py,sha256=Sdi3pg2nFLzlZ_Y2qtOrqumG2Xzmh3ENKPR7NB1WkwA,225
+vecked/logging.py,sha256=xQZmPrQDKXNK6sDGzpBB8fEdHnDswKlRyRUSNsXD6xk,88
+vecked/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vecked/types.py,sha256=qTRd-HUkvY96TinwOxW1j2aqmVLin6yk9jvwJYHULIs,104
+vecked/version.py,sha256=xVxMCV4fOfO2hrNpFf2MomJKt62FVCon-zACahRGbP0,188
+vecked-1.1.0.dist-info/LICENSE,sha256=jXz8xZq3cMjXXQ2Hb9sj6RNKFigwHmut-OnbWc-uHOU,1073
+vecked-1.1.0.dist-info/METADATA,sha256=LXtRkXv3BTju72O4uiUQAoFzOiajRol2Ix0dfJ169Ng,1455
+vecked-1.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+vecked-1.1.0.dist-info/top_level.txt,sha256=wtLGfZwMefViXQX0BAm1ZGkLg2wl75goMHcFjJckIJE,7
+vecked-1.1.0.dist-info/RECORD,,
