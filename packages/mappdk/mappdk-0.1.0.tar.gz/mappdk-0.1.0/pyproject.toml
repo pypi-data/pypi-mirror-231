@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mappdk"
+version = "0.1.0"
+description = "Manufacturing Apps Development Kit"
+authors = ["Agajan Torayev <torayeff@gmail.com>"]
+license = "Apache-2.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/torayeff/mappdk"

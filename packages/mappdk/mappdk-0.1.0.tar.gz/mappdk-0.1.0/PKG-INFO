@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mappdk
+Version: 0.1.0
+Summary: Manufacturing Apps Development Kit
+License: Apache-2.0 license
+Author: Agajan Torayev
+Author-email: torayeff@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# mappdk
+Manufacturing Apps Development Kit
+
