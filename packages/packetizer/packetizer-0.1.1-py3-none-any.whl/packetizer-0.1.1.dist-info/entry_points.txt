@@ -1,0 +1,4 @@
+[console_scripts]
+packetize=paketizer:main
+packetizer=paketizer:main
+
