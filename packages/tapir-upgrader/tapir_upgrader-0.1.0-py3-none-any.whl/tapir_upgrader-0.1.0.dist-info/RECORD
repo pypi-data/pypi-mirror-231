@@ -1,0 +1,5 @@
+tapir_upgrader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tapir_upgrader/upgrader.py,sha256=0tVSsrNyVFVGwGbAW8vBAU_EPkG48-6iZg3YCBGYkUw,555
+tapir_upgrader-0.1.0.dist-info/METADATA,sha256=p4FJgPdF9smbSUR2pQVTRcRT3zlpJg47ZP28udDOeKE,288
+tapir_upgrader-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tapir_upgrader-0.1.0.dist-info/RECORD,,
