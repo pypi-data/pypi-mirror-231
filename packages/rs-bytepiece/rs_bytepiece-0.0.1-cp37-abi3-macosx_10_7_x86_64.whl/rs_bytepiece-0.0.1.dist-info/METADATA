@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: rs_bytepiece
+Version: 0.0.1
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Summary: bytepiece-rs Python binding
+Keywords: NLP,tokenizer,bytepiece,deep learning
+Author: Yam(长琴) <haoshaochun@gmail.com>
+Author-email: Yam(长琴) <haoshaochun@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://github.com/hscspring/bytepiece-rs
+Project-URL: documentation, https://github.com/hscspring/bytepiece-rs
+Project-URL: repository, https://github.com/hscspring/bytepiece-rs
+
+# bytepiece-rs
+
+## Install
+
+```bash
+pip install rs_bytepiece
+```
+
+## Usage
+
+```python
+from rs_bytepiece import Tokenizer
+
+tokenizer = Tokenizer()
+ids = tokenizer.encode("今天天气不错")
+```
