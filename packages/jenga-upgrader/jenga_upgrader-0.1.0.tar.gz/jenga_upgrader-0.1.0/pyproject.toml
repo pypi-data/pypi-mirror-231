@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "jenga-upgrader"
+version = "0.1.0"
+description = ""
+authors = ["Jenna Garrigan <jenga@arizona.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
