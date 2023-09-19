@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bgsio
+Version: 0.1.0
+Summary: Be GeoSpatial public IO python tools
+License: MIT
+Author: José Beltrán
+Author-email: 102664984+jose-begeospatial@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: bgsutils (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Be GeoSpatial public utility python tools
+
+> original source `bgstools` **v0.2.1**
+
+`https://pypi.org/project/bgsutils/`
+
