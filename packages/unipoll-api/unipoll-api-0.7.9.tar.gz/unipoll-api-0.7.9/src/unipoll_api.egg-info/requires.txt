@@ -1,0 +1,12 @@
+fastapi[all]
+uvicorn[all]
+fastapi-users[beanie]
+beanie
+
+[testings]
+pytest
+pytest-cov
+faker
+flake8
+tox
+mypy
