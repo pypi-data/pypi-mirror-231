@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+compiler_rt_win_64.egg-info/PKG-INFO
+compiler_rt_win_64.egg-info/SOURCES.txt
+compiler_rt_win_64.egg-info/dependency_links.txt
+compiler_rt_win_64.egg-info/top_level.txt

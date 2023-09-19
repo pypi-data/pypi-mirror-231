@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compiler-rt_win-64"
+version = "0.0.1"
+description = "compiler-rt_win-64"
+readme = "README.md"
