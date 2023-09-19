@@ -1,0 +1,10 @@
+metaphor/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaphor/models/crawler_run_metadata.json,sha256=LwfliTv1FQVWtv6TflVeOyZ5QreqboztttHzIGULQHY,2401
+metaphor/models/crawler_run_metadata.py,sha256=qvF6d8WR_owHDhCtWrHL63l7_qRIYaslxkUHhgwqtBQ,5421
+metaphor/models/logical_id.json,sha256=q4cPxw2RHJQZCJlxPlMqq1BZ4aS0e5lFCtmn7pOSAi0,468
+metaphor/models/logical_id.py,sha256=8qHGg787LaYw7xYDffreO4wffC91-yEQ9gozPwDk-xw,1636
+metaphor/models/metadata_change_event.json,sha256=Dr6bjh6xA4MwqaL7msEtCVkXS79-omuwu8dk_CAC6fA,146651
+metaphor/models/metadata_change_event.py,sha256=OE-UEmSa199XO2z9ggjdVxAnl9eara1HExJ83CgDTQ4,293464
+metaphor_models-0.26.11.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+metaphor_models-0.26.11.dist-info/METADATA,sha256=dd_ewKNRt9k-tRoVmUvrIsV7rqWGnFwcKyV1TasJvg8,396
+metaphor_models-0.26.11.dist-info/RECORD,,
