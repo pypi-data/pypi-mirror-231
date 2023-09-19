@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+libiio_c.egg-info/PKG-INFO
+libiio_c.egg-info/SOURCES.txt
+libiio_c.egg-info/dependency_links.txt
+libiio_c.egg-info/top_level.txt
