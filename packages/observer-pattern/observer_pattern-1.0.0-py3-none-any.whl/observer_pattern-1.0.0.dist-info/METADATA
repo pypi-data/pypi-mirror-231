@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: observer-pattern
+Version: 1.0.0
+Summary: Simple Observer Pattern implementation
+Author-email: Gabriele Maurina <gabrielemaurina95@gmail.com>
+Project-URL: Homepage, https://github.com/GabrieleMaurina/observer-pattern
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# observer-pattern
+Simple Observer Pattern Implementation
+
+```python
+from observer_pattern import Observable
+
+counter = 0
+
+def plus_n(n):
+    global counter
+    counter += n
+
+def plus_2n(n):
+    global counter
+    counter += 2*n
+
+def plus_3n(n):
+    global counter
+    counter += 3*n
+
+observable = Observable()
+observable.subscribe(plus_n)
+observable.subscribe(plus_2n)
+observable.subscribe(plus_3n)
+observable.notify(2)
+observable.unsubscribe(plus_3n)
+observable.notify(5)
+
+print(counter) # 27
+print(len(observable)) # 2
+```
+
+You can pass any number of `args` and `kwargs`
+
+```python
+def print_product(a, b):
+    print(a * b)
+
+observable = Observable()
+observable.subscribe(print_product)
+observable.notify(3, b=5) # 15
+print(print_product in observable) # True
+```
