@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: api-agent
+Version: 0.0.1
+Summary: API Agent. Enables copilot to use thousands of APIs
+Author-email: QiangLi <qiangli@microsoft.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# API Agent
+## What is API Agent
+API Agent is an agent that can call REST APIs to help users to fetch information or perform actions. <br>
+The core ideas of API Agent are:
+1. Search an API with a custom API search engine
+2. Determine the parameters of the API
+3. Call the API with the parameters
+
+Just gave API Agent a list of OpenAPI spec files, API Agent can help you to build a chatbot that has the ability to use thousands of REST APIs. <br>
