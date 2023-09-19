@@ -1,0 +1,31 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: pytest -n auto -m "not slow"
+        language: system
+        pass_filenames: false
+        files: "^template/"
+        stages: [push]
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v7.0.0
+    hooks:
+      - id: cspell
+        name: check spelling (cspell)
+        args:
+          [
+            --show-suggestions,
+            --show-context,
+            --no-must-find-files,
+            --config,
+            .vscode/cspell.json,
+          ]

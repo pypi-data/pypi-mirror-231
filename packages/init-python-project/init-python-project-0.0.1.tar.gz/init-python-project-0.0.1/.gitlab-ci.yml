@@ -1,0 +1,63 @@
+image: python
+
+variables:
+  GIT_DEPTH: 0
+
+# build_example:
+#   stage: build
+#   script:
+#     - pip install copier
+#     - copier copy --trust -d "project_name=Sample Project" --defaults . ./example
+#   artifacts:
+#     paths:
+#       - example
+#   only:
+#     - main
+
+# publish_example:
+#   stage: build
+#   script:
+#     - cd example
+#     - git init
+#     - git remote add origin git@git01.iis.fhg.de:mkj/sample-project.git
+#     - make example-setup
+#   only:
+#     - main
+
+before_script:
+  # symlinks must be replaced with actual files in CI
+  - rm -r src/init_python_project/template src/init_python_project/copier.yaml
+  - cp -r template src/init_python_project/.
+  - cp copier.yaml src/init_python_project/.
+  # creating example projects using copier requires a git identity
+  - git config --global user.name "ci-runner"
+  - git config --global user.email "ci-runner@git01.iis.fhg.de"
+
+dist:
+  stage: build
+  script:
+    - make build
+  artifacts:
+    paths:
+      - build/
+
+docs:
+  stage: build
+  script:
+    - apt-get update && apt-get install tree
+    - pip install .[doc]
+    - make docs
+  artifacts:
+    paths:
+      - build/docs
+
+pages:
+  script:
+    - mv build/docs public
+  needs:
+    - docs
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
