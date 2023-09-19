@@ -1,0 +1,2 @@
+[console_scripts]
+mycli = src.cryptoguard4py:main

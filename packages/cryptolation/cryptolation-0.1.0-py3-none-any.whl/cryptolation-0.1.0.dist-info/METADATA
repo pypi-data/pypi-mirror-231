@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: cryptolation
+Version: 0.1.0
+Summary: My short description for my project.
+Home-page: https://github.com/franceme/cryptolation
+Author: Miles Frantz
+Author-email: frantzme@vt.edu
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: astroid ==2.4.2
+Requires-Dist: setuptools ==50.3.2
+Requires-Dist: password-strength ==0.0.3.post2
+Requires-Dist: cyclonedx-python-lib >=0.11.1
+Provides-Extra: deployment
+Requires-Dist: pyinstaller ==4.2 ; extra == 'deployment'
+Provides-Extra: documentation
+Requires-Dist: alabaster ==0.7.12 ; extra == 'documentation'
+Requires-Dist: Babel ==2.9.0 ; extra == 'documentation'
+Requires-Dist: certifi ==2020.12.5 ; extra == 'documentation'
+Requires-Dist: chardet ==4.0.0 ; extra == 'documentation'
+Requires-Dist: colorama ==0.4.4 ; extra == 'documentation'
+Requires-Dist: commonmark ==0.9.1 ; extra == 'documentation'
+Requires-Dist: docutils ==0.16 ; extra == 'documentation'
+Requires-Dist: idna ==2.10 ; extra == 'documentation'
+Requires-Dist: imagesize ==1.2.0 ; extra == 'documentation'
+Requires-Dist: Jinja2 ==2.11.2 ; extra == 'documentation'
+Requires-Dist: MarkupSafe ==1.1.1 ; extra == 'documentation'
+Requires-Dist: mccabe ==0.6.1 ; extra == 'documentation'
+Requires-Dist: packaging ==20.8 ; extra == 'documentation'
+Requires-Dist: Pygments ==2.7.4 ; extra == 'documentation'
+Requires-Dist: pyparsing ==2.4.7 ; extra == 'documentation'
+Requires-Dist: pytz ==2020.5 ; extra == 'documentation'
+Requires-Dist: recommonmark ==0.7.1 ; extra == 'documentation'
+Requires-Dist: requests ==2.25.1 ; extra == 'documentation'
+Requires-Dist: snowballstemmer ==2.0.0 ; extra == 'documentation'
+Requires-Dist: timeout-decorator ==0.5.0 ; extra == 'documentation'
+Requires-Dist: toml ==0.10.2 ; extra == 'documentation'
+Requires-Dist: urllib3 ==1.26.2 ; extra == 'documentation'
+Requires-Dist: yapf ==0.30.0 ; extra == 'documentation'
+
+# Cryptolation
+
+A Python static code analysis tool.
+
+## Reference
+
+If you find this database useful, please cite our NDSS'22 [Poster](https://www.ndss-symposium.org/wp-content/uploads/NDSS2022Poster_paper_28.pdf).
+```tex
+@inproceedings{frantz2022poster,
+  title={POSTER: Precise Detection of Unprecedented Python Cryptographic Misuses Using On-Demand Analysis},
+  author={Frantz, Miles and Xiao, Ya and Pias, Tanmoy Sarkar and Yao, Danfeng Daphne},
+  booktitle={The Network and Distributed System Security (NDSS) Symposium},
+  year={2022}
+}
+```
