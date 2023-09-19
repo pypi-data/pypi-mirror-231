@@ -1,0 +1,23 @@
+[project]
+name = "tabularmazemdp"
+description = "A simple maze to test dynamic programming and tabular reinforcement learning algorithms"
+authors = [
+    {name = "Olivier Sigaud", email = "Olivier.Sigaud@isir.upmc.fr"},
+    {name = "Mathis Koroglu", email = "mathis.koroglu@isir.upmc.fr"}
+]
+dependencies = [
+    "numpy", 
+    "matplotlib"
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/arlaz/TabularMazeMDP"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/tabularmazemdp/_version.py"
