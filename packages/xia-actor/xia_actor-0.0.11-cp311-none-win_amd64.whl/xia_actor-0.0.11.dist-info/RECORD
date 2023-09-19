@@ -1,0 +1,9 @@
+xia_actor/__init__.py,sha256=BGqG5fWVhkakXYCU6zY2dGuEgBVGHtK2qt7bV0u-v9U,539
+xia_actor/actor.cp311-win_amd64.pyd,sha256=kNcg6xpR4CqgIliJPkH2coHXGe72w7NFmQA__RDHmow,407552
+xia_actor/job.cp311-win_amd64.pyd,sha256=hX-p98ZQ9wfKtvBFExpcFEHJF_NLufRQUoYwosPlqrQ,336384
+xia_actor/jobs/__init__.py,sha256=v5PevsSwbdPCZxC9LVvusShEUMMvz1ZRDhKIZjJhdJ0,313
+xia_actor-0.0.11.dist-info/LICENSE.txt,sha256=bRB9FMPCldPfgzw5SG187w8daXXQ3DGMmJ2vkox_Idw,156
+xia_actor-0.0.11.dist-info/METADATA,sha256=dA14lQ64grPC3AzC2qJb6MiD2LhvFuawwK6SB6U-trw,409
+xia_actor-0.0.11.dist-info/WHEEL,sha256=-iDqJSrp03B1Tru3gLOBW8bUvJe-ZxOd3ZTfLCIkKMI,100
+xia_actor-0.0.11.dist-info/top_level.txt,sha256=-UXLzmsgIuEIUSHRbR6XD-ix4NwhjldjVlG3xjJVuyg,10
+xia_actor-0.0.11.dist-info/RECORD,,
