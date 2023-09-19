@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ApiBot
+Version: 0.0.3
+Summary: Api Odoo - Botmaker
+Project-URL: Homepage, https://github.com/GAD1959/ApiBot
+Author-email: gadeluca <gadeluca@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# ApiBot
+Api Oddo botmaker
