@@ -1,0 +1,56 @@
+[tool.pyright]
+# typeCheckingMode = "strict"
+typeCheckingMode = "basic"
+
+# enable EVERYTHING. See
+# https://microsoft.github.io/pyright/#/configuration?id=diagnostic-rule-defaults
+# reportUntypedFunctionDecorator = true
+# reportUntypedNamedTuple = true
+# reportCallInDefaultInitializer = true
+# reportImplicitOverride = true
+# reportImplicitStringConcatenation = true
+# reportImportCycles = true
+# reportMissingSuperCall = true
+# reportPropertyTypeMismatch = true
+# reportShadowedImports = true
+# reportUninitializedInstanceVariable = true
+# reportUnnecessaryTypeIgnoreComment = true
+# reportUnusedCallResult = true
+
+# CUSTOM overrides
+reportMissingTypeStubs = false
+reportWildcardImportFromLibrary = false
+reportSelfClsParameterName = false
+
+[tool.poetry]
+name = "pimplife"
+version = "0.1.0"
+description = "Provider of Insights and Meaning into Programs."
+authors = ["Dominik Teiml <18601956+hacker-DOM@users.noreply.github.com>"]
+license = "Unlicense"
+readme = "README.md"
+
+[[tool.poetry.packages]]
+include = "pimp/*"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.5.2"
+pydantic = "^2.3.0"
+click = "^8.1.7"
+rich-click = "^1.6.1"
+typing-extensions = "^4.7.1"
+aiohttp = "^3.8.5"
+aiofiles = "^23.2.1"
+tomli = "^2.0.1"
+networkx = "^3.1"
+tree-sitter = "^0.20.2"
+
+[tool.poetry.group.dev.dependencies]
+
+[tool.poetry.scripts]
+pimp = "pimp.cli.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
