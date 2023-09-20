@@ -1,0 +1,7 @@
+setup.py
+src/snowauth/__init__.py
+src/snowauth/snowauth.py
+src/snowauth.egg-info/PKG-INFO
+src/snowauth.egg-info/SOURCES.txt
+src/snowauth.egg-info/dependency_links.txt
+src/snowauth.egg-info/top_level.txt
