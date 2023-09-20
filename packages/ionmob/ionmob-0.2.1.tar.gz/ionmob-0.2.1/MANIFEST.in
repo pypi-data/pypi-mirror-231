@@ -1,0 +1,2 @@
+recursive-include ionmob/pretrained_models/*
+recursive-include ionmob/example_data/*
