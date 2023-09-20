@@ -1,0 +1,25 @@
+
+##########################################
+##### Additional rules for reasoning #####
+##########################################
+
+# Utility rule: how many objects compose an object
+ufu:numObjectsComposedOf[?Object,?Num]
+    :- :Object[?Object] ,
+        AGGREGATE(
+            :objectComposedOf[?Object,?Component]
+            ON ?Object
+            BIND COUNT(?Component) AS ?Num) .
+
+# Utility rule: how many observations define an object
+ufu:numObservationsDefinedBy[?Object,?Num]
+    :- :Object[?Object] ,
+        AGGREGATE(
+            :objectDefinedBy[?Observation,?Object]
+            ON ?Object
+            BIND COUNT(?Observation) AS ?Num) .
+ufu:numObservationsDefinedBy[?Object,0]
+    :- :Object[?Object] ,
+        NOT EXISTS ?Observation IN (
+            :objectDefinedBy[?Observation,?Object]
+        ) .
