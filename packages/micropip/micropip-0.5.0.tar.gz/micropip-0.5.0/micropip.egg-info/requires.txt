@@ -1,0 +1,7 @@
+packaging>=23.0
+
+[test]
+pytest-httpserver
+pytest-pyodide
+pytest-cov
+build==0.7.0
