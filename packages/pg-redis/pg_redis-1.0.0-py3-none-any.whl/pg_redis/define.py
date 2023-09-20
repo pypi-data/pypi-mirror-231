@@ -1,0 +1,6 @@
+KEY_REDIS = "redis"
+KEY_REDIS_HOST = "host"
+KEY_REDIS_PORT = "port"
+KEY_REDIS_DB = "db"
+KEY_REDIS_PASSWORD = "password"
+KEY_REDIS_POOL_SIZE = "pool_size"
