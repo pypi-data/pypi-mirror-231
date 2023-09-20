@@ -1,0 +1,18 @@
+[project]
+name = "parspy"
+version = "0.0.1"
+authors = [
+  { name="PlaceReporter99", email="placereporter99pypi@outlook.com" },
+]
+description = "A lightweight parsing library."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PlaceReporter99/parspy"
+"Bug Tracker" = "https://github.com/PlaceReporter99/parspy/issues"
