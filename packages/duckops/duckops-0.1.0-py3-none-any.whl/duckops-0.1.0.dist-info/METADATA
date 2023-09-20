@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: duckops
+Version: 0.1.0
+Summary: A utility package for pushing around data
+Author-email: Michael Chow <mc_al_github@fastmail.com>
+Keywords: data
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: duckdb
+Requires-Dist: duckdb-engine
+Requires-Dist: pandas <2.1.0
+Requires-Dist: siuba
+Requires-Dist: sqlalchemy <=1.4.47
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-dotenv ; extra == 'dev'
+Requires-Dist: polars ; extra == 'dev'
+
