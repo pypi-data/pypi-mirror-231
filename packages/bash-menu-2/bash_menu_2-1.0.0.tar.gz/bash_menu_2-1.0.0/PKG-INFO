@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bash_menu_2
+Version: 1.0.0
+Summary: Bash Menu Builder
+Home-page: https://github.com/OleksiiPopovDev/Bash-Menu
+Author: Oleksii.Popov
+Author-email: popovaleksey1991@gmail.com
+Project-URL: Documentation, https://github.com/OleksiiPopovDev/Bash-Menu
+Keywords: bash menu vizual python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bash-Menu

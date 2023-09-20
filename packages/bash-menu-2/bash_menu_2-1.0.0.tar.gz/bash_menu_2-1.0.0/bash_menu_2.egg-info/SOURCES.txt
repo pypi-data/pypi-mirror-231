@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bash_menu_2/__init__.py
+bash_menu_2/color.py
+bash_menu_2/menu_item_dto.py
+bash_menu_2/view.py
+bash_menu_2.egg-info/PKG-INFO
+bash_menu_2.egg-info/SOURCES.txt
+bash_menu_2.egg-info/dependency_links.txt
+bash_menu_2.egg-info/top_level.txt
