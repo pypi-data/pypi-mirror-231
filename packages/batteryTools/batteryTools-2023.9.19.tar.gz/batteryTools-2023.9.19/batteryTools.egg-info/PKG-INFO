@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: batteryTools
+Version: 2023.9.19
+Home-page: https://github.com/PaulFilms/battery-tools.git
+Author: PABLO PILA
+Author-email: pablogonzalezpila@gmail.com
+License: www.unlicense.org
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+License-File: LICENSE
+
+README.md

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+batteryTools/__init__.py
+batteryTools/example.py
+batteryTools.egg-info/PKG-INFO
+batteryTools.egg-info/SOURCES.txt
+batteryTools.egg-info/dependency_links.txt
+batteryTools.egg-info/top_level.txt
