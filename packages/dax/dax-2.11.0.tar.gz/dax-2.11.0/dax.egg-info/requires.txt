@@ -1,0 +1,13 @@
+pyxnat>=1.1.0.2
+pyyaml
+pycap
+fpdf2
+PyPDF2
+yamale
+
+[bids]
+cubids-bond-fork
+nibabel
+
+[docs]
+Sphinx>=4
