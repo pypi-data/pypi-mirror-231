@@ -1,0 +1,7 @@
+lefaso_net_scraper/__init__.py,sha256=Yg6COvh3NyF9jTaEDbOtRQlTgftL284xKjvcv4fYnIQ,120
+lefaso_net_scraper/lefaso/__init__.py,sha256=OvGC-6-0huzlU4sytz9h6RH1tNkDW0KImWJkw_WesAg,278
+lefaso_net_scraper/lefaso/scraper.py,sha256=m-ndCWse5MxUf9IyQE38fdO3DKRPDhgwFCu6f-J2uNA,5111
+lefaso_net_scraper/settings.py,sha256=yDZD4Yv9rVaQxK97mRcotLmlX8UqYrCGzJz4IU0vVoQ,650
+lefaso_net_scraper-0.1.0.dist-info/METADATA,sha256=mLcB81EWDIPIMNfXc_vhuG2ZMsoQKGK-8xgnnDvSYqo,1526
+lefaso_net_scraper-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+lefaso_net_scraper-0.1.0.dist-info/RECORD,,
