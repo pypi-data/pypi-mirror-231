@@ -1,0 +1,17 @@
+arroba/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arroba/datastore_storage.py,sha256=_wgse3vhcmet6VSOikoamTwps6FR_F4FIJhoQeLI98g,12069
+arroba/did.py,sha256=GQC4TuyakkH8fEyGpQlT9uldhf6r79dl3GdWY_vzcJY,10954
+arroba/diff.py,sha256=bGKLIxoDi0F1OzOTviQerK1UUx9QPtWSy11h8v-fY98,8236
+arroba/jwt_monkeypatch.py,sha256=2bUyWRYG16SCGUpWlzmxTHJ4PqguZTeI6_0Bj-4vskI,672
+arroba/mst.py,sha256=LFWKuBONss5TIfbPoV9fCpvURlEDzpOhJU31XzfMjEM,33869
+arroba/repo.py,sha256=K0pCgahOWTw4TbKhGgOY736cuQelBlJQeCrKnXDf4TM,10500
+arroba/server.py,sha256=aXL4kRqV8ADaTjAOLn-3DdvlGk_FcW5tPGsZgurQURk,717
+arroba/storage.py,sha256=GD_Y6Q5V_-IuQ-sJ5Kp_wq_WvX-j1db0llXiLHxsAP4,10813
+arroba/util.py,sha256=sD2ROyn2pPlPlRHXnGMNQ5SG_64rV_9WnqqvTsKxdQ0,9352
+arroba/xrpc_repo.py,sha256=gN6XOQ8BriitLCMJiDfxw8XYju9sDiEj6qNXFBeRngM,4432
+arroba/xrpc_server.py,sha256=OZ403iffJP8fEN-EGdrHtalKH1bRXkx_zi8fAAD0gds,1917
+arroba/xrpc_sync.py,sha256=FnlyXJKeUTsdcgwnPr2huPsuGGCSjx0HYPC2OUVS-5k,7357
+arroba-0.4.dist-info/METADATA,sha256=iCkfQVKR_qtzfDI0seTUw_DCpH0-8tXQasD-r3sOFxk,7808
+arroba-0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+arroba-0.4.dist-info/top_level.txt,sha256=JPagKKHrMMjQ77FPrz8hwWcnOqwn8MD--nCGaHw8M88,7
+arroba-0.4.dist-info/RECORD,,
