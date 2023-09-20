@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+j_formatter/__init__.py
+j_formatter/j_formater.py
+j_formatter.egg-info/PKG-INFO
+j_formatter.egg-info/SOURCES.txt
+j_formatter.egg-info/dependency_links.txt
+j_formatter.egg-info/top_level.txt
