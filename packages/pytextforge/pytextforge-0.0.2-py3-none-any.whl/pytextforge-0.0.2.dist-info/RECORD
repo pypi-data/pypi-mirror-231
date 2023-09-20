@@ -1,0 +1,12 @@
+pytextforge/__init__.py,sha256=v1iLRdyaYuWW4YnyWxe-rc9-X-BATlleqB49J76va7Y,11
+pytextforge/__main__.py,sha256=GvQ19FAhw2Hl2kr_76-ujXsczQIVgsWYn9eqV4xa4Og,3831
+pytextforge/file.py,sha256=d2MWt1b92yarGQ9_zcJuwFaP4xOv4L3xg2CTwWSXQXo,383
+pytextforge/forge.py,sha256=lurrNjseH6Lmztu7Rqf2WR26d-by0p_BahXqIb4ULss,272
+pytextforge/inputs.py,sha256=pwJPZ_AyW1Q3wQQ9oanTVFiY45e1IeodNas8RNgNk3c,866
+pytextforge/messages.py,sha256=KlCLKAXwQ0aJg4J9tyh_3U0q4OZtD4Zf4q08TW_yV30,3074
+pytextforge/singleton.py,sha256=C4wyRyZdEysfRuoTf0BrPrTY7RbPlTjvU6Yby4dcM3w,256
+pytextforge-0.0.2.dist-info/METADATA,sha256=M7OjybwnI_gjofXJEn_-q9TrUqJ8L8gOxLJmWiKmvVs,735
+pytextforge-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytextforge-0.0.2.dist-info/entry_points.txt,sha256=C--4OqZ5xbFPDblr85JSuLS5uyEjvoDFaDlVEbQXwiE,50
+pytextforge-0.0.2.dist-info/top_level.txt,sha256=fbWJmnQ-WHWRTSAcRVsRpiO1hBoYjdMpG4k9imhtu4w,12
+pytextforge-0.0.2.dist-info/RECORD,,
