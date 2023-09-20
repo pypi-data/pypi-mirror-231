@@ -1,0 +1,8 @@
+openai
+regex
+appdirs
+jinja2
+markupsafe
+huggingface_hub
+crcmod
+PyPDF2
