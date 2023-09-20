@@ -1,0 +1,3 @@
+zarr
+simulariumio[tutorial]
+smoldyn==2.72
