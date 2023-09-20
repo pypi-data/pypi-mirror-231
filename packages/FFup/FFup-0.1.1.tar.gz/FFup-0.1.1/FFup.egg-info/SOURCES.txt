@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FFup.egg-info/PKG-INFO
+FFup.egg-info/SOURCES.txt
+FFup.egg-info/dependency_links.txt
+FFup.egg-info/entry_points.txt
+FFup.egg-info/top_level.txt
+ffup/FFquickUpdate.bat
+ffup/FFquickUpdate.sh
+ffup/FFup.py
+ffup/__init__.py
