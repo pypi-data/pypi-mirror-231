@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rpc_queue_manager
+Version: 0.1
+Summary: A simple library for interacting with RabbitMQ RPC in Django
+Home-page: UNKNOWN
+Author: Surya Dev Singh
+Author-email: surya.dev@careers360.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
