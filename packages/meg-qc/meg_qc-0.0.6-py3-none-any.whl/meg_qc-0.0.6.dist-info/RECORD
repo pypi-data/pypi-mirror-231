@@ -1,0 +1,10 @@
+meg_qc/__init__.py,sha256=i1OTn1AdngdvNxFCdH3rIUEtMcHkWARFlEpONKBbGMI,73
+meg_qc/__main__.py,sha256=RkXJUHBde86GEFpkiUck6HSXZWKBOqHFtOpWk-hWS7o,1383
+meg_qc/_version.py,sha256=9uFVJDPBP5DZtj2EB5SbvSYGvKIW7Ge5eVuR1kHyvws,496
+meg_qc/meg_qc_pipeline.py,sha256=OPyrzRaIT0d0O37WJQQsSoz4OyhbHEzNAEDo9rjLW-c,19523
+meg_qc-0.0.6.dist-info/DESCRIPTION.rst,sha256=w-0pkAFD-WsBRIBGqNNtHIdjo8yxgns5VL_3BeSedn4,3590
+meg_qc-0.0.6.dist-info/METADATA,sha256=xy-gD3Hu_Tux1r2iZokKcPtjvC8XRSnGEksicXs3yKE,4523
+meg_qc-0.0.6.dist-info/RECORD,,
+meg_qc-0.0.6.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+meg_qc-0.0.6.dist-info/metadata.json,sha256=M-FTgN8LwUEN3xeUkAKD8OZ6bd5CRLdznI85L-NaUlw,1087
+meg_qc-0.0.6.dist-info/top_level.txt,sha256=p4tXQu9ZwHqQR0IVU2NtYkrS3rjTZWX5JJhKO7MIYak,7
