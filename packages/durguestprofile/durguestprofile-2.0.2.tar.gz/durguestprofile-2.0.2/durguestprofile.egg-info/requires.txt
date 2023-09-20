@@ -1,0 +1,14 @@
+numpy>=1.23.5
+pandas>=1.5.3
+XlsxWriter>=3.0.3
+lxml>=4.9.1
+pyparsing>=3.0.9
+openpyxl>=3.0.10
+customtkinter==5.1.2
+sparse_dot_topn>=0.3.1
+scikit-learn>=1.1.1
+scipy>=1.10.0
+matplotlib==3.7.1
+google-i18n-address==2.5.2
+phonenumbers==8.13.8
+pysftp==0.2.9

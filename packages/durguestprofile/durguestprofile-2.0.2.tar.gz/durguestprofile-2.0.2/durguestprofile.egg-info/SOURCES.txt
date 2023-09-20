@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+durguestprofile/__init__.py
+durguestprofile/functions.py
+durguestprofile/utilities.py
+durguestprofile/xmltodict.py
+durguestprofile.egg-info/PKG-INFO
+durguestprofile.egg-info/SOURCES.txt
+durguestprofile.egg-info/dependency_links.txt
+durguestprofile.egg-info/requires.txt
+durguestprofile.egg-info/top_level.txt
+durguestprofile/support/__init__.py
