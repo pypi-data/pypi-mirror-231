@@ -1,0 +1,11 @@
+cog_hf_template/__init__.py,sha256=cOZWlLqLrpBzYV4Fm9DgD-4mKX9glEfMdcKEN7xJGpc,426
+cog_hf_template/download_utils.py,sha256=s7Q_6v7cppU3NLQ05jt9AVst0FDsVBxWsf5_MqBGhTo,456
+cog_hf_template/hf.py,sha256=e0y4UXBjkfyRZiQwWe0Z15uif14sTtdRo8KQcf3fBc4,2555
+cog_hf_template/main.py,sha256=Sa1gcPsBw2PccJolFd2STZ70RcPjuuVIcZqNgPSgGdE,726
+cog_hf_template/sbert.py,sha256=cMKTAxUIROA65GW8bwFwq69Xt0Qwv0rfDZJqy-RzXiA,1127
+cog_hf_template/text_generation.py,sha256=DQKYy_hreSUhUftAY0EXUteP3PMboS8CESgc8CNT4cA,4773
+cog_hf_template-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cog_hf_template-0.0.4.dist-info/METADATA,sha256=a7Lo0GLZIybyDCU4Pmi9xZUQwULCbrqRd4YtPCbV31Q,1119
+cog_hf_template-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cog_hf_template-0.0.4.dist-info/top_level.txt,sha256=AR867qY12YXjcweJNb_ypKTVc-MxplGYy9RSmMo89e4,16
+cog_hf_template-0.0.4.dist-info/RECORD,,
