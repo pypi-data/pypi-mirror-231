@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: EasyGraph_py
+Version: 0.1.0
+Summary: A simple python module to create all types of graphs.
+Home-page: https://github.com/ahmedreza1/EasyGraph
+Author: Md Ahmed Reza
+Author-email: ahmedreza80@gmail.com
+License-File: LICENSE.txt
