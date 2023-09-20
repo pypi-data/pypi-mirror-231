@@ -1,0 +1,7 @@
+__setup.py,sha256=Au_dEVrbMu-hRwpLJiXSOuRLfywQjhQt4XGPBoBwNSk,319
+src/aiogram-sqlite-storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/aiogram-sqlite-storage/sqlitestore.py,sha256=yLZZwJaWByUIKQ88Il-5e-BrVEaPgNM-udGMPA7L3mk,3717
+aiogram_sqlite_storage-0.1.1.dist-info/METADATA,sha256=p8bEmSE6x4da_VggMBGqc7YIhLeJKSsjHKzfRqt-2Qs,486
+aiogram_sqlite_storage-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+aiogram_sqlite_storage-0.1.1.dist-info/licenses/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+aiogram_sqlite_storage-0.1.1.dist-info/RECORD,,
