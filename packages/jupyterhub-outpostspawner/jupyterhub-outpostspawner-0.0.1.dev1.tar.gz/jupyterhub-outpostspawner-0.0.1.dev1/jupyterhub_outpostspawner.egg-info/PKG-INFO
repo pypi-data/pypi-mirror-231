@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jupyterhub-outpostspawner
+Version: 0.0.1.dev1
+Summary: JupyterHub Spawner to run services on multiple remote resources.
+Home-page: https://github.com/kreuzert/jupyterhub-outpostspawner
+Author: Tim Kreuzer
+Author-email: t.kreuzer@fz-juelich.de
+License: 3-BSD
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jupyterhub
+Requires-Dist: traitlets
+Requires-Dist: escapism
+Requires-Dist: kubernetes
+
+# JupyterHub OutpostSpawner
+JupyterHub Spawner to run services on multiple remote resources.
