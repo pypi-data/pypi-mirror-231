@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: symbiont
+Version: 0.1.1
+Summary: Tiny module-service and dependency injection framework
+Author: Ivan Borisenko
+Author-email: contact@13g10n.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Symbiont
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Tiny module-service and dependency injection framework
+
+## Installation
+
+```bash
+pip install symbiont
+```
+
+## Usage
+
+```python
+from symbiont import Module, Injectable, DependencyInjector
+
+
+class BarService(Injectable):
+    x: int = 42
+
+
+class FooService(Injectable):
+    bar: BarService
+
+
+class ExampleModule(
+    Module,
+    providers=[BarService, FooService]
+):
+    foo: FooService
+
+
+class RootModule(
+    Module,
+    imports=[ExampleModule]
+):
+    foo: FooService
+
+
+injector = DependencyInjector()
+root = injector.initialize(RootModule)
+
+
+@injector.inject
+def example_method(a, foo: FooService):
+    ...
+
+```
+
