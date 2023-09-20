@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: patch-aiohttp-requests
+Version: 0.1.1
+Summary: Simple patching of `aiohttp` requests
+Home-page: https://github.com/Raekkeri/patch-aiohttp-requests
+Author: Teemu Husso
+Author-email: teemu.husso@gmail.com
+Keywords: aiohttp,requests,tests,mock,patch
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: setuptools
+
+# patch-aiohttp-requests
+
+Simple patching of aiohttp requests.
+
+The package contains a `patch_aiohttp_requests` context manager, which can be used to
+mock one or multiple async HTTP requests made with aiohttp library.
