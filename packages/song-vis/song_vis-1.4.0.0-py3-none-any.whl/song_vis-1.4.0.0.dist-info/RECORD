@@ -1,0 +1,11 @@
+song/__init__.py,sha256=WiF1DxqRnLIzu2y_dhlnnl4O4ezQrrp8WV0y2--BYDg,13
+song/duplex_song.py,sha256=xsDxUvhK5Y_E89DnP-M0ohMtSW74_6W9TE3xFhrfOsk,31319
+song/duplex_umap_song.py,sha256=i4xR_Q1LgUtQMB9PGAAZull20uYtoKALgYk0npSyOhk,22579
+song/song.py,sha256=sx27x_EiJQHhQmhkE6oIVQKLivhiRYKzidcljyyAFmE,18495
+song/umap_song.py,sha256=uaFLbTn7V2--_CnedQ7DFNMX2JHbXkXl6HpH4ymvAb4,20180
+song/util.py,sha256=pejVDzmJECc7EB0AKURdo6-QrH3GkcvACUD5FNmVKDU,25094
+song_vis-1.4.0.0.dist-info/LICENSE.txt,sha256=5Yfj2UCq9IEUmVZKar27q-e2VKLmwR90kS67Htmh_wQ,1845
+song_vis-1.4.0.0.dist-info/METADATA,sha256=57zjmti4qQ7pfBkMJ3bZZKkjKz3kLsRUAnDjN_rQVFY,295
+song_vis-1.4.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+song_vis-1.4.0.0.dist-info/top_level.txt,sha256=Hl5QQdMl7VTxic9A9kv6aanDoX4X0ZuyQOWIP414pWk,5
+song_vis-1.4.0.0.dist-info/RECORD,,
