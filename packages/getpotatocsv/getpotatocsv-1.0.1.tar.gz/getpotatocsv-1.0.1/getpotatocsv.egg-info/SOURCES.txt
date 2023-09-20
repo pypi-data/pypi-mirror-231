@@ -1,0 +1,7 @@
+README.md
+setup.py
+getpotatocsv.egg-info/PKG-INFO
+getpotatocsv.egg-info/SOURCES.txt
+getpotatocsv.egg-info/dependency_links.txt
+getpotatocsv.egg-info/top_level.txt
+potatocsv/getpotatocsv.py

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: getpotatocsv
+Version: 1.0.1
+Summary: A simple library for csv file and split the value
+Author: ks lim
+Author-email: kianseng.lim@sony.com
