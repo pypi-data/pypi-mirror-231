@@ -1,0 +1,8 @@
+jwtsign-1.0.8.dist-info/top_level.txt,sha256=aOWd--7K98gmyt_yPY7OOt44lKZlQUE3FxbCs9cGnQU,8
+jwtsign-1.0.8.dist-info/WHEEL,sha256=yLNqMLmYUPWKreTEsv4bsZg-FasDfY9d-howX2-phe0,112
+jwtsign-1.0.8.dist-info/METADATA,sha256=S9C2XFNo7EkHEgBu2wxtSk4yEmg5NoRP1KOv-6vqQq8,1407
+jwtsign-1.0.8.dist-info/RECORD,,
+jwtsign/version.py,sha256=NND_6JDYnYnGzN3-RTpS5F7wzv62vDf7hAxiyTSBJfE,22
+jwtsign/__init__.py,sha256=6QuTwjW0sn3F8H-GLi8s9EyNuy144zgtc2Tu9F6UD-g,24
+jwtsign/jwtsign.cpython-39-x86_64-linux-gnu.so,sha256=G0aeH0mSZbhIb_Vz6FanqnF_3ZBuhmIM3tTsRuU6h14,6802664
+jwtsign/jwtsign.pyi,sha256=MhLFxXwBuT9B0m50Y5DzwHrX_I13Y29NEyBEenh42yA,491
