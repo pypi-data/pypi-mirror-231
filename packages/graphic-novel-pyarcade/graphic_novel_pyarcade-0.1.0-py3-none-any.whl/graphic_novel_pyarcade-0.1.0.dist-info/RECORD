@@ -1,0 +1,9 @@
+graphic_novel/__init__.py,sha256=ohOF2EdGa46ZRTf09KFatQ6VeKJVXN9HcD810TV_1OM,11548
+graphic_novel/constants.py,sha256=nuXOigs_6p3vJy8P-4z4MmbU7xDvHRW-lHyr8Y35nPA,337
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/parser_test.py,sha256=wYyGtnM5AELUBKYv9FfTqVbQIDkF2QOel2YkQ7k9-Ac,2377
+graphic_novel_pyarcade-0.1.0.dist-info/LICENSE,sha256=IGskARcV_NxV26yMF_sTkWtqfOVi2JWopAmV39ke4FA,1107
+graphic_novel_pyarcade-0.1.0.dist-info/METADATA,sha256=3mZNQpDdVKUCjVu-ggMWTb7JaH0mJW5MXaXmcpZJKyg,2728
+graphic_novel_pyarcade-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+graphic_novel_pyarcade-0.1.0.dist-info/top_level.txt,sha256=MLtUgZWPMDzXQdV9p1DevBTanzRpfxOjwdbcwxNEY-I,20
+graphic_novel_pyarcade-0.1.0.dist-info/RECORD,,
