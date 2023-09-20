@@ -1,0 +1,20 @@
+mitmproxy_macos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mitmproxy_macos/macos-certificate-truster.app/Contents/Info.plist,sha256=xMt4v9fvXmu66CElVbkPvCHd6nY0jT0ZWVCRmd9g8jA,957
+mitmproxy_macos/macos-certificate-truster.app/Contents/Resources/mitmproxy.icns,sha256=E5rSIoq3prXFOkgmt1GC19aLw36NWjkIZ4SfOCG_Isg,154566
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/CodeResources,sha256=VCkecWgAb3W_ZH2EEgGIho9VEn3HbNOHa22uI3KEum0,1759
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Info.plist,sha256=JIgtMqGDp71rrpOqz1CZkitOkEp_58Q1oGkJ6r4-JWc,1525
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/PkgInfo,sha256=glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA,8
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/embedded.provisionprofile,sha256=Pp94GfAy5YS5hXTRqYkuXYvomSWzGbXiW3C3sJMMl7c,13152
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Frameworks/libswift_Concurrency.dylib,sha256=9B0RfpsEjEWGwqox-RRxKgpU4an1am_pqC4rJbO8df4,1124944
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Library/SystemExtensions/org.mitmproxy.macos-redirector.network-extension.systemextension/Contents/Info.plist,sha256=VFD35DkBNdSFAW732D7q6JkosWZ7LGeyC78LB5WamBo,1788
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Library/SystemExtensions/org.mitmproxy.macos-redirector.network-extension.systemextension/Contents/embedded.provisionprofile,sha256=N9gvbl4_hxs7Xc_H8fzSBwcRuhUM05GkyYgbT0FhghI,13278
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Library/SystemExtensions/org.mitmproxy.macos-redirector.network-extension.systemextension/Contents/MacOS/org.mitmproxy.macos-redirector.network-extension,sha256=493Pk-sSH8YWX7O0DEue3nfbV0wA26LvEkbDtjNIUUY,3313904
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Library/SystemExtensions/org.mitmproxy.macos-redirector.network-extension.systemextension/Contents/_CodeSignature/CodeResources,sha256=9qQwPPPwOXWNUA-eoSvO5WEEjnVil-ET2eEtiX7Bo6w,2355
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/MacOS/Mitmproxy Redirector,sha256=lzAKwYD_CqEPequ3WkW5QvcYJQNb16GoCLTlmCX-9Nw,3128464
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Resources/AppIcon.icns,sha256=s-g8TGUWPls0v4MGKdRQhpZkvMYFC9ypueabrpPynL0,40688
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/Resources/Assets.car,sha256=PTzw-gaCoZMH5QFxgh0Myo6I_fzgKVnb6XWVXplUxH4,282280
+mitmproxy_macos/Mitmproxy Redirector.app/Contents/_CodeSignature/CodeResources,sha256=F6EY9Ahu4z9axX_HKM4fsiiiwESyQZuZCsQpqJsjYqQ,4329
+mitmproxy_macos/macos-certificate-truster.app/Contents/MacOS/macos-certificate-truster,sha256=TVeqsvf0vr_WSwHFVc3qS1AgdRfGQyLVGJhWQR021AQ,453744
+mitmproxy_macos-0.3.1.dist-info/METADATA,sha256=1v0PZtDu4fAkzrCa_MK_QrrWUqPMOchtZ7sYBHga90A,517
+mitmproxy_macos-0.3.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mitmproxy_macos-0.3.1.dist-info/RECORD,,
