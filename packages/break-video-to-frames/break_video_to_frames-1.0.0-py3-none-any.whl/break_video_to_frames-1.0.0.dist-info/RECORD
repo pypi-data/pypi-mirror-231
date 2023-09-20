@@ -1,0 +1,10 @@
+videoToFrames/__init__.py,sha256=IXnZKQ30WKEKVYVKK4Hz2Y3bLDaP2OZrURJ6SqLke4M,333
+videoToFrames/__main__.py,sha256=i9pE3OhFqRVqZWjcVfLKQacHuWRDQx6z29hr6duzAQY,1497
+videoToFrames/breaker.py,sha256=GN9AnqjBaTL_1yFd-MPyEXxAnkfqnF2z45TGsYfA9pM,4203
+videoToFrames/config.toml,sha256=MmAPluHonnznQ7ZRvGeldGadg6NQzBet4pldOcrqxNY,45
+break_video_to_frames-1.0.0.dist-info/LICENSE,sha256=cxjFPWDiLQUnqM2x4Ik_DTTGke34V2rB0LjQqomYZGE,1095
+break_video_to_frames-1.0.0.dist-info/METADATA,sha256=VxHR726paoDWe0a6jZadQKAEafE9H7ljfx9bIm2oPA0,3006
+break_video_to_frames-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+break_video_to_frames-1.0.0.dist-info/entry_points.txt,sha256=xy6LV_hIfmoLgz_hY_EBXle1u09XUrMp09fZyX_CDMg,62
+break_video_to_frames-1.0.0.dist-info/top_level.txt,sha256=GS5ZCfjgQ9xfYmXVCPlSPpDMhL64yjbEGNKb2ZZzSvU,14
+break_video_to_frames-1.0.0.dist-info/RECORD,,
