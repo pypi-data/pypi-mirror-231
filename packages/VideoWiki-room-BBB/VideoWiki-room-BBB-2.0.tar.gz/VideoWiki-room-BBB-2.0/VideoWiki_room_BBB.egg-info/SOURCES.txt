@@ -1,0 +1,11 @@
+setup.py
+VideoWiki_room_BBB.egg-info/PKG-INFO
+VideoWiki_room_BBB.egg-info/SOURCES.txt
+VideoWiki_room_BBB.egg-info/dependency_links.txt
+VideoWiki_room_BBB.egg-info/requires.txt
+VideoWiki_room_BBB.egg-info/top_level.txt
+bbb_api/__init__.py
+bbb_api/admin.py
+bbb_api/apps.py
+bbb_api/models.py
+bbb_api/tests.py
