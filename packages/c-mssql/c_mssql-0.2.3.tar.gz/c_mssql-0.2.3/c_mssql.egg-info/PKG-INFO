@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: c-mssql
+Version: 0.2.3
+Summary: c_mssql
+Home-page: https://www.cnblogs.com/Evan-fanfan/
+Author: evanyang
+Author-email: lightyiyi@qq.com
+License: MIT tencent_message
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+1-use pyodbc instead of pymssql.
+2-add trust connection.
+3-修复如果没有返回记录报错的问题
+
