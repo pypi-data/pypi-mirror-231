@@ -1,0 +1,7 @@
+README.md
+setup.py
+discord_experiments.egg-info/PKG-INFO
+discord_experiments.egg-info/SOURCES.txt
+discord_experiments.egg-info/dependency_links.txt
+discord_experiments.egg-info/requires.txt
+discord_experiments.egg-info/top_level.txt
