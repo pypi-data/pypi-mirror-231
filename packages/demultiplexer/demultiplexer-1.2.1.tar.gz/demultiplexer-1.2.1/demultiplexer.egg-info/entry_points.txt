@@ -1,0 +1,2 @@
+[console_scripts]
+demultiplexer = demultiplexer.__main__:main
