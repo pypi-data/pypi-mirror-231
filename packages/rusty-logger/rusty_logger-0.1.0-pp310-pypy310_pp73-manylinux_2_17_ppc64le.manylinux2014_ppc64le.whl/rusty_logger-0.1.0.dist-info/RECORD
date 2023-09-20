@@ -1,0 +1,8 @@
+rusty_logger-0.1.0.dist-info/METADATA,sha256=CdBmtr3svRnTIUDt60SRStY_4CnOxl5rPO4lUxnPdZE,7112
+rusty_logger-0.1.0.dist-info/WHEEL,sha256=ujd7nfaQCs2PMojHJ7RHaX0mA6bGuPWQsRkwGmsUC6g,138
+rusty_logger-0.1.0.dist-info/license_files/LICENSE.md,sha256=C6Q7hzlWfIsw7luhfO0T779q5QnZjF6bMwRt0yrawXs,1072
+rusty_logger/version.py,sha256=9iTalL4jd7JWUPPSvIuF6ItQNKLVnYGEOo9qKB9Ae5g,167
+rusty_logger/__init__.py,sha256=G9qZfUezhl_1bTOwT17Glew5JtHWsOXL7krf8uUBBhU,300
+rusty_logger/_rusty_logger.pyi,sha256=Aq39h52u_aLSar2Hbbt_YtH67qLunfhvOzrk3hOjfCg,6014
+rusty_logger/_rusty_logger.pypy310-pp73-ppc_64-linux-gnu.so,sha256=wp7Aj7G2UXqUCUstlYwx8QUM2xReBSReUlBkOsybXYo,1117600
+rusty_logger-0.1.0.dist-info/RECORD,,
