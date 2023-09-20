@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: discord-experiments
+Version: 0.0.1
+Summary: A wrapper to the Discord Experiments API
+Author: Developer Anonymous
+Author-email: dev.anony.8593@gmail.com
+Keywords: discordexperiments,experiments,dcexps,discordexps
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: discord.py
+
+# DISCORD EXPERIMENTS
+
+A modern `async`/`await` package to fetch, get and manage all Discord actual Experiments.
+
+Going to add compatibilities to `discord.py`'s Clients, AutoShardedClient, Bot and AutoShardedBot :)
