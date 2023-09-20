@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-payu-ro
+Version: 1.6.0
+Summary: A pluggable Django application for integrating PayU Payments (ex. ePayment)
+Home-page: http://github.com/PressLabs/django-payu-ro
+Author: Presslabs SRL
+Author-email: support@presslabs.com
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+License-File: LICENSE
+Requires-Dist: Django (<5.0,>=3.2)
+Requires-Dist: requests (<3.0,>=2.31.0)
+
