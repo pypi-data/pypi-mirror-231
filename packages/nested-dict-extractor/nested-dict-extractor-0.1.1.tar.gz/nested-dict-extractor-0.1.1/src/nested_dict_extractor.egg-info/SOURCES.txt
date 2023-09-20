@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/nested_dict_extractor.py
+src/nested_dict_extractor.egg-info/PKG-INFO
+src/nested_dict_extractor.egg-info/SOURCES.txt
+src/nested_dict_extractor.egg-info/dependency_links.txt
+src/nested_dict_extractor.egg-info/top_level.txt
+tests/test_nested_dict_extractor.py
