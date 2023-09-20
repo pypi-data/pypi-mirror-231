@@ -1,0 +1,10 @@
+varnaapi/__init__.py,sha256=fWwTJfWmJVqUlXV9vjHZyPWkPM-EWg4ABeB0Jv0aqsI,245
+varnaapi/config-settings-v1.yml,sha256=nFJXIsCDj-N3ThPRCKnfotMXreaPqhMhc9sy6zffM5w,44
+varnaapi/models.py,sha256=C1q0I5UlAqXgtpd0_hBxXUz7anE5C8RUYbEds709B6g,22418
+varnaapi/param.py,sha256=jIA4HOVPuo4FVutll7CaDN-XwEqZuiPjZvI1zAtRyeo,29745
+varnaapi/settings.py,sha256=5NwMSLZG-u8Xk1dVkX-ymWpbKbftPf8tEPJ1eNyTi84,1453
+varnaapi-1.1.0.dist-info/LICENSE,sha256=YbdLXGLsRXGaJ9fCch7_-PFyhc_WGmd2ufi5U4726Do,35061
+varnaapi-1.1.0.dist-info/METADATA,sha256=NK5mAozz9aKajM9F1T-qHj4PlLkTkhLvQkwWaBtcsXM,5904
+varnaapi-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+varnaapi-1.1.0.dist-info/top_level.txt,sha256=0zBnjWmuWt2ydmd4EnGJWYLctcBkHWV2KEgki9Ok2KE,9
+varnaapi-1.1.0.dist-info/RECORD,,
