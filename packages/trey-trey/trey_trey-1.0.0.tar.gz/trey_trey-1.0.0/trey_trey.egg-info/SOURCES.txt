@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+trey_trey.egg-info/PKG-INFO
+trey_trey.egg-info/SOURCES.txt
+trey_trey.egg-info/dependency_links.txt
+trey_trey.egg-info/top_level.txt
