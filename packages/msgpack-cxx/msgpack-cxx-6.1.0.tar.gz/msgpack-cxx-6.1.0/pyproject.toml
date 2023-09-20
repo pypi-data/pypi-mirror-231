@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2022 Contributors to the Power Grid Model project <dynamic.grid.calculation@alliander.com>
+#
+# SPDX-License-Identifier: MPL-2.0
+
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msgpack-cxx"
+authors = [{ name = "Alliander Dynamic Grid Calculation", email = "dynamic.grid.calculation@alliander.com" }]
+description = "Repackaging of msgpack-cxx distributed via PyPI"
+license = { text = "BSL-1.0" }
+classifiers = [
+    "Programming Language :: C++",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    # We only repackage and do not claim ownership over the msgpack-cxx package.
+    # The original license is listed in https://github.com/msgpack/msgpack-c/blob/cpp_master/COPYING
+    "License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Topic :: File Formats",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+dynamic = [
+    "version"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+]
+
+[project.urls]
+Home-page = "https://msgpack.org/"
+GitHub = "https://github.com/msgpack/msgpack-c/tree/cpp_master"
+Documentation = "https://github.com/msgpack/msgpack-c/tree/cpp_master"
+Mailing-list = "https://lists.lfenergy.org/g/powergridmodel"
+
+[tool.setuptools.packages.find]
+where = ['']
+
+[tool.setuptools.dynamic]
+version = {file = "PYPI_VERSION"}
+
+# CI build options
+[tool.cibuildwheel]
+build-frontend = "build"
+build-verbosity = 1

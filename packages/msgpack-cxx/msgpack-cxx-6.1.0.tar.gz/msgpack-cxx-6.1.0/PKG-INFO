@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: msgpack-cxx
+Version: 6.1.0
+Summary: Repackaging of msgpack-cxx distributed via PyPI
+Author-email: Alliander Dynamic Grid Calculation <dynamic.grid.calculation@alliander.com>
+License: BSL-1.0
+Project-URL: Home-page, https://msgpack.org/
+Project-URL: GitHub, https://github.com/msgpack/msgpack-c/tree/cpp_master
+Project-URL: Documentation, https://github.com/msgpack/msgpack-c/tree/cpp_master
+Project-URL: Mailing-list, https://lists.lfenergy.org/g/powergridmodel
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Topic :: File Formats
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE_1_0.txt
+License-File: COPYING
+License-File: NOTICE
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"

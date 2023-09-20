@@ -1,0 +1,15 @@
+--2023-09-19 14:10:50--  http://www.boost.org/LICENSE_1_0.txt
+Resolving www.boost.org (www.boost.org)... 146.20.110.251
+Connecting to www.boost.org (www.boost.org)|146.20.110.251|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.boost.org/LICENSE_1_0.txt [following]
+--2023-09-19 14:10:50--  https://www.boost.org/LICENSE_1_0.txt
+Connecting to www.boost.org (www.boost.org)|146.20.110.251|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [text/plain]
+Saving to: ‘LICENSE_1_0.txt’
+
+     0K .                                                     100%  150M=0s
+
+2023-09-19 14:10:50 (150 MB/s) - ‘LICENSE_1_0.txt’ saved [1338/1338]
+
