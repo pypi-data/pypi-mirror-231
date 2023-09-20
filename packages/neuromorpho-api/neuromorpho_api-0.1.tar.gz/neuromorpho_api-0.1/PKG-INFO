@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: neuromorpho_api
+Version: 0.1
+Summary: Querying neuromorpho.org database with Python requests
+Author-email: Ross Barnowski <rossbar@caltech.edu>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3
+Requires-Dist: requests
+
+# neuromorpho-api
+
+Querying the [neuromorpho.org](https://neuromorpho.org/) database in Python with
+[`requests`](https://requests.readthedocs.io/en/latest/).
