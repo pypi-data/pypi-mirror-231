@@ -1,0 +1,6 @@
+fastapi
+google-auth
+google-cloud-pubsub
+httpx
+jsonpath-ng
+starlette
