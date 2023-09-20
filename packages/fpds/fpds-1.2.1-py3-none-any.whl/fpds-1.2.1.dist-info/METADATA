@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: fpds
+Version: 1.2.1
+Summary: A parser for the Federal Procurement Data System (FPDS) Atom feed
+Author: Derek Herincx
+Author-email: derek663@gmail.com
+Keywords: fpds python atom cli
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click >=8.1.3
+Requires-Dist: requests >=2.29.0
+Requires-Dist: tqdm >=4.65.0
+Provides-Extra: all
+Requires-Dist: ipdb ==0.13.9 ; extra == 'all'
+Requires-Dist: ipython ==8.5.0 ; extra == 'all'
+Requires-Dist: black >=21.6b0 ; extra == 'all'
+Requires-Dist: flake8 >=3.9.2 ; extra == 'all'
+Requires-Dist: isort >=5.9.3 ; extra == 'all'
+Requires-Dist: mypy >=0.910 ; extra == 'all'
+Requires-Dist: pytest >=6.2.4 ; extra == 'all'
+Requires-Dist: pytest-cov >=2.12.1 ; extra == 'all'
+Requires-Dist: pytest-runner >=5.3.1 ; extra == 'all'
+Requires-Dist: types-requests ==2.27.31 ; extra == 'all'
+Requires-Dist: types-tqdm ==4.64.7.9 ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: ipdb ==0.13.9 ; extra == 'dev'
+Requires-Dist: ipython ==8.5.0 ; extra == 'dev'
+Requires-Dist: black >=21.6b0 ; extra == 'dev'
+Requires-Dist: flake8 >=3.9.2 ; extra == 'dev'
+Requires-Dist: isort >=5.9.3 ; extra == 'dev'
+Requires-Dist: mypy >=0.910 ; extra == 'dev'
+Requires-Dist: pytest >=6.2.4 ; extra == 'dev'
+Requires-Dist: pytest-cov >=2.12.1 ; extra == 'dev'
+Requires-Dist: pytest-runner >=5.3.1 ; extra == 'dev'
+Requires-Dist: types-requests ==2.27.31 ; extra == 'dev'
+Requires-Dist: types-tqdm ==4.64.7.9 ; extra == 'dev'
+Provides-Extra: packaging
+Requires-Dist: build ==0.8.0 ; extra == 'packaging'
+Requires-Dist: wheel ==0.37.1 ; extra == 'packaging'
+Requires-Dist: twine ==4.0.1 ; extra == 'packaging'
+
+# fpds
+A no-frills parser for the Federal Procurement Data System (FPDS)
+at https://www.fpds.gov/fpdsng_cms/index.php/en/.
+
+
+## Motivation
+The only programmatic access to this data via an ATOM feed limits each
+request to 10 records, which forces users to deal with pagination.
+Additonally, data is exported as XML, which proves annoying for most
+developers. `fpds` will handle all pagination and data
+transformation to provide users with a nice JSON representation of the
+equivalent XML data.
+
+
+## Setup
+To install this package for development, create a virtual environment
+and install dependencies.
+
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -e .
+```
+
+
+## Usage
+For a list of valid search criteria parameters, consult FPDS documentation
+found at: https://www.fpds.gov/wiki/index.php/Atom_Feed_Usage. Parameters
+will follow the `URL String` format shown in the link above, with the
+following exceptions:
+
+ + Colons (:) will be replaced by equal signs (=)
+ + Certain parameters enclose their value in quotations. `fpds` will
+automatically determine if quotes are needed, so simply enclose your
+entire criteria string in quotes.
+
+ For example, `AGENCY_CODE:”3600”` should be used as `"AGENCY_CODE=3600"`.
+
+
+Via CLI:
+```
+$  fpds parse "LAST_MOD_DATE=[2022/01/01, 2022/05/01]" "AGENCY_CODE=7504"
+```
+
+
+By default, data will be dumped into an `.fpds` folder at the user's
+`$HOME` directory. If you wish to override this behavior, provide the `-o`
+option. The directory will be created if it doesn't exist:
+
+```
+$  fpds parse "LAST_MOD_DATE=[2022/01/01, 2022/05/01]" "AGENCY_CODE=7504" -o {some-directory}
+```
+
+Same request via python interpreter:
+```
+from fpds import fpdsRequest
+
+request = fpdsRequest(
+    LAST_MOD_DATE="[2022/01/01, 2022/05/01]",
+    AGENCY_CODE="7504"
+)
+
+# Records saved as a python list
+records = request()
+
+# or equivalently, explicity call the `parse_content` method
+records = request.parse_content()
+```
+
+For linting and formatting, we use `flake8` and `black`.
+
+```
+$ make lint
+$ make formatters
+```
+
+Lastly, you can clean the clutter and unwanted noise.
+
+```
+$ make clean
+```
+
+### Testing
+```
+$ make test
+```
+
+## What's New
+As of v1.2.0, tag names include their full XML tag hierarchy due to duplicate
+tag names being overwritten in v1.1.X. For example, the `content` XML below has the
+following duplicate tag names: `agencyID`, `PIID`, and `modNumber`.
+Based on the original hierarchy, it's clear that one set of tags represents
+the actual award info and the second, the award's referenced IDV.
+
+```
+<content xmlns:ns1="https://www.fpds.gov/FPDS" type="application/xml">
+    <ns1:awardID>
+        <ns1:awardContractID>
+            <ns1:agencyID name="ENVIRONMENTAL PROTECTION AGENCY">6800</ns1:agencyID>
+            <ns1:PIID>0002</ns1:PIID>
+            <ns1:modNumber>P00018</ns1:modNumber>
+            <ns1:transactionNumber>0</ns1:transactionNumber>
+        </ns1:awardContractID>
+        <ns1:referencedIDVID>
+            <ns1:agencyID name="ENVIRONMENTAL PROTECTION AGENCY">6800</ns1:agencyID>
+            <ns1:PIID>EPS31703</ns1:PIID>
+            <ns1:modNumber>0</ns1:modNumber>
+        </ns1:referencedIDVID>
+    </ns1:awardID>
+</content>
+```
+
+In lieu of this, the final JSON structure would represent this snippet of data
+the following (note that additional attributes like `name` in `agencyID` are
+still captured and represented by their proper hierarchy; the name of the
+attribute is appended to the end of the tag name):
+
+```
+{
+    "awardID__awardContractID__agenycID": "6800"
+    "awardID__awardContractID__agenycID__name": "ENVIRONMENTAL PROTECTION AGENCY"
+    "awardID__awardContractID__PIID": "0002"
+    "awardID__awardContractID__modNumber": "P00018"
+    "awardID__awardContractID__transactionNUmber: "0"
+    "referencedIDVID__awardContractID__agenycID": "6800"
+    "referencedIDVID__awardContractID__agenycID__name": "ENVIRONMENTAL PROTECTION AGENCY"
+    "referencedIDVID__awardContractID__PIID": "EPS31703"
+    "referencedIDVID__awardContractID__modNumber": "0"
+}
+```
