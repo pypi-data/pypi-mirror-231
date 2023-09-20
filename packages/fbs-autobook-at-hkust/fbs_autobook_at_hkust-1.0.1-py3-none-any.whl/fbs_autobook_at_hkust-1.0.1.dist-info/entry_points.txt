@@ -1,0 +1,3 @@
+[console_scripts]
+fbs-autobook-at-hkust=main:main
+
