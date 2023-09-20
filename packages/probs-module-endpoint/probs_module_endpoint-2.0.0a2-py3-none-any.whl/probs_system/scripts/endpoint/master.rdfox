@@ -1,0 +1,27 @@
+# run `RDFox sandbox <root> scripts/master`
+# or `RDFox sandbox <root> 'scripts/master [endpoint port]'`
+# where <root> is the folder "probs-module-endpoint"
+# and [endpoint port] is an optional parameter to specify a different port for the endpoint
+
+# Stop execution on any error
+set on-error stop
+
+# Set directories
+set dir.facts "$(dir.root)/data"
+set dir.output "$(dir.root)/data/"
+set dir.scripts "$(dir.root)/scripts/endpoint"
+set dir.dlog "$(dir.root)/scripts/endpoint"
+set dir.queries "$(dir.root)/scripts/endpoint"
+
+exec setup-RDFox
+
+begin
+
+exec input
+
+exec process
+
+commit
+
+set endpoint.port $(1)
+endpoint start
