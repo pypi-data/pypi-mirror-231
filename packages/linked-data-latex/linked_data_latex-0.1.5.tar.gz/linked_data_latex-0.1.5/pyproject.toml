@@ -1,0 +1,24 @@
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "linked-data-latex"
+version = "0.1.5"
+authors = [
+    "Volodymyr Savchenko <contact@volodymyrsavchenko.com>"
+]
+description = ""
+license = "BSD"
+packages = [
+        { include = "ddpaper" }
+    ]
+
+[tool.poetry.dependencies]
+pyyaml = ">=5"
+
+[tool.poetry.scripts]
+ddpaper = "ddpaper.generate:main"
+ld-latex = "ddpaper.generate:main"
+
+
