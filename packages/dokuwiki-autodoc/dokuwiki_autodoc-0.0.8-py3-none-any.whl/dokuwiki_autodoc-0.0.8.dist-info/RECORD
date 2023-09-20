@@ -1,0 +1,10 @@
+dokuwiki_autodoc/__about__.py,sha256=po6W_gFem0_apJMrl8B3N2W2mnb-WZLt7BH6ST-ujMo,132
+dokuwiki_autodoc/__init__.py,sha256=wai8thJrBTrnQ5lhNj6jdQTW4IW24ZnyMYAcVolmABc,110
+dokuwiki_autodoc/autodoc.py,sha256=QrmirTHK3Ih5h5HBDu3IBcwNRVFwGLf8StH2Yrw9_Vc,10577
+dokuwiki_autodoc/liquid_filters.py,sha256=QtQPYR-WDUT26sQiohRIHoA8u_tsONfKhNA_IY8gOhQ,821
+dokuwiki_autodoc/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dokuwiki_autodoc/templates/doc_base.txt.liquid,sha256=ZpdavB62brGp_JPHny97r1yIPidw2LnUVIclYHtB3X4,845
+dokuwiki_autodoc-0.0.8.dist-info/METADATA,sha256=PJxYDP9uNJrek5h5caBcscnH26s5TcrR7_rgmUQUUFs,4304
+dokuwiki_autodoc-0.0.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dokuwiki_autodoc-0.0.8.dist-info/licenses/LICENSE.txt,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+dokuwiki_autodoc-0.0.8.dist-info/RECORD,,
