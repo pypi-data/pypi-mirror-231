@@ -1,0 +1,10 @@
+README.md
+setup.py
+connector/__init__.py
+connector/my_awesome_connector.py
+connector/my_csv_connector.py
+custom_connector.egg-info/PKG-INFO
+custom_connector.egg-info/SOURCES.txt
+custom_connector.egg-info/dependency_links.txt
+custom_connector.egg-info/requires.txt
+custom_connector.egg-info/top_level.txt
