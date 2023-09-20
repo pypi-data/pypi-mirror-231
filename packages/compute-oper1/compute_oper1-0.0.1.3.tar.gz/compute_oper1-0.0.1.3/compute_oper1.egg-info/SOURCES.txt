@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+compute_oper1/__init__.py
+compute_oper1/add_number.py
+compute_oper1/div_number.py
+compute_oper1/mul_number.py
+compute_oper1/sub_number.py
+compute_oper1.egg-info/PKG-INFO
+compute_oper1.egg-info/SOURCES.txt
+compute_oper1.egg-info/dependency_links.txt
+compute_oper1.egg-info/top_level.txt
