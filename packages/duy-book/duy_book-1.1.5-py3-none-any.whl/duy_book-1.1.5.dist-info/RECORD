@@ -1,0 +1,12 @@
+duy_book/__init__.py,sha256=Zvf9lnrzBsK3vBIY_1qsucAQnJ2MzxRlA3kHdWlCsFk,265
+duy_book/colab.py,sha256=ufy2Rv2Ca2oLmqVKDGVuaFtQr20dECyPUJng4gY04fM,676
+duy_book/cudaset.py,sha256=ZGN5XtGGpBayM0p1LI6-tHJniIXp-gJq6i9Ekv_8x4M,320
+duy_book/module.py,sha256=YHc36aZHM2bVAAX9s4SPSeYTAimMHFaI3k5Su0kdKYw,2462
+duy_book/random_split.py,sha256=mYKgjRhfyy_2sqUhMsDpFH_e3kch0DCSnMWIUHJYfu8,151
+duy_book/ratio_split.py,sha256=___GCUqXJut91Dyp0GSb7t5wWOghYvbw2qUa86rnxaU,238
+duy_book/tqdn.py,sha256=tsc1dMPSvqv4egsknz30UJbvvPmlp3Ik4ns2rBV7zgc,201
+duy_book-1.1.5.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+duy_book-1.1.5.dist-info/METADATA,sha256=MIzziv7UBAQGqAVXA2lVt9znsSpD0tRr3mU0P42vBrM,656
+duy_book-1.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+duy_book-1.1.5.dist-info/top_level.txt,sha256=W9FJHA3X4YuSqK_7lb7P6spmWoWJlGSjXOKBeashe3M,9
+duy_book-1.1.5.dist-info/RECORD,,
