@@ -1,0 +1,10 @@
+smtpproto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smtpproto/auth.py,sha256=U7bef0dLSjWWW2mP05kQarmW_vmOrkWGJu5l_IPiIVQ,3470
+smtpproto/client.py,sha256=zIK0DsMV4AE2bqm607CRa-lNfDJDjop0icLN_goEebg,11124
+smtpproto/protocol.py,sha256=FrDS95efT5vIQS_FFK3W1j_bCqPD854QXFruIrJplnQ,17644
+smtpproto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smtpproto-1.2.1.dist-info/LICENSE,sha256=_gzwJk6B676jdhmQZvL29Z4xIbYbnON9UkoUIsUxHts,1081
+smtpproto-1.2.1.dist-info/METADATA,sha256=7FMoCbicLHZzjw7c0-EYSE2ytJn78Mum1XBFM13H4dU,2792
+smtpproto-1.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+smtpproto-1.2.1.dist-info/top_level.txt,sha256=cRVSDOyg9lTVpBJzDLXAxDoUbLo3qTDYQYBC7iPZ4xw,10
+smtpproto-1.2.1.dist-info/RECORD,,
