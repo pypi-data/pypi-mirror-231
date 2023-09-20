@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Audio-DeSilencer
+Version: 1.0.0
+Summary: An audio processing tool for detecting and removing silence in audio recordings.
+Home-page: https://github.com/BTawaifi/Audio-DeSilencer
+Author: Boutros Tawaifi
+Author-email: boutrous.m.tawaifi@gmail.com
+License-File: LICENSE
+Requires-Dist: pydub
+Requires-Dist: argparse
+
