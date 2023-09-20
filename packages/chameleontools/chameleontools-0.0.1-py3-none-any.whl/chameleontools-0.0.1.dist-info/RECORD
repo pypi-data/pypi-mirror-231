@@ -1,0 +1,14 @@
+chameleontools/FastAreader.py,sha256=1N7PNxiOOyeUMxbFJr-Non9rKjUhoKkJDX6S756IDAk,2017
+chameleontools/ORFfinder.py,sha256=dHPdRyqhYxQ2mh3X-zUfjkGIQ_0Lpz6C6j3PToa2uX4,3417
+chameleontools/PC_module.py,sha256=FmH95-aSI1atT3IfTAJpS4-CF5lUwrRgl-aYzzyHfVw,15116
+chameleontools/ParseStealth.py,sha256=UTeOm5pUpnuNDCn26iMcZZ5JdVzeFDZTLSY8J4jM9gk,3877
+chameleontools/StealthGenome.py,sha256=t8k8BY3q3U-EXno8IeNTQfvbRKaKcZMhxAx1mgZOJmM,15226
+chameleontools/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+chameleontools/genomeAnalyzer.py,sha256=oY4ikpX_yhlizogs2kJYONWCtifztGtHOqy9uC1yvn4,7819
+chameleontools/pipeline.py,sha256=dvI-g132t6ckR5BOZSoBjaUDbMPxOOVjUlKiybilHl4,2409
+chameleontools/testing.py,sha256=ITFfrvSy-GCvnvy9J4eBqkmIhtBndz1ps6hzyPCg_z4,230
+chameleontools-0.0.1.dist-info/entry_points.txt,sha256=MTXVmVF-n1I1esSiYu_Ccxl-MdaeyMZXCahWbd6eozo,57
+chameleontools-0.0.1.dist-info/LICENSE,sha256=zFShgs0ndoGeJYTktfcK5BqlCVP8t40Eb74fxTgH0sU,18716
+chameleontools-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+chameleontools-0.0.1.dist-info/METADATA,sha256=247ZYeeqkF2VaqXqXHt2qMGytW9-LPQ8SC86Pzpg1ag,3444
+chameleontools-0.0.1.dist-info/RECORD,,
