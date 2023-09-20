@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: utilities_recommendation
+Version: 0.0.1
+Summary: some utilization for WOW recommendation
+Author: WOW
+Author-email: charlie.yang01@sap.com
+License: apache 3.0
+Requires: numpy
+Requires: matplotlib
+Requires: scikit_learn
