@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: nerf-torch
+Version: 0.0.1
+Summary: Paper - Pytorch
+Home-page: https://github.com/kyegomez/nerf
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: torch
+Project-URL: Repository, https://github.com/kyegomez/nerf
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+# Nerf
+My personal implementation of the NERF paper, with much better code. Because the original implementation has ugly code.
+
+
+[Paper Link](https://arxiv.org/abs/2003.08934)
+
+# Appreciation
+* Lucidrains
+* Agorians
+
+
+
+# Install
+`pip install nerf``
+
+# Usage
+
+# Architecture
+
+# Todo
+
+
+# License
+MIT
+
+# Citations
+
+```bibtex
+@misc{2003.08934,
+Author = {Ben Mildenhall and Pratul P. Srinivasan and Matthew Tancik and Jonathan T. Barron and Ravi Ramamoorthi and Ren Ng},
+Title = {NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis},
+Year = {2020},
+Eprint = {arXiv:2003.08934},
+}
+```
