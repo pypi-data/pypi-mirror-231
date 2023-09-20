@@ -1,0 +1,9 @@
+README.md
+setup.py
+vastweb/__init__.py
+vastweb/vastweb.py
+vastweb.egg-info/PKG-INFO
+vastweb.egg-info/SOURCES.txt
+vastweb.egg-info/dependency_links.txt
+vastweb.egg-info/requires.txt
+vastweb.egg-info/top_level.txt

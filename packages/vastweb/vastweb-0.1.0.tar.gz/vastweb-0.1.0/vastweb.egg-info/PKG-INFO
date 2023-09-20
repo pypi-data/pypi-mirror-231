@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: vastweb
+Version: 0.1.0
+Summary: A module for simplifying web development with Flask.
+Home-page: https://github.com/your_username/vastweb
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# VastWeb Module
+
+The VastWeb module simplifies web development with Flask by providing a convenient interface for creating a basic web application. With a single command, you can start a Flask web server with default routes, templates, and static files.
+
+## Getting Started
+
+### Installation
+
+Install the `vastweb` module using `pip`:
+
+```bash
+pip install vastweb
