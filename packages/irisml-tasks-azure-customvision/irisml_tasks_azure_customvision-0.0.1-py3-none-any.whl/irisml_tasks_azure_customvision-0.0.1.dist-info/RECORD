@@ -1,0 +1,11 @@
+irisml/tasks/create_azure_customvision_docker_model.py,sha256=6MipcYm4PBryAuEl0weyJ5EMAXWQ8AU5IrZ8FJNPAig,5937
+irisml/tasks/create_azure_customvision_model.py,sha256=NR5jWyWJSegOKR_d0UQu5w_q78WTuLiPkggwiYqMEtE,7887
+irisml/tasks/create_azure_customvision_project.py,sha256=VxOrSR9pNuZzFqIhXg2twy4bzPFHmre0kcmf56YVdoQ,8857
+irisml/tasks/delete_azure_customvision_project.py,sha256=-O5OpJ6RW6dGSzgR4ums8rqI6TKAkZ_gd-1de6I5GQI,1333
+irisml/tasks/export_azure_customvision_model.py,sha256=0ChgKcnUUq1f9tOAGgmkxNHAj3ZNXOTs3cj5mVB65lw,4125
+irisml/tasks/train_azure_customvision_project.py,sha256=SL3NbBJv-XUHpfyQTfpYZx2nQTfyJFQWw47XFxUs1Hk,3481
+irisml_tasks_azure_customvision-0.0.1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+irisml_tasks_azure_customvision-0.0.1.dist-info/METADATA,sha256=o_Y4jLs3sT2s3Pww2OCtfKW10B3g-v6x5MqlCLbzsFg,1899
+irisml_tasks_azure_customvision-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+irisml_tasks_azure_customvision-0.0.1.dist-info/top_level.txt,sha256=-O6mZvBaJ0q2Xuea9BVCfU8n5tO5UO5aLoPn_Eos3Ao,7
+irisml_tasks_azure_customvision-0.0.1.dist-info/RECORD,,
