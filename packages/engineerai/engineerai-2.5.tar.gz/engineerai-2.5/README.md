@@ -1,0 +1,96 @@
+## Ai Tools
+
+> Transcribe Audio
+
+``` python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.transcribe_audio(lang="en", audio_file="simple.mp3"))
+```
+
+> Text To Speech
+```python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.text_to_speech(text="Hello Ai", lang="en", filename="simple.mp3"))
+```
+
+> Chat With Ai
+```python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.chatai(key='your openai key', question="Hi"))
+```
+
+> Generate sound
+```python
+from EngineerAi import *
+ai = EngineerAi()
+frequencies = [440.0, 523.25, 659.26]  
+duration_ms = 1000 # 1s=1000
+output_file = "output.wav"  
+ai.generate_sound(frequencies, duration_ms, output_file)
+```
+
+> Text to frequencies
+```python
+from EngineerAi import *
+ai = EngineerAi()
+ai.text_to_frequencies(text='hi')
+```
+
+> Text to sound
+```python
+from EngineerAi import *
+ai = EngineerAi()
+text = 'hi' #your text
+duration_ms = 1000 #1s = 1000
+output_file = 'simple.wav' # outout file
+ai.text_to_sound(text='hi', duration_ms=duration_ms, output_file=output_file)
+```
+
+> Frequencies to text
+```python
+from EngineerAi import *
+ai = EngineerAi()
+frequencies = [400.0,500.2] # frequencies in list
+print(ai.frequencies_to_text(frequencies=frequencies))
+```
+
+> Convert photo from modern to old
+```python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.photo_modern_to_old(filename='input.jpg',output_file='output.jpg'))
+```
+
+> Write text on image
+```python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.write_on_image(filename='simple.jpg',output_file='outut.jpg',text='hi',position='center',text_color=(350,350,350),font_name='aria',font_size=30,max_line_length=20))
+```
+
+> Convert image format
+```python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.convert_image_format(filename='simple.jpg',output_file='output.png',output_format='png'))
+```
+
+> Enhance image quality
+```python
+from EngineerAi import *
+ai = EngineerAi()
+print(ai.enhance_image_quality(filename='simple.jpg',output_file='output.png'))
+```
+
+### Installing
+
+``` bash
+pip3 install -U engineerai
+```
+
+### Community
+
+- Join the telegram channel: https://t.me/tshreb_programming
