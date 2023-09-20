@@ -1,0 +1,10 @@
+termii/__init__.py,sha256=xdbsxg-GXUoGFYslgh0hkWNGVkUAc2aA50z3yfhuFqU,91
+termii/auth.py,sha256=MySBc8sE2rOpNEXDe4uFHeMnwgrwDkPZxRV27WvTZ_Y,2067
+termii/utils.py,sha256=lLGv_3JGehgghEOUuds1IUXgPrHrW9djqShhi9H3izg,877
+termii/messaging/core.py,sha256=gsWjZ6QiLexXbRmu0z2hyW7__kfllua5Ii5oZx6WmdI,5516
+termii/messaging/endpoints.py,sha256=lzJlt-cbLEqZyihjPiPk1bPhkR7mCadzHTRMDTsEtLs,282
+termii/messaging/schemas.py,sha256=iXMI5QhdBaPoVqmSDnwH6K-JRD9i9AHPCqwQYerTaII,443
+termii_py-0.0.4.dist-info/METADATA,sha256=0kKnEDHOWLQFgqkdxqXxgZRrsOgpSk13x7BZVmnXGtc,637
+termii_py-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+termii_py-0.0.4.dist-info/licenses/LICENSE,sha256=HGplWl1C5v-gDzS2xJ2F7Ktivrw-19FXb5PGpPKnHMc,1068
+termii_py-0.0.4.dist-info/RECORD,,
