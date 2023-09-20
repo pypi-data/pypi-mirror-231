@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: azure-monitor-events-extension
+Version: 0.1.0
+Summary: Microsoft Azure Monitor Events Extension for Python
+Home-page: https://github.com/microsoft/ApplicationInsights-Python/tree/main/azure-monitor-events-extension
+Author: Microsoft Corporation
+Author-email: ascl@microsoft.com
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Azure Monitor Events Extension
+
+The Azure Monitor Events Extension allows users to send custom events to Application Insights in conjunction with the [Azure Monitor OpenTelemetry Distro](https://learn.microsoft.com/azure/azure-monitor/app/opentelemetry-enable?tabs=python).
+This distro automatically installs the following libraries:
+
+### Additional documentation
+
+* [Azure Portal][https://portal.azure.com]
+* [Official Azure monitor docs][https://learn.microsoft.com/azure/azure-monitor/app/opentelemetry-enable?tabs=python]
+* [OpenTelemetry Python Official Docs][https://opentelemetry.io/docs/instrumentation/python/]
