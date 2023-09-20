@@ -1,0 +1,2 @@
+[console_scripts]
+cli = breast_cancer_toolkit.cli:run
