@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fbs-autobook-at-hkust
+Version: 1.0.2
+Summary: Auto book facilities through the HKUST FBS.
+Author: Poet
+Author-email: the_poet@ust.hk
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: requests (>=2.31,<3.0)
+Requires-Dist: retry2 (>=0.9.5,<0.10.0)
+Requires-Dist: selenium (>=4.12,<5.0)
+Requires-Dist: streamlit (>=1.26.0,<2.0.0)
+Requires-Dist: streamlit-extras (>=0.3.2,<0.4.0)
