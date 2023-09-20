@@ -1,0 +1,10 @@
+uglierpty/UglierPTY.py,sha256=SnqFW-h1P3GvSdNa5HKdmcs0o76jG1NlhJUJr4AMMG0,3156
+uglierpty/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uglierpty/terminal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uglierpty/terminal/backend.py,sha256=TmWcBE-YjpHln7uKs3DVIcfW2tDW8VDh3iK5pF_3KDI,4921
+uglierpty/terminal/widget.py,sha256=HG98Glz9ge38edJ-lktKJ93ennP5x5Rk08bne8qp2wY,17009
+uglierpty-0.2.dist-info/METADATA,sha256=gpFqm7YusVGxEGVecmRPQtROzEMqJKouhrXPxM_iYmo,5687
+uglierpty-0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+uglierpty-0.2.dist-info/entry_points.txt,sha256=95Xc9ZxFygs1YqclxdsicFYa3WxYhGT5zmk5TcxyeTI,55
+uglierpty-0.2.dist-info/top_level.txt,sha256=MlIVS0Qvxq7FxuXOWExQNommz1wr45u1YBwdjaP0B5w,10
+uglierpty-0.2.dist-info/RECORD,,
