@@ -1,0 +1,5 @@
+setup.py
+moviestab.egg-info/PKG-INFO
+moviestab.egg-info/SOURCES.txt
+moviestab.egg-info/dependency_links.txt
+moviestab.egg-info/top_level.txt
