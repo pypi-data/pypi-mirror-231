@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: smzwrapper
+Version: 0.5
+Summary: For data decode
+Home-page: https://github.com/Arctic-Ra/smzwrapper/
+Author: Ra
+Author-email: polar.skee@rambler.ua
+License: MIT
+Download-URL: https://github.com/Arctic-Ra/smzwrapper/archive/refs/tags/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: decode,data,smz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
