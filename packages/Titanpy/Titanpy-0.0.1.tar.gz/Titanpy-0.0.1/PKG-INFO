@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Titanpy
+Version: 0.0.1
+Summary: Servicetitan API Package tool
+Home-page: https://github.com/pabboat 
+Download-URL: https://github.com/pabboat/Titanpy/archive/refs/tags/0.0.1.tar.gz
+Author: Dylan Rose
+Author-email: Dylan Rose <dylantrose@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/pabboat/Titanpy
+Project-URL: Bug Tracker, https://github.com/pabboat/Titanpy/issues
+Keywords: ServiceTitan,API,Library
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: validators
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: json
+
+# Titanpy
+Python utility for interacting with servicetitan's apis
