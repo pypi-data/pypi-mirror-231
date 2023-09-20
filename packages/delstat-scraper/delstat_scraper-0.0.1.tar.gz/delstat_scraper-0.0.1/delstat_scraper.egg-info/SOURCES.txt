@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+delstat_scraper.egg-info/PKG-INFO
+delstat_scraper.egg-info/SOURCES.txt
+delstat_scraper.egg-info/dependency_links.txt
+delstat_scraper.egg-info/not-zip-safe
+delstat_scraper.egg-info/requires.txt
+delstat_scraper.egg-info/top_level.txt
+delstats/__init__.py
+delstats/delstats.py
+test/tests_delwebstats.py
