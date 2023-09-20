@@ -1,0 +1,18 @@
+[project]
+name = "drf_annotations"
+version = "0.0.5"
+authors = [
+  { name="Vitalii Korniichuk", email="iamkorniichuk@gmail.com" },
+]
+description = "Auto populate your model serializer with annotations"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/iamkorniichuk/drf-annotations"
+"Bug Tracker" = "https://github.com/iamkorniichuk/drf-annotations/issues"

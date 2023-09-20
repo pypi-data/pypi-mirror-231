@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/drf_annotations/__init__.py
+src/drf_annotations/mixins.py
+src/drf_annotations.egg-info/PKG-INFO
+src/drf_annotations.egg-info/SOURCES.txt
+src/drf_annotations.egg-info/dependency_links.txt
+src/drf_annotations.egg-info/top_level.txt
+tests/test_serializer_annotations.py
