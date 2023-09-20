@@ -1,0 +1,7 @@
+gevent_socketio==0.3.6
+requests==2.25.1
+setuptools==59.6.0
+ipynbname
+
+[:python_version < "3.2"]
+subprocess32
