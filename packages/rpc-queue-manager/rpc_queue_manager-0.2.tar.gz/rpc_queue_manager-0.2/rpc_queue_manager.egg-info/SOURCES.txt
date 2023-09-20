@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rpc_queue_manager/__init__.py
+rpc_queue_manager/rabbitmq_manager.py
+rpc_queue_manager/rpc_manager.py
+rpc_queue_manager.egg-info/PKG-INFO
+rpc_queue_manager.egg-info/SOURCES.txt
+rpc_queue_manager.egg-info/dependency_links.txt
+rpc_queue_manager.egg-info/requires.txt
+rpc_queue_manager.egg-info/top_level.txt
