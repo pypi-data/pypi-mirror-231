@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ixbrowser-local-api
+Version: 1.0.2
+Summary: A client of ixBrowser local api
+Home-page: https://github.com/ixspyinc/ixbrowser-local-api-python
+Author: IXSPY Team
+Author-email: tech@ixspy.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
