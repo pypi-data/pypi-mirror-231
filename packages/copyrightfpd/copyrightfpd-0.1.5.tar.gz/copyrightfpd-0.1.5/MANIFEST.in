@@ -1,0 +1,3 @@
+recursive-include your_package/models *.pkl
+recursive-include your_package/models/spacy_model *
+

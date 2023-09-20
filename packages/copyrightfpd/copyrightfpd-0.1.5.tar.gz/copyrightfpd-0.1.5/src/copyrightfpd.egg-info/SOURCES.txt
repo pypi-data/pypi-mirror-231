@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+src/CopyrightFPD/CopyrightFPD.py
+src/CopyrightFPD/__init__.py
+src/copyrightfpd.egg-info/PKG-INFO
+src/copyrightfpd.egg-info/SOURCES.txt
+src/copyrightfpd.egg-info/dependency_links.txt
+src/copyrightfpd.egg-info/requires.txt
+src/copyrightfpd.egg-info/top_level.txt
