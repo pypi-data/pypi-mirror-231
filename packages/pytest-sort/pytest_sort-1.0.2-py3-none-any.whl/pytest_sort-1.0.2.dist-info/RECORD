@@ -1,0 +1,11 @@
+pytest_sort/__init__.py,sha256=IUNOEImw_eAcTJZyNT4vJb1iSmP6zgl602uHP09Qd9o,96
+pytest_sort/config.py,sha256=wXR14D4f8qk2qVowUA9MDYDyeh_brpXLbAGp2J5Wcao,5544
+pytest_sort/core.py,sha256=sle8-PI7l0DTArplfjPUajxTlxLLT6cWa6sZApSOM3k,9127
+pytest_sort/database.py,sha256=4uJ-7xOHPd8z9NTtDATOHuDTR8vWt8vsray51kRCgig,3415
+pytest_sort/plugin.py,sha256=FtaDJrJl5sUICkCm1POfmZRqaGz8JlYYjFS593AD1HE,4178
+pytest_sort-1.0.2.dist-info/LICENSE,sha256=QP024_B1DVoCxF4GkLb-fBUDyhO2a3jb8ERkycSAMWc,1068
+pytest_sort-1.0.2.dist-info/METADATA,sha256=S5LAvbkc1EpMN3d-FiM6bv8K9NaBH6iUdv25GXqXkbk,14035
+pytest_sort-1.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytest_sort-1.0.2.dist-info/entry_points.txt,sha256=28xcEacb2vbq6ITlgaBx8Ykeio9XmnlIrTKYlxgklO8,37
+pytest_sort-1.0.2.dist-info/top_level.txt,sha256=Wn-oMgNNXXQuihvujdvIPWyqlAqcJ5Olmdxj30DEDSI,12
+pytest_sort-1.0.2.dist-info/RECORD,,
