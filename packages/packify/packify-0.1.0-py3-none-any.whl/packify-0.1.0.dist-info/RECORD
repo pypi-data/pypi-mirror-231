@@ -1,0 +1,7 @@
+packify/__init__.py,sha256=W-sKkXYSsYXIu0Lr7XBvLTLYzH3vX3NepXIAADJisC4,115
+packify/errors.py,sha256=lmArC_dBI_mpzUFgsbAP5xFKd1zMp130PST94qtPdUw,359
+packify/interface.py,sha256=YxzYpvPwbWNBoeQkCcx5-HNcQzRkkl0nCk4NU2WztnI,448
+packify/serialization.py,sha256=7XJxwwafGxcdcPe_tl0Mmj2XQyuvPxrQWwBHeR13xM8,4956
+packify-0.1.0.dist-info/METADATA,sha256=8FkVoWQJCgxZQ3awhb3UPU7N7YQt9eW2BDB5K7KQ2xk,4702
+packify-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+packify-0.1.0.dist-info/RECORD,,
