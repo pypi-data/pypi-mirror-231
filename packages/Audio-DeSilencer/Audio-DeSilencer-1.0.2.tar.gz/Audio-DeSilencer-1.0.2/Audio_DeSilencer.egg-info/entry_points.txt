@@ -1,0 +1,2 @@
+[console_scripts]
+audio-desilencer = audio_desilencer.audio_processor:main

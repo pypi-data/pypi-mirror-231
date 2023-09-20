@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Audio_DeSilencer.egg-info/PKG-INFO
+Audio_DeSilencer.egg-info/SOURCES.txt
+Audio_DeSilencer.egg-info/dependency_links.txt
+Audio_DeSilencer.egg-info/entry_points.txt
+Audio_DeSilencer.egg-info/requires.txt
+Audio_DeSilencer.egg-info/top_level.txt
+audio_desilencer/__init__.py
+audio_desilencer/audio_processor.py
