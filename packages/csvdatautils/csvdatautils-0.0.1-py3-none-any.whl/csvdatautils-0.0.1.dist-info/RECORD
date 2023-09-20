@@ -1,0 +1,7 @@
+csvdatautils/__init__.py,sha256=q8_tVcrL864WxiQMXx5G6ndeldtuCsCTNZQcPWiKZr0,1931
+csvdatautils/csvdata.py,sha256=oEdpqblBIHQy5rV5dYazbAWC0P6mLOshuo7c9WTLFLU,11705
+csvdatautils/csvdatarow.py,sha256=1ccWarQ4hlOEqFWvGWj9G9ltbXbfi9mrWDu4rz53SOo,4888
+csvdatautils-0.0.1.dist-info/METADATA,sha256=bRjXZBOZVI0FMqd2Bei76QBcxuYN4ZNCly4FWQP6OuA,1283
+csvdatautils-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+csvdatautils-0.0.1.dist-info/top_level.txt,sha256=89_NoWev1fexalBcIerSehuiCwGcPSgUElZwML0ZDpI,13
+csvdatautils-0.0.1.dist-info/RECORD,,
