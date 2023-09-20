@@ -1,0 +1,13 @@
+bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot/filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot/handlers/__init__.py,sha256=bTHn_NCgR5zMx82aR-ZzFGyXHXki1oy6QnjetWKKB4c,33
+bot/handlers/basic.py,sha256=o4JM5D0ZOLiuo0VV5jJB-C2fqygqofrU-SiDqam2c34,185
+bot/keyboards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botogram3-1.1.dist-info/METADATA,sha256=9VDV0g_sk8LQLMqDs6-6ejB8jKcBwb7hiN2ygR9kPkY,422
+botogram3-1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+botogram3-1.1.dist-info/entry_points.txt,sha256=_nvPV7pI82YbDrqkZB3yqNKT6IxUJMVSkZtltVDLH-g,59
+botogram3-1.1.dist-info/top_level.txt,sha256=NB285wmr06-i7FG0TBv9rcglEkJHfRARqTt85-2GAUc,9
+botogram3-1.1.dist-info/RECORD,,
