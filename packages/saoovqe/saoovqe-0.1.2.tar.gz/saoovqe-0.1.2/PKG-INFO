@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: saoovqe
+Version: 0.1.2
+Summary: SA-OO-VQE method implemented via Qiskit library
+Project-URL: Homepage, https://gitlab.com/MartinBeseda/sa-oo-vqe-qiskit.git
+Project-URL: Documentation, https://sa-oo-vqe-qiskit.readthedocs.io/en/latest/
+Author-email: Martin Beseda <martinbeseda@seznam.cz>, Silvie Illésová <silvie.illesova@seznam.cz>, Saad Yalouz <yalouzsaad@gmail.com>, Bruno Senjean <bsenjean@gmail.com>
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: deprecated>=1.2.14
+Requires-Dist: icecream>=2.1.3
+Requires-Dist: ipython
+Requires-Dist: jupyter
+Requires-Dist: lxml>=4.9.2
+Requires-Dist: mendeleev>=0.13.1
+Requires-Dist: nlopt
+Requires-Dist: numpy<1.24.0,>=1.22.0
+Requires-Dist: pygments
+Requires-Dist: pytest>=7.3.1
+Requires-Dist: qiskit-nature>=0.6.2
+Requires-Dist: qiskit>=0.43.0
+Requires-Dist: scikit-learn>=1.2.2
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: setuptools>=67.8.0
+Requires-Dist: sympy>=1.11.1
+Description-Content-Type: text/markdown
+
+# SA-OO-VQE
+
+SA-OO-VQE method implemented via Qiskit library.
+
+The purpose of this README is only to get you going quickly. If you need more examples and in-depth explanations in the form of both user and programmer documentation, have a look at our official documentation 
+website [sa-oo-vqe-qiskit.rtfd.io](https://sa-oo-vqe-qiskit.rtfd.io).
+
+### Cloning the repository
+```
+git clone git@gitlab.com:MartinBeseda/sa-oo-vqe-qiskit.git
+```
+
+### Installation via Conda
+```
+$ conda env create -f environment.yml
+$ conda init bash
+$ source ~/.bashrc
+$ conda activate saoovqe-env
+$ pip install .
+```
+
+### Installation without Conda
+First of all, install [Psi4](https://psicode.org/installs/), [pandoc](https://pandoc.org/installing.html) and 
+[pip](https://pypi.org/project/pip/) packages, if you haven't already. With these available, all the other 
+dependencies will be taken care of by `pip`.
+
+To install these Python dependencies, run the following command.
+```
+pip install qiskit>=0.43.0 qiskit-nature>=0.6.2 "numpy>=1.22.0, <1.24.0" deprecated>=1.2.14 mendeleev>=0.13.1 scipy>=1.10.1 sympy>=1.11.1 setuptools>=67.8.0 lxml>=4.9.2 nlopt ipython jupyter pygments scikit-learn>=1.2.2 icecream>=2.1.3 pytest>=7.3.1 --upgrade
+```
+
+And now the only remaining thing is to go into a SA-OO-VQE root folder and installing the module itself.
+```
+pip install .
+```
+
+### Testing the installation
+That's all! Now you should be able to test your SA-OO-VQE like this.
+
+```
+$ python3
+
+>>> import saoovqe
+>>> saoovqe.__version__
+```
