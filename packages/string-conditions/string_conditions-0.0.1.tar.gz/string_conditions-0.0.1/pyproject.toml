@@ -1,0 +1,43 @@
+[project]
+name = "string_conditions"
+description = "Evaluate string Python conditions while keeping control on functions and variables accessible"
+readme = "README.md"
+
+license = {text = "MIT"}
+
+authors = [
+    {name = "Martin DENIZET"}
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dynamic = ['version']
+
+[project.urls]
+Homepage = "https://github.com/martin-denizet/string_conditions"
+Changelog = "https://github.com/martin-denizet/string_conditions/releases"
+Issues = "https://github.com/martin-denizet/string_conditions/issues"
+
+[project.scripts]
+string_condition = "string_conditions:__main__"
+
+[build-system]
+requires = ["setuptools",  "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+version = {attr = "string_conditions.__version__"}
+
+[tool.ruff]
+line-length = 120

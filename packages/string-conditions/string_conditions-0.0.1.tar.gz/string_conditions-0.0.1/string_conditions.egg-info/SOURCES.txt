@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+string_conditions/__init__.py
+string_conditions/__main__.py
+string_conditions/errors.py
+string_conditions/visitor.py
+string_conditions.egg-info/PKG-INFO
+string_conditions.egg-info/SOURCES.txt
+string_conditions.egg-info/dependency_links.txt
+string_conditions.egg-info/entry_points.txt
+string_conditions.egg-info/top_level.txt
+string_conditions/tests/__init__.py
+string_conditions/tests/test_condition.py
