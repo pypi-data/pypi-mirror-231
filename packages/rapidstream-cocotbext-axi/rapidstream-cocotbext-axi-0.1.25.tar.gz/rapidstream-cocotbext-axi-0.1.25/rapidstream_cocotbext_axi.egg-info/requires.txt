@@ -1,0 +1,6 @@
+rapidstream-cocotb>=1.6.0
+rapidstream-cocotb-bus
+
+[test]
+pytest
+cocotb-test
