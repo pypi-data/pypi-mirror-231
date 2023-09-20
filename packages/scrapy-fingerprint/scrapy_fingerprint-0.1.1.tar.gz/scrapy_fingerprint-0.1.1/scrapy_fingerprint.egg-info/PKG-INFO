@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: scrapy-fingerprint
+Version: 0.1.1
+Summary: Request for scrapy to initiate browser fingerprinting
+Home-page: https://github.com/tyj-1995
+Author: White.tie
+Author-email: 1042798703@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+
+# scrapy-fingerprint
+
+## Description
+Scrapy - fingerprint is based on [curl_cffi] (https://github.com/yifeikong/curl_cffi), which is used in the packaging of scrapy TLS or JA3 fingerprints of simulated browser requests
+
+
+
+## Installation
+
+```bash
+pip install scrapy_fingerprint
+```
+
+## Usage
+
+After creating the scrapy project, add the proxy by adding the following configuration in setting.py
+
+```python
+# proxy 链接配置
+PROXY_HOST = 'http-dynamic-S02.xiaoxiangdaili.com'
+PROXY_PORT = 10030
+PROXY_USER = '******'
+PROXY_PASS = '******'
+```
+
+And you also need to enable FingerprintMiddleware in `DOWNLOADER_MIDDLEWARES`:
+
+```bash
+'scrapy_fingerprint.fingerprintmiddlewares.FingerprintMiddleware': 543,
+```
+
+You can use FingerprintRequest to make a request with a browser fingerprint
+
+```python
+yield FingerprintRequest(url=url, callback=self.parse)
+```
+
+You can also add impersonate in FingerprintRequest
+
+```python
+yield FingerprintRequest(url=url, callback=self.parse,impersonate="chrome107")
+```
+
+impersonate **defaults** to random browser fingerprints
+

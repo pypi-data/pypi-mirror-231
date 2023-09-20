@@ -1,0 +1,9 @@
+README.md
+setup.py
+scrapy_fingerprint/fingerprintmiddlewares.py
+scrapy_fingerprint/request.py
+scrapy_fingerprint.egg-info/PKG-INFO
+scrapy_fingerprint.egg-info/SOURCES.txt
+scrapy_fingerprint.egg-info/dependency_links.txt
+scrapy_fingerprint.egg-info/requires.txt
+scrapy_fingerprint.egg-info/top_level.txt
