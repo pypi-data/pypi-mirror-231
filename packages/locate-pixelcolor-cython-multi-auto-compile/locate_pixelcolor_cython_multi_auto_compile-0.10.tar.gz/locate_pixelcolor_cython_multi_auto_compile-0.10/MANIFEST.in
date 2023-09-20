@@ -1,0 +1,3 @@
+include locate_pixelcolor_cython_multi_auto_compile/requirements.txt
+include locate_pixelcolor_cython_multi_auto_compile/thirdparty.json
+include locate_pixelcolor_cython_multi_auto_compile/README.MD
