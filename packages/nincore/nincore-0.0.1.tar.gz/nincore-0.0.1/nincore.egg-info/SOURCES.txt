@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+nincore/__init__.py
+nincore/attrdict.py
+nincore/core.py
+nincore/io.py
+nincore/ntuple.py
+nincore/time.py
+nincore/utils.py
+nincore/version.py
+nincore/wrap.py
+nincore.egg-info/PKG-INFO
+nincore.egg-info/SOURCES.txt
+nincore.egg-info/dependency_links.txt
+nincore.egg-info/top_level.txt
+tests/test_version.py
