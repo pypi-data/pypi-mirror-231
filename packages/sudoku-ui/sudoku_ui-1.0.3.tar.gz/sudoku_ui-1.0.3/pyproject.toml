@@ -1,0 +1,27 @@
+[build-system]
+requires = ['poetry-core']
+build-backend = 'poetry.core.masonry.api'
+
+[tool.poetry]
+name = 'sudoku-ui'
+version = '1.0.3'
+description = 'Solve sudoku puzzles using various algorithms'
+license = 'MIT'
+readme = 'README.md'
+authors = ['William Dye']
+keywords = ['dancing links', 'dlx', 'sudoku', 'sudoku solver']
+repository = 'https://github.com/will2dye4/sudoku.git'
+packages = [{include = 'sudoku'}]
+
+[tool.poetry.dependencies]
+python = '^3.7'
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = '^3.7.2'
+
+[tool.poetry.scripts]
+ku = 'sudoku.__main__:ku'
+sudoku = 'sudoku.__main__:main'
