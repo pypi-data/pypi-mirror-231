@@ -1,0 +1,9 @@
+quinten-cli
+rich
+superpathlib
+
+[dev]
+pre-commit
+
+[test]
+pytest
