@@ -1,0 +1,9 @@
+build
+changelog
+dist
+docs
+examples
+htmlcov
+local
+sospice
+venv
