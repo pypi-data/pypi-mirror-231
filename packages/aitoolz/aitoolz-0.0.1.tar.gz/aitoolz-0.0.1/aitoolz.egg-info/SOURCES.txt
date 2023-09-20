@@ -1,0 +1,7 @@
+README.md
+aitoolz.py
+setup.py
+aitoolz.egg-info/PKG-INFO
+aitoolz.egg-info/SOURCES.txt
+aitoolz.egg-info/dependency_links.txt
+aitoolz.egg-info/top_level.txt
