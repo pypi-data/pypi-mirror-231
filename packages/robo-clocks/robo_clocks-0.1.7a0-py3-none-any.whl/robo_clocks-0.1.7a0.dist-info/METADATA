@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: robo-clocks
+Version: 0.1.7a0
+Summary: Clocks, timing, timestamps for mobile robotics
+Home-page: https://github.com/mkner/robo-clocks
+Author: Mike Knerr
+License: BSD
+Keywords: mobile robotics, time, timing, time sync, timestamps,,clocks, system clock, uptime clock, sync clock,,RFC-3339, ISO-8601, UTC time, NTP time
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: robo-base (>=0.1.3)
+
+**Robo Clocks** 
+
+
+Clocks, timing, and timestamp functionality used in mobile robotics and other applications
+
+* Provides three important clocks: Uptime Clock, System Clock, World Clock (NTP/UTC)
+
+* Intuitive commands for basic uptime, timedate and timestamping outputs
+
+* Interface is available in both command line mode and functional output mode for source code
+
+* Output formats have commonly used options and forms that allow easy and flexible reformatting for specific requirements.
+  
+
+
+.
+
+Installation:
+
+$ **pip** install robo-clocks
+
+
+For documentation see https://robo-clocks.readthedocs.io/en/latest/
+
+
+
+
+
+
+
+
+
