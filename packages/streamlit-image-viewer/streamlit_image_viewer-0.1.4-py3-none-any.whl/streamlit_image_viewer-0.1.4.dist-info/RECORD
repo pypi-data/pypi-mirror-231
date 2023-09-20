@@ -1,0 +1,14 @@
+streamlit_image_viewer/__init__.py,sha256=jmRfPb0vaD5wf7c-oeKZrDc7c_hp9_KyJlarV1W4FJE,46
+streamlit_image_viewer/ImageViewer/__init__.py,sha256=OcjVsm5HhW764wv4VNxpTX7GPuBR25ufyqt11BzoSJg,2029
+streamlit_image_viewer/ImageViewer/app.py,sha256=nBXKg9fE8NNVdB7PtLuZxgp9zJEf3kJgdQNDAurAplQ,328
+streamlit_image_viewer/ImageViewer/frontend/build/asset-manifest.json,sha256=a8mwldsI69lsUasb8UFFH10daa0XgMrt5bETnccdF7o,218
+streamlit_image_viewer/ImageViewer/frontend/build/bootstrap.min.css,sha256=67G2bNZmYe6q33Nl0McUYoRfNdXTYnrEsPxI8tTblsI,197737
+streamlit_image_viewer/ImageViewer/frontend/build/index.html,sha256=yWtttHaDoQPJ9riebYya4oPKWGyNvG0BsGm8Zxslfvk,513
+streamlit_image_viewer/ImageViewer/frontend/build/static/js/main.26d79bad.js,sha256=yS39Cr28DskelqfvN3EVe2UZXMJSC0D7DEWPHjyS84Q,1023364
+streamlit_image_viewer/ImageViewer/frontend/build/static/js/main.26d79bad.js.LICENSE.txt,sha256=OfZWw2ZNMi1NNvShevD-O0YnN1xF7jQlw3zDQXg5XPU,2172
+streamlit_image_viewer/ImageViewer/frontend/build/static/js/main.26d79bad.js.map,sha256=yWTnUA07BrKESeZtT5gImvbUktE8yh466oHpDCJn6hg,3802061
+streamlit_image_viewer-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streamlit_image_viewer-0.1.4.dist-info/METADATA,sha256=7hmdHMKbIL90QbYhEI9eZFVgdEYokIRr8i3MYTlFd0Q,2316
+streamlit_image_viewer-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+streamlit_image_viewer-0.1.4.dist-info/top_level.txt,sha256=iXTF6BbrYiXWDKPbjq2lWVpCAQwlYD3sj5VKH828CnU,23
+streamlit_image_viewer-0.1.4.dist-info/RECORD,,
