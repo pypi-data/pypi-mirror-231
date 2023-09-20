@@ -1,0 +1,14 @@
+spotidl/__init__.py,sha256=y6PGo7S0ulXGo93AvF5k_jvV_wzmaLICRakY6oGzf4s,154
+spotidl/cli.py,sha256=K1nKEro_A1qwKRTkzybBkUiSjXsvBhY24bTDFl5vqOo,6446
+spotidl/config.py,sha256=OiZNMkziEwsFm7mOep-NOi-35RXFcJ-4VALa7URehDw,1361
+spotidl/downloader.py,sha256=vhcZwuR7CYvO9kgLQ6EbzLhj3DFNGCcQ_JQqY_O99Xo,5117
+spotidl/exceptions.py,sha256=NAUn9RVRFLsoue79udYRCFcyMg5rvrUN-52z2J0nNIo,1356
+spotidl/main.py,sha256=GiK6BhEfBnNw6PJDSTtyLKK6tbHhK71_0TNw7bYRa9U,104
+spotidl/metadata.py,sha256=uCr3HhxRKAOWoyqW94ewTV65m5bzvppkZMei1mhRtyU,3059
+spotidl/spotify.py,sha256=-KLs5u-52ZmNobV1jTg7XySNg3BYaGRzndAEVPagRLg,5661
+spotidl/utils.py,sha256=3m4vZSv3iNkrYPgYFYQExsaMyQuCOOjcjRtWGNRqTXM,6122
+spoti_dl-1.0.8.dist-info/LICENSE,sha256=9OG12xFuqhz54f3VXtat5zMJ-m3AKrunrZ6HPt3ox2w,1062
+spoti_dl-1.0.8.dist-info/METADATA,sha256=DYnUd9LxGCOKZ99iHSxjWRVdYNndIBGZv48Cb_UEfLY,4282
+spoti_dl-1.0.8.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+spoti_dl-1.0.8.dist-info/entry_points.txt,sha256=leTu239Ua1Y2h-h5si-jXBfFa9ksPV0K3sdbwhnrZx0,44
+spoti_dl-1.0.8.dist-info/RECORD,,
