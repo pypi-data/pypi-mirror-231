@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: asyncfix
+Version: 0.0.7
+Summary: AsyncIO FIX Protocol client for Python
+Author-email: Alex Veden <i@alexveden.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/alexveden/asyncfix
+Keywords: async,FIX,protocol,client,server,parser,unit tests
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+# asyncfix
+AsyncIO FIX protocol library for Python
