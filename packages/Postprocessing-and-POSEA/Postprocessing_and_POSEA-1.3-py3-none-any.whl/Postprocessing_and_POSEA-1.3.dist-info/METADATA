@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Postprocessing-and-POSEA
+Version: 1.3
+Summary: This algorithm is designed for cell segmentation post processing to find nucleus and cytoplasm, and evaluation of the segmentation algorithm based on ground truth images
+Author: Nianchao Wang
+Author-email: nwang27@tamu.edu
+License: Walsh Lab
+Keywords: Cell Segmentation,POSEA,Post-processing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: customtkinter
+Requires-Dist: os
+Requires-Dist: cv2
+Requires-Dist: numpy
+Requires-Dist: PIL
+Requires-Dist: math
+Requires-Dist: pandas
+Requires-Dist: skimage
+
