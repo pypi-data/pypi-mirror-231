@@ -1,0 +1,13 @@
+verysimpletransformers/__about__.py,sha256=dj2TQ3f--Z_ZZZbiGvhL5qBFDjfufqw8A-Qjne2_pPQ,76
+verysimpletransformers/__init__.py,sha256=cbxd5N-fLEEzrKAIrZAGsfBYXkvLYV1m51bhq_89SQY,242
+verysimpletransformers/cli.py,sha256=KQDJA0wBbcNKN6lQY3ccRQJlsHBbygGezbkeAXBwTZA,1885
+verysimpletransformers/core.py,sha256=94P_wbU0HCBMjji4QM-Pm8tbybY1vliMZgE8wl1qXvE,3483
+verysimpletransformers/metadata.py,sha256=JpDgCho-HvbjjMgubFwjQ9axi5HuGcfjnqlVAirCO_E,2468
+verysimpletransformers/metadata_schema.py,sha256=U1XujnYKSMbFXoOM3Do2AUBIjjwJkkB0-12cloF5CLE,2085
+verysimpletransformers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verysimpletransformers/types.py,sha256=NihoNJB7RQKNbx0PvZgiDPK3YKjn0vO3MYnaXtzW6f0,2104
+verysimpletransformers/versioning.py,sha256=gbnGy2NnGjASGERt_Q3rV_GwCQ3NtAwg3x_7ntrPZ0I,1756
+verysimpletransformers-0.1.0b1.dist-info/METADATA,sha256=DklQ7DJCIe4m-jg_UN_7UP6GEsd1bR_qtf4QNZetK3k,1464
+verysimpletransformers-0.1.0b1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+verysimpletransformers-0.1.0b1.dist-info/entry_points.txt,sha256=kf_pg5ouQVWEKlwJvpwx2DCU_HI-6Q1X1ZjbxZ2ba9Q,111
+verysimpletransformers-0.1.0b1.dist-info/RECORD,,
