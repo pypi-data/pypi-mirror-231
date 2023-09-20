@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dtos"
+version = "0.1.0"
+description = "DTOs"
+authors = ["Janek Nouvertné <provinzkraut@posteo.de>"]
+license = "MIT"
+readme = "README.md"
+include = ["dto"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
