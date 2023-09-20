@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gpioc
+Version: 0.1
+Summary: A module to control GPIO
+Home-page: https://github.com/sc-bin/gpioc
+Author: sc-bin
+Author-email: 3335447573@qq.com
+License: MIT
+License-File: LICENSE
+
+# gpioc
+ c python shell  

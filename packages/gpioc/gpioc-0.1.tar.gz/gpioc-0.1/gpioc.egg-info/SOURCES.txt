@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+chips/h616.c
+chips/h616_py.c
+gpioc/H616.py
+gpioc/__init__.py
+gpioc/_pin.py
+gpioc/_pwm.py
+gpioc.egg-info/PKG-INFO
+gpioc.egg-info/SOURCES.txt
+gpioc.egg-info/dependency_links.txt
+gpioc.egg-info/top_level.txt
+src/gpioc_py.c
+src/softpwm.c
+src/softpwm_py.c
