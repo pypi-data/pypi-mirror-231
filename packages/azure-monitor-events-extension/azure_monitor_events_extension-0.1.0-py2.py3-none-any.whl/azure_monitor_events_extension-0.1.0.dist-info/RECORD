@@ -1,0 +1,11 @@
+azure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/monitor/events/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/monitor/events/extension/__init__.py,sha256=U6G2z0rT3_IKGCI0-OZ7DrIDt21X79icZ_cHMKS7JaI,470
+azure/monitor/events/extension/_events.py,sha256=omf3UZJPuqP9wypEghc49Y2nUnvFs1gORtyMWLKt3qg,1288
+azure/monitor/events/extension/_version.py,sha256=G4Z_1bJuC0La4vPSbY2MwcTNFRRfH2UN_toMGBiGKJ8,332
+azure_monitor_events_extension-0.1.0.dist-info/LICENSE,sha256=KWYE8SVGZT7ZdybcX8LzlF1Myh8Hq9JYn1MWRxd7Bvw,1095
+azure_monitor_events_extension-0.1.0.dist-info/METADATA,sha256=9OG4IYAc-d_VYwMwVDSyDYcex8fZy1F5GRSApvhb9x8,1585
+azure_monitor_events_extension-0.1.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+azure_monitor_events_extension-0.1.0.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_monitor_events_extension-0.1.0.dist-info/RECORD,,
