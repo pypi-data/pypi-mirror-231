@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pg-objectserialization
+Version: 1.0.3
+Summary: python game: object serialization
+Author: baozilaji@gmail.com
+Requires-Python: >=3
+
