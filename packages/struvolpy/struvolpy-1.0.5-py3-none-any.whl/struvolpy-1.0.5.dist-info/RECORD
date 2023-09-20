@@ -1,0 +1,10 @@
+struvolpy/Structure.py,sha256=INH_t2LEBH5dQKGG5sEGvNi0m1kIXGcsnvz0pibLtj0,23699
+struvolpy/Volume.py,sha256=Sf-LD6FBexpPaq3epY7y5mACY9cWUcdCPsa0IlNHuGI,22113
+struvolpy/__init__.py,sha256=VJXjgjA_HrBcaQ6-pb2m-NjGlraXWqLBJahkPjeDcvo,132
+struvolpy/wrappers/__init__.py,sha256=MT6sHNWzMJoj7ntrWvQE7NgIW__lUZsC0IcYlI7jrXs,36
+struvolpy/wrappers/wrappers.py,sha256=EyqfdKlGwvGxh1BdfPAocJXm6Yj-1eYJWPpfj2BoYX4,827
+struvolpy-1.0.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+struvolpy-1.0.5.dist-info/METADATA,sha256=JlLpM-nw-raDVUSaW8JnLahqLdclpCCtbVGZU4erbMM,1755
+struvolpy-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+struvolpy-1.0.5.dist-info/top_level.txt,sha256=zoojz1wCE2GRQy59FC3g5Xwz-Jr1Ydrt5jZoHXwb01I,10
+struvolpy-1.0.5.dist-info/RECORD,,
