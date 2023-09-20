@@ -1,0 +1,7 @@
+connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connector/my_awesome_connector.py,sha256=DRU1TEr12QDnBAGmx3YPYZjTWz2cyNwpn1lYJYxE07M,3179
+connector/my_csv_connector.py,sha256=O0qwy8b9iRtzDtQI42UKci38RYJ56aMGMtGXZGEsYCo,7275
+custom_connector-0.0.2.dist-info/METADATA,sha256=SvzL-ekooYbkHs_CaiWkau-riOcp4z-hSZNxyLNhA_8,327
+custom_connector-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+custom_connector-0.0.2.dist-info/top_level.txt,sha256=HEljM61yJAAWyh7-0xWg29ObfG1bd407h2_wBfp0G-g,10
+custom_connector-0.0.2.dist-info/RECORD,,
