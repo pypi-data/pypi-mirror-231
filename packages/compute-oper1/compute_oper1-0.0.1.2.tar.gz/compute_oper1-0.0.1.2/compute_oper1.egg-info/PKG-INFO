@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: compute-oper1
+Version: 0.0.1.2
+Summary: Trial Basic calculator library, individual functions
+Home-page: 
+Author: Movin Fernandes
+Author-email: movin.fernandes@hotmail.com
+License: MIT
+Keywords: basic,calculator
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+This is a very simple calculator that takes 2 numbers and performs relevant mathematical computations on them
+
+Change Log
+
+=============================
+
+0.0.1 - 18-09-2023 -- First release
+
+0.0.1.1 -- 18-09-2023 --  updated release to check if it works
+
+0.0.1.2 -- 19-09-2023 --  updating same package and uploading.
