@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pylabtools
+Version: 2.0.0b0
+Summary: python utility for research
+Home-page: https://github.com/tinnawong/pylabtools
+Author: Tinnawong saelao
+Author-email: tinnawong2010@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pylabtools
+
+`pylabtools` is a Python utility library that provides various helper functions for file and directory manipulation, text formatting, and logging.
+
+## Installation
+
+You can install pylabtools using pip:
+    
+```bash
+pip install pylabtools
+```
+
+## Testing
+
+You can run the unit tests using pytest:
+
+```bash
+python -m unittest discover tests
+```
+
+## Contributing
+
+If you find a bug or have an idea for a new feature, please open an issue on the GitHub repository. Pull requests are welcome!
