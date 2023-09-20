@@ -1,0 +1,13 @@
+torch
+numpy
+transformations
+absl-py
+lxml
+pyyaml
+
+[mujoco]
+mujoco
+
+[test]
+pytest
+mujoco
