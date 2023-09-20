@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-search-engine
+Version: 15.0.20230919.1
+Summary: Meta package for oca-search-engine Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-connector-elasticsearch <15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-connector-search-engine <15.1dev,>=15.0dev
+
+UNKNOWN
+
