@@ -1,0 +1,9 @@
+versionix/__init__.py,sha256=4CiX_QLjStOE2lXirEzRjP4mY6wNuWunUtm47HmdJhk,123
+versionix/parser.py,sha256=wREEb_yDYOqc9L4hNvsx0dOQAY8dtx5Qu7WvD9GtG7c,1862
+versionix/registry.py,sha256=FmT-DgvTBevFCS9mU4syPAjURYg8oQNpmAbAcAMPNZU,2279
+versionix/scripts.py,sha256=GPocWsq2En4MQ3W1Keet4I4rJODhi0tRZvNfZhE7wA0,2096
+versionix-0.2.0.dist-info/LICENSE,sha256=xXm_j7haZAjg0L0tBbpw5owQD5579wJuOy17w0J0JbA,1494
+versionix-0.2.0.dist-info/METADATA,sha256=ZYEx8ESPL02P8wIzS5QOOjmtRQbAvipCtjF-YlTzDX8,4124
+versionix-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+versionix-0.2.0.dist-info/entry_points.txt,sha256=06Ilx2uGM4TSVwVpYGCrgzSuu78FSmwoH56rZUo-ckk,52
+versionix-0.2.0.dist-info/RECORD,,
