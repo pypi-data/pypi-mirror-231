@@ -1,0 +1,3 @@
+[console_scripts]
+pydantic-ast = pydantic_ast.cli:read_command_line
+
