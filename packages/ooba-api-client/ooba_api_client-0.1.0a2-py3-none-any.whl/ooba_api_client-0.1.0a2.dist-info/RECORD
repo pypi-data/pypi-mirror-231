@@ -1,0 +1,9 @@
+ooba_api/__init__.py,sha256=G-Q6IPIuE8boLKVW50Q9Js4OH6yb4d7jT6BDXRQkWKU,282
+ooba_api/clients.py,sha256=NQIYvp5tp2h_qKBEz-3S5h87wxRHIDdcbwBQIE784ag,2455
+ooba_api/parameters.py,sha256=yqtKyfwpWwyEgUP18Ar3DM1wKX8_AumWA1XLJ9uDlsM,3119
+ooba_api/prompts.py,sha256=rNT_1ScCdcSf73uRVR3VIgjV2ItrN2160B-DuzvQVkk,1274
+ooba_api/pydantic_compat.py,sha256=AKd3AjMKeSH14LshAIbH6UjCNlfZ1qlMBa5-IHjaUow,140
+ooba_api_client-0.1.0a2.dist-info/LICENSE,sha256=WEeKMosO6HK86iVTJZacos3PWhnB9s7o4KhE9pEOdbQ,1072
+ooba_api_client-0.1.0a2.dist-info/METADATA,sha256=Lu_G7Y3f_pspmPCOkIXdcu6-OlDPbcd26mo2OrRyyEM,1847
+ooba_api_client-0.1.0a2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ooba_api_client-0.1.0a2.dist-info/RECORD,,
