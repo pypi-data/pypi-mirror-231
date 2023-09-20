@@ -1,0 +1,15 @@
+jupyterlab_pioneer_custom_event_demo/__init__.py,sha256=V-CtXmx_1KbkYuE3STU0HGdowHCFF2355uXw_BrPUrc,1196
+jupyterlab_pioneer_custom_event_demo/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+jupyterlab_pioneer_custom_event_demo/handlers.py,sha256=4oWhR-x5So_rlAZS7cc-17iUC6aO3zf0Eh6FnVFFCXo,830
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/etc/jupyter/jupyter_server_config.d/jupyterlab_pioneer_custom_event_demo.json,sha256=NtECx4vtSrYzSWNILpGMbLfHL0j1D174voiCnjWGJ0c,111
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/package.json,sha256=z18b9O_yndSE6Zdpzu7vaAL_iBigezEvelKo6R2xmVA,6303
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/static/568.460f863751f853076f7a.js,sha256=Rg-GN1H4UwdvegdiH9TG6VbpIQqLZBrAGypW2d-3odc,1062
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/static/747.c05f1cdcf48651ecc4f4.js,sha256=wF8c3PSGUezE9PoenDZhh0XqfA0Zkc2kLttM-h3Fv74,4052
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/static/remoteEntry.56c9012eca0f9f61297e.js,sha256=VskBLsoPn2Epft-2iczKTylDf0tcDcBYG0Ykuo0xcGI,6747
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/static/style.js,sha256=rgM8BRepZOQ-tpSiYsxUVUuiuRrSWKiAZEKh8tRvwrM,179
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_pioneer_custom_event_demo-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-pioneer-custom-event-demo/install.json,sha256=xQW6PIblb0tSNG5MjPLp-WCtZDKYKzt4eV-TPQNPKNM,233
+jupyterlab_pioneer_custom_event_demo-0.1.0.dist-info/METADATA,sha256=2kjVitp0pI75kGsJvI543XfH0C9q0TB6yxn9IUSGxus,4553
+jupyterlab_pioneer_custom_event_demo-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_pioneer_custom_event_demo-0.1.0.dist-info/licenses/LICENSE,sha256=jlcC28eplD8dkI7JpmxyEOSg2DnECBeDxEAnW19-zdw,1541
+jupyterlab_pioneer_custom_event_demo-0.1.0.dist-info/RECORD,,
