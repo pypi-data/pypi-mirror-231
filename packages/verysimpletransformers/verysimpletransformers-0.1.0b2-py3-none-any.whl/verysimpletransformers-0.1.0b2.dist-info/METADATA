@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: verysimpletransformers
+Version: 0.1.0b2
+Summary: Very Simple Transformers provides a simplified interface for packaging, deploying, and serving Transformer models. It uses a custom .vst file format, CLI, and Python library to make sharing and using pretrained models easy.
+Project-URL: Documentation, https://github.com/trialandsuccess/verysimpletransformers#readme
+Project-URL: Issues, https://github.com/trialandsuccess/verysimpletransformers/issues
+Project-URL: Source, https://github.com/trialandsuccess/verysimpletransformers
+Author-email: Robin van der Noord <robinvandernoord@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: configuraptor>=1.17
+Requires-Dist: simpletransformers
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: typer[all]
+Provides-Extra: dev
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: python-semantic-release<8; extra == 'dev'
+Requires-Dist: su6[all]; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Very Simple Transformers (VST)
