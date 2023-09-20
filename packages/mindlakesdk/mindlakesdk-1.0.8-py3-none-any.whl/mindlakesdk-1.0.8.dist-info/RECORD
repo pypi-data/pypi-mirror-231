@@ -1,0 +1,14 @@
+mindlakesdk/LICENSE,sha256=M2f4ib6GoBkRF3PuFHwGkPYjY8pX0x_krNDubuq8GP8,1085
+mindlakesdk/README.md,sha256=1bNhJO9_RdF-XFKzqGXZbvB2pNgTrH663mMOyohxOJ8,115
+mindlakesdk/__init__.py,sha256=qxqJFB9caqwq2d3zQRm9-uCAhzpeOKDT7oS4YWYNKFk,4446
+mindlakesdk/cryptor.py,sha256=nBRy0nErCIp5bF8_lHMN1xqAFJBj-YaLSuaJ54FQpeE,9614
+mindlakesdk/datalake.py,sha256=H5bvQoO4H2EwH_DQW6mloxlPMOnmGP06zELoVAC_O8k,2108
+mindlakesdk/keyhelper.py,sha256=gXKrJli9IQbpwt_3jGt4PL2Qnd-a2KOWJSoUcvjEuyU,6331
+mindlakesdk/message.py,sha256=tZPdocAYOI5CtY0x61xo3NuUUbISy6lZi-FASW-JUAw,7224
+mindlakesdk/permission.py,sha256=F0oyO0SxiseA05vk8COxJONSdAp4ZUImXU4TUzM3ybU,6647
+mindlakesdk/settings.py,sha256=Eaf47VxU-v5HR1-KvrL687maCoQe5xpZUt8q3wxSH30,106
+mindlakesdk/utils.py,sha256=d7GZGWBlTAWlB0UpatS3vn7fi964OoAHUQVmWEFSE0U,4177
+mindlakesdk-1.0.8.dist-info/METADATA,sha256=tw-n2kvMFukITjp6LdwQnicczq2T5IxWUF9KonfhvEM,2584
+mindlakesdk-1.0.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mindlakesdk-1.0.8.dist-info/licenses/LICENSE,sha256=M2f4ib6GoBkRF3PuFHwGkPYjY8pX0x_krNDubuq8GP8,1085
+mindlakesdk-1.0.8.dist-info/RECORD,,
