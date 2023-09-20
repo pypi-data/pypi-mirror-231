@@ -1,0 +1,11 @@
+airflow_pydantic_dags/__init__.py,sha256=DsPMtNWzghHdB-fYprLPTddmtEZuhXmz2PdbYCia-Xs,187
+airflow_pydantic_dags/dag.py,sha256=a75RS8yrVJVhFZRqjM8sAcr9j226ZKFLWG6Tvof3xiA,8356
+airflow_pydantic_dags/exceptions.py,sha256=9UQwVAcSSBo0mRCAxVny1lZkCsTvoH-TjSDH4ElcTvA,172
+airflow_pydantic_dags/warnings.py,sha256=rMPciViss3y3HUi6kpreSIpQkC4qn23ntcegfgjcsJs,197
+airflow_pydantic_dags/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_pydantic_dags/examples/example_dag.py,sha256=by-dQ5YSmshl6YHsB7IiFTLXI9A9LygSx80sOAOIAbo,1275
+airflow_pydantic_dags-1.0.0.dist-info/LICENSE,sha256=VwJHn3EaVX0boz4kNi8J0pkAzHZgjZ_qWn5fc7PRoZM,1501
+airflow_pydantic_dags-1.0.0.dist-info/METADATA,sha256=lJFvngX_KsOJwTiko6UXLfdT9pZN1ikekbiYKfl1-8s,5168
+airflow_pydantic_dags-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+airflow_pydantic_dags-1.0.0.dist-info/top_level.txt,sha256=ZNwOy6-Kulb0_EvQBKxqPNaJPu5jW1zQT2BowuJFB_s,22
+airflow_pydantic_dags-1.0.0.dist-info/RECORD,,
