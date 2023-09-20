@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_geocoder.py,sha256=6wwomO2NnJTVjXNKruMpj2eDkNG6geoOFsHwBlIef6c,1241
+usgeocoder/__init__.py,sha256=hE_pjAnWnaOkdJFslyoGeggPJExwGC27kFBLiht9A8k,217
+usgeocoder/census_api.py,sha256=b9RdFaa2hiCcOna3YenoQ-lYnWoFPDzqjFtTbvzU_tE,12954
+usgeocoder/geocoder.py,sha256=Aj4BHRa1ULw1n1NZi89sO9ILaWHvOTdFgWhldz7NPGQ,19673
+usgeocoder/utils.py,sha256=hFEC7uBDZoYbbjfY8fJt-T7OEFBsNPTjJpGrcFRfA2M,5745
+usgeocoder-0.2.dist-info/LICENSE,sha256=hXKCnjX6IZ_DFlXc4xE2NmuHPBQUuMNVIZeDzmO1NAw,1069
+usgeocoder-0.2.dist-info/METADATA,sha256=dbixmz9MzQDSQO2L4s86QCTwScQgz_Nq4A4IKWjbn4w,9253
+usgeocoder-0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+usgeocoder-0.2.dist-info/top_level.txt,sha256=PNJoh8egnGVBsHo9YhnIqUe6I_5JEEtGnDpqrrbFK80,17
+usgeocoder-0.2.dist-info/RECORD,,
