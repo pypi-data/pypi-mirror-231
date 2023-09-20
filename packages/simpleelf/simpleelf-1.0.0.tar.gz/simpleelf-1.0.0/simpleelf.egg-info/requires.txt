@@ -1,0 +1,4 @@
+construct>=2.10.54
+
+[test]
+pytest
