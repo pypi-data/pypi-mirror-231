@@ -1,0 +1,17 @@
+matplotlib
+networkx
+numpy
+pgmpy==0.1.17
+pygambit==16.0.2
+
+[notebook]
+ipykernel
+
+[test]
+flake8
+ipykernel
+mypy
+nbconvert
+nbformat
+pep8-naming
+pytest
