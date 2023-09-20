@@ -1,0 +1,12 @@
+dbpd/__init__.py,sha256=5lqxQPu3T7KQE8zNDgis0YWv5GjeBEE6lo3oYeMVHvs,184
+dbpd/access.py,sha256=oyW4FNywke-SN7ZI3SsUxXtxpYkfNj6QbyBTEsggEMI,1163
+dbpd/dbpd.py,sha256=DjL_3S58B_f_xMKGiuozYwbbqMpf39uYNIHsC1yRIqk,44341
+dbpd/mysql.py,sha256=Mauu2tWiWkr6WBt1knOxJl-dVvgslystuSDgt7sH6fo,1923
+dbpd/oracle.py,sha256=B2zDxysvza-mpDm-5F8he4IXLqyJoRgP3IHHZ1DIhlw,2138
+dbpd/postgres.py,sha256=jG4YF_of64OznTaJYGTHpunWNh5GqHsW01oFjAxm-h4,2057
+dbpd/sqlite.py,sha256=Wgd0xsyxWZ48EMK8khPcuG5ahmd7dbEoH9uqXeaDNsY,3116
+dbpd-1.0.dist-info/LICENSE.txt,sha256=Nq9r86aWteY8tRI5VtvD0uXx1bL33tMvV-sehWLC2FM,1090
+dbpd-1.0.dist-info/METADATA,sha256=GrJFtAruM0DWLFT1FH7Tv7B33dR2pW38JGWDW64vuZs,6641
+dbpd-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dbpd-1.0.dist-info/top_level.txt,sha256=9YBcYvKBvEGBxMZgxUB7Z47K5WBUyRoabyQDCpHqpQ8,5
+dbpd-1.0.dist-info/RECORD,,
