@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: probs_module_endpoint
+Version: 2.0.0a1
+Summary: Endpoint (reasoning) RDFox scripts for the PRObs system
+Author: Stefano Germano, Rick Lupton, Carla Saunders, Stephen Boyle
+License-File: LICENSE

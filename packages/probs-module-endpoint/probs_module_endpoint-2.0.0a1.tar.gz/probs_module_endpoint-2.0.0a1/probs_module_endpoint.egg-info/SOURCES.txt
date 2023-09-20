@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+./data/README.md
+./scripts/endpoint/explicate.rdfox
+./scripts/endpoint/input.rdfox
+./scripts/endpoint/load_data.rdfox
+./scripts/endpoint/load_rules.rdfox
+./scripts/endpoint/master.rdfox
+./scripts/endpoint/prefixes.rdfox
+./scripts/endpoint/process.rdfox
+./scripts/endpoint/rules.dlog
+./scripts/endpoint/setup-RDFox.rdfox
+probs_module_endpoint.egg-info/PKG-INFO
+probs_module_endpoint.egg-info/SOURCES.txt
+probs_module_endpoint.egg-info/dependency_links.txt
+probs_module_endpoint.egg-info/top_level.txt

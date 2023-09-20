@@ -1,0 +1,7 @@
+
+# Import ontology rules and data
+import probs_ontology_rules.dlog
+import probs_ontology_data.nt.gz
+
+# Include the rules
+import rules.dlog

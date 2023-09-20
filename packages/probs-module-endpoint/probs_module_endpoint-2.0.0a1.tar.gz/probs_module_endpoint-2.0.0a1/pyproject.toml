@@ -1,0 +1,21 @@
+[project]
+name = "probs_module_endpoint"
+version = "2.0.0a1"
+description = "Endpoint (reasoning) RDFox scripts for the PRObs system"
+authors = [
+    {name = "Stefano Germano"},
+    {name = "Rick Lupton"},
+    {name = "Carla Saunders"},
+    {name = "Stephen Boyle"},
+]
+dependencies = []
+
+[tool.setuptools.package-dir]
+"probs_system" = "."
+
+[tool.setuptools.package-data]
+"probs_system" = ["data/*", "scripts/endpoint/*"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
