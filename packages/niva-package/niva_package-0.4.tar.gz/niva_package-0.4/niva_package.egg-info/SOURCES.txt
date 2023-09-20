@@ -1,0 +1,12 @@
+README.md
+licence .txt
+setup.cfg
+setup.py
+niva/__init__.py
+niva/niva.py
+niva_package.egg-info/PKG-INFO
+niva_package.egg-info/SOURCES.txt
+niva_package.egg-info/dependency_links.txt
+niva_package.egg-info/entry_points.txt
+niva_package.egg-info/requires.txt
+niva_package.egg-info/top_level.txt

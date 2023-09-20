@@ -1,0 +1,2 @@
+[console_scripts]
+niva = niva.niva:main

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: niva_package
+Version: 0.4
+Summary: A description of your project
+Requires-Python: >=3.6
+License-File: licence .txt
