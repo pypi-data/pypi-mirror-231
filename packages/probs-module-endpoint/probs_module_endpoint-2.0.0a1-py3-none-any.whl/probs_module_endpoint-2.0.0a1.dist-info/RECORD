@@ -1,0 +1,15 @@
+probs_system/data/README.md,sha256=tOoOCF5TRn5j9mDR4J1dsJDJcveOnazP0U5kTzgoo9k,63
+probs_system/scripts/endpoint/explicate.rdfox,sha256=SubIJ4eoDVlrjPpFcyW_keWrW41Yvce8pOTF-Y7gRy0,69
+probs_system/scripts/endpoint/input.rdfox,sha256=HxZyl7H0yeJUAGoCiMI9fM45Mh0_cGDJpKrZ28SWZmw,33
+probs_system/scripts/endpoint/load_data.rdfox,sha256=DmIoWAhZsjuXKzkoxvS91PKefRBWhgQ1f1cKtC0dhf0,85
+probs_system/scripts/endpoint/load_rules.rdfox,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+probs_system/scripts/endpoint/master.rdfox,sha256=NJt09ExcUZxjRLY9EK7HR5ieMZUoeeVHhPHABFR7nh4,622
+probs_system/scripts/endpoint/prefixes.rdfox,sha256=cU06Q4WRBlmxDq9K1JopACYQCl6JUK6AIPq4Dg-YKMY,510
+probs_system/scripts/endpoint/process.rdfox,sha256=2olMT-JJf3bxFrlYovNfGBUm2kXPdih1eETsFf9goqs,139
+probs_system/scripts/endpoint/rules.dlog,sha256=ttWcS5z3lnEzVpBFFSPTbRRx8TVmd8diQtxIaAGpZqg,817
+probs_system/scripts/endpoint/setup-RDFox.rdfox,sha256=_xzBVLgHEZi3HDanw9I1Uo_seBzy9bZImynyojnc7oc,149
+probs_module_endpoint-2.0.0a1.dist-info/LICENSE,sha256=5tDtE_812y5-WlmZKvCyOqApL8dx2IcYfoKddluqZTQ,1066
+probs_module_endpoint-2.0.0a1.dist-info/METADATA,sha256=Eo4QJM6cTtTuJCvF-PiS9kC5fA4N4cM5UEWuFCKCM90,223
+probs_module_endpoint-2.0.0a1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+probs_module_endpoint-2.0.0a1.dist-info/top_level.txt,sha256=YIJwWuEpDMq79NnDQGz-duRdQSvr9s23rqYPBMXz5wU,13
+probs_module_endpoint-2.0.0a1.dist-info/RECORD,,
