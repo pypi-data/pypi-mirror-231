@@ -1,0 +1,9 @@
+aimap/__init__.py,sha256=zZUnspsaSSZKFZ8Zj0A7kCp0cmN9vBTRAy80fnN6ISM,115
+aimap/aimap_config.py,sha256=FWmh57wE0ShQtCQV4qQ-7Byco6vxUGKXgJoFAUfvOHE,458
+aimap/aimap_tools.py,sha256=F33FmR5udvH1X6mOCa99rtv5qI6u7xbBRIrQSFKeWPw,11920
+aimap-1.1.0.data/scripts/Adenosine_to_inosine.py,sha256=WN5I-PpI-qUhWIK2Y49SY0vXC5wWsczfnQHZr1VhVtc,12227
+aimap-1.1.0.dist-info/LICENSE,sha256=FIBY1eqgASffj0tkz68zY6i-unLucuTkDpSYKc7Zjzs,1085
+aimap-1.1.0.dist-info/METADATA,sha256=cg16wHhIstNwskAqlbRZFP469UPgdyRKrf_RO0ZO-o4,1095
+aimap-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aimap-1.1.0.dist-info/top_level.txt,sha256=qrnR-cgRl6hDegmH-mPB8T5_AWIToWvNZewHK31qszU,6
+aimap-1.1.0.dist-info/RECORD,,
