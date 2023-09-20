@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: biosimulators-simularium
+Version: 0.2.0
+Home-page: https://github.com/biosimulators/Biosimulators_simularium
+Author: Alexander Patrie/BioSimulators Team
+Author-email: info@biosimulators.org
+License-File: LICENSE.txt
+Requires-Dist: zarr
+Requires-Dist: simulariumio
+Requires-Dist: smoldyn
+
