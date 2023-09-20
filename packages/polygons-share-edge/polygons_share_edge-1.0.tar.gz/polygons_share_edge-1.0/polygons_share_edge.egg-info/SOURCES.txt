@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+polygons_share_edge.egg-info/PKG-INFO
+polygons_share_edge.egg-info/SOURCES.txt
+polygons_share_edge.egg-info/dependency_links.txt
+polygons_share_edge.egg-info/top_level.txt
+src/polygon_edges/polygons_share_edge.cpp
+tests/test_shared_edges.py
