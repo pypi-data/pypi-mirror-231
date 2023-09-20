@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydeepxlsx"
+authors = [
+    {name = "WildSys", email = "hello@wildsys.io"}
+]
+description = "XLSX file as a template"
+requires-python = ">=3.9"
+keywords = ['xlsx', 'copy']
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "openpyxl>=3.0,<3.1"
+]
+version = "1.0.3"
+
+[project.urls]
+"Homepage" = "https://github.com/wildsys/pydeepxlsx"
+"Bug Tracker" = "https://github.com/wildsys/pydeepxlsx/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error"]
