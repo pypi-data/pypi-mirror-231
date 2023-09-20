@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: needagx
+Version: 1.1.0
+Summary: A sample project depending no AGX, using agxver to solve deps
+Author: Jonas Andersson
+Author-email: jonas.andersson@algoryx.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: agxver (==2.36.1.0)
+Description-Content-Type: text/markdown
+
+# AGX dependency
+
+This is an example project to prove that agxver can be used to retrieve the correct agx dependant pypi package.
+
+## Versions
+
+1.1.0 --> 2.36.1.0
+1.1.2 --> 2.36.1.2
+
+## Prove concept
+
+```bash
+poetry build -f wheel
+pip3.9 install dist/needagx-1.1.2-py3-none-any.whl
+```
+
+Above will fail if agxver-2.36.1.2 is not installed, and will succeed if it is installed.
+
+## Choosing version from pypi
+
+Prereqs:
+- 1.1.0 is uploaded to pypi depending on 2.36.1.0
+- 1.1.2 is uploaded to pypi depending on 2.36.1.2
+
+```bash
+cd agxver; git checkout 2.36.1.0; cd ..
+pip3.0 install agxver
+pip3.9 install needagx
+# --> needagx 1.1.0 will be installed
+cd agxver; git checkout 2.36.1.2; cd ..
+pip3.0 install agxver
+pip3.9 install needagx
+# --> needagx 1.1.2 will be installed
+```
+
