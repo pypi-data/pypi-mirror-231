@@ -1,0 +1,27 @@
+2023-09-14 13:46:40,644 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Configure stats pid to 454358
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Loading settings from /home/james/.config/wandb/settings
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Loading settings from /home/james/workspace/nanoPPO/nanoppo/wandb/settings
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'nanoppo/continuous_action_ppo.py', 'program': '/home/james/workspace/nanoPPO/nanoppo/continuous_action_ppo.py'}
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_init.py:_log_setup():507] Logging user logs to /home/james/workspace/nanoPPO/nanoppo/wandb/run-20230914_134640-822o9y8o/logs/debug.log
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_init.py:_log_setup():508] Logging internal logs to /home/james/workspace/nanoPPO/nanoppo/wandb/run-20230914_134640-822o9y8o/logs/debug-internal.log
+2023-09-14 13:46:40,645 INFO    MainThread:454358 [wandb_init.py:init():547] calling init triggers
+2023-09-14 13:46:40,646 INFO    MainThread:454358 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'env_name': 'Pendulum-v1', 'env_config': None, 'attention': False, 'on_policy': True, 'rescaling_rewards': True, 'scale_states': 'standard', 'num_rollout': 20, 'epochs': 100, 'batch_size': 64, 'sgd_iters': 20, 'gamma': 0.99, 'optimizer_config': {'policy_lr': 0.00030000000000000003, 'value_lr': 0.003, 'beta1': 0.9, 'beta2': 0.98, 'epsilon': 1e-08, 'weight_decay': 0.0001, 'scheduler': 'cosine', 'exponential_gamma': 0.95, 'cosine_T_max': 100}, 'hidden_size': 64, 'init_type': 'he', 'clip_param': 0.2, 'vf_coef': 0.5, 'entropy_coef': 0.0001, 'max_grad_norm': 0.9, 'use_gae': False, 'tau': 0.97, 'l1_loss': False, 'wandb_log': True, 'verbose': True, 'rollout_buffer_size': 4096, 'rollout_start_size': 100, 'project': 'continuous-action-ppo', 'device': device(type='cuda', index=0)}
+2023-09-14 13:46:40,646 INFO    MainThread:454358 [wandb_init.py:init():596] starting backend
+2023-09-14 13:46:40,646 INFO    MainThread:454358 [wandb_init.py:init():600] setting up manager
+2023-09-14 13:46:40,650 INFO    MainThread:454358 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-14 13:46:40,653 INFO    MainThread:454358 [wandb_init.py:init():606] backend started and connected
+2023-09-14 13:46:40,660 INFO    MainThread:454358 [wandb_init.py:init():700] updated telemetry
+2023-09-14 13:46:40,671 INFO    MainThread:454358 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-09-14 13:46:41,014 INFO    MainThread:454358 [wandb_run.py:_on_init():2177] communicating current version
+2023-09-14 13:46:41,102 INFO    MainThread:454358 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.15.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-14 13:46:41,102 INFO    MainThread:454358 [wandb_init.py:init():787] starting run threads in backend
+2023-09-14 13:46:55,881 INFO    MainThread:454358 [wandb_run.py:_console_start():2158] atexit reg
+2023-09-14 13:46:55,881 INFO    MainThread:454358 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-09-14 13:46:55,882 INFO    MainThread:454358 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-09-14 13:46:55,882 INFO    MainThread:454358 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-09-14 13:46:55,882 INFO    MainThread:454358 [wandb_init.py:init():829] run started, returning control to user process

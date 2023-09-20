@@ -1,0 +1,145 @@
+{
+    "os": "Linux-5.4.0-159-generic-x86_64-with-glibc2.31",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-09-14T20:46:41.208008",
+    "startedAt": "2023-09-14T20:46:40.641100",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/james/workspace/nanoPPO/nanoppo/continuous_action_ppo.py",
+    "codePath": "nanoppo/continuous_action_ppo.py",
+    "git": {
+        "remote": "git@github.com:jamesliu/nanoPPO.git",
+        "commit": "52c575c15444cec23bff39019ae23111e4f94889"
+    },
+    "email": "actions@users.noreply.github.com",
+    "root": "/home/james/workspace/nanoPPO",
+    "host": "love",
+    "username": "james",
+    "executable": "/home/james/anaconda3/envs/py310/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1252.0307499999997,
+        "min": 1200.0,
+        "max": 4120.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.29,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.256,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1344.111,
+            "min": 1200.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1200.015,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.239,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.687,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.151,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.102,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1300.01,
+            "min": 1200.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1200.225,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.192,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.108,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1332.487,
+            "min": 1200.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1200.399,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.32,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.094,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.273,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1200.276,
+            "min": 1200.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1300.483,
+            "min": 1200.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1200.098,
+            "min": 1200.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "total": 1704.3833236694336,
+        "used": 1517.6152420043945
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 125.47850799560547
+    }
+}
