@@ -1,0 +1,13 @@
+numpy
+numba
+linearwavetheory
+xarray
+scipy
+
+[full]
+qpsolvers
+cvxopt
+
+[optimization]
+cvxopt
+pygrib
