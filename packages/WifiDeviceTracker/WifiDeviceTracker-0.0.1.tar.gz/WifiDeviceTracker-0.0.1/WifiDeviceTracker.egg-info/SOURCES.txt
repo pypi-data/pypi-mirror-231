@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+WifiDeviceTracker/Detection.py
+WifiDeviceTracker/__init__.py
+WifiDeviceTracker.egg-info/PKG-INFO
+WifiDeviceTracker.egg-info/SOURCES.txt
+WifiDeviceTracker.egg-info/dependency_links.txt
+WifiDeviceTracker.egg-info/requires.txt
+WifiDeviceTracker.egg-info/top_level.txt

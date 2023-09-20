@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: WifiDeviceTracker
+Version: 0.0.1
+Summary: Python package to detect and classify various wifi devices
+Home-page: https://github.com/joshdietz/wifi_device_tracker
+Author: Josh Dietz
+Author-email: joshdietz@outlook.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# home-presence-tracker
+The Home Presence Tracker is a program that utilizes Wi-Fi device presence and potentially other sensors to track who is "home." It leverages machine learning techniques to predict when someone will be home based on previous data. The goal is to provide a convenient way to make intelligent predictions about someone’s future arrival times.
