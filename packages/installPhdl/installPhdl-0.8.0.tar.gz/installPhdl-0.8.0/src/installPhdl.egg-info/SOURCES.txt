@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/installPhdl/PhotoLibDownloader-0.8.0-py3-none-any.whl
+src/installPhdl/__init__.py
+src/installPhdl/__main__.py
+src/installPhdl/installPhdl.py
+src/installPhdl.egg-info/PKG-INFO
+src/installPhdl.egg-info/SOURCES.txt
+src/installPhdl.egg-info/dependency_links.txt
+src/installPhdl.egg-info/entry_points.txt
+src/installPhdl.egg-info/top_level.txt
