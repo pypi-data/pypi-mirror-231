@@ -1,0 +1,6 @@
+patch_aiohttp_requests.py,sha256=VzXTVaIAfGMu3u4ixON7w-hXuMpw_Vjitabv9bQtiIw,2927
+patch_aiohttp_requests-0.1.1.dist-info/LICENSE.md,sha256=_TAiUrN_K3Z7DVpDZR7MqQHeYpYNj07wodBeb_r5HWk,1077
+patch_aiohttp_requests-0.1.1.dist-info/METADATA,sha256=miBIrcqiHfre7257nV3ee76lzdH72EylhxMuP-_q0OU,585
+patch_aiohttp_requests-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+patch_aiohttp_requests-0.1.1.dist-info/top_level.txt,sha256=bNIMOoobU7cRDyL_XRLI7Lv3sqUsD21fIwvOlNCQzx0,23
+patch_aiohttp_requests-0.1.1.dist-info/RECORD,,
