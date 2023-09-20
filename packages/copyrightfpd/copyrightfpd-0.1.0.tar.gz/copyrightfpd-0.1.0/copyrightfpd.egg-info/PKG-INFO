@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: copyrightfpd
+Version: 0.1.0
+Summary: Created as a part of the 2023 Google Summer of Code project:
+     Reducing Fossology's False Positive Copyrights, the purpose is to be able to
+     predict whether a given copyright output from the Fossology software
+     is a false positive or not.
+Home-page: https://github.com/your_username/your_package_name
+Author: Abdelrahman Jamal
+Author-email: abdelrahmanjamal5565@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.6
