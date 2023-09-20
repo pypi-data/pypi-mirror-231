@@ -1,0 +1,10 @@
+RowMancer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RowMancer/cli.py,sha256=qQiw0ATICsWMOBiL5OanD6Ie836S-EDgk-MvSZOANaw,3097
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cli_test.py,sha256=rh0-rqeC07ayPWx1nZ57bZxNMTMdrlpeUj-WJYWNhuU,1438
+RowMancer-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+RowMancer-0.1.0.dist-info/METADATA,sha256=4x1KFGFunluhRPfa1s1A4TIMNudNOGqFH35lCTl8GoE,117
+RowMancer-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+RowMancer-0.1.0.dist-info/entry_points.txt,sha256=v22CcfmsMnd3LBKUQG2lfQrDrzD5QVVVFAtaqQxQiO0,48
+RowMancer-0.1.0.dist-info/top_level.txt,sha256=pETcR_LzmCUgJ5zAN-rfRw43yBzIz5Esx3-IWBEkGXE,16
+RowMancer-0.1.0.dist-info/RECORD,,
