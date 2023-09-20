@@ -1,0 +1,15 @@
+nbdirs/__init__.py,sha256=xMElAMKsiIzPjQacpPC2bqaGJUN-dfr0qoSHNhwlboI,147
+nbdirs/_modidx.py,sha256=JpMufdAY_qhXb4ygaKCTtv5IPrjRUCiL3j-lsqBTKRo,6962
+nbdirs/atyp.py,sha256=nU1ItbBfhtUrI02Z3ItZrfgAvamFsLIttscllK51CCY,651
+nbdirs/cons.py,sha256=IvdoADBkP0hP43ZMXukoXV3FAi_KywtciXjGdQq6U-I,1761
+nbdirs/core.py,sha256=g8AW_H2F2kscfRI4frShFLAen-kV7WHpYQLIhifa_xM,1295
+nbdirs/dirs.py,sha256=HIGreGjMuFm1aYUuZG0e3Tw25TWGPSPWainVGGSJ0R0,4378
+nbdirs/enum.py,sha256=qImGP5Fj1ZZhEz9XQaWx3c0JFXNzX0lKkYmCidNwfeA,7814
+nbdirs/mixs.py,sha256=MUbL0keyORfzk6w1sFqJ6GUBUnUS25gVK7HfG73b5Bk,947
+nbdirs/utils.py,sha256=2enqUwlkW_2UgvwwCBqSco1XRfEsr9E-iUUEl8ypF1Y,1647
+nbdirs-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+nbdirs-0.0.2.dist-info/METADATA,sha256=xWKdggQcZBJhWIHciBs5Oqx7zRw2-6BfEnQAzXQxnk4,3230
+nbdirs-0.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+nbdirs-0.0.2.dist-info/entry_points.txt,sha256=bzyg_FfSdCk3cL_R6cORWDFAUC1g3NzwfdJGxf1-2vs,34
+nbdirs-0.0.2.dist-info/top_level.txt,sha256=VuYaIfVgF0Sww7Nvz0rByYG6GfIW513bWS7ysMLyD4A,7
+nbdirs-0.0.2.dist-info/RECORD,,
