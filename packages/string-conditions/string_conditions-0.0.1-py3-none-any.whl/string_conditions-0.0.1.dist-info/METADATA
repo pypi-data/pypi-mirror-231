@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: string-conditions
+Version: 0.0.1
+Summary: Evaluate string Python conditions while keeping control on functions and variables accessible
+Author: Martin DENIZET
+License: MIT
+Project-URL: Homepage, https://github.com/martin-denizet/string_conditions
+Project-URL: Changelog, https://github.com/martin-denizet/string_conditions/releases
+Project-URL: Issues, https://github.com/martin-denizet/string_conditions/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![codecov](https://codecov.io/gh/martin-denizet/string_conditions/graph/badge.svg?token=8NOUUP037M)](https://codecov.io/gh/martin-denizet/string_conditions)
+# string_conditions
+Evaluate string Python conditions while keeping control on functions and variables accessible.
+
+## Usage
+### Python
+```python
+from string_conditions import evaluate_condition
+evaluate_condition(
+    condition="(year not in (2020,2021) and 10 > month > 4) or type.lower() == 'sometype'",
+    context={
+        'type': "SomeType",
+        'year': 2023,
+        'month': 6,
+    }
+)
+```
+### CLI
+```commandline
+python -m string_conditions "(year > 2020 and type not in ('std', 'premium')) or message.lower().startswith('hello')"  -c '{"year":2021, "type":"new", "message":"Hello World"}'
+```
