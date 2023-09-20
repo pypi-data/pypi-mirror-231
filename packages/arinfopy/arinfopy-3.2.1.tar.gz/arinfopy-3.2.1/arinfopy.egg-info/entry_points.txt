@@ -1,0 +1,2 @@
+[console_scripts]
+arinfopy = arinfopy.cli.arinfopy:arinfopy
