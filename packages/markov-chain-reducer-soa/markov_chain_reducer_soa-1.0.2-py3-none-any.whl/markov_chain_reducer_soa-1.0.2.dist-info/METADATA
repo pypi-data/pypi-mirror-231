@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: markov-chain-reducer-soa
+Version: 1.0.2
+Summary: Reduce Markov's chains
+Author: StackCanary
+Description-Content-Type: text/markdown
+
+# MarkovChainReducerSOA
+Сокращатель цепей Маркова для решения задач по предмету SOA
