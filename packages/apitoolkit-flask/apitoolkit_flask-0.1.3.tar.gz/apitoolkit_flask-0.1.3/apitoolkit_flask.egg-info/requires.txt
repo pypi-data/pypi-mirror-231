@@ -1,0 +1,5 @@
+Flask
+google-auth
+google-cloud-pubsub
+jsonpath-ng
+requests
