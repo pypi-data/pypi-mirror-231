@@ -1,0 +1,6 @@
+brew "exiftool"
+brew "imagemagick"
+brew "poppler"
+brew "qpdf"
+brew "tesseract"
+brew "tesseract-lang"
