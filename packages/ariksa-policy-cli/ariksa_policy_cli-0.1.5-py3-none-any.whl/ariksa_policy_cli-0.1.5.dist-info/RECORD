@@ -1,0 +1,10 @@
+ariksa_policy_cli/app/core/settings.py,sha256=M3x-z8lM6aea1vhvDffC_9LLy4HHFGaLwuBGsbeTgug,158
+ariksa_policy_cli/app/main.py,sha256=coZ5kK7YVwYPJzwxoejL5UeujIBQSlprfqDtZ7XJeBU,2487
+ariksa_policy_cli/app/modules/utils/query.py,sha256=E5X6zjL4pAq-wkyp5W1VkTSnuRSnuJi_ssWL73xhYNU,4378
+ariksa_policy_cli/app/modules/utils/send_request.py,sha256=ctk2E7-gOmRvB7HlEDP5YpAn8829qkGAGALoI9eyXEk,6086
+ariksa_policy_cli/app/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ariksa_policy_cli/app/schemas/resource.py,sha256=C1PjPXrTS17qoONab9suUQ85hf9zuCSeqbXWt3uCdXA,881
+ariksa_policy_cli-0.1.5.dist-info/METADATA,sha256=-crhkKDysYP2dJVZ6aLLJZ-u-_H_yeis3aSGMCnPJC8,6773
+ariksa_policy_cli-0.1.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ariksa_policy_cli-0.1.5.dist-info/entry_points.txt,sha256=GydJZK2pAma98oen4AldWopJHBSrgqOxNMujbzvv8sw,71
+ariksa_policy_cli-0.1.5.dist-info/RECORD,,
