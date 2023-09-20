@@ -1,0 +1,6 @@
+CHANGE LOG For Performance based Feature Selection Technique
+
+
+===========================================================================================================================
+
+1.0.0 -- First Release to PYPI
