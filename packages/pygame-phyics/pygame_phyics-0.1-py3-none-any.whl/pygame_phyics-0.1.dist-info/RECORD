@@ -1,0 +1,10 @@
+pygame_phyics/__init__.py,sha256=mHnexY6qiXTsr4HKgiaAY2nD2p0l6hfmWbMN6aF5E0I,309
+pygame_phyics/game.py,sha256=Q2-s3QUnsT-zUpiEIjO9uAc4VYQq3JznQlgLO8B0fSk,1756
+pygame_phyics/instantiate.py,sha256=DSTsOSKWHC39UAlits7M1nMujJXF22GaiF9FZtG-7x0,1334
+pygame_phyics/object.py,sha256=2EqJlWydE_zRLgaWy1Hs4gHms3iCsnOAQsbZiJcZVZ8,5351
+pygame_phyics/scene.py,sha256=0kNdUzCoIJdc3fOlNDHikdmNAQaQOgEpOGzMpPhHImg,1939
+pygame_phyics/sheet.py,sha256=DZlxfrkC2Y5J4cU1nQTAzmG2nP8yqZDc_XbtU6jCK9Y,847
+pygame_phyics-0.1.dist-info/METADATA,sha256=zFnfeo_xZa3uPXAfnt0GmkYPVMmKzXQPGd-ZpAL36DE,219
+pygame_phyics-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pygame_phyics-0.1.dist-info/top_level.txt,sha256=f8ullZ7D7m0xVxZCVTMrE42CL2NWJ08XQgMBw90_KRU,14
+pygame_phyics-0.1.dist-info/RECORD,,
