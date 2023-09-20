@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+makshefcry.egg-info/PKG-INFO
+makshefcry.egg-info/SOURCES.txt
+makshefcry.egg-info/dependency_links.txt
+makshefcry.egg-info/top_level.txt
