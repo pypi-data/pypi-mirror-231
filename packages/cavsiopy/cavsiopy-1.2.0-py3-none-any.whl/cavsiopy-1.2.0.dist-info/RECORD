@@ -1,0 +1,15 @@
+cavsiopy/__init__.py,sha256=MTN7PJ2e7cAefWs7dIETEehmYLQC9R8bHeTywtkpYVI,458
+cavsiopy/attitude_analysis.py,sha256=-GsXGHUYO7ob2rhbi8GPZ2BzZCs44NW75Zw6XUPcBLc,27727
+cavsiopy/attitude_plotter.py,sha256=BsQjzwJ5ZSW8VDuBV5gVNdGUfaQPlySqBoeyluSsujA,63513
+cavsiopy/complement_missing_sofa.py,sha256=fkwgri90kgDwgIbDX3l3CKjPBi-b-sBVkhuOOrtsBJY,1595
+cavsiopy/ephemeris_importer.py,sha256=Kr9QFZh33bKqD1k7Fe7_dWgtJ3acTBvOHhp0kX6B9ug,28472
+cavsiopy/meta.yaml,sha256=S1y46cpXOYXLb-R6JBBnYwSJV6FdkKMxDUCY4NsSWsM,1681
+cavsiopy/miscellaneous.py,sha256=-skupgXjgb9CZQJMuYRm1026cyJ-pbo3SXbvxIRA7KQ,18200
+cavsiopy/use_rotation_matrices.py,sha256=Maub9IozqYPq7u1GGgLje23qPr78iy7DxKDwkoiYWJ4,31979
+cavsiopy/utils.py,sha256=HZpaPebxdGxuybDuUfzDrbe4ehryFwNUnlIjZwkdX_w,940
+cavsiopy/coefficient_files/38_EOP_C01.1900-NOW_V2013_0138.txt,sha256=1hLVIv5rDUjgTe6WZcW6-OuiN31TKM-uTL1azTO609E,321345
+cavsiopy/coefficient_files/IERS_daily_deltaT.txt,sha256=Z76nMD5yeCgswJu-HYR0uLLLFIpTlgsxgXzQQtKv71Q,3435240
+cavsiopy-1.2.0.dist-info/METADATA,sha256=Z0FzarrDs3Itn0EDtrk2MJvBOx_hLj4KgAIy-oIP_7Q,15124
+cavsiopy-1.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cavsiopy-1.2.0.dist-info/licenses/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+cavsiopy-1.2.0.dist-info/RECORD,,
