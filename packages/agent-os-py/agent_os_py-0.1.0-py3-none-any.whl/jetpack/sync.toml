@@ -1,0 +1,11 @@
+[agent]
+name = "jetpack"
+
+[all]
+external_paths=["./agents/jetpack/frontend", "./agents/jetpack/coder", "./agents/jetpack/chat"]
+
+[[actors]]
+name="frontend"
+push=["./agents/jetpack/frontend:/code", "./agents/jetpack/templates:/templates"]
+wit="external:frontend_wit:app"
+wit_query="external:frontend_queries:app"

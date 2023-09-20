@@ -1,0 +1,5 @@
+[console_scripts]
+aos=cli.aos:cli
+gen=examples.coder.generator.gen_workbench:main
+perf=tests.perf.perf:main
+
