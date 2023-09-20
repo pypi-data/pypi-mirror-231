@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: media-profile-summaries-evaluation
+Version: 0.1.1
+Summary: 
+Author: Lewis Bails
+Author-email: lewis.bails@ripjar.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0)
+Requires-Dist: unidecode (>=1.3.6,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Media Profile Summaries Evaluation
+
+![pytest](https://github.com/ripjar/media-profile-summaries-evaluation/actions/workflows/pytest.yml/badge.svg?event=push&branch=master)
+![style](https://github.com/ripjar/media-profile-summaries-evaluation/actions/workflows/style.yml/badge.svg?event=push&branch=master)
+
+Automated evaluation of media profile summaries. Datasets are expected to include the predicted summary, the input evidence (prompt), and the expected summary.
+
+## Setup
+
+```bash
+poetry install --with dev
+```
+
+## Usage
+
+```bash
+poetry run python scripts/evaluate.py
+```
+
+* You must have access to an instance of bowler hat.
+* See `bowlerhat` section in config and `bowlerhat.Client` for more information
+* `evaluate.py` is configured with hydra (`python evaluate.py --help` for config options)
+* Datasets are loaded from file or hugging face hub via `datasets.load_dataset`
