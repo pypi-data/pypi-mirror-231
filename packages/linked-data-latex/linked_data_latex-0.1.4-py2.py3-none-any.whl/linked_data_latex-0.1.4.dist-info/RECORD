@@ -1,0 +1,11 @@
+ddpaper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddpaper/data.py,sha256=dzWZYagMcKGxfppPebKp1x0qww-Q2HAHDIqF2cYsDpY,3452
+ddpaper/draftdata.py,sha256=BMW4p0OvMc4VzBCb-LqH3tKEFQAUuItR5SxkmVMl7CI,2280
+ddpaper/filters.py,sha256=zy4QLsDBA9ciSP4w5W4TafBO7Jn6NyhC55j7GI1ihIc,3331
+ddpaper/generate.py,sha256=ayjLkJTBwHqcLgKz1g_SMUUFe9gX_0jWa1Ai8llOVls,3909
+ddpaper/render.py,sha256=63kjp6p6Up7dKMOKtuTm7nyxZg_5mYW7mRJqOwudzXw,11354
+ddpaper/yaml.py,sha256=658jRWAM9bAyrENEQB4ltkRWd5pzk8i42dUT3u2ClUU,1142
+linked_data_latex-0.1.4.dist-info/METADATA,sha256=lSYzaKyTtqIrzzdAqiaDX-GxMhKKvc0WIdgCQUt3eCg,782
+linked_data_latex-0.1.4.dist-info/WHEEL,sha256=RsNcXn1ku1cI7LVkdbiD4HxFH-ZNt6-iSezWxkqUYi4,92
+linked_data_latex-0.1.4.dist-info/entry_points.txt,sha256=U5l69yF6TonyikXhcMxdDJAvyy6nXjTklKOgPByBCOU,80
+linked_data_latex-0.1.4.dist-info/RECORD,,
