@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.idea/
+example/sandbox*.py
+*.out
+*.bin
+*.dat
+.*_cache
+timer.dat
+psi4-rhf.out
+*.clean
+docs/build/
