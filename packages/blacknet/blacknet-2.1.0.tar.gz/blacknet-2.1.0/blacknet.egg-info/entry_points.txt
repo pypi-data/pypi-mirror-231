@@ -1,0 +1,5 @@
+[console_scripts]
+blacknet-master = blacknet.console:run_master
+blacknet-scrubber = blacknet.console:run_scrubber
+blacknet-sensor = blacknet.console:run_sensor
+blacknet-updater = blacknet.console:run_updater
