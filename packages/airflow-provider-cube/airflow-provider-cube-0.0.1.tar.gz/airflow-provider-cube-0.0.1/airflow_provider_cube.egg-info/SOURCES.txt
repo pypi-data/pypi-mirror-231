@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+airflow_provider_cube.egg-info/PKG-INFO
+airflow_provider_cube.egg-info/SOURCES.txt
+airflow_provider_cube.egg-info/dependency_links.txt
+airflow_provider_cube.egg-info/entry_points.txt
+airflow_provider_cube.egg-info/requires.txt
+airflow_provider_cube.egg-info/top_level.txt
+cube_provider/__init__.py
+cube_provider/hooks/__init__.py
+cube_provider/hooks/cube.py
+cube_provider/operators/__init__.py
+cube_provider/operators/cube.py
