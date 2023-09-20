@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "daqview"
+version = "0.6.1"
+description = "DAQ Data Analysis Software"
+license = "GPL-3.0-only"
+authors = ["Adam Greig <adam@ael.co.uk>"]
+readme = "README.md"
+classifiers = [
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+include = ["COPYING", "uk.co.ael.daqview.desktop"]
+exclude = ["daqview/tests"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+numpy = "^1.22"
+scipy = "^1.8"
+pyqt5 = "^5.15"
+pyqtgraph = "^0.12"
+pyyaml = "^6.0"
+h5py = "^3.6"
+colour = "^0.1"
+numexpr = "^2.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1"
+pytest-cov = "^3.0"
+pytest-qt = "^4.0"
+pytest-xvfb = "^2.0"
+pytest-mock = "^3.7"
+pylint = "^2.13"
+flake8 = "^4.0"
+
+[tool.poetry.scripts]
+daqview = 'daqview:main'
+
+[tool.poe.tasks]
+test = "pytest"
+fmt = "black daqview"
+check = "flake8 daqview"
+lint = "pylint --rcfile=pylint.rc daqview"
+
+[tool.coverage.run]
+branch = true
+omit = ["*tests*"]
+
+[tool.coverage.report]
+precision = 2
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
