@@ -1,0 +1,130 @@
+PREFIX : <http://w3id.org/probs-lab/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX quantitykind: <http://qudt.org/vocab/quantitykind/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfox: <https://rdfox.com/vocabulary#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX ufrd: <http://w3id.org/probs-lab/ontology/raw_data/>
+PREFIX ufs: <http://w3id.org/probs-lab/ontology/stats/>
+PREFIX ufu: <http://w3id.org/probs-lab/ontology/utility/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+owl:Nothing[?X] :- :Dataset[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :MeasurementBound[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Object[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Observation[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Process[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Role[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :MeasurementBound[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Object[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Observation[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Process[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Role[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Object[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Observation[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Process[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Role[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Observation[?X], :Object[?X] .
+owl:Nothing[?X] :- :Process[?X], :Object[?X] .
+owl:Nothing[?X] :- :Role[?X], :Object[?X] .
+owl:Nothing[?X] :- :Process[?X], :Observation[?X] .
+owl:Nothing[?X] :- :Role[?X], :Observation[?X] .
+owl:Nothing[?X] :- :Role[?X], :Process[?X] .
+:objectEquivalentTo[?X, ?Y] :- :objectEquivalentTo[?Y, ?X] .
+:processEquivalentTo[?X, ?Y] :- :processEquivalentTo[?Y, ?X] .
+:objectEquivalentTo[?X, ?Z] :- :objectEquivalentTo[?X, ?Y], :objectEquivalentTo[?Y, ?Z] .
+:processEquivalentTo[?X, ?Z] :- :processEquivalentTo[?X, ?Y], :processEquivalentTo[?Y, ?Z] .
+prov:Entity[?X] :- :Object[?X] .
+:Observation[?X] :- :InferredObservation[?X] .
+:Observation[?X] :- :DirectObservation[?X] .
+:Role[?X] :- :Stock[?X] .
+:Flow[?X] :- :ProcessOutput[?X] .
+:Flow[?X] :- :ProcessInput[?X] .
+:Flow[?X] :- :Export[?X] .
+:Flow[?X] :- :Import[?X] .
+:Flow[?X] :- :SoldProduction[?X] .
+:Role[?X] :- :Flow[?X] .
+prov:Entity[?X] :- :Observation[?X] .
+:Object[?X] :- :ReferenceObject[?X] .
+:objectDefinedBy[?X, ?Y] :- :objectDirectlyDefinedBy[?X, ?Y] .
+:processDefinedBy[?X, ?Y] :- :processInferredDefinedBy[?X, ?Y] .
+:processDefinedBy[?X, ?Y] :- :processDirectlyDefinedBy[?X, ?Y] .
+:objectDefinedBy[?X, ?Y] :- :objectInferredDefinedBy[?X, ?Y] .
+:Object[?X] :- :objectComposedOf[?X, ?X1] .
+:Observation[?X] :- :measurement[?X, ?X1] .
+:ClassificationCode[?X] :- :codeDescription[?X, ?X1] .
+:Process[?X] :- :processDescription[?X, ?X1] .
+:Object[?X] :- :objectDescription[?X, ?X1] .
+:Observation[?X] :- :hasBound[?X, ?X1] .
+:Observation[?X] :- :hasMetric[?X, ?X1] .
+:Process[?X] :- :produces[?X, ?X1] .
+:Process[?X] :- :consumes[?X, ?X1] .
+:Observation[?X] :- :hasRole[?X, ?X1] .
+:Process[?X] :- :processEquivalentTo[?X, ?X1] .
+:Process[?X] :- :processComposedOf[?X, ?X1] .
+:Observation[?X] :- :partOfDataset[?X, ?X1] .
+:Observation[?X] :- :hasRegion[?X, ?X1] .
+:Observation[?X] :- :hasTimePeriod[?X, ?X1] .
+:InferredObservation[?X] :- :processInferredDefinedBy[?X, ?X1] .
+:DirectObservation[?X] :- :processDirectlyDefinedBy[?X, ?X1] .
+:Observation[?X] :- :processDefinedBy[?X, ?X1] .
+:InferredObservation[?X] :- :objectInferredDefinedBy[?X, ?X1] .
+:DirectObservation[?X] :- :objectDirectlyDefinedBy[?X, ?X1] .
+:Observation[?X] :- :objectDefinedBy[?X, ?X1] .
+:Object[?X] :- :hasClassificationCode[?X, ?X1] .
+:ClassificationCode[?X] :- :partOfList[?X, ?X1] .
+:Object[?X] :- :objectEquivalentTo[?X, ?X1] .
+:Object[?X1] :- :objectComposedOf[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!isDecimal(?X1) || isIRI(?X1) || isBlank(?X1)), :measurement[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!(DATATYPE(?X1) = xsd:string) || isIRI(?X1) || isBlank(?X1)), :codeDescription[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!(DATATYPE(?X1) = xsd:string) || isIRI(?X1) || isBlank(?X1)), :processDescription[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!(DATATYPE(?X1) = xsd:string) || isIRI(?X1) || isBlank(?X1)), :objectDescription[?X, ?X1] .
+:MeasurementBound[?X1] :- :hasBound[?X, ?X1] .
+:Object[?X1] :- :produces[?X, ?X1] .
+:Object[?X1] :- :consumes[?X, ?X1] .
+:Role[?X1] :- :hasRole[?X, ?X1] .
+:Process[?X1] :- :processEquivalentTo[?X, ?X1] .
+:Process[?X1] :- :processComposedOf[?X, ?X1] .
+:Dataset[?X1] :- :partOfDataset[?X, ?X1] .
+:Process[?X1] :- :processInferredDefinedBy[?X, ?X1] .
+:Process[?X1] :- :processDirectlyDefinedBy[?X, ?X1] .
+:Process[?X1] :- :processDefinedBy[?X, ?X1] .
+:Object[?X1] :- :objectInferredDefinedBy[?X, ?X1] .
+:Object[?X1] :- :objectDirectlyDefinedBy[?X, ?X1] .
+:Object[?X1] :- :objectDefinedBy[?X, ?X1] .
+:ClassificationCode[?X1] :- :hasClassificationCode[?X, ?X1] .
+:ClassificationCodeList[?X1] :- :partOfList[?X, ?X1] .
+:Object[?X1] :- :objectEquivalentTo[?X, ?X1] .
+owl:sameAs[?Y1, ?Y2] :- :partOfList[?X, ?Y1], :partOfList[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :measurement[?X, ?Y1], :measurement[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :codeDescription[?X, ?Y1], :codeDescription[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :processDescription[?X, ?Y1], :processDescription[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :objectDescription[?X, ?Y1], :objectDescription[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :partOfDataset[?X, ?Y1], :partOfDataset[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :hasRegion[?X, ?Y1], :hasRegion[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :hasTimePeriod[?X, ?Y1], :hasTimePeriod[?X, ?Y2] .
+:MeasurementBound[:ExactBound] :-  .
+:MeasurementBound[:UpperBound] :-  .
+:MeasurementBound[:LowerBound] :-  .
+rdfs:subClassOf[owl:Nothing, ?X], rdfs:subClassOf[?X, ?X], rdfs:subClassOf[?X, owl:Thing] :- owl:Class[?X], FILTER(isIRI(?X)) .
+rdfs:subClassOf[owl:Nothing, ?X], rdfs:subClassOf[?X, ?X], rdfs:subClassOf[?Y, ?Y], rdfs:subClassOf[?Y, owl:Thing] :- rdfs:subClassOf[?X, ?Y], FILTER(isIRI(?X)), FILTER(isIRI(?Y)) .
+rdfs:subClassOf[?X, ?Z] :- rdfs:subClassOf[?X, ?Y], rdfs:subClassOf[?Y, ?Z], FILTER(isIRI(?Z)) .
+rdfs:subClassOf[?X, ?Y], rdfs:subClassOf[?Y, ?X] :- owl:equivalentClass[?X, ?Y], FILTER(isIRI(?X)), FILTER(isIRI(?Y)) .
+owl:equivalentClass[?X, ?Y] :- rdfs:subClassOf[?X, ?Y], rdfs:subClassOf[?Y, ?X], FILTER(isIRI(?X)), FILTER(isIRI(?Y)) .
+rdfs:subPropertyOf[owl:bottomDataProperty, ?X], rdfs:subPropertyOf[?X, ?X], rdfs:subPropertyOf[?X, owl:topDataProperty] :- owl:DatatypeProperty[?X] .
+rdfs:subPropertyOf[owl:bottomObjectProperty, ?X], rdfs:subPropertyOf[?X, ?X], rdfs:subPropertyOf[?X, owl:topObjectProperty] :- owl:ObjectProperty[?X] .
+rdfs:subPropertyOf[?X, ?X], rdfs:subPropertyOf[?Y, ?Y] :- rdfs:subPropertyOf[?X, ?Y] .
+rdfs:subPropertyOf[?X, ?Z] :- rdfs:subPropertyOf[?X, ?Y], rdfs:subPropertyOf[?Y, ?Z] .
+rdfs:subPropertyOf[?X, ?Y], rdfs:subPropertyOf[?Y, ?X] :- owl:equivalentProperty[?X, ?Y] .
+owl:equivalentProperty[?X, ?Y] :- rdfs:subPropertyOf[?X, ?Y], rdfs:subPropertyOf[?Y, ?X] .
+rdfs:domain[?P, ?B] :- rdfs:domain[?P, ?A], rdfs:subClassOf[?A, ?B] .
+rdfs:domain[?P, ?A] :- rdfs:domain[?Q, ?A], rdfs:subPropertyOf[?P, ?Q] .
+rdfs:range[?P, ?B] :- rdfs:range[?P, ?A], rdfs:subClassOf[?A, ?B] .
+rdfs:range[?P, ?A] :- rdfs:range[?Q, ?A], rdfs:subPropertyOf[?P, ?Q] .
+:objectEquivalentTo[?Object, ?Object] :- :Object[?Object] .
+:processEquivalentTo[?Process, ?Process] :- :Process[?Process] .

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: probs-module-ontology
+Version: 2.0.0a1
+Summary: Ontology files for the PRObs ontology
+Author: Stefano Germano, Rick Lupton, Carla Saunders
+Project-URL: Repository, https://github.com/probs-lab/probs-ontology
+Description-Content-Type: text/markdown
+
