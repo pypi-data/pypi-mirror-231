@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xmipy"
+description = "xmipy is an extension to the bmipy Python package"
+readme = "README.md"
+authors = [
+    { name = "Martijn Russcher", email = "Martijn.Russcher@deltares.nl" },
+    { name = "Julian Hofer", email = "Julian.Hofer@deltares.nl" },
+    { name = "Joseph D. Hughes", email = "jdhughes@usgs.gov" },
+]
+keywords = ["BMI", "Basic Model Interface"]
+license = { text = "CC0" }
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Topic :: Scientific/Engineering :: Hydrology",
+]
+requires-python = ">=3.8"
+dependencies = ["bmipy", "numpy"]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+tests = ["flopy >=3.3.6", "pytest", "pytest-cov", "requests"]
+lint = ["black", "ruff", "mypy"]
+docs = ["pdoc"]
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.dynamic]
+version = { attr = "xmipy.__version__" }
+
+[tool.setuptools.package-data]
+"xmipy" = ["py.typed"]
+
+[project.urls]
+Documentation = "https://deltares.github.io/xmipy/xmipy.html"
+Source = "https://github.com/Deltares/xmipy"
+
+[tool.mypy]
+exclude = ["tests"]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_equality = true
+strict_concatenate = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+no_implicit_reexport = true
+warn_return_any = true
+
+[tool.ruff]
+select = ["E", "F", "NPY", "PD", "C4", "I"]
+ignore = ["E501", "PD901"]
+fixable = ["I"]

@@ -1,0 +1,16 @@
+bmipy
+numpy
+
+[docs]
+pdoc
+
+[lint]
+black
+ruff
+mypy
+
+[tests]
+flopy>=3.3.6
+pytest
+pytest-cov
+requests
