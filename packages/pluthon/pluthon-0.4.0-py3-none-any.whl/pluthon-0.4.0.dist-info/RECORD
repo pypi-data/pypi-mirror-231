@@ -1,0 +1,12 @@
+pluthon/__init__.py,sha256=siqP1v6Lpk_sc5wEqdZ8UsmiT_lEB2A62p6lO_PE1jM,619
+pluthon/pluthon_ast.py,sha256=0jnE8LlJEkffF8fg2sgituqQDRBrzb8NDkv8bPp5BEM,5364
+pluthon/pluthon_functional_data.py,sha256=Fb4Oa7UnQ_ifCw08YbRUkGG7R6Fqpc7Iq64zbLrRrYY,2694
+pluthon/pluthon_sugar.py,sha256=0K6xzX_aenAjPdDCogqkZDbQScPlRSAtafzsEQrdDy8,21125
+pluthon/tools.py,sha256=8khrsvz7R8_ihooezPQtKt7qGnVTeamtkk-PMwfJ8YM,666
+pluthon/util.py,sha256=p7ng7vgrt84-I7E1gZ5QtOHxJszgwAaC5qV3U0WfZFM,4946
+pluthon/optimize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pluthon/optimize/patterns.py,sha256=Eu2TJ4Qr-d-ngOV1CV-y1a330X8O-knIiwkW6iCHFWc,6851
+pluthon-0.4.0.dist-info/METADATA,sha256=qJ4-bBmG2LoGDeymOgpTF7ynuSRe5V2A_aZdlMDa12Y,1897
+pluthon-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pluthon-0.4.0.dist-info/top_level.txt,sha256=UUSBl3T8XrBkpcAUmxeObCcOvfMAMgwnfK0AtsHT7ro,13
+pluthon-0.4.0.dist-info/RECORD,,
