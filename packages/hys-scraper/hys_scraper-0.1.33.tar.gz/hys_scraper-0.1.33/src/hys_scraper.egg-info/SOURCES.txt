@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/hys_scraper/__init__.py
+src/hys_scraper/__main__.py
+src/hys_scraper/hys_scraper.py
+src/hys_scraper.egg-info/PKG-INFO
+src/hys_scraper.egg-info/SOURCES.txt
+src/hys_scraper.egg-info/dependency_links.txt
+src/hys_scraper.egg-info/entry_points.txt
+src/hys_scraper.egg-info/requires.txt
+src/hys_scraper.egg-info/top_level.txt
