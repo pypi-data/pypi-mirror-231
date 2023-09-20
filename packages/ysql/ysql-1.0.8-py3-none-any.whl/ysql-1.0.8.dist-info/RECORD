@@ -1,0 +1,11 @@
+ysql/__init__.py,sha256=b2UCD37ZZuWwqohN6HsdKb3rmiMT2lmGrwtcnLiSQCk,31
+ysql/dao.py,sha256=UXqZA7W74kecpYV8ZNRd4FLNTLUraC_N6pETauTJo9U,5957
+ysql/database.py,sha256=D0EPtZJCRj3o4CKbTzvVlihq8Z9KF_kIISwQsQ3S3zY,3687
+ysql/entity.py,sha256=xqjDO8Prh2Tu5C0Ie2a-UZqN32SJ8PEnB4g_hGPJDWs,1945
+ysql/example.py,sha256=AqstiZlx7t4phflvWjcd7xE5xC1Q34V7ekWxPanAows,5526
+ysql/tool.py,sha256=esoG8AhxNNUI1NrDCNxza4cex3AnsG-cH2eQvSFYLLg,378
+ysql-1.0.8.dist-info/LICENSE.txt,sha256=sJvdIVe0GijaW0Cv9UoAQuhJ6segAa49aO9ezJM0A7w,1099
+ysql-1.0.8.dist-info/METADATA,sha256=2Nvsfxv9UlnnrTbflxE39OU2Tviityd8P5dI2bGQjmg,4841
+ysql-1.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ysql-1.0.8.dist-info/top_level.txt,sha256=WCEHdmcxnfMMVKugOfw_T5av_xGNgs01pdWpKxfikgw,5
+ysql-1.0.8.dist-info/RECORD,,
