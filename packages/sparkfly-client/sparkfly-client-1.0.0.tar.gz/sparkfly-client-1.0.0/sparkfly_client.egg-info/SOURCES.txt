@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sparkfly_client/__init__.py
+sparkfly_client/__version__.py
+sparkfly_client/client.py
+sparkfly_client/errors.py
+sparkfly_client/types.py
+sparkfly_client.egg-info/PKG-INFO
+sparkfly_client.egg-info/SOURCES.txt
+sparkfly_client.egg-info/dependency_links.txt
+sparkfly_client.egg-info/not-zip-safe
+sparkfly_client.egg-info/requires.txt
+sparkfly_client.egg-info/top_level.txt
+sparkfly_client/api/__init__.py
