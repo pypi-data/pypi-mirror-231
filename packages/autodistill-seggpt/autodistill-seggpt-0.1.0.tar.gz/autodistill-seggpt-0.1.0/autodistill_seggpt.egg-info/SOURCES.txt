@@ -1,0 +1,17 @@
+README.md
+setup.py
+autodistill_seggpt/__init__.py
+autodistill_seggpt/colors.py
+autodistill_seggpt/combinadics.py
+autodistill_seggpt/dataset_utils.py
+autodistill_seggpt/few_shot_ontology.py
+autodistill_seggpt/metrics.py
+autodistill_seggpt/postprocessing.py
+autodistill_seggpt/sam_refine.py
+autodistill_seggpt/seggpt.py
+autodistill_seggpt/train.py
+autodistill_seggpt.egg-info/PKG-INFO
+autodistill_seggpt.egg-info/SOURCES.txt
+autodistill_seggpt.egg-info/dependency_links.txt
+autodistill_seggpt.egg-info/requires.txt
+autodistill_seggpt.egg-info/top_level.txt
