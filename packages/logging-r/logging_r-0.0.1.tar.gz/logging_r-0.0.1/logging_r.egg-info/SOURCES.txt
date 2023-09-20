@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+logging_r.egg-info/PKG-INFO
+logging_r.egg-info/SOURCES.txt
+logging_r.egg-info/dependency_links.txt
+logging_r.egg-info/requires.txt
+logging_r.egg-info/top_level.txt
+src/__init__.py
+src/log.py
+src/test.py
