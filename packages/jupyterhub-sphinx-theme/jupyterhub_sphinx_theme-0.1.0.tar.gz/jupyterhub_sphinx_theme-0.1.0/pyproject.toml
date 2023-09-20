@@ -1,0 +1,78 @@
+[build-system]
+requires = ["sphinx-theme-builder"]
+build-backend = "sphinx_theme_builder"
+
+
+[tool.sphinx-theme-builder]
+# ref, pydata-sphinx-theme's node version: https://github.com/pydata/pydata-sphinx-theme/blob/main/pyproject.toml
+# ref, latest node LTS version: https://nodejs.org/en
+node-version = "16.13.2"
+
+
+[project]
+name = "jupyterhub-sphinx-theme"
+description = "JupyterHub's Documentation Theme."
+dynamic = ["version"]
+readme = "README.md"
+urls = { Organization = "https://jupyter.org" }
+
+requires-python = ">=3.8"
+dependencies = [
+  "myst-parser",
+  "pydata-sphinx-theme>=0.14.0",
+  "sphinx-copybutton",
+  "sphinxext-opengraph",
+]
+
+license = { file = "LICENSE"}
+authors = [
+    {name = "JupyterHub", email = "hello@jupyter.org"},
+]
+classifiers = [
+  "Framework :: Sphinx",
+  "Framework :: Sphinx :: Theme",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Documentation",
+  "Topic :: Software Development :: Documentation",
+]
+
+[project.optional-dependencies]
+dev = [
+  'sphinx-theme-builder[cli]',
+]
+
+[project.entry-points]
+"sphinx.html_themes" = {jupyterhub_sphinx_theme = "jupyterhub_sphinx_theme"}
+
+
+# tbump is used to simplify and standardize the release process when updating
+# the version, making a git commit and tag, and pushing changes.
+#
+# ref: https://github.com/your-tools/tbump#readme
+#
+[tool.tbump]
+github_url = "https://github.com/jupyterhub/jupyterhub-sphinx-theme"
+
+[tool.tbump.version]
+current = "0.1.0"
+regex = '''
+    (?P<major>\d+)
+    \.
+    (?P<minor>\d+)
+    \.
+    (?P<patch>\d+)
+    (?P<pre>((a|b|rc)\d+)|)
+    \.?
+    (?P<dev>(?<=\.)dev\d*|)
+'''
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "{new_version}"
+
+[[tool.tbump.file]]
+src = "src/jupyterhub_sphinx_theme/__init__.py"
