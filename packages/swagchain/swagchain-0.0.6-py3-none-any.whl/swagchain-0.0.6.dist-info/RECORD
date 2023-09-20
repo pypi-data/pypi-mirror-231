@@ -1,0 +1,13 @@
+swagchain/__init__.py,sha256=WShJZcKKx9_K1E6pL_fyvyC5bzV3CWISkfJJgA6f88M,2450
+swagchain/llm/__init__.py,sha256=IulWZ3OhHfr71n7n_RHxTC-FjIfiZfFBHcevqRDXZt4,45
+swagchain/llm/chat.py,sha256=_TN32XJAmSDU2A8yoOJr_D68OiXPCIPyYxEd5bDEMck,9047
+swagchain/llm/functions.py,sha256=N_XzOOvwssB2flhfs3Wo-rvN_pfJfqInBiO4ZqDEGmQ,4903
+swagchain/memory/__init__.py,sha256=cr_0RYPZPs9Ra4mQthT3YIpP-cMOdegaXbt-H_GDgDs,48
+swagchain/memory/embeddings.py,sha256=WDdP9NsGlHQcWSva539Yr2Jt9YwgNpvsQDDTap6JBjc,3329
+swagchain/memory/vector.py,sha256=vYh6R3Lg_-ub9qcEyXzAn9-UvwgizlBEPzl9swk4zQU,10259
+swagchain/tools/__init__.py,sha256=eggMaXslCzfB2GBn45FrHbYSyCl0CSkYcipDIYUwN8A,21
+swagchain/tools/scrap.py,sha256=V-5CmwpTdfJ8hmOLP5ichp7T2MEI981uTOiDs0iOAi4,5154
+swagchain/utils.py,sha256=WXd4HOq_PVfaQujhlzD8TbW0aeXXMUh5oewOOCZbv6Y,1629
+swagchain-0.0.6.dist-info/METADATA,sha256=4msOd5dVW2617tK0Y2ULSQprbJWM7KguXrsh6KPbKEI,701
+swagchain-0.0.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+swagchain-0.0.6.dist-info/RECORD,,
