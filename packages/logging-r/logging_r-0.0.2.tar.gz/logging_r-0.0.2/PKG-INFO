@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: logging_r
+Version: 0.0.2
+Summary: rotation logging
+Home-page: UNKNOWN
+Author: vector
+Author-email: <hmanshu94@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
