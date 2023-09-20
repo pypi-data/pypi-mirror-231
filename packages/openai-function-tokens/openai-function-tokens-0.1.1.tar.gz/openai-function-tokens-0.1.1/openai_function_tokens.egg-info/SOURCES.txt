@@ -1,0 +1,9 @@
+README.md
+setup.py
+openai_function_tokens/__init__.py
+openai_function_tokens/openai_function_tokens.py
+openai_function_tokens.egg-info/PKG-INFO
+openai_function_tokens.egg-info/SOURCES.txt
+openai_function_tokens.egg-info/dependency_links.txt
+openai_function_tokens.egg-info/requires.txt
+openai_function_tokens.egg-info/top_level.txt
