@@ -1,0 +1,14 @@
+eristropy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eristropy/bootstrap.py,sha256=deOjvOPA3iNJNNzqXo4jdJX3Urr9C0itfGV3PZxMo2s,1747
+eristropy/difference.py,sha256=hjT6Nxust1KnSSTbf4csdPJSclS1yObNjjtvWiTdu8o,2528
+eristropy/extras.py,sha256=26XPm2M1o9Ag-ngu3ed6s2OcfYcU9Qrt80pDW23xc1s,9423
+eristropy/gp.py,sha256=ssi0fJBjn1L7Mwriyz2g_xyKnOiAGp0iK-s1i3jtdoI,18872
+eristropy/linreg.py,sha256=mlc7u4mBy_bG2kxuRzoR5XPbINflebTIziSCbezjq-o,3208
+eristropy/sample_entropy.py,sha256=g7yiC1k6J0fyVf9X-jHz0ObdZQg4qSb-nVT16UFO-HI,17068
+eristropy/stationarity.py,sha256=5NsuAE9QYDxVraLzA7TuFZKATrJjivIJJr79V0U6Frc,12175
+eristropy/utils.py,sha256=zJDa4yKGYEXajhOvBHz9vwq7j46mQy_QXHAhW-RlB5E,5424
+eristropy/validation.py,sha256=gjesItnhnXcGq_zcNDyMMMBIX-AKU1i0XF0iUNwZlh4,1967
+eristropy-0.1.0.dist-info/LICENSE.md,sha256=3yG_VuWECtmKfeVJNl-ZGkSWb4xhob1TpXy690a6JOI,1082
+eristropy-0.1.0.dist-info/METADATA,sha256=7FTHEQMJnEeF15aEm7E3qWlfiRwZYU9UR1nDIaeI8ec,3491
+eristropy-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+eristropy-0.1.0.dist-info/RECORD,,
