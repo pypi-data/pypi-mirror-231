@@ -1,0 +1,8 @@
+streamlit_auth/__init__.py,sha256=kIMWwBpO2PdCmlc0WzV5BwwHO5jrB59asURGEBXJCZs,1961
+streamlit_auth/google_auth.py,sha256=xDwCox_gWNmcZP2-K5vZ_oPWa4Qby3hWioMTKB1B4Ys,2988
+streamlit_auth/keycloak_auth.py,sha256=utEtd3v-bQsK_GLX8DGmp7AAxF9iuyImq2B648HfU8s,1383
+streamlit_auth-0.1.2.dist-info/LICENSE,sha256=-DU44uMF5UszouOE66nsvSoMm4CjuP38iBnTx3D4pQ4,1065
+streamlit_auth-0.1.2.dist-info/METADATA,sha256=qWQdGv4xADWwz2TB-ddzvIoptDzoCk3HRv2guDBfGbM,2346
+streamlit_auth-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+streamlit_auth-0.1.2.dist-info/top_level.txt,sha256=v0YXmLz8POu0Id07_E_XH_Szr-TxQsEGa4g2WjutmNw,15
+streamlit_auth-0.1.2.dist-info/RECORD,,
