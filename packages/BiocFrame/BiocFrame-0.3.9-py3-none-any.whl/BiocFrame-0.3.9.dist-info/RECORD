@@ -1,0 +1,13 @@
+biocframe/BiocFrame.py,sha256=uDzEzvRCO6ZXyVcRfLWF7tUnpgLs2x9DYVXF3r0f_m8,24641
+biocframe/__init__.py,sha256=jehQqTNDbeav8dbYdCX_Rah-CSGfMDM7XGsDb7e9AUk,642
+biocframe/_type_checks.py,sha256=LDSrCNxjzmAcKoCfSdx43mxBmrRw0IWDf6GZW0HhMHQ,607
+biocframe/_validators.py,sha256=U31s6hnpGtx7LRnvj2D5iW4uQPVRftSJ2JDCz5ne2y4,4141
+biocframe/types.py,sha256=bYlyO8YPJcjShyCPqqJWSq3fexj-dW_h2OiSXr3jvI0,267
+biocframe/utils.py,sha256=QiMCOPlosa6N5TToN6-zrux9xG6iBx0IFIeeCiem44Q,2578
+biocframe/io/__init__.py,sha256=LoBH0wMIOA1c1F8Jp7Nq2cORuwZ07nXFktUDEMmehfc,37
+biocframe/io/from_pandas.py,sha256=P0galrTkNEzMmpZSupuvV_jnFOa3xZbQmP7TOFB3Emk,934
+BiocFrame-0.3.9.dist-info/LICENSE.txt,sha256=pkwgQ8WMTR1-Qa0qwIaBf5I1-8OGN1B20E_eeDg-bqc,1082
+BiocFrame-0.3.9.dist-info/METADATA,sha256=zRhXSyzQpkycXZBG3Vb_PkZoVC1s-SGvh5k6GOFxqaE,4066
+BiocFrame-0.3.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BiocFrame-0.3.9.dist-info/top_level.txt,sha256=-tY4-An3N4tZG8jUBhaDQwhrieiOSkohhacXY_ngrt4,10
+BiocFrame-0.3.9.dist-info/RECORD,,
