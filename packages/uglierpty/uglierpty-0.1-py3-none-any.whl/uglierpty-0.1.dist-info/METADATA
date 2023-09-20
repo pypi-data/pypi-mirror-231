@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: uglierpty
+Version: 0.1
+Requires-Dist: PyQt6
+Requires-Dist: pyte
+Requires-Dist: paramiko
+
