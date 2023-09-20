@@ -1,0 +1,14 @@
+bfbrain/AL_Metrics.py,sha256=xBftFl36qM3mH7cBRRtY62poqNh1NxW8y3MSeZadE3s,92051
+bfbrain/BFB_Learner.py,sha256=V6NqT-2dPS21BRCoeQfV6uBLwmNylLMX0olxXdcr6aY,67222
+bfbrain/Custom_Layers.py,sha256=LGLrBj3GTkJugH9VTiwF5jYKiceuS76fxNvw2EJe1Xc,5469
+bfbrain/Data_Manager.py,sha256=OiwFq1ONgOmK09GLo5POJ_axP2QhZwfupQKeJ9ij4FY,36801
+bfbrain/False_Proximity_Test.py,sha256=WxXmfzHiDQD4xvS0uSXhgleRM_GVfoe_vBkVBqJQ7eY,29030
+bfbrain/Hypersphere_Formulas.py,sha256=RlDsjtOHbY9dX-HarLxR91U3p7uLNoAG1rX8Z2UG20M,5022
+bfbrain/Jax_Oracle.py,sha256=VPLfKoA3IwFtxupULJ1GGQxyklSGXagAjWKOVg76z6A,18878
+bfbrain/Potential_Functions.py,sha256=oU8ue8KznSMdsh83NzzvgBdQdmntvLADRvVSFPslfoo,5940
+bfbrain/Score_Functions.py,sha256=AqKbSmzc6Ed_Z2mQtiWK80ysSI2qEPyuZ7u72qYe_2g,9027
+bfbrain/__init__.py,sha256=RNmr0TEzDvZumbI4gTueXOR2zC2LQbmMYsXEhcmZiEY,256
+bfbrain-1.0.dist-info/LICENSE,sha256=plvgCBDngHvFRHoyXvg-CPrlGOE3RnbHczUDY9OBQk8,1070
+bfbrain-1.0.dist-info/METADATA,sha256=h-kZ-UOyq-sXOqCfqLmYTksIl0c0bqMPM50nXB5YEj0,1468
+bfbrain-1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bfbrain-1.0.dist-info/RECORD,,
