@@ -1,0 +1,8 @@
+simpleelf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleelf/elf_builder.py,sha256=TvEfx-OPeDCXnIva8IOh4rqGGRI8epFRuzlsqp7qor0,9944
+simpleelf/elf_consts.py,sha256=kg3xtp4Jv13k5rvBNtBn2m4FIz81aoP0u_KFHm_-5w0,10452
+simpleelf/elf_structs.py,sha256=korDdjOCSZiI38DTVzUmJELAqgD4vo8bGKGn62kLfFo,22380
+simpleelf-1.0.0.dist-info/METADATA,sha256=gVaMTPERI0eeIAEtyDi3eYzDkpgJfL1EobBi1jMiZJo,3312
+simpleelf-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+simpleelf-1.0.0.dist-info/top_level.txt,sha256=TJaSnZezoFiuALpy6xv1UBVKAeMuzytd8_Zcym06uqY,10
+simpleelf-1.0.0.dist-info/RECORD,,
