@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = hys_scraper.__main__:main
