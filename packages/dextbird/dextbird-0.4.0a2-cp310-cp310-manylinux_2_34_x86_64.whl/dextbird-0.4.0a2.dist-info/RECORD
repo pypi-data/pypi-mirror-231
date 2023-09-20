@@ -1,0 +1,9 @@
+dextbird-0.4.0a2.dist-info/METADATA,sha256=xphoTmtwxevYY4gWz67BFezztdNxZ948cyTD_SN0NKQ,1739
+dextbird-0.4.0a2.dist-info/WHEEL,sha256=MdaJ6kmW2dr3Wr2yI43Aru_cnAt4stHkYF4ZTyaCYvs,108
+dextbird-0.4.0a2.dist-info/license_files/LICENSE,sha256=0zSvuB3fgCOBy8IFPikUmd4dbEugdU0s0NLQjE2fbgg,1065
+dextbird/plug.py,sha256=SJWtXB_QdtFlu0u9rX-HxWdDFrhDW_jPHU2tUGI80yA,759
+dextbird/core.pyi,sha256=JxD5-gwXtLtleiMurWwuosQu1SIU1ZtoeM3l1pHsP7Q,1312
+dextbird/__init__.py,sha256=bf3OBqeUzBpBSfo-o0ypn35b4J7WrPPfsArU7cIw1nQ,67
+dextbird/voice_client.py,sha256=va4cISSjIBaeWW9Xstzoy1Zj4-KIxvU7ew6nceJ6Iuc,2662
+dextbird/dextbird.cpython-310-x86_64-linux-gnu.so,sha256=P3Qpu2b1lCxYm26MGTn1ei6AeRaLHvQbHCT6cw-9luw,12341992
+dextbird-0.4.0a2.dist-info/RECORD,,
