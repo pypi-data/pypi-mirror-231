@@ -1,0 +1,8 @@
+numpy
+pygame
+termcolor
+matplotlib
+pettingzoo
+vec_noise
+gymnasium
+scipy
