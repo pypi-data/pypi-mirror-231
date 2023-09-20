@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+trey_makshef.egg-info/.pypirc
+trey_makshef.egg-info/PKG-INFO
+trey_makshef.egg-info/SOURCES.txt
+trey_makshef.egg-info/dependency_links.txt
+trey_makshef.egg-info/top_level.txt
