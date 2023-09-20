@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: m-cipher
+Version: 1.5.2
+Author: Mobio Company
+Author-email: dev@mobio.io
+Requires-Python: >=3.11
