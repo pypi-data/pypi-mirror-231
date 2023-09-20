@@ -1,0 +1,11 @@
+apipkg/__init__.py,sha256=TSNnn3vnuhvO4HbB6f3e4KjpVxkHyVTe-RFiQ7-LZ6U,1123
+apipkg/_alias_module.py,sha256=JP0t2PSuZgePy88J8tp6g93oovzb-FB4kThyLdXSVr0,1185
+apipkg/_importing.py,sha256=Jf7URncIVWn_UBY5d1Va8-5U9S7foAezSmdWx4HAzPo,1067
+apipkg/_module.py,sha256=9pv7aI1HRQiFEF3xMkL94YTF2Rc2TSIbaYFqZUWz_wI,6888
+apipkg/_syncronized.py,sha256=1Gv-iyKS7tMeHta6VdYrJ7jyMVU4BAP-90WidLgnpXc,484
+apipkg/_version.py,sha256=kRTVoJDIeBlQnnXKcdQp_FRvpXSxKyQtsod3gd_y8tg,160
+apipkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apipkg-3.0.2.dist-info/METADATA,sha256=6hZwpg7RgolMfdlW7hux-MC0VDu3q88M3GxqJdZ6Fes,4121
+apipkg-3.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+apipkg-3.0.2.dist-info/licenses/LICENSE,sha256=6J7tEHTTqUMZi6E5uAhE9bRFuGC7p0qK6twGEFZhZOo,1054
+apipkg-3.0.2.dist-info/RECORD,,
