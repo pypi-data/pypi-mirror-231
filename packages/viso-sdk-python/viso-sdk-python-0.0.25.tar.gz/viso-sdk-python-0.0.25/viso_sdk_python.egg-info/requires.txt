@@ -1,0 +1,8 @@
+requests~=2.27.1
+requests-toolbelt~=0.9.1
+setuptools~=60.2.0
+paho-mqtt~=1.6.1
+redis~=4.3.5
+opencv-python==4.5.4.58
+Pillow==9.5.0
+Cython~=3.0.2
