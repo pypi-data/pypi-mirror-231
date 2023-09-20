@@ -1,0 +1,8 @@
+cisort/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cisort/cisort.py,sha256=dga6VXGG0EZaMYkDVKteYzX203rB4-Jaoh_v1Flhybg,2850
+cisort/parse.py,sha256=fPpP9s9BRTVCd80kHIKLAklaEUpQCl8hD4cZPFv5bIA,1566
+cisort/settings.py,sha256=0LyjICY_DhKgK3-PQjLvd8XnCA2YYW4kPRek1O9QgPI,3234
+cisort-1.1.10.dist-info/entry_points.txt,sha256=dT1V8pViTj98b_Fq-2qqB4WdQiforL9sBP8mtKDBE9A,47
+cisort-1.1.10.dist-info/METADATA,sha256=CybP6fvmjyZqEt8kgzwTLbJGoTvpfOu8OBXSQS3y0D0,1911
+cisort-1.1.10.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cisort-1.1.10.dist-info/RECORD,,
