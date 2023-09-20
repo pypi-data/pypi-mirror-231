@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/exacheck/__init__.py
+src/exacheck.egg-info/PKG-INFO
+src/exacheck.egg-info/SOURCES.txt
+src/exacheck.egg-info/dependency_links.txt
+src/exacheck.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: exacheck
+Version: 0.0.1
+Summary: Pure Python health check implementation for ExaBGP
+Home-page: https://exacheck.net
+Author: gbe0
+Author-email: development@exacheck.net
+Project-URL: Bug Tracker, https://github.com/exacheck/exacheck/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ExaCheck - ExaBGP Health Checks
+
+This is a place holder package for the ExaCheck project that will be published soon.
