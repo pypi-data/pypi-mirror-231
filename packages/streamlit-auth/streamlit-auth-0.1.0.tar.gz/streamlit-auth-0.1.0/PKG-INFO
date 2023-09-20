@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: streamlit-auth
+Version: 0.1.0
+Summary: A Python package for creating oauth protected Streamlit apps
+Author-email: Hugo Zhu <hugozhu@gmail.com>
+License: MIT
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit-keycloak
+Requires-Dist: httpx-oauth
+
+# streamlit-auth
+Streamlit module to auth
