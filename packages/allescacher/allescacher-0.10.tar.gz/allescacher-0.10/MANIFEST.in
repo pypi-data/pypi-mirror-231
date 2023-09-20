@@ -1,0 +1,3 @@
+include allescacher/requirements.txt
+include allescacher/thirdparty.json
+include allescacher/README.MD

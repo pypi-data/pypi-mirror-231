@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+allescacher/README.MD
+allescacher/__init__.py
+allescacher/requirements.txt
+allescacher/thirdparty.json
+allescacher.egg-info/PKG-INFO
+allescacher.egg-info/SOURCES.txt
+allescacher.egg-info/dependency_links.txt
+allescacher.egg-info/top_level.txt
