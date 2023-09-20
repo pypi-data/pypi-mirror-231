@@ -1,0 +1,6 @@
+rankexpansion>=0.0.17
+searchdatamodels>=0.0.39
+pymongo==4.5.0
+fastapi==0.97.0
+basilsweepercrawler>=0.0.3
+nutmegredundancysolver>=0.0.7
