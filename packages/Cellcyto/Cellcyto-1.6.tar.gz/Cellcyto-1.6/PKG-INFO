@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Cellcyto
+Version: 1.6
+Summary: This algorithm is designed for cell segmentation post processing to find nucleus and cytoplasm, and evaluation of the segmentation algorithm based on ground truth images
+Author: Nianchao Wang
+Author-email: nwang27@tamu.edu
+License: Walsh Lab
+Keywords: Cell Segmentation,POSEA,Cytoplasmic Post-processing Algorithm (CPPA)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: customtkinter==5.2.0
+Requires-Dist: opencv-python==4.8.0.76
+Requires-Dist: numpy==1.25.2
+Requires-Dist: pillow==10.0.0
+Requires-Dist: pandas==2.1.0
+Requires-Dist: scikit-image==0.21.0
