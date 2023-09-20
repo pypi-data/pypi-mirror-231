@@ -1,0 +1,4 @@
+boto3<2,>=1
+botocore
+amazon-textract-response-parser<2,>=1
+tabulate<0.10,>=0.9
