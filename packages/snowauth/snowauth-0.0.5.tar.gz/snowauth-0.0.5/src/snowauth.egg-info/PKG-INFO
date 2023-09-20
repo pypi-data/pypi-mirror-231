@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: snowauth
+Version: 0.0.5
+Summary: A package for the simple local management of snowpark for python connections.
+Home-page: https://github.com/sfc-gh-dwilczak/snowauth
+Author: Branden Ciranni, Daniel Wilczak
+Author-email: daniel.wilczak@snowflake.com
+License: mit
+Keywords: Snowflake,Snowpark
+Classifier: Topic :: Printing
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: snowflake-snowpark-python
+Requires-Dist: toml
+
+# Snowauth.
+A package for the simple local management of snowpark for python connections.
+
+# Example:
+
+### Setup:
+Create a file name ``creds.conf``.
+```
+[connection]
+account   = "ACCOUNT"
+user      = "USER"
+password  = "PASSWORD"
+role      = "ROLE"
+warehouse = "WAREHOUSE"
+```
+
+### Usage
+
+```py
+import snowauth
+
+# creds.conf is the default. It can be change to whatever name you want.
+session = snowauth.connect('connection','creds.conf')
+```
+
+### Output:
+```
+<snowflake.snowpark.session.Session: account=...>
+```
