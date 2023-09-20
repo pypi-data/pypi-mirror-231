@@ -1,0 +1,70 @@
+import os
+from pathlib import Path
+from typing import Any
+
+import cog
+from cog import Input
+from PIL import Image
+from PIL.ImageFile import ImageFile
+
+from .download_utils import maybe_pget_weights
+
+
+class HuggingFacePipelinePredictor(cog.BasePredictor):
+    task = None
+    model_name_or_path = None
+    pipeline_kwargs = {}
+    cache_dir = "./weights-cache"
+
+    # URL to a tar file of the weights. If specified, will download the weights to cache_dir if it doesn't exist.
+    gcp_bucket_weights = None
+
+    def setup(self):
+        maybe_pget_weights(self.gcp_bucket_weights, self.cache_dir)
+
+        os.environ["TRANSFORMERS_CACHE"] = self.cache_dir
+        cache_path = Path(self.cache_dir)
+        # if cache dir exists, figure out where snapshot is and set that as model_name_or_path
+        if cache_path.exists() and any(cache_path.glob("**/snapshots")):
+            self.model_name_or_path = str(list(cache_path.glob("**/snapshots/**"))[-1])
+
+        # NOTE - TRANSFORMERS_CACHE dir will get created when transformers is imported,
+        # so it's important we do the logic above first.
+        from transformers import pipeline
+
+        self.pipe = pipeline(self.task, self.model_name_or_path, **self.pipeline_kwargs)
+
+
+class TextClassificationPredictor(HuggingFacePipelinePredictor):
+    task = "text-classification"
+    model_name_or_path = "distilbert-base-uncased-finetuned-sst-2-english"
+
+    def predict(self, text: str = Input(description="Input text to classify")) -> Any:
+        result = self.pipe(text)
+        return result[0]
+
+
+class ImageClassificationPredictor(HuggingFacePipelinePredictor):
+    task = "image-classification"
+    model_name_or_path = "microsoft/resnet-18"
+
+    def predict(
+        self,
+        image: cog.Path = Input(description="Path of image to classify"),
+    ) -> Any:
+        if not isinstance(image, ImageFile) and not str(image).startswith("http"):
+            image = Image.open(str(image))
+        result = self.pipe(image)
+        return result[0]
+
+
+class FeatureExtractionPredictor(HuggingFacePipelinePredictor):
+    # TODO - this pipeline outputs all layers, so you'd have to pool yourself.
+    # See sbert.py to use sentence-transformers instead if that's easier/better.
+    task = "feature-extraction"
+    model_name_or_path = "BAAI/bge-base-en"
+
+    def predict(self, text: str = Input(description="Input text to embed")) -> Any:
+        # This is a tensor of shape [1, sequence_lenth, hidden_dimension] representing the input string.
+        result = self.pipe(text)
+        return result[0]
