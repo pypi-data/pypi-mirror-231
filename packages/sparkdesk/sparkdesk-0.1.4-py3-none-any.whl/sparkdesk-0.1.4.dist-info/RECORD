@@ -1,0 +1,14 @@
+sparkdesk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparkdesk/async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparkdesk/async/chat.py,sha256=QK-qUpHVZcnLLEYYRxiSXEtRvWCvQC5deCHDjujS-OQ,1398
+sparkdesk/async/cli.py,sha256=1MOYVYoQaeM1qhJ-mfDnUkMyYtF0akEkiG1s6Gy-rVQ,1294
+sparkdesk/async/completion.py,sha256=YxoPEs-bQPlc-W3HpzTlenU8BEJcC6hdfLBZ1Z653qE,1762
+sparkdesk/authentication.py,sha256=zs7jB4mO8UhrZuJ0TPhKq7ZY8K361W2Xcm3CdAQhQXA,1409
+sparkdesk/chat.py,sha256=NdKMfziUCZab4fOZ2nFFi3hmPK7XppknhFo1yzfO-jU,2830
+sparkdesk/chat_utils.py,sha256=xks-WY1lfNTMC6O_vrw-svp6ulhD2SvBSL-m4driREs,1299
+sparkdesk/cli.py,sha256=U_xp3BqcVscCE2cf5wh_w2HcYJbrOClSo-XYkaGvuQk,1152
+sparkdesk/completion.py,sha256=gc_kMqrAjn7yK007YeJKzW_nQodZJ2V2YDyJJ2EieZ4,3684
+sparkdesk/consts.py,sha256=qE2BuVKuiSLN6XWiWiarQhnppmK70wLW3tOhJUuoM18,32
+sparkdesk-0.1.4.dist-info/METADATA,sha256=LInUd6xGzmEDENiZcOdzAHc6c-0ivnjFSTJmNFWm9SQ,1377
+sparkdesk-0.1.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+sparkdesk-0.1.4.dist-info/RECORD,,
