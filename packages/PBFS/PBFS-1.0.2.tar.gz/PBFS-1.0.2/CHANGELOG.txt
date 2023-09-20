@@ -1,0 +1,12 @@
+CHANGE LOG For Performance based Feature Selection Technique
+
+
+===========================================================================================================================
+
+1.0.0 -- First Release to PYPI
+
+1.0.0.1 --  Bug fixes, path fixes.
+
+1.0.0.2 --  Bug fixes, path fixes.
+
+1.0.2 --  bug fixes for users to use the function call
