@@ -1,0 +1,14 @@
+revonto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revonto/associations.py,sha256=ctyEcc8GjhzVS8tEywLQXvM0zg4b_EaZf5EhntxOVZ4,7249
+revonto/datadescribe.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revonto/multiple_testing.py,sha256=pYnFfjECG8vVuTaZDznHPysb9LjFG1vmoHk17nrzeKA,3591
+revonto/ontology.py,sha256=j1FBXhH4HuqYU4VccBOE6TSoXAsC7W1hIWwcArL5kqo,11510
+revonto/ortholog.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revonto/pvalcalc.py,sha256=D7YymTjWLItQN68MwDoKAab8ukpgE8woiewNi1yiyH8,2538
+revonto/reverse_lookup.py,sha256=E9BYThm-dnCotk5rhnZTcUTJFOOL499PKgvBCOkqonE,6769
+revonto/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revonto-0.1.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+revonto-0.1.2.dist-info/METADATA,sha256=ixdIpOjnYABMpqK8ocmcGtCDqOe2CkrM55H7KizsX10,1797
+revonto-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+revonto-0.1.2.dist-info/top_level.txt,sha256=IwesFABQlwXuBF0QjDl9SVVvBNWA6XMdjeqi69gI73A,8
+revonto-0.1.2.dist-info/RECORD,,
