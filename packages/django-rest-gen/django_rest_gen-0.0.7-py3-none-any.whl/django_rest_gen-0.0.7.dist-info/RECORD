@@ -1,0 +1,9 @@
+django-rest-gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django-rest-gen/__main__.py,sha256=xrxQmq7sfvQ9cnqi6EKOLBqFglfm8KGSFpHVwuA4EVw,961
+django-rest-gen/apigen.py,sha256=yTXwiakwELtnDhzdVbYjdDUvUrgvipryOA0nz14iIIg,8864
+django-rest-gen/utils.py,sha256=QbezFfdxjz3bEjCAZ57yDTjKXqDhnLQoEw6n6AyNXhc,319
+django_rest_gen-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_rest_gen-0.0.7.dist-info/METADATA,sha256=Hq0gUifBbMNeAPnGgz5r7-TJUvwRwj8b21-uYvchtsY,1725
+django_rest_gen-0.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_rest_gen-0.0.7.dist-info/top_level.txt,sha256=TDOJMLY0ZIVqcKFgTNaImjLOYrJe33YQKupukHZAI1o,16
+django_rest_gen-0.0.7.dist-info/RECORD,,
