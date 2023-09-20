@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dockup
+Version: 0.0.7
+Summary: Publish multiple docker containers using nginx
+License: GPL V3
+Author: flokapi
+Author-email: flokapi@pm.me
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: platformdirs
+Requires-Dist: pyyaml
+Project-URL: documentation, https://github.com/flokapi/dockup
+Project-URL: homepage, https://github.com/flokapi/dockup
+Project-URL: repository, https://github.com/flokapi/dockup
+Description-Content-Type: text/markdown
+
+# Dockup
