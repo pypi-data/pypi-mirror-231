@@ -1,0 +1,13 @@
+climate_indices/__init__.py,sha256=8Af-AftxNc9irtedFNjd4lAfQQ7mJbAQw0-2vAC7JqU,45
+climate_indices/__main__.py,sha256=yryFAieW5X8O1ujaGGvvCw-a1HbquXXYmk960Gno3JA,77971
+climate_indices/__spi__.py,sha256=GqrfRaN-IAwXndScnT6HMOJOFdQJQh_MMfNYJLotcNw,59364
+climate_indices/compute.py,sha256=qpoKbrKF5WcuFrX6ekMOeS81ZUsTAAJZezTvMdjJN5M,34541
+climate_indices/eto.py,sha256=f9B_G-VhR89ydbSRdPwl__4GAsXhj-_R8LrouTAmFlk,14241
+climate_indices/indices.py,sha256=8xGZEaLZF2I8ttnB4PE_bQv-CQD1DgIM6SK9lZgrl1Y,23388
+climate_indices/lmoments.py,sha256=pcFBnxvtkCPjAwig7mESK3almUwHSiIABH99ob9bDU0,5561
+climate_indices/utils.py,sha256=1lz4SQGz_1VYcseTuYQRU2LSMRpYXtQb-aS11tCNgCQ,18356
+climate_indices-2.0.0.dist-info/LICENSE,sha256=1qgABQohfLeoRxV9iTBNhJ7JfxnN2vMcfhhvBfLRb3Y,2665
+climate_indices-2.0.0.dist-info/METADATA,sha256=ts1DfnIUGubdEe7oo8jz5i_ohQ1BZhI_or_RNJdAavs,5119
+climate_indices-2.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+climate_indices-2.0.0.dist-info/entry_points.txt,sha256=L8fouIQHjXOljLBMjiOEaY7YPRE0yazpijiHgZHPG3g,106
+climate_indices-2.0.0.dist-info/RECORD,,
