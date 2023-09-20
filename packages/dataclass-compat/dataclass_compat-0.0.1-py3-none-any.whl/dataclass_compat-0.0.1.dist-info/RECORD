@@ -1,0 +1,17 @@
+dataclass_compat/__init__.py,sha256=5QMvV9in17g0xCnNrM7uIis8Gg2xUUFMtIjkvOgkNv8,584
+dataclass_compat/_functions.py,sha256=VeRu0D4uLovBbS_TqejEkiNeNl8LJZoqoeVtYSCpDBw,1318
+dataclass_compat/_repr.py,sha256=j0ENc9FUfh7cxhDBcesDRN-0uO6dT-iBAx5VgttHYWA,2549
+dataclass_compat/_types.py,sha256=5Y2uqGao1IIGIB-Joiqt9SBzBbxL12mZ2jotmLHkuN8,7172
+dataclass_compat/py.typed,sha256=esB4cHc6c07uVkGtqf8at7ttEnprwRxwk8obY8Qumq4,187
+dataclass_compat/adapters/__init__.py,sha256=NYwe_RPj_6cwhYwfBA5MwGJXiWRvjpEvpp4jtK_-ym0,449
+dataclass_compat/adapters/_attrs.py,sha256=JKfaWbnu3MFGKDDfLGqfFQQTSXITr_qvC1_g_F4tFFI,2553
+dataclass_compat/adapters/_dataclasses.py,sha256=EJhMTa6vKsrHJoRnYZrfPje7r0T0P-wjuJzmo271vWc,2085
+dataclass_compat/adapters/_dataclassy.py,sha256=wpxgdqyE0ZwMGGCewxZitMMU3TEU1AsHC4b30YbFI4c,3078
+dataclass_compat/adapters/_msgspec.py,sha256=09FayvNSw9qa_lOlhmWPIvaqhmekfptd35LdpGYhwuM,2104
+dataclass_compat/adapters/_named_tuple.py,sha256=a054ruefKSKDnyOlnJysKhcusUruOVm6d1d9tAxyQkU,1748
+dataclass_compat/adapters/_pydantic.py,sha256=sMwexOFQZ8hikNM78aPAgJgH77kuLiF1Dtr-tOoNv2o,6348
+dataclass_compat/adapters/protocol.py,sha256=4DcBGld6ahNmo_nziYKnnw6X6zDFxZwqLs3LnF81DpE,1607
+dataclass_compat-0.0.1.dist-info/METADATA,sha256=6Fv0rxhrcOkl9t-bc-jKH4WduYgM0hvhIn3eeulOfW0,6002
+dataclass_compat-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dataclass_compat-0.0.1.dist-info/licenses/LICENSE,sha256=pY8jqpmjisIM7lVsbSEw4b-PUVnM8_ZSFlmLVdrXmxk,1501
+dataclass_compat-0.0.1.dist-info/RECORD,,
