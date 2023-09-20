@@ -1,0 +1,5 @@
+arroba
+dist
+docs
+l
+local

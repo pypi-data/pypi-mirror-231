@@ -1,0 +1,16 @@
+carbox
+cryptography
+dag-cbor
+dag-json
+dnspython>=2.0.0
+lexrpc>=0.3
+multiformats>=0.2.0
+pyjwt>=2.0.0
+simple-websocket
+
+[datastore]
+google-cloud-ndb>=2.0
+
+[flask]
+Flask>=2.0
+flask-sock
