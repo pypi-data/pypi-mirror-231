@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+RowMancer/__init__.py
+RowMancer/cli.py
+RowMancer.egg-info/PKG-INFO
+RowMancer.egg-info/SOURCES.txt
+RowMancer.egg-info/dependency_links.txt
+RowMancer.egg-info/entry_points.txt
+RowMancer.egg-info/requires.txt
+RowMancer.egg-info/top_level.txt
+tests/__init__.py
+tests/cli_test.py
