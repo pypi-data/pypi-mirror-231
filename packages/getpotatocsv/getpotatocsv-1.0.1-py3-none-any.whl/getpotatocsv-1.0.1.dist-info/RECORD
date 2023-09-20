@@ -1,0 +1,15 @@
+alertemail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alertemail/alertemail.py,sha256=1XsdGhHpXRzy0502VV4-Y-4yPohdAWekHcTfQ69m_9Q,811
+csv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv/getcsv.py,sha256=Ywub5qXca8w_nLn4sLlvLbh9Yfncq8P73pJu1skpeFk,1189
+csv/getpotatocsv.py,sha256=Ywub5qXca8w_nLn4sLlvLbh9Yfncq8P73pJu1skpeFk,1189
+potatocsv/getpotatocsv.py,sha256=IMw6tsUuKbGXx19_lB_nFVh0Nf8wB63nMDjt5Alf7Zk,1191
+potatoscript/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+potatoscript/alertemail.py,sha256=1XsdGhHpXRzy0502VV4-Y-4yPohdAWekHcTfQ69m_9Q,811
+potatoscript/emailalert.py,sha256=4pqj-bCCyX4dOl0oPbiqfMC8EduoD1zsVa1HbBTEw80,804
+sck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sck/emailalert.py,sha256=KYSMfv1DWKOan9jCIrEY64kaK5O_pwpcWaygjlbYY3c,2865
+getpotatocsv-1.0.1.dist-info/METADATA,sha256=aTPln7YQ_mUaB3omPhN460Z2JjYm6F9fuWtWNaBnPqs,174
+getpotatocsv-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+getpotatocsv-1.0.1.dist-info/top_level.txt,sha256=usoLyw-9T6ZxEySRz0m5AUw5hFeeqYATaimVWOCs1qY,10
+getpotatocsv-1.0.1.dist-info/RECORD,,
