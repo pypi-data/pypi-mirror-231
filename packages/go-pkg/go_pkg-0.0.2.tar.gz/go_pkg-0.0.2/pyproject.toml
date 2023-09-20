@@ -1,0 +1,16 @@
+[project]
+name = "go_pkg"
+version = "0.0.2"
+authors = [{ name = "Robert Pupel", email = "robert@devs-group.com" }]
+description = "A small example package to install go binaries with pip"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/robert197/test-pip-with-go"
+"Bug Tracker" = "https://github.com/robert197/test-pip-with-go/issues"

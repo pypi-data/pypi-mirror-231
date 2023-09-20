@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/setup.py
+src/wrapper.py
+src/wrapper_test.py
+src/go_pkg.egg-info/PKG-INFO
+src/go_pkg.egg-info/SOURCES.txt
+src/go_pkg.egg-info/dependency_links.txt
+src/go_pkg.egg-info/top_level.txt
