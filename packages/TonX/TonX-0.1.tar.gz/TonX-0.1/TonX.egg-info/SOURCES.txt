@@ -1,0 +1,5 @@
+setup.py
+TonX.egg-info/PKG-INFO
+TonX.egg-info/SOURCES.txt
+TonX.egg-info/dependency_links.txt
+TonX.egg-info/top_level.txt
