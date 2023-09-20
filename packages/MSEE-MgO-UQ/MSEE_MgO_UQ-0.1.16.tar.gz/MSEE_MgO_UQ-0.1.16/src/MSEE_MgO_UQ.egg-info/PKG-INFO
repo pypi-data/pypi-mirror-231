@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MSEE-MgO-UQ
+Version: 0.1.16
+Summary: Code developed to analytically model shock wave experiments with uncertainty
+Home-page: https://github.com/dimtsap/MSEE_MgO_UQ
+Author: Dimitris Tsapetis
+License: MIT
+Platform: OSX
+Platform: Windows
+Platform: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: UQpy
