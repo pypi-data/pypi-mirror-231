@@ -1,0 +1,17 @@
+google_cloud_source_context-1.4.3-py3.9-nspkg.pth,sha256=b0D5dZk3RUzK54tZ9iZDvLm7u8ltc5EzYrGCmhsuoNw,1698
+google/cloud/source_context/__init__.py,sha256=n-wqawOUOoOJNmYBJJ5uP8WhcBL1eNHWHozeQOVHf58,1271
+google/cloud/source_context/gapic_version.py,sha256=Pe6yMihik9DS1CDY0oNRgV5yskqWxrIbaR9qT-pL4Lc,652
+google/cloud/source_context/py.typed,sha256=78yIaowTRUAZG1hiln1dtQcuaVe4VgO6LTvYzg9o3BM,88
+google/cloud/source_context_v1/__init__.py,sha256=ujwC-Rj_WV45_yDsuAbYJn-p1MPpJYHOUensyDCyyeE,1244
+google/cloud/source_context_v1/gapic_metadata.json,sha256=7HvGXoD2ta7SW8qRSJe4Vm28--wdq-MGI5XlFcAWc3I,244
+google/cloud/source_context_v1/gapic_version.py,sha256=Pe6yMihik9DS1CDY0oNRgV5yskqWxrIbaR9qT-pL4Lc,652
+google/cloud/source_context_v1/py.typed,sha256=78yIaowTRUAZG1hiln1dtQcuaVe4VgO6LTvYzg9o3BM,88
+google/cloud/source_context_v1/services/__init__.py,sha256=zWbvQwgy48VXnYBlD4x4jlBof70BFYtIC9fehwEW1WQ,600
+google/cloud/source_context_v1/types/__init__.py,sha256=iXYhjhh_2SNIyxLJFpshmm5D90sIgMCNVWEuZKHLQAM,1117
+google/cloud/source_context_v1/types/source_context.py,sha256=MiWGwf68Ob6zBkxZezdU-ykDQMgcKRzdZQqlwQQ_zjU,11593
+google_cloud_source_context-1.4.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+google_cloud_source_context-1.4.3.dist-info/METADATA,sha256=7TPaQB97LnH5P2FlU9vkraIgGenYPSiBUr2D_0d0k0A,4949
+google_cloud_source_context-1.4.3.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+google_cloud_source_context-1.4.3.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_source_context-1.4.3.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+google_cloud_source_context-1.4.3.dist-info/RECORD,,
