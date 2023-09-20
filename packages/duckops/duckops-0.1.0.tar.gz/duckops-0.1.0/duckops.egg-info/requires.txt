@@ -1,0 +1,10 @@
+duckdb
+duckdb_engine
+pandas<2.1.0
+siuba
+sqlalchemy<=1.4.47
+
+[dev]
+pytest
+pytest-dotenv
+polars
