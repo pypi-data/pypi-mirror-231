@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RequestyAI
+Version: 0.0.1
+Summary: Requesty Python Library
+Home-page: https://docs.requesty.ai/guides/Integration/Python
+Author: Thibault Jaigu
+Author-email: thibault@requesty.ai
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+Python library to integrate with Requesty
