@@ -1,0 +1,12 @@
+pdfTableJson/__init__.py,sha256=JYmOHtxsvSjuZb1iFbWIoWJG2xmUKuRX19fGoCSfeco,22
+pdfTableJson/converter.py,sha256=hUrd6DXE-tiE1Ve6DOh_tZDoowVDksN5lPyKo22BKco,11823
+pdfTableJson/parse.py,sha256=_2bORUav6tkqpcuIReB0P8VZDxtCrVphMGKqDGcnTI4,259
+pdfTableJson/parse_local.py,sha256=PFHC_GYs74SxsXp5ObtzAdVySXX-nhhIrHsu8C5MCm0,252
+pdfTableJson/parser.py,sha256=GGb7TR9QFO2xzPaZIk1-Vne3rBSMsWRncycbyves5QU,9694
+pdfTableJson/util.py,sha256=gKJ7XeKHB1V1NSFHSjK287t3IqSLGL8JAxcMm2oT7Eo,730
+pdfTableJson-0.0.11.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pdfTableJson-0.0.11.dist-info/METADATA,sha256=3c9IkrHCgISDaLSbvVLe5n54CTld32O9xh3S6rOYoY0,1117
+pdfTableJson-0.0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pdfTableJson-0.0.11.dist-info/top_level.txt,sha256=Xk8yvgrWcvvExhpOUhX8zEynJoOUcxsLwX38907o0tU,13
+pdfTableJson-0.0.11.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pdfTableJson-0.0.11.dist-info/RECORD,,
