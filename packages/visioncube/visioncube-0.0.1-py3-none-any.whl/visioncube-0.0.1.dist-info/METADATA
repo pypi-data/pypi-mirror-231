@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: visioncube
+Version: 0.0.1
+Summary: Image Processing Tools
+Author: yanaenen
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: imgaug
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: kornia
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: easyocr
+Requires-Dist: easydict
+
+UNKNOWN
+
