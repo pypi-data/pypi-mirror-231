@@ -1,0 +1,12 @@
+userstory8020/__init__.py,sha256=mji_FOOxTThsoRw-s2OZNH2-MVJCHcztdYBdYmHO5Ds,260
+userstory8020/__main__.py,sha256=3DuzLy1gZg0iHEEqrIJCpoC6DQH8vj3msFw6vNTbSHU,3190
+userstory8020/app.py,sha256=cnKhcX_OQzNE_21FBYjK2HZtTLVkZle5CgUAIkbftms,4176
+userstory8020/factory.py,sha256=FAvwfO87T-ZGbYZPeg1-iotQOjfvb2tRUMx72ekA0L4,1718
+userstory8020/logging_conf.yml,sha256=TbyAnbrTttenxzBbb9KLEoaFioHlPetAXOB5gcmWdBs,628
+userstory8020/process.json,sha256=DT6c2UdI14uZRrG9o3UMyoRRl3w_gBuTwk-yrJrTrrs,2176
+userstory8020/scripts.py,sha256=tNvVweFl5c21OMP3pgNpN2hrf8xEaYGAdiXwsFMa_wM,4961
+userstory8020-0.0.42.dist-info/METADATA,sha256=6fxrmgiDsX3Tgh1U-cDYsZZyTYRZEDF_XaIg2VwDY5Y,2028
+userstory8020-0.0.42.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+userstory8020-0.0.42.dist-info/entry_points.txt,sha256=7Tv79lv3cHEGeNVbVZ4GwUya9t7PYwL5GtqtLCJ2bvI,62
+userstory8020-0.0.42.dist-info/top_level.txt,sha256=Ebux_o1F7bMDOKlSTX1zrUSCzrlARReQRiMkT6FHbeM,14
+userstory8020-0.0.42.dist-info/RECORD,,
