@@ -1,0 +1,8 @@
+imgaug
+torch
+torchvision
+kornia
+numpy
+opencv-python
+easyocr
+easydict

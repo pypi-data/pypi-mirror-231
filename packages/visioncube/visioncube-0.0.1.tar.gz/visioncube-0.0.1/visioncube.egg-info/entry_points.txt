@@ -1,0 +1,2 @@
+[console_scripts]
+visioncube = image_transforms.pipeline:TransformPipeline
