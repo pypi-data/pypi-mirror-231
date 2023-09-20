@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pymojeek
+Version: 0.1
+Summary: Python library for the Mojeek API
+Author-email: James Addison <james@reciperadar.com>
+License: AGPL-3.0-or-later
+Project-URL: Homepage, https://pypi.org/project/pymojeek/
+Project-URL: Source, https://github.com/openculinary/pymojeek.git/
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pymojeek
+
+An unofficial client for the [Mojeek API](https://www.mojeek.co.uk/support/api/).
+
+## Usage
+
+```python
+from pymojeek import Search
+
+client = Search(api_key=...)
+results = client.search("pymojeek")
+
+print(f"Found {len(results)} for query '{results.query}'")
+```
