@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    "setuptools >= 44.0.0",
+    "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.check-manifest]
+ignore = ["release.txt",
+          "todo.txt",
+          "Makefile",
+          ".readthedocs.yaml",
+          ".testignore",
+          "docs/*",
+          "tests_iadc/*"]
