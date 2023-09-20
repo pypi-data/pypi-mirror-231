@@ -1,0 +1,4 @@
+applications
+components
+config
+tests
