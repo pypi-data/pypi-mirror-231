@@ -1,0 +1,13 @@
+readunwise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+readunwise/cli.py,sha256=NG7aMvv2TzwUamAKiciNX5pxegwuk408hDOTQP0-gA4,5146
+readunwise/clippings.py,sha256=OLvddMG9p04IiMinphIVj0kk1lKiHJvloz4HnzaYGwM,886
+readunwise/discord_client.py,sha256=SDQbeiNrh1qzllqfUf_lVgyhWE8Gr0CqKwxQiQ_TwuA,1663
+readunwise/highlight.py,sha256=Wl7Q56wTb1-g8KyVyGEAY2NJ59IsBRTJwEWj-IB-ZpE,1450
+readunwise/random_util.py,sha256=9j1pzu7w8yACoqIGnzkz6p5H_ctxhkykeLUKLCcXK4w,469
+readunwise/test/test_highlight.py,sha256=WeJJnPgIwSIKKQWHPjuWTxr4cAdmZ3Ku0J45Xh_pe7o,1066
+readunwise-0.1.1.dist-info/LICENSE,sha256=v4ORQJ0PZqbq0SN-blHyLakKZoIb-IL-41JZQy122ks,1094
+readunwise-0.1.1.dist-info/METADATA,sha256=t2jQCvLVJ8PBk9NeS9gGg2JEPIRJyYnvsbV058BOQGc,941
+readunwise-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+readunwise-0.1.1.dist-info/entry_points.txt,sha256=b9Y1pxI-oVIVjfu5kVbuOiGHPmQAOvnITj6oKBTjFm4,50
+readunwise-0.1.1.dist-info/top_level.txt,sha256=dwTl5D4hCKwHGZd_tJg0QubLYTlFpN-2OqAgm_Sm15A,11
+readunwise-0.1.1.dist-info/RECORD,,
