@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: amarium
+Version: 0.2.1
+Summary: Filesystem handling utilities
+Author-email: "Julian M. Kleber" <julian.m.kleber@gmail.com>
+Project-URL: Homepage, https://www.codeberg.org/cap_jmk/amarium.git
+Project-URL: Bug Tracker, https://www.codeberg.org/cap_jmk/amarium.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: cryptography
+
