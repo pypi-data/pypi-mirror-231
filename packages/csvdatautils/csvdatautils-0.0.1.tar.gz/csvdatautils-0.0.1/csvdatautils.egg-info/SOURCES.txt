@@ -1,0 +1,10 @@
+README.md
+setup.py
+csvdatautils/__init__.py
+csvdatautils/csvdata.py
+csvdatautils/csvdatarow.py
+csvdatautils.egg-info/PKG-INFO
+csvdatautils.egg-info/SOURCES.txt
+csvdatautils.egg-info/dependency_links.txt
+csvdatautils.egg-info/top_level.txt
+tests/test_csv_data_reader.py
