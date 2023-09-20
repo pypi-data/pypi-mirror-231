@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datasette_mask_columns/__init__.py
+datasette_mask_columns.egg-info/PKG-INFO
+datasette_mask_columns.egg-info/SOURCES.txt
+datasette_mask_columns.egg-info/dependency_links.txt
+datasette_mask_columns.egg-info/entry_points.txt
+datasette_mask_columns.egg-info/requires.txt
+datasette_mask_columns.egg-info/top_level.txt
+tests/test_mask_columns.py
