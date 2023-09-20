@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-relativeinclude
+Version: 0.0.1rc0
+Summary: Implements a new reST include directive to translate relative paths.
+Project-URL: Documentation, https://github.com/FynnFreyer/sphinxcontrib-relativeinclude#readme
+Project-URL: Issues, https://github.com/FynnFreyer/sphinxcontrib-relativeinclude/issues
+Project-URL: Source, https://github.com/FynnFreyer/sphinxcontrib-relativeinclude
+Author-email: Fynn Freyer <fynn.freyer@googlemail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: docutils,reST,restructured text,sphinx
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.8
+Requires-Dist: docutils
+Provides-Extra: dev
+Requires-Dist: docutils-stubs; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# sphinxcontrib-relativeinclude
+
+[![PyPI - Version](https://img.shields.io/pypi/v/sphinxcontrib-relativeinclude.svg)](https://pypi.org/project/sphinxcontrib-relativeinclude)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sphinxcontrib-relativeinclude.svg)](https://pypi.org/project/sphinxcontrib-relativeinclude)
+
+-----
+
+**Table of Contents**
+
+- [About](#about)
+- [Installation](#installation)
+- [License](#license)
+
+-----
+
+## About
+
+This package implements a new reST directive to include files and translate paths included in those files.
+
+## Installation
+
+```console
+pip install sphinxcontrib-relativeinclude
+```
+
+## License
+
+`sphinxcontrib-relativeinclude` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
