@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: go-pkg
+Version: 0.0.2
+Summary: A small example package to install go binaries with pip
+Author-email: Robert Pupel <robert@devs-group.com>
+Project-URL: Homepage, https://github.com/robert197/test-pip-with-go
+Project-URL: Bug Tracker, https://github.com/robert197/test-pip-with-go/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Test Pip Install with Go
+
+This is a simple project demonstrating how to package a Go binary along with a Python wrapper and make it installable using pip.
+
+## Getting Started
+
+1. **Go Binary**
+
+   The Go binary in this project prints "Hello from Go!".
+
+2. **Python Wrapper**
+
+   The Python wrapper script (`wrapper.py`) executes the Go binary and prints its output.
+
+3. **Tests**
+
+   The python file (`wrapper_test.py`) executes one tests to test the output of the golang binary.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install go-pkg
+```
