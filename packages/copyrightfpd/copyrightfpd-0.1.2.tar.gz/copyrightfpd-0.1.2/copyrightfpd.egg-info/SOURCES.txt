@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+copyrightfpd.egg-info/PKG-INFO
+copyrightfpd.egg-info/SOURCES.txt
+copyrightfpd.egg-info/dependency_links.txt
+copyrightfpd.egg-info/requires.txt
+copyrightfpd.egg-info/top_level.txt
