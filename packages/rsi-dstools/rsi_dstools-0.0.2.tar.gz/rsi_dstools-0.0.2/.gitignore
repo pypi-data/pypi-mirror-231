@@ -1,0 +1,14 @@
+*.pyc
+__pycache__
+*.zip
+build*
+dist*
+.ipynb_checkpoints
+azure_temp*
+*config*json
+**/rsi_aml_api_incoming_file_cache/*
+**/rsi_aml_api_model_cache/*
+**/mlflow_model*/*
+DataScienceTools.egg-info/PKG-INFO
+dstools/azureutils/example_run/*.json:Zone.Identifier
+dstools/azureutils/example_run/api_ml_model_cache/sklearn-ridge-regr-diabetes_/*
