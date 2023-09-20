@@ -1,0 +1,8 @@
+setup.py
+StableDNAm/__init__.py
+StableDNAm.egg-info/PKG-INFO
+StableDNAm.egg-info/SOURCES.txt
+StableDNAm.egg-info/dependency_links.txt
+StableDNAm.egg-info/not-zip-safe
+StableDNAm.egg-info/requires.txt
+StableDNAm.egg-info/top_level.txt

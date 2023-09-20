@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: StableDNAm
+Version: 1.0.0
+Summary: DNA Methylation Prediction Model
+Home-page: https://github.com/wrab12/StableDNAm
+Author: wrab12
+Author-email: wangrui66677@gmail.com
+Requires-Python: >=3
+Requires-Dist: pytorch
