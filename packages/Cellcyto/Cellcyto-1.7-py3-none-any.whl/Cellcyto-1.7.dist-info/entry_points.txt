@@ -1,0 +1,2 @@
+[console_scripts]
+Cellcyto = Cellcyto.GUI:run_gui
