@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mini-fastapi-gateway
+Version: 0.0.1b8.dev0
+Summary: FastAPI gateway
+Home-page: 
+Download-URL: https://github.com/aizhigito/fastapi-gateway/archive/refs/tags/v0.0.1-beta-6.tar.gz
+Author: aizhigito
+Author-email: aizhigit94@gmail.com
+License-File: LICENSE
