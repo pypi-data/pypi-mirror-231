@@ -1,0 +1,5 @@
+bpe_encoder-0.2.0.dist-info/METADATA,sha256=QnP5ITiKqh216TrfE3Mci-tyMJuL5UVR_0ybY11PsUA,260
+bpe_encoder-0.2.0.dist-info/WHEEL,sha256=wRjJmEXgvqK7eV109Z2UdiOzNuvAQopLQegnhEV016s,105
+bpe_encoder/__init__.py,sha256=XgDMGGxzrDvRwd6E5QmPnCZAVLgIP6fwWCnyMhKKJNk,127
+bpe_encoder/bpe_encoder.cpython-311-darwin.so,sha256=fZjjLcgAIYwlPpCxe42Gvzhet-BvW1WfUodZeQj7tBk,1110576
+bpe_encoder-0.2.0.dist-info/RECORD,,
