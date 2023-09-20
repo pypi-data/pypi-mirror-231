@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: anoseg
+Version: 0.0.1
+Summary: Anomaly Segmentation
+Author: Hendrik Meininger
+Author-email: H.Meininger@outlook.de
+Keywords: python,anomaly,segmentation,anomaly segmentation,dfc,padim,spade
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Dist: anoseg
+Requires-Dist: anoseg.datasets
+Requires-Dist: anoseg.evaluation
+Requires-Dist: anoseg.models
+Requires-Dist: anoseg.utils
+Requires-Dist: anoseg.datasets.anomaly-creator
+Requires-Dist: anoseg.models.DFC
+Requires-Dist: anoseg.models.PaDiM
+Requires-Dist: anoseg.models.SPADE
+Requires-Dist: anoseg.models.DFC.backbone
+Requires-Dist: anoseg.models.DFC.base-dfc
+Requires-Dist: anoseg.models.DFC.patch-dfc
+Requires-Dist: anoseg.models.PaDiM.backbone
+Requires-Dist: anoseg.models.PaDiM.base-padim
+Requires-Dist: anoseg.models.PaDiM.patch-padim
+Requires-Dist: anoseg.models.PaDiM.utils
+Requires-Dist: anoseg.models.SPADE.base-spade
+
+A collection of Anomaly Segmentation methods and an interface for easy use.
