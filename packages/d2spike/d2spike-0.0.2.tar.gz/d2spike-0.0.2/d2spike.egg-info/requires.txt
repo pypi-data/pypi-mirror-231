@@ -1,0 +1,7 @@
+numpy
+xarray
+matplotlib
+seaborn
+scipy
+afloat
+wootils
