@@ -1,0 +1,6 @@
+setup.py
+swahilipro.egg-info/PKG-INFO
+swahilipro.egg-info/SOURCES.txt
+swahilipro.egg-info/dependency_links.txt
+swahilipro.egg-info/entry_points.txt
+swahilipro.egg-info/top_level.txt
