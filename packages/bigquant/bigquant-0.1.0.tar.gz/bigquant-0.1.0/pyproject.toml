@@ -1,0 +1,129 @@
+[project]
+authors = [
+    { name = "BigQuant", email = "bigquant@bigquant.com" },
+]
+dependencies = []
+description = "BigQuant Financial Quantitative Toolbox: a powerful and flexible Python software package that provides comprehensive financial quantitative tools and strategy development framework for financial practitioners."
+name = "bigquant"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.1.0"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+build-backend = "pdm.backend"
+requires = [
+    "pdm-backend",
+]
+
+[tool.black]
+exclude = "public|build|buildoutput|dist|.git|.mypy_cache|.ruff_cache|.venv"
+line-length = 160
+target-version = [
+    "py310",
+    "py311",
+    "py312",
+    "py38",
+    "py39",
+]
+
+[tool.mypy]
+python_version = 3.8
+plugins = [
+    "pydantic.mypy",
+]
+exclude = [
+    "buildoutput",
+    "public",
+]
+check_untyped_defs = true
+disallow_subclassing_any = false
+disallow_untyped_defs = true
+implicit_reexport = true
+pretty = true
+strict = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+
+[tool.pdm.build]
+includes = []
+
+[tool.pdm.dev-dependencies]
+dev = []
+docs = [
+    "sphinx-book-theme>=1.0.1",
+    "sphinx>=6.2.1",
+]
+lint = [
+    "black>=23.7.0",
+    "mypy>=1.4.1",
+    "ruff>=0.0.280",
+]
+test = [
+    "pytest>=7.4.0",
+]
+
+[[tool.pdm.source]]
+name = "bigquant"
+url = "https://repos.bigquant.ai/artifactory/api/pypi/virtual.pypi/simple"
+verify_ssl = true
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+warn_untyped_fields = true
+
+[tool.ruff]
+exclude = [
+    "docs",
+    "public",
+]
+extend-select = [
+    "B",
+    "C4",
+    "PGH",
+    "W",
+    "YTT",
+    "C90",
+    "D",
+    "I",
+    "Q",
+    "RUF100",
+    "T20",
+    "UP",
+]
+ignore = [
+    "B008",
+    "D105",
+    "D107",
+    "D203",
+    "D205",
+    "D213",
+    "D415",
+    "E501",
+]
+line-length = 160
+target-version = "py38"
+
+[tool.ruff.isort]
+known-first-party = []
+
+[tool.ruff.mccabe]
+max-complexity = 14
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.versioningit.format]
+distance = "{base_version}.post{distance}+{vcs}{rev}"
+dirty = "{base_version}+d{build_date:%Y%m%d}"
+distance-dirty = "{base_version}.post{distance}+{vcs}{rev}.d{build_date:%Y%m%d}"
+
+[tool.versioningit.vcs]
+default-tag = "0.1.0"
+
+[tool.versioningit.write]
+file = "src/bigquant/_version.py"

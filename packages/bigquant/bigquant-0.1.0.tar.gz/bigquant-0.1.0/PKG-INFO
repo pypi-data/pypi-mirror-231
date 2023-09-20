@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bigquant
+Version: 0.1.0
+Summary: BigQuant Financial Quantitative Toolbox: a powerful and flexible Python software package that provides comprehensive financial quantitative tools and strategy development framework for financial practitioners.
+Author-Email: BigQuant <bigquant@bigquant.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# bigquant
+
+BigQuant Financial Quantitative Toolbox: a powerful and flexible Python software package that provides comprehensive financial quantitative tools and strategy development framework for financial practitioners.
