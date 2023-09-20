@@ -1,0 +1,3 @@
+[console_scripts]
+panax = panax.tool:main
+
