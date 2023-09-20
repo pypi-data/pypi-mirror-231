@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/yupnets/__init__.py
+src/yupnets.egg-info/PKG-INFO
+src/yupnets.egg-info/SOURCES.txt
+src/yupnets.egg-info/dependency_links.txt
+src/yupnets.egg-info/top_level.txt
+src/yupnets/resnet/__init__.py
+src/yupnets/resnet/cifar10.py
+src/yupnets/resnet/imagenet1k.py
+src/yupnets/resnet/utils.py
+src/yupnets/utils/__init__.py
+src/yupnets/utils/activation.py
+src/yupnets/utils/normalization.py
