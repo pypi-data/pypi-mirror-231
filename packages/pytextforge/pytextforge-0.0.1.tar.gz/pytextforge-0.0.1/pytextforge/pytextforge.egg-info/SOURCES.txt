@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pytextforge/pytextforge.egg-info/PKG-INFO
+pytextforge/pytextforge.egg-info/SOURCES.txt
+pytextforge/pytextforge.egg-info/dependency_links.txt
+pytextforge/pytextforge.egg-info/requires.txt
+pytextforge/pytextforge.egg-info/top_level.txt
