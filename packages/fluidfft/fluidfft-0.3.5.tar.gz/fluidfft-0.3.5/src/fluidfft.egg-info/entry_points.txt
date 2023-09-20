@@ -1,0 +1,3 @@
+[console_scripts]
+fluidfft-bench = fluidfft.bench:run
+fluidfft-bench-analysis = fluidfft.bench_analysis:run
