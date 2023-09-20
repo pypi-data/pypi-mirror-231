@@ -1,0 +1,7 @@
+certifi==2022.12.7
+numpy==1.24.1
+openai==0.27.8
+pandas==1.5.3
+Requests==2.31.0
+scikit_learn==1.2.2
+setuptools==65.5.0

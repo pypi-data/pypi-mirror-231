@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+text_embedding/__init__.py
+text_embedding/config.py
+text_embedding/embedding_manager.py
+text_embedding/input_output_manager.py
+text_embedding/similarity_manager.py
+text_embedding/workflow_manager.py
+text_embedding_model.egg-info/PKG-INFO
+text_embedding_model.egg-info/SOURCES.txt
+text_embedding_model.egg-info/dependency_links.txt
+text_embedding_model.egg-info/requires.txt
+text_embedding_model.egg-info/top_level.txt
