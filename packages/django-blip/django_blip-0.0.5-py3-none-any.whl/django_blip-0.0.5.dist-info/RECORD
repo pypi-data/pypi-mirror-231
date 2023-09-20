@@ -1,0 +1,9 @@
+blip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blip/constants.py,sha256=mulivfHIEoGA7_YCSqEdfsqh1xq5Du8tnE88ASJI27Q,138
+blip/custom_test_runner.py,sha256=UvaF9aumXgXjdgDAN3sab26OYA5uHI2-PHk3BpKKVY4,1696
+blip/service.py,sha256=utIqpTLdq2rX01SYEYsf2pVnvurIlYftBhIT85AbP3c,2062
+django_blip-0.0.5.dist-info/LICENSE,sha256=r-DszQTd1_z2wPQ35vRIeYwWD0JeFzCJ4Ao9MLnt4zM,1071
+django_blip-0.0.5.dist-info/METADATA,sha256=6JBMAca0p8x4Wle-A5sIJhyJySa1zNyQzvNxEUGKJTw,3322
+django_blip-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_blip-0.0.5.dist-info/top_level.txt,sha256=Xnoaxa-kiCMO0c0TKOc0HejGQ6iPY8q-edYAhzz2XFg,5
+django_blip-0.0.5.dist-info/RECORD,,
