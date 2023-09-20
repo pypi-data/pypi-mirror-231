@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+graphic_novel/__init__.py
+graphic_novel/actions.py
+graphic_novel/constants.py
+graphic_novel_pyarcade.egg-info/PKG-INFO
+graphic_novel_pyarcade.egg-info/SOURCES.txt
+graphic_novel_pyarcade.egg-info/dependency_links.txt
+graphic_novel_pyarcade.egg-info/requires.txt
+graphic_novel_pyarcade.egg-info/top_level.txt
+tests/__init__.py
+tests/actions_test.py
+tests/graphic_novel_test.py
+tests/parser_test.py
