@@ -1,0 +1,11 @@
+sparkfly_client/__init__.py,sha256=WD-MQsGV1YS_1De7NIF6wPt-ZOA83bkQ7XYqhVtM6vA,276
+sparkfly_client/__version__.py,sha256=wdy48LHYrUMzPNCCvCcxj8t-pWI3gYoPtk1Qf0S3-OI,103
+sparkfly_client/client.py,sha256=RaLxRbWwJzPZPNh5sEVN8nKuT_IVFod2COH585lKz_Q,12399
+sparkfly_client/errors.py,sha256=F2kc-ZnZe8ZunzXUYh42nr6pj4t4O-C0Fd9yUwZbTN0,484
+sparkfly_client/types.py,sha256=yl9K5x_XmdIlTRBwl6-CnE69hjjn-4tWYcR4zf5aZsY,1012
+sparkfly_client/api/__init__.py,sha256=L2W0n4VnZMpmtdWLrdqQgDYZFVLcrai8SUSbYUGwM9M,48
+sparkfly_client-1.0.0.dist-info/LICENSE,sha256=S0cDHwwfxCXJh5smxh36Xc4vsJ95DoarTlBEFI8cXXk,1087
+sparkfly_client-1.0.0.dist-info/METADATA,sha256=4UOBvVMbXsmReYh0QU2eBlqSaNBkPw9MqvkIOTYh_e8,4700
+sparkfly_client-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sparkfly_client-1.0.0.dist-info/top_level.txt,sha256=JF5st6Q--QYcIuR2PzvPASKV5mS99oKBYHKL1AXUcKA,16
+sparkfly_client-1.0.0.dist-info/RECORD,,
