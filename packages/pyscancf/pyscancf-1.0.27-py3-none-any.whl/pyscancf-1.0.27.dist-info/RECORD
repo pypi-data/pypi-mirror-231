@@ -1,0 +1,9 @@
+pyscancf/__init__.py,sha256=C3-L4LJ5Xp4AJZeDLw4sr3xN5KtWNYUYSA7EbdcN9V4,1093
+pyscancf/_version_.py,sha256=UK1zCGa0XIXJMNCDTyYuT40bBCH6_t9ioqL9_PVEh8w,60
+pyscancf/cmapmaker.py,sha256=BANQtgVg8g6UuVU8jeq1zNwmd-ScY5pAOUGi3HuExFQ,6661
+pyscancf/maxcappi.py,sha256=Ln_j__r8T569Auyx5XEP8T-6I3mWU8BRKvzherSmeEI,8985
+pyscancf/pyscancf.py,sha256=t6c0toKfmaCbB46gQZ7LLEOX7Rw_qdrNwJ2eup7st6E,9619
+pyscancf-1.0.27.dist-info/METADATA,sha256=Tlurt7st7cQX-vwkJdGCBwhlxkZr42SjuAks_1V7aMY,3315
+pyscancf-1.0.27.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyscancf-1.0.27.dist-info/top_level.txt,sha256=51jXJzcWKkR44RTQHIX4hBogheqW0gmno_nlhq-Ucis,9
+pyscancf-1.0.27.dist-info/RECORD,,
