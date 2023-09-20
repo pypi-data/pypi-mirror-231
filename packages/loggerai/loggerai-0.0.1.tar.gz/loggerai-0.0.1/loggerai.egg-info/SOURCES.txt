@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+loggerai/__init__.py
+loggerai/log.py
+loggerai/test.py
+loggerai.egg-info/PKG-INFO
+loggerai.egg-info/SOURCES.txt
+loggerai.egg-info/dependency_links.txt
+loggerai.egg-info/top_level.txt
