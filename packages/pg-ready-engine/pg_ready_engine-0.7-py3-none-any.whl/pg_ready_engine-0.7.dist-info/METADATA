@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pg-ready-engine
+Version: 0.7
+Requires-Dist: psycopg2
+Requires-Dist: uuid
+
