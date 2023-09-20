@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: drf-annotations
+Version: 0.0.5
+Summary: Auto populate your model serializer with annotations
+Author-email: Vitalii Korniichuk <iamkorniichuk@gmail.com>
+Project-URL: Homepage, https://github.com/iamkorniichuk/drf-annotations
+Project-URL: Bug Tracker, https://github.com/iamkorniichuk/drf-annotations/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# DRF Annotations
+
+Auto populate your model serializer with annotations
+
+# Installation
+
+```
+pip install drf-annotations
+```
