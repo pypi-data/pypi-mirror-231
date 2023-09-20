@@ -1,0 +1,22 @@
+dependencies:
+- python==3.9.7
+- scikit-learn
+- pandas
+- numpy
+- matplotlib
+- packaging
+- pip
+- pip:
+  - mlflow
+  - azureml
+  - azureml-core
+  - azureml-defaults
+  - azureml-contrib-services
+  - azureml-contrib-dataset
+  - azureml-mlflow
+  - inference-schema
+  - scikit-learn-intelex
+  - sqlalchemy
+  - pymssql
+  - https://nrosevearework0157530426.blob.core.windows.net/azureml/Environment/azureml-private-packages/DataScienceTools-0.0.1-py2.py3-none-any.whl
+name: train-on-amlcompute-sklearn-pandas-x
