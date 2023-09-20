@@ -1,0 +1,11 @@
+dataflows_airtable/VERSION,sha256=XSSKc1S0uwOYYmkC_fs0xKSWJb5x9x3if9NA5sO4Xkw,5
+dataflows_airtable/__init__.py,sha256=qj8RijoKbebeEEV8EQ0CEbsof0O553-jpcgy_-i7-1g,136
+dataflows_airtable/consts.py,sha256=Wrx_eQHHazIEHbRGlRAZJk5ni6JPYxNn9NP2nBbCA4g,54
+dataflows_airtable/dump_to_airtable.py,sha256=R2cGD-qX2GbV5FEp1mqYczJ7qV7UIgY05aIg4X75dS4,3085
+dataflows_airtable/load_from_airtable.py,sha256=fPYnvDbJbz4XTuni_sDbI09z4DMVWeBHOWnxncU1S9s,4811
+dataflows_airtable/utilities.py,sha256=6zh-RL-p7waYav5qk6XS1HiSdwk0DWONiR5npZgzQFQ,752
+dataflows_airtable-0.2.3.dist-info/LICENSE,sha256=lROqpNflpOD8-HI9kenbEPpQYeFxx3w-kl0T32ncm2c,1065
+dataflows_airtable-0.2.3.dist-info/METADATA,sha256=C9DomLUt7gL0L9YaR-uxOeEG0UB8oKiOoXt19-DCmS0,1239
+dataflows_airtable-0.2.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+dataflows_airtable-0.2.3.dist-info/top_level.txt,sha256=N8juMm3rxKu9_j9AvOcFhUMiUJk66bBhXJKUhAj618k,19
+dataflows_airtable-0.2.3.dist-info/RECORD,,
