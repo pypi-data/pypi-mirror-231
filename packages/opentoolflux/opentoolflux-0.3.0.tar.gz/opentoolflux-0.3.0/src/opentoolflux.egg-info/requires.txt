@@ -1,0 +1,6 @@
+click>=8.0
+pandas>=1.4.0
+pyarrow>=8.0
+pydantic<2,>=1.9
+tomli>=2.0.1
+matplotlib>=3.5
