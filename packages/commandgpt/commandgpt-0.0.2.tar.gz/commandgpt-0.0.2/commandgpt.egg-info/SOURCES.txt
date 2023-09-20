@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+commandgpt/__init__.py
+commandgpt.egg-info/PKG-INFO
+commandgpt.egg-info/SOURCES.txt
+commandgpt.egg-info/dependency_links.txt
+commandgpt.egg-info/entry_points.txt
+commandgpt.egg-info/requires.txt
+commandgpt.egg-info/top_level.txt
