@@ -1,0 +1,8 @@
+setup.py
+telegram_chess/__init__.py
+telegram_chess/telegram_chess.py
+telegram_chess.egg-info/PKG-INFO
+telegram_chess.egg-info/SOURCES.txt
+telegram_chess.egg-info/dependency_links.txt
+telegram_chess.egg-info/requires.txt
+telegram_chess.egg-info/top_level.txt
