@@ -1,0 +1,11 @@
+cstag_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstag_cli/append/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstag_cli/append/appender.py,sha256=5QuR19d5eXQ5JSMVHgKceHzaLdoFbrlOzTet1YLBjNA,1221
+cstag_cli/main.py,sha256=yJdlmoe-QsD_w6qSdkPk4FHwkqBxG42Qcug8mJNt2OI,1649
+cstag_cli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstag_cli/utils/io.py,sha256=F3uUdBD9xb2uSUG9hFMeslBwWqdm-u_RX8ZS3CuXxNU,1019
+cstag_cli-1.0.0.dist-info/LICENSE,sha256=JjtBlTIw3SZ5Ihhrry2qWxN9G-kqDxoazKIY4YfEdN4,1069
+cstag_cli-1.0.0.dist-info/METADATA,sha256=AZ1wYx21smusWVJKCJDvKtCTJlOECy0twAi4PZ_PpP4,3346
+cstag_cli-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cstag_cli-1.0.0.dist-info/entry_points.txt,sha256=OHnXLN0o7IFwnRhIXUfgthcBQX4wy_umMhSjXWRCjGU,45
+cstag_cli-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+cstag=cstag_cli.main:main
+
