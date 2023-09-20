@@ -1,0 +1,12 @@
+faker_graphics/__init__.py,sha256=GXMVienyfoTCMZkqfROfhnT4KCVol7xut3FUvXvri2M,1084
+faker_graphics/__main__.py,sha256=wxJeNWzZE9A0G1f_LTs2XhYdbxvBjpCO_l7FDwp-0vI,2569
+faker_graphics/common.py,sha256=Lxc4dTM5udOa7aXZ-EqtahecPIIACiTXU0cUYZ4aqL8,391
+faker_graphics/compat.py,sha256=NU-3m9kUHIvVJ6dDDWzN9hGPWTfAyEJc-t9sLUlPZoE,401
+faker_graphics/drawing.py,sha256=PfKdZsrDX5TtU4oR8vODoQfjjfMM1MOX7tZxrsa7bTU,5245
+faker_graphics/randomcolor.py,sha256=HbuYjV8rHkS_fsae-1VOPIjg5ls2naUarRce0BH4KmE,7629
+faker_graphics/data/colormap.json,sha256=fthzynFTWVzvKZPn_sTFYueobIil755I1qmOJpPuJlw,2019
+faker_graphics-0.3.0.dist-info/entry_points.txt,sha256=-4lbi198NtKEY4BRnJhjycTpVirxbHXRSaFh3O_epX0,51
+faker_graphics-0.3.0.dist-info/LICENSE.txt,sha256=iPEdjo5mKHHES4PJqBp4HNBr-mcYVLGWFDBmAuWbapI,1111
+faker_graphics-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+faker_graphics-0.3.0.dist-info/METADATA,sha256=seZYiYpMvijKrDKR5DO9f8uKkocvgcen6GR-84N7vEk,5433
+faker_graphics-0.3.0.dist-info/RECORD,,

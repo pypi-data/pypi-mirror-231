@@ -1,0 +1,3 @@
+[console_scripts]
+fgr=faker_graphics.__main__:cli
+
