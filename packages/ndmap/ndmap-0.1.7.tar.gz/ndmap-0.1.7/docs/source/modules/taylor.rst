@@ -1,0 +1,2 @@
+.. automodule:: ndmap.taylor
+    :members:

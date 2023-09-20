@@ -1,0 +1,2 @@
+.. automodule:: ndmap.signature
+    :members:

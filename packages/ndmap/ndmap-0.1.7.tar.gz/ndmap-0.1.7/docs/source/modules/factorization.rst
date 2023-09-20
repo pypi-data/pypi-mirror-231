@@ -1,0 +1,2 @@
+.. automodule:: ndmap.factorization
+    :members:

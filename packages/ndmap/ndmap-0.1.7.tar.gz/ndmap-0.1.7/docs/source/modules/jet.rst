@@ -1,0 +1,2 @@
+.. automodule:: ndmap.jet
+    :members:
