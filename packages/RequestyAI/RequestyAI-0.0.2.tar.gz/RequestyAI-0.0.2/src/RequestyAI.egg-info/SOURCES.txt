@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/requestyai.py
+src/RequestyAI.egg-info/PKG-INFO
+src/RequestyAI.egg-info/SOURCES.txt
+src/RequestyAI.egg-info/dependency_links.txt
+src/RequestyAI.egg-info/top_level.txt
