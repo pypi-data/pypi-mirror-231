@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: anoseg
+Version: 0.0.2
+Summary: Anomaly Segmentation
+Author: Hendrik Meininger
+Author-email: H.Meininger@outlook.de
+Keywords: python,anomaly,segmentation,anomaly segmentation,dfc,padim,spade
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+
+A collection of Anomaly Segmentation methods and an interface for easy use.
