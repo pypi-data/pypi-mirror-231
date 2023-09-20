@@ -1,0 +1,11 @@
+fastq2bcl/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+fastq2bcl/cli.py,sha256=6bAOlaNu0SuzttYuFxwZn5cQG-8ji3US4hv-Alcitq0,9083
+fastq2bcl/parser.py,sha256=yykGBSTefzEJBto-pr8UMPz1aChpozxs_RoyDyas02U,1536
+fastq2bcl/reader.py,sha256=vT69CWAEc9BE1fsCOF0XYG8ysicKDyFyqeAbN0ZqZ-Y,3264
+fastq2bcl/writer.py,sha256=v9uCk3rjw1cW1YZyYv_6_dlBrrJtsfFlRvGJQoxA4BM,5599
+fastq2bcl-0.1.dist-info/LICENSE.txt,sha256=lhtridjfoqAF9NWUQblYISoGQdGmTJg477XYGE7OYKA,1082
+fastq2bcl-0.1.dist-info/METADATA,sha256=-1_1UNvN6zHRU8igA4fMAB6sdRbqWD1SpgaKBD5Ucuo,11887
+fastq2bcl-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fastq2bcl-0.1.dist-info/entry_points.txt,sha256=T0Pk_ON5Mx1Q9HYtGpMKOCwrWcW-3rJiKw7n_tEppOA,48
+fastq2bcl-0.1.dist-info/top_level.txt,sha256=rzf3idnyGwyDKKlRhkkTBVE3pUUV6RKPN50EtdrZpsw,10
+fastq2bcl-0.1.dist-info/RECORD,,
