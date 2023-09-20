@@ -1,0 +1,17 @@
+mattress>=0.0.7
+assorthead>=0.0.10
+numpy
+BiocFrame>=0.3.1
+biocutils
+igraph
+singlecellexperiment>=0.3.0
+summarizedexperiment
+delayedarray
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
