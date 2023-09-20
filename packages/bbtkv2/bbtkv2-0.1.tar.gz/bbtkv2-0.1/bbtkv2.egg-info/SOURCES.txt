@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./bbtkv2/__init__.py
+./bbtkv2/bbtkv2.py
+bbtkv2.egg-info/PKG-INFO
+bbtkv2.egg-info/SOURCES.txt
+bbtkv2.egg-info/dependency_links.txt
+bbtkv2.egg-info/requires.txt
+bbtkv2.egg-info/top_level.txt
