@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: grai_actions
+Version: 0.2.4
+Summary: 
+License: Elastic-2.0
+Author: Grai
+Author-email: ian@grai.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ghapi (>=1.0.3,<2.0.0)
+Requires-Dist: grai-client (>=0.3.0-alpha4,<0.4.0)
+Requires-Dist: grai-graph (>=0.2.4-alpha2,<0.3.0)
+Requires-Dist: pydantic (>=1.10.8,<2.0.0)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+grai-actions=grai_actions.main:main
+
