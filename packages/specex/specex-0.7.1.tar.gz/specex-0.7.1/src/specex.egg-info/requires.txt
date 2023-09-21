@@ -1,0 +1,14 @@
+numpy
+scipy
+astropy
+matplotlib
+
+[animations]
+imageio
+
+[regions]
+regions
+
+[test]
+pytest
+regions
