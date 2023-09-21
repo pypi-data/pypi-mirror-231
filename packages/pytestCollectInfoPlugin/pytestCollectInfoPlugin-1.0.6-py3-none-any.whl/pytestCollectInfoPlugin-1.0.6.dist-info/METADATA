@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pytestCollectInfoPlugin
+Version: 1.0.6
+Summary: Get executed interface information in pytest interface automation framework
+Requires-Dist: pytest
+Requires-Dist: importlib-metadata
+Requires-Dist: requests
+
