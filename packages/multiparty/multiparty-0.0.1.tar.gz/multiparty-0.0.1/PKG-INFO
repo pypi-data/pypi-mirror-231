@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: multiparty
+Version: 0.0.1
+Summary: 
+Author: Indent Inc
+Author-email: open@indent.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# multiparty
+
+Multiparty provides fine-grained, programmatically defined permissions to control sensitive operations performed by AI Agents, without brittle if statements.
+
+## Installation
+
+_Coming soon_
+
+```bash
+pip install multiparty
+```
+
