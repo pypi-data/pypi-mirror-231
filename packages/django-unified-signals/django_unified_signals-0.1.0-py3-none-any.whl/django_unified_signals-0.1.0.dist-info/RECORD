@@ -1,0 +1,7 @@
+unified_signals/__init__.py,sha256=I2l9Me5oGOaAV29s6OictHtE_xR1rafOBGRJ2a0RBqI,35
+unified_signals/exceptions.py,sha256=wzSkolmUp7Ud0jDYjRRrjVn1WznnkxBA322iKz11F7s,58
+unified_signals/signals.py,sha256=YQe35dJTHrDyPaIlVupYhk8cvUYDox8PKZrFKehzCYs,1737
+django_unified_signals-0.1.0.dist-info/LICENSE,sha256=LmYw8xcyDjXw0O8GSwSJKQfSCS7FK8MiYcDJK-iNy8s,1074
+django_unified_signals-0.1.0.dist-info/METADATA,sha256=V6anKrb_Otd2cyiY1ONmyvXkrggbxqgil7LjhZe0BVM,3725
+django_unified_signals-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_unified_signals-0.1.0.dist-info/RECORD,,
