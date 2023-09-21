@@ -1,0 +1,6 @@
+class GameRules(object):
+    EXPRESSION_PROHIBITED = 0
+    INTERACT_PROHIBITED = 1
+    SAME_IP_LIMIT = 2
+    GPS_LIMIT = 3
+    ASSOCIATES_PREVENT = 4

@@ -1,0 +1,9 @@
+pymysql
+redis
+pycore-utils
+flask-socketio
+gevent-websocket
+cryptography
+pycryptodome
+sqlalchemy
+protobuf
