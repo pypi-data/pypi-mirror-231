@@ -1,0 +1,6 @@
+pandas
+numpy
+requests
+tkinter
+customtkinter
+plotly
