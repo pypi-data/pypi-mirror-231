@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pytubemax/__init__.py
+pytubemax/version.py
+pytubemax.egg-info/PKG-INFO
+pytubemax.egg-info/SOURCES.txt
+pytubemax.egg-info/dependency_links.txt
+pytubemax.egg-info/requires.txt
+pytubemax.egg-info/top_level.txt
+pytubemax.egg-info/zip-safe
