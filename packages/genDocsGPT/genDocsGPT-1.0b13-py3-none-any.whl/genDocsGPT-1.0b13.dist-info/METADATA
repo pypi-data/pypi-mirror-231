@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: genDocsGPT
+Version: 1.0b13
+Summary: Generate API documentation in MarkDown based in the models and api handlers for given project using ChatGPT.
+Home-page: https://github.com/marco-rosner/genDocsGPT
+Author: Marco Rosner
+Author-email: marco.rosner@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/marco-rosner/genDocsGPT/issues
+Project-URL: repository, https://github.com/marco-rosner/genDocsGPT
+Keywords: generate,documentation,GPT,ChatGPT,genDocsGPT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai ==0.28.0
+Requires-Dist: pytest ==7.4.2
+Requires-Dist: python-dotenv ==0.19.2
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python Versions](https://img.shields.io/badge/Python-3.7%20|%203.8%20|%203.9%20|%203.10%20|%203.11-blue)](https://www.python.org) [![Test workflow](https://github.com/marco-rosner/genDocsGPT/actions/workflows/test.yml/badge.svg)](https://github.com/marco-rosner/genDocsGPT/actions/workflows/test.yml)
+
+## Generate Docs using ChatGPT
+
+Script to generate API documentation in MarkDown based in the models and api handlers for given project using ChatGPT.
+
+## ChatGPT API Key
+
+The script demand a ChatGPT API Key that you can generate after create your account in [OpenAI](https://www.openai.com/). Tutorial [here](https://www.maisieai.com/help/how-to-get-an-openai-api-key-for-chatgpt). After this, create a .env file in the following format:
+
+```
+API_KEY="chatgpt_api_Key"
+```
+
+## Usage
+
+```
+genDocsGPT [-h] [-v, --verbose] -m / --model <model_paths> -a / --api <api_paths> [-o / --output <filename>]
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbose         Show all the messages to debug
+  -m / --model <model_paths>
+                        Model paths. If more than one, separate with a comma
+  -a / --api <api_paths>
+                        API paths. If more than one, separate with a comma
+  -o / --output <filename>
+                        Filename to the documentation generated. Default: ./api.md
+  -t / --token <token>  ChatGPT API KEY
+  --env <filename>      Env file that MUST and ONLY have API_KEY="chatgpt_api_key". Default: ./.env
+
+We do not recommend using it in non-open-source projects.
+```
