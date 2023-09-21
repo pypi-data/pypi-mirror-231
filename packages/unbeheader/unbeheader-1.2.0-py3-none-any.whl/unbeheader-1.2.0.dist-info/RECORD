@@ -1,0 +1,11 @@
+unbeheader/__init__.py,sha256=4RAiTtX-74mqj5NUOzoxlt9BfKgzVT9ljGXLCxwcyB4,1159
+unbeheader/cli.py,sha256=mq8fnu1IoyupLkaRvRnzNH8i5j3hQNE6U0Yw6wSkJ7A,4288
+unbeheader/config.py,sha256=oOoH394DWKOoEoIo90RzdQuzy3XCuqPqvdY3dPpMf7w,2182
+unbeheader/headers.py,sha256=ohSaSWd6Z7WPVbEz1qI0Cc-etpKjtNDSfO5Fij2lD98,3891
+unbeheader/typing.py,sha256=m8rnpx7NJmIPuloLKpQC9LZEu8BEMaTyygwWZ6AXsRU,795
+unbeheader/util.py,sha256=GSXTz7OAOvku0NqEPNolOV1n7uMH9UcWimXeI_fkxVs,1839
+unbeheader-1.2.0.dist-info/LICENSE,sha256=UvkYI6rLKwxlLrvrVUymCPtSZo6v7SkAoe4d5GjFAO8,1139
+unbeheader-1.2.0.dist-info/METADATA,sha256=vFPEpqJTlnkjgrURQLXilAsR6jd4kWvaldliRZcS7lE,7554
+unbeheader-1.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+unbeheader-1.2.0.dist-info/entry_points.txt,sha256=kqMxkfvt7iINgVjInrBVKFX1oXAqg62oEfW0-9HGL1g,48
+unbeheader-1.2.0.dist-info/RECORD,,
