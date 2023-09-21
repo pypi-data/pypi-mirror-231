@@ -1,0 +1,13 @@
+agit/config.py,sha256=f9X2Uisxuv-8WxE3HYKvpqKSIjeJAF7bUKbEjWh3qEQ,4424
+agit/logger.py,sha256=jjyfO1pf4AdOqBxkigaUPeFT_6D4EWEv377fH-emaOc,1420
+agit/main.py,sha256=kIAYeuOn25BattgrWgzm55fzwx6s9lfXzpkvaS9vBhM,5296
+agit/openai_api.py,sha256=TsZKNgT9BkiHZl6HjmnyqKbFUwqI5BbDGLlHjihZUps,4135
+agit/os_iface.py,sha256=k_wbnVZoabESxtNO73rWm0NB28bIcdwIEcBO6HIeaH8,2234
+agit/security.py,sha256=w-ADZkkevJBt1ihAnos78PVQLCfii9cAmXP8E-MrTSY,1195
+agit/selfdocument.py,sha256=sa519WdoZCo3kO_d9SQr7DX3N1A8iIAh2inqSAiAPCY,2029
+agit/util.py,sha256=NUCTuHAsFe4XF8gtEua22wIS34gamHhB9lK-6Ref3q0,4944
+microagi_git-0.0.1.dist-info/LICENSE.txt,sha256=PGEBOtgiLhUwKxxE_orV0c80s3ZNo8ZDtgfLO6zeKHQ,35523
+microagi_git-0.0.1.dist-info/METADATA,sha256=nTG2xAhqMyVkPU_3rqMZiPNHNHr5yn7_knIWvdCmKP0,2451
+microagi_git-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+microagi_git-0.0.1.dist-info/entry_points.txt,sha256=yD2irpmLZiB6Ifd7M0Mkk19hFSKvNRru8sKvjFFGFiI,45
+microagi_git-0.0.1.dist-info/RECORD,,
