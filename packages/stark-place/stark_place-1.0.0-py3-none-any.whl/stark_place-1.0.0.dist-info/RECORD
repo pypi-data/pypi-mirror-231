@@ -1,0 +1,9 @@
+stark_place/commands/__init__.py,sha256=jTCCV1Z08IkBWA2BHi0ZwE3Gm5QQBy3FlbkX9BuGiYU,45
+stark_place/commands/general_manager.py,sha256=GDEMcD2U9wr3J7ZDQ2DG_HmRW9f7fcgLG6lr5uQk-gY,102
+stark_place/examples/context.py,sha256=M3hyqI1gEnIeDRAuco9P8jnbVO4nx98TP9xSv36DJbs,1172
+stark_place/examples/custom_run.py,sha256=wGHdJMmgaWDF8k3UAzuHjytfC_Ijm4_rUQmHwAJy8-M,1823
+stark_place/examples/hello_world.py,sha256=eR2UePZPiQegX68dVzS5rJMf_3gS1j_NTeVx0AU0yj4,687
+stark_place-1.0.0.dist-info/LICENSE.md,sha256=ejESbXrfM0zNy-_TXC_pglTbdGETxrgOmUOxgA02_Dk,19089
+stark_place-1.0.0.dist-info/METADATA,sha256=Nv0cFWzWcJdHbgqoN9mS0LjWGmLjR_kX7Qxo0v5uAJc,1107
+stark_place-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stark_place-1.0.0.dist-info/RECORD,,
