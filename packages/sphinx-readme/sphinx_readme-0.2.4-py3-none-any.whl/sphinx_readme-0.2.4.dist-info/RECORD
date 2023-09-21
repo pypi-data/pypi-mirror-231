@@ -1,0 +1,14 @@
+sphinx_readme/__init__.py,sha256=yv5BAIerq_iEaXUJcvFGabSyvC1wvFnc0Sg5Shw8Zv8,1768
+sphinx_readme/config.py,sha256=Xey-F4EUXyuQQlxbdeDhSrU7mH2lmoYPbRPwJrdKvgg,12043
+sphinx_readme/parser.py,sha256=N9V69x85t8FAmX447IdZcjlOwYUFpsY_nvQVPv0s8mk,27218
+sphinx_readme/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_readme/utils/docutils.py,sha256=eWSRkE1IXALmELQg9KQ4E3j5VKtLmdoTWAcxHf1_pQw,603
+sphinx_readme/utils/git.py,sha256=q-LR-01JRR2TPX1T3SWL_YeUBDnPwpFbfizWvvTiff0,4648
+sphinx_readme/utils/linkcode.py,sha256=k81EcnbrbpYS9ClyqOGXjr1Up3V6ik76Lh5CrQuR1ps,3727
+sphinx_readme/utils/rst.py,sha256=5iJdM9tWqeDf6wxIwo70EHA5uOR7OrTBsyz7aB5zVz8,7871
+sphinx_readme/utils/sphinx.py,sha256=RLvBiLmkp5viL8lJynHGgPgvn2vs5srqIln6bs4pZqs,810
+sphinx_readme-0.2.4.dist-info/LICENSE,sha256=FXznRvcAhrbx7PU76Jl4kjvO3YYP5aJfff0RX-Run4U,1084
+sphinx_readme-0.2.4.dist-info/METADATA,sha256=Tv4LpvL8NuV6PT4uS_1E3p1LtSAteE2YHaIyzJnX4Gk,9395
+sphinx_readme-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sphinx_readme-0.2.4.dist-info/top_level.txt,sha256=aGvHPPvJMfG2j3F1OBhRSuEoUDJAeq6RTvVLTKDVf54,14
+sphinx_readme-0.2.4.dist-info/RECORD,,
