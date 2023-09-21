@@ -1,0 +1,17 @@
+modelangelo/__init__.py,sha256=jRzNHgIWBG0sxX_UeQQr4FGd6v21X9V6LoqUAz_dJDU,4536
+modelangelo/bibtex.py,sha256=C04MtnLH6SYjUO2dU9A-QM8fPHONMZWBPiVwHx8lULs,1537
+modelangelo/constants.py,sha256=sCLsxxI0E8buODf9NCNNwM9tm3NjOzdMqIXmtoc4tz0,1553
+modelangelo/logo.jpeg,sha256=m92_E4ydr-tTlZwUTSf7puxsEDFHIkLWf6obEz9sqiI,26218
+modelangelo/protocols.conf,sha256=kJUfRwoGu05MeCxxh0xc0z6pcvSTCl2v6JjmDqYTl3Y,203
+modelangelo/protocols/__init__.py,sha256=MZuYEvoV79uyEm6wC9ddisrgQo9UClYpw8vVD4Ujo5c,1114
+modelangelo/protocols/protocol_model_angelo.py,sha256=kO_rJ-u2o195OTmNXYTIsjleU-zOTkAYSnCAKec3EsM,8552
+modelangelo/tests/__init__.py,sha256=HzJUytpeJDi_tyF8JkSiwKJDKU-wiFYIjmimiSOaDD4,1121
+modelangelo/tests/tests_model_angelo.py,sha256=TfrVTOWUEOj9zcvSB6mpXbA5_2klKe2u__hDTCj6i5s,3534
+modelangelo/viewers/__init__.py,sha256=yzLUcWy91UPAUu85rBpsMyXwvgNITehpBKHUfMxiQLw,1115
+modelangelo/viewers/viewer.py,sha256=Hoq9UF0dZrz-jjxF2YGCRBphsYgh9u7hlEpCw8swcO0,3702
+scipion_em_modelangelo-3.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+scipion_em_modelangelo-3.1.dist-info/METADATA,sha256=y8S5BkeiQUU6b5LFB1TbhSjyReL2jc-86hyfrCnwSv4,2616
+scipion_em_modelangelo-3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scipion_em_modelangelo-3.1.dist-info/entry_points.txt,sha256=wVEPhUgF9o_A-1L76GMouQOY2Xe8u11jh0B-adnBrTU,47
+scipion_em_modelangelo-3.1.dist-info/top_level.txt,sha256=9t6dA5n9ZSsj-1vOv_RD3IIx_VT8rZMB8G-sqOX0NG0,12
+scipion_em_modelangelo-3.1.dist-info/RECORD,,
