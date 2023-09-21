@@ -1,0 +1,8 @@
+click>=8.1
+boto3>=1.28
+boto3-stubs[ec2,iam,ssm]>=1.28
+yaspin>=2.5
+tabulate>=0.9
+
+[tests]
+pytest
