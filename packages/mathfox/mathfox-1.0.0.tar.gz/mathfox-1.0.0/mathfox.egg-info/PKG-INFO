@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mathfox
+Version: 1.0.0
+Summary: A library with math functions to help Python developers with their projects.
+Author: Brian Braga Cavalcante
+Author-email: brianbragacavalcantex@gmail.com
+License: MIT License
+Keywords: math
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# MathFox
+
+A library with math functions to help **Python** developers with their projects.
