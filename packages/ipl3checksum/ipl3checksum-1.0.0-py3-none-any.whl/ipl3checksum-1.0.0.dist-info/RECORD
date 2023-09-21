@@ -1,0 +1,9 @@
+ipl3checksum/__init__.py,sha256=ywoI7aYK3HpTpZG55dZfP4f8XtNt1KS807UZv_UGsOI,585
+ipl3checksum/checksum.py,sha256=HFCamwKg90oOBfA-_cr1zHq3oC0SjD6KqFjMXG9AMVs,4448
+ipl3checksum/cickinds.py,sha256=GRn0_xURy1YIYls0n_XifeSSzEuMIWWWXxspYeDvQVg,2402
+ipl3checksum/detect.py,sha256=Jc5n0vM4U3XKxjH8P8c4IZDPTrdx7xYa7dPVU8UXm6Q,1213
+ipl3checksum/utils.py,sha256=yDihjSIXxMt8raFFNpvwgz8Z5FW6iIlBSp2wb9ZZ-Jw,302
+ipl3checksum-1.0.0.dist-info/METADATA,sha256=YwZrzigwR3NlHfCrsuUmWSINoPK3C5C6O09Rg4OPsgE,3505
+ipl3checksum-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ipl3checksum-1.0.0.dist-info/licenses/LICENSE,sha256=_32FT6ufDPzso8XV46MT1LrXwQYGXKDhUrwO78o-jQM,1073
+ipl3checksum-1.0.0.dist-info/RECORD,,
