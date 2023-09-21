@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+barcodejun/__init__.py
+barcodejun/barcode.py
+barcodejun/data.py
+barcodejun/file_type.py
+barcodejun/install.py
+barcodejun/type.py
+barcodejun/vers.py
+barcodejun.egg-info/PKG-INFO
+barcodejun.egg-info/SOURCES.txt
+barcodejun.egg-info/dependency_links.txt
+barcodejun.egg-info/top_level.txt
+tests/test_barcode.py
+tests/test_barcode_generate.py
