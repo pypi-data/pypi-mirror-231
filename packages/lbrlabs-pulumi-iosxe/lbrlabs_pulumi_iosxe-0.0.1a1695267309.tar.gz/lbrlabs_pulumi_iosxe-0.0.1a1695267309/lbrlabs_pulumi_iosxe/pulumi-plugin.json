@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "iosxe",
+  "server": "github://api.github.com/lbrlabs"
+}
