@@ -1,0 +1,44 @@
+image: python:3.8
+
+stages:
+- test
+- lint
+- deploy
+
+tests:
+  stage: test
+  script:
+    - pip install tox
+    - tox -e test
+
+lint:
+  stage: lint
+  script: 
+    - pip install tox
+    - tox -e codestyle
+
+pypi:
+  stage: deploy
+  before_script:
+    - python3 -m pip install --upgrade twine
+    - python3 -m pip install --upgrade build    
+    - rm -rf dist
+  variables:
+    TWINE_USERNAME: $PYPI_USERNAME
+    TWINE_PASSWORD: $PYPI_PASSWORD
+  script:
+    # - echo "[distutils]" >> ~/.pypirc
+    # - echo "index-servers =" >> ~/.pypirc
+    # - echo "    nexus" >> ~/.pypirc
+    # - echo "" >> ~/.pypirc
+    # - echo "[nexus]" >> ~/.pypirc
+    # - echo "${PYPI_REPO}" >> ~/.pypirc
+    # - echo "${PYPI_USER}" >> ~/.pypirc
+    # - echo "${PYPI_PASSWORD}" >> ~/.pypirc
+    - python3 -m build
+    - python3 -m twine check dist/*
+    - python3 -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*    
+    # - python3 setup.py sdist bdist_wheel
+    # - twine upload -r nexus dist/*.tar.gz
+  only:
+    - tags
