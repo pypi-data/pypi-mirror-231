@@ -1,0 +1,16 @@
+budg/__init__.py,sha256=RCVeh_-z0OxbGyxhNxVqizIt7jRvtjrCx2-W-5cfcqA,364
+budg/__main__.py,sha256=87CRno0pqNn1Rkh6WFz-WWJGBIy8VaTm4tfY9LdNEqA,88
+budg/config.py,sha256=RZgDtXZ7Ld4w1rSymQS0LwPo7wSB1hnUefzFSd2I6Zw,5314
+budg/dataclassfromdict.py,sha256=EV2K_DJW-CzRWOygQd0DBMDT1dTjyRxXnipfaayqU0A,1163
+budg/decoders.py,sha256=oTBhRLHYp2SZPMbPVwt23Ra2ilmlCFO_adit2I480tA,1190
+budg/exit.py,sha256=urEZPxcJmBkJO2PAnW-RL0JZVfXP_GxhrDAi8c5queI,1365
+budg/importer.py,sha256=TwVhO9fV8vPzVhwkI1U-GM9H9S2PZScqQZO-J6ueYak,1142
+budg/main.py,sha256=AtpOLgxkFok3awSKXXjhKJGSyQ5RT7h24vY_wyJuUUU,3779
+budg/plugins/__init__.py,sha256=2vpYrZPrkyxOqLbZ4ETTw4LDaTU1A35brDVfnfzhRuU,1056
+budg/plugins/copier.py,sha256=EoeMBNQ3qYT3btUaUSrU50b6cJW5skRwTdtR3DB0Ybw,1342
+budg-1.0.0.dist-info/LICENSE,sha256=FSIU26fpVLLkuq0-VMOfi42d8Ax_5B8A2WxyBWMLY7Q,664
+budg-1.0.0.dist-info/METADATA,sha256=yiUB9j8m2xUBhSPUi2PW0diH2J1IGiaO1wWtXS_vP_s,3190
+budg-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+budg-1.0.0.dist-info/entry_points.txt,sha256=2pGc0tbSvKXKG4hZJ0bC3BdBEZKexFQ70h4QvKGcerc,40
+budg-1.0.0.dist-info/top_level.txt,sha256=ymmcoob1FwSj7B-MTvFYAUOe1s0xDlP8qQgPMSLBtxI,5
+budg-1.0.0.dist-info/RECORD,,

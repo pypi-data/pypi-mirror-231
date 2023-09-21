@@ -1,0 +1,2 @@
+[console_scripts]
+budg = budg.main:main
