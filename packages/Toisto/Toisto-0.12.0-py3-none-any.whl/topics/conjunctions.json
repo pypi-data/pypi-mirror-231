@@ -1,0 +1,53 @@
+{
+    "and": {
+        "level": {
+            "A1": [
+                "EP",
+                "KK",
+                "OD"
+            ]
+        },
+        "topics": [
+            "CN1.1",
+            "SM1.1"
+        ],
+        "en": "and",
+        "fi": [
+            "entä",
+            "ja"
+        ],
+        "nl": "en"
+    },
+    "because": {
+        "level": {
+            "A1": [
+                "EP",
+                "KK",
+                "OD"
+            ]
+        },
+        "topics": "SM1.2",
+        "en": "because",
+        "fi": "koska",
+        "nl": [
+            "omdat;;'omdat' is a subordinating conjunction, followed by a clause in inverted order: subject-object-verb. For example, 'Ik ga naar huis omdat ik moe ben'",
+            "want;;'want' is a coordinating conjunction, followed by a clause in normal subject-verb-object order. For example, 'Ik ga naar huis want ik ben moe'"
+        ]
+    },
+    "but": {
+        "level": {
+            "A1": [
+                "EP",
+                "KK",
+                "OD"
+            ]
+        },
+        "topics": [
+            "CN1.1",
+            "SM1.2"
+        ],
+        "en": "but",
+        "fi": "mutta",
+        "nl": "maar"
+    }
+}
