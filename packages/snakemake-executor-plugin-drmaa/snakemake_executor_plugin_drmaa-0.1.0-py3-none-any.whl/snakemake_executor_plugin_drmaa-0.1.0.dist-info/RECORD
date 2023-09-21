@@ -1,0 +1,5 @@
+snakemake_executor_plugin_drmaa/__init__.py,sha256=SjuODVx4_x1kUsVo17tBf1FQ6okZ1x-bGv77qmR79xY,9396
+snakemake_executor_plugin_drmaa-0.1.0.dist-info/LICENSE,sha256=YVc4xTLWMqGfFL36120k7rzXtsT6e4RkJsh68VVn12s,1076
+snakemake_executor_plugin_drmaa-0.1.0.dist-info/METADATA,sha256=HkDpIWR_XZIB_tc2hcIicW43Ex9Hj9_0yh4hfud6Imw,745
+snakemake_executor_plugin_drmaa-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+snakemake_executor_plugin_drmaa-0.1.0.dist-info/RECORD,,
