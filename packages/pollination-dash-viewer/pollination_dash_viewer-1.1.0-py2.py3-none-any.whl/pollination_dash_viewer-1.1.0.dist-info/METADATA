@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pollination-dash-viewer
+Version: 1.1.0
+Summary: Dash Viewer for Pollination
+Home-page: https://github.com/pollination/pollination-dash-viewer
+Author: Ladybug Tools <info@ladybug.tools>
+Author-email: info@ladybug.tools
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: dash (>=2.5.1)
+
+Dash Viewer for Pollination
+

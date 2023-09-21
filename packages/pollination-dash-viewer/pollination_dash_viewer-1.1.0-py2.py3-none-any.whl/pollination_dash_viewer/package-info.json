@@ -1,0 +1,42 @@
+{
+  "name": "pollination_dash_viewer",
+  "version": "1.0.0",
+  "description": "Dash Viewer for Pollination",
+  "main": "index.ts",
+  "scripts": {
+    "build:js::dev": "webpack --mode development",
+    "build:js": "webpack",
+    "build:backends": "dash-generate-components ./src/ts/components pollination_dash_viewer -p package-info.json --r-prefix '' --jl-prefix '' --ignore \\.test\\.",
+    "build": "npm run build:js && npm run build:backends",
+    "watch": "npm run build:js::dev -- --watch"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "css-loader": "^6.7.1",
+    "npm-run-all": "^4.1.5",
+    "ramda": "^0.28.0",
+    "react": "^17.0.2",
+    "react-docgen": "^5.4.0",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "author": "Ladybug Tools <info@ladybug.tools>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "antd": "^5.6.2",
+    "css-modules-typescript-loader": "^4.0.1",
+    "lodash.debounce": "^4.0.8",
+    "lodash.isequal": "^4.5.0",
+    "pollination-viewer": "^0.23.2",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2"
+  }
+}
