@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hypercurrent-metering
+Version: 1.0.0
+Summary: HyperCurrent Metering API
+Home-page: 
+Author-email: info@hypercurrent.io
+Keywords: Swagger,HyperCurrent Metering API
+
+    HyperCurrent Metering API  # noqa: E501
+    
