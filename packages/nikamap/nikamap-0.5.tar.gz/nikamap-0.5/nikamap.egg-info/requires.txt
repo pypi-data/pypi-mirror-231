@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+astropy
+photutils
+scikit_image
+powspec
+reproject
