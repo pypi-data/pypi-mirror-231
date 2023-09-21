@@ -1,0 +1,12 @@
+plover_palantype_DE/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_palantype_DE/system.py,sha256=CLrZ1XMZCQLDXiladzi3OjMRHVtnqmVA_Krki5w1R2s,1440
+plover_palantype_DE/dictionaries/palantype-DE-extra.json,sha256=bx1ni-3-IWlQgj1MOtQUi03dypymwwIadle1ynCfN0o,19180
+plover_palantype_DE/dictionaries/palantype-DE-min.json,sha256=gJMd2sxk4T0L0BfayYPBkbgGp2Rt7MnRD6aPS2uFJ4I,88520763
+plover_palantype_DE/dictionaries/palantype-DE-numbers.json,sha256=HxS6ZsxxULWTooZ6meS03Pty8dCmHCNe4-bGxriUdjg,177591
+plover_palantype_DE/dictionaries/palantype-DE.json,sha256=vlIQCCaa-XigJoUcyujq9Z-BHmzgUK97B9WMNyVlUNI,497081410
+plover_palantype_DE-1.1.1.dist-info/METADATA,sha256=rC3lNt3kuQ6Ibr9r9EQcNVUKaWpTOqVejJKaom1AyxA,4553
+plover_palantype_DE-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+plover_palantype_DE-1.1.1.dist-info/entry_points.txt,sha256=emScv7Nc6WHicrd43_6xzvC2QUyByojrVn7mF82LXTA,58
+plover_palantype_DE-1.1.1.dist-info/top_level.txt,sha256=I6M2SFmRjakGS7dUoJpiYnYscIZewp7wd8NCHEFH4JI,20
+plover_palantype_DE-1.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_palantype_DE-1.1.1.dist-info/RECORD,,
