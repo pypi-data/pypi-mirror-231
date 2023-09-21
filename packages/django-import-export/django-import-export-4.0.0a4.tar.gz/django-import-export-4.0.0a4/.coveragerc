@@ -1,0 +1,7 @@
+[run]
+branch = False
+source =
+  import_export
+parallel = True
+omit =
+  __init__.py
