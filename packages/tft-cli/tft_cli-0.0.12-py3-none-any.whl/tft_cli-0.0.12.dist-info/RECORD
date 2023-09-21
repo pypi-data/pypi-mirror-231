@@ -1,0 +1,10 @@
+tft/cli/__init__.py,sha256=uEJkNJbqC583PBtNI30kxWdeOr3Wj6zJzIYKf0AD72I,92
+tft/cli/commands.py,sha256=V4c89BudmS0YihxZRPIm6119Ltr4GDXFlMIfG0gwAaI,40300
+tft/cli/config.py,sha256=zqakqm4h4A1nbCaZVrIPji0EXc7pRVgNohvDwzn0wSk,842
+tft/cli/tool.py,sha256=7EYSCrA_CU3pep4op8eOK6PhBi4pVnl0Hts-8GRGveM,546
+tft/cli/utils.py,sha256=bIkzlKuWIgNB6g-pBlE1QAaEwLjP5yITbVQ3s-DQ0Hs,5648
+tft_cli-0.0.12.dist-info/LICENSE,sha256=YpVAQfXkIyzQAdm5LZkI6L5UWqLppa6O8_tgDSdoabQ,574
+tft_cli-0.0.12.dist-info/METADATA,sha256=3oem9Px_6-gpeZ35ups_68bSk5_O7hJOt-dqCNydfM0,659
+tft_cli-0.0.12.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tft_cli-0.0.12.dist-info/entry_points.txt,sha256=xzdebHkH5Bx-YRf-XPMsIoVpvgfUqqcRQGuo8DFkiao,49
+tft_cli-0.0.12.dist-info/RECORD,,
