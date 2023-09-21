@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+souptools/__init__.py
+souptools/__meta__.py
+souptools/css_match.py
+souptools/css_parser.py
+souptools/css_types.py
+souptools/pretty.py
+souptools/util.py
+souptools.egg-info/PKG-INFO
+souptools.egg-info/SOURCES.txt
+souptools.egg-info/dependency_links.txt
+souptools.egg-info/top_level.txt
