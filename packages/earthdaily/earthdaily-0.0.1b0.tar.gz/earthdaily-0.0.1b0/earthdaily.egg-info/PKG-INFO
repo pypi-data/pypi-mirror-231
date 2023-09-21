@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: earthdaily
+Version: 0.0.1b0
+Summary: earthdaily: easy authentication, search and retrieval of Earth Data Store collections data
+Home-page: UNKNOWN
+Author: EarthDaily Agro
+License: Commercial
+Keywords: Earth Data Store,earthdaily,earthdailyagro,stac
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
