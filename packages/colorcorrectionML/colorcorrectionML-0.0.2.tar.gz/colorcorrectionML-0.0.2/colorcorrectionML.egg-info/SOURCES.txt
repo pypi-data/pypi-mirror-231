@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+ColorCorrectionML/ColorCorrectionML.py
+ColorCorrectionML/__init__.py
+ColorCorrectionML/reference_values.py
+colorcorrectionML.egg-info/PKG-INFO
+colorcorrectionML.egg-info/SOURCES.txt
+colorcorrectionML.egg-info/dependency_links.txt
+colorcorrectionML.egg-info/requires.txt
+colorcorrectionML.egg-info/top_level.txt
