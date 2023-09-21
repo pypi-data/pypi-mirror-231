@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jaguardb
+Version: 3.3.6
+Summary: Python3 client for Jaguar vector database
+Home-page: http://www.jaguardb.com
+Author: Jonathan Yue
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.0
+
+UNKNOWN
+

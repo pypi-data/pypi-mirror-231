@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.cfg
+setup.py
+example/README.md
+example/test.sh
+example/vector_similarity.py
+jaguardb.egg-info/PKG-INFO
+jaguardb.egg-info/SOURCES.txt
+jaguardb.egg-info/dependency_links.txt
+jaguardb.egg-info/top_level.txt
+shared_library/jaguarpy.so
+shared_library/libJaguarClient.so
