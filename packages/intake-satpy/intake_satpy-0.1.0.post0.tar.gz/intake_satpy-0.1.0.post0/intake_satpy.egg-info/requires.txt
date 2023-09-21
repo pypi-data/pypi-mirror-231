@@ -1,0 +1,6 @@
+intake
+intake-xarray
+satpy
+
+[tests]
+pytest

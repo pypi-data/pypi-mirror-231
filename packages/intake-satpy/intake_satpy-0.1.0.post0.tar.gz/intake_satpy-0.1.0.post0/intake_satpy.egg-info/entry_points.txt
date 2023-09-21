@@ -1,0 +1,2 @@
+[intake.drivers]
+satpy = intake_satpy.generic:SatpySource
