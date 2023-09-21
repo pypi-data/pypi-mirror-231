@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+OptiGuide.egg-info/PKG-INFO
+OptiGuide.egg-info/SOURCES.txt
+OptiGuide.egg-info/dependency_links.txt
+OptiGuide.egg-info/requires.txt
+OptiGuide.egg-info/top_level.txt
+optiguide/__init__.py
+optiguide/optiguide.py
+optiguide/version.py
