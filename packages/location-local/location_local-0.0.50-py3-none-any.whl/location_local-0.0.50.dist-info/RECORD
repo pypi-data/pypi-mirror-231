@@ -1,0 +1,12 @@
+location_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+location_local/country.py,sha256=1aCpjKTEPqt60QVrPQjwDJNlYd-Qd5iBpLFjAgMVXrU,4280
+location_local/county.py,sha256=GbocBoapt_wkQua0ACCFVNAGzvyp9gZe6y8UCqq8smI,2426
+location_local/location_local_constants.py,sha256=7Fp-mYEDXHvmBGZEH2kDfKD10H0MnSfwxEJxWZleO0k,1671
+location_local/location_local_crud.py,sha256=q8P5AAiyBMn5PzxZ9sKrZmGGcT7ExARVOviwFfTQJWU,10071
+location_local/neighborhood.py,sha256=Ik2GHxOc0TYijtjcHpJ9h7sCcBDt9sp3D_1HlxqHsxU,2608
+location_local/region.py,sha256=XJ3YHsQ-I0943x3s3MTZUQYCLbsCq4VfPwMnoBjU95M,2425
+location_local/state.py,sha256=cOsg6-hW61to68yhzhqmeK54iZwSnpBHpN9wG7U--nI,2410
+location_local-0.0.50.dist-info/METADATA,sha256=sLuVty50X6VgZbHYyJIpyzOiwV3zNsiK9erRCpBu_1U,826
+location_local-0.0.50.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+location_local-0.0.50.dist-info/top_level.txt,sha256=acwZ4_8edwR8vfjr4SWxtf5DUqRuSKtxxiDVP31zKQs,15
+location_local-0.0.50.dist-info/RECORD,,
