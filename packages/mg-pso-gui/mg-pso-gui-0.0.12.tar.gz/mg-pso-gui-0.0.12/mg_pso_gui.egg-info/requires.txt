@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+tk
+customtkinter
+plotly
+csip
+csip-cosu
+kaleido
