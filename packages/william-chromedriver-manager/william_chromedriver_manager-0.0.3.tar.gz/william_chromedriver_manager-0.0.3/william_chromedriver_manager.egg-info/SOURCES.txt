@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+william_chromedriver_manager/__init__.py
+william_chromedriver_manager/core.py
+william_chromedriver_manager/get_chrome_version.py
+william_chromedriver_manager/logger.py
+william_chromedriver_manager.egg-info/PKG-INFO
+william_chromedriver_manager.egg-info/SOURCES.txt
+william_chromedriver_manager.egg-info/dependency_links.txt
+william_chromedriver_manager.egg-info/requires.txt
+william_chromedriver_manager.egg-info/top_level.txt
