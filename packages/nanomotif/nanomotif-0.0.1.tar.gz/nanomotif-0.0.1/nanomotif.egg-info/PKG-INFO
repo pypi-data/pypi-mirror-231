@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nanomotif
+Version: 0.0.1
+Summary: Identifying methlyation motifs in nanopore data
+Author: AAU_DarkScience
+Author-email: shei@bio.aau.com
+License: MIT
+License-File: LICENSE
