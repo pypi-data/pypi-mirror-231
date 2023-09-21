@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: investingfetcher
+Version: 0.1.0
+Summary: 
+Author: Iaroslav Plaksin
+Author-email: gotaatr@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: pylint (>=2.17.5,<3.0.0)
+Requires-Dist: zenrows (>=1.3.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# 📈 PyInvestingDataFetcher
+
+A simple Python library to fetch equity data from investing.com.
+
+Disclaimer: I created this library for fun and learning. I'm not sure about the proper ways to utilize this data. Maybe it's useful for someone out there! 🤷‍♂️ Also, I haven't checked the terms of service of investing.com closely, so using this might not align with their policies. Please ensure you're in compliance before using! 🚫
+📜 Table of Contents
+
+📜 Table of Contents
+
+1. Installation
+2. Usage
+3. Configuration
+4. Contributing
+5. License
+
+# 🛠 Installation
+
+To install the library, just do:
+```sh
+
+pip install PyInvestingDataFetcher
+
+```
+
+# 🚀 Usage
+
+Fetching data is a breeze with PyInvestingDataFetcher. Here's how:
+
+```python
+from investingfetcher.equity import Equity
+from investingfetcher.fetchers import LazyEquityFetcher
+
+if __name__ == "__main__":
+    fetcher = LazyEquityFetcher('api_key.config', as_single_df=True)
+    res = fetcher[Equity.tesla]
+
+```
+
+Replace Equity.tesla with your desired equity name and see the magic! 🎩✨
+# ⚙ Configuration
+
+Remember to set up your api_key.config with the necessary keys and configurations to access investing.com data.
+api_key.config should look like this:
+```sh
+api_key=[your_api_key_here]
+```
+
