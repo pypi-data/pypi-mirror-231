@@ -1,0 +1,2 @@
+[console_scripts]
+torchmenu = torchmenu.cli:main
