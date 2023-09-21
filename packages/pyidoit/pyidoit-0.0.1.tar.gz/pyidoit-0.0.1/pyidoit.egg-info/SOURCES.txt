@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyidoit/__init__.py
+pyidoit/client.py
+pyidoit/exceptions.py
+pyidoit/model.py
+pyidoit/utils.py
+pyidoit.egg-info/PKG-INFO
+pyidoit.egg-info/SOURCES.txt
+pyidoit.egg-info/dependency_links.txt
+pyidoit.egg-info/requires.txt
+pyidoit.egg-info/top_level.txt
+tests/test_categories.py
+tests/test_idoit.py
+tests/test_objects.py
