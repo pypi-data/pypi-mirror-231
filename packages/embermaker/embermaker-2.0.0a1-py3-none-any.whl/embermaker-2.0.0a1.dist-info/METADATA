@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: embermaker
+Version: 2.0.0a1
+Summary: Software library to (re)produce burning ember and related diagrams of the style used in IPCC reports
+Home-page: https://framagit.org/marbaix/embermaker
+License: GPL-3.0-or-later
+Keywords: climate change,impacts,IPCC,burning embers
+Author: Philippe Marbaix
+Author-email: philippe.marbaix@uclouvain.be
+Maintainer: Philippe Marbaix
+Maintainer-email: philippe.marbaix@uclouvain.be
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Flask (>=2.3.3,<2.4.0)
+Requires-Dist: Markdown (>=3.4.3,<3.5.0)
+Requires-Dist: Werkzeug (>=2.3.6,<2.4.0)
+Requires-Dist: defusedxml (>=0.7.1,<0.8.0)
+Requires-Dist: numpy (>=1.26.0,<1.27.0)
+Requires-Dist: openpyxl (>=3.1.0,<3.2.0)
+Requires-Dist: pdf2image (>=1.16.3,<1.17.0)
+Requires-Dist: reportlab (>=4.0.4,<4.1.0)
+Requires-Dist: svg-py (>=1.4.2,<1.5.0)
+Description-Content-Type: text/markdown
+
+EmberMaker
+==========
+
+Purpose
+-------
+EmberMaker is a cientific graphic library aimed at (re)producing "burning ember" diagrams 
+of the style used in IPCC (Intergovernmental Panel on Climate Change) reports.
+
+EmberMaker was formerly a part of the EmberFactory project. It is now a separated project, which provides an API for
+drawing burning ember and related diagrams. Future versions of the EmberFactory (starting at 2.0) will likely use the
+EmberMaker API, limiting themselves to the web interface. 
+
+How to use
+----------
+
+Development history
+-------------------
+The EmberFactory software was created by philippe.marbaix -at- uclouvain.be at the end of 2019.
+The first objective was to produce figure 3 of Zommers et al. 2020 ([doi.org/10/gg985p](https://doi.org/10/gg985p)).
+
+Dedication
+----------
+Will be included in the final version.
+
