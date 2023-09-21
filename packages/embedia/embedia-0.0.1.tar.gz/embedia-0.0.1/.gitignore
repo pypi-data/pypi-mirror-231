@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.DS_Store
+.mypy_cache/
+ignore/
+.coverage
+temp/
+htmlcov/
+env/
+.ruff_cache/
