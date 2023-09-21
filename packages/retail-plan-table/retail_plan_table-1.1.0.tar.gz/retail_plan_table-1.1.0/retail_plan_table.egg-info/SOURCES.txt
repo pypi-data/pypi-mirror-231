@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+retail_plan_table.egg-info/PKG-INFO
+retail_plan_table.egg-info/SOURCES.txt
+retail_plan_table.egg-info/dependency_links.txt
+retail_plan_table.egg-info/requires.txt
+retail_plan_table.egg-info/top_level.txt
+retain_plan_table/__init__.py
