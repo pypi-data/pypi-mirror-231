@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.rst
+configparserc.pyx
+py.typed
+setup.cfg
+setup.py
+configparserc.egg-info/PKG-INFO
+configparserc.egg-info/SOURCES.txt
+configparserc.egg-info/dependency_links.txt
+configparserc.egg-info/not-zip-safe
+configparserc.egg-info/requires.txt
+configparserc.egg-info/top_level.txt
+include/_config.h
+include/fix.h
