@@ -1,0 +1,9 @@
+robotframework
+robotframework-jsonlibrary
+pyaml
+argparse-from-jsonschema>=0.0.5
+
+[tests]
+requests_mock
+flake8
+coverage
