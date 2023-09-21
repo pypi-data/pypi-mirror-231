@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: waving_hands
+Version: 0.1.0
+Summary: P2P Multiplayer Python implementation of Richard Bartle's Waving Hands
+Home-page: https://github.com/alanb33/WavingHands
+Author: Alan Bailey
+Author-email: 
+License: GNUv3
+Keywords: waving hands turnbased
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+# WavingHands
+P2P Multiplayer Python implementation of Richard Bartle's Waving Hands (very WIP and buggy right now!
+
+This code was originally written in 2020 and I've learned a lot since then.
+
+### Development
+
+Setup your preferred python environment first:
+
+    python -m venv venv
+    source venv/bin/activate
+
+Then do a developer install. This will give you the `waving-hands` command you can use to start the client/server:
+
+    python setup.py develop
+    waving-hands
+
+
+### Testing
+
+Use pytest for testing:
+
+    pip install pytest
+    pytest
