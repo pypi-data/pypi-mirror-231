@@ -1,0 +1,2 @@
+[console_scripts]
+epic7 = epic7_bot.cli:main
