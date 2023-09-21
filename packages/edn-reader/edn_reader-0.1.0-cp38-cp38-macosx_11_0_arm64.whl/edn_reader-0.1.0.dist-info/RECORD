@@ -1,0 +1,5 @@
+edn_reader-0.1.0.dist-info/METADATA,sha256=8XPN59uHX9NmD9y2_2JS_WLG5WlPzXjpNlAVqhFy6W0,259
+edn_reader-0.1.0.dist-info/WHEEL,sha256=zgiy2v5PRPoUVEF6pLT0ycKuhF_2YAtNGxKH0sA8Ngg,102
+edn_reader/__init__.py,sha256=8nJekngkCMl-nOhmrOUN2Kp1yg3wc82Q8f9UBwGZjCY,123
+edn_reader/edn_reader.cpython-38-darwin.so,sha256=FiMU3F7USGWeYzgU3RbyM43RONdFXeDa2UuFE5p3PqM,655724
+edn_reader-0.1.0.dist-info/RECORD,,
