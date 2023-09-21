@@ -1,0 +1,22 @@
+promptflow_clu.tools.conversational_language_understanding.analyze_conversation:
+  function: analyze_conversation
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+    clu_endpoint:
+      type:
+      - string
+    project_name:
+      type:
+      - string
+    deployment_name:
+      type:
+      - string
+  module: promptflow_clu.tools.conversational_language_understanding
+  name: Conversational Language Understanding
+  description: Conversational Language Understanding (CLU) tool
+  type: python
