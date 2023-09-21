@@ -1,0 +1,7 @@
+streamlit
+httpx
+pydantic
+
+[dev]
+pre-commit
+flake8
