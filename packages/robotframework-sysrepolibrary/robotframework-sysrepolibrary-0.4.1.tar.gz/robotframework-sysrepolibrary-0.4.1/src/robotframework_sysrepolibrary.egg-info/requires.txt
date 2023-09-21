@@ -1,0 +1,10 @@
+robotframework
+sysrepo
+xmltodict
+
+[docs]
+sphinx
+myst-parser
+
+[tests]
+tox
