@@ -1,0 +1,16 @@
+
+[dev]
+pytest
+pylint
+mypy
+setuptools
+types-setuptools
+coverage
+
+[develop]
+hacking
+flake8-docstrings
+pep8-naming
+
+[docs]
+docutils
