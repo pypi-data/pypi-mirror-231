@@ -1,0 +1,12 @@
+stormtrooper/__init__.py,sha256=vusVB8itE1jVj9z4YV29R9UCqIXYuC8a12yHDmpfLSo,1259
+stormtrooper/error.py,sha256=WUbwaZesWv4R3S5vFtkhnrbUWzld5IyAgASQFWuVVnM,587
+stormtrooper/generative.py,sha256=ZxcSM5eHYTfiHnOcanQTiHRSK4yJD1YAJl06OF7vxt8,11724
+stormtrooper/openai.py,sha256=DbeJVLwvQXibGG5o0e_mbsvH6Mu3QjKKb0RxAlgDy78,15084
+stormtrooper/openai_async.py,sha256=rsh1OJsV6kbh6BViMhiOjKZVV-rAcvaAMcp8MAyok4k,12554
+stormtrooper/set_fit.py,sha256=KQYXYEMjLA5yshHUOYzRgkxmJFDbG5Y4SZTkrWirRm8,6073
+stormtrooper/text2text.py,sha256=imhSxgf_UunD_C4J8JkDplNax8cLczjnt6AxqAdvBBc,10798
+stormtrooper/zero_shot.py,sha256=PYK145BmMg9uLEIwNhgahbZ5KIx-tI1WDA1WMxmmYE0,5432
+stormtrooper-0.4.0.dist-info/METADATA,sha256=UwuhqyHGYtE3jEiSyFsIoGMpN-sTTRQPaoUYGHP_8z8,4444
+stormtrooper-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+stormtrooper-0.4.0.dist-info/LICENSE,sha256=7PcztqmTAGXpzBRSdinEgaC-3s9032INZPjm3czQYXI,1095
+stormtrooper-0.4.0.dist-info/RECORD,,
