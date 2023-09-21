@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cigvis
+Version: 0.0.1
+Summary: CIGVis is a tool for geophysical data visualization, which developed by Computational Interpretation Group (CIG)
+Home-page: https://github.com/JintaoLee-Roger/cigvis
+Author: Jintao Li, and others
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE
+
