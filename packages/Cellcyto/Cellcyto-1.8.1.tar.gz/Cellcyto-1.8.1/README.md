@@ -1,0 +1,21 @@
+Cellcyto: A Comprehensive Tool for Autofluorescence Image Segmentation
+Cellcyto is a dedicated algorithm suite tailored for researchers and scientists engaged in cell segmentation endeavors, particularly within the realm of autofluorescence imaging. This tool simplifies the intricate task of segmenting NAD(P)H images, allowing for a more nuanced understanding of cellular processes.
+
+Key Features:
+Autofluorescence Image Segmentation: Cellcyto introduces the Cytoplasmic Post-Processing Algorithm (CPPA) designed specifically for the segmentation of NAD(P)H images. CPPA effectively tackles challenges commonly encountered in autofluorescence image segmentation, such as low signal-to-noise ratios, irregular cell shapes, and the occurrence of cell clusters.
+
+Multiple Thresholding Techniques: With a choice of six robust thresholding methods - Isodata, Li, Mean, Otsu, Triangle, and Yen - users can optimize segmentation performance across varied NAD(P)H images. These methods have been meticulously tested across distinct cell populations like quiescent T cells, activated T cells, and MCF7 cells, ensuring versatile utility.
+
+Interactive GUI with Dual Functions:
+
+Segmentation Assessment: Rapidly evaluate segmentation algorithms by juxtaposing the ground truth image against segmentation outcomes, encompassing the segmentation of cell, cytoplasm, and nucleus masks.
+Direct Application of CPPA: Users can seamlessly identify cytoplasm and nucleus masks via CPPA within the interface itself.
+Optimized Segmentation with GUI: Through the GUI, users can choose their preferred thresholding technique under the "Models" section and fine-tune the "k value" to enhance segmentation performance. Additionally, when provided with ground truth images, users can activate the "find best (cytoplasm)" and "find best (nucleus)" functions. These automatically determine the most accurate thresholding strategy by pinpointing the method with the top F-measure value, as evaluated by POSEA (entire image) for all available thresholding techniques.
+
+Comparative Evaluation: The efficiency of CPPA is juxtaposed with CellProfiler-segmentation outcomes using the per-object segmentation evaluation algorithm, POSEA.
+
+Repository & Further Information:
+For those keen on delving deeper, the algorithm code along with the GUI is accessible on GitHub.
+
+Note on CPPA:
+Recognizing the significance of differentiating the cytoplasm region - a hub of metabolic information - from non-metabolizing nucleus regions in autofluorescence images, Cellcyto integrates CellPose for cell segmentation with the pioneering CPPA for detailed cytoplasm segmentation. This fusion ensures precision even in challenging scenarios presented by autofluorescence images.
