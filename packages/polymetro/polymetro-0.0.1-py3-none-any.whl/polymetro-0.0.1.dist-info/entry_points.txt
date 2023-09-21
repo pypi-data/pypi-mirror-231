@@ -1,0 +1,3 @@
+[console_scripts]
+polymetro=polymetro.polymetro:main
+
