@@ -1,0 +1,23 @@
+[package]
+name = "linkspace-cryptography"
+description = "Blake3 and schnorr cryptographic primitives for linkspace"
+
+version= "0.4.0"
+authors= ["Anton Sol <AntonSol919@gmail.com>"]
+edition= "2021"
+license= "MPL-2.0"
+homepage= "https://www.linkspace.dev"
+documentation= "https://www.linkspace.dev/docs/guide/index.html"
+repository= "https://github.com/AntonSol919/linkspace"
+resolver = "2"
+
+[dependencies]
+k256 = {version="0.13.1",features=["schnorr"]}
+blake3 = { version = "1", features = ["traits-preview"] }
+rand = "0.8"
+rand_core = "0.6"
+thiserror =  "1"
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.2.7", features = ["js"] }
+

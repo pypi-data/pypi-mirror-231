@@ -1,0 +1,42 @@
+[package]
+name = "linkspace-pkt"
+categories = []
+keywords = ["linkspace"]
+description = "Library for reading and writing linkspace packets"
+
+version= "0.4.0"
+authors= ["Anton Sol <AntonSol919@gmail.com>"]
+edition= "2021"
+license= "MPL-2.0"
+homepage= "https://www.linkspace.dev"
+documentation= "https://www.linkspace.dev/docs/guide/index.html"
+repository= "https://github.com/AntonSol919/linkspace"
+resolver = "2"
+
+[features]
+default = ["abe"]
+abe = []
+[dependencies]
+linkspace-cryptography = { path = "../linkspace-cryptography", version = "0.4.0"}
+byte-fmt = { path = "../byte-fmt", version = "0.4.0"}
+
+
+triomphe = { version = "0.1.8", git = "https://github.com/AntonSol919/triomphe"}
+serde_bytes = "0.11.12"
+serde = "1"
+thiserror =  "1"
+arrayvec = "0.7"
+anyhow = "1"
+static_assertions = "1"
+auto_impl = "1"
+bytes = "1"
+bstr = {version = "1" ,default-features=false}
+bitflags = {version="2",features=["serde"]}
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = "0.2.80"
+
+
+[build-dependencies]
+vergen = { version="8", features = ["git", "gitcl", "rustc"]}
+
