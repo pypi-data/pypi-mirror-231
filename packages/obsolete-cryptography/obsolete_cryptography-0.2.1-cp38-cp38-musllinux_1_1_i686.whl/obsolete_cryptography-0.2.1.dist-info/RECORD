@@ -1,0 +1,7 @@
+obsolete_cryptography/__init__.py,sha256=bxKoFYqg-Delzuil4ZZ3svpvsvo6Ljb34uHTwO1UBhA,2413
+obsolete_cryptography/mcrypt.cpython-38-i386-linux-gnu.so,sha256=rEyICAMWYlByJcRfRaGFdMjC8Ui6LLbteG_1j0HKqGg,402880
+obsolete_cryptography/mhash.cpython-38-i386-linux-gnu.so,sha256=oPHucx0u_IDq2JtKXQpAjKdqTWJN0qaNbM5xwoXdEe4,426732
+obsolete_cryptography-0.2.1.dist-info/LICENSE.md,sha256=HpUKMjWJEodvzT6gvdl1yeqKeCLt3DzaZigXw6vpmxw,7642
+obsolete_cryptography-0.2.1.dist-info/WHEEL,sha256=qC68_yD6hdYD80lNFW9oJ0N-yq-yw-EdRy2uY7ahvgA,94
+obsolete_cryptography-0.2.1.dist-info/METADATA,sha256=fYs0yEeix21NdbL_U1hAgnqaohqzwmTR_azeqKwY9fM,10879
+obsolete_cryptography-0.2.1.dist-info/RECORD,,
