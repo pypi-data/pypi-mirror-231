@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: xibs
+Version: 0.1.1
+Summary: Prototype Intra-Beam Scattering implementation for Xsuite.
+Project-URL: homepage, https://github.com/fsoubelet/xibs
+Project-URL: repository, https://github.com/fsoubelet/xibs
+Project-URL: documentation, https://fsoubelet.github.io/xibs
+Author-email: Felix Soubelet <felix.soubelet@cern.ch>, Michail Zampetakis <michail.zampetakis@cern.ch>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.21
+Requires-Dist: pandas>=2.0
+Requires-Dist: scipy>=1.6
+Provides-Extra: dev
+Requires-Dist: black>=23.9; extra == 'dev'
+Requires-Dist: isort>=5.10; extra == 'dev'
+Requires-Dist: ruff>=0.0.290; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx-copybutton<1.0; extra == 'docs'
+Requires-Dist: sphinx-issues>=3.0; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme>=1.0; extra == 'docs'
+Requires-Dist: sphinx>=7.0; extra == 'docs'
+Requires-Dist: sphinxcontrib-codeautolink<1.0; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: coverage[toml]>=7.0; extra == 'test'
+Requires-Dist: cpymad>=1.14; extra == 'test'
+Requires-Dist: pytest-cov>=4.0; extra == 'test'
+Requires-Dist: pytest>=7.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# IBS_for_Xsuite
+
+This is my fork of M. Zampetakis' work on an Intra-Beam Scattering (IBS) implementation (originally at https://github.com/MichZampetakis/IBS_for_Xsuite).
+It is meant as a starting point to improve and eventually include into `xsuite`, one of the main goals of my fellowship.
+As inherited from Michalis, `Xsuite_IBS.py `is the main script to run which performs tracking with the IBS implementation on the CLIC Damping Ring.
+In `lib/IBSfunctions.py` are the implementations for both of the kicks + Nagaitsev analytical calculation.
