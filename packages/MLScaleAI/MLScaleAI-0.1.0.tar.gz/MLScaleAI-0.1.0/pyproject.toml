@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MLScaleAI"
+version = "0.1.0"
+authors = [
+  { name="MLScale Inc.", email="ch@fedml.ai" },
+]
+description = "MLScale: Launching Any AI jobs in Any GPU Clouds"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://mlscale.ai"
+"Bug Tracker" = "https://github.com/mlscale/mlscale/issues"

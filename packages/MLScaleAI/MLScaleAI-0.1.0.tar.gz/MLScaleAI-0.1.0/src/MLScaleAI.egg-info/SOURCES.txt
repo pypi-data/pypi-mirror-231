@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/MLScaleAI.egg-info/PKG-INFO
+src/MLScaleAI.egg-info/SOURCES.txt
+src/MLScaleAI.egg-info/dependency_links.txt
+src/MLScaleAI.egg-info/top_level.txt
+src/mlscale/__init__.py
+src/mlscale/main.py
