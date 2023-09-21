@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gene_enrich
+Version: 0.0.0.1
+Summary: gene set enrichment.
+Home-page: https://github.com/wangzichenbioinformatics/gene_enrich 
+Author: Wangchen
+Author-email: wch_bioinformatics@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# gene_enrich Package
+
+You can use it.
+https://github.com/wangzichenbioinformatics/gene_enrich
+
+
