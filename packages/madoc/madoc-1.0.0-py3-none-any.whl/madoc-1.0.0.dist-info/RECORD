@@ -1,0 +1,10 @@
+madoc/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+madoc/madoc.py,sha256=70EhwTvJQUoyKjnzY_NRO0V9i5BBR5S3vT9f7hm1oJQ,1015
+madoc/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madoc/templates/end.html.tpl,sha256=N4Heg80Vl8DPpdjVDOr5Tt6zvfDSJUAXyqn6-FDJ07g,4269
+madoc/templates/start.html.tpl,sha256=zEwbhCFoWUYj0FILLnfTwGLjmMrsqpzwuOmnxVGSywA,1083
+madoc-1.0.0.dist-info/METADATA,sha256=Kb8gVP1o2SENN4YLvoDGTll9Le9n_Elr1RkNoMzn0ig,1041
+madoc-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+madoc-1.0.0.dist-info/entry_points.txt,sha256=TxdYryMVf58pnwbbGH1tSEsz428nyFhQBOCkKYCYoIg,43
+madoc-1.0.0.dist-info/top_level.txt,sha256=xN-fnTwpZ2GOxBrOCWMu802O7YECttiJqlxTAcZ7CFQ,6
+madoc-1.0.0.dist-info/RECORD,,
