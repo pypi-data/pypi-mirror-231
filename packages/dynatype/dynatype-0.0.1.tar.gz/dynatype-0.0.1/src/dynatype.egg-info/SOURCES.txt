@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/dynatype.egg-info/PKG-INFO
+src/dynatype.egg-info/SOURCES.txt
+src/dynatype.egg-info/dependency_links.txt
+src/dynatype.egg-info/top_level.txt
