@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.vscode/settings.json
+pywidgets_ext/PyFigureCanvas.py
+pywidgets_ext/PyGraphicsView.py
+pywidgets_ext/__init__.py
+pywidgets_ext/__version__.py
+pywidgets_ext.egg-info/PKG-INFO
+pywidgets_ext.egg-info/SOURCES.txt
+pywidgets_ext.egg-info/dependency_links.txt
+pywidgets_ext.egg-info/requires.txt
+pywidgets_ext.egg-info/top_level.txt
