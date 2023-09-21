@@ -1,0 +1,3 @@
+[console_scripts]
+wildered=wildered.context.cli.cli:main
+
