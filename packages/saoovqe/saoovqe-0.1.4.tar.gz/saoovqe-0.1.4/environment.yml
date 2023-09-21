@@ -1,0 +1,10 @@
+name: saoovqe-env
+channels:
+  - psi4
+dependencies:
+  - python>=3.10
+  - psi4>=1.6.1
+  - pandoc
+  - pip
+  - pip:
+      - -r requirements.txt
