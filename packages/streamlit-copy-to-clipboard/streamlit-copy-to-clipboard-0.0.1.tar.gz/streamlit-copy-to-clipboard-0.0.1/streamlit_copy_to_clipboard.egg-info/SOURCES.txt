@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+copy_to_clipboard/frontend/build/asset-manifest.json
+copy_to_clipboard/frontend/build/bootstrap.min.css
+copy_to_clipboard/frontend/build/index.html
+copy_to_clipboard/frontend/build/static/js/main.b8ca1c65.js
+copy_to_clipboard/frontend/build/static/js/main.b8ca1c65.js.LICENSE.txt
+copy_to_clipboard/frontend/build/static/js/main.b8ca1c65.js.map
+streamlit_copy_to_clipboard.egg-info/PKG-INFO
+streamlit_copy_to_clipboard.egg-info/SOURCES.txt
+streamlit_copy_to_clipboard.egg-info/dependency_links.txt
+streamlit_copy_to_clipboard.egg-info/requires.txt
+streamlit_copy_to_clipboard.egg-info/top_level.txt
