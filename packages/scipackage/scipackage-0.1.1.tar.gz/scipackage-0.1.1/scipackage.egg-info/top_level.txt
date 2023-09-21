@@ -1,0 +1,9 @@
+scipackage/__init__
+scipackage\machinelearningkit
+scipackage\machinelearningkit/__init__
+scipackage\natruelanguagekit
+scipackage\natruelanguagekit/__init__
+scipackage\neuralnetworkkit
+scipackage\neuralnetworkkit/__init__
+scipackage\timeserieskit
+scipackage\timeserieskit/__init__
