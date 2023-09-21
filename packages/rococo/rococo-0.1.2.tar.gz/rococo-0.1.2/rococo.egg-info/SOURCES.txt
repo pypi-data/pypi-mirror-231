@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rococo/__init__.py
+rococo.egg-info/PKG-INFO
+rococo.egg-info/SOURCES.txt
+rococo.egg-info/dependency_links.txt
+rococo.egg-info/top_level.txt
