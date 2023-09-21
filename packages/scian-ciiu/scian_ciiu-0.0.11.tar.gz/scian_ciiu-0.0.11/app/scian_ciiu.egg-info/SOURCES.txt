@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.py
+app/scian_ciiu/__init__.py
+app/scian_ciiu.egg-info/PKG-INFO
+app/scian_ciiu.egg-info/SOURCES.txt
+app/scian_ciiu.egg-info/dependency_links.txt
+app/scian_ciiu.egg-info/requires.txt
+app/scian_ciiu.egg-info/top_level.txt
+app/scian_ciiu/src/__init__.py
+app/scian_ciiu/src/data.py
+app/scian_ciiu/src/scian_ciiu.py
+app/scian_ciiu/src/search.py
+app/scian_ciiu/test/__init__.py
+app/scian_ciiu/test/test_scian_ciiu.py
