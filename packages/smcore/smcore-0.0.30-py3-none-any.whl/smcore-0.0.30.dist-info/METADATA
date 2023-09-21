@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: smcore
+Version: 0.0.30
+Summary: Package providing base sm agent classes and clients
+Author-email: "J. Hoffman, J. Genender" <johnmarianhoffman@gmail.com>
+Project-URL: Homepage, https://gitlab.com/sm-ai-team/sm-core-go
+Project-URL: Bug Tracker, https://gitlab.com/sm-ai-team/sm-core-go/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ==2.31.0
+Requires-Dist: protobuf ==4.21.12
+
+# smcore
+
+smcore provides base class agents and blackboard clients for use with [SimpleMind's go implementation](https://gitlab.com/sm-ai-team/sm-core-go).
+
+This is still a work in progress and not yet ready for "primetime."  Functionality and API are likely to change until this message is removed.
