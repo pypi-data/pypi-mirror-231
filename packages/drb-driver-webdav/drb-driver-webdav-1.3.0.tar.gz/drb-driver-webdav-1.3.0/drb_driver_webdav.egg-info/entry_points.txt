@@ -1,0 +1,5 @@
+[drb.driver]
+webdav = drb.drivers.webdav:DrbWebdavFactory
+
+[drb.topic]
+webdav = drb.topics.webdav
