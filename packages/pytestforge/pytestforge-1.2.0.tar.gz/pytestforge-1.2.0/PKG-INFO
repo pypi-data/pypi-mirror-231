@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytestforge
+Version: 1.2.0
+Summary: TestForge pytest plugin
+Home-page: UNKNOWN
+Author: Monq Digital Lab
+Author-email: askformonq@monqlab.com
+License: MIT
+Keywords: monq,pytest
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
