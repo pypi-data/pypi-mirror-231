@@ -1,0 +1,9 @@
+toml>=0.9.4
+
+[package]
+build
+
+[test]
+hera-calibration>=3.2.3
+pytest
+pytest-cov
