@@ -1,0 +1,24 @@
+name: test-environment
+channels:
+  - conda-forge
+dependencies:
+  - xarray
+  - dask
+  - distributed
+  - Cython
+  - sphinx
+  - cartopy
+  - pillow
+  - pyyaml
+  - pyproj
+  - pyresample
+  - coveralls
+  - coverage
+  - netcdf4
+  - rasterio
+  - rioxarray
+  - zarr
+  - pytest
+  - pytest-cov
+  - fsspec
+  - pip
