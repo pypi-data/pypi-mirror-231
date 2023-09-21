@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+./data/README.md
+./scripts/ontology-conversion/convert_data.rdfox
+./scripts/ontology-conversion/convert_rules.rdfox
+./scripts/ontology-conversion/explicate.rdfox
+./scripts/ontology-conversion/master.rdfox
+./scripts/ontology-conversion/prefixes.rdfox
+./scripts/ontology-conversion/setup-RDFox.rdfox
+probs_module_ontology_conversion.egg-info/PKG-INFO
+probs_module_ontology_conversion.egg-info/SOURCES.txt
+probs_module_ontology_conversion.egg-info/dependency_links.txt
+probs_module_ontology_conversion.egg-info/top_level.txt

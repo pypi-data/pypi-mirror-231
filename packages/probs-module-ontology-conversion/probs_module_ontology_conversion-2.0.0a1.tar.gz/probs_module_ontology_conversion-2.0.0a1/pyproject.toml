@@ -1,0 +1,24 @@
+[project]
+name = "probs_module_ontology_conversion"
+version = "2.0.0a1"
+description = "Scripts for ontology conversion for the PRObs ontology"
+authors = [
+    {name = "Stefano Germano"},
+    {name = "Rick Lupton"},
+    {name = "Carla Saunders"},
+]
+readme = "README.md"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/probs-lab/probs-module-ontology-conversion"
+
+[tool.setuptools.package-dir]
+"probs_system" = "."
+
+[tool.setuptools.package-data]
+"probs_system" = ["data/*", "scripts/ontology-conversion/*"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
