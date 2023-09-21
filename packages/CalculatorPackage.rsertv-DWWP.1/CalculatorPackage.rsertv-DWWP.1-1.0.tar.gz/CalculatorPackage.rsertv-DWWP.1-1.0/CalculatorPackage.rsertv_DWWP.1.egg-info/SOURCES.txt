@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+CalculatorPackage.rsertv_DWWP.1.egg-info/PKG-INFO
+CalculatorPackage.rsertv_DWWP.1.egg-info/SOURCES.txt
+CalculatorPackage.rsertv_DWWP.1.egg-info/dependency_links.txt
+CalculatorPackage.rsertv_DWWP.1.egg-info/top_level.txt
+calculator/__init__.py
+calculator/calculator.py
+tests/__init__.py
+tests/calculator_test.py

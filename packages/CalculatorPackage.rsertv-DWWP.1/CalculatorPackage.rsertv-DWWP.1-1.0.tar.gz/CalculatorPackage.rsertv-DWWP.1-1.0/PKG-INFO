@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: CalculatorPackage.rsertv-DWWP.1
+Version: 1.0
+Summary: A simple python package that allows users to perform the most basic arithmetic functions.
+Author-email: rsertv <sertvytisrokas@gmail.com>
+Project-URL: Homepage, https://github.com/TuringCollegeSubmissions/rsertv-DWWP.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+## CalclculatorPackage
+
+### Description
+'Calculator' is a simple python package that allows users to perform the most basic arithmetic functions.
+
+### Available functions:
+- Addition (`.add(n)`)
+- Subtraction (`.subtract(n)`)
+- Multiplication (`.multiply(n)`)
+- Division (`.divide(n)`)
+- N Root (`.nRoot(n)`)
+
+### Prerequisites
+- Python
+- Git
+
+### Installation
+Package is available to download from GitHub, simply clone the project and run `pip install .` inside the directory after setting up virtual python environment. Furthermore, if user wants to access the package from a different virtual environment, it can be done by running the following command:
+```
+import sys
+sys.path.append("PATH_WHERE_PACKAGE_IS_INSTALLED")
+from calculator.calculator import Calculator
+```
+
+Package could also be imported more elegantly by just running the following command in the command line
+`pip install git+https://github.com/TuringCollegeSubmissions/rsertv-DWWP.1#egg=Calculator`
+,but since the project is currently in a private GitHub directory, this method will not work.
+
+### How to use
+After successfully importing the package to the project, a `Calculator()` object must be created by running the following command:
+`calculator = Calculator()`.
+Now to use the calculator user can run the aforementioned commands as such:
+```calculator.add(5)  # OUTPUT: 0 + 5 = 5  
+calculator.subtract(2) #OUTPUT: 5 - 2 = 3  
+calculator.multiply(9) #OUTPUT: 3 * 9 = 27  
+calculator.divide(3)   #OUTPUT: 27 / 3 = 9  
+calculator.nRoot(2)    #OUTPUT: 9 ^ (1/2) = 3  
+calculator.reset()     #OUTPUT: Memory cleared
+
+```
+
+### Tests
+Package also includes tests which are located inside tests/calculator_test.py. One of the ways to run the test is to simply run `calculator_test.py` from command line when inside the test directory.
+
+
+
