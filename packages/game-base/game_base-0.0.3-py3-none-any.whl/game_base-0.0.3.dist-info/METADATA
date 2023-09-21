@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: game-base
+Version: 0.0.3
+Summary: python game utils
+Author: gamebase
+Author-email: gamebase_team@gmail.com
+Requires-Dist: pymysql
+Requires-Dist: redis
+Requires-Dist: pycore-utils
+Requires-Dist: flask-socketio
+Requires-Dist: gevent-websocket
+Requires-Dist: cryptography
+Requires-Dist: pycryptodome
+Requires-Dist: sqlalchemy
+Requires-Dist: protobuf
+
