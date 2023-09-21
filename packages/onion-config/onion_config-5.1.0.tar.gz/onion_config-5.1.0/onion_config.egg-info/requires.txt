@@ -1,0 +1,11 @@
+python-dotenv<2.0.0,>=1.0.0
+PyYAML<7.0,>=6.0.1
+loguru<1.0.0,>=0.7.2
+pydantic[email]!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.10.0
+
+[pydantic-settings]
+pydantic[email]!=2.0.1,!=2.1.0,<3.0.0,>2.0.0
+pydantic-settings<3.0.0,>=2.0.3
+
+[pydantic-v1]
+pydantic[email]<2.0.0,>=1.10.0
