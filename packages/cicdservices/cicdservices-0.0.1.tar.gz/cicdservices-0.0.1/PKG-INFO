@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cicdservices
+Version: 0.0.1
+Summary: CI-CD Services
+Home-page: UNKNOWN
+Author: Novateva
+Author-email: novateva@novateva.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
