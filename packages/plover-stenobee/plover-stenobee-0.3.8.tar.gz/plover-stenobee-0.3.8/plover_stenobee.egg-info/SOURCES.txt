@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+stenobee.py
+plover_stenobee.egg-info/PKG-INFO
+plover_stenobee.egg-info/SOURCES.txt
+plover_stenobee.egg-info/dependency_links.txt
+plover_stenobee.egg-info/entry_points.txt
+plover_stenobee.egg-info/requires.txt
+plover_stenobee.egg-info/top_level.txt
+plover_stenobee.egg-info/zip-safe
