@@ -1,0 +1,7 @@
+psycopg2-binary
+mysqlclient
+chardet
+pytz
+memory-profiler
+django-extensions
+coverage
