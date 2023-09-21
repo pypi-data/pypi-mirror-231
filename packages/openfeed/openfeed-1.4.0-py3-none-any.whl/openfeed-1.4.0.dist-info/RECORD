@@ -1,0 +1,15 @@
+openfeed/__init__.py,sha256=rF-64kTuGSKK3r5vfcYgfRvpEtLkHXdvTI6L8Qf5RSw,256
+openfeed/openfeed_client.py,sha256=_16eJ-PE3HnDtSxYmuIMdD1HFWIm6-XXoOUz0IonF_8,28419
+openfeed/version.py,sha256=H3E64qiPRt1aTqzsj1wT9GGmxLIuhLtxt2PWVnuETdM,19
+openfeed/generated/openfeed_api_pb2.py,sha256=bbUFoDn6Av6iHkWYsuTCtTdvlXy6HfQnMHeoHVozBBg,10879
+openfeed/generated/openfeed_api_pb2.pyi,sha256=7MOIw8hVEn0maRNOZkyEMWUY4QQGvZh0VDa7-j1h9vw,18626
+openfeed/generated/openfeed_instrument_pb2.py,sha256=aPiy97EBcWPbGoS2dZMvYAF9gBVa6SNqoIuAnm3zFEw,9909
+openfeed/generated/openfeed_instrument_pb2.pyi,sha256=eGna8LnR-zR8-5DieQdy0EHyBx0gyq_ISVyglaQJpQM,19135
+openfeed/generated/openfeed_pb2.py,sha256=nzoTu309YVzUSLr7Uhx4SlmHY1rjr9PQG20abKcqnjo,38719
+openfeed/generated/openfeed_pb2.pyi,sha256=-pekgaUQZXruYK9u_VAC_iM6mdi6UoIWJhyKjX6V4hc,74543
+protos/README.md,sha256=8I8ssfM6n7EKdaxn7tj3qd2-6tMA-4xXxG7n5bvedX4,75
+openfeed-1.4.0.dist-info/LICENSE,sha256=tRRi9eYCp6fiAVoBQGw1_X5xKHOA4iPRC5hK21ultGI,1090
+openfeed-1.4.0.dist-info/METADATA,sha256=I34by7hKoHb30ZfWJuv1vzIfjD5biVjYH5OA9PpEL8Y,2541
+openfeed-1.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+openfeed-1.4.0.dist-info/top_level.txt,sha256=J2tboCilWtyMPD9ISf-O7v-fbybyllT0BX48kj9lg4o,21
+openfeed-1.4.0.dist-info/RECORD,,
