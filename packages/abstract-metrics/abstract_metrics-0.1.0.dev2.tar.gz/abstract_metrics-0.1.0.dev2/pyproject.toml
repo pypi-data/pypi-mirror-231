@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "abstract-metrics"
+version = "0.1.0-dev.2"
+description = "A lightweight framework for defining arbitrary business metrics as Python code."
+authors = ["Fraser <fraserisbester@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "metrics", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+isort = "^5.12.0"
+autoimport = "^1.3.3"
+ruff = "^0.0.290"
+pyright = "^1.1.327"
+black = "^23.9.1"
+
+
+[tool.poetry.group.examples-private.dependencies]
+pyyaml = "^6.0.1"
+termcolor = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
