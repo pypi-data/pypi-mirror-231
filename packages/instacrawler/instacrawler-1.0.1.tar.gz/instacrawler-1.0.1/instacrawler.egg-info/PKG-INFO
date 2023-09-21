@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: instacrawler
+Version: 1.0.1
+Summary: The fastest way to check someone's instagram feed/story.
+Home-page: https://github.com/gibiee/instacrawler
+Download-URL: 
+Author: gibiee
+Author-email: gibiee@naver.com
+License: MIT
+Keywords: instacrawler,instagram,crawler,crawling,instagram-crawler,instagram-crawling
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
+
+# Not yet available. (developing now)
+
+**instacrawler** is the fastest way to check someone's instagram feed/story.
+- No instagram account required.
+- Available on VM
+
+If you want to see the detail, please check [Caution](#caution).
+
+## Installation
+```bash
+pip install instacrawler
+```
+
+## Quick start
+```py
+import instacrwaler
+
+feed = instacrwaler.get_latest_feed(username='starbuckskorea')
+
+story = instacrwaler.get_latest_story(username='starbuckskorea')
+```
+
+## Caution
+- It use the mirror site named [imgsed](https://imgsed.com/). So if the site changes, it may not work.
+- Due to the nature of the mirror site, it is hard to identify fixed feeds.
+- When a new feed/story is posted, it needs time to be reflected. (about ???)
