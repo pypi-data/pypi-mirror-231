@@ -1,0 +1,13 @@
+[org.molssi.seamm]
+FHI-aims = fhi_aims_step:FHIaimsStep
+
+[org.molssi.seamm.fhi_aims]
+Energy = fhi_aims_step:EnergyStep
+Optimization = fhi_aims_step:OptimizationStep
+
+[org.molssi.seamm.fhi_aims.tk]
+Energy = fhi_aims_step:EnergyStep
+Optimization = fhi_aims_step:OptimizationStep
+
+[org.molssi.seamm.tk]
+FHI-aims = fhi_aims_step:FHIaimsStep
