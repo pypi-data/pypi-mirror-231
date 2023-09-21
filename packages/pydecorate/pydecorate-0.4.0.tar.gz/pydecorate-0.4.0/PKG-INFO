@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pydecorate
+Version: 0.4.0
+Summary: Decorating PIL images: logos, texts, pallettes
+Home-page: https://github.com/pytroll/pydecorate
+Author: Hrobjartur Thorsteinsson
+Author-email: thorsteinssonh@gmail.com
+License: GPLv3+
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: pillow
+Requires-Dist: aggdraw
+Requires-Dist: numpy
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: trollimage; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Requires-Dist: sphinxcontrib-apidoc; extra == "docs"
+Requires-Dist: trollimage; extra == "docs"
+Requires-Dist: pytest; extra == "docs"
+
+pydecorate
+==========
+
+.. image:: https://github.com/pytroll/pydecorate/workflows/CI/badge.svg?branch=main
+    :target: https://github.com/pytroll/pydecorate/actions?query=workflow%3A%22CI%22
+
+.. image:: https://coveralls.io/repos/github/pytroll/pydecorate/badge.svg?branch=main
+    :target: https://coveralls.io/github/pytroll/pydecorate?branch=main
+
+Pydecorate is a package for decorating PIL images with logos, texts, and color
+scales.
+
+Originally created by Hrobjartur Thorsteinsson
+November 2013, from Norrkoping, Sweden

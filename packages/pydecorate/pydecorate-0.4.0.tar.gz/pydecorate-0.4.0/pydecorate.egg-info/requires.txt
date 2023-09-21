@@ -1,0 +1,15 @@
+pillow
+aggdraw
+numpy
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-apidoc
+trollimage
+pytest
+
+[tests]
+pytest
+pytest-cov
+trollimage
