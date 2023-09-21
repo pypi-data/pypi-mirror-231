@@ -1,0 +1,3 @@
+[console_scripts]
+podtuber=podtuber.main:main
+
