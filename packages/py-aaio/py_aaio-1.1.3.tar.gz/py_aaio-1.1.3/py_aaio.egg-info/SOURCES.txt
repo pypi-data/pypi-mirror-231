@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+py_aaio/AAIO.py
+py_aaio/__init__.py
+py_aaio/models.py
+py_aaio.egg-info/PKG-INFO
+py_aaio.egg-info/SOURCES.txt
+py_aaio.egg-info/dependency_links.txt
+py_aaio.egg-info/requires.txt
+py_aaio.egg-info/top_level.txt

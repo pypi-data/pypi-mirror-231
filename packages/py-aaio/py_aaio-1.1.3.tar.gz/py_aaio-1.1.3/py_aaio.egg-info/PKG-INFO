@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: py-aaio
+Version: 1.1.3
+Summary: Simple library for AAIO API
+Home-page: https://github.com/DephPhascow/py_aaio
+Author: DephPhascow
+Author-email: d.sinisterpsychologist@gmail.com
+Keywords: aaio
+Platform: any
+License-File: LICENCE
+
+# py_aaio
+
+[github](https://github.com/DephPhascow/py_aaio)
