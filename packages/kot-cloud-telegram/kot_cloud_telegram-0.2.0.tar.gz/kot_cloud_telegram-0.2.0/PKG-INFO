@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: kot_cloud_telegram
+Version: 0.2.0
+Summary: Hot reload, remote controlled and expandable telegram bot.
+Home-page: https://github.com/KOT-database/KOT-Cloud-Telegram
+License: MIT
+Description: # KOT Cloud Telegram
+        
+        Hot reload, remote controlled and expandable telegram bot.
+        
+        [Website](https://kotdatabase.dev/kot_cloud_telegram) | [Discord](https://discord.gg/QtnKf532Er) | [Twitter](https://twitter.com/)
+        
+        
+        
+        
+        ## Installation
+        You can install KOT by pip3:
+        
+        ```console
+        pip3 install kot_cloud_telegram
+        ```
+        
+        
+        
+        # Implementing
+        In this point you can use any [KOT Cloud](https://docs.kotdatabase.dev/kot_cloud.html).
+        
+        
+        ## Basic
+        
+        ```python
+        from kot_cloud_telegram import KOT_Cloud_Telegram
+        from kot import KOT_Cloud
+        cloud = KOT_Cloud("YOUR_CLOUD_KEY")
+        
+        
+        telegram = KOT_Cloud_Telegram("YOUR_GLOBAL_ENCRYPTION_KEY", cloud)
+        telegram.deploy("BOT_TOKEN") 
+        
+        
+        telegram.clear_commands()
+        
+        
+        def greeting(arguments, message):
+            telegram.reply_to(message,"Hello, welcome")
+        telegram.register_command("hi", greeting)
+        
+        #telegram.send_message(CHAT_ID, "Hi")
+        
+        telegram.run()
+        ```
+        
+        ## With Hot Reload
+        
+        ### Runner
+        
+        Save the below code as `run.py`.
+        ```python
+        from kot_cloud_telegram import KOT_Cloud_Telegram
+        from kot import KOT_Cloud
+        cloud = KOT_Cloud("YOUR_CLOUD_KEY")
+        
+        
+        telegram = KOT_Cloud_Telegram("YOUR_GLOBAL_ENCRYPTION_KEY", cloud)
+        
+        telegram.deploy("BOT_TOKEN") 
+        telegram.run()
+        ```
+        
+        And run the `run.py`.
+        
+        If you are an linux user you can use for sending to background:
+        ```console
+        nohup python3 run.py >> run.log &
+        ```
+        
+        ### Editor
+        
+        Use the below code for editing your bot:
+        
+        ```python
+        from kot_cloud_telegram import KOT_Cloud_Telegram
+        from kot import KOT_Cloud
+        cloud = KOT_Cloud("YOUR_CLOUD_KEY")
+        
+        
+        telegram = KOT_Cloud_Telegram("YOUR_GLOBAL_ENCRYPTION_KEY", cloud)
+        
+        
+        telegram.clear_commands()
+        
+        def greeting(arguments, message):
+            telegram.reply_to(message,"Hello, welcome")
+        
+        #telegram.send_message(CHAT_ID, "Hi")
+        
+        telegram.register_command("hi", greeting)
+        
+        
+        ```
+        
+        
+        ## Contributing
+        Contributions to KOT Cloud Telegram are welcome! If you have any suggestions or find a bug, please open an issue on the GitHub repository. If you want to contribute code, please fork the repository and create a pull request.
+        
+        ## License
+        KOT Cloud Telegram is released under the MIT License.
+        
+        <h2 align="center">
+            Contributors
+        </h2>
+        <p align="center">
+            Thank you for your contribution!
+        </p>
+        <p align="center">
+            <a href="https://github.com/KOT-database/KOT-Cloud-Telegram/graphs/contributors">
+              <img src="https://contrib.rocks/image?repo=KOT-database/KOT-Cloud-Telegram" />
+            </a>
+        </p>
+        
+Platform: UNKNOWN
+Requires-Python: >= 3
+Description-Content-Type: text/markdown
