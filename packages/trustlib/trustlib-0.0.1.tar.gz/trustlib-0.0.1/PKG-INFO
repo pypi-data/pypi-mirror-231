@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: trustlib
+Version: 0.0.1
+Summary: Unified framework for assessing and improving performance, safety, and reliability.
+Home-page: https://github.com/Libr-AI
+Author: LibrAI
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TrustLib
