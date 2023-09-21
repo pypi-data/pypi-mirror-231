@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: chikovani-sample
+Version: 0.0.1
+Summary: Sample app
+Home-page: https://github.com/justrp/nonexistent.git
+License: Apache-2.0
+Author: achikovani
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/justrp/nonexistent.git
+Description-Content-Type: text/markdown
+
+# chikovani sample
+
