@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: extendjsonapi
+Version: 0.1.0
+Summary: extend the jsonapi for encoding and decoding more objects
+Author: Linzhe he
+Author-email: he.linz@northeastern.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
