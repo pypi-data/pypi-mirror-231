@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: testpkg-sean
+Version: 0.1.1
+Summary: 
+Author: yanwei.zhu
+Author-email: yanwei.zhu@garena.cn
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: minio
+Provides-Extra: openpyxl
