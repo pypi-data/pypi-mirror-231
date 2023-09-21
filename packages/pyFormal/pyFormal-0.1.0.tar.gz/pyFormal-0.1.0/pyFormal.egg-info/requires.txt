@@ -1,0 +1,8 @@
+os
+pyperclip
+matplotlib
+subprocess
+numpy
+click
+Pillow
+pillow_heif
