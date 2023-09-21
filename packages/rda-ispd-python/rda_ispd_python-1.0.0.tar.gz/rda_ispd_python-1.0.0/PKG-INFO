@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rda_ispd_python
+Version: 1.0.0
+Summary: Python tools to manage and enable data support for the International Surface Pressure Databank (ISPD) archive at the NCAR Research Data Archive (RDA)
+Author-email: Thomas Cram <tcram@ucar.edu>
+Project-URL: Homepage, https://github.com/NCAR/rda-ispd-python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rda-ispd-python
+Python tools to manage and enable data support for the International Surface Pressure Databank (ISPD) archive at the NCAR Research Data Archive (RDA)
