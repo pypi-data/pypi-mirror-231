@@ -1,0 +1,8 @@
+trustlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trustlib/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trustlib/utils/utils.py,sha256=cOkVmzS6vpfNXxN_W_NLnFLmPnV5dVIzghkLTaoOMhg,506
+trustlib-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+trustlib-0.0.1.dist-info/METADATA,sha256=bM0xStGZal0vvQttunJqESO79GSfX-bu9vlp8oHU_K4,532
+trustlib-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+trustlib-0.0.1.dist-info/top_level.txt,sha256=KlII2hpqEbJ9EwLgosjCh1NQltrKKqHLYpU1dUW0sqA,9
+trustlib-0.0.1.dist-info/RECORD,,
