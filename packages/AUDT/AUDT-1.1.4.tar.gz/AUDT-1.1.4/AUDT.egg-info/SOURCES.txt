@@ -1,0 +1,6 @@
+README
+setup.py
+AUDT.egg-info/PKG-INFO
+AUDT.egg-info/SOURCES.txt
+AUDT.egg-info/dependency_links.txt
+AUDT.egg-info/top_level.txt
