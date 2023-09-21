@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MLScaleAI
+Version: 0.1.0
+Summary: MLScale: Launching Any AI jobs in Any GPU Clouds
+Author-email: "MLScale Inc." <ch@fedml.ai>
+Project-URL: Homepage, https://mlscale.ai
+Project-URL: Bug Tracker, https://github.com/mlscale/mlscale/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+https://MLScale.ai
+
