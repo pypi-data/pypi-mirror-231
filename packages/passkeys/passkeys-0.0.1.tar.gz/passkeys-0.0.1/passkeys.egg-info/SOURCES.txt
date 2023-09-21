@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+passkeys/__init__.py
+passkeys/main.py
+passkeys.egg-info/PKG-INFO
+passkeys.egg-info/SOURCES.txt
+passkeys.egg-info/dependency_links.txt
+passkeys.egg-info/top_level.txt
