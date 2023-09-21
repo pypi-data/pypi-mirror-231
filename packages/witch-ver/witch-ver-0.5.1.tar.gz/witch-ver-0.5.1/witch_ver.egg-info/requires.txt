@@ -1,0 +1,14 @@
+colorama
+
+[dev]
+AutoDict
+coverage
+pylint
+toml
+black
+isort
+
+[test]
+AutoDict
+coverage
+pylint
