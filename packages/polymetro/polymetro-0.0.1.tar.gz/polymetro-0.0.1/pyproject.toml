@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "polymetro"
+version = "0.0.1"
+description = "A polyrhythmic metronome with CLI and Jack server connectivity"
+license = "GNU GPL v3"
+authors = ["omnitonal.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+JACK-Client = "^0.5.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+polymetro = "polymetro.polymetro:main"
