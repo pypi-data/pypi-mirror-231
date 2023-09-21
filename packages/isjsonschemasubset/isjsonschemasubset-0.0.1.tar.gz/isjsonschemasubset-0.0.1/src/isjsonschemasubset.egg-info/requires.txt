@@ -1,0 +1,7 @@
+pydantic>=2.3.0
+
+[dev]
+pytest>=7.2.2
+autoflake>=2.0.2
+black>=23.1.0
+mypy
