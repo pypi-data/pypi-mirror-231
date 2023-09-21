@@ -1,0 +1,8 @@
+requests
+biopython
+tqdm
+argparse
+numpy
+scipy
+futures
+acpype
