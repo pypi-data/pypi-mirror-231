@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+whacamolefinder/README.MD
+whacamolefinder/__init__.py
+whacamolefinder/requirements.txt
+whacamolefinder/thirdparty.json
+whacamolefinder.egg-info/PKG-INFO
+whacamolefinder.egg-info/SOURCES.txt
+whacamolefinder.egg-info/dependency_links.txt
+whacamolefinder.egg-info/requires.txt
+whacamolefinder.egg-info/top_level.txt

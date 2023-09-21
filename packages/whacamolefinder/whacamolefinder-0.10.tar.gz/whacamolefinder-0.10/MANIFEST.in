@@ -1,0 +1,3 @@
+include whacamolefinder/requirements.txt
+include whacamolefinder/thirdparty.json
+include whacamolefinder/README.MD
