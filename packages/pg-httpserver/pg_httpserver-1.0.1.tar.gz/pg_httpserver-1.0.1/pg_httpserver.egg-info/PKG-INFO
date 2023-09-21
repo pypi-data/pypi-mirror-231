@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pg-httpserver
+Version: 1.0.1
+Summary: python game: httpserver
+Author: baozilaji@gmail.com
+Requires-Python: >=3
