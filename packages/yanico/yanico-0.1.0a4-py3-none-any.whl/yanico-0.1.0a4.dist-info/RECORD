@@ -1,0 +1,12 @@
+yanico/__init__.py,sha256=pk1AwXNYOGO8yAKK5_0I0RtRlniSsyJNQC-_mIaIXEc,820
+yanico/__main__.py,sha256=FERlj7QWFVE1l2bf_YvnsTWDGL8hRSu2v1_1ntTt1DM,717
+yanico/config.py,sha256=DYHBde4nzNMF3q6tqU4RqZh9cCRAyIVjVzqIB01FhDc,1278
+yanico/command/__init__.py,sha256=RPdefckiXpL-Ck4PiXQIpH49Jt-do3YuwmwktMS5Bvs,1533
+yanico/session/__init__.py,sha256=lsgVIxxG4KZlV1PAf6g9Bd2aJacmgWdbMog5jf9CrdM,1739
+yanico/session/firefox.py,sha256=OesChrWgICKs4KVjFK2o36HLJsstnKHnOyUXWdDsZX0,1514
+yanico-0.1.0a4.dist-info/LICENSE,sha256=GWNotC6-bsUyofunyYTO6XA-z9KxKuA2k5ZlZNQ2O6U,11358
+yanico-0.1.0a4.dist-info/METADATA,sha256=P-0l1LOoVXxGpdmGj9rDTITJTzorgKtvPHLhj1IBUBw,18483
+yanico-0.1.0a4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+yanico-0.1.0a4.dist-info/entry_points.txt,sha256=aGJ77rRKHRrPximOnYNj6yLg21j7BK8EJGy8gFo85TY,110
+yanico-0.1.0a4.dist-info/top_level.txt,sha256=KuyIkcYjMrDO-vcNa8iqPeVNKBjBZnmhatqB3931J8Q,7
+yanico-0.1.0a4.dist-info/RECORD,,
