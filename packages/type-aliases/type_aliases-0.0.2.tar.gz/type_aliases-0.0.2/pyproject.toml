@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "type-aliases"
+version = "0.0.2"
+description = "Consistent type aliases for Python"
+authors = ["Hannes <h@nnes.dev>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+packages = [{ include = "type_aliases" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.290"
+pyright = "^1.1.327"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
