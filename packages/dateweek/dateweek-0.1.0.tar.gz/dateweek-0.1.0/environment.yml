@@ -1,0 +1,6 @@
+name: dateweek
+channels:
+  - defaults
+dependencies:
+  - pip
+
