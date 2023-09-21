@@ -1,0 +1,7 @@
+chatlocal-0.1.3.dist-info/METADATA,sha256=YtITa58cPo-iBWkmChwidrtlU6jMTLOCMmDY3L-fK08,6900
+chatlocal-0.1.3.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+chatlocal/__init__.py,sha256=er-uiKD9OuDGoiPTjlQbHZrJ0jvEvc6OmB7LGds1nNY,250
+chatlocal/dataloader.py,sha256=9BJz6YAVBR1z2DTUlQU-pCK6hXaw-dJrX4J4ULvV_f0,2631
+chatlocal/settings.py,sha256=a3zBpOc-L-vlqqcFA4PJoIQX50zWLBrV_YsLrA4hfR4,1336
+chatlocal/vectorstore.py,sha256=wN0ywK7YaD8mHNdF5yzknaR0ftsxB1rWyC6gtjzkYrc,3294
+chatlocal-0.1.3.dist-info/RECORD,,
