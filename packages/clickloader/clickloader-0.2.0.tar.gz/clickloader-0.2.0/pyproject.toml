@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "clickloader"
+version = "0.2.0"
+description = "Click Command Loader, permit to load Click command from a given folder."
+authors = ["Julien Mauroy <pro.julien.mauroy@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ccl", from = "src"}]
+repository = "https://github.com/madebylydia/CCL"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = ">=8.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.280"
+black = "^23.7.0"
+isort = "^5.12.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-html = "^3.2.0"
+poethepoet = "^0.21.1"
+metadeco = "^0.2.1" 
+tox = "^4.6.4"
+
+
+[tool.poetry.group.actions.dependencies]
+tox-gh-actions = "^3.1.3"
+
+[tool.poe]
+poetry_command = ""
+
+[tool.poe.tasks]
+_format_black = "black ."
+_format_isort = "isort ."
+_ruff = "ruff ./src/ccl"
+format = ["_format_black", "_format_isort"]
+test = "pytest . --html=tests/report/index.html --cov-config=.coveragerc --cov-context=test --cov-report=term-missing --cov-report=html --cov=ccl"
+lint = ["_ruff"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
