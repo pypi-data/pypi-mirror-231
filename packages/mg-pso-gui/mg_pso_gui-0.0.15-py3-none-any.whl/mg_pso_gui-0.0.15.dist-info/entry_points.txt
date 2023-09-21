@@ -1,0 +1,2 @@
+[console_scripts]
+mgpsogui = mgpsogui:start
