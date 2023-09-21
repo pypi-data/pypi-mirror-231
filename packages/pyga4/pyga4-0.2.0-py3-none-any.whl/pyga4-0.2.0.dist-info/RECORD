@@ -1,0 +1,10 @@
+pyga4/analytic/__init__.py,sha256=1ML0e7bGPIxyTIKMoerooYBtv2lHhjkzvZ_kaLANRWs,136
+pyga4/analytic/analytic.py,sha256=j8ud-LJwg2TKxEvs7n-pZQjACudIok25YT--emKddGs,3972
+pyga4/analytic/data_transform.py,sha256=6CNdwM_0PpUT_38oMZIRvio7PamYmA0W-MrpOLpOZ_4,2079
+pyga4/analytic/time_analysis.py,sha256=XFV7X7LFX_VkU6jR0lG1tSfv2LhZjiNvgH6z9iCcXhw,945
+pyga4/model/__init__.py,sha256=rHBza9C0uYa8VK3zu3n2BUXkCYS8t62OhCjOxG7WaXM,54
+pyga4/model/bigquery.py,sha256=Giuh23lRgfj1B24GEum0oduJQLQP5aksd9emWBrPEAM,7212
+pyga4-0.2.0.dist-info/LICENSE,sha256=UZu8LJwUSk_NQisRzd_e6qjVjcW9q7Ma9nc43vbRfwU,1084
+pyga4-0.2.0.dist-info/METADATA,sha256=aJXCFI3i3ctEVU-yE6Zc_4mVxIxAyByEckln0APwmXk,5614
+pyga4-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pyga4-0.2.0.dist-info/RECORD,,
