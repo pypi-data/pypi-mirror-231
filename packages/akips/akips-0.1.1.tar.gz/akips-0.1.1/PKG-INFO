@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: akips
+Version: 0.1.1
+Summary: akips api interface
+Home-page: https://github.com/wwhitaker/akips
+License: MIT
+Author: William E Whitaker
+Author-email: will.whitaker@unc.edu
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/wwhitaker/akips
+Description-Content-Type: text/markdown
+
+# akips
+akips api interface
+
