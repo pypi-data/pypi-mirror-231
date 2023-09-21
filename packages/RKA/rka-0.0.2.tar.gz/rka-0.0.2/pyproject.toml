@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "RKA"
+version = "0.0.2"
+authors = [
+  { name="Rafael Bachourian", email="bachourian@gmail.com" },
+]
+description = "Keeps your replit app running"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "flask~=2.3"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest~=7.4",
+  "isort~=5.12",
+  "black~=23.9",
+  "flake8~=6.1",
+  "mypy~=1.5",
+  "tox~=4.11",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Reathe/RKA"
+"Bug Tracker" = "https://github.com/Reathe/RKA/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.isort]
+profile = "black"
