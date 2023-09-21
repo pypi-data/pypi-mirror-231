@@ -1,0 +1,3 @@
+[console_scripts]
+nova-server = nova_server.app:run_app
+
