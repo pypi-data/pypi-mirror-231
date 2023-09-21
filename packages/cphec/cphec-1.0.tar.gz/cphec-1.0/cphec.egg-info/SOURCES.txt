@@ -1,0 +1,9 @@
+LICENSE
+README.md
+cphec.py
+setup.py
+cphec.egg-info/PKG-INFO
+cphec.egg-info/SOURCES.txt
+cphec.egg-info/dependency_links.txt
+cphec.egg-info/requires.txt
+cphec.egg-info/top_level.txt
