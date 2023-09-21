@@ -1,0 +1,6 @@
+-   id: gray-formatter
+    name: Format code with deopinionated black
+    description: Format code with black, but remove trailing commas and replace double quotes with single quotes
+    entry: gray-formatter
+    language: python
+    types: [python]
