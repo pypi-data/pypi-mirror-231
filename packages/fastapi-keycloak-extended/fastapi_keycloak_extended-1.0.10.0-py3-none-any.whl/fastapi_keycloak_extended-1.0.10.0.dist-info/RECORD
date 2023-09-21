@@ -1,0 +1,15 @@
+fastapi_keycloak_extended/__init__.py,sha256=tWFvqa-ijlsEAVnSRriiRRBw1LUJjrl5QGKejvTEujw,830
+fastapi_keycloak_extended/api.py,sha256=JvXGP4sx_CQLgJSFGgXfX0rJcoxGrAcK5qp6b4-CTek,17139
+fastapi_keycloak_extended/exceptions.py,sha256=Gkzy42M4KtH3GTuvRRJGlEBSWN6cH_fgbVwPyOYvfMA,416
+fastapi_keycloak_extended/model.py,sha256=tuKg4mU2hNUAcEGplBPDZvlUQXQuTvDIgcvm5cYWecs,2302
+fastapi_keycloak_extended/requirements.txt,sha256=SqqQhn3WMLF-c7-pl8Qk1KxXMJdMtcDv3Qlq9ljvxs0,43
+tests/__init__.py,sha256=ZbZwpnqzVVysquT2FW0FrbZmuhmkRFtHy2KSyscTpDU,517
+tests/app.py,sha256=8kInb_zWSt0_VVVmJvimyE8Q6nJfPIVzHzYAF8vbKQU,6429
+tests/conftest.py,sha256=byfyjcqyw_t-CMsUAH8k1GKdOHMfXARJ2Ey0ysa2Pas,269
+tests/test_functional.py,sha256=izdCY1SuiPzOFjDtvUAQjNBeqmUzs5Wt_shp3OSTd6A,16251
+tests/test_integration.py,sha256=ZdtZkIfhSpXrBN5OYKL2CKMqtUnLwb4DauEw4ffVCyc,2846
+fastapi_keycloak_extended-1.0.10.0.dist-info/LICENSE,sha256=ukuBs6XYBbtqa3XZpPJwcFzpyFvF5jtaJ_Tup5DiW1Q,11549
+fastapi_keycloak_extended-1.0.10.0.dist-info/METADATA,sha256=o9UMvaTFEvvJYP5CfHhKhMrpy6dheidqNkrhJsQgBnk,2586
+fastapi_keycloak_extended-1.0.10.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fastapi_keycloak_extended-1.0.10.0.dist-info/top_level.txt,sha256=7OYvoOsBW3CJXJjj5Te6mfJxs3EibOcQP7xgAjcqRHc,32
+fastapi_keycloak_extended-1.0.10.0.dist-info/RECORD,,
