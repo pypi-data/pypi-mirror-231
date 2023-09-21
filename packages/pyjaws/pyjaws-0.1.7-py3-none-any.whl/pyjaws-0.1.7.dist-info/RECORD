@@ -1,0 +1,16 @@
+pyjaws/__init__.py,sha256=YpKDcdV7CqL8n45u267wKtyloM13FSVbOdrqgNZnSLM,22
+pyjaws/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjaws/api/base.py,sha256=-3UFDY0ljuutcSFZJBxFTniZycnb59KG5m63L_YNd5E,7666
+pyjaws/api/jobs.py,sha256=d9j9YWY0O06KXJNw_2DkmhzvTROkL1fP9riH98E4OII,1637
+pyjaws/api/runtime.py,sha256=OwUuufo7a10tWxm9hr6jU-2fa26sPw8dk1HCkIhpPoE,185
+pyjaws/api/tasks.py,sha256=rekjzo3DY3JSC7AEE4zefAZ5OC66uyLzcUg0Vd_2ga4,2699
+pyjaws/api/templates/workflow.j2,sha256=kjv43xLMZnAaGRqkzkH4m9zKqISKDG1etnbKk0e2E-A,631
+pyjaws/api/templates/macros/cluster.j2,sha256=8W2an4ZBHmi16ghNHvbNDkQA5_vAcyzRpXQpgT0QCn4,1265
+pyjaws/api/templates/macros/task.j2,sha256=ANz4mNr6iVe9ppcLFrtZ2PtRhW_t-Fgbu-bAurH_2UI,2369
+pyjaws/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjaws/client/entrypoint.py,sha256=w4OBUkCUGY8zYM5g4pKiulCEdFpbtb5tj7Z_n6P_iYk,2285
+pyjaws-0.1.7.dist-info/METADATA,sha256=GtXqBfMc0uw1AgeHDGHjURIcHALWMu41xfUfRb5AlfQ,5692
+pyjaws-0.1.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyjaws-0.1.7.dist-info/entry_points.txt,sha256=WRrRol04NjmAYCNtPaJKP-AbcK-1A8a2SM7ueKCshXE,57
+pyjaws-0.1.7.dist-info/top_level.txt,sha256=hMhrVxiVw6JnisMoGVB1FBSzVfJ49pR4kf5YFv7pO-Y,7
+pyjaws-0.1.7.dist-info/RECORD,,
