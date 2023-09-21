@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+msnpdf/__init__.py
+msnpdf/pdf2text.py
+msnpdf.egg-info/PKG-INFO
+msnpdf.egg-info/SOURCES.txt
+msnpdf.egg-info/dependency_links.txt
+msnpdf.egg-info/top_level.txt
