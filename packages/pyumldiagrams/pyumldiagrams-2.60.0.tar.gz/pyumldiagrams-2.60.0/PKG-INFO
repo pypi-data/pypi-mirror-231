@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: pyumldiagrams
+Version: 2.60.0
+Summary: The top level package for pyumldiagrams contains the code for both pdf and image generation
+Author-email: Humberto <humberto.a.sanchez.ii@gmail.com>
