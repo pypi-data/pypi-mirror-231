@@ -1,0 +1,9 @@
+typer[all]
+python-dotenv
+requests
+feedparser==6.0.10
+transformers
+torch
+langdetect
+
+[dev]
