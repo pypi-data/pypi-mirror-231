@@ -1,0 +1,8 @@
+stravabackup/__init__.py,sha256=N_5SQPJ2ro04CjGNTqGRmyj4VOkAjT8B2GOpE2E6zpA,11583
+stravabackup/__main__.py,sha256=TbiOsrn_H6F5AlgOSlC3GgbSfOW70PBX-OhdMk97c0M,4455
+stravabackup/strava-backup.conf,sha256=KpQulLCXQoYT03JZYDIcKnUw-6R9s4XyAZPAoWeOfd0,218
+strava_backup-0.3.1.dist-info/METADATA,sha256=C1xUK5tqg5qUzYf5KD9_jRgpkF4VauLrdSfo7xBBOhI,3223
+strava_backup-0.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+strava_backup-0.3.1.dist-info/entry_points.txt,sha256=6PZ-VEI7GoPS7kWfdMSteivCNPRPHgTYaCN98mJXusQ,61
+strava_backup-0.3.1.dist-info/top_level.txt,sha256=OmG-CszenXlQz1MVcJMUDrA7urH5Q0LaS10sDQUuXbI,13
+strava_backup-0.3.1.dist-info/RECORD,,
