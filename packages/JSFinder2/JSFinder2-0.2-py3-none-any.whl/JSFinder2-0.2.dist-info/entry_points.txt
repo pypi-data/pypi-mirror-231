@@ -1,0 +1,2 @@
+[console_scripts]
+jsfinder2 = jsfinder2.__main__:run
