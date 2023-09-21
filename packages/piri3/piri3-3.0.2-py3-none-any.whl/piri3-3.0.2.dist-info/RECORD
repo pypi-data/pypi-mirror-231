@@ -1,0 +1,17 @@
+piri3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piri3/casting.py,sha256=FYHbP3fVFzUhqhOSbamC5yYXB1H1USCVXLOL5wTY4VM,9068
+piri3/collection_handlers.py,sha256=0vaqh4Q48x81gHmOQ9_5N4dDuzI_hliJAzvX6uwOjeI,2622
+piri3/common.py,sha256=aWOTgyHgu_O3lNzFVyFvVPhtZq6sADXQjaqT2vUWhR0,1248
+piri3/constants.py,sha256=a6c3a4Qj0C5uFKWdrK0-BOINGPdMQZF4QyVxAmYtb1k,1576
+piri3/functions.py,sha256=3DW2bGRGXzV5WLSBXD4OSaw2LomXnLj3JueFi_CkXzc,8762
+piri3/handlers.py,sha256=1nW04fbnN3ynG_nd-NC_V1fhKJZloRQN69-VjAjYZY4,3854
+piri3/iso.py,sha256=VqMeDJZSNZ6MBS_7xHDcI6ZUQTdUM2tojXoKaSiKR4I,3279
+piri3/mapper.py,sha256=xQF1ZbKEhnSv0N92gu_k692aGR1T4b4wRV9lbU2FNqY,5012
+piri3/process.py,sha256=4alWHR4kf3hmEa7j6K_2dApz4J-H7Sqzdeee0x4Ufpw,1075
+piri3/schema.json,sha256=utB_J2Qrk33FT1thgEJZiTqsPJqXVBMa1lu-c93437c,8361
+piri3/schema.py,sha256=jCyPqBP2FPzahya0IJCraUL_Dsut_ZW4slp29WpSw1s,1028
+piri3/valuetypes.py,sha256=2Fv6Z49b22Q3Wi_NYmF9xYeHAClz8dCIlMQNyiF7Vww,857
+piri3-3.0.2.dist-info/LICENSE,sha256=xEjfPW2t6b-h5c2XeEHdsvHEn4Q_cmCmE8rNCvqOAeA,1092
+piri3-3.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+piri3-3.0.2.dist-info/METADATA,sha256=T25tOB9CmFGILS6Dkvng79xaOWKDWwJnVRmuw7eSOxE,7535
+piri3-3.0.2.dist-info/RECORD,,
