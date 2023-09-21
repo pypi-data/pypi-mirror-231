@@ -1,0 +1,11 @@
+flask_and_kafka/__init__.py,sha256=rw0pAXwzMrRyc7icXUojBhALvXGFDlwTVVcz4xPh_hU,157
+flask_and_kafka/close.py,sha256=hBAoTHkgTfHgI-dHl9ZgxG8buRFq2Qwgvax_vpsoQRc,524
+flask_and_kafka/consumer.py,sha256=KipXf23OV0j7Lg3PQK6b4vU4sDlA4-MdE0L_Hc6AgrY,5027
+flask_and_kafka/formatters.py,sha256=casBJnvlV4O3fDFxUnMdZx0HeE5s0bOkISZ-tpmDv1A,1256
+flask_and_kafka/log.py,sha256=aghi_gKA3hJAItjswr11fQHnBJbjLeHpibfO00BucgE,801
+flask_and_kafka/producer.py,sha256=v4Q9lLuG0B_8WiqhQORAw3ssFdIMK64pksG7iOsduP4,3041
+flask_and_kafka-0.0.4.dist-info/LICENSE,sha256=kBemOYad_QBxSF7AvAGCQu-o8oP2yla-2xUVBklZlRQ,1076
+flask_and_kafka-0.0.4.dist-info/METADATA,sha256=lkccFww36IjAFY273cj9Ji0ejH0w8FwSJcIN8Zx2uEM,5572
+flask_and_kafka-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flask_and_kafka-0.0.4.dist-info/top_level.txt,sha256=MKtDQl8H3yL0CDQNozY8OUnacut7Z262zMkog4kUpiA,16
+flask_and_kafka-0.0.4.dist-info/RECORD,,
