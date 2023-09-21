@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dfwx_openchat/__init__.py
+dfwx_openchat/unionchat.py
+dfwx_openchat.egg-info/PKG-INFO
+dfwx_openchat.egg-info/SOURCES.txt
+dfwx_openchat.egg-info/dependency_links.txt
+dfwx_openchat.egg-info/requires.txt
+dfwx_openchat.egg-info/top_level.txt
