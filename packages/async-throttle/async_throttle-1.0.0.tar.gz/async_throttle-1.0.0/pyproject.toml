@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "async-throttle"
+version = "1.0.0"
+description = "Multipurpose asyncio throttle"
+authors = ["Joe Nudell <jnudell@hks.harvard.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "async_throttle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.0.2"
+pytest = "^7.4.2"
+pytest-asyncio = "^0.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
