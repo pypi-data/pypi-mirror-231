@@ -1,0 +1,6 @@
+vec2_math
+
+[dev]
+pytest
+commitizen
+pre-commit
