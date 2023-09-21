@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pa_utils"
+version = "0.0.3"
+authors = [
+    {name = "Saravana Alagar", email = "salagar0506@gmail.com"},
+]
+description = "A collection of utilities to do Price Action Analysis on Share Market data"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.5.3",
+    "mplfinance>=0.12.9b7"
+]
+
+[project.urls]
+Homepage = "https://github.com/sarvan0506/pa_utils"
+
+
+[tool.setuptools]
+packages = ["pa_utils"]

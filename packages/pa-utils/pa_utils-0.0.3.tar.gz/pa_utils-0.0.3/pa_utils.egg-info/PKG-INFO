@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pa-utils
+Version: 0.0.3
+Summary: A collection of utilities to do Price Action Analysis on Share Market data
+Author-email: Saravana Alagar <salagar0506@gmail.com>
+Project-URL: Homepage, https://github.com/sarvan0506/pa_utils
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: mplfinance>=0.12.9b7
+
+#### pa_utils
+
+A collection of utilities to do Price Action Analysis on Share Market data
