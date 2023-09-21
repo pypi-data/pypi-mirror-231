@@ -1,0 +1,11 @@
+risus/__init__.py,sha256=7hdbrSlOoOouFseHPq-4yvDczQvC94Msn5roQzEjEQM,393
+risus/__main__.py,sha256=zkZqEhLHvwpijlig6eHQ9tJuyH-Z9kF3U3wg5CNw6WY,167
+risus/damage_policy.py,sha256=o4chBBHMehgEriSHRB3uP20oGCdLKqrOmCW-4QWLlsU,1470
+risus/dice.py,sha256=pWYN6J9CnVvPUYLIPsRopRALwGaNzPq2znQrEI3GMDM,2062
+risus/engine.py,sha256=AZSv_rbGu80BoITPX2_lx53kjdxFuHDHGLOWL4R0fuA,10087
+risus/table.py,sha256=U0tT_1nHzZ6HrkJjrEHwPgyQq6ou8cE1R3EUPM-6mV8,9176
+risus_py-0.1.1.dist-info/LICENSE,sha256=9OkaqbUae-3BEHBhvL-cx4582hXSjovaK_hRqTgB2oY,35404
+risus_py-0.1.1.dist-info/METADATA,sha256=XoNXFGh5q7zBSJLp4hQhRQTEP4E1UimPcqAx8jrb5Tk,14423
+risus_py-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+risus_py-0.1.1.dist-info/top_level.txt,sha256=1q5NwFVKd1RgZW9eWKIGjFJKb7c3Q_NUaA-XyHgaBrM,6
+risus_py-0.1.1.dist-info/RECORD,,
