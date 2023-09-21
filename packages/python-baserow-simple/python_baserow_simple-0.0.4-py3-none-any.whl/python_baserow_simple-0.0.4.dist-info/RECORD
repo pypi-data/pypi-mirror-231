@@ -1,0 +1,10 @@
+python_baserow_simple/__init__.py,sha256=NoSTB0AMsw-zLfHrRRyqc8bTdYINm-HjAoghjjpnbXs,7369
+python_baserow_simple/__main__.py,sha256=HT4ZF5XbygnX1uvYfXNhixMrwwokEMEnd5RwJyYYACg,147
+python_baserow_simple/base.py,sha256=2rUzIBQ5gDlzAO5C_sAdKZnshAqAYbM5dqCBnDx8sc4,365
+python_baserow_simple/cli.py,sha256=sc12YP6b0TIC2psAY2qB2seGwo9jvcL8yvNKDvtiIJ8,782
+python_baserow_simple-0.0.4.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+python_baserow_simple-0.0.4.dist-info/METADATA,sha256=2v-Evem7XWujACyzXkv5X8rEb97HDB8WqqiHOwmiJLw,2403
+python_baserow_simple-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+python_baserow_simple-0.0.4.dist-info/entry_points.txt,sha256=eEGQBoto_8WTCcybNj9OvpANglu81BGMyVwXZhfsE68,78
+python_baserow_simple-0.0.4.dist-info/top_level.txt,sha256=_X7i_wXq0nfc_sQCq6ITfXYWyzPAQFVUOBBgtxGyWrE,22
+python_baserow_simple-0.0.4.dist-info/RECORD,,
