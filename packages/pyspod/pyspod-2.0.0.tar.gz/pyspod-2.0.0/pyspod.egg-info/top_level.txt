@@ -1,0 +1,7 @@
+dist
+docs
+joss
+pyspod
+readme
+tests
+tutorials
