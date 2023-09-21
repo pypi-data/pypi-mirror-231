@@ -1,0 +1,8 @@
+cif2ice/__init__.py,sha256=GTEsxfroLgnxbQEMIIbpzjCgl9yZ4Qw9Cdh1zw392qM,64
+cif2ice/__main__.py,sha256=nGhDGFPG47dcbJ35AOpo50WccayV7056fpIMlQ8wZAU,5392
+cif2ice/read_cif.py,sha256=GiLRDcP-UZGhnSflMNx5FZ-GLXSAwmmcHIslz5K8D5E,14831
+cif2ice-0.3.0.dist-info/METADATA,sha256=33C0Zsr76jbTS6v1KQx7P84vUKhb510KKJlJKKv5fXU,540
+cif2ice-0.3.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+cif2ice-0.3.0.dist-info/entry_points.txt,sha256=phZd0inJzVgpGt-PazzFPQ_4hbS-6swVFO92orrD6o4,50
+cif2ice-0.3.0.dist-info/top_level.txt,sha256=oU8iFNfS9pO8WBvYTB9bBgkQg0GZ7VE2P7iB0VsmHd8,8
+cif2ice-0.3.0.dist-info/RECORD,,
