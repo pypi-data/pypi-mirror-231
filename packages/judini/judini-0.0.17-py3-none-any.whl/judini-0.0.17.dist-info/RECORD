@@ -1,0 +1,9 @@
+judini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+judini/codegpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+judini/codegpt/agent.py,sha256=oe7whC5HDGtj_g2bior3SrBWvXjEhJTNofIKkWwcyIA,2328
+judini/codegpt/alias.py,sha256=lJaiqum-fphb2TeTIgsRRlnpwti4vraomMpFWQnePws,63
+judini-0.0.17.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+judini-0.0.17.dist-info/METADATA,sha256=-770H7w7QmxY_pKENDm-EnRaZ45x7M6O5MaCXtNEk0M,2335
+judini-0.0.17.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+judini-0.0.17.dist-info/top_level.txt,sha256=KG-lMedB7ohW0AkuZreeRehUrg786BzlKhQCMk_3FNE,7
+judini-0.0.17.dist-info/RECORD,,
