@@ -1,0 +1,14 @@
+exclude *.nix
+exclude .pre-commit-config.yaml
+exclude .git_archival.txt
+include *.py
+include testing/*.py
+include tox.ini
+include *.rst
+include LICENSE
+include *.toml
+include mypy.ini
+include testing/Dockerfile.*
+include src/setuptools_scm/.git_archival.txt
+recursive-include testing *.bash
+prune nextgen
