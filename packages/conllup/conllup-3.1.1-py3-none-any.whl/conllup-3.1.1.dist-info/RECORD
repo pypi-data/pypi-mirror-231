@@ -1,0 +1,8 @@
+conllup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conllup/conllup.py,sha256=viKkaYTDCT2HFbpFi8pcYBpfHh1DLeSWRoAJagxnBYA,15156
+conllup/processing.py,sha256=76pW8GJ0N5d-v0IPB98RgB5nIUoE4AbuzsbmVR7-Nj4,8373
+conllup/types.py,sha256=MHYfS71ybk4eMKFxXYzKiYm18DILVqiRqZv_peOJzOg,672
+conllup-3.1.1.dist-info/METADATA,sha256=GVGoFKfaArHE93CwUc2MZQaLPrdIbWDW_4HJxzrlgok,335
+conllup-3.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+conllup-3.1.1.dist-info/top_level.txt,sha256=-Aod8qecTQX7J0mOn5OvMDyhDhSDg_I7qOmP_OAqcBk,8
+conllup-3.1.1.dist-info/RECORD,,
