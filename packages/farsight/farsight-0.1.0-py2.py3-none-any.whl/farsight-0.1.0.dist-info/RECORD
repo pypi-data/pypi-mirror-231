@@ -1,0 +1,15 @@
+farsight/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+farsight/__init__.py,sha256=UTz-_O36pxOEKZDtiUVn7Pdc_emDizKjcg1b_5ANL2Y,165
+farsight/base.html,sha256=_yuoc2IGFRr6mXV8XE4A6IzOjCsueNa8gAxd4Kge314,14936
+farsight/farsight.js,sha256=2UxpaC7s1KbaIzkXW8Tbw4RJTjdoLZ0PMbLJvTQUL9M,4223396
+farsight/farsight.py,sha256=2nbhWl3A3w1FKaMN0RYJe4KC4iDZH3aSIMmgHv4zwrM,17233
+farsight/__pycache__/__init__.cpython-37.pyc,sha256=JFJexTHzb8wp2QQer8V4JR8kWewihMnKzCDTIRBgAIc,400
+farsight/__pycache__/__init__.cpython-39.pyc,sha256=OPFt9XU5aOuEYNnIA7qo2y4wTQlz_tkKr4JM4auSJ0k,360
+farsight/__pycache__/farsight.cpython-39.pyc,sha256=njj_biDMmnIRawDOOSd6UO9oFpz7GeiJMuLGIydQeRk,16352
+farsight/__pycache__/timbertrek.cpython-37.pyc,sha256=WvMbiwQ7joJ4XiaSRp0yF2xIXs2PADagdT0LHRHe-lo,17271
+farsight/__pycache__/timbertrek.cpython-39.pyc,sha256=yAyeeMkrJF9SJNlsVuk-_fYtJY-ufOsol2bsJxvdzBo,17262
+farsight/__pycache__/wizmap.cpython-39.pyc,sha256=DkCzfMo3uC_6n_jqj-j8zB5sFcyxAxmfkpvHvQcsAHA,21984
+farsight-0.1.0.dist-info/METADATA,sha256=SdmugxsIkSbfSKiOyNgM_DpmGbbPa3rvgUYdL78cX4o,978
+farsight-0.1.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+farsight-0.1.0.dist-info/top_level.txt,sha256=Ixtzu7fNP8KNBoXo9eMhCHJOK6orMXfVuCeAqXEGljo,9
+farsight-0.1.0.dist-info/RECORD,,
