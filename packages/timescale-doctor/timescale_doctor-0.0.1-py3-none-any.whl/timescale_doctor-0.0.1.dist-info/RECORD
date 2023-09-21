@@ -1,0 +1,12 @@
+doctor/__init__.py,sha256=kwL_TCFA9OLOyOxfOfB9bkRPSbrTULA3LzR4DaRlYdA,3214
+doctor/cli.py,sha256=erxLaLeWqsfZR6-hFHIwgqVHPfg5pif__rFFk2Y44A4,2220
+doctor/rules/__init__.py,sha256=hxL8cZmeY6yyzO45OlPmbsDLqFpcLZazBcwDoC9T9go,1216
+doctor/rules/compression.py,sha256=M96wVWFmvZS3aLsg-QgoYq4u6DeKAERLKAGld46CYZ4,2441
+doctor/rules/hypertable.py,sha256=RaGag7nr0A5BNgGSVK3PHDgq-sfNMlfg1S9HG5YygQM,2777
+doctor/rules/index.py,sha256=QH7cpxhIAQFIqn7Ar9v0YloQqZuD5PZ1ttecs-ki5co,1364
+timescale_doctor-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+timescale_doctor-0.0.1.dist-info/METADATA,sha256=L1y_6Pmc5NAZSLD933O9N05sgktstgIGlfwODH_-2ek,2276
+timescale_doctor-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+timescale_doctor-0.0.1.dist-info/entry_points.txt,sha256=zxFiDLAVAm4gqjTCnbQo6XAyelexO2dWwdN-dCF2AlQ,53
+timescale_doctor-0.0.1.dist-info/top_level.txt,sha256=8awHkjBkPxJ8N_ygAwmuUTUz5ZKfy9aqNcWTSI_Ma_8,7
+timescale_doctor-0.0.1.dist-info/RECORD,,

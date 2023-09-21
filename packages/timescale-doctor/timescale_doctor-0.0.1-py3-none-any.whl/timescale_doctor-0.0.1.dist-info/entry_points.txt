@@ -1,0 +1,2 @@
+[console_scripts]
+timescale-doctor = doctor.cli:main
