@@ -1,0 +1,2 @@
+# There may be encoding errors when reading different csv files, loop through possible encodings to make sure the file is properly loaded.
+encoding_list = ['utf_8', 'unicode_escape', 'gbk', 'utf_16', 'ascii']
