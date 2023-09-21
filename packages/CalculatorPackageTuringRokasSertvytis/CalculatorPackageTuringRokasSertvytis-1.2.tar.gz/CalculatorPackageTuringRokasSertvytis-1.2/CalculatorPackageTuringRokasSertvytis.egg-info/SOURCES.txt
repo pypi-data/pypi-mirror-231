@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+CalculatorPackageTuringRokasSertvytis.egg-info/PKG-INFO
+CalculatorPackageTuringRokasSertvytis.egg-info/SOURCES.txt
+CalculatorPackageTuringRokasSertvytis.egg-info/dependency_links.txt
+CalculatorPackageTuringRokasSertvytis.egg-info/top_level.txt
+calculator/__init__.py
+calculator/calculator.py
+tests/__init__.py
+tests/calculator_test.py
