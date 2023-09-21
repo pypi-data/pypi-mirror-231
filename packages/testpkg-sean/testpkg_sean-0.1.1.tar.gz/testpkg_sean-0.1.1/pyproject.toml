@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "testpkg_sean"
+version = "0.1.1"
+description = ""
+authors = ["yanwei.zhu <yanwei.zhu@garena.cn>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.extras]
+minio = ["7.0.3"]
+openpyxl = ["3.1.2"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
