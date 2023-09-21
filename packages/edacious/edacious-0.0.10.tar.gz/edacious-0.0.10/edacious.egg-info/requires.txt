@@ -1,0 +1,2 @@
+quickbelog>=1.1.0
+flask>=2.0.0
