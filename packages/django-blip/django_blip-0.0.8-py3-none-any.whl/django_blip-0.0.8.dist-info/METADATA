@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-blip
+Version: 0.0.8
+Summary: Python package to intercept all external api call during django test.
+Home-page: https://github.com/abhinavsp0730/blip/
+Author: Abhinav Prakash
+Author-email: abhinavsp0730@gmail.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpretty >=1.1.4
+
+/private/var/folders/h2/fw_wfk2n4f174nxsk5z25cbc0000gn/T/build-via-sdist-1zf0tndk/README.md
