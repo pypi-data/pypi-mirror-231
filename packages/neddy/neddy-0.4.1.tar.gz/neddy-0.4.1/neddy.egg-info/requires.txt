@@ -1,0 +1,6 @@
+pyyaml
+fundamentals
+astrocalc
+eventlet
+numpy
+unicodecsv
