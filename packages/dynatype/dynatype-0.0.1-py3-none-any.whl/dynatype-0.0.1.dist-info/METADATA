@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dynatype
+Version: 0.0.1
+Summary: A dynamic type checker in Python.
+Author-email: PlaceReporter99 <placereporter99pypi@outlook.com>
+Project-URL: Homepage, https://github.com/PYPI-PlaceReporter99/dynatype
+Project-URL: Bug Tracker, https://github.com/PYPI-PlaceReporter99/dynatype/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dynatype
+A dynamic type checker for Python.
+## What happens?
+When you import the module, it silently decorates all your functions with a type checker.
+## How do I use it?
+Type annotate it like you would in regular Python except using the annotation object (e.g. `def f(a: dynatype.annotation(lambda x: type(x) is float or type(x) is int, lambda x: x < 0.5))`). That annotation only allows numbers less than 0.5 to be passed into the function.
+## What happens when an innapropriate value is passed?
+A `TypeError` is raised, allowing you to catch the error if you don't want the program to stop.
