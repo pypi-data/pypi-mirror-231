@@ -1,0 +1,28 @@
+
+# Create a named graph
+# tupletable create ufu:FNG type named-graph
+
+# Import the ontology
+import > ufu:FNG probs.ttl
+
+# Parse the axioms in the triples
+importaxioms ufu:FNG assertions
+
+# Drop triples not needed in the output
+# tupletable delete ufu:FNG force
+tupletable delete Quads force
+tupletable create Quads type quad-table-lg
+
+# A simple, builtin rule set for subsumption reasoning
+import <rdfox:TBoxReasoning>
+
+# Reflexivity (needed because RDFox does not support ReflexiveProperty)
+import ! :objectEquivalentTo[?Object,?Object] :- :Object[?Object] .
+import ! :processEquivalentTo[?Process,?Process] :- :Process[?Process] .
+
+# Converts axioms to Datalog rules
+export "probs_ontology_rules.dlog" "application/x.datalog" rule-domain "user axioms"
+
+exec ./explicate
+tupletable delete DefaultTriples force
+tupletable create DefaultTriples type triple-table

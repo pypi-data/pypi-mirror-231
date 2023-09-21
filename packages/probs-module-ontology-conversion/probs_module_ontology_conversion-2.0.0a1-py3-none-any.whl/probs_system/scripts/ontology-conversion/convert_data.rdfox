@@ -1,0 +1,17 @@
+
+# Import the ontologies
+import prov-o.ttl
+import qudt.ttl
+import qudt_quantitykind.ttl
+import qudt_unit.ttl
+import time.ttl
+import UK.ttl
+import probs.ttl
+import time_periods.ttl
+
+# Exports all triples into a single file
+# export "../data/probs_extended.ttl" "text/turtle" fact-domain all
+export "../data/probs_ontology_data.nt.gz" "application/n-triples" fact-domain all
+
+tupletable delete DefaultTriples force
+tupletable create DefaultTriples type triple-table

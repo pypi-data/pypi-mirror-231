@@ -1,0 +1,12 @@
+probs_system/data/README.md,sha256=tOoOCF5TRn5j9mDR4J1dsJDJcveOnazP0U5kTzgoo9k,63
+probs_system/scripts/ontology-conversion/convert_data.rdfox,sha256=qEr9S3SehlgPjilppCG5wnPrTBjo86JjPdUajSm21ac,464
+probs_system/scripts/ontology-conversion/convert_rules.rdfox,sha256=ZHmQtJodXm5OqZPb_DpXDMXgKcLdox5IkOugP1E4hHU,862
+probs_system/scripts/ontology-conversion/explicate.rdfox,sha256=SubIJ4eoDVlrjPpFcyW_keWrW41Yvce8pOTF-Y7gRy0,69
+probs_system/scripts/ontology-conversion/master.rdfox,sha256=nVj2lud5kbMxJSjjr1Q2UZfpbmb9aU6V2NlSFwEHLWc,601
+probs_system/scripts/ontology-conversion/prefixes.rdfox,sha256=cU06Q4WRBlmxDq9K1JopACYQCl6JUK6AIPq4Dg-YKMY,510
+probs_system/scripts/ontology-conversion/setup-RDFox.rdfox,sha256=_xzBVLgHEZi3HDanw9I1Uo_seBzy9bZImynyojnc7oc,149
+probs_module_ontology_conversion-2.0.0a1.dist-info/LICENSE,sha256=5tDtE_812y5-WlmZKvCyOqApL8dx2IcYfoKddluqZTQ,1066
+probs_module_ontology_conversion-2.0.0a1.dist-info/METADATA,sha256=NGpP5QzV4BwmIFT4Tp-UFr0FGDnqIZ1kQ-a8zUW2_HY,1117
+probs_module_ontology_conversion-2.0.0a1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+probs_module_ontology_conversion-2.0.0a1.dist-info/top_level.txt,sha256=YIJwWuEpDMq79NnDQGz-duRdQSvr9s23rqYPBMXz5wU,13
+probs_module_ontology_conversion-2.0.0a1.dist-info/RECORD,,
