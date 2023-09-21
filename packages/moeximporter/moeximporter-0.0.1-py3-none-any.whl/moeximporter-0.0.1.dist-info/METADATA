@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: moeximporter
+Version: 0.0.1
+Summary: MOEX Importer package
+Author: Konstantin Novik
+Author-email: <konstantin.novik@gmail.com>
+License: MIT
+Keywords: python,MOEX,MOEX quotes,finance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+License-File: LICENSE.txt
+Requires-Dist: pandas
+
+Import quotes and data from MOEX ISS API
