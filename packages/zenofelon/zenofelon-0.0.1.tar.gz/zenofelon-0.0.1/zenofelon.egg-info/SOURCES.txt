@@ -1,0 +1,6 @@
+pyproject.toml
+zenofelon.py
+zenofelon.egg-info/PKG-INFO
+zenofelon.egg-info/SOURCES.txt
+zenofelon.egg-info/dependency_links.txt
+zenofelon.egg-info/top_level.txt

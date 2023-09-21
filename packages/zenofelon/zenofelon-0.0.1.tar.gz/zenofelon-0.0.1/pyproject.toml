@@ -1,0 +1,7 @@
+[project]
+name = "zenofelon"
+version = "0.0.1"
+authors = [
+  { name="Bert Lievrouw", email="b@bertlievrouw.com" },
+]
+description = "Zen of Elon"
