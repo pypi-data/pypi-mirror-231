@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/frechet/__init__.py
+src/frechet/estimators.py
+src/frechet.egg-info/PKG-INFO
+src/frechet.egg-info/SOURCES.txt
+src/frechet.egg-info/dependency_links.txt
+src/frechet.egg-info/top_level.txt
