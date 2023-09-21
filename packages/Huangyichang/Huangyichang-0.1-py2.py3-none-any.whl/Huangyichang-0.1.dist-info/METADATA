@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Huangyichang
+Version: 0.1
+Summary: AI Head
+Home-page: https://github.com/IamJiangBo/OBC_AI
+Author: Charlene
+Author-email: chencl9@asiainfo.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.13
+Description-Content-Type: text/markdown
+
