@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: chess-insight
+Version: 0.6.5
+Summary: Modern package for analyzing chess games.
+Home-page: https://github.com/michalskibinski109/chess-insight
+Author: Michał Skibiński
+Author-email: mskibinski109@gmail.com
+License: GPL-3.0+
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: stockfish
+Requires-Dist: easy-logs
+Requires-Dist: chess
+Requires-Dist: berserk
+Requires-Dist: chess.com
+Requires-Dist: pandas
+Requires-Dist: rich
