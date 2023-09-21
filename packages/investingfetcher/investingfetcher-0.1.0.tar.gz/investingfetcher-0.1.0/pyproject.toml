@@ -1,0 +1,23 @@
+[tool.poetry]
+packages = [
+    { include = "investingfetcher" },
+]
+name = "investingfetcher"
+version = "0.1.0"
+description = ""
+authors = ["Iaroslav Plaksin <gotaatr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+zenrows = "^1.3.1"
+pandas = "^2.1.0"
+pylint = "^2.17.5"
+aiohttp = "^3.8.5"
+
+[tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
