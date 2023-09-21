@@ -1,0 +1,2 @@
+[console_scripts]
+trops = trops.exec:main
