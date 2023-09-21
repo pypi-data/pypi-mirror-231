@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/candor/__init__.py
+src/candor/candor.py
+src/candor.egg-info/PKG-INFO
+src/candor.egg-info/SOURCES.txt
+src/candor.egg-info/dependency_links.txt
+src/candor.egg-info/requires.txt
+src/candor.egg-info/top_level.txt
