@@ -1,0 +1,9 @@
+gammarer/aws_ec2_instance_connect_custom_resource/__init__.py,sha256=wytckUfJ9kix7tlFao3ikkngT6X-1saSPrzGG-4X26Y,6865
+gammarer/aws_ec2_instance_connect_custom_resource/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gammarer/aws_ec2_instance_connect_custom_resource/_jsii/__init__.py,sha256=pIbq1B4z0GRtHsMyFT05oCpByf6YA4opK1T-oXevwBg,470
+gammarer/aws_ec2_instance_connect_custom_resource/_jsii/aws-ec2-instance-connect-custom-resource@1.1.0.jsii.tgz,sha256=pHS7-XwfCVH3A0TtADIYFbyTyTNEhdSVLMjKCmoTWzo,18127
+gammarer.aws_ec2_instance_connect_custom_resource-1.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+gammarer.aws_ec2_instance_connect_custom_resource-1.1.0.dist-info/METADATA,sha256=LfLMZiVDYJVukDTZStEdcr5094EjfLYbP3th_8uxjNA,3995
+gammarer.aws_ec2_instance_connect_custom_resource-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gammarer.aws_ec2_instance_connect_custom_resource-1.1.0.dist-info/top_level.txt,sha256=KJjeCHKZfj1dN2Ip1piM9BKO8rN6r4xXHtkpTHMDzVk,9
+gammarer.aws_ec2_instance_connect_custom_resource-1.1.0.dist-info/RECORD,,
