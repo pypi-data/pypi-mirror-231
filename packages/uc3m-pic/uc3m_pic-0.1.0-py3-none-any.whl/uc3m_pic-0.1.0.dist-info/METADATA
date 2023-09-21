@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: uc3m-pic
+Version: 0.1.0
+Summary: Helper package for UC3M PIC course
+Author-email: ramajoballester <aramajo@ing.uc3m.es>
+Project-URL: Homepage, https://github.com/ramajoballester/UC3M-PIC
+Project-URL: Bug Tracker, https://github.com/ramajoballester/UC3M-PIC/issues
+Keywords: python,pytorch,deep-learning,computer-vision
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=2.0
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: ipykernel
+Requires-Dist: torchsummary
+Requires-Dist: gspread
+Requires-Dist: google-api-python-client
+Requires-Dist: thop
+Requires-Dist: wandb
+Requires-Dist: torchmetrics
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: IProgress
+Requires-Dist: notebook
+Requires-Dist: ipywidgets
+Provides-Extra: dev
+Requires-Dist: pyarmor ; extra == 'dev'
+Requires-Dist: git-filter-repo ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: test
+
+# UC3M-PIC
+
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Framajoballester%2FUC3M-PIC%2Fmain%2Fpyproject.toml&style=flat-square)
+
+Computer Vision class material for Master in Robotics and Automation at UC3M
+
+# Installation
+
+Refer to the installation guide for your OS
+
+## Install pytorch 2.0 and its dependencies
+
+Follow Pytorch official [installation guide](https://pytorch.org/get-started/locally/).
+Installation with conda is highly recommended.
+
+## Install uc3m-pic package
+
+Clone this repo in your working directory:
+
+```git clone https://github.com/ramajoballester/UC3M-PIC.git```
+
+And install it:
+
+```pip install .```
+
+To check everything is working, run:
+
+```python -m unittest```
+
+
+# Usage
+
+Do not forget to run `wandb login` before starting the kernels of notebooks 02 and 03
