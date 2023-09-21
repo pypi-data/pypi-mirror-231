@@ -1,0 +1,11 @@
+scian_ciiu/__init__.py,sha256=0M_VdUGRPDBvZ5_H9qm13qDc8AFpZ7ytb2UYnPr5tYw,128
+scian_ciiu/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scian_ciiu/src/data.py,sha256=4yaOt9vJtFzv4v5sc5BVqpsi0NHGGLXxsxlxjRGkVqg,510812
+scian_ciiu/src/scian_ciiu.py,sha256=Uc455TCxcSlRpMVmOi4owMkObFAI2ac1xO2Hmgc0h4Q,682
+scian_ciiu/src/search.py,sha256=39S6F404jDqBPqKy87z0QK5XHSxmEPZBKx-9VvDQgKQ,1754
+scian_ciiu/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scian_ciiu/test/test_scian_ciiu.py,sha256=NsGMtF0l6-Hw_p05cwNHAnoDIcOIupQSw64G66eqlo4,15265
+scian_ciiu-0.0.10.dist-info/METADATA,sha256=AUTfe3fFZfI4BFe7S4Di-sIietaUwKrZdAv4aUTJqm4,1246
+scian_ciiu-0.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scian_ciiu-0.0.10.dist-info/top_level.txt,sha256=cOfAfb9TuhahyMV9UgULqMSkN35f90MPz_Bilg7rdLU,11
+scian_ciiu-0.0.10.dist-info/RECORD,,
