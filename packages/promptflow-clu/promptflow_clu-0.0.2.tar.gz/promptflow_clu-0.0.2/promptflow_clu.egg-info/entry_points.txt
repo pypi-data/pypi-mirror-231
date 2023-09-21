@@ -1,0 +1,2 @@
+[package_tools]
+conversational_language_understanding = promptflow_clu.tools.utils:list_package_tools
