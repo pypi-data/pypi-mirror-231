@@ -1,0 +1,8 @@
+setup.py
+config/__init__.py
+config/conftest.py
+pytestCollectInfoPlugin.egg-info/PKG-INFO
+pytestCollectInfoPlugin.egg-info/SOURCES.txt
+pytestCollectInfoPlugin.egg-info/dependency_links.txt
+pytestCollectInfoPlugin.egg-info/requires.txt
+pytestCollectInfoPlugin.egg-info/top_level.txt
