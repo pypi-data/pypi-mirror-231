@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: oold
+Version: 0.2.0
+Summary: Linked data class python package
+Home-page: https://github.com/OpenSemanticWorld/oold-python
+Author: Simon Stier
+Author-email: simon.stier@data-info-knowledge.de
+License: AGPL-3.0-or-later
+Project-URL: Documentation, https://opensemanticworld.github.io/oold-python/
+Project-URL: Source, https://github.com/OpenSemanticWorld/oold-python
+Project-URL: Download, https://pypi.org/project/oold/#files
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Requires-Dist: pydantic
+Requires-Dist: datamodel-code-generator
+Provides-Extra: dev
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: testing
+Requires-Dist: setuptools; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+
+[![PyPI-Server](https://img.shields.io/pypi/v/oold.svg)](https://pypi.org/project/oold/)
+[![Coveralls](https://img.shields.io/coveralls/github/OpenSemanticWorld/oold-python/main.svg)](https://coveralls.io/r/<USER>/oold)
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+
+
+# oold
+
+> Linked data class python package
+
+
+## Dev
+```
+git clone https://github.com/OpenSemanticWorld/oold-python
+pip install -e .[dev]
+```
+
+
+<!-- pyscaffold-notes -->
+
+## Note
+
+This project has been set up using PyScaffold 4.5. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
