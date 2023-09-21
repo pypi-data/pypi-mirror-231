@@ -1,0 +1,11 @@
+small_web_dataset/__init__.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+small_web_dataset/_modidx.py,sha256=89zjALyTZFj4a6PG1-Ict00FLyCqAozAPmO7t2_hsmc,6629
+small_web_dataset/feeds.py,sha256=_untpOrsSEu3_LuNP1JRi1Qf_tioVqRSu4sxVCk-7G8,14911
+small_web_dataset/language_detection.py,sha256=yfr5YOYdIcj_CRHUsYoXJ9MCZEO7hKqtPbbQ6tIYFSo,1929
+small_web_dataset/main.py,sha256=QGlYd2hAT4ZYlH65jUtOVz6q1eJfkpFm5AyP4Z1DNdU,3141
+small_web_dataset-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+small_web_dataset-0.0.2.dist-info/METADATA,sha256=tRryym53CCBB5hrDMHkLM-1hwXN5zI6v3A3T8GsQW3M,4190
+small_web_dataset-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+small_web_dataset-0.0.2.dist-info/entry_points.txt,sha256=OKGXySTVlrIOqWE8YMQkYFREo9Sztu5Tv2AfaXtY-84,52
+small_web_dataset-0.0.2.dist-info/top_level.txt,sha256=B1eET3iszgzF-QwLHcRh80Q6utk9DFMM0gdbMiYmixc,18
+small_web_dataset-0.0.2.dist-info/RECORD,,

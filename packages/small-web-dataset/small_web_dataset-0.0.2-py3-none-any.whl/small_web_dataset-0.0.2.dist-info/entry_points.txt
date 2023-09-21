@@ -1,0 +1,2 @@
+[console_scripts]
+swd = small_web_dataset.main:init
