@@ -1,0 +1,11 @@
+swmonkey/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swmonkey/main.cpython-310-x86_64-linux-gnu.so,sha256=dYmKbIccwPUXxJFnTVZyzs15vYOOV3fLc7HmuUmTcsg,389208
+swmonkey/main.py,sha256=s1Y6aaCeiF0eGP1agB9torspvd_EX16PQR7gkrMD8IA,4498
+swmonkey/runner.cpython-310-x86_64-linux-gnu.so,sha256=zo72OANVIckE5lpRXxfKwdR2K3Xx-0mojO9mgmWmwoA,403656
+swmonkey/runner.py,sha256=sZxqwyThHVrTs-bh74U8S43fhlGL3aZSZDid5HKgfAk,4973
+test_module/__init__.py,sha256=XMN_Y-9-Pega4CVyk_mp_EX9jh0Taq2GwPtHpIkSHkQ,32
+swmonkey-0.41.dist-info/METADATA,sha256=M-1QhS5Gvk0eCzoZpJjj5_1xoFVZxIAsxhtGy1m2BM4,228
+swmonkey-0.41.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+swmonkey-0.41.dist-info/entry_points.txt,sha256=Jg0os-NuNpSNzNY3GqyKZsXjGJhCdvg4tk2-leMtXOA,91
+swmonkey-0.41.dist-info/top_level.txt,sha256=QlM9SVsvCEISIBQuofa7UEkF0fwxAMrefLYO7cfrOmM,9
+swmonkey-0.41.dist-info/RECORD,,
