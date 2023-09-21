@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: burndown-chart-generator
+Version: 0.1.0
+Summary: A burndown chart generator for font projects, based on color marks
+Author-email: Dalton Maag Ltd <sd@daltonmaag.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/daltonmaag/font-burndown-chart-generator
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: cattrs
+Requires-Dist: fontTools
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: toml
+Requires-Dist: ufoLib2

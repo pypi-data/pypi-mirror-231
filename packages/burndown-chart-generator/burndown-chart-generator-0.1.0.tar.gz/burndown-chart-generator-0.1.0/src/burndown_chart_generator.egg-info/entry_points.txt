@@ -1,0 +1,2 @@
+[console_scripts]
+burndown-chart-generator = burndown_chart_generator.__main__:clap
