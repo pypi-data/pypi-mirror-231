@@ -1,0 +1,13 @@
+pageai_sdk/__init__.py,sha256=1HjuIbzqd4MrOTGPHDKirsjK5ZlgGo1A0dmsYW45ftE,913
+pageai_sdk/api_client.py,sha256=sP5G2TGICqTMwlDwturaJ2n_IYhHnoGgAZo5MrwVads,26262
+pageai_sdk/configuration.py,sha256=Ol5aWw0y15BN4Gsr_TCbF-oOranffhqPcBIr5qGTEZw,12671
+pageai_sdk/exceptions.py,sha256=mAyYXkDGqbEKBuRSgWr_ZiTWb6fx1rtwc9bukP-xUzI,3824
+pageai_sdk/rest.py,sha256=jSYYNHMTgchCa1b_IbRRca-YatlhTIagwVPRRdpw9vY,12352
+pageai_sdk/api/__init__.py,sha256=5BCCQuAsuSzGxsj5DB6pLgqMfsf7KoxxZkJgS7jYFXU,136
+pageai_sdk/api/page_ai_api.py,sha256=17b2Xapo5hMCRNr922f1PM2DdNchsrwV2p0RfS46pGE,14345
+pageai_sdk/models/__init__.py,sha256=sORFWGIAwr-7oj0l6VpGInBYVMcDIo2jDpM9Vd3IiEU,453
+pageai_sdk/models/upload_response.py,sha256=ri0hUeD2WtTgxycuErl7SmGEQ_uqFRcCN8bI9tf4HI8,3525
+pageai_sdk-0.6.0.66.dist-info/METADATA,sha256=gKzZipEujecp5_WjqalBc7dd3fvYTSM1DtGvVbFRZaQ,483
+pageai_sdk-0.6.0.66.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pageai_sdk-0.6.0.66.dist-info/top_level.txt,sha256=1y4Vc5sCAUMVt1Ikuvr-qiuWmFnip0A297swDzIsgOA,11
+pageai_sdk-0.6.0.66.dist-info/RECORD,,
