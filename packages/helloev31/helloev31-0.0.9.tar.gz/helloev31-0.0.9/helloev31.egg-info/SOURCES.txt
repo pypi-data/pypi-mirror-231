@@ -1,0 +1,7 @@
+setup.py
+helloev31.egg-info/PKG-INFO
+helloev31.egg-info/SOURCES.txt
+helloev31.egg-info/dependency_links.txt
+helloev31.egg-info/top_level.txt
+libname/__init__.py
+libname/hello.py
