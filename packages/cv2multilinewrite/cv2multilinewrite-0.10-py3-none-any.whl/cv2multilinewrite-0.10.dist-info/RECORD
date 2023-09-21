@@ -1,0 +1,9 @@
+cv2multilinewrite/README.MD,sha256=3rLDnL2dTDEl0xNeKs1jmksQhtPVkpzjMSWsJ1oFTeg,1180
+cv2multilinewrite/__init__.py,sha256=zhUcKfMMo-zOJXKbrMNtzdIrMCh9zP7z8gasMRgWO8Y,2928
+cv2multilinewrite/requirements.txt,sha256=tPoMnSqi9Zr5jjoXMTqSsfdtu4hbnJ5m-qecJO2GGpk,20
+cv2multilinewrite/thirdparty.json,sha256=kcVYElp_HPrM-i52hyBLzJd6dZ45InIXkszUfqdLpV4,199425
+cv2multilinewrite-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+cv2multilinewrite-0.10.dist-info/METADATA,sha256=sZJCX1Xh9iJqO9Uzh0tsEVjs5KM8zHR2tI2e2uXwXok,1842
+cv2multilinewrite-0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cv2multilinewrite-0.10.dist-info/top_level.txt,sha256=NPrhSpc06tNR2aGwXJb05pU2aYqm6NUaEB6fsApt2G4,18
+cv2multilinewrite-0.10.dist-info/RECORD,,
