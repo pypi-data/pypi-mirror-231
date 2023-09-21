@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: instacrawler
+Version: 1.0.0
+Summary: The fastest way to check someone's instagram feed/story.
+Home-page: https://github.com/gibiee/instacrawler
+Download-URL: 
+Author: gibiee
+Author-email: gibiee@naver.com
+License: MIT
+Keywords: instacrawler,instagram,crawler,crawling,instagram-crawler,instagram-crawling
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
