@@ -1,0 +1,2 @@
+CndLib
+<testsuite errors="0" timestamp="2023-09-21T00:03:27.369796" host="localhost" tests="1" skipped="0" failures="0" time="0.042855"><testcase classname="tests.cnd_lib_spec" name="Base __init__ it shoud get an instance" file="tests/cnd_lib_spec.py" time="0.000070" /></testsuite>
