@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+HPC_submission_tools.egg-info/PKG-INFO
+HPC_submission_tools.egg-info/SOURCES.txt
+HPC_submission_tools.egg-info/dependency_links.txt
+HPC_submission_tools.egg-info/requires.txt
+HPC_submission_tools.egg-info/top_level.txt
