@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/parspy.egg-info/PKG-INFO
+src/parspy.egg-info/SOURCES.txt
+src/parspy.egg-info/dependency_links.txt
+src/parspy.egg-info/top_level.txt
