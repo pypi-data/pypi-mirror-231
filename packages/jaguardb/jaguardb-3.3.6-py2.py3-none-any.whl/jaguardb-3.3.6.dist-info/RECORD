@@ -1,0 +1,9 @@
+jaguardb-3.3.6.data/data/jaguar_example/README.md,sha256=Ha5KKe3MvxuQhSTmqWGCjF4tcMe9eO5HNob48ms0yxc,751
+jaguardb-3.3.6.data/data/jaguar_example/test.sh,sha256=Gvmmzt-Gf-YYwD032z-NTaASJLpHPvObq2cK3NtQTAQ,143
+jaguardb-3.3.6.data/data/jaguar_example/vector_similarity.py,sha256=82FWxgTYFKlXRi1JAR7IxTSsO8chMVezobCC7AoZ404,14093
+jaguardb-3.3.6.data/data/shared_library/jaguarpy.so,sha256=Gs-xNbk6bDT1eiA6OXAYswNRZpZxZVqWsnHV5S9g9v0,343888
+jaguardb-3.3.6.data/data/shared_library/libJaguarClient.so,sha256=V7oCIPk7SNsa3nGjSUSy92eXahGGClbQtPIlMk62e6g,4005800
+jaguardb-3.3.6.dist-info/METADATA,sha256=h74e84P-wldBSi7m8GrIK94Geo0MewV0eNOIeAM8LsI,230
+jaguardb-3.3.6.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jaguardb-3.3.6.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jaguardb-3.3.6.dist-info/RECORD,,
