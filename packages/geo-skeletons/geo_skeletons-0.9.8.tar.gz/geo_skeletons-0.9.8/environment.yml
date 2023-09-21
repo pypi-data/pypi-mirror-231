@@ -1,0 +1,11 @@
+name: skeletons
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - xarray
+  - utm
+  - pytest
+  - geopy
+  - pylint
