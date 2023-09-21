@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dateweek
+Version: 0.1.0
+Summary: Neste modulo são disponibilizadas funções de calendários.
+Author-email: Arthur Harduim <arthur.harduim@rioenergy.com.br>, Tiago Alves <tiago.alves@rioenergy.com.br>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools>=61.0
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: pytest-forked ; extra == "unittest"
+Requires-Dist: pytest ; extra == "unittest"
+Requires-Dist: pytest-xdist ; extra == "unittest"
+Project-URL: Documentation, https://github.com/Harduim/DateWeek
+Project-URL: Home, https://github.com/Harduim/DateWeek
+Project-URL: Source, https://github.com/Harduim/DateWeek
+Provides-Extra: dev
+Provides-Extra: unittest
+
+# DateWeek
+
+
+## Usage
+
+
+## Development
+
+### Conda
+
+```bash
+conda env create -f environment.yml
+conda activate dateweek
+pip install -e .
+pip install -e .[dev]
+pip install -e .[unittest]
+```
+
