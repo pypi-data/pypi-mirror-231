@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/trading212/__init__.py
+src/trading212/http_request.py
+src/trading212_connector.egg-info/PKG-INFO
+src/trading212_connector.egg-info/SOURCES.txt
+src/trading212_connector.egg-info/dependency_links.txt
+src/trading212_connector.egg-info/requires.txt
+src/trading212_connector.egg-info/top_level.txt
+tests/test_http_base.py
