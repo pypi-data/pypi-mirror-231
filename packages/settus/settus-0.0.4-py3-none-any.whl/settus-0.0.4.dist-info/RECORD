@@ -1,0 +1,11 @@
+settus/__init__.py,sha256=AYDrzeN-YAH3exBmk7Qj7-qRAPLUVXEsEBrCap4Cg1A,907
+settus/_version.py,sha256=vu_LccLlmoyQR0cVgtNnwxsHCW5OZPM8ynpF_MLqapI,18
+settus/basesettings.py,sha256=GWCSMdgDcBMJnyjxH_yTYLLvaE7tc3IqXzWDFxK-YNE,6836
+settus/field.py,sha256=YjKIkQSpzpwTiX5EXqWA0UQ_DIMC2Yx6f-x8hC0y644,682
+settus/keyvaultsettingssource.py,sha256=jpn3I-a7c3uyThqdH-wpi5F9lgzp1cF13xSPfuE_NOI,3020
+settus/settingsconfigdict.py,sha256=8zuqCj8Y09z4UsR4LBV6c-gpQ2xcowO843J967cRQ1o,412
+settus-0.0.4.dist-info/LICENSE,sha256=bixa0YlPhArITYqSSY2wybO9IscM6BLeGnaFtsZa9-s,1066
+settus-0.0.4.dist-info/METADATA,sha256=kdl-NUagQROWgGYhrSI5gBfIlHvRwgf8ZOZCRevTbi4,3304
+settus-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+settus-0.0.4.dist-info/top_level.txt,sha256=c6TRxvQzB2H-YerFMu-fXW0QPveAcC9WzXRcJqfifY4,7
+settus-0.0.4.dist-info/RECORD,,
