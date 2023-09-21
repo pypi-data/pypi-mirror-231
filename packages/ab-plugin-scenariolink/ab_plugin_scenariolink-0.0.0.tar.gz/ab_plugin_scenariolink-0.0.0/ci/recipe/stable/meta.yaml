@@ -1,0 +1,39 @@
+package:
+  name: ab-plugin-scenariolink
+  version: "{{ GIT_DESCRIBE_TAG }}"
+
+source:
+  git_rev: main
+  git_url: https://github.com/polca/ScenarioLink.git
+
+build:
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - conda-verify
+    - unfold
+    - datapackage
+    - pandas
+  run:
+    - activity-browser
+    - unfold
+    - datapackage
+    - pandas
+
+about:
+  home: https://github.com/polca/ScenarioLink
+  license: LGPL3+
+  license_family: LGPL
+  license_file: LICENSE.txt
+  summary: Deploy `unfold` datapackages in Activity Browser
+  description: |
+    The [Activity Browser](https://github.com/LCA-ActivityBrowser/activity-browser)
+    is a graphical user interface for the [brightway2](https://brightway.dev/)
+    advanced life cycle assessment framework.
+    This plugin allows you to import scenario-based LCA databases 
+    through the use of `unfold` datapackages.
