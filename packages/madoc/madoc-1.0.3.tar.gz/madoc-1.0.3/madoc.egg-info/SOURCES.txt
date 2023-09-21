@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+madoc/__init__.py
+madoc/madoc.py
+madoc.egg-info/PKG-INFO
+madoc.egg-info/SOURCES.txt
+madoc.egg-info/dependency_links.txt
+madoc.egg-info/entry_points.txt
+madoc.egg-info/top_level.txt
+madoc/templates/__init__.py
+madoc/templates/end.html.tpl
+madoc/templates/start.html.tpl
