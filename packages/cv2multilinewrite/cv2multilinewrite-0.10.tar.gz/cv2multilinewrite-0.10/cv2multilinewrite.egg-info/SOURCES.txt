@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cv2multilinewrite/README.MD
+cv2multilinewrite/__init__.py
+cv2multilinewrite/requirements.txt
+cv2multilinewrite/thirdparty.json
+cv2multilinewrite.egg-info/PKG-INFO
+cv2multilinewrite.egg-info/SOURCES.txt
+cv2multilinewrite.egg-info/dependency_links.txt
+cv2multilinewrite.egg-info/requires.txt
+cv2multilinewrite.egg-info/top_level.txt
