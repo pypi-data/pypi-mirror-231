@@ -1,0 +1,11 @@
+multimatcher/__init__.py,sha256=dVodkuHusisnW5Kl7FYq0FIGLwuzYxrhU24KTwtzGVg,45
+multimatcher/match.py,sha256=rC1pR5xKa4dvF37macTbOqGCuR_62AXyGCwiuFOCfUI,281
+multimatcher/match_mode.py,sha256=dx5F9Fi7QRG-zGGrYFs4SVMgmWIPcnoUR4WQLKEadmE,1750
+multimatcher/matcher.py,sha256=0EpltrEgwX9LqKeTct1dv5H9WDGKFW3uCQn4tCNfKXA,8417
+multimatcher/replacer.py,sha256=evEynrA6EVPvgBHkaJP9yg4pPW1uuvbDT5Iz1M8jFS4,2119
+multimatcher/trie.py,sha256=FEM2fk6Mr7m4G0GHVb1dBToZvc6M5CYUGNPVrig-NWc,3538
+multimatcher-0.0.2.dist-info/LICENSE,sha256=HsQlVN7U8ieLZmStepnHW5-eSuV9w0gQMOm6tSyRO9k,1072
+multimatcher-0.0.2.dist-info/METADATA,sha256=eRBY2wWXpZdjwcAIIyf-w7mTW6DzTZooWjItPQ089Qo,2697
+multimatcher-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+multimatcher-0.0.2.dist-info/top_level.txt,sha256=z9R6XWXen3I9hQfQRYcUspnyCI7nwVpc_AVckY3Qm-8,13
+multimatcher-0.0.2.dist-info/RECORD,,
