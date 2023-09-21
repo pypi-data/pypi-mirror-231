@@ -1,0 +1,8 @@
+README.md
+setup.py
+migrations/__init__.py
+pde_tracker.egg-info/PKG-INFO
+pde_tracker.egg-info/SOURCES.txt
+pde_tracker.egg-info/dependency_links.txt
+pde_tracker.egg-info/requires.txt
+pde_tracker.egg-info/top_level.txt
