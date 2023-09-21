@@ -1,0 +1,3 @@
+[console_scripts]
+multiparty=multiparty.__main__:main
+
