@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: type-aliases
+Version: 0.0.2
+Summary: Consistent type aliases for Python
+License: GPL-3.0-only
+Author: Hannes
+Author-email: h@nnes.dev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Type Aliases
+
+Consistent type aliases for Python.
+
