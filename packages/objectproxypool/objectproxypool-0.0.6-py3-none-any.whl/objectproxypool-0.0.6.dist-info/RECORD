@@ -1,0 +1,10 @@
+objectproxypool/__init__.py,sha256=IW7o2oS3qiqF7XdUKF6CYbIiJSHdrkJrFRpXFeem4Bk,119
+objectproxypool/pool.py,sha256=SYqHFWefJh1RMCHXJBD2V6PsQJNKw6NdzAshVp6PxYA,22502
+objectproxypool/shared_array.py,sha256=UrKusyMrUDUi8zM8mdzCGdaCvILfrEG8Nm1BwkoCPo4,2093
+objectproxypool/shared_memory_fix.py,sha256=DVAH0eMRky3Vot1O5Jhbe6IbrlyrBoVGrnnpyNzY3gY,5353
+objectproxypool-0.0.6.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+objectproxypool-0.0.6.dist-info/METADATA,sha256=bVO6YnLfpZLX4vdVIRrM_tx7MwfBvQv3KZOUpe2jFOk,5045
+objectproxypool-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+objectproxypool-0.0.6.dist-info/top_level.txt,sha256=nAbTD07p4fr1j0Woh4uv0NEQDslVa5U93cIcDW3GW7o,16
+objectproxypool-0.0.6.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+objectproxypool-0.0.6.dist-info/RECORD,,
