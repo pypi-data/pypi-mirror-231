@@ -1,0 +1,12 @@
+jsfinder2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsfinder2/__main__.py,sha256=du8JR6BtRoJp0iwRmsHG75z_7nC9DmjAQH7tJsR17RI,132
+jsfinder2/settings.py,sha256=8fpPkjwFwvbpADIk0i4R6eVMeZrbj44p6SoBfKFOjrQ,128
+jsfinder2/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsfinder2/lib/jsfinder2.py,sha256=oPxwDrZaPZ1muJT0HOnvuQjBbBeUn256bLpeYy-SQcQ,10116
+jsfinder2/lib/utils.py,sha256=TvM4AZJOH5QIxq4leX0t2JZ3Y4jLZIWNK7nMtX1c_nU,4123
+JSFinder2-0.1.dist-info/LICENSE,sha256=PwUNDoQGFY-ZIr8Fx7iGtqRmSpzsQ_7oR64G8zhUJR0,1072
+JSFinder2-0.1.dist-info/METADATA,sha256=tALYMj9vT791MgG-KzakXr9wVVU54UWp9Os2fK0knkY,3148
+JSFinder2-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+JSFinder2-0.1.dist-info/entry_points.txt,sha256=yWF1gCJNtVLEHtUgVINetZtajrd3dpqdRtORlRabvLI,50
+JSFinder2-0.1.dist-info/top_level.txt,sha256=OEaSsMgMKitj3fpg_4fNthCZ_Lx1re0twN78Q5j9VBc,10
+JSFinder2-0.1.dist-info/RECORD,,

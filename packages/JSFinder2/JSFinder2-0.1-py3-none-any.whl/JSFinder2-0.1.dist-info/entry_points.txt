@@ -1,0 +1,2 @@
+[console_scripts]
+reptor = jsfinder2.__main__:run
