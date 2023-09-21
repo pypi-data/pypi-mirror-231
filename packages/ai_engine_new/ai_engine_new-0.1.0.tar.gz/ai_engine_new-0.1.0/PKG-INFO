@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ai_engine_new
+Version: 0.1.0
+Summary: Generate images ai, revers enginering
+Home-page: https://cumproject.ru/
+License: MIT
+Author: Aleksey Baev
+Author-email: baev@cumproject.ru
+Requires-Python: >=3.8.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: testing
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: pydantic (>=1.10.12,<=2.3.0)
+Requires-Dist: pytest (>=7.4.2,<8.0.0) ; extra == "testing"
+Project-URL: Repository, https://github.com/pokedim13/images_ai
+Description-Content-Type: text/markdown
+
+# Name: AI-Engine
+
+## Description: Kandinsky-Dream-Image-API is a reverse API that provides a simple and efficient way to generate images using AI from Kandindy or Dream.ai .
+
+Dowloand:
+```
+pip install ai_engine
+```
+Also, make sure you have Python version 3.8 or higher installed
+Perhaps you use pydantic in your projects, you will not need to change the usual version, it works with two versions (from 1.12.10 to 2.3.0)
+The library is small, easy to replenish. Poetry was used for development
+
+The documentation will be written on the wiki pages, please fill it up
+
+Functional:
+
+– Image generation using models from Kandinky and Dream.ai
+– A simple and intuitive API for interaction
+– The ability to configure image generation parameters (resolution, style, etc.)
+
