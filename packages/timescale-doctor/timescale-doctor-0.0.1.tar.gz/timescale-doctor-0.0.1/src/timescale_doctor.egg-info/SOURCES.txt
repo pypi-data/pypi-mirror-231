@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/doctor/__init__.py
+src/doctor/cli.py
+src/doctor/rules/__init__.py
+src/doctor/rules/compression.py
+src/doctor/rules/hypertable.py
+src/doctor/rules/index.py
+src/timescale_doctor.egg-info/PKG-INFO
+src/timescale_doctor.egg-info/SOURCES.txt
+src/timescale_doctor.egg-info/dependency_links.txt
+src/timescale_doctor.egg-info/entry_points.txt
+src/timescale_doctor.egg-info/requires.txt
+src/timescale_doctor.egg-info/top_level.txt
