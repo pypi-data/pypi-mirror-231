@@ -1,0 +1,13 @@
+pollination_dash_viewer/MyComponent.py,sha256=93nx8CGV2wX9Rys9oR9QDGHP5cfNqjmRbdnJX8-u9gk,966
+pollination_dash_viewer/VTKDashViewer.py,sha256=GkENI5KzvF8vt45j0iqf_V5WjC3JUSy1IR_MsDsLTGA,423609
+pollination_dash_viewer/__init__.py,sha256=kaO1XoJ7d3yyH0nKr_7TseKLmZcXgv3URlCnu3kGRII,1348
+pollination_dash_viewer/_imports_.py,sha256=96YbWDeLSVHeucrNNPNPEIzBwt8bGN8Nhbb6P9jDTKM,75
+pollination_dash_viewer/metadata.json,sha256=waKnaktj1efavoDKlrtDPCHTDz47eVKzAy6Cu1ZOfPI,781232
+pollination_dash_viewer/package-info.json,sha256=EwyU9X2uVTColWDkfe1J5jCxKswo2H9_51pLAvaXoPg,1269
+pollination_dash_viewer/pollination_dash_viewer.js,sha256=H81FywrVNusDvmZ8O1MDN_xgf7b-B6qNlj0cvcTZEVY,2977323
+pollination_dash_viewer/pollination_dash_viewer.js.LICENSE.txt,sha256=8SDR0dajKonSIPq35pTIu-cgOGimCvaxbz7-iaSLB7E,3674
+pollination_dash_viewer-1.0.0.dist-info/LICENSE,sha256=PIp_I44KUanCHe8LY9Y1uoLqPS4XKps8SsEnlWnZevY,584
+pollination_dash_viewer-1.0.0.dist-info/METADATA,sha256=kTeAIq-hc4nHeJ4vSiFEhMgEkTwy6Zw1h94pnzIoRkU,419
+pollination_dash_viewer-1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pollination_dash_viewer-1.0.0.dist-info/top_level.txt,sha256=vmi6a1aC1SIitjug4WPYYV1Qh8ClHvmrHpETsER4dCs,24
+pollination_dash_viewer-1.0.0.dist-info/RECORD,,
