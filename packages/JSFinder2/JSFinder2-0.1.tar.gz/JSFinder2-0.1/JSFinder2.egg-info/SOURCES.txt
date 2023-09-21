@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+JSFinder2.egg-info/PKG-INFO
+JSFinder2.egg-info/SOURCES.txt
+JSFinder2.egg-info/dependency_links.txt
+JSFinder2.egg-info/entry_points.txt
+JSFinder2.egg-info/requires.txt
+JSFinder2.egg-info/top_level.txt
+jsfinder2/__init__.py
+jsfinder2/__main__.py
+jsfinder2/settings.py
+jsfinder2/lib/__init__.py
+jsfinder2/lib/jsfinder2.py
+jsfinder2/lib/utils.py
