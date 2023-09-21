@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fusilli"
+version = "0.0.1"
+authors = [
+  { name="Florence J Townend", email="f.j.townend@live.com" },
+]
+description = "Multimodal package first try"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:MPS available but not used*:UserWarning",
+    "ignore:Layer group*:UserWarning",
+]
