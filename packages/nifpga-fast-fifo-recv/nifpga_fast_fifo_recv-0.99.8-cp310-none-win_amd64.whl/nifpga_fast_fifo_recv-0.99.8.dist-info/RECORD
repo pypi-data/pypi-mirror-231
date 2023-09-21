@@ -1,0 +1,6 @@
+nifpga_fast_fifo_recv-0.99.8.dist-info/METADATA,sha256=egU3_ushKQulOeLXV-lVSOeTPMX8tT0UzK-Rk21hBCU,5632
+nifpga_fast_fifo_recv-0.99.8.dist-info/WHEEL,sha256=v44QVAtQrLpVmcAVvaNFU_SHB3TuFAJKOMZxIuRUe4w,95
+nifpga_fast_fifo_recv-0.99.8.dist-info/license_files/LICENSE,sha256=ygGidh5YlZUMFLTHOOMlQizCTfZalMIE4F7zC9iOq-E,1081
+nifpga_fast_fifo_recv/__init__.py,sha256=Ps0U85_dC6EcosRRjpXSOztvea_IJrLW815UmhVLQyY,167
+nifpga_fast_fifo_recv/nifpga_fast_fifo_recv.cp310-win_amd64.pyd,sha256=SjFDCY26dYIcpGKtRUsOMevSeYKVdx2G1sSyx6M7Gd8,388608
+nifpga_fast_fifo_recv-0.99.8.dist-info/RECORD,,
