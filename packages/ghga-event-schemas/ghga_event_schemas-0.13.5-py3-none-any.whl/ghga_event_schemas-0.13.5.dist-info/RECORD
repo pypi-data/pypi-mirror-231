@@ -1,0 +1,17 @@
+ghga_event_schemas/__init__.py,sha256=HuojE7-4UiyunP8Jjlojjr0jxpmSNndKXeHxWcXrtBE,796
+ghga_event_schemas/pydantic_.py,sha256=SFXPRt0o73aZT75PogfNU0FiYfqj0zIWvN4DsHV1NdI,14910
+ghga_event_schemas/validation.py,sha256=ML-bOv5KjXf9Hzs_Ngx7UjGlNtYCger8UbEHvOqujFY,2181
+scripts/__init__.py,sha256=UmLyRp2rXXxZkJJTsuXv3J4LdunfUc-7NEH2eSEYqeE,756
+scripts/get_package_name.py,sha256=Mk3xBFcV-ttLt_61YVsL2_-IfzJrNZSkQ8KnbvbWi3g,1487
+scripts/license_checker.py,sha256=d0BMJyLnu887UIw7BkbpTaEGGgrEmn8lFKltR8b8h-g,18568
+scripts/update_all.py,sha256=C85KFl-P9duV2kTxJCyFvV9NnUGzcus6jEhGyTXLqf4,1461
+scripts/update_template_files.py,sha256=WqbEJlhYVd_PCaX_AJdDTIb54HbKDQkYT_OthrPrM1Q,8499
+scripts/script_utils/__init__.py,sha256=PQXZO-XfoUNet5pRpl2TkWNxiPWNhktX4IPPJcJgTug,737
+scripts/script_utils/cli.py,sha256=aqeY1v0FWwXdpyVSYZSBTbrerCiErlVZ1IfZCP3CR1A,1096
+tests/fixtures/__init__.py,sha256=E9gr4DMX7GAjMI2CGx9jny7essvn07almoATuULdpBU,750
+tests/fixtures/utils.py,sha256=a6t1vJFv2WoZoq1s7C29oyQSMyrYoYgb9Ujzz4VSaEI,789
+ghga_event_schemas-0.13.5.dist-info/LICENSE,sha256=a2nPPnhGY9QGdkfGrseHGDVj62fh8o5DoHsUpQp3GzA,11452
+ghga_event_schemas-0.13.5.dist-info/METADATA,sha256=awmGkw-pV2s5cmHpFTk3oWBCcqiAyfu3WHHbnPlFcaQ,3195
+ghga_event_schemas-0.13.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ghga_event_schemas-0.13.5.dist-info/top_level.txt,sha256=rV4LwDso6zEbOhZCKHOIxJZTLIdQW-T7LUw9BGR805c,33
+ghga_event_schemas-0.13.5.dist-info/RECORD,,
