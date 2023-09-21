@@ -1,0 +1,6 @@
+requests
+jinja2~=3.1
+psutil~=5.9
+click~=8.1
+click-help-colors>=0.9.1
+GitPython
