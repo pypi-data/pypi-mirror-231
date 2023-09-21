@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: FLIM-fit
+Version: 1.0
+Summary: This GUI performs fluorescence lifetime decay analysis at cellular level.
+Author: Linghao Hu
+Author-email: hulinghao@tamu.edu
+License: Walsh Lab
+Keywords: Fluorescence Lifetime,Decay Analysis,Cell-Level
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: customtkinter
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: CTkMessagebox
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tifffile
+Requires-Dist: tensorflow
+Requires-Dist: openpyxl
