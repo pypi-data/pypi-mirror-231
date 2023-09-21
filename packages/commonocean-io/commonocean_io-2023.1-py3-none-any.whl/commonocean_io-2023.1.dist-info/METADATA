@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: commonocean-io
+Version: 2023.1
+Summary: Python tool to read, write, and visualize CommonOcean scenarios and solutions for automated vessels.
+Author: Cyber-Physical Systems Group, Technical University of Munich
+Author-email: commonocean@lists.lrz.de
+License: GNU General Public License v3.0
+Keywords: autonomous automated vessels motion planning
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: commonroad-io (==2023.1)
+Requires-Dist: commonocean-vessel-models (==1.0.0)
+Requires-Dist: tqdm (>=4.50.2)
+Requires-Dist: networkx (>=2.4)
+Requires-Dist: ipywidgets (~=7.5.1)
+Requires-Dist: ipython-autotime (~=0.1)
+Requires-Dist: matplotlib (~=3.3.2)
+Requires-Dist: numpy (~=1.22.4)
+Requires-Dist: ipython (~=7.18.1)
+Requires-Dist: pyyaml (~=5.3.1)
+Requires-Dist: imageio (~=2.9.0)
+Requires-Dist: shapely (>=1.6.4.post2)
+Requires-Dist: setuptools (>=42.0.1)
+Requires-Dist: lxml (>=4.2.2)
+Requires-Dist: Pillow (>=7.0.0)
+Requires-Dist: iso3166 (>=1.0.1)
+Provides-Extra: doc
+Requires-Dist: sphinx (>=1.3.6) ; extra == 'doc'
+Requires-Dist: graphviz (>=0.3) ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints (>=1.3.0) ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme (>=0.4.1) ; extra == 'doc'
+Requires-Dist: sphinx-gallery (>=0.2.0) ; extra == 'doc'
+Requires-Dist: ipython (>=6.5.0) ; extra == 'doc'
+Provides-Extra: tests
+Requires-Dist: lxml (>=4.2.5) ; extra == 'tests'
+Requires-Dist: pytest (>=3.8.0) ; extra == 'tests'
+
+![image info](./documentation/figures/commonocean_logo.png)
+
+This repository includes the commonocean_io python package for representing benchmarks for marine motion planning. In addition, we provide two tutorials to exemplify the usage. For an extensive scenario documentation, consider reading the [documentation for the XML format](https://gitlab.lrz.de/tum-cps/commonocean-io/-/blob/main/documentation/XML_commonOcean.pdf).
+​
+The structure of the repository is:
+​
+```
+.
+├── documentation                   # Documentation of scenario specification
+└── commonocean                     # Source files
+    ├── common                      # Folders which represent the package structure
+    ├── ...                         # ...
+    └── doc                         # ´Read the Docs´ documentation for the commonocean-io package
+```
+​
+## Installation instructions
+​
+Create a new Anaconda environment for Python 3.8 (here called co38). 
+​
+Run in your Terminal window:
+```bash
+conda create −n co38 python=3.8
+```
+Activate your environment
+```bash
+conda activate co38
+```
+Install the package by simply using pip and, if you want to use the jupyter notebook, also install jupyter
+```bash
+pip install commonocean-io
+pip install jupyter
+```
+Now everything is installed and you can start jupyter notebook to run the [tutorials](https://gitlab.lrz.de/tum-cps/commonocean-io/-/tree/main/commonocean/tutorials)
+```
+$ jupyter notebook
+```
+
+## Changelog
+
+Compared to version 2022.2, the following features have been added or changed:
+
+### Added
+
+- New obstacle type "Waters Boundary" due to requirement in [CommonOcean DC](https://commonocean.cps.cit.tum.de/commonocean-dc)
+
+### Fixed
+
+- Creation of static obstacles for traffic signs such that no dublicate obstacles are created
+
+### Changed
+
+- Restructured State class so that it is now based on the commonroad-io state class and definition of State classes for different vessel dynamics.
+- Removed duplicate classes and functions from commonroad-io to reduce maintance effort 
+- The packages is no longer compatible with Python 3.7
+- Updated documentation 
+
+# Contibutors and Reference
+​
+We thank all the contibutors for helping develop this project (see contributors.txt).
+​
+**If you use our converter for research, please consider citing our paper:**
+```
+@inproceedings{Krasowski2022a,
+	author = {Krasowski, Hanna and Althoff, Matthias},
+	title = {CommonOcean: Composable Benchmarks for Motion Planning on Oceans},
+	booktitle = {Proc. of the IEEE International Conference on Intelligent Transportation Systems},
+	year = {2022},
+}
+```
