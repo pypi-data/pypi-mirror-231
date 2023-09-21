@@ -1,0 +1,7 @@
+README.md
+setup.py
+async_redis_uow.egg-info/PKG-INFO
+async_redis_uow.egg-info/SOURCES.txt
+async_redis_uow.egg-info/dependency_links.txt
+async_redis_uow.egg-info/requires.txt
+async_redis_uow.egg-info/top_level.txt
