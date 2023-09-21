@@ -1,0 +1,33 @@
+{% macro ConfigTemplate(ip, port, username, password, project_name, db_location, log_level, policy_status, approval_policy_status, stratos_status, retries_enabled, connection_timeout, read_timeout) -%}
+
+[SERVER]
+pc_ip = {{ip}}
+pc_port = {{port}}
+pc_username = {{username}}
+pc_password = {{password}}
+
+[PROJECT]
+name = {{project_name}}
+
+[LOG]
+level = {{log_level}}
+
+[POLICY]
+policy_status = {{policy_status}}
+
+[APPROVAL_POLICY]
+approval_policy_status = {{approval_policy_status}}
+
+[STRATOS]
+stratos_status = {{stratos_status}}
+
+[CONNECTION]
+retries_enabled = {{retries_enabled}}
+connection_timeout = {{connection_timeout}}
+read_timeout = {{read_timeout}}
+
+[CATEGORIES]
+{%- endmacro %}
+
+
+{{ConfigTemplate(ip, port, username, password, project_name, db_location, log_level, policy_status, approval_policy_status, stratos_status, retries_enabled, connection_timeout, read_timeout)}}
