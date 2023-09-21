@@ -1,0 +1,8 @@
+setup.py
+douyin_uid_package/__init__.py
+douyin_uid_package/douyin_uid_pypi.py
+douyin_uid_package.egg-info/PKG-INFO
+douyin_uid_package.egg-info/SOURCES.txt
+douyin_uid_package.egg-info/dependency_links.txt
+douyin_uid_package.egg-info/requires.txt
+douyin_uid_package.egg-info/top_level.txt
