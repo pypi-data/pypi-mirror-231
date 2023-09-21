@@ -1,0 +1,23 @@
+name: build
+
+# Allowed to be referenced by another workflow.
+on: [workflow_dispatch, workflow_call]
+
+jobs:
+
+  # No need to build wheels.
+  build_sdist:
+    name: Build sdist
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Optional, use if you use setuptools_scm
+
+      - name: Build sdist
+        run: pipx run build --sdist
+
+      - uses: actions/upload-artifact@v3
+        with:
+          path: dist/*.tar.gz
