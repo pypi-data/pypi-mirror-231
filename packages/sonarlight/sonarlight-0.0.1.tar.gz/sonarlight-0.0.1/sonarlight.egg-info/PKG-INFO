@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sonarlight
+Version: 0.0.1
+Summary: sonarlight
+Author: Kenneth Thorø Martinsen
+Author-email: kenneth2810@gmail.com
+Keywords: python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Oceanography
+Classifier: Topic :: Scientific/Engineering :: GIS
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+Package reading and exploring the content of the sonar data files
