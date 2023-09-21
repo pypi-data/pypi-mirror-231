@@ -1,0 +1,3 @@
+[ovos.pipeline]
+ovos-intent-plugin-adapt=ovos_intent_plugin_adapt:AdaptPipelinePlugin
+
