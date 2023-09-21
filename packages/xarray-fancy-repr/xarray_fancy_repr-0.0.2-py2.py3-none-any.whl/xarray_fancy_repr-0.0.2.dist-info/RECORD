@@ -1,0 +1,10 @@
+xarray_fancy_repr/__init__.py,sha256=ZTdZ_EkUsTXAQ_fP2vE8DlzIeaSseb_bCDsZdpOMPeE,1037
+xarray_fancy_repr/utils.py,sha256=B-LNbib0czXlrl9Az62cyjrlyMMOZmBRYRMD1nSZr4M,2083
+xarray_fancy_repr/widget.py,sha256=o9mVhaF6iHzra42VBwVZsVLfVI_v1KKgkAbVsBmVnY8,4682
+xarray_fancy_repr/wrap.py,sha256=Jabu4iYsCR-7-xzhDcuL-rfn_M6BKFOT-fOXm_Jni10,1739
+xarray_fancy_repr/static/widget.css,sha256=8xhbvpcOAw4oGnd36FowWiOEyJEj_BYQk_I2lXdf2FA,6478
+xarray_fancy_repr/static/widget.js,sha256=EBl6UwJxaNDcIpHCpNhVVSTQu5SwCZGNm_qlcmPME2U,155485
+xarray_fancy_repr-0.0.2.dist-info/METADATA,sha256=9cGrzacDb8ncVg7FLEj-ZWXSdXEaaZwpj3yMuAsCDKk,1297
+xarray_fancy_repr-0.0.2.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+xarray_fancy_repr-0.0.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xarray_fancy_repr-0.0.2.dist-info/RECORD,,
