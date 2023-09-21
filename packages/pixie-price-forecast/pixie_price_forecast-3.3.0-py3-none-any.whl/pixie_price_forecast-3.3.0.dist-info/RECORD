@@ -1,0 +1,14 @@
+price_forecast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+price_forecast/data_quality_reference.py,sha256=Y4kygzx2vR0APDEwdGppBT386Z9qqlaz924TXdCUSKM,8038
+price_forecast/data_quality_tools.py,sha256=cjS0J0j5AhRcODE2XlERbVvx26_K4EYJ3qE_3rHnJqE,6708
+price_forecast/data_scrapper.py,sha256=2Xt8M7smEwMu14VqescXr5Ny2oaArNUbUVtk6uNyqa0,1476
+price_forecast/drive_connection.py,sha256=GaV4MBjAn2X9l05sLRY0qEo2qDFyGv_9EC41pMuwFfs,2876
+price_forecast/etl.py,sha256=vHDZPQPCfFF3NGf-ZHmkki34i0IChKrzE5LN4Qw_poo,4814
+price_forecast/forecaster.py,sha256=EwJIM2aFZsisynQ-WOMwVrLDRJ-hzT16ClVYSB0f_O4,33847
+price_forecast/misc.py,sha256=xizJAc1Z3kwo4zQCGkRksP_tqz_RDgQfm8Wwgz6adwM,16073
+price_forecast/queries_templates.py,sha256=c3XAQlEKA55JgWPElHD3n0P_yKzfK1cE7Hr4omxAjRw,4766
+price_forecast/viz_tools.py,sha256=4wTrJkf0bIj2akUNtsmuOPPCb-mpM63_m9e4xCqZ2ok,404
+pixie_price_forecast-3.3.0.dist-info/METADATA,sha256=yruWEmYZjPTBLJhX9pjkH4MNjrPWUxtg6XgwMO-FBRw,7536
+pixie_price_forecast-3.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pixie_price_forecast-3.3.0.dist-info/top_level.txt,sha256=k59ORMENa3BqK2FyBFbhIj1UgUe1PC6VuDclEM9xEfI,15
+pixie_price_forecast-3.3.0.dist-info/RECORD,,
