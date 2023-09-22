@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mlnotes
+Version: 0.0.1
+Summary: Save information of your ml projects
+Home-page: https://github.com/pypa/sampleproject
+Author: Satyam Mishra
+Author-email: tubex998@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# *** Save information of your ml projects ***
+### ---- Save eda information and access any time
+### ---- Save ml project information and access any time
+### ---- It saves your project information in ai_info.json file on your own computer
+### ---- No one will able to see your data execpt you
+### ---- Your project data is saved on your pc not in any database
+
+# *** All commandas ***
