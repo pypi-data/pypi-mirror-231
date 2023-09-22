@@ -1,0 +1,14 @@
+stark_place/commands/__init__.py,sha256=jTCCV1Z08IkBWA2BHi0ZwE3Gm5QQBy3FlbkX9BuGiYU,45
+stark_place/commands/general_manager.py,sha256=oHD1EwLQQYAZNN3NXgvXDXMH7qcq7N1LPOh6w75rNMM,115
+stark_place/examples/context.py,sha256=l2DRCqu_ealyRcUwB6SYB_A5gDQR2AJR-N2CvZ47gjc,1168
+stark_place/examples/custom_run.py,sha256=VJ0o83tAIynOD9AeDmyHYMyHVlDVjXpYE4mMvIrl8FY,1819
+stark_place/examples/hello_world.py,sha256=NRhj3shpo8iwliMihHHZ1G8AGVkH5Xr1JaIoj-qaMSg,683
+stark_place/examples/keyboard_trigger.py,sha256=X_ZyliIfwOUJ4NCoaaiiHEf0FC5Ztj3OVChSZLN1GVI,2360
+stark_place/examples/porcupine_wakeword_trigger.py,sha256=uhQfugDLbwwLnjexhh7rOwhvGNhQ8ALhDn8G0jiklZ8,3598
+stark_place/notifications/sound.py,sha256=la1PaVgm-dmFOcG0zGEdJB11n5uHm-rxVih9vozB81I,645
+stark_place/triggers/keyboard_key.py,sha256=b1B-SHlsl95LyNVGHHPPnhNNP7LSWLx7kVv6M5PF7CY,844
+stark_place/triggers/porcupine.py,sha256=c8XmSCshh6Oj1tCqCYm_FS1h9Tst0rJAHBfZ6G1Xpmc,1342
+stark_place-1.0.3.dist-info/LICENSE.md,sha256=ejESbXrfM0zNy-_TXC_pglTbdGETxrgOmUOxgA02_Dk,19089
+stark_place-1.0.3.dist-info/METADATA,sha256=Wc223WO8jSrz-vbMqp_yYjvyTOvCy3hK_leiHGptvHQ,1108
+stark_place-1.0.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stark_place-1.0.3.dist-info/RECORD,,
