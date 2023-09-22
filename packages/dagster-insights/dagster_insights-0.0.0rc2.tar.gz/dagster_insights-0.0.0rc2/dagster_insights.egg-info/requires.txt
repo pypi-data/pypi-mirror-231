@@ -1,0 +1,8 @@
+dagster
+requests
+snowflake-connector-python
+snowflake.sqlalchemy
+gql[requests]>=3.0.0
+
+[tests]
+freezegun
