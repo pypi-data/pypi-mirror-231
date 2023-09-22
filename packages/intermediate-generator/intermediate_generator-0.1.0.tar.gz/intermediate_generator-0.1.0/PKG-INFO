@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: intermediate_generator
+Version: 0.1.0
+Summary: A molecular intermediate generator for relative binding free energy calculations
+Home-page: https://github.com/daanjiskoot/Intermediate_generator
+Author: Daan Jiskoot
+Author-email: djiskoot@vuw.leidenuniv.nl
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas>=2.0
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: seaborn>=0.12
+Requires-Dist: rdkit==2022.09.5
+Requires-Dist: selfies==2.1.1
+
+# Intermediate_generator
+The package for creating molecular intermediates, specifically focussed for use in relative binding free energy calculations.
