@@ -1,0 +1,5 @@
+dotenv
+unittest
+psycopg2-binary
+sqlalchemy
+pandas
