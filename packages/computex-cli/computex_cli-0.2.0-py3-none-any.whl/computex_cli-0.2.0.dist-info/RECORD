@@ -1,0 +1,15 @@
+cxcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cxcli/cli.py,sha256=31YBJUgZKbskIMccqEn41Whxpt2z-3HPXEtieAyLqzI,11379
+cxcli/config.py,sha256=7JcJoKit9SY2aSMEjfE62IvxzSCL4HRpmujjYPP8b7s,1995
+cxcli/exc.py,sha256=Rixao3gGfsASQGavUVLo1c5vE52UjrHWXag-CjjoLgw,161
+cxcli/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cxcli/services/auth.py,sha256=IfYDaG9hXpr8CcmH5J2dZA_Z6UvLNI4EKG7i_iMcNBs,950
+cxcli/services/deployments.py,sha256=mK65D5nbsPJBP7MWvfheZDsuXIsgkD7tGpLSLGPQ43k,2549
+cxcli/services/predictions.py,sha256=qEWH2a4puZuDZN07MO96BQP20LGD6ht0xnEdbkpOiSs,789
+cxcli/services/service.py,sha256=90xVpOGwiMqPO8c3bPMCGuGnq0Aqdi6WXqOsoCOJMhA,1912
+cxcli/services/users.py,sha256=KDp-4e2sflIPR-kY7BC6FW9fJz1fpGepLSx2MPkoyW4,1734
+pyproject.toml,sha256=sFM1O3HS_TeuNMiIKAAYPKqG7sSMsof6_-0a7R_FoZM,793
+computex_cli-0.2.0.dist-info/METADATA,sha256=culVp4ooB84bxcqr8sIoiuZH4dkT-9WVKyADqQ8P3oE,2109
+computex_cli-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+computex_cli-0.2.0.dist-info/entry_points.txt,sha256=LMgXHzl07XgJitDD3lVaEcmJKBGT4huiZFfcipaMVzY,36
+computex_cli-0.2.0.dist-info/RECORD,,
