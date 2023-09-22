@@ -1,0 +1,2 @@
+[console_scripts]
+crumbcutter = crumbcutter.cli:main
