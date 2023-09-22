@@ -1,0 +1,8 @@
+setup.py
+chipp/__init__.py
+chipp/chipp.py
+chippai.egg-info/PKG-INFO
+chippai.egg-info/SOURCES.txt
+chippai.egg-info/dependency_links.txt
+chippai.egg-info/requires.txt
+chippai.egg-info/top_level.txt
