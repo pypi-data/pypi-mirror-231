@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/oxlogger.egg-info/PKG-INFO
+src/oxlogger.egg-info/SOURCES.txt
+src/oxlogger.egg-info/dependency_links.txt
+src/oxlogger.egg-info/entry_points.txt
+src/oxlogger.egg-info/requires.txt
+src/oxlogger.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
+tests/test_simple.py
