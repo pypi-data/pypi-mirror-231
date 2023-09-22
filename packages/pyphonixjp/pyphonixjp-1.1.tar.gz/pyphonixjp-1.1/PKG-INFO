@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyphonixjp
+Version: 1.1
+Summary: 英単語をひらがなでの読みに変換する。詳しくはHomepage(Github)をご覧ください。
+Home-page: https://github.com/Nanahuse/PyPhonixJP
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE

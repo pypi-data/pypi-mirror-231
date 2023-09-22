@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyphonixjp/__init__.py
+pyphonixjp/common.py
+pyphonixjp/conversion_table.py
+pyphonixjp/phonix.py
+pyphonixjp.egg-info/PKG-INFO
+pyphonixjp.egg-info/SOURCES.txt
+pyphonixjp.egg-info/dependency_links.txt
+pyphonixjp.egg-info/top_level.txt
