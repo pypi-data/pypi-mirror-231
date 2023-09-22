@@ -1,0 +1,95 @@
+# ECTweaker
+ECTweaker Library for python allows users to read/write and control the EC of laptops, specially MSI!
+
+# INSTALLATION
+- pip install ectweaker
+  - If the above method doesn't work please install in a virtual environment and call it in scripts from the virtual environments only!
+
+# Preparing the EC to be read/write friendly
+- Disable secure boot
+- To check one of the example to use this code properly, visit https://github.com/YoCodingMonster/OpenFreezeCenter-Lite/tree/main and check ```OpenFreezeCenter-Lite.py``` file
+
+# Updating 
+- pip install ECTweaker --upgrade
+
+# Functions
+## ```check()```
+- This prepare the OS for EC read/write functionality and reboots the system for the first time only.
+    - ```Return Type``` - int
+    - ```Returns```
+        - ```1``` if EC read/write is enabled.
+        - ```0``` if EC read/write is not enabled.
+    ```
+    import os
+    CHECK = ECT.check()
+    if CHECK == 1:
+        # your_script_here
+    else:
+        os.system("shutdown -r +1")
+        print("Rebooting system within 1 min!\nPlease save all work before it happens!")
+    ```
+## ```write(BYTE ADDRESS, VALUE)```
+- This will allow you to write any INTEGER value to BYTE ADDRESS.
+    - ```Parameters```
+        - ```BYTE ADDRESS``` - Hex address of the memory where VALUE needs to be written.
+        - ```VALUE``` - content which needs to be written at BYTE ADDRESS.
+    ```
+    import ECTweaker as ECT
+    ECT.write(0xd4, 121)
+    ```
+
+## ```read(BYTE ADDRESS, SIZE)```
+- This will allow you to read INTEGER value from BYTE ADDRESS.
+    - ```Return Type``` - int
+    - ```Returns``` - VALUE stored at BYTE ADDRESS fo memory provided.
+    - ```Parameters```
+        - ```BYTE ADDRESS``` - Hex address of the first memory from where VALUE is retrived.
+        - ```SIZE``` - How many adjacent BYTE ADDRESS stores the complete VALUE.
+    ```
+    import ECTweaker as ECT
+    VALUE = ECT.read(0xd4, 1)
+    ```
+
+## ```fan_profile(PROFILE, VALUES, CPU)```
+- This allows for MSI laptops with intel CPU to set Fan profiles.
+    - ```Parameters```
+        - ```PROFILE``` - Fan profile which needs to be, considered values are as follows.
+            - ```auto```, ```basic```, ```advanced```, ```cooler booster```
+        - ```VALUES``` - This is a list of address and values which needs to be set n order to change the fan profile and other things.
+            ```
+            CPU_FAN_PROFILE_BYTE             VALUES[0][0]   BYTE ADDRESS              FAN PROFILES BYTE AND VALUES
+            CPU_FAN_PROFILE_VALUE_AUTO       VALUES[0][1]   VALUE
+            CPU_FAN_PROFILE_VALUE_BASIC      VALUES[0][2]   VALUE
+            CPU_FAN_PROFILE_VALUE_ADVANCED   VALUES[0][3]   VALUE
+
+            CPU_COOLER_BOOSTER_BYTE          VALUES[1][0]   BYTE ADDRESS              COOLER BOOSTER BYTE AND VALUES
+            CPU_COOLER_BOOSTER_VALUE         VALUES[1][1]   VALUE [off]
+            CPU_COOLER_BOOSTER_VALUE         VALUES[1][2]   VALUE [on]
+
+            CPU_FAN_SPEED_1_BYTE             VALUES[2][0]   BYTE ADDRESS              CPU FAN SPEEDS ADDRESS
+            CPU_FAN_SPEED_2_BYTE             VALUES[2][1]   BYTE ADDRESS
+            CPU_FAN_SPEED_3_BYTE             VALUES[2][2]   BYTE ADDRESS
+            CPU_FAN_SPEED_4_BYTE             VALUES[2][3]   BYTE ADDRESS
+            CPU_FAN_SPEED_5_BYTE             VALUES[2][4]   BYTE ADDRESS
+            CPU_FAN_SPEED_6_BYTE             VALUES[2][5]   BYTE ADDRESS
+            CPU_FAN_SPEED_7_BYTE             VALUES[2][6]   BYTE ADDRESS
+
+            GPU_FAN_SPEED_1_BYTE             VALUES[3][0]   BYTE ADDRESS              GPU FAN SPEEDS ADDRESS
+            GPU_FAN_SPEED_2_BYTE             VALUES[3][1]   BYTE ADDRESS
+            GPU_FAN_SPEED_3_BYTE             VALUES[3][2]   BYTE ADDRESS
+            GPU_FAN_SPEED_4_BYTE             VALUES[3][3]   BYTE ADDRESS
+            GPU_FAN_SPEED_5_BYTE             VALUES[3][4]   BYTE ADDRESS
+            GPU_FAN_SPEED_6_BYTE             VALUES[3][5]   BYTE ADDRESS
+            GPU_FAN_SPEED_7_BYTE             VALUES[3][6]   BYTE ADDRESS
+
+            AUTO_FAN_SPEEDS_VENDOR_VALUES    VALUES[4][]    VALUES                    AUTO FAN SPEEDS```
+        - ```CPU```
+            - ```1``` If intel cpu if 10th gen or above.
+            - ```0``` If intel cpu if 9th gen or below.
+    ```
+    import ECTweaker as ECT
+    ECT.fan_profile("auto", VALUES, CPU)
+    ```
+
+## ```speed_writer(VALUES)```
+- Internal function used by ```fan_profile``` function to set the fan speed curve.
