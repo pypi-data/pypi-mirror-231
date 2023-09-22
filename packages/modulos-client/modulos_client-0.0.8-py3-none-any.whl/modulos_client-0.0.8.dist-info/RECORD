@@ -1,0 +1,10 @@
+modulos_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modulos_client/_version.py,sha256=zGu9pGrkjBUvnluuhddSUP3f2R0Z7BDAbROy33odFlA,240
+modulos_client/cli.py,sha256=lF8KLge_lslRSdybWbZF1qPjQI7kAWRxEl9cj8WWpf4,8560
+modulos_client/registering/__init__.py,sha256=PWLOA0Eg8fTCD8zx4USzdb_MK24snQQZvYSiAeyGyeM,366
+modulos_client/registering/register_on_modulos_platform.py,sha256=8N-iAC1vSraqP0jyjZO1Nfx7-g9VxNF3ImueD3oWPWI,7046
+modulos_client-0.0.8.dist-info/METADATA,sha256=ZTSqFLDrQJr6SZs0jd4IB5Ns2GvD9dehM4g7x_EgkfM,970
+modulos_client-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+modulos_client-0.0.8.dist-info/entry_points.txt,sha256=nWBp-nL-HAr0JVQ7OtiSFEwRXmd7IZ7ivpT609aQ0BE,52
+modulos_client-0.0.8.dist-info/top_level.txt,sha256=MNIONotRs__ipFLtaarjQNbA7uRomKRzLPucONLlB6s,15
+modulos_client-0.0.8.dist-info/RECORD,,
