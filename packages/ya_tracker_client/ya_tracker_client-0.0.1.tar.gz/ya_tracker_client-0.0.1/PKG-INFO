@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: ya_tracker_client
+Version: 0.0.1
+Summary: Async Yandex Tracker Client
+Home-page: https://github.com/danfimov/ya_tracker_client/
+License: MIT
+Keywords: Yandex,Tracker,API,async
+Author: Дмитрий Анфимов
+Author-email: work@danfimov.ru
+Maintainer: Дмитрий Анфимов
+Maintainer-email: work@danfimov.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Typing :: Typed
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: certifi (>=2023.7.22,<2024.0.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/danfimov/ya_tracker_client/issues
+Project-URL: Repository, https://github.com/danfimov/ya_tracker_client/
+Description-Content-Type: text/markdown
+
+# Yandex Tracker Client (or Yet Another Tracker Client)
+
+Async Yandex Tracker Client based on aiohttp and pydantic (v2)
+
+# Current library capabilities
+
+- Working with queues
+- Getting information about issues, priorities and transitions
+- Working with issue relationships
+- Getting user information
+
+# TBD
+
+## Issues
+
+- [ ] Перенести задачу в другую очередь
+- [ ] Узнать количество задач
+- [ ] Найти задачи
+- [ ] Освободить ресурсы просмотра прокрутки
+- [ ] Выполнить переход в статус
+- [ ] Получить историю изменений задачи
+
+## Queues - automation
+
+- [ ] Создать автодействие
+- [ ] Получить параметры автодействия
+- [ ] Создать триггер
+- [ ] Получить параметры триггера
+
+# TBD in a long run
+
+- Checklists
+- Projects
+- Comments
+- Macros
+- Internal links
+- Attachments
+- Tables of tasks
+- Components
+- Import
+- Package operations
+- Time scoring
+- Issues fields
+
