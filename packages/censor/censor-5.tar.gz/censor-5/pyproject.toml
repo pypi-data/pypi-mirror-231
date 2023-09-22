@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "censor"
+description = "basis to prosecute"
+version = "5"
+authors = [
+    {name = "Censor", email = "pycensor@gmail.com" },
+]
+readme = "README.rst"
+license = { text="Public Domain"}
+classifiers = [ 
+               'Development Status :: 3 - Alpha',
+               'License :: Public Domain',
+               'Operating System :: Unix',
+               'Programming Language :: Python',
+               'Topic :: Utilities'
+              ]
+
+
+[project.urls]
+"home" = "https://pypi.org/project/censor"
+"bugs" = "https://github.com/pycensor/censor/issues"
+"source" = "https://github.com/pycensor/censor"
+
+
+[tool.setuptools]
+packages = [
+            "censor",
+            "censor.modules"
+           ]
+zip-safe = true
+script-files = ["bin/censor"]
+
+
+[tool.setuptools.data-files]
+"share/censor" = [
+                  "README.rst",
+                  "files/censor.service"
+                 ]
+
+
+"share/censor/img" = [
+                       "files/img/exclamation.jpg",
+                       "files/img/genocide.jpg",
+                       "files/img/skull3.png",
+                       "files/img/verbatim2.png",
+                       "files/img/wallpaper.png"
+                      ]
+
+
+"share/censor/pdf" = [
+                       "files/pdf/bevestigd.pdf",
+                       "files/pdf/koning.jpg",
+                       "files/pdf/EM_Ack_OTP-CR-117_19.pdf",
+                       "files/pdf/EM_T04_OTP-CR-117_19.pdf",
+                       "files/pdf/EM_T07_OTP-CR-117_19_001.pdf",
+                       "files/pdf/Kamer.pdf",
+                      ]
+
+
+[tool.setuptools.exclude-package-data]
+"*" = [
+       "env*",
+       "html*",
+       "test*"
+      ]
