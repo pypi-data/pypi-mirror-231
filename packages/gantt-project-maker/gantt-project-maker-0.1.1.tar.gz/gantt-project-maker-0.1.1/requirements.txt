@@ -1,0 +1,9 @@
+importlib_metadata
+pandas
+pytest
+python-dateutil
+pyyaml
+setuptools
+sphinx
+svgwrite
+xlsxwriter
