@@ -1,0 +1,11 @@
+apkmod/__init__.py,sha256=-bBNFYOq80A2Egtpo5V5zWJtYOxQfRZFQ_feve5lkFU,23
+apkmod/android_manifest_util.py,sha256=5AySUjqpaa4KUJJzfOQR0f8Oojrw9U1a5JxFvC5m47Q,3140
+apkmod/frida_gadget_util.py,sha256=_h20ERYWRh4m86Q-pctoDB_3xdG9eXl_FsGcvOwxw3M,3917
+apkmod/main.py,sha256=8lCrcKYCh9Pgh6iSzE6Q-bQdqzkcIsYPOjup9VtgP8I,2355
+apkmod/smali_injector_util.py,sha256=rQ9CDcGZ0_AX7a8H92eFybMC2Mxu19kmupitVGqKF0I,5390
+apkmod-1.1.1.dist-info/LICENSE,sha256=2ylvL381vKOhdO-w6zkrOxe9lLNBhRQpo9_0EbHC_HM,18046
+apkmod-1.1.1.dist-info/METADATA,sha256=O1DBXFB0qZb05XaSi7V4ORvZGXwoxALXUfgImoo3ZGA,1573
+apkmod-1.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+apkmod-1.1.1.dist-info/entry_points.txt,sha256=zQLhV5ChnuUcpnDeOARJ4goIZJbznoh7yRfGouoWNqY,44
+apkmod-1.1.1.dist-info/top_level.txt,sha256=QBesCOSi_sudIq9j97jixew5j9XmcaEeDi6z62SSlrk,7
+apkmod-1.1.1.dist-info/RECORD,,
