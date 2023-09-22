@@ -1,0 +1,43 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "magic_combo"
+version = "0.1.0"
+description = "Utilities for games project management"
+license = "MIT"
+authors = ["Florian Vazelle <florian.vazelle@vivaldi.net>"]
+readme = ["README.md", "LICENSE.md"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^3.3.3"
+reuse = "^2.1.0"
+gdtoolkit = "==4.*"
+mkdocs = "^1.5.2"
+gdscript-docs-maker = "^1.5.1"
+
+[tool.poetry.scripts]
+bump_version = "magic_combo.bump_version:main"
+generate_credits = "magic_combo.generate_credits:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-mock = "^3.11.1"
+nox = "^2023.4.22"
+
+[tool.yapf]
+based_on_style = "pep8"
+spaces_before_comment = 2
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+strict = true
+exclude = 'tests'
+
+[tool.bandit]
+exclude_dirs = ['tests']

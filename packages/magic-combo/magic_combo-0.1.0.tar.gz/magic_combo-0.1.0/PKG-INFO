@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: magic_combo
+Version: 0.1.0
+Summary: Utilities for games project management
+License: MIT
+Author: Florian Vazelle
+Author-email: florian.vazelle@vivaldi.net
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gdscript-docs-maker (>=1.5.1,<2.0.0)
+Requires-Dist: gdtoolkit (==4.*)
+Requires-Dist: mkdocs (>=1.5.2,<2.0.0)
+Requires-Dist: pre-commit (>=3.3.3,<4.0.0)
+Requires-Dist: reuse (>=2.1.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# `🎒 magic_combo`
+
+![Python Version](https://img.shields.io/badge/python-3.10-0a7bbc?logo=python&logoColor=white)
+![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)
+![license](https://img.shields.io/badge/license-MIT-green?logo=open-source-initiative&logoColor=white)
+
+Utilities for games project management
+
+</div>
+
+Copyright © 2023-present Florian Vazelle
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
