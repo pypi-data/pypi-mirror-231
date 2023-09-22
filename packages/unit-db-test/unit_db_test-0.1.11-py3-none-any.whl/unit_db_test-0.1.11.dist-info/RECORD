@@ -1,0 +1,9 @@
+unit_db_test/__init__.py,sha256=GRDWavq2L7k0TIQ2TibQTJwnv5HHIIUSIAShaUWuONc,107
+unit_db_test/postgresql.py,sha256=KdZ_nfH6HsmC22NbZbNl5uliKK5mhHuW0nu3c2VUwlY,1371
+unit_db_test/testcase.py,sha256=9YRljrD5r6HacO0I1IJ9Omf24EcZrHe2kSNLPYmpl8k,2054
+unit_db_test/utils.py,sha256=sWzTffrAKUgXxcbjquvV69_D18TZ6ADTi2e0MJUTP0I,896
+unit_db_test-0.1.11.dist-info/LICENSE,sha256=oA2ZxHOm0QFjX8tNa9TXUmAM7uyD5jO8T9q-Q-Oy1SA,1069
+unit_db_test-0.1.11.dist-info/METADATA,sha256=m4d597hYqXV3GFeFSs_nlh0yuA5gfoL97wlJ9h8rpw8,5787
+unit_db_test-0.1.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+unit_db_test-0.1.11.dist-info/top_level.txt,sha256=6t4GG6-MmCmyQiiprIQ_RX7JAmSRQ9G7Jc4eZIhVXqw,13
+unit_db_test-0.1.11.dist-info/RECORD,,
