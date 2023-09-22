@@ -1,0 +1,10 @@
+servicex_did_finder_lib/__init__.py,sha256=M1erZHQCJ2AVQDjPwkeU8kTZzSfeRqtoDl76yHdmzxA,113
+servicex_did_finder_lib/communication.py,sha256=lwGyM3J48h8-RgD_Of8x5rYhxJIXCV97XtuPYzhUYjI,10393
+servicex_did_finder_lib/did_logging.py,sha256=wGRnfype3ytuJx0_--HcoGyU9FLGbRKLYEcRLJ-lnds,1537
+servicex_did_finder_lib/did_summary.py,sha256=Rs3HGaarhMbgMa8VmHLgbucm1V7SqXNKm6iuAQlBub8,3558
+servicex_did_finder_lib/servicex_adaptor.py,sha256=aFl9lQ9pDWA2Gq0eZVHb_f9K87jc8kXNvlcVyC9opho,6908
+servicex_did_finder_lib/util_uri.py,sha256=an8YTo20yxhQfqBjVhk6eqwUXhZVrm3hBxjczUhZvZY,1817
+servicex_did_finder_lib-1.4.1a1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+servicex_did_finder_lib-1.4.1a1.dist-info/METADATA,sha256=uqujpzxByiKfoFeztvKr9sLk4ELQLiVuJstzNJ-sjWU,493
+servicex_did_finder_lib-1.4.1a1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+servicex_did_finder_lib-1.4.1a1.dist-info/RECORD,,
