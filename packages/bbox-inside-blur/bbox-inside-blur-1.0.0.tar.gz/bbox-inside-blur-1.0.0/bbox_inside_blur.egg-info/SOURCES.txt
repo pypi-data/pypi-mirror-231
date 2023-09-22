@@ -1,0 +1,9 @@
+LICENCE
+README.md
+__init__.py
+blur.py
+setup.py
+bbox_inside_blur.egg-info/PKG-INFO
+bbox_inside_blur.egg-info/SOURCES.txt
+bbox_inside_blur.egg-info/dependency_links.txt
+bbox_inside_blur.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bbox-inside-blur
+Version: 1.0.0
+Summary: This project applies blur to bboxes detected with the model
+Home-page: https://github.com/yusufesatt/bbox-inside-blur
+Author: yusufesatt
+Author-email: yusuf.esat0@hotmail.com
+Keywords: blur
+License-File: LICENCE
