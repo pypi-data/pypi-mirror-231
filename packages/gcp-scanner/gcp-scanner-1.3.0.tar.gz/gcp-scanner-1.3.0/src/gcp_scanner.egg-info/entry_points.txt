@@ -1,0 +1,3 @@
+[console_scripts]
+gcp-scanner = gcp_scanner.scanner:main
+gcp-scanner-visualizer = gcp_scanner.gui.app:main
