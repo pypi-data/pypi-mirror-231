@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+MyLlmUtils/__init__.py
+MyLlmUtils/commons.py
+MyLlmUtils/llm_definition.py
+MyLlmUtils.egg-info/PKG-INFO
+MyLlmUtils.egg-info/SOURCES.txt
+MyLlmUtils.egg-info/dependency_links.txt
+MyLlmUtils.egg-info/requires.txt
+MyLlmUtils.egg-info/top_level.txt
