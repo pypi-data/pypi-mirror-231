@@ -1,0 +1,2 @@
+[console_scripts]
+simpleaudiocontroller = simpleaudiocontroller.__main__:main
