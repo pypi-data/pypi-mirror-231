@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+ray[data]
+boto3
+s3fs
+setuptools
+pyarrow
+pyspark
