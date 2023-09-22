@@ -1,0 +1,42 @@
+init_python_project/__main__.py,sha256=Qd-f8z2Q2vpiEP2x6PBFsJrpACWDVxFKQk820MhFmHo,59
+init_python_project/cli.py,sha256=RqUIAk1nSXIfCcqfr60Um8az7Jl_C4W_QZ9w4SFiqyw,1097
+init_python_project/copier.yaml,sha256=kBz-lgLghic1bVo5-rswd7bxFNN-miGl5x1SPnar3yE,7215
+init_python_project/template/.gitignore.jinja,sha256=R5GgxpXgBtjVMkK-ThvByyJ_hiRDzITe0mU7PBwg_6Q,199
+init_python_project/template/CHANGELOG.md.jinja,sha256=XtcD0b3nFndqfjS-5ImGhvqPyNhXGFLqwa-H7re_2R4,532
+init_python_project/template/Makefile.jinja,sha256=2setjE3tIBJ-Ls2MQtbqraWiYWWRNQPVBzz6NmUUhNE,1466
+init_python_project/template/README.md.jinja,sha256=CapFU9YGVbTpuhQG41-bHYBmBFxUm0WucZyPDMiyXQA,1286
+init_python_project/template/context,sha256=w9V6QsZ0odNxO8oLLBzju_RyVbFbUlwo5Hrhtqtd98I,2146
+init_python_project/template/pyproject.toml.jinja,sha256=Euaud491AKOpjuUgvEpBHUq_Cqy6QemyqpHa53E2Nso,4865
+init_python_project/template/{% if docs == 'mkdocs' %}mkdocs.yml{% endif %}.jinja,sha256=DjNqmXgvDAbBHqBDK_PYo7M6jhFRw4eUXwnUU6YOIZY,946
+init_python_project/template/{% if remote.startswith('gitlab') %}.gitlab-ci.yml{% endif %}.jinja,sha256=2wmuqvi6J9lroQ98YjjyEkBWIYD3Qj90BmkRqxqG6dE,1896
+init_python_project/template/{% if use_bumpversion %}.bumpversion.cfg{% endif %}.jinja,sha256=Jt7D8v-bbxL169s3dJssA14C23uUI9RKP1JABeJjxKY,187
+init_python_project/template/{% if use_precommit %}.pre-commit-config.yaml{% endif %}.jinja,sha256=dBjk8LqwSxcW7yx2kGSbvSEeusaTKamrNLVfy3t-K5c,342
+init_python_project/template/{{ _copier_conf.answers_file }}.jinja,sha256=_aOGj6IREaKKxHqb2ODEZMMqy9zlY4xrG__zVESF9eE,102
+init_python_project/template/src/{{package_name}}/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+init_python_project/template/src/{{package_name}}/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+init_python_project/template/src/{{package_name}}/cli.py.jinja,sha256=FPZBsXM98jRO2i6OxNA-tnBc-wgY2Mv3SkPVdaujuqg,820
+init_python_project/template/src/{{package_name}}/simple.py,sha256=wq278rSEoS3vekbW87rzmAg5erMsIT0GBRacq2Hu_bM,210
+init_python_project/template/tests/test_cli.py.jinja,sha256=alpFx9838SWU61UNMy7dnz0u9jbVu_VWFFjgOrovse4,995
+init_python_project/template/tests/test_simple.py.jinja,sha256=B5loy6xzQ5cGnLX2Jxl0050rFQw1SXHc__79PGE3Zjw,101
+init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/index.md,sha256=Jx1-qCY1Pm7aQsI4cspucvdlcWw0ZlnCwS08wNyuDGw,26
+init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/macros.py,sha256=sOZXlI-HGPq-0__pwFySezS1NSef7BybdD3_Dze6XqU,145
+init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/reference.md.jinja,sha256=3eKf3OobFF3nAN3D5wOWVTQQAoGHfi-0l-ss0IyKGg4,34
+init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/requirements.txt,sha256=F_MhuGJZDTa_z42DjDT0BKstf39oEOrVxWNtsOO-XAA,100
+init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/changelog.md,sha256=xArP-66oWZ7LnpsSEKQbF_mVEJQqbaQM9AzO4Fk-u7o,33
+init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/conf.py.jinja,sha256=ef6U6qfbUU2UYKTGR3N-_xamFudMQOg-C3lRp6HWRg0,2029
+init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/index.md,sha256=Mb_L_IxOssyriM0oOvCBn3ov06a-lkxIuM0ek3Cd8BY,141
+init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/requirements.txt,sha256=jz4LfV8p67MzatzWZXnymkWbrmSpeWdAgpQhE6Pk9_s,57
+init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/_static/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/.git,sha256=tlpA_oxp98dANE6DElfJd7M8C_cUKwLfoJbBiZl6mAo,94
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/.gitlab-ci.yml,sha256=yo9hPtq4aEm70yuRRX5v2__fFbv2bRPfLPctF834kQQ,551
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/README.md,sha256=S9_8CEf5auMZ6y7Cev_vPhXQHqglSd-MPFjR2A3Ih1A,2981
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/requirements.txt,sha256=N75U3ONhz1gvJ9MrJir1Ukiy5HWAbWWtHJe41aa9FV8,2627
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/source/conf.py,sha256=D9IBQwhDEzRmqVX77NTtNKMk4Yypq_EXc5qN1YqAYUc,4969
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/source/_static/texmf/fonts/doc/fonts/adobe/frutiger.txt,sha256=jN3Lipf-SV1kQ7NT-a0_WgFLZE6uBmF9bJzxuFE3iBg,1705
+init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/source/integration/guide_3.md,sha256=BZizy8BZWxByJZg-6fEvZHJ-4NBj0ZIHOjLSxfOJ66U,65
+init_python_project/template/{% if remote == 'github' %}.github{% endif %}/workflows/ci.yaml.jinja,sha256=tvt7cLVr5RWGE0zjS76_7b_tR-lUIeLlZls6Kea0cKY,3060
+init_python_project-0.0.3.dist-info/METADATA,sha256=jp82YuTBXutWRvRENvj4YlFc2EvMaV_gKQ804eNkfYM,4512
+init_python_project-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+init_python_project-0.0.3.dist-info/entry_points.txt,sha256=zr8RbZRE1A8Klf8w03Cjvo2ef23H4XHXkD1KYxkzuR4,68
+init_python_project-0.0.3.dist-info/top_level.txt,sha256=qZum-bTMwQsVKPb1FLc4XCSnZjng6IQCLX_XEAYZ-mo,20
+init_python_project-0.0.3.dist-info/RECORD,,
