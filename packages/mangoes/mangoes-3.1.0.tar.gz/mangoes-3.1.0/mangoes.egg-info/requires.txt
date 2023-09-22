@@ -1,0 +1,16 @@
+cython
+nltk
+numpy
+tagme
+accelerate
+scipy
+scikit-learn
+pandas
+transformers>=4.17.0
+torch>=1.7
+
+[generator]
+gensim
+
+[visualize]
+matplotlib
