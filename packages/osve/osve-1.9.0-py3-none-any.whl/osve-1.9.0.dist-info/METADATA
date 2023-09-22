@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: osve
+Version: 1.9.0
+Summary: Python package for OSVE
+Home-page: https://juigitlab.esac.esa.int/core-system/uplink/phs/osve
+Author: Ricardo Valles, Marc Costa
+Author-email: juice_soc@sciops.esa.int
+License: European Space Agency Public License (ESA-PL) Permissive (Type 3) – v2.4
+Keywords: esa,JUICE,AGM,EPS,planetary,space,metrics,trajectory,assessment,crema
+Platform: Linux
+Platform: MacOS
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+
+﻿# Operations Simulations and Validation Engine (OSVE)
+
+## Introduction
+
+OSVE is a multiplatform library that works on Mac Intel, Mac M1 and Linux.
+It is developed in c++ but includes external libraries that are developed in legacy c.
+
