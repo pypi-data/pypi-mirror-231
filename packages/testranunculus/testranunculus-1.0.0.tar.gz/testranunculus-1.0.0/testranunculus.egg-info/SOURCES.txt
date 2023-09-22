@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+testranunculus.egg-info/PKG-INFO
+testranunculus.egg-info/SOURCES.txt
+testranunculus.egg-info/dependency_links.txt
+testranunculus.egg-info/entry_points.txt
+testranunculus.egg-info/requires.txt
+testranunculus.egg-info/top_level.txt
