@@ -1,0 +1,16 @@
+ovos_audio_transformer_plugin_ggwave/__init__.py,sha256=xVh2RhGzODgf85NqEvUOJjzMlWcX60EI8ddyvnExoZE,9588
+ovos_audio_transformer_plugin_ggwave/version.py,sha256=C6XkjbIsCmag-nB2GS-PfEY4dSFDrFStKEjau6kmYrg,178
+ovos_audio_transformer_plugin_ggwave/locale/en-us/disable.ggwave.intent,sha256=S_jF6AJij75_izq8YLYigS-TmOrmLZ4dtldMPK3r4AQ,180
+ovos_audio_transformer_plugin_ggwave/locale/en-us/enable.ggwave.intent,sha256=FfP6ys9U6cVKRSqMCVGB88xoEDK55gm15OYiAScMrJI,167
+ovos_audio_transformer_plugin_ggwave/locale/en-us/ggwave.already.disabled.dialog,sha256=3MLoouxWHai5FpA7ulJiufu-AhdcgoIF8PNNr3OVG6c,31
+ovos_audio_transformer_plugin_ggwave/locale/en-us/ggwave.already.enabled.dialog,sha256=WQbYiPuefpMKRKQ3dVZD20su9IshofB63pqtAv55qSo,30
+ovos_audio_transformer_plugin_ggwave/locale/en-us/ggwave.disabled.dialog,sha256=aFuPxVaMG754HvFdzmzKlE42momRG_TnPBDP7eCvQOg,24
+ovos_audio_transformer_plugin_ggwave/locale/en-us/ggwave.enabled.dialog,sha256=VFMPzXKX9S_9OqCRT5mR4H2ji9hHmQZUgx9SQkw7gCg,38
+ovos_audio_transformer_plugin_ggwave/locale/en-us/ggwave.entity,sha256=G23XYc9j8d9_Pic2wfnywYEzh47l8vHN0i3kPr0rKn0,52
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/LICENSE,sha256=Say7sFhMWFZjsayrsgHilF-61WjPO02-sBrHVI2t34Y,11431
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/METADATA,sha256=RJlChjpR_P9pcoThvu5IpidtiUbXvCcXVIcBYUE-8uA,1148
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/entry_points.txt,sha256=7NSYmecJVDkXSMXS1hCdAQ33JW7SdGGxHOBzv3KGBnY,110
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/top_level.txt,sha256=fPxBTyzzTq0fHFn1ZAZV13aoqb5Ozxq22MV9L1hhtHA,37
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ovos_audio_transformer_plugin_ggwave-0.0.0a18.dist-info/RECORD,,
