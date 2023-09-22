@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mypykit
+Version: 0.0.3
+Summary: my sample lib
+Author: haninam
+Author-email: 2050love@naver.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Of Pandas Columns
+
+- this is sample of pandas columns 
