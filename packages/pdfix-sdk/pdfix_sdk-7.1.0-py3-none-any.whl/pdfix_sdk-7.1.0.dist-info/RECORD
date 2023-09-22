@@ -1,0 +1,16 @@
+pdfix_sdk-7.1.0.dist-info/METADATA,sha256=mi-ez4NSyf8A7fzK12DYySTOICkfJPSguwJ2_KDzXvQ,1456
+pdfix_sdk-7.1.0.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+pdfixsdk/OcrTesseract.py,sha256=MXOLE4QkQzd04C_8dSw5Kx7wZUifAU_b_Y1RyJ_Cnm0,3959
+pdfixsdk/Pdfix.py,sha256=BAikx4OWl_HsEPFPodfCQxjIDnmZZGq_ctYA9VcJ3y0,348991
+pdfixsdk/__init__.py,sha256=KC0kT7YJuACaUwr0nETrMpw1Rekhg6FYfz2yQoa9KPQ,746
+pdfixsdk/bin/arm64/libocr_tesseract.dylib,sha256=8KRuxaY0ojDtKKG7NXaiYE7Cd2TTGaYB6PiC6yNADJU,7025651
+pdfixsdk/bin/arm64/libpdf.dylib,sha256=jQyp9w1LWR-wnJ2T_TZJX8EomzNwYpq1ARnNsx5ZpFg,16759049
+pdfixsdk/bin/x64/libocr_tesseract.dylib,sha256=L7LNpQvgcvFpbBzB3DWNSuFjv-oIdDWHba8A6EhuZaI,7718448
+pdfixsdk/bin/x64/libocr_tesseract.so,sha256=N6fhr8RXQw4cFSPWUxwn8n2BuT7lu8nsKD8wPspHbkA,10899024
+pdfixsdk/bin/x64/libpdf.dylib,sha256=v5ra5cRgmNTMsHA_AQrJWWPTAhJyWt3lKp7wD2LA_6s,17856896
+pdfixsdk/bin/x64/libpdf.so,sha256=yqPMGQORJ--M9WH7mD5MY2kQLMDCwMAZHFLM-RYkGS0,23967600
+pdfixsdk/bin/x64/ocr_tesseract.dll,sha256=yGbVTUt489MBWdjHIlWkyIUJWYgNy3QIz1EtZQukVks,3582464
+pdfixsdk/bin/x64/pdf.dll,sha256=WQUa9G_VDH0_EZlyjqe3tCQlcjFGADTFCvP0dkpvz-Q,12761088
+pdfixsdk/bin/x86/ocr_tesseract.dll,sha256=ldawIMFG3cdCzAHX5WMV-cu7d5BZCq2F5CyBsvaXdmA,3047936
+pdfixsdk/bin/x86/pdf.dll,sha256=BYAzKwWJgaop-nBEssYzd5HUcFKhajYn2pD8X1Wi-Y8,11396096
+pdfix_sdk-7.1.0.dist-info/RECORD,,
