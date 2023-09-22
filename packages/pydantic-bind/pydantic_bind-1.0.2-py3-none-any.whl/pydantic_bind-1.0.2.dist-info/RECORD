@@ -1,0 +1,9 @@
+pydantic_bind/__init__.py,sha256=BqEtfieZSGSbAv3ysZuQH6YqFkB2SoB0iyu8yzVe0kM,161
+pydantic_bind/base.py,sha256=Zo0wHmmFhhHO3f7PScyYtICQu6AYWrg75h6GRHYUvuU,12308
+pydantic_bind/cpp_generator.py,sha256=aXCFlz_EoIppgV8ozDI7fFhoQU_Us2Tc5kHDxwNX0j0,14179
+pydantic_bind/include/msgpack/msgpack.h,sha256=y11LIEQJABTxEfY3QyXvJQXIb5n6aFZcY5w7IMxscdU,38940
+pydantic_bind-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydantic_bind-1.0.2.dist-info/METADATA,sha256=OaCEuowxMX_UIBvPA8-dtxTMgJ6VrAKUVgqWvBBbVKE,13151
+pydantic_bind-1.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pydantic_bind-1.0.2.dist-info/top_level.txt,sha256=pPS2VeuAR6OVX7e57pGkQT1JOwLSV_dDPPCR-RUU600,14
+pydantic_bind-1.0.2.dist-info/RECORD,,
