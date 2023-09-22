@@ -1,0 +1,1 @@
+from mindthegap.passwordmanagerclass import PythonPasswords

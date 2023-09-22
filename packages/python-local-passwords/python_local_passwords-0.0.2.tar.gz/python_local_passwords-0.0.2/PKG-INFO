@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: python_local_passwords
+Version: 0.0.2
+Summary: A package for key generation, encrypting and decrypting passwords
+Home-page: UNKNOWN
+Author: dave_the_noob
+Author-email: dave.dawson86@gmail.com
+License: UNKNOWN
+Description:  This class initializes the Fernet cipher suite using a key file. The key file path
+            should be provided when creating an instance of the class. However if you are using 
+            the class for the first time, you should create the key by calling the create key method.
+            This key can be saved anywhere on your harddrive, the default location is in the root
+            directory of the C: drive. 
+Keywords: python,encryption,passwords,decrypting,key generation
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
