@@ -1,0 +1,8 @@
+ntime.py
+setup.py
+spantestpypi/__init__.py
+spantestpypi/newtime.py
+spantestpypi.egg-info/PKG-INFO
+spantestpypi.egg-info/SOURCES.txt
+spantestpypi.egg-info/dependency_links.txt
+spantestpypi.egg-info/top_level.txt
