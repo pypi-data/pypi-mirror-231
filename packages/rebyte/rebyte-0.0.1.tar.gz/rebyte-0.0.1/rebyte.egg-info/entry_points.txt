@@ -1,0 +1,2 @@
+[console_scripts]
+rebyte = rebyte._rebyte_scripts:main
