@@ -1,0 +1,14 @@
+utilspkg/__init__.py,sha256=2IyUmT2k2VkxtOzu1YSAWorPEMH_4z4LQNLHmiHB5jc,1053
+utilspkg/utils_connections.py,sha256=laKgiL9NGoxl7xoeM7N2te3nlxQYRuojeFxY3p14Occ,1126
+utilspkg/utils_db.py,sha256=B4rPjSjuRD74vdqSLKs9ZSv2ApU1_pqBVPEAYZR6-ag,3859
+utilspkg/utils_email.py,sha256=Tl2eiYpezVmNnm0HkbB2u93GGRyQy7iXwXRFdS_h81Q,2384
+utilspkg/utils_gpt.py,sha256=Z-i1UDDIZdunXo4sTjK33ghMSStYfzRr_nsD7-34vGY,3514
+utilspkg/utils_init.py,sha256=DVq8josSJ-b9niCnBDnIHv1zfxhNTD9bD5LK1IyHk6c,4137
+utilspkg/utils_misc.py,sha256=XTCI71Ptav8qNN76tVeJcfrV_L0pFbYYsy7fDKJ_T4Q,764
+utilspkg/utils_pta.py,sha256=58eXcZVIRFbTMGhRY3m9wNLA5EsDXO8GZZ6Tz5_qJC0,18774
+utilspkg/utils_slack.py,sha256=orjmqFw-FRH7WYHJzv8cWWgHiFDsycxhMZ3EOaCntzg,12595
+utilspkg/utils_times.py,sha256=Px0VAFXtsWPQdbfi5rlyVu6IUmAFsHYjZuknjgx8xes,3441
+utilspkg-1.0.1.dist-info/METADATA,sha256=WixArAvyX8QEBOQK-v9BO35DgZXd8R9u3WA-x7a7evU,355
+utilspkg-1.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+utilspkg-1.0.1.dist-info/top_level.txt,sha256=DyqdqESX0wF4MB0iceGER9XZh-4NNZ0tREYyn-oH8_w,9
+utilspkg-1.0.1.dist-info/RECORD,,
