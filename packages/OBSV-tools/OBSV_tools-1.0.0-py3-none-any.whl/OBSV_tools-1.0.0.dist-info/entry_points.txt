@@ -1,0 +1,4 @@
+[console_scripts]
+Combine_fig_MS = OBSV_tools.Combine_fig_MS:run
+Combine_fig_ppt = OBSV_tools.Combine_fig_ppt:run
+pml_str = OBSV_tools.pml_str:main
