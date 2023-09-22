@@ -1,0 +1,2 @@
+[plover.system]
+stenobee = stenobee
