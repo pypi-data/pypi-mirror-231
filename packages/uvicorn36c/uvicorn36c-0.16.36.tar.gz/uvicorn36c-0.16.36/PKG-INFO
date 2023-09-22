@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: uvicorn36c
+Version: 0.16.36
+Summary: A Python 3.6 mod of the lightning-fast ASGI server which passes client certificates to the app.
+Home-page: https://www.uvicorn.org/
+Author: Jordan Dimov
+Author-email: jdimov@a115.co.uk
+License: BSD
+Project-URL: Funding, https://github.com/sponsors/encode
+Project-URL: Source, https://github.com/encode/uvicorn
+Project-URL: Changelog, https://github.com/encode/uvicorn/blob/master/CHANGELOG.md
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Provides-Extra: standard
+License-File: LICENSE
+License-File: LICENSE.md
+
+# uvicorn-36c
+
+A version of Uvicorn which works with Python 3.6 and passes client certificates in the request scope.
+
+
+## Notes
+
+This version fixes the h11 HTTP implementation to pass the client certificate through to the app, together with other request details as part of the scope. 
+
+Make sure to use the H11 Worker. E.g., when using `gunicorn`: 
+
+    gunicorn -k uvicorn.workers.UvicornH11Worker src.main:app --reload --certfile cert.pem --keyfile key.pem --cert-reqs 2 --ca-certs cert.pem --timeout 1200
+
