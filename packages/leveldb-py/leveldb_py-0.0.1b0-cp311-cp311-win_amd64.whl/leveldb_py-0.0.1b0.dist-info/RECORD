@@ -1,0 +1,10 @@
+leveldb/__init__.py,sha256=zUeN5AxUjMeAoV6Fq7BPvSAGoH2YkAUQLkI1e9rmldE,240
+leveldb/_leveldb.cp311-win_amd64.pyd,sha256=VZcQYJF0-juwH2iZXXA6aOnou0T5wW8mY4qEZf5MiPw,477184
+leveldb/_leveldb.pyi,sha256=wF2dlUuPHc6tBwQkQbQqwtwNqQaPJ680iaEt_nX5YjA,1342
+leveldb/_version.py,sha256=NTE33mOUKF2l2xCmHCR7Hzxmb_RT4uoHbYyfoJ_1378,24282
+leveldb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leveldb_py-0.0.1b0.dist-info/LICENSE,sha256=T3cgCIpMw5JGMsjnBc0hq9MBXoRRSBLF6JiaKEUPaEY,6954
+leveldb_py-0.0.1b0.dist-info/METADATA,sha256=Ad4bjGIBuCjXBzJu7oH3UsnqLli2Jwuwmkt5r935Tx8,1514
+leveldb_py-0.0.1b0.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+leveldb_py-0.0.1b0.dist-info/top_level.txt,sha256=DaeMC8xhK8U8S1M29JD6oT0N6O4MYVs6VI3SQ_RUEYk,8
+leveldb_py-0.0.1b0.dist-info/RECORD,,
