@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ssb-datahub"
+version = "0.1.3"
+description = "Client for the SSB datahub platform"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ssb_datahub"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyarrow = "^12.0.1"
+pydantic = "^2.0.3"
+requests = "^2.31.0"
+pandas = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+black = "^23.7.0"
+ruff = "^0.0.280"
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length=79
