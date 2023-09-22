@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cgtroll/__init__.py
+cgtroll/__main__.py
+cgtroll.egg-info/PKG-INFO
+cgtroll.egg-info/SOURCES.txt
+cgtroll.egg-info/dependency_links.txt
+cgtroll.egg-info/top_level.txt

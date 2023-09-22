@@ -1,0 +1,52 @@
+[project]
+name = "cgtroll"
+version = "1.0.0"
+authors = [
+    { name = "FrequentlyMissedDeadlines", email = "FrequentlyMissedDeadlines+cgtroll@gmail.com" },
+]
+description = "Convert your python code to any language supported by codingame to troll the language ranking."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Topic :: Software Development",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+keywords = ['CodinGame']
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/FrequentlyMissedDeadlines/cgtroll"
+'Bug Reports' = 'https://github.com/FrequentlyMissedDeadlines/cgtroll/issues'
+'Source' = 'https://github.com/FrequentlyMissedDeadlines/cgtroll'
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ['cgtroll', 'cgtroll*', 'templates', 'templates*']
+exclude = ['*.tests*']
+namespaces = false
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "cgtroll"
+]
