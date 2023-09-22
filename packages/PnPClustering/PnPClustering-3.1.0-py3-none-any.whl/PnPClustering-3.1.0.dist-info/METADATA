@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PnPClustering
+Version: 3.1.0
+Summary: Push and Pull algorithm for ARC problem implemented by fun._.alone from GIST DSLab
+Home-page: https://github.com/teddylee777/teddynote
+Author: fun._.alone
+Author-email: limvictor@naver.com
+Keywords: fun._.alone,GIST,ARC,abstraction and reasoning corpus,DSLab
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
