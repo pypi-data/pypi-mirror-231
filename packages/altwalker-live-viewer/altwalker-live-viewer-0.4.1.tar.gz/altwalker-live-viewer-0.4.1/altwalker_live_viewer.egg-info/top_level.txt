@@ -1,0 +1,4 @@
+altwalker_viewer
+dist
+img
+node_modules
