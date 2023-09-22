@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pydantic_bind
+Version: 1.0.1
+Summary: C++/pybind generation from Pydantic classes
+Author: Nick Young
+License: https://www.apache.org/licenses/LICENSE-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Requires-Dist: pydantic>=2.0.2
+Requires-Dist: pybind11
