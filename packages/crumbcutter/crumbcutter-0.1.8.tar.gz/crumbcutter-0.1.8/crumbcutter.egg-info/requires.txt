@@ -1,0 +1,8 @@
+click
+cookiecutter
+jinja2
+
+[dev]
+pytest
+twine
+wheel
