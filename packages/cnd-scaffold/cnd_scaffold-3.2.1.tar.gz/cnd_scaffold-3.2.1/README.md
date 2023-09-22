@@ -1,0 +1,162 @@
+# CndScaffold >=3.0.0
+
+# Why use CndScaffold
+
+CndScaffold is a python lib, designed to help management of GitOps process.
+Now base on jinja2, it allow you to merge a dict of data into a list of file.
+
+Connected with the right provider, you can directly push your result to a git server (gitlab / github /Azure DevOps)
+
+# How it's works ? (with example)
+- define in jinja format a list of template file (the file can be text, yaml or anything else)
+- create a file of definition
+- apply data on it
+
+## What we want as result
+
+### Data source
+For example we got this data
+```yaml
+name: Denis
+customers:
+  - name: my_first_customer
+    email: my_first_customer@sample-mail.com
+    id: c6a240ac-587a-11ee-8c99-0242ac120002
+    token: ABC
+  - name: my_second
+    email: my_second_customer@sample-mail.com
+    id: d174a3e4-587a-11ee-8c99-0242ac120002
+    token: DEF
+  - name: my_last
+    email: my_last_customer@sample-mail.com
+    id: ebe22792-587a-11ee-8c99-0242ac120002
+    token: GHI
+
+```
+
+### Files result
+And we want to generate multiple file for a gitops process, who look like this result:
+> config.yml
+> ```yaml
+> name: Denis
+> type: my_type_sample
+> ```
+
+> customers.yml
+> ```yaml
+> customers:
+> - name: my_first_customer
+>   email: my_first_customer@sample-mail.com
+>   id: c6a240ac-587a-11ee-8c99-0242ac120002
+> - name: my_second
+>   email: my_second_customer@sample-mail.com
+>   id: d174a3e4-587a-11ee-8c99-0242ac120002
+> - name: my_last
+>   email: my_last_customer@sample-mail.com
+>   id: ebe22792-587a-11ee-8c99-0242ac120002
+> ```
+
+> customers/c6a240ac-587a-11ee-8c99-0242ac120002.yml
+> ```yaml
+> token: ABC
+> ```
+
+> customers/d174a3e4-587a-11ee-8c99-0242ac120002.yml
+> ```yaml
+> token: DEF
+> ```
+
+> customers/ebe22792-587a-11ee-8c99-0242ac120002.yml
+> ```yaml
+> token: GHI
+> ```
+
+## How we do it 
+### Definition of a list of file in jinja
+A single simple file :
+> definition/customers/file1.yml
+> ```yaml
+> name: {{ name }}
+> type: my_type_sample
+> ```
+
+Now a file with a loop :
+> definition/customers/loop.yml
+> ```yaml
+> {% if customers |length > 1 %}
+> customers: 
+> {%- for customer in customers %}
+>   name: {{ customer.name -}}
+>   email: {{ customer.email -}}
+>   id: {{ customer.id -}}
+> {% endfor %}
+> {% endif %}
+> ```
+
+And finally to create multiple file with a loop (like one per customer):
+> definition/customers/multiple.yml
+> ```yaml
+> token: {{ token }}
+> ```
+
+### Definition file
+> definition/customers.yml
+> ```yaml
+> source_folder: customers
+> files:
+> - name: file1.yml
+>   step: ['init']
+>   target: config.yml
+> - name: loop.yml
+>   step: ['init', 'build', 'runtime']
+> - name: multiple.yml
+>   step: ['init', 'build', 'runtime']
+>   repeat: customers 
+>   target: customers/{{ id }}.yml 
+> ```
+
+### Build the code (localfile)
+
+The first sample will generate the file into a results folder
+> run.py (generate data in a local folder)
+> ```python
+> import cnd_scaffold
+> import cndprint
+> 
+>
+> data = my_data # .... load your data as you need
+> cnd_scaffold = cnd_scaffold.Scaffold(_print)
+> model = cnd_scaffold.load_model('definition', customers.yml')
+> final_files = cnd_scaffold.apply('init', model, data)
+> final_files = cnd_scaffold.push_files(final_files, 'results')
+> ```
+
+### Build the code (provider gitlab)
+
+This second example will push the result into **git_lab_project_id**
+
+> run.py (generate data in a local folder)
+> ```python
+> import cnd_scaffold
+> import cndprint
+> import cnd_provider
+> 
+>
+> data = my_data # .... load your data as you need
+> provider = cnd_provider.CndProviderGitlab({"private_token": 'replace-me', "host": "https://mygitlab"}
+> cnd_scaffold = cnd_scaffold.Scaffold(_print)
+> model = cnd_scaffold.load_model('definition', customers.yml')
+> final_files = cnd_scaffold.apply('init', model, data)
+> final_files = cnd_scaffold.push_files(final_files, "git_lab_project_id", provider=provider)
+> ```
+
+## That's all !
+With this definition, each time you use cnd_scaffold you will generate this file structure/content from your own data.
+
+# Tips
+## Step
+step, will allow you using different case, you can use it as you prefer, but I suggest you this:
+- init: First time only, it's mean this file will never been update by the script
+- build: Each time the process start, it will be update
+- runtime: Perfect for Terraform secret for example, you can set this to never write result on git, but only on the current pipeline session
+
