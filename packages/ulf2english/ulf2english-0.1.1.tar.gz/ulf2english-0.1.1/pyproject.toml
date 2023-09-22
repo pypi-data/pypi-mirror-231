@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ulf2english"
+version = "0.1.1"
+authors = [
+  { name="Benjamin Kane", email="Ben.Kane@me.com" },
+  { name="Gene Kim", email="genekim@usf.edu" }
+]
+description = "A Python port of the Lisp ulf2english package by Gene Kim."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pattern >= 3.6",
+    "ulflib >= 0.0.11",
+    "transduction >= 0.1.3",
+    "memoization >= 0.4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bkane2/ulf2english-py"
+"Bug Tracker" = "https://github.com/bkane2/ulf2english-py/issues"
