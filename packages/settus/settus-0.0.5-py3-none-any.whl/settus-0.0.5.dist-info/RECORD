@@ -1,0 +1,12 @@
+settus/__init__.py,sha256=AYDrzeN-YAH3exBmk7Qj7-qRAPLUVXEsEBrCap4Cg1A,907
+settus/_version.py,sha256=qSuE7XE6WuK3LjoCpunIWLZhh-T-o48lG_iYyHrBlig,18
+settus/awssecretssettingssource.py,sha256=wT_v5bcEN6BK7smjCPP-I11QQzj3bDIw3pkdHGyYoQY,2833
+settus/basesettings.py,sha256=yrADrIuW56gDBMAIpiuB8suggfB3XpYN8KQXewTg9y8,6951
+settus/field.py,sha256=ur82NdEqcHyN84tfOYOXXBSWYzJVopnC0hDUdJLYdrk,727
+settus/keyvaultsettingssource.py,sha256=jpn3I-a7c3uyThqdH-wpi5F9lgzp1cF13xSPfuE_NOI,3020
+settus/settingsconfigdict.py,sha256=FBxo_pqk62Bv6sbyfk_CY8Adl6ZPVIqMxDIETbDC78A,450
+settus-0.0.5.dist-info/LICENSE,sha256=bixa0YlPhArITYqSSY2wybO9IscM6BLeGnaFtsZa9-s,1066
+settus-0.0.5.dist-info/METADATA,sha256=UZAMG-RszskvEuBNfeHv2q9S2WUKr9tBulwSn963jYI,4731
+settus-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+settus-0.0.5.dist-info/top_level.txt,sha256=c6TRxvQzB2H-YerFMu-fXW0QPveAcC9WzXRcJqfifY4,7
+settus-0.0.5.dist-info/RECORD,,
