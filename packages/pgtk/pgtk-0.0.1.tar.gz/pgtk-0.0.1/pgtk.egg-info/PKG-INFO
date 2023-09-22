@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pgtk
+Version: 0.0.1
+Summary: Provides some simple functionalities using pygame
+Home-page: UNKNOWN
+Author: Vinicius Putti Morais
+Author-email: viniputtim@gmail.com
+License: MIT license
+Keywords: pygame
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pygame_toolkit
+
+An unnoficial lib for pygame containing simple tools
+
+# Installation
+
+pip install pygame_toolkit
+
+
