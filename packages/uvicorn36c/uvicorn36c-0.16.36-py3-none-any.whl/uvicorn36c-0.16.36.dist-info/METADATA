@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: uvicorn36c
+Version: 0.16.36
+Summary: A Python 3.6 mod of the lightning-fast ASGI server which passes client certificates to the app.
+Home-page: https://www.uvicorn.org/
+Author: Jordan Dimov
+Author-email: jdimov@a115.co.uk
+License: BSD
+Project-URL: Funding, https://github.com/sponsors/encode
+Project-URL: Source, https://github.com/encode/uvicorn
+Project-URL: Changelog, https://github.com/encode/uvicorn/blob/master/CHANGELOG.md
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.md
+Requires-Dist: asgiref (>=3.4.0)
+Requires-Dist: click (>=7.0)
+Requires-Dist: h11 (>=0.8)
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Provides-Extra: standard
+Requires-Dist: PyYAML (>=5.1) ; extra == 'standard'
+Requires-Dist: httptools (<0.4.0,>=0.2.0) ; extra == 'standard'
+Requires-Dist: python-dotenv (>=0.13) ; extra == 'standard'
+Requires-Dist: watchgod (>=0.6) ; extra == 'standard'
+Requires-Dist: websockets (>=9.1) ; (python_version < "3.7") and extra == 'standard'
+Requires-Dist: websockets (>=10.0) ; (python_version >= "3.7") and extra == 'standard'
+Requires-Dist: uvloop (!=0.15.0,!=0.15.1,>=0.14.0) ; (sys_platform != "win32" and (sys_platform != "cygwin" and platform_python_implementation != "PyPy")) and extra == 'standard'
+Requires-Dist: colorama (>=0.4) ; (sys_platform == "win32") and extra == 'standard'
+
+# uvicorn-36c
+
+A version of Uvicorn which works with Python 3.6 and passes client certificates in the request scope.
+
+
+## Notes
+
+This version fixes the h11 HTTP implementation to pass the client certificate through to the app, together with other request details as part of the scope. 
+
+Make sure to use the H11 Worker. E.g., when using `gunicorn`: 
+
+    gunicorn -k uvicorn.workers.UvicornH11Worker src.main:app --reload --certfile cert.pem --keyfile key.pem --cert-reqs 2 --ca-certs cert.pem --timeout 1200
+
