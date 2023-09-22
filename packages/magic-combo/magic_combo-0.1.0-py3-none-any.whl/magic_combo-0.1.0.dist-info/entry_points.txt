@@ -1,0 +1,4 @@
+[console_scripts]
+bump_version=magic_combo.bump_version:main
+generate_credits=magic_combo.generate_credits:main
+
