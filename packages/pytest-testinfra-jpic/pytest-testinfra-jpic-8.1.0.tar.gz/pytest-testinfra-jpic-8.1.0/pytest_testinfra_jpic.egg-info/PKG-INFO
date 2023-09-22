@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pytest-testinfra-jpic
+Version: 8.1.0
+Summary: Test infrastructures
+Home-page: https://github.com/jpic/pytest-testinfra
+Author: Philippe Pepiot
+Author-email: phil@philpep.org
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Systems Administration
+Classifier: Framework :: Pytest
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Provides-Extra: ansible
+Provides-Extra: docker
+Provides-Extra: kubectl
+Provides-Extra: local
+Provides-Extra: lxc
+Provides-Extra: paramiko
+Provides-Extra: salt
+Provides-Extra: winrm
+License-File: LICENSE
+
+Testinfra with winrm transport patch
