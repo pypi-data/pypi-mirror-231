@@ -1,0 +1,11 @@
+enviRobot_scoop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enviRobot_scoop/aiot_screenshot.py,sha256=_k8wJLN6-waVE_EfTCiQ58TQ4Ky3Xa52f2lVQk2SKn0,1111
+enviRobot_scoop/enviRobot_scoop.py,sha256=6gLGoJn2NaFbM2MnYzTICBxMGPSjM2tYX-MyiNtp-bk,3605
+enviRobot_scoop/gpt.py,sha256=DrA9Q7pVNhnFTGz5xvN3zvFDV4A8iwr8hmx2qo4UzNM,15947
+enviRobot_scoop/plotly_screenshot.py,sha256=eSQFOwrsgVsSSzHRGMK8fiwknHT5q5MVLiSDfzGA68M,4668
+enviRobot_scoop/upload_to_imgur.py,sha256=6dvaBhAa1tyAtf5Pd8rTDB0oWk2zAF9Bq5lV6qLR4PA,419
+enviRobot_scoop-0.1.6.dist-info/LICENSE,sha256=EB5C2y9xm4TSvtLXVeCH3ciTKpKCwkYn55uyq-G_pzE,1061
+enviRobot_scoop-0.1.6.dist-info/METADATA,sha256=Q21xluudaUPvbnHsa3Vfxn5zQC6riUnn37zmf76kEcU,1401
+enviRobot_scoop-0.1.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+enviRobot_scoop-0.1.6.dist-info/top_level.txt,sha256=zK1pxxH8ai5lGq47fUNm56RHRsyW5UrgG19P9KcmClg,16
+enviRobot_scoop-0.1.6.dist-info/RECORD,,
