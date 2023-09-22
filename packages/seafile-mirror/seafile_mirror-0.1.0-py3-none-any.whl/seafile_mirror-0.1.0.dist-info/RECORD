@@ -1,0 +1,10 @@
+seafile_mirror/__init__.py,sha256=YbZRUAHHMOCxgU79qBeooKcLjeOqOhXrki2M_V4pkTw,98
+seafile_mirror/_cachedb.py,sha256=T7vodk-aASjPR-gL5A1v72BoCP_U3SOcPdWtWW6TGB0,1790
+seafile_mirror/_helpers.py,sha256=LhXTcZvbDToVDK0cEHbE9n_Xm3TTufJHyybtoacTkvQ,1501
+seafile_mirror/_seafile.py,sha256=JJ5EBKHT1Fs086_ymllXb8c0YJrG-cCerVWAuu6cScI,9315
+seafile_mirror/seafile_mirror.py,sha256=_dcopYp6RLBC4p6O5KHiXWt0SDtjMmRR7R3sXoK_6p0,7290
+seafile_mirror-0.1.0.dist-info/LICENSES/Apache-2.0.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+seafile_mirror-0.1.0.dist-info/METADATA,sha256=vMbZZDNVDa7JlNKc2H1qybPopcicz09pN-XDHBJ_VKw,3482
+seafile_mirror-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+seafile_mirror-0.1.0.dist-info/entry_points.txt,sha256=7I52xRQNpD-kfgISU60PmVK_H5uj9fh3LV7qq6ObcTs,69
+seafile_mirror-0.1.0.dist-info/RECORD,,
