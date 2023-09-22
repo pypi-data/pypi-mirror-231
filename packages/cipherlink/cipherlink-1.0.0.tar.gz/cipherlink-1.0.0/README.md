@@ -1,0 +1,122 @@
+# Cipherlink
+
+A simple library for basic cybersecurity algorithms.
+
+## Project details
+
+This project will be merged with a messaging protocol, 
+hence the name. (See https://github.com/ahmeterdem1/SSL-Messager
+for details.)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+_pip install cipherlink_
+
+## Usage
+
+This library is not for real cybersecurity use. Tools
+inside here are not complicated and fast enough for that 
+use. But this is a simple and fast enough library for 
+small projects that requires a tint of security. It creates
+a bundle for ciphering, a little all-in-one. It has prime
+number generation functions, a hash function, RSA keygen
+function and encryption-decryption functions for RSA.
+
+No useful initialization occurs in this class, creating a
+ciphertools object just prints the _dir()_ function of the
+class.
+
+### hash(str)
+
+Just an analogue of md5. Output is made of all the new internal
+state numbers, not just the last one. Pretty much only difference
+is that. Return is a string.
+
+### gcd(a, b)
+
+Returns gcd of arguments
+
+### gcdExtended(a, b)
+
+Returns gcd, x, y where x and y are coefficients of the equation:
+
+`ax + by = gcd(a, b)`
+
+This is used to implement a faster key generation in RSA.
+
+### primeByOrder(int)
+
+Takes an integer as the order, then returns the prime in the order.
+Useful for generating large primes by just inputting their order.
+Default argument is a random 8-bit number plus one, in case 0 is
+choosen. If the argument is smaller than 1, raises RangeError.
+
+### primeByRange(int, int)
+
+Returns a list of primes in given range. If the range is invalid, 
+raises a RangeError.
+
+### isPrime(int)
+
+Returns true if the argument is a prime. If the argument is smaller
+than 2, returns false.
+
+### keygenRsa(p, q, smallest)
+
+Creates a tuple of public and private key and returns it. Public key
+is itself a tuple. p and q as primes can be given. _smallest_ determines 
+the e. If true, which is the default, e is the smallest number possible. 
+If false, e is chosen randomly within the list. If randomly choosen, 
+private key generation takes a lot of time, therefore the default is true.
+
+If given p and q are not primes, raises an ArgError.
+
+### encryptorRsa(public, message)
+
+Takes in the public key and the message, then encrypts the message. Returns
+the encrypted message as a tuple. Every element in this tuple represents a
+character.
+
+### decryptorRsa(public, private, message)
+
+Takes in the keys and the encrypted message, then returns the decrypted message.
+Return type is string this time.
+
+### encryptorRsa2(public, message)
+
+Same as the original one. Only difference is that, this works by grouping
+characters by 2, appending their ascii values, using the resultant integer.
+With this method, this function is not an overcomplicated caesar cipher 
+anymore.
+
+### decryptorRsa2(public, private, message)
+
+Decrypts RSA messages grouped in 2.
+
+## Known issues
+
+### Random Exceptions and Errors
+
+Both decryptor functions rarely raise exceptions or result in an incorrect
+message. One of the reasons for that was, generated private key could be 1
+sometimes. This makes the for loop exit immediately. So no decryption occurs.
+This is solved now. The only remaining reason known for this issue is the
+information loss during multiplications of large numbers. Frequency of this
+issue happening is measured to be around %4 with pypy3 as compiler.
+
+Beware that every time this issue happens, indeed no decryption occurs.
+You can see this with debugging, for some reason the encrypted message
+is passed as the result in the decryptor despite the private key being
+larger than 2. This may be due to some mathematical problem in our method
+of private key calculation. But %4 is small enough to be practical.
+
+### Algorithm is annoyingly slow
+
+Algorithm is not the only thing that is slow here. CPython is the real slow
+thing in here. Our recommendation is to use pypy as the compiler. Pypy is 
+measured to be around 10 to 20 times faster than CPython during keygen,
+encryption and decryption combined. This is probably due to the optimizations
+on loops in pypy. CPython takes its time during the for and while loops of
+said operations. We have to sacrifice the speed here with that loops because
+otherwise we would have to do operations on really large numbers. That will
+result in the above said errors. Just using C/C++ is still an option.
