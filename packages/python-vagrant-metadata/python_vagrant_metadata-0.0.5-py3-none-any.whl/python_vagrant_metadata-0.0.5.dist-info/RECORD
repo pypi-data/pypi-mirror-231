@@ -1,0 +1,10 @@
+vagrant_metadata/__init__.py,sha256=xyHZGyJ5DGdcd3Vb90zxF6wTRxw5uZfmfphvFAoxzug,98
+vagrant_metadata/metadata.py,sha256=C9UQ6dq-tTLu_-S7UIAGnTD5pRM3ScoU57pfizqYnkQ,2262
+vagrant_metadata/provider.py,sha256=Zxh5H-QZuXhZrct9iMxW0DHWmbHwjxa9GVyw57zuKUU,466
+vagrant_metadata/utils.py,sha256=sgaf9GnHe9-1fPUTawY5VxBuJ6EFnO2v4GyPGX4u-vo,1122
+vagrant_metadata/version_box.py,sha256=qbV3gyLi2I2dDQpng33cFG5cmELV_Qyyvh12yZg2gcA,2216
+python_vagrant_metadata-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+python_vagrant_metadata-0.0.5.dist-info/METADATA,sha256=MOBXz-ECMNf2deejxK-w76pASagPUP8THftS3IlzddA,2692
+python_vagrant_metadata-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+python_vagrant_metadata-0.0.5.dist-info/top_level.txt,sha256=F1YcAEkMWdxOHxBcAC6xfkztXhk85u7du5OyBY9-fb8,17
+python_vagrant_metadata-0.0.5.dist-info/RECORD,,
