@@ -1,0 +1,8 @@
+webrtc_noise_gain_cpp.cpython-37m-x86_64-linux-gnu.so,sha256=E5_faqU-3CoFIGSKVffZTEXTLQKgaEKURmVPxLiOjzg,225545
+webrtc_noise_gain/__init__.py,sha256=IQ_j3UQtxjY0DCbvmVUvXAuINQSN-wfFyH_-taM2w0o,49
+webrtc_noise_gain-1.0.0.dist-info/RECORD,,
+webrtc_noise_gain-1.0.0.dist-info/WHEEL,sha256=f_U2wrIMA84Ps5bWlwzwSQPbEE5dPDJHwy26rfGPAKU,113
+webrtc_noise_gain-1.0.0.dist-info/top_level.txt,sha256=bYc4KKPrwvju_fpzTRt8e100WNhStjpxh_ji77VHD3E,40
+webrtc_noise_gain-1.0.0.dist-info/METADATA,sha256=e8GLE_HnUofcoYxDsH6N1C5eCTdAPU4SlMgsc_6YDEM,253
+webrtc_noise_gain.libs/libwebrtc-audio-coding-1-33a9cb74.so.3,sha256=KiBFwJS8t84ADeLyU-2BtWBOGH0np3Z7XyIl1JmGxhk,2534441
+webrtc_noise_gain.libs/libwebrtc-audio-processing-1-e15dd46b.so.3,sha256=OkWHZ32RYeRro9dIVFF6LVHBEnxQCpVh3K_gjURz1ls,23382737
