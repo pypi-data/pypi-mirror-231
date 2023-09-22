@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/revoltbots/RBL.py
+src/revoltbots/__init__.py
+src/revoltbots.py.egg-info/PKG-INFO
+src/revoltbots.py.egg-info/SOURCES.txt
+src/revoltbots.py.egg-info/dependency_links.txt
+src/revoltbots.py.egg-info/top_level.txt
