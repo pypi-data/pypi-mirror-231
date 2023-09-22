@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ft_package/__init__.py
+ft_package/count_in_list.py
+ft_package_chanwjeo.egg-info/PKG-INFO
+ft_package_chanwjeo.egg-info/SOURCES.txt
+ft_package_chanwjeo.egg-info/dependency_links.txt
+ft_package_chanwjeo.egg-info/top_level.txt
