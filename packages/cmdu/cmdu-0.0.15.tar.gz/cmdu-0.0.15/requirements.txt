@@ -1,0 +1,5 @@
+pyyaml
+tzdata
+build
+twine
+pytest
