@@ -1,0 +1,12 @@
+jax
+numpyro
+optax
+equinox
+tensorflow-datasets
+tf-nightly-cpu
+tfp-nightly
+
+[interactive]
+matplotlib
+seaborn
+jupyter
