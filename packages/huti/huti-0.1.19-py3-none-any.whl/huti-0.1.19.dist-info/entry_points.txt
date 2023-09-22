@@ -1,0 +1,4 @@
+[console_scripts]
+dependencies = huti.cli.dependencies:app
+huti = huti.cli.app:app
+requirements = huti.cli.dependencies:app
