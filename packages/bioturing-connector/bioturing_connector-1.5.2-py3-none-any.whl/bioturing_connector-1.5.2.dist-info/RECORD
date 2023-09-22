@@ -1,0 +1,11 @@
+bioturing_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioturing_connector/common/__init__.py,sha256=NKqt09leNvmzKfbEDv5cTP1ZhxwMrXtty-F1PG3Gt5w,453
+bioturing_connector/common/common.py,sha256=IVkHt5voAle8Gm4sI9ZVD7I5GR6hJqoE-yPjxgJ0eT0,8179
+bioturing_connector/common/https_agent.py,sha256=-1c5UtU2QFAMGfx3NCtBlALf6uLmz_FTrc8yO1XRVWI,1449
+bioturing_connector/connector.py,sha256=TmtfLbROLE-ggaLdBdfrBPxrZrNQeCkWeT3CxjIWbJ0,23425
+bioturing_connector/lens_bulk_connector.py,sha256=O__IVA2C4lYV8SCtSf8G5Ht5L4f1YrCHJY-1Momlf9A,19654
+bioturing_connector/lens_sc_connector.py,sha256=jI4eSKQkVOpr7iqdTB7hEMhZEN4R5R_ENpC-2wJyBO4,27712
+bioturing_connector/typing/__init__.py,sha256=a0MwJf4akbW3pHumnxu2an6UdMEQ_faTvrSJRZz2pWw,1815
+bioturing_connector-1.5.2.dist-info/METADATA,sha256=TL90IjR0KgN8oXVE1hc88wo5PRlk2XRxJjXYi-Uoc1o,4994
+bioturing_connector-1.5.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+bioturing_connector-1.5.2.dist-info/RECORD,,
