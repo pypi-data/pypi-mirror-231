@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: BestSun
+Version: 1.0.0.4
+Summary: Test Package
+Author: Hyeonseo
+Author-email: whgustj0222@korea.ac.kr
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: requests
+
