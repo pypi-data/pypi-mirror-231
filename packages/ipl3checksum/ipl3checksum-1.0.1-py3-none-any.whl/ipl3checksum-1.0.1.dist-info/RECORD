@@ -1,0 +1,14 @@
+ipl3checksum/__init__.py,sha256=bD4P8pc96UeDE4rg034qKdY9COs7LceLmIfKR6uI8GQ,585
+ipl3checksum/__main__.py,sha256=dA7rTf9_QVjOTN4OHO74xfx_-HCjiTkT6ffQijkoRcM,251
+ipl3checksum/checksum.py,sha256=HFCamwKg90oOBfA-_cr1zHq3oC0SjD6KqFjMXG9AMVs,4448
+ipl3checksum/cickinds.py,sha256=GRn0_xURy1YIYls0n_XifeSSzEuMIWWWXxspYeDvQVg,2402
+ipl3checksum/detect.py,sha256=Jc5n0vM4U3XKxjH8P8c4IZDPTrdx7xYa7dPVU8UXm6Q,1213
+ipl3checksum/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipl3checksum/utils.py,sha256=yDihjSIXxMt8raFFNpvwgz8Z5FW6iIlBSp2wb9ZZ-Jw,302
+ipl3checksum/frontends/__init__.py,sha256=XwInJEd8f0F-aDn3CUSQr0nvTmA5kQz0fA-R_oRvJyU,177
+ipl3checksum/frontends/climain.py,sha256=oDlsAF3D36sFwelJYMmiOjEfBeoBm9X9gZ34rtpymX0,720
+ipl3checksum-1.0.1.dist-info/METADATA,sha256=fXAjw2FZUVpbswvd7jA9o-ZKBg2752GyAwnQxI8qY8Q,5702
+ipl3checksum-1.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ipl3checksum-1.0.1.dist-info/entry_points.txt,sha256=yvfnMiie6PQxRpCyfelkbH-vlwRJvnEEmQWBW6YyM4Y,81
+ipl3checksum-1.0.1.dist-info/licenses/LICENSE,sha256=_32FT6ufDPzso8XV46MT1LrXwQYGXKDhUrwO78o-jQM,1073
+ipl3checksum-1.0.1.dist-info/RECORD,,

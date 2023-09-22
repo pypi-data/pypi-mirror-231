@@ -1,0 +1,2 @@
+[console_scripts]
+ipl3checksum = ipl3checksum.frontends.climain:ipl3checksumMain
