@@ -1,0 +1,8 @@
+ntime.py
+setup.py
+spansys/__init__.py
+spansys/newtime.py
+spansys.egg-info/PKG-INFO
+spansys.egg-info/SOURCES.txt
+spansys.egg-info/dependency_links.txt
+spansys.egg-info/top_level.txt
