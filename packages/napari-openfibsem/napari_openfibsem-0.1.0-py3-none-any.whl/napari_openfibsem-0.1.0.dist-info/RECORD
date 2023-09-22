@@ -1,0 +1,10 @@
+napari_openfibsem/__init__.py,sha256=RHp8vhAWuGYiAZVYyvVB3JZ5tXRwrOfclPfueW8f2JU,211
+napari_openfibsem/_version.py,sha256=yQUvzVgciqHOo2FTG6bJRAAMmvj9jHKup9Ofpda5H4A,240
+napari_openfibsem/app.py,sha256=fKdZ1ideZXXmx5Hia15oSg0jMNocmkt7l79GW3Yw7kc,250
+napari_openfibsem/napari.yaml,sha256=mtToZJoHsdrzsk677i64u_WwpuApGZyfHvP8Ur4MdOY,689
+napari_openfibsem-0.1.0.dist-info/LICENSE,sha256=nwETJFESSkUj7yML0nUV56xMNJsktMsuvx3oOTgXD0Q,1082
+napari_openfibsem-0.1.0.dist-info/METADATA,sha256=Br-otXAlbxoB6OL0LPgZ_BMSdBe8YC_uTjbN_FzAZwc,4241
+napari_openfibsem-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_openfibsem-0.1.0.dist-info/entry_points.txt,sha256=K6q-iiNIMU_X898St9V304X9_md0oPrK4PU3VFRpj6w,68
+napari_openfibsem-0.1.0.dist-info/top_level.txt,sha256=0LAaLIHE5S3WqPHmwKwoV-lt9rPnLF5I-00YFkaryOk,18
+napari_openfibsem-0.1.0.dist-info/RECORD,,
