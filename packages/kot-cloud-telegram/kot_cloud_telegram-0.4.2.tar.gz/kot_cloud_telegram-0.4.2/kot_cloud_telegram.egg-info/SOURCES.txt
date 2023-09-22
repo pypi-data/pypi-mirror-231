@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./requirements.txt
+kot_cloud_telegram/__init__.py
+kot_cloud_telegram/kot_cloud_telegram.py
+kot_cloud_telegram.egg-info/PKG-INFO
+kot_cloud_telegram.egg-info/SOURCES.txt
+kot_cloud_telegram.egg-info/dependency_links.txt
+kot_cloud_telegram.egg-info/not-zip-safe
+kot_cloud_telegram.egg-info/requires.txt
+kot_cloud_telegram.egg-info/top_level.txt
