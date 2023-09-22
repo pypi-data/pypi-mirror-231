@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytket-honeywell
+Version: 1.0.0
+Summary: pytket-honeywell
+Author-email: Alec Edgington <alec.edgington@quantinuum.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://cqcl.github.io/pytket-quantinuum/api/
+
+# pytket-honeywell
+
+This package is obsolete. It has been replaced by
+[pytket-quantinuum](https://pypi.org/project/pytket-quantinuum/).
+
