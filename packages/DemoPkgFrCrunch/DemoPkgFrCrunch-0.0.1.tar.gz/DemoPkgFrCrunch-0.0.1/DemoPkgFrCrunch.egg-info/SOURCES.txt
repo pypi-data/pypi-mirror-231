@@ -1,0 +1,7 @@
+setup.py
+DemoPkgFrCrunch/CurrentMonth.py
+DemoPkgFrCrunch/__init__.py
+DemoPkgFrCrunch.egg-info/PKG-INFO
+DemoPkgFrCrunch.egg-info/SOURCES.txt
+DemoPkgFrCrunch.egg-info/dependency_links.txt
+DemoPkgFrCrunch.egg-info/top_level.txt
