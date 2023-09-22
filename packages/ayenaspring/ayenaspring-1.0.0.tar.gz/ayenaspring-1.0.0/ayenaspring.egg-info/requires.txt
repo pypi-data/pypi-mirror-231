@@ -1,0 +1,5 @@
+requests
+aiohttp
+typing-extensions
+tqdm
+urllib3==1.26.15
