@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: graphsense-python
+Version: 1.4.0
+Summary: GraphSense API
+Home-page: 
+Author: Iknaio Cryptoasset Analytics GmbH
+Author-email: contact@ikna.io
+Keywords: OpenAPI,OpenAPI-Generator,GraphSense API
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: urllib3 >=1.25.3
+Requires-Dist: python-dateutil
+
+    GraphSense API provides programmatic access to various ledgers&#39; addresses, entities, blocks, transactions and tags for automated and highly efficient forensics tasks.
+    
