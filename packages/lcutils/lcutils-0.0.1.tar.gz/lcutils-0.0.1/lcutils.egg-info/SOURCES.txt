@@ -1,0 +1,6 @@
+setup.py
+lcutils.egg-info/PKG-INFO
+lcutils.egg-info/SOURCES.txt
+lcutils.egg-info/dependency_links.txt
+lcutils.egg-info/requires.txt
+lcutils.egg-info/top_level.txt
