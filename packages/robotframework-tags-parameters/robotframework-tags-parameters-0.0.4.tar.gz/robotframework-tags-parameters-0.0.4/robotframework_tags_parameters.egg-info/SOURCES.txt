@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+robotframework_tags_parameters/__init__.py
+robotframework_tags_parameters/tagsparameters.py
+robotframework_tags_parameters/tagsparser.py
+robotframework_tags_parameters.egg-info/PKG-INFO
+robotframework_tags_parameters.egg-info/SOURCES.txt
+robotframework_tags_parameters.egg-info/dependency_links.txt
+robotframework_tags_parameters.egg-info/requires.txt
+robotframework_tags_parameters.egg-info/top_level.txt
+tests/test_tagsparameters.py
+tests/test_tagsparser.py
