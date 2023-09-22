@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tims-grpc
+Version: 0.0.2
+Summary: 
+Author: Shahim Essaid
+Author-email: shahim@essaid.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: grpcio (>=1.58.0,<2.0.0)
+Requires-Dist: protobuf (>=4.24.3,<5.0.0)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tims-grpc"
+version = "0.0.2"
+description = ""
+authors = ["Shahim Essaid <shahim@essaid.com>"]
+readme = "README.md"
+packages = [{include = "essaid", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+grpcio = "^1.58.0"
+protobuf = "^4.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
