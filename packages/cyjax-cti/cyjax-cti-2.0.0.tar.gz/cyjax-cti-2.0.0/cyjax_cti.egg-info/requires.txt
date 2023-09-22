@@ -1,0 +1,9 @@
+requests==2.27.0
+responses==0.17
+pytz==2023.3
+
+[test]
+pytest
+pytest-mock
+twine
+flake8
