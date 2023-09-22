@@ -1,0 +1,2 @@
+[genice2_format]
+cage = genice2_cage.formats.cage
