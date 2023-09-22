@@ -1,0 +1,11 @@
+compmec/shape/__init__.py,sha256=hAuUCpHn0exF6azQLD2SkBA73ELpVhl_SkVJSjKXa9U,727
+compmec/shape/curve.py,sha256=L-_3YLGBnBbhIjTqnTd2UHjwkwdaj7GlFqXJYqpALVU,24418
+compmec/shape/jordancurve.py,sha256=mVFGIIjvnecSdeIwiCtBynbIM-R5OCJ2j5gcPeL6HwI,27609
+compmec/shape/plot.py,sha256=uE15iYeXt0Va7c6TqeScoheCy6HzNbyhpYsZALjJTmQ,4676
+compmec/shape/polygon.py,sha256=b_KRWvwrb9PFH3GnjQpZXy8Rl8IeXMx8PiOUzyyzCmA,7855
+compmec/shape/primitive.py,sha256=NTKzv4Z9oH6QiiTJqQr1HolJmjWCNzyKICae2Jqa6s0,7478
+compmec/shape/shape.py,sha256=m_BiHME7EoxEc_7Rcv8eDAIAfXqBqyQT9qwKeaDP8co,37475
+compmec_shape-1.0.2.dist-info/LICENSE.md,sha256=eMgFzm8Pvz5bst1zicPqAuM2J4L-bUnzUFsn1mQpapU,1079
+compmec_shape-1.0.2.dist-info/METADATA,sha256=F-1xZPBIXYRf_zuJKBBBoO35phlZf9x2Rdtyjb-GRHk,2613
+compmec_shape-1.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+compmec_shape-1.0.2.dist-info/RECORD,,
