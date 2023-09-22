@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fake-fingerprint
+Version: 0.3
+Summary: Receive good Fingerprints fast
+Author: Yokozuna
+Requires-Dist: aiohttp
+Requires-Dist: colorama
+
