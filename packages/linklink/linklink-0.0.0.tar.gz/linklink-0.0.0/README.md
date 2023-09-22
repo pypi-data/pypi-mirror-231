@@ -1,0 +1,140 @@
+The explanations in English, Simplified Chinese, and Spanish are provided below.
+下面提供了英语、简体中文和西班牙语的说明。
+Las explicaciones en inglés, chino simplificado y español se proporcionan a continuación.
+
+## linklinkライブラリについて
+
+### 概要
+`linklink`ライブラリは、ややこしい相対URLの結合を簡単に行うためのPythonツールです。このツールの名前の「linklink」は、URL（link）をつなげる（linkする）ことを意味します。
+
+### 特徴
+- 複雑な相対URLの結合を一括でやってくれます。
+- URLの結合において、例えば次のような場合を処理します:
+    - "a.com/b"というページで"c"にアクセスすると"a.com/b/c"に飛ぶが、"/c"にアクセスすると"a.com/c"に飛ぶ。
+
+### 使い方
+```python
+import linklink
+
+result = linklink.link(
+    target_url="/hoge3",
+    page_url="https://example.com/hoge"
+)
+print(result)   # -> https://example.com/hoge3
+
+# 他の結合パターン
+print(linklink.link("http://example2.com/hoge", "https://example.com/hoge"))    # -> http://example2.com/hoge
+```
+
+### 注意点
+`page_url`のフォーマットの正確さを確認してください。不正確なフォーマットは例外を引き起こす可能性があります。
+
+### 例
+```python
+# 間違ったpage_urlフォーマットによる例外の例
+print(linklink.link("//hoge3.com/fuga", "wrong://example.com/hoge"))    # -> Exception: [linklink error] invalid page_url format.
+```
+---
+
+## Introduction to linklink Library
+
+### Overview
+The `linklink` library is a Python tool designed to streamline the concatenation of tricky relative URLs. This tool helps manage the nuanced rules around combining URLs, making it easier to navigate complex web structures. The name "linklink" refers to the action of connecting or linking URLs.
+
+### Features
+- It automatically combines intricate relative URLs.
+- When dealing with URL combination, it handles the following example case:
+    - On page "a.com/b", accessing "c" leads to "a.com/b/c", while accessing "/c" leads to "a.com/c".
+
+### How to Use
+```python
+import linklink
+
+result = linklink.link(
+    target_url="/page3",
+    page_url="https://example.com/page"
+)
+print(result)   # -> https://example.com/page3
+
+# Other combination patterns
+print(linklink.link("http://example2.com/page", "https://example.com/page"))    # -> http://example2.com/page
+```
+
+### Caution
+Please ensure the correctness of the `page_url` format. Incorrect formats may cause exceptions. 
+
+### Example
+```python
+# Example of wrong page_url format causing an exception
+print(linklink.link("//page3.com/section", "wrong://example.com/page")) # -> Exception: [linklink error] invalid page_url format.
+```
+
+---
+
+## linklink库介绍
+
+### 概述
+`linklink`库是一个Python工具，旨在简化相对URL的复杂连接。"linklink"这个名字表达的是连接或链接URL的动作。
+
+### 特点
+- 它可以自动合并复杂的相对URL。
+- 在处理URL连接时，它可以处理如下的例子：
+    - 在"a.com/b"这个页面上，访问"c"会导向"a.com/b/c"，而访问"/c"会导向"a.com/c"。
+
+### 如何使用
+```python
+import linklink
+
+result = linklink.link(
+    target_url="/yezi3",
+    page_url="https://example.com/yezi"
+)
+print(result)   # -> https://example.com/yezi3
+
+# 其他组合模式
+print(linklink.link("http://example2.com/yezi", "https://example.com/yezi"))    # -> http://example2.com/yezi
+```
+
+### 注意
+请确保`page_url`格式的正确性。不正确的格式可能会引发异常。
+
+### 例子
+```python
+# 错误的page_url格式引发异常的例子
+print(linklink.link("//yezi3.com/jie", "wrong://example.com/yezi")) # -> Exception: [linklink error] invalid page_url format.
+```
+
+---
+
+## Introducción a la Biblioteca linklink
+
+### Descripción General
+La biblioteca `linklink` es una herramienta de Python diseñada para simplificar la concatenación de URLs relativas complicadas. El nombre "linklink" se refiere a la acción de conectar o enlazar URLs.
+
+### Características
+- Combina automáticamente URLs relativas complicadas.
+- En la combinación de URLs, maneja el siguiente caso de ejemplo:
+    - En la página "a.com/b", acceder a "c" lleva a "a.com/b/c", mientras que acceder a "/c" lleva a "a.com/c".
+
+### Cómo Usar
+```python
+import linklink
+
+result = linklink.link(
+    target_url="/pagina3",
+    page_url="https://example.com/pagina"
+)
+print(result)   # -> https://example.com/pagina3
+
+# Otros patrones de combinación
+print(linklink.link("http://example2.com/pagina", "https://example.com/pagina"))    # -> http://example2.com/pagina
+```
+
+### Precaución
+Asegúrese de que el formato de `page_url` sea correcto. Los formatos incorrectos pueden provocar excepciones.
+
+### Ejemplo
+```python
+# Ejemplo de formato de page_url incorrecto causando una excepción
+print(linklink.link("//pagina3.com/seccion", "wrong://example.com/pagina")) # -> Exception: [linklink error] invalid page_url format.
+```
