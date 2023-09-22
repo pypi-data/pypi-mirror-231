@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tap-zoom
+Version: 2.0.0
+Summary: Singer.io tap for extracting data from the Zoom API
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
