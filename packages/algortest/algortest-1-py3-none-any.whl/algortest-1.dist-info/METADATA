@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: algortest
+Version: 1
+Summary: testing test files.
+Author: Alex Gorji
+Author-email: aligorji@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: quicktions
+
