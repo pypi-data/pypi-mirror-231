@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wrilytextaligner/README.MD
+wrilytextaligner/__init__.py
+wrilytextaligner/requirements.txt
+wrilytextaligner/thirdparty.json
+wrilytextaligner.egg-info/PKG-INFO
+wrilytextaligner.egg-info/SOURCES.txt
+wrilytextaligner.egg-info/dependency_links.txt
+wrilytextaligner.egg-info/requires.txt
+wrilytextaligner.egg-info/top_level.txt

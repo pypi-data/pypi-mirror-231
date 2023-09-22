@@ -1,0 +1,3 @@
+include wrilytextaligner/requirements.txt
+include wrilytextaligner/thirdparty.json
+include wrilytextaligner/README.MD
