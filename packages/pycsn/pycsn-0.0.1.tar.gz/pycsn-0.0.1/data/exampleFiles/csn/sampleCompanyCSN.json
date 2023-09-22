@@ -1,0 +1,1815 @@
+{
+	"version": {
+		"creator": "CDS Compiler v1.0.31",
+		"csn": "0.1.0"
+	},
+	"definitions": {
+		"DomainA": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_A_NAME}"
+		},
+		"DomainB": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_B_NAME}"
+		},
+		"DomainC": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_C_NAME}"
+		},
+		"DomainD": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_D_NAME}"
+		},
+		"DomainE": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_E_NAME}"
+		},
+		"DomainF": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_F_NAME}"
+		},
+		"DomainG": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_G_NAME}"
+		},
+		"DomainH": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_H_NAME}"
+		},
+		"DomainI": {
+			"kind": "context",
+			"@Common.Label": "{i18n>DOM_I_NAME}"
+		},
+		"DomainA.SIMPLE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>SIMPLE_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>SIMPLE_OBJ_FIELD_ID}",
+					"type": "cds.Integer",
+					"@Consumption.derivation#Starting_with_1.lookupEntity": "Starting_with_1",
+					"@Consumption.derivation#Starting_with_1.resultElement": "SIMPLE_OBJECT_ID",
+					"@Consumption.derivation#EvenOrOdd.lookupEntity": "EvenOrOdd",
+					"@Consumption.derivation#EvenOrOdd.resultElement": "SIMPLE_OBJECT_ID",
+					"@Consumption.derivation#CUSTOM_VIEW.lookupEntity": "CUSTOM_VIEW",
+					"@Consumption.derivation#CUSTOM_VIEW.resultElement": "SIMPLE_OBJECT_ID"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"relId1": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_EFF_DATED_OBJ}",
+					"target": "DomainA.EFFECTIVE_DATED_OBJECT",
+					"on": [{
+							"ref": ["relId1", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId2": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_DIFF_DATA_TYPES_OBJ}",
+					"target": "DomainA.DATA_TYPE_OBJECT",
+					"on": [{
+							"ref": ["relId2", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId3": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_MASS_DATA_OBJ}",
+					"target": "DomainE.MASS_DATA_OBJECT",
+					"on": [{
+							"ref": ["relId3", "REF_TO_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId4": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1}",
+					"target": "DomainA.JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId4", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainA.EFFECTIVE_DATED_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>EFF_DATED_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"EFFECTIVE_DATED_OBJECT_ID": {
+					"@Common.Label": "{i18n>EFF_DATED_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"START_DATE": {
+					"@Common.Label": "{i18n>START_DATE}",
+					"type": "cds.Date"
+				},
+				"END_DATE": {
+					"@Common.Label": "{i18n>END_DATE}",
+					"type": "cds.Date"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainA.DATA_TYPE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>DIFF_DATA_TYPES_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"DATA_TYPE_OBJECT_ID": {
+					"@Common.Label": "{i18n>DIFF_DATA_TYPES_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"VARCHAR_FIELD": {
+					"@Common.Label": "{i18n>STRING_FIELD}",
+					"type": "cds.String"
+				},
+				"DATE_FIELD": {
+					"@Common.Label": "{i18n>DATE_FIELD}",
+					"type": "cds.Date"
+				},
+				"BOOLEAN_FIELD": {
+					"@Common.Label": "{i18n>BOOLEAN_FIELD}",
+					"type": "cds.Boolean"
+				},
+				"INTEGER_FIELD": {
+					"@Common.Label": "{i18n>INT_FIELD}",
+					"type": "cds.Integer"
+				},
+				"DECIMAL_FIELD_12_2": {
+					"@Common.Label": "{i18n>DECIMAL_FIELD}",
+					"type": "cds.Integer"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainE.MASS_DATA_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>MASS_DATA_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainE",
+			"elements": {
+				"MASS_DATA_OBJECT_ID": {
+					"@Common.Label": "{i18n>MASS_DATA_OBJ_FIELD_ID}",
+					"type": "cds.Integer64"
+				},
+				"START_DATE": {
+					"@Common.Label": "{i18n>START_DATE}",
+					"type": "cds.Date"
+				},
+				"END_DATE": {
+					"@Common.Label": "{i18n>END_DATE}",
+					"type": "cds.Date"
+				},
+				"STRING_FIELD_20_1": {
+					"@Common.Label": "{i18n>SMALL_STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_20_2": {
+					"@Common.Label": "{i18n>SMALL_STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_20_3": {
+					"@Common.Label": "{i18n>SMALL_STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_300_1": {
+					"@Common.Label": "{i18n>MIDDLE_STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_300_2": {
+					"@Common.Label": "{i18n>MIDDLE_STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_300_3": {
+					"@Common.Label": "{i18n>MIDDLE_STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2000_1": {
+					"@Common.Label": "{i18n>LARGE_STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2000_2": {
+					"@Common.Label": "{i18n>LARGE_STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2000_3": {
+					"@Common.Label": "{i18n>LARGE_STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"HASH_FIELD_1": {
+					"@Common.Label": "{i18n>HASH_FIELD_1}",
+					"type": "cds.Binary"
+				},
+				"HASH_FIELD_2": {
+					"@Common.Label": "{i18n>HASH_FIELD_2}",
+					"type": "cds.Binary"
+				},
+				"TIMESTAMP_FIELD_1": {
+					"@Common.Label": "{i18n>TIMESTAMP_FIELD_1}",
+					"type": "cds.DateTime"
+				},
+				"TIMESTAMP_FIELD_2": {
+					"@Common.Label": "{i18n>TIMESTAMP_FIELD_2}",
+					"type": "cds.DateTime"
+				},
+				"TIMESTAMP_FIELD_3": {
+					"@Common.Label": "{i18n>TIMESTAMP_FIELD_3}",
+					"type": "cds.DateTime"
+				},
+				"DECIMAL_FIELD_38_0": {
+					"@Common.Label": "{i18n>DECIMAL_FIELD_38_0}",
+					"type": "cds.Integer"
+				},
+				"DECIMAL_FIELD_12_2": {
+					"@Common.Label": "{i18n>DECIMAL_FIELD_12_2}",
+					"type": "cds.Integer"
+				},
+				"DECIMAL_FIELD_23_5": {
+					"@Common.Label": "{i18n>DECIMAL_FIELD_23_5}",
+					"type": "cds.Integer"
+				},
+				"BOOLEAN_FIELD": {
+					"@Common.Label": "{i18n>BOOLEAN_FIELD}",
+					"type": "cds.Boolean"
+				},
+				"INTEGER_FIELD": {
+					"@Common.Label": "{i18n>INT_FIELD}",
+					"type": "cds.Integer"
+				},
+				"REF_TO_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainA.JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				},
+				"relId5": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_OVER_2_JOIN_COND}",
+					"target": "DomainA.JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId5", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}, {
+							"ref": ["relId5", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["REF_TO_SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId9": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_OVER_1_JOIN_COND}",
+					"target": "DomainA.JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId9", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId10": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_5_DIRECT}",
+					"target": "DomainA.JOIN_OBJECT_5",
+					"on": [{
+							"ref": ["relId10", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "INNER"
+					}
+				}
+			}
+		},
+		"DomainA.JOIN_OBJECT_2": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_2_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_2_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				},
+				"relId6": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_3}",
+					"target": "DomainA.JOIN_OBJECT_3",
+					"on": [{
+							"ref": ["relId6", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainA.JOIN_OBJECT_3": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_3_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_3_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_2}",
+					"type": "cds.Integer"
+				},
+				"relId7": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_4}",
+					"target": "DomainA.JOIN_OBJECT_4",
+					"on": [{
+							"ref": ["relId7", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainA.JOIN_OBJECT_4": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_4_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_4_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_3}",
+					"type": "cds.Integer"
+				},
+				"relId8": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_5_OVER_SEVERAL_HOPS}",
+					"target": "DomainA.JOIN_OBJECT_5",
+					"on": [{
+							"ref": ["relId8", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainA.JOIN_OBJECT_5": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_5_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainA",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_5_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_4}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainB.SIMPLE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>SIMPLE_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>SIMPLE_OBJ_FIELD_ID}",
+					"type": "cds.Integer",
+					"@Consumption.derivation#Starting_with_1.lookupEntity": "Starting_with_1",
+					"@Consumption.derivation#Starting_with_1.resultElement": "SIMPLE_OBJECT_ID",
+					"@Consumption.derivation#EvenOrOdd.lookupEntity": "EvenOrOdd",
+					"@Consumption.derivation#EvenOrOdd.resultElement": "SIMPLE_OBJECT_ID",
+					"@Consumption.derivation#CUSTOM_VIEW.lookupEntity": "CUSTOM_VIEW",
+					"@Consumption.derivation#CUSTOM_VIEW.resultElement": "SIMPLE_OBJECT_ID"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				}
+			}
+		},
+		"DomainB.OBJECT_WITH_HIDDEN_FIELD": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>OBJ_WITH_HIDDEN_FIELD_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"OBJECT_WITH_HIDDEN_FIELD_ID": {
+					"@Common.Label": "{i18n>OBJ_WITH_HIDDEN_FIELD_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"FIELD_1": {
+					"@Common.Label": "{i18n>FIRST_FIELD}",
+					"type": "cds.String"
+				},
+				"FIELD_2": {
+					"@Common.Label": "{i18n>SECOND_FIELD}",
+					"type": "cds.String"
+				},
+				"HIDDEN_FIELD": {
+					"@Common.Label": "{i18n>HIDDEN_FIELD}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainB.OBJECT_WITH_PERMITTED_FIELD": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>OBJ_WITH_PERMITTED_FIELD_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"OBJECT_WITH_PERMITTED_FIELD_ID": {
+					"@Common.Label": "{i18n>OBJ_WITH_PERMITTED_FIELD_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"FIELD_1": {
+					"@Common.Label": "{i18n>FIRST_FIELD_NON_PERMITTED}",
+					"type": "cds.String"
+				},
+				"FIELD_2": {
+					"@Common.Label": "{i18n>SECOND_FIELD_NON_PERMITTED}",
+					"type": "cds.String"
+				},
+				"PERMITTED_FIELD": {
+					"@Common.Label": "{i18n>PERMITTED_FIELD}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainB.JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				},
+				"relId1": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_HIDDEN_OBJECT}",
+					"target": "DomainB.HIDDEN_OBJECT",
+					"on": [{
+							"ref": ["relId1", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}, {
+							"ref": ["relId1", "HIDDEN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["REF_TO_SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId3": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_PERMITTED_OBJECT}",
+					"target": "DomainB.PERMITTED_OBJECT",
+					"on": [{
+							"ref": ["relId3", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainB.HIDDEN_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>HIDDEN_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"HIDDEN_OBJECT_ID": {
+					"@Common.Label": "{i18n>HIDDEN_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"HIDDEN_OBJECT_FIELD_1": {
+					"@Common.Label": "{i18n>FIRST_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"HIDDEN_OBJECT_FIELD_2": {
+					"@Common.Label": "{i18n>SECOND_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"HIDDEN_OBJECT_FIELD_3": {
+					"@Common.Label": "{i18n>THIRD_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				},
+				"relId2": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_OVER_HIDDEN_OBJ}",
+					"target": "DomainB.JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId2", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["HIDDEN_OBJECT_ID"]
+						}, {
+							"ref": ["relId2", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["REF_TO_SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "INNER"
+					}
+				}
+			}
+		},
+		"DomainB.PERMITTED_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>NON_PERMITTED_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"PERMITTED_OBJECT_ID": {
+					"@Common.Label": "{i18n>NON_PERMITTED_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"PERMITTED_OBJECT_FIELD_1": {
+					"@Common.Label": "{i18n>FIRST_FIELD_OF_NON_PERMITTED_OBJ}",
+					"type": "cds.String"
+				},
+				"PERMITTED_OBJECT_FIELD_2": {
+					"@Common.Label": "{i18n>SECOND_FIELD_OF_NON_PERMITTED_OBJ}",
+					"type": "cds.String"
+				},
+				"PERMITTED_OBJECT_FIELD_3": {
+					"@Common.Label": "{i18n>THIRD_FIELD_OF_NON_PERMITTED_OBJ}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				},
+				"relId4": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_OVER_NON_PERMITTED_OBJ}",
+					"target": "DomainB.JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId4", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["PERMITTED_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "INNER"
+					}
+				}
+			}
+		},
+		"DomainB.JOIN_OBJECT_2": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_2_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainB",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_2_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_HIDDEN_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainC.LABEL_COLUMN_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>OBJ_WITH_LABEL_COLUMN_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainC",
+			"elements": {
+				"LABEL_COLUMN_ID": {
+					"@Common.Label": "{i18n>OBJ_WITH_LABEL_COLUMN_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"FIELD_1": {
+					"@Common.Label": "{i18n>FIELD_1}",
+					"type": "cds.String"
+				},
+				"FIELD_2": {
+					"@Common.Label": "{i18n>FIELD_2}",
+					"type": "cds.String"
+				},
+				"LABEL_COLUMN": {
+					"@Common.Label": "{i18n>LABEL_COLUMN}",
+					"type": "cds.String"
+				}
+			}
+		},
+		"DomainD.SIMPLE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>SIMPLE_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainD",
+			"elements": {
+				"SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>SIMPLE_OBJ_FIELD_ID}",
+					"type": "cds.Integer",
+					"@Consumption.derivation#MyFavorites_TF.lookupEntity": "MyFavorites_TF",
+					"@Consumption.derivation#MyFavorites_TF.resultElement": "SIMPLE_OBJECT_ID",
+					"@Consumption.derivation#CUSTOM_VIEW_TF.lookupEntity": "CUSTOM_VIEW_TF",
+					"@Consumption.derivation#CUSTOM_VIEW_TF.resultElement": "SIMPLE_OBJECT_ID"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"relId1": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_DIRECT}",
+					"target": "DomainD.SIMPLE_OBJECT",
+					"on": [{
+							"ref": ["relId1", "SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId2": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_1_HOP}",
+					"target": "DomainD.JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId2", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId4": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_2_HOPS}",
+					"target": "DomainD.JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId4", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId7": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_3_HOPS_AND_HIDDEN_OBJ}",
+					"target": "DomainD.JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId7", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainD.JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainD",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ_IN_DOM_D}",
+					"type": "cds.Integer"
+				},
+				"relId3": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_1_HOP}",
+					"target": "DomainD.SIMPLE_OBJECT",
+					"on": [{
+							"ref": ["relId3", "SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["REF_TO_SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId5": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_2_HOPS}",
+					"target": "DomainD.JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId5", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId8": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_3_HOPS_AND_HIDDEN_OBJ}",
+					"target": "DomainD.JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId8", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainD.JOIN_OBJECT_2": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_2_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainD",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_2_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ_IN_DOM_D}",
+					"type": "cds.Integer"
+				},
+				"relId6": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_2_HOPS}",
+					"target": "DomainD.SIMPLE_OBJECT",
+					"on": [{
+							"ref": ["relId6", "SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["REF_TO_SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId9": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_3_HOPS_AND_HIDDEN_OBJ}",
+					"target": "DomainD.HIDDEN_OBJECT",
+					"on": [{
+							"ref": ["relId9", "HIDDEN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["JOIN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainD.HIDDEN_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>HIDDEN_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainD",
+			"elements": {
+				"HIDDEN_OBJECT_ID": {
+					"@Common.Label": "{i18n>HIDDEN_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"HIDDEN_OBJECT_FIELD_1": {
+					"@Common.Label": "{i18n>FIRST_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"HIDDEN_OBJECT_FIELD_2": {
+					"@Common.Label": "{i18n>SECOND_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"HIDDEN_OBJECT_FIELD_3": {
+					"@Common.Label": "{i18n>THIRD_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				},
+				"relId10": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_3_HOPS_AND_HIDDEN_OBJ}",
+					"target": "DomainD.JOIN_OBJECT_3",
+					"on": [{
+							"ref": ["relId10", "REF_TO_SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["HIDDEN_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainD.JOIN_OBJECT_3": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_3_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainD",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_3_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ_IN_DOM_D}",
+					"type": "cds.Integer"
+				},
+				"relId11": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_RECURSIVE_TO_SIMPLE_OBJ_VIA_3_HOPS_AND_HIDDEN_OBJ}",
+					"target": "DomainD.SIMPLE_OBJECT",
+					"on": [{
+							"ref": ["relId11", "SIMPLE_OBJECT_ID"]
+						}, "=", {
+							"ref": ["REF_TO_SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainE.PHOTO": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>PHOTO}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainE",
+			"elements": {
+				"PHOTO": {
+					"@Common.Label": "{i18n>PHOTO}",
+					"type": "cds.LargeBinary"
+				},
+				"HEIGHT": {
+					"@Common.Label": "{i18n>HEIGHT}",
+					"type": "cds.Integer"
+				},
+				"ID": {
+					"@Common.Label": "{i18n>ID}",
+					"type": "cds.Integer"
+				},
+				"IS_DEFAULT": {
+					"@Common.Label": "{i18n>IS_DEFAULT}",
+					"type": "cds.String"
+				},
+				"LASTMODIFIED": {
+					"@Common.Label": "{i18n>LAST_MODIFIED}",
+					"type": "cds.Date"
+				},
+				"MIMETYPE": {
+					"@Common.Label": "{i18n>MIME_TYPE}",
+					"type": "cds.String"
+				},
+				"PHOTO_NAME": {
+					"@Common.Label": "{i18n>PHOTO_NAME}",
+					"type": "cds.String"
+				},
+				"PHOTOTYPE": {
+					"@Common.Label": "{i18n>PHOTO_TYPE}",
+					"type": "cds.Integer"
+				},
+				"STATUS": {
+					"@Common.Label": "{i18n>STATUS}",
+					"type": "cds.String"
+				},
+				"USERS_SYS_ID": {
+					"@Common.Label": "{i18n>USER_SYS_ID}",
+					"type": "cds.String"
+				},
+				"WIDTH": {
+					"@Common.Label": "{i18n>WIDTH}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainF.HIDDEN_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>HIDDEN_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainF",
+			"elements": {
+				"HIDDEN_OBJECT_ID": {
+					"@Common.Label": "{i18n>HIDDEN_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"HIDDEN_OBJECT_FIELD_1": {
+					"@Common.Label": "{i18n>FIRST_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"HIDDEN_OBJECT_FIELD_2": {
+					"@Common.Label": "{i18n>SECOND_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"HIDDEN_OBJECT_FIELD_3": {
+					"@Common.Label": "{i18n>THIRD_FIELD_OF_HIDDEN_OBJ}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.SIMPLE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>SIMPLE_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>SIMPLE_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"relId1": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1_IN_GROUP_1}",
+					"target": "DomainH.1#JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId1", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId2": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_IN_GROUP_1}",
+					"target": "DomainH.1#JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId2", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId3": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1_IN_GROUP_2}",
+					"target": "DomainH.2#JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId3", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId4": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_IN_GROUP_2}",
+					"target": "DomainH.2#JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId4", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId5": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1_IN_GROUP_3}",
+					"target": "DomainH.3#JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId5", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId6": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_IN_GROUP_3}",
+					"target": "DomainH.3#JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId6", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainH.1#JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.1#JOIN_OBJECT_2": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_2_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_2_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.2#JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.2#JOIN_OBJECT_2": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_2_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_2_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.3#JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.3#JOIN_OBJECT_2": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_2_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_2_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_JOIN_OBJ_1}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"DomainH.1#SIMPLE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>SIMPLE_OBJECT_WITH_FIXED_FILTER_4_5_6_AND_7}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainH",
+			"elements": {
+				"SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>SIMPLE_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"relId7": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1_IN_GROUP_1}",
+					"target": "DomainH.1#JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId7", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId8": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_IN_GROUP_1}",
+					"target": "DomainH.1#JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId8", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId9": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1_IN_GROUP_2}",
+					"target": "DomainH.2#JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId9", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				},
+				"relId10": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_2_IN_GROUP_2}",
+					"target": "DomainH.2#JOIN_OBJECT_2",
+					"on": [{
+							"ref": ["relId10", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainI.SIMPLE_OBJECT": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>SIMPLE_OBJ_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainI",
+			"elements": {
+				"SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>SIMPLE_OBJ_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"relId1": {
+					"type": "cds.Association",
+					"@Common.Label": "{i18n>REL_TO_JOIN_OBJ_1}",
+					"target": "DomainI.JOIN_OBJECT_1",
+					"on": [{
+							"ref": ["relId1", "JOIN_OBJECT_ID"]
+						}, "=", {
+							"ref": ["SIMPLE_OBJECT_ID"]
+						}
+					],
+					"@AnalyticsDetails.defaultJoinType": {
+						"#": "LEFT_OUTER"
+					}
+				}
+			}
+		},
+		"DomainI.JOIN_OBJECT_1": {
+			"kind": "entity",
+			"@Common.Label": "{i18n>JOIN_OBJ_1_NAME}",
+			"@Analytics.dbViewType": {
+				"#": "CALCULATION_VIEW"
+			},
+			"@Analytics.dbPackageName": "OrcaQBTest/DomainI",
+			"elements": {
+				"JOIN_OBJECT_ID": {
+					"@Common.Label": "{i18n>JOIN_OBJ_1_FIELD_ID}",
+					"type": "cds.Integer"
+				},
+				"STRING_FIELD_1": {
+					"@Common.Label": "{i18n>STR_FIELD_1}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_2": {
+					"@Common.Label": "{i18n>STR_FIELD_2}",
+					"type": "cds.String"
+				},
+				"STRING_FIELD_3": {
+					"@Common.Label": "{i18n>STR_FIELD_3}",
+					"type": "cds.String"
+				},
+				"REF_TO_SIMPLE_OBJECT_ID": {
+					"@Common.Label": "{i18n>REF_TO_SIMPLE_OBJ}",
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"Starting_with_1": {
+			"kind": "entity",
+			"@Analytics.hidden": true,
+			"@Common.Label": "{i18n>SC_FI_OPT_STARTING_WITH_1}",
+			"@Analytics.dbViewType": {
+				"#": "SQL_VIEW"
+			},
+			"elements": {
+				"INPUTSTRING": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_SIMPLE_OBJ_SELECTION}",
+					"type": "cds.String",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"length": 255
+				},
+				"Even": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_IS_EVEN_OR_ODD}",
+					"type": "cds.Boolean",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"@Consumption.filter.defaultValue": false
+				},
+				"SIMPLE_OBJECT_ID": {
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"EvenOrOdd": {
+			"kind": "entity",
+			"@Analytics.hidden": true,
+			"@Common.Label": "{i18n>SC_FI_OPT_EVEN_OR_ODD_IDS}",
+			"@Analytics.dbViewType": {
+				"#": "SQL_VIEW"
+			},
+			"elements": {
+				"Even": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_IS_EVEN_OR_ODD}",
+					"type": "cds.Boolean",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"@Consumption.filter.defaultValue": false
+				},
+				"SIMPLE_OBJECT_ID": {
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"CUSTOM_VIEW": {
+			"kind": "entity",
+			"@Analytics.hidden": true,
+			"@Common.Label": "{i18n>SC_FI_OPT_CUSTOM}",
+			"@Analytics.dbViewType": {
+				"#": "SQL_VIEW"
+			},
+			"elements": {
+				"ID_RADIO_SELECTION": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_UP_TO_ID}",
+					"type": "cds.String",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"length": 255
+				},
+				"Even": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_IS_EVEN_OR_ODD}",
+					"type": "cds.Boolean",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"@Consumption.filter.defaultValue": false
+				},
+				"Prime": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_IS_PRIME}",
+					"type": "cds.Boolean",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"@Consumption.filter.defaultValue": false
+				},
+				"SIMPLE_OBJECT_ID": {
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"MyFavorites_TF": {
+			"kind": "entity",
+			"@Analytics.hidden": true,
+			"@Common.Label": "{i18n>SC_FI_OPT_MY_FAVORITE_OBJECTS}",
+			"@Analytics.dbViewType": {
+				"#": "TABLE_FUNCTION"
+			},
+			"elements": {
+				"PUI_INPUT_STRING": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_SIMPLE_OBJ_SELECTION}",
+					"type": "cds.String",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"length": 255
+				},
+				"PUI_EVEN": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_ONLY_EVEN}",
+					"type": "cds.Boolean",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"@Consumption.filter.defaultValue": false
+				},
+				"SIMPLE_OBJECT_ID": {
+					"type": "cds.Integer"
+				}
+			}
+		},
+		"CUSTOM_VIEW_TF": {
+			"kind": "entity",
+			"@Analytics.hidden": true,
+			"@Common.Label": "{i18n>SC_FI_OPT_CUSTOM}",
+			"@Analytics.dbViewType": {
+				"#": "TABLE_FUNCTION"
+			},
+			"elements": {
+				"PUI_INPUT_STRING": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_SIMPLE_OBJ_SELECTION}",
+					"type": "cds.String",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"length": 255
+				},
+				"PUI_EVEN": {
+					"@Common.Label": "{i18n>SC_FI_PARAM_ONLY_EVEN}",
+					"type": "cds.Boolean",
+					"@Consumption.filter.multipleSelections": false,
+					"@Consumption.filter.mandatory": true,
+					"@Consumption.filter.defaultValue": false
+				},
+				"SIMPLE_OBJECT_ID": {
+					"type": "cds.Integer"
+				}
+			}
+		}
+	}
+}

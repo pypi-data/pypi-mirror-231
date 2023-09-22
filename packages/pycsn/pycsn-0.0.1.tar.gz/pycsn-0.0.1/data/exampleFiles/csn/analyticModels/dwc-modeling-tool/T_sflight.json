@@ -1,0 +1,64 @@
+{
+  "definitions": {
+    "sflight": {
+      "kind": "entity",
+      "elements": {
+        "carrid": {
+          "type": "cds.String",
+          "@Common.Label": "desc for paymentsum",
+          "length": 3
+        },
+        "connid": {
+          "type": "cds.String",
+          "@Common.Label": "desc for connid",
+          "length": 4
+        },
+        "fldate": {
+          "type": "cds.String",
+          "@Common.Label": "desc for fldate",
+          "length": 8
+        },
+        "price": {
+          "type": "cds.Decimal",
+          "@Common.Label": "desc for price",
+          "precision": 15,
+          "scale": 2
+        },
+        "currency": {
+          "type": "cds.String",
+          "@Common.Label": "desc for currency",
+          "length": 5
+        },
+        "planetype": {
+          "type": "cds.String",
+          "@Common.Label": "desc for planetype",
+          "length": 10
+        },
+        "seatsmax": {
+          "type": "cds.Integer",
+          "@Common.Label": "desc for seatsmax"
+        },
+        "seatsocc": {
+          "type": "cds.Integer",
+          "@Common.Label": "desc for seatsocc"
+        },
+        "paymentsum": {
+          "type": "cds.Decimal",
+          "@Common.Label": "desc for paymentsum",
+          "precision": 17,
+          "scale": 2
+        }
+      },
+      "@Common.Label": "Business Name for sflight",
+      "@DataWarehouse.businessDefinition.description": "Table Desc for sflight"
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "Table Editor",
+    "kind": "sap.dwc.entity"
+  },
+  "$version": "0.2"
+}

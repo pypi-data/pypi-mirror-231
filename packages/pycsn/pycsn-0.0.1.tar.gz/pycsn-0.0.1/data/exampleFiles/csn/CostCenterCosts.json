@@ -1,0 +1,2118 @@
+{
+  "definitions": {
+    "masterdata": {
+      "kind": "context",
+      "@Common.Label": "Master Data"
+    },
+    "masterdata.tables": {
+      "kind": "context",
+      "@Analytics.hidden": true,
+      "@Common.label": "Tables"
+    },
+    "masterdata.tables.dd07l": {
+      "kind": "entity",
+      "elements": {
+        "domname": {
+          "key": true,
+          "length": 30,
+          "type": "cds.String"
+        },
+        "as4local": {
+          "key": true,
+          "length": 1,
+          "type": "cds.String"
+        },
+        "valpos": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "as4vers": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "domvalue_l": {
+          "length": 10,
+          "type": "cds.String"
+        },
+        "domvalue_h": {
+          "length": 10,
+          "type": "cds.String"
+        },
+        "appval": {
+          "length": 1,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.tables.dd07t": {
+      "kind": "entity",
+      "elements": {
+        "domname": {
+          "key": true,
+          "length": 30,
+          "type": "cds.String"
+        },
+        "ddlanguage": {
+          "key": true,
+          "length": 30,
+          "type": "cds.String"
+        },
+        "as4local": {
+          "key": true,
+          "length": 1,
+          "type": "cds.String"
+        },
+        "valpos": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "as4vers": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "ddtext": {
+          "length": 60,
+          "type": "cds.String"
+        },
+        "domvalue_ld": {
+          "length": 10,
+          "type": "cds.String"
+        },
+        "domvalue_hd": {
+          "length": 10,
+          "type": "cds.String"
+        },
+        "domvalue_l": {
+          "length": 10,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.tables.zcskb": {
+      "kind": "entity",
+      "elements": {
+        "controllingarea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "costelement": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "costelementcategory": {
+          "length": 2,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.tables.zcsks": {
+      "kind": "entity",
+      "elements": {
+        "controllingarea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "costcenter": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "validityenddate": {
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "validitystartdate": {
+          "length": 8,
+          "type": "cds.String"
+        },
+        "costctrresponsiblepersonname": {
+          "length": 20,
+          "type": "cds.String"
+        },
+        "costctrresponsibleuser": {
+          "length": 12,
+          "type": "cds.String"
+        },
+        "costcentercategory": {
+          "length": 1,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.tables.zcskt": {
+      "kind": "entity",
+      "elements": {
+        "language": {
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "controllingarea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "costcenter": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "validityenddate": {
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "validitystartdate": {
+          "length": 8,
+          "type": "cds.String"
+        },
+        "costcentername": {
+          "length": 20,
+          "type": "cds.String"
+        },
+        "costcenterdescription": {
+          "length": 40,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.tables.zcsku": {
+      "kind": "entity",
+      "elements": {
+        "language": {
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "controllingarea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "costelement": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "costelementname": {
+          "length": 20,
+          "type": "cds.String"
+        },
+        "costelementdescription": {
+          "length": 40,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.tables.ztka01": {
+      "kind": "entity",
+      "elements": {
+        "controllingarea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "fiscalyearvariant": {
+          "length": 2,
+          "type": "cds.String"
+        },
+        "controllingareaname": {
+          "length": 25,
+          "type": "cds.String"
+        },
+        "controllingareacurrency": {
+          "length": 5,
+          "type": "cds.String"
+        },
+        "chartofaccounts": {
+          "length": 4,
+          "type": "cds.String"
+        },
+        "costcenterstandardhierarchy": {
+          "length": 40,
+          "type": "cds.String"
+        },
+        "controllingareacurrencyrole": {
+          "length": 2,
+          "type": "cds.String"
+        }
+      }
+    },
+    "masterdata.zI_ControllingArea": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Controlling Area",
+      "elements": {
+        "ControllingArea": {
+          "@Common.Label": "Controlling Area",
+          "@Common.Text": {
+            "=": "ControllingAreaName"
+          },
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "ControllingAreaName": {
+          "@Common.Label": "Controlling Area Name",
+          "length": 25,
+          "type": "cds.String"
+        },
+        "FiscalYearVariant": {
+          "@Common.IsFiscalYearVariant": true,
+          "@Common.Label": "Fiscal Year Variant",
+          "length": 2,
+          "type": "cds.String"
+        },
+        "ControllingAreaCurrency": {
+          "@Common.IsCurrencyCode": true,
+          "@Common.Label": "Controlling Area Currency",
+          "length": 5,
+          "type": "cds.String"
+        },
+        "ChartOfAccounts": {
+          "@Common.Label": "Chart of Accounts",
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostCenterStandardHierarchy": {
+          "@Common.Label": "Cost Center Standard Hierarchy",
+          "length": 40,
+          "type": "cds.String"
+        },
+        "ControllingAreaCurrencyRole": {
+          "@Common.Label": "Controlling Area Currency Role",
+          "length": 2,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.ztka01"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "controllingarea"
+              ],
+              "as": "ControllingArea",
+              "key": true
+            },
+            {
+              "ref": [
+                "controllingareaname"
+              ],
+              "as": "ControllingAreaName"
+            },
+            {
+              "ref": [
+                "fiscalyearvariant"
+              ],
+              "as": "FiscalYearVariant"
+            },
+            {
+              "ref": [
+                "controllingareacurrency"
+              ],
+              "as": "ControllingAreaCurrency"
+            },
+            {
+              "ref": [
+                "chartofaccounts"
+              ],
+              "as": "ChartOfAccounts"
+            },
+            {
+              "ref": [
+                "costcenterstandardhierarchy"
+              ],
+              "as": "CostCenterStandardHierarchy"
+            },
+            {
+              "ref": [
+                "controllingareacurrencyrole"
+              ],
+              "as": "ControllingAreaCurrencyRole"
+            }
+          ]
+        }
+      }
+    },
+    "masterdata.zI_CostCenter": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Cost Center",
+      "elements": {
+        "ControllingArea": {
+          "@Common.Label": "Controlling Area",
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostCenter": {
+          "@Aggregation.ContextDefiningProperties": [
+            {
+              "=": "ControllingArea"
+            }
+          ],
+          "@Common.Label": "Cost Center",
+          "@Common.Text": {
+            "=": "_Text.CostCenterName"
+          },
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "ValidityEndDate": {
+          "@Semantics.businessDate.to": true,
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "ValidityStartDate": {
+          "@Semantics.businessDate.from": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "CostCtrResponsiblePersonName": {
+          "@Common.Label": "Person Responsible",
+          "@Semantics.name.fullName": true,
+          "length": 20,
+          "type": "cds.String"
+        },
+        "CostCtrResponsibleUser": {
+          "@Common.Label": "User Responsible",
+          "length": 12,
+          "type": "cds.String"
+        },
+        "CostCenterCategory": {
+          "@Common.Label": "Cost Center Category",
+          "length": 1,
+          "type": "cds.String"
+        },
+        "_ControllingArea": {
+          "cardinality": {
+            "max": 1
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_ControllingArea",
+                "ControllingArea"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_ControllingArea",
+          "type": "cds.Association"
+        },
+        "_Text": {
+          "cardinality": {
+            "max": "*",
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Text",
+                "ControllingArea"
+              ]
+            },
+            "and",
+            {
+              "ref": [
+                "CostCenter"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Text",
+                "CostCenter"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_CostCenterText",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.zcsks"
+            ]
+          },
+          "mixin": {
+            "_ControllingArea": {
+              "cardinality": {
+                "max": 1
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_ControllingArea",
+                    "ControllingArea"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_ControllingArea",
+              "type": "cds.Association"
+            },
+            "_Text": {
+              "cardinality": {
+                "max": "*",
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Text",
+                    "ControllingArea"
+                  ]
+                },
+                "and",
+                {
+                  "ref": [
+                    "$projection",
+                    "CostCenter"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Text",
+                    "CostCenter"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_CostCenterText",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "controllingarea"
+              ],
+              "as": "ControllingArea",
+              "key": true
+            },
+            {
+              "ref": [
+                "costcenter"
+              ],
+              "as": "CostCenter",
+              "key": true
+            },
+            {
+              "ref": [
+                "validityenddate"
+              ],
+              "as": "ValidityEndDate",
+              "key": true
+            },
+            {
+              "ref": [
+                "validitystartdate"
+              ],
+              "as": "ValidityStartDate"
+            },
+            {
+              "ref": [
+                "costctrresponsiblepersonname"
+              ],
+              "as": "CostCtrResponsiblePersonName"
+            },
+            {
+              "ref": [
+                "costctrresponsibleuser"
+              ],
+              "as": "CostCtrResponsibleUser"
+            },
+            {
+              "ref": [
+                "costcentercategory"
+              ],
+              "as": "CostCenterCategory"
+            },
+            {
+              "ref": [
+                "_ControllingArea"
+              ]
+            },
+            {
+              "ref": [
+                "_Text"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "masterdata.zI_CostCenterText": {
+      "kind": "entity",
+      "@Common.Label": "Cost Center Text",
+      "@ObjectModel.dataCategory": {
+        "#": "TEXT"
+      },
+      "elements": {
+        "ControllingArea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostCenter": {
+          "@Aggregation.ContextDefiningProperties": [
+            "ControllingArea"
+          ],
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "Language": {
+          "@Common.IsLanguageIdentifier": true,
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "ValidityEndDate": {
+          "@Semantics.businessDate.to": true,
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "ValidityStartDate": {
+          "@Semantics.businessDate.from": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "CostCenterName": {
+          "@Common.Label": "Cost Center Name",
+          "@Common.TextFor": {
+            "=": "CostCenter"
+          },
+          "length": 20,
+          "type": "cds.String"
+        },
+        "CostCenterDescription": {
+          "@Common.Label": "Cost Center Description",
+          "@Common.TextFor": {
+            "=": "CostCenter"
+          },
+          "length": 40,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.zcskt"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "controllingarea"
+              ],
+              "as": "ControllingArea",
+              "key": true
+            },
+            {
+              "ref": [
+                "costcenter"
+              ],
+              "as": "CostCenter",
+              "key": true
+            },
+            {
+              "ref": [
+                "language"
+              ],
+              "as": "Language",
+              "key": true
+            },
+            {
+              "ref": [
+                "validityenddate"
+              ],
+              "as": "ValidityEndDate",
+              "key": true
+            },
+            {
+              "ref": [
+                "validitystartdate"
+              ],
+              "as": "ValidityStartDate"
+            },
+            {
+              "ref": [
+                "costcentername"
+              ],
+              "as": "CostCenterName"
+            },
+            {
+              "ref": [
+                "costcenterdescription"
+              ],
+              "as": "CostCenterDescription"
+            }
+          ]
+        }
+      }
+    },
+    "masterdata.zI_CostElement": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Cost Element",
+      "elements": {
+        "ControllingArea": {
+          "@Common.Label": "Controlling Area",
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostElement": {
+          "@Aggregation.ContextDefiningProperties": [
+            "ControllingArea"
+          ],
+          "@Common.Label": "Cost Element",
+          "@Common.Text": "_Text.CostElementName",
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "CostElementCategory": {
+          "@Common.Label": "Cost Element Category",
+          "length": 2,
+          "type": "cds.String"
+        },
+        "_ControllingArea": {
+          "cardinality": {
+            "max": 1
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_ControllingArea",
+                "ControllingArea"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_ControllingArea",
+          "type": "cds.Association"
+        },
+        "_Text": {
+          "cardinality": {
+            "max": "*",
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Text",
+                "ControllingArea"
+              ]
+            },
+            "and",
+            {
+              "ref": [
+                "CostElement"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Text",
+                "CostElement"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_CostElementText",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.zcskb"
+            ]
+          },
+          "mixin": {
+            "_ControllingArea": {
+              "cardinality": {
+                "max": 1
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_ControllingArea",
+                    "ControllingArea"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_ControllingArea",
+              "type": "cds.Association"
+            },
+            "_Text": {
+              "cardinality": {
+                "max": "*",
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Text",
+                    "ControllingArea"
+                  ]
+                },
+                "and",
+                {
+                  "ref": [
+                    "$projection",
+                    "CostElement"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Text",
+                    "CostElement"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_CostElementText",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "controllingarea"
+              ],
+              "as": "ControllingArea",
+              "key": true
+            },
+            {
+              "ref": [
+                "costelement"
+              ],
+              "as": "CostElement",
+              "key": true
+            },
+            {
+              "ref": [
+                "costelementcategory"
+              ],
+              "as": "CostElementCategory"
+            },
+            {
+              "ref": [
+                "_ControllingArea"
+              ]
+            },
+            {
+              "ref": [
+                "_Text"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "masterdata.zI_CostElementText": {
+      "kind": "entity",
+      "@Common.Label": "Cost Element Text",
+      "@ObjectModel.dataCategory": {
+        "#": "TEXT"
+      },
+      "elements": {
+        "ControllingArea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostElement": {
+          "@Aggregation.ContextDefiningProperties": [
+            "ControllingArea"
+          ],
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "Language": {
+          "@Common.IsLanguageIdentifier": true,
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "CostElementName": {
+          "@Common.TextFor": {
+            "=": "CostElement"
+          },
+          "length": 20,
+          "type": "cds.String"
+        },
+        "CostElementDescription": {
+          "@Common.TextFor": {
+            "=": "CostElement"
+          },
+          "length": 40,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.zcsku"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "controllingarea"
+              ],
+              "as": "ControllingArea",
+              "key": true
+            },
+            {
+              "ref": [
+                "costelement"
+              ],
+              "as": "CostElement",
+              "key": true
+            },
+            {
+              "ref": [
+                "language"
+              ],
+              "as": "Language",
+              "key": true
+            },
+            {
+              "ref": [
+                "costelementname"
+              ],
+              "as": "CostElementName"
+            },
+            {
+              "ref": [
+                "costelementdescription"
+              ],
+              "as": "CostElementDescription"
+            }
+          ]
+        }
+      }
+    },
+    "masterdata.zI_ValueType": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Value Type",
+      "elements": {
+        "ValueType": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "_Text": {
+          "cardinality": {
+            "max": "*",
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "ValueType"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Text",
+                "ValueType"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_ValueTypeText",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.dd07l"
+            ]
+          },
+          "mixin": {
+            "_Text": {
+              "cardinality": {
+                "max": "*",
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ValueType"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Text",
+                    "ValueType"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_ValueTypeText",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "domvalue_l"
+              ],
+              "as": "ValueType",
+              "key": true
+            },
+            {
+              "ref": [
+                "_Text"
+              ]
+            }
+          ],
+          "where": [
+            {
+              "ref": [
+                "dd07l",
+                "domname"
+              ]
+            },
+            "=",
+            {
+              "val": "ZVALUETYPE"
+            },
+            "and",
+            {
+              "ref": [
+                "dd07l",
+                "as4local"
+              ]
+            },
+            "=",
+            {
+              "val": "A"
+            }
+          ]
+        }
+      }
+    },
+    "masterdata.zI_ValueTypeText": {
+      "kind": "entity",
+      "@Common.Label": "Value Type",
+      "@ObjectModel.dataCategory": {
+        "#": "TEXT"
+      },
+      "elements": {
+        "ValueType": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "Language": {
+          "@Common.IsLanguageIdentifier": true,
+          "length": 30,
+          "type": "cds.String"
+        },
+        "ValueTypeName": {
+          "@Common.TextFor": {
+            "=": "ValueType"
+          },
+          "length": 60,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "masterdata.tables.dd07t"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "domvalue_l"
+              ],
+              "as": "ValueType",
+              "key": true
+            },
+            {
+              "ref": [
+                "ddlanguage"
+              ],
+              "as": "Language"
+            },
+            {
+              "ref": [
+                "ddtext"
+              ],
+              "as": "ValueTypeName"
+            }
+          ],
+          "where": [
+            {
+              "ref": [
+                "dd07t",
+                "domname"
+              ]
+            },
+            "=",
+            {
+              "val": "ZVALUETYPE"
+            },
+            "and",
+            {
+              "ref": [
+                "dd07t",
+                "as4local"
+              ]
+            },
+            "=",
+            {
+              "val": "A"
+            }
+          ]
+        }
+      }
+    },
+    "zC_CostCenterCostsQuery020": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "CUBE"
+      },
+      "@Analytics.hidden": true,
+      "@Common.Label": "IDES US Cost Centers: Actual/Planned Costs",
+      "elements": {
+        "ControllingArea": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "FREE"
+          },
+          "@AnalyticsDetails.query.display": {
+            "#": "KEY"
+          },
+          "@AnalyticsDetails.query.totals": {
+            "#": "HIDE"
+          },
+          "@ObjectModel.foreignKey.association": {
+            "=": "_ControllingArea"
+          },
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostCenter": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@AnalyticsDetails.query.display": {
+            "#": "KEY_TEXT"
+          },
+          "@AnalyticsDetails.query.totals": {
+            "#": "SHOW"
+          },
+          "@ObjectModel.foreignKey.association": {
+            "=": "_CostCenter"
+          },
+          "length": 10,
+          "type": "cds.String"
+        },
+        "CostElement": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@AnalyticsDetails.query.display": {
+            "#": "TEXT"
+          },
+          "@AnalyticsDetails.query.totals": {
+            "#": "SHOW"
+          },
+          "@ObjectModel.foreignKey.association": {
+            "=": "_CostElement"
+          },
+          "length": 10,
+          "type": "cds.String"
+        },
+        "FiscalPeriod": {
+          "@Common.IsFiscalPeriod": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "Currency": {
+          "@Common.IsCurrencyCode": true,
+          "length": 5,
+          "type": "cds.String"
+        },
+        "ActualCosts": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@AnalyticsDetails.query.decimals": 0,
+          "@Common.Label": "Actual Costs",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 23,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "PlanCosts": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@AnalyticsDetails.query.decimals": 0,
+          "@Common.Label": "Planned Costs",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 23,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "Difference": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@AnalyticsDetails.query.decimals": 0,
+          "@AnalyticsDetails.query.formula": "$projection.ActualCosts - $projection.PlanCosts",
+          "@Common.Label": "Difference",
+          "@DefaultAggregation": {
+            "#": "FORMULA"
+          },
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 23,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "DifferencePercent": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@AnalyticsDetails.query.decimals": 1,
+          "@AnalyticsDetails.query.formula": "$projection.Difference / $projection.PlanCosts * 100",
+          "@Common.Label": "Difference (%)",
+          "@DefaultAggregation": {
+            "#": "FORMULA"
+          },
+          "precision": 7,
+          "scale": 3,
+          "type": "cds.Decimal"
+        },
+        "NumberOfCostCenters": {
+          "@AnalyticsDetails.query.hidden": true,
+          "@AnalyticsDetails.exceptionAggregationSteps": [
+            {
+              "exceptionAggregationBehavior": {
+                "#": "SUM"
+              },
+              "exceptionAggregationElements": [
+                "ControllingArea",
+                "CostCenter"
+              ]
+            }
+          ],
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@Common.Label": "#CostCenters",
+          "@DefaultAggregation": {
+            "#": "FORMULA"
+          },
+          "type": "cds.Integer"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "zI_CostCenterCostsCube"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            {
+              "ref": [
+                "CostCenter"
+              ]
+            },
+            {
+              "ref": [
+                "CostElement"
+              ]
+            },
+            {
+              "ref": [
+                "FiscalPeriod"
+              ]
+            },
+            {
+              "ref": [
+                "Currency"
+              ]
+            },
+            {
+              "xpr": [
+                "case",
+                "when",
+                {
+                  "ref": [
+                    "ValueType"
+                  ]
+                },
+                "=",
+                {
+                  "val": "010"
+                },
+                "then",
+                {
+                  "ref": [
+                    "Amount"
+                  ]
+                },
+                "end"
+              ],
+              "as": "ActualCosts",
+              "cast": {
+                "type": "cds.Decimal",
+                "precision": 23,
+                "scale": 2
+              }
+            },
+            {
+              "xpr": [
+                "case",
+                "when",
+                {
+                  "ref": [
+                    "ValueType"
+                  ]
+                },
+                "=",
+                {
+                  "val": "020"
+                },
+                "then",
+                {
+                  "ref": [
+                    "Amount"
+                  ]
+                },
+                "end"
+              ],
+              "as": "PlanCosts",
+              "cast": {
+                "type": "cds.Decimal",
+                "precision": 23,
+                "scale": 2
+              }
+            },
+            {
+              "val": 0,
+              "as": "Difference",
+              "cast": {
+                "type": "cds.Decimal",
+                "precision": 23,
+                "scale": 2
+              }
+            },
+            {
+              "val": 0,
+              "as": "DifferencePercent",
+              "cast": {
+                "type": "cds.Decimal",
+                "precision": 7,
+                "scale": 3
+              }
+            },
+            {
+              "val": 1,
+              "as": "NumberOfCostCenters",
+              "cast": {
+                "type": "cds.Integer"
+              }
+            }
+          ],
+          "where": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "val": "US01"
+            },
+            "and",
+            {
+              "ref": [
+                "CostCenter"
+              ]
+            },
+            "between",
+            {
+              "val": "100-0000"
+            },
+            "and",
+            {
+              "val": "999-9999"
+            },
+            "and",
+            {
+              "ref": [
+                "FiscalYearVariant"
+              ]
+            },
+            "=",
+            {
+              "val": "K4"
+            },
+            "and",
+            {
+              "ref": [
+                "FiscalYear"
+              ]
+            },
+            "=",
+            {
+              "val": "2010"
+            },
+            "and",
+            {
+              "ref": [
+                "CurrencyRole"
+              ]
+            },
+            "=",
+            {
+              "val": "20"
+            },
+            "and",
+            {
+              "ref": [
+                "Version"
+              ]
+            },
+            "=",
+            {
+              "val": "000"
+            }
+          ]
+        }
+      }
+    },
+    "zI_CostCenterCosts": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "FACT"
+      },
+      "@Analytics.hidden": true,
+      "@Common.Label": "Cost Center Costs",
+      "elements": {
+        "ControllingArea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostCenter": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "CostElement": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "ValueType": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "Version": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FiscalYear": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "FiscalPeriod": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "CurrencyRole": {
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "Currency": {
+          "key": true,
+          "length": 5,
+          "type": "cds.String"
+        },
+        "Amount": {
+          "precision": 23,
+          "scale": 2,
+          "type": "cds.Decimal"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "zcstcntcst"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "controllingarea"
+              ],
+              "as": "ControllingArea",
+              "key": true
+            },
+            {
+              "ref": [
+                "costcenter"
+              ],
+              "as": "CostCenter",
+              "key": true
+            },
+            {
+              "ref": [
+                "costelement"
+              ],
+              "as": "CostElement",
+              "key": true
+            },
+            {
+              "ref": [
+                "valuetype"
+              ],
+              "as": "ValueType",
+              "key": true
+            },
+            {
+              "ref": [
+                "version"
+              ],
+              "as": "Version",
+              "key": true
+            },
+            {
+              "ref": [
+                "fiscalyear"
+              ],
+              "as": "FiscalYear",
+              "key": true
+            },
+            {
+              "ref": [
+                "fiscalperiod"
+              ],
+              "as": "FiscalPeriod",
+              "key": true
+            },
+            {
+              "ref": [
+                "currencyrole"
+              ],
+              "as": "CurrencyRole",
+              "key": true
+            },
+            {
+              "ref": [
+                "currency"
+              ],
+              "as": "Currency",
+              "key": true
+            },
+            {
+              "ref": [
+                "amount"
+              ],
+              "as": "Amount"
+            }
+          ]
+        }
+      }
+    },
+    "zI_CostCenterCostsCube": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "CUBE"
+      },
+      "@Analytics.hidden": true,
+      "@Common.Label": "Cost Center Costs",
+      "elements": {
+        "ControllingArea": {
+          "@ObjectModel.foreignKey.association": {
+            "=": "_ControllingArea"
+          },
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CostCenter": {
+          "@ObjectModel.foreignKey.association": {
+            "=": "_CostCenter"
+          },
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "CostElement": {
+          "@ObjectModel.foreignKey.association": {
+            "=": "_CostElement"
+          },
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "ValueType": {
+          "@ObjectModel.foreignKey.association": {
+            "=": "_ValueType"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "Version": {
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Version"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FiscalYearVariant": {
+          "@Common.IsFiscalYearVariant": true,
+          "@Common.Label": "Fiscal Year Variant",
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "FiscalYear": {
+          "@Common.IsFiscalYear": true,
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "FiscalPeriod": {
+          "@Common.IsFiscalPeriod": true,
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "CurrencyRole": {
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "Currency": {
+          "@Common.IsCurrencyCode": true,
+          "key": true,
+          "length": 5,
+          "type": "cds.String"
+        },
+        "Amount": {
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "@Measure.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 23,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "_ControllingArea": {
+          "cardinality": {
+            "max": 1
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_ControllingArea",
+                "ControllingArea"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_ControllingArea",
+          "type": "cds.Association"
+        },
+        "_CostCenter": {
+          "cardinality": {
+            "max": "*",
+            "min": 1
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_CostCenter",
+                "ControllingArea"
+              ]
+            },
+            "and",
+            {
+              "ref": [
+                "CostCenter"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_CostCenter",
+                "CostCenter"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_CostCenter",
+          "type": "cds.Association"
+        },
+        "_CostElement": {
+          "cardinality": {
+            "max": 1
+          },
+          "on": [
+            {
+              "ref": [
+                "ControllingArea"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_CostElement",
+                "ControllingArea"
+              ]
+            },
+            "and",
+            {
+              "ref": [
+                "CostElement"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_CostElement",
+                "CostElement"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_CostElement",
+          "type": "cds.Association"
+        },
+        "_ValueType": {
+          "cardinality": {
+            "max": 1
+          },
+          "on": [
+            {
+              "ref": [
+                "ValueType"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_ValueType",
+                "ValueType"
+              ]
+            }
+          ],
+          "target": "masterdata.zI_ValueType",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "zI_CostCenterCosts"
+            ]
+          },
+          "mixin": {
+            "_ControllingArea": {
+              "cardinality": {
+                "max": 1
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_ControllingArea",
+                    "ControllingArea"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_ControllingArea",
+              "type": "cds.Association"
+            },
+            "_CostCenter": {
+              "cardinality": {
+                "max": "*",
+                "min": 1
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_CostCenter",
+                    "ControllingArea"
+                  ]
+                },
+                "and",
+                {
+                  "ref": [
+                    "$projection",
+                    "CostCenter"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_CostCenter",
+                    "CostCenter"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_CostCenter",
+              "type": "cds.Association"
+            },
+            "_CostElement": {
+              "cardinality": {
+                "max": 1
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ControllingArea"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_CostElement",
+                    "ControllingArea"
+                  ]
+                },
+                "and",
+                {
+                  "ref": [
+                    "$projection",
+                    "CostElement"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_CostElement",
+                    "CostElement"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_CostElement",
+              "type": "cds.Association"
+            },
+            "_ValueType": {
+              "cardinality": {
+                "max": 1
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "ValueType"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_ValueType",
+                    "ValueType"
+                  ]
+                }
+              ],
+              "target": "masterdata.zI_ValueType",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "ControllingArea"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "CostCenter"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "CostElement"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "ValueType"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "Version"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "_ControllingArea",
+                "FiscalYearVariant"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "FiscalYear"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "FiscalPeriod"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "CurrencyRole"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "Currency"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "Amount"
+              ]
+            },
+            {
+              "ref": [
+                "_ControllingArea"
+              ]
+            },
+            {
+              "ref": [
+                "_CostCenter"
+              ]
+            },
+            {
+              "ref": [
+                "_CostElement"
+              ]
+            },
+            {
+              "ref": [
+                "_ValueType"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "zcstcntcst": {
+      "kind": "entity",
+      "@Analytics.hidden": true,
+      "elements": {
+        "controllingarea": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "costcenter": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "costelement": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "valuetype": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "version": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "fiscalyear": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "fiscalperiod": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "currencyrole": {
+          "key": true,
+          "length": 2,
+          "type": "cds.String"
+        },
+        "currency": {
+          "key": true,
+          "length": 5,
+          "type": "cds.String"
+        },
+        "amount": {
+          "precision": 23,
+          "scale": 2,
+          "type": "cds.Decimal"
+        }
+      }
+    }
+  },
+  "version": {
+    "creator": "CDS Compiler v1.1.1",
+    "csn": "0.1.99"
+  }
+}

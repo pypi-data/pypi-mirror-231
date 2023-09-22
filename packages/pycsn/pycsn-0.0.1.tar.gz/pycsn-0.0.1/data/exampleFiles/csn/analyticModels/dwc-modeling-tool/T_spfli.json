@@ -1,0 +1,90 @@
+{
+  "definitions": {
+    "spfli": {
+      "kind": "entity",
+      "elements": {
+        "carrid": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "desc for carrid",
+          "length": 3
+        },
+        "connid": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "desc for connid",
+          "length": 4
+        },
+        "countryfr": {
+          "type": "cds.String",
+          "@Common.Label": "desc for countryfr",
+          "length": 3
+        },
+        "cityfrom": {
+          "type": "cds.String",
+          "@Common.Label": "desc for cityfrom",
+          "length": 20
+        },
+        "airpfrom": {
+          "type": "cds.String",
+          "@Common.Label": "desc for airpfrom",
+          "length": 3
+        },
+        "countryto": {
+          "type": "cds.String",
+          "@Common.Label": "desc for countryto",
+          "length": 3
+        },
+        "cityto": {
+          "type": "cds.String",
+          "@Common.Label": "desc for cityto",
+          "length": 20
+        },
+        "airpto": {
+          "type": "cds.String",
+          "@Common.Label": "desc for airpto",
+          "length": 3
+        },
+        "fltime": {
+          "type": "cds.Integer",
+          "@Common.Label": "desc for fltime"
+        },
+        "deptime": {
+          "type": "cds.String",
+          "@Common.Label": "desc for deptime",
+          "length": 6
+        },
+        "arrtime": {
+          "type": "cds.String",
+          "@Common.Label": "desc for arrtime",
+          "length": 6
+        },
+        "period": {
+          "type": "cds.Integer",
+          "@Common.Label": "desc for period"
+        },
+        "distance": {
+          "type": "cds.Decimal",
+          "@Common.Label": "desc for distance",
+          "precision": 9,
+          "scale": 4
+        },
+        "distid": {
+          "type": "cds.String",
+          "@Common.Label": "desc for distid",
+          "length": 3
+        }
+      },
+      "@Common.Label": "Business Name for spfli",
+      "@DataWarehouse.businessDefinition.description": "Table Desc for spfli"
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "Table Editor",
+    "kind": "sap.dwc.entity"
+  },
+  "$version": "0.2"
+}

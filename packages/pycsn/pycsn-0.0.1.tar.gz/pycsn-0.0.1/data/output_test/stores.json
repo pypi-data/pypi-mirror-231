@@ -1,0 +1,54 @@
+{
+    "definitions": {
+        "store_400": {
+            "elements": {
+                "store_id": {
+                    "type": "cds.Int64",
+                    "key": true
+                },
+                "transaction_id": {
+                    "type": "cds.Int64",
+                    "key": true
+                },
+                "article_id": {
+                    "type": "cds.Int64"
+                },
+                "category": {
+                    "type": "cds.String",
+                    "length": 8
+                },
+                "name": {
+                    "type": "cds.String",
+                    "length": 8
+                },
+                "size": {
+                    "type": "cds.String",
+                    "length": 4
+                },
+                "transaction_date": {
+                    "type": "cds.DateTime"
+                }
+            }
+        },
+        "stores": {
+            "elements": {
+                "store_id": {
+                    "type": "cds.Int64",
+                    "key": true
+                },
+                "country": {
+                    "type": "cds.String",
+                    "length": 6
+                },
+                "city": {
+                    "type": "cds.String",
+                    "length": 6
+                }
+            }
+        }
+    },
+    "version": {
+        "creator": "pycsn",
+        "csn": "0.1.99"
+    }
+}

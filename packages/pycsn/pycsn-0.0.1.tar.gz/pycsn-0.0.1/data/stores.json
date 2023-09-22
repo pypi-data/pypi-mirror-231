@@ -1,0 +1,24 @@
+{
+    "definitions": {
+        "stores": {
+            "elements": {
+                "store_id": {
+                    "type": "cds.Int64",
+                    "key": true
+                },
+                "country": {
+                    "type": "cds.String",
+                    "length": 25
+                },
+                "city": {
+                    "type": "cds.String",
+                    "length": 25
+                }
+            }
+        }
+    },
+    "version": {
+        "creator": "pycsn",
+        "csn": "0.1.99"
+    }
+}

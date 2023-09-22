@@ -1,0 +1,30 @@
+{
+  "definitions": {
+    "sAirport": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "ID",
+          "length": 10
+        },
+        "name": {
+          "type": "cds.String",
+          "@Common.Label": "NAME",
+          "length": 5
+        }
+      },
+      "@Common.Label": "Business Name for sairport",
+      "@DataWarehouse.businessDefinition.description": "Table Desc for sAirport"
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "Table Editor",
+    "kind": "sap.dwc.entity"
+  },
+  "$version": "0.2"
+}

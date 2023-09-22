@@ -1,0 +1,40 @@
+{
+  "definitions": {
+    "scarr": {
+      "kind": "entity",
+      "elements": {
+        "carrid": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "desc for carrid",
+          "length": 3
+        },
+        "carrname": {
+          "type": "cds.String",
+          "@Common.Label": "desc for carrname",
+          "length": 20
+        },
+        "currcode": {
+          "type": "cds.String",
+          "@Common.Label": "desc for currcode",
+          "length": 5
+        },
+        "url": {
+          "type": "cds.String",
+          "@Common.Label": "desc for",
+          "length": 255
+        }
+      },
+      "@Common.Label": "Business Name for sCar",
+      "@DataWarehouse.businessDefinition.description": "Table Desc for scarr "
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "Table Editor",
+    "kind": "sap.dwc.entity"
+  },
+  "$version": "0.2"
+}

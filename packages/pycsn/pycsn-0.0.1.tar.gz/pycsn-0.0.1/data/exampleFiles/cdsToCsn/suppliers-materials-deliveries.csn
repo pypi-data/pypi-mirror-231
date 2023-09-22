@@ -1,0 +1,480 @@
+{
+  "namespace": "test.deliveries",
+  "definitions": {
+    "test.deliveries.Supplier": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "indexNo": 1,
+          "type": "cds.Integer"
+        },
+        "name": {
+          "indexNo": 2,
+          "type": "cds.String"
+        },
+        "country": {
+          "indexNo": 3,
+          "type": "cds.String"
+        }
+      }
+    },
+    "test.deliveries.Material": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "indexNo": 1,
+          "type": "cds.Integer"
+        },
+        "name": {
+          "indexNo": 2,
+          "type": "cds.String"
+        }
+      }
+    },
+    "test.deliveries.MaterialSupplier": {
+      "kind": "entity",
+      "elements": {
+        "SupplierID": {
+          "key": true,
+          "indexNo": 1,
+          "type": "cds.Integer"
+        },
+        "MaterialID": {
+          "key": true,
+          "indexNo": 2,
+          "type": "cds.Integer"
+        }
+      }
+    },
+    "test.deliveries.Delivery": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "indexNo": 1,
+          "type": "cds.UUID"
+        },
+        "materialID": {
+          "indexNo": 2,
+          "type": "cds.Integer"
+        },
+        "supplierID": {
+          "indexNo": 3,
+          "type": "cds.Integer"
+        },
+        "amount": {
+          "indexNo": 4,
+          "type": "cds.Integer"
+        }
+      }
+    },
+    "test.deliveries.viewSuppliers": {
+      "kind": "view",
+      "source": "test.deliveries.Supplier",
+      "query": {
+        "op": "query",
+        "from": [
+          {
+            "path": "Supplier",
+            "absolute": "test.deliveries.Supplier"
+          }
+        ],
+        "all": true,
+        "kind": "query",
+        "elements": {
+          "ID": {
+            "origin": "test.deliveries.Supplier..ID",
+            "indexNo": 1,
+            "value": {
+              "=": "Supplier.ID"
+            },
+            "key": true,
+            "type": "cds.Integer"
+          },
+          "name": {
+            "origin": "test.deliveries.Supplier..name",
+            "indexNo": 2,
+            "value": {
+              "=": "Supplier.name"
+            },
+            "type": "cds.String"
+          },
+          "country": {
+            "origin": "test.deliveries.Supplier..country",
+            "indexNo": 3,
+            "value": {
+              "=": "Supplier.country"
+            },
+            "type": "cds.String"
+          }
+        }
+      },
+      "elements": {
+        "ID": {
+          "origin": "test.deliveries.Supplier..ID",
+          "indexNo": 1,
+          "value": {
+            "=": "Supplier.ID"
+          },
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "name": {
+          "origin": "test.deliveries.Supplier..name",
+          "indexNo": 2,
+          "value": {
+            "=": "Supplier.name"
+          },
+          "type": "cds.String"
+        },
+        "country": {
+          "origin": "test.deliveries.Supplier..country",
+          "indexNo": 3,
+          "value": {
+            "=": "Supplier.country"
+          },
+          "type": "cds.String"
+        }
+      }
+    },
+    "test.deliveries.viewMaterials": {
+      "kind": "view",
+      "source": "test.deliveries.Material",
+      "query": {
+        "op": "query",
+        "from": [
+          {
+            "path": "Material",
+            "absolute": "test.deliveries.Material"
+          }
+        ],
+        "kind": "query",
+        "elements": {
+          "ID": {
+            "value": {
+              "=": "ID"
+            },
+            "indexNo": 1,
+            "origin": "test.deliveries.Material..ID",
+            "key": true,
+            "type": "cds.Integer"
+          },
+          "MaterialName": {
+            "value": {
+              "=": "name"
+            },
+            "indexNo": 2,
+            "origin": "test.deliveries.Material..name",
+            "type": "cds.String"
+          }
+        }
+      },
+      "elements": {
+        "ID": {
+          "value": {
+            "=": "ID"
+          },
+          "indexNo": 1,
+          "origin": "test.deliveries.Material..ID",
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "MaterialName": {
+          "value": {
+            "=": "name"
+          },
+          "indexNo": 2,
+          "origin": "test.deliveries.Material..name",
+          "type": "cds.String"
+        }
+      }
+    },
+    "test.deliveries.viewMaterialsPerSupplier": {
+      "kind": "view",
+      "query": {
+        "op": "query",
+        "from": [
+          {
+            "op": "join",
+            "join": "inner",
+            "args": [
+              {
+                "op": "join",
+                "join": "inner",
+                "args": [
+                  {
+                    "path": "MaterialSupplier",
+                    "absolute": "test.deliveries.MaterialSupplier"
+                  },
+                  {
+                    "path": "Material",
+                    "absolute": "test.deliveries.Material"
+                  }
+                ],
+                "on": {
+                  "op": "=",
+                  "args": [
+                    {
+                      "=": "ms.MaterialID"
+                    },
+                    {
+                      "=": "m.ID"
+                    }
+                  ]
+                },
+                "kind": "query"
+              },
+              {
+                "path": "Supplier",
+                "absolute": "test.deliveries.Supplier"
+              }
+            ],
+            "on": {
+              "op": "=",
+              "args": [
+                {
+                  "=": "ms.SupplierID"
+                },
+                {
+                  "=": "s.ID"
+                }
+              ]
+            },
+            "kind": "query"
+          }
+        ],
+        "kind": "query",
+        "elements": {
+          "SupplierID": {
+            "value": {
+              "=": "ms.SupplierID"
+            },
+            "indexNo": 1,
+            "origin": "test.deliveries.MaterialSupplier..SupplierID",
+            "type": "cds.Integer"
+          },
+          "MaterialID": {
+            "value": {
+              "=": "ms.MaterialID"
+            },
+            "indexNo": 2,
+            "origin": "test.deliveries.MaterialSupplier..MaterialID",
+            "type": "cds.Integer"
+          },
+          "SupplierName": {
+            "value": {
+              "=": "s.name"
+            },
+            "indexNo": 3,
+            "origin": "test.deliveries.Supplier..name",
+            "type": "cds.String"
+          },
+          "SupplierCountry": {
+            "value": {
+              "=": "s.country"
+            },
+            "indexNo": 4,
+            "origin": "test.deliveries.Supplier..country",
+            "type": "cds.String"
+          },
+          "MaterialName": {
+            "value": {
+              "=": "m.name"
+            },
+            "indexNo": 5,
+            "origin": "test.deliveries.Material..name",
+            "type": "cds.String"
+          }
+        }
+      },
+      "elements": {
+        "SupplierID": {
+          "value": {
+            "=": "ms.SupplierID"
+          },
+          "indexNo": 1,
+          "origin": "test.deliveries.MaterialSupplier..SupplierID",
+          "type": "cds.Integer"
+        },
+        "MaterialID": {
+          "value": {
+            "=": "ms.MaterialID"
+          },
+          "indexNo": 2,
+          "origin": "test.deliveries.MaterialSupplier..MaterialID",
+          "type": "cds.Integer"
+        },
+        "SupplierName": {
+          "value": {
+            "=": "s.name"
+          },
+          "indexNo": 3,
+          "origin": "test.deliveries.Supplier..name",
+          "type": "cds.String"
+        },
+        "SupplierCountry": {
+          "value": {
+            "=": "s.country"
+          },
+          "indexNo": 4,
+          "origin": "test.deliveries.Supplier..country",
+          "type": "cds.String"
+        },
+        "MaterialName": {
+          "value": {
+            "=": "m.name"
+          },
+          "indexNo": 5,
+          "origin": "test.deliveries.Material..name",
+          "type": "cds.String"
+        }
+      }
+    },
+    "test.deliveries.viewDeliveriesWithMaterialAndSupplier": {
+      "kind": "view",
+      "query": {
+        "op": "query",
+        "from": [
+          {
+            "op": "join",
+            "join": "inner",
+            "args": [
+              {
+                "op": "join",
+                "join": "inner",
+                "args": [
+                  {
+                    "path": "Delivery",
+                    "absolute": "test.deliveries.Delivery"
+                  },
+                  {
+                    "path": "Material",
+                    "absolute": "test.deliveries.Material"
+                  }
+                ],
+                "on": {
+                  "op": "=",
+                  "args": [
+                    {
+                      "=": "d.materialID"
+                    },
+                    {
+                      "=": "m.ID"
+                    }
+                  ]
+                },
+                "kind": "query"
+              },
+              {
+                "path": "Supplier",
+                "absolute": "test.deliveries.Supplier"
+              }
+            ],
+            "on": {
+              "op": "=",
+              "args": [
+                {
+                  "=": "d.supplierID"
+                },
+                {
+                  "=": "s.ID"
+                }
+              ]
+            },
+            "kind": "query"
+          }
+        ],
+        "kind": "query",
+        "elements": {
+          "DeliveryId": {
+            "value": {
+              "=": "d.ID"
+            },
+            "indexNo": 1,
+            "origin": "test.deliveries.Delivery..ID",
+            "type": "cds.UUID"
+          },
+          "DeliveryAmount": {
+            "value": {
+              "=": "d.amount"
+            },
+            "indexNo": 2,
+            "origin": "test.deliveries.Delivery..amount",
+            "type": "cds.Integer"
+          },
+          "MaterialName": {
+            "value": {
+              "=": "m.name"
+            },
+            "indexNo": 3,
+            "origin": "test.deliveries.Material..name",
+            "type": "cds.String"
+          },
+          "SupplierId": {
+            "value": {
+              "=": "s.ID"
+            },
+            "indexNo": 4,
+            "origin": "test.deliveries.Supplier..ID",
+            "type": "cds.Integer"
+          },
+          "SupplierName": {
+            "value": {
+              "=": "s.name"
+            },
+            "indexNo": 5,
+            "origin": "test.deliveries.Supplier..name",
+            "type": "cds.String"
+          }
+        }
+      },
+      "elements": {
+        "DeliveryId": {
+          "value": {
+            "=": "d.ID"
+          },
+          "indexNo": 1,
+          "origin": "test.deliveries.Delivery..ID",
+          "type": "cds.UUID"
+        },
+        "DeliveryAmount": {
+          "value": {
+            "=": "d.amount"
+          },
+          "indexNo": 2,
+          "origin": "test.deliveries.Delivery..amount",
+          "type": "cds.Integer"
+        },
+        "MaterialName": {
+          "value": {
+            "=": "m.name"
+          },
+          "indexNo": 3,
+          "origin": "test.deliveries.Material..name",
+          "type": "cds.String"
+        },
+        "SupplierId": {
+          "value": {
+            "=": "s.ID"
+          },
+          "indexNo": 4,
+          "origin": "test.deliveries.Supplier..ID",
+          "type": "cds.Integer"
+        },
+        "SupplierName": {
+          "value": {
+            "=": "s.name"
+          },
+          "indexNo": 5,
+          "origin": "test.deliveries.Supplier..name",
+          "type": "cds.String"
+        }
+      }
+    }
+  },
+  "version": {
+    "csn": "0.1.0"
+  }
+}

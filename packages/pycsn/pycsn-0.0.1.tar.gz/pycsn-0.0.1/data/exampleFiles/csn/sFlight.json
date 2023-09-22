@@ -1,0 +1,1754 @@
+{
+  "definitions": {
+    "my.flights.analyticquery": {
+      "kind": "context",
+      "@Common.Label": "Analytic Query"
+    },
+    "my.flights.analyticquery.zC_FlightByAirportQuery": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "CUBE"
+      },
+      "@Analytics.query": true,
+      "@Common.Label": "Available Flights",
+      "elements": {
+        "AirportFrom": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@Common.Label": "Departure Airport",
+          "@Consumption.filter.mandatory": true,
+          "@Consumption.filter.multipleSelections": false,
+          "@Consumption.filter.selectionType": {
+            "#": "SINGLE"
+          },
+          "@EndUserText.label": "Departure Airport",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AirportFrom"
+          },
+          "length": 3,
+          "type": "cds.String"
+        },
+        "AirportTo": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@Common.Label": "Destination Airport",
+          "@Consumption.filter.mandatory": false,
+          "@Consumption.filter.multipleSelections": false,
+          "@Consumption.filter.selectionType": {
+            "#": "SINGLE"
+          },
+          "@EndUserText.label": "Destination Airport",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AirportTo"
+          },
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FlightDate": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@Common.IsCalendarDate": true,
+          "@Common.Label": "Flight Date",
+          "@Consumption.filter.mandatory": true,
+          "@Consumption.filter.multipleSelections": false,
+          "@Consumption.filter.selectionType": {
+            "#": "INTERVAL"
+          },
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "Airline": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@Common.Label": "Airline",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Airline"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FlightConnection": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "ROWS"
+          },
+          "@Common.IsDigitSequence": true,
+          "@Common.Label": "Flight Connection",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_FlightConnection"
+          },
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "AircraftType": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "FREE"
+          },
+          "@Common.Label": "Aircraft Type",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AircraftType"
+          },
+          "length": 10,
+          "type": "cds.String"
+        },
+        "Currency": {
+          "@Analytics.Dimension": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "FREE"
+          },
+          "@Common.IsCurrencyCode": true,
+          "@Common.Label": "Currency",
+          "length": 5,
+          "type": "cds.String"
+        },
+        "MaximumNumberOfSeats": {
+          "@Analytics.Measure": true,
+          "@Common.Label": "Total Number Of Seats",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "type": "cds.Integer"
+        },
+        "NumberOfOccupiedSeats": {
+          "@Analytics.Measure": true,
+          "@Common.Label": "Occupied Seats",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "type": "cds.Integer"
+        },
+        "NumberOfAvailableSeats": {
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@Common.Label": "Available Seats",
+          "@DefaultAggregation": {
+            "#": "FORMULA"
+          },
+          "type": "cds.Integer"
+        },
+        "FlightPrice": {
+          "@Analytics.Measure": true,
+          "@AnalyticsDetails.query.axis": {
+            "#": "COLUMNS"
+          },
+          "@Common.Label": "Flight Price",
+          "@DefaultAggregation": {
+            "#": "MIN"
+          },
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.starschema.zI_FlightByAirport"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "AirportFrom"
+              ]
+            },
+            {
+              "ref": [
+                "AirportTo"
+              ]
+            },
+            {
+              "ref": [
+                "FlightDate"
+              ]
+            },
+            {
+              "ref": [
+                "Airline"
+              ]
+            },
+            {
+              "ref": [
+                "FlightConnection"
+              ]
+            },
+            {
+              "ref": [
+                "AircraftType"
+              ]
+            },
+            {
+              "ref": [
+                "Currency"
+              ]
+            },
+            {
+              "ref": [
+                "MaximumNumberOfSeats"
+              ]
+            },
+            {
+              "ref": [
+                "NumberOfOccupiedSeats"
+              ]
+            },
+            {
+              "xpr": [
+                {
+                  "ref": [
+                    "MaximumNumberOfSeats"
+                  ]
+                },
+                "-",
+                {
+                  "ref": [
+                    "NumberOfOccupiedSeats"
+                  ]
+                }
+              ],
+              "as": "NumberOfAvailableSeats",
+              "cast": {
+                "type": "cds.Integer"
+              }
+            },
+            {
+              "ref": [
+                "FlightPrice"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.ermodel": {
+      "kind": "context",
+      "@Common.Label": "ER Model"
+    },
+    "my.flights.ermodel.zI_AircraftType": {
+      "kind": "entity",
+      "@Analytics.datCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Aircraft Type",
+      "elements": {
+        "AircraftType": {
+          "@Common.Label": "Aircraft Type",
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "AircraftManufacturer": {
+          "@Common.Label": "Aircraft Manufacturer",
+          "length": 5,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.table.saplane"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "planetype"
+              ],
+              "as": "AircraftType",
+              "key": true
+            },
+            {
+              "ref": [
+                "producer"
+              ],
+              "as": "AircraftManufacturer"
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.ermodel.zI_Airline": {
+      "kind": "entity",
+      "@Analytics.datCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Airline",
+      "elements": {
+        "Airline": {
+          "@Common.Label": "Airline",
+          "@Common.Text": {
+            "=": "_Text.AirlineName"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "AirlineLocalCurrency": {
+          "@Common.IsCurrencyCode": true,
+          "@Common.Label": "Airline Local Currency",
+          "length": 5,
+          "type": "cds.String"
+        },
+        "AirlineUrl": {
+          "@Common.Label": "Airline URL",
+          "length": 255,
+          "type": "cds.String"
+        },
+        "_Text": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "Airline"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Text",
+                "Airline"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_AirlineText",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.table.scarr"
+            ]
+          },
+          "mixin": {
+            "_Text": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "Airline"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Text",
+                    "Airline"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_AirlineText",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "carrid"
+              ],
+              "as": "Airline",
+              "key": true
+            },
+            {
+              "ref": [
+                "currcode"
+              ],
+              "as": "AirlineLocalCurrency"
+            },
+            {
+              "ref": [
+                "url"
+              ],
+              "as": "AirlineUrl"
+            },
+            {
+              "ref": [
+                "_Text"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.ermodel.zI_AirlineText": {
+      "kind": "entity",
+      "@Common.Label": "Airline Name",
+      "elements": {
+        "Airline": {
+          "@Common.Label": "Airline",
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "AirlineName": {
+          "@Common.Label": "Airline Name",
+          "@Common.TextFor": {
+            "=": "Airline"
+          },
+          "length": 20,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.table.scarr"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "carrid"
+              ],
+              "as": "Airline",
+              "key": true
+            },
+            {
+              "ref": [
+                "carrname"
+              ],
+              "as": "AirlineName"
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.ermodel.zI_Airport": {
+      "kind": "entity",
+      "@Analytics.datCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Airport",
+      "elements": {
+        "Airport": {
+          "@Common.Label": "Airport",
+          "@Common.Text": {
+            "=": "AirportName"
+          },
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "AirportName": {
+          "@Common.Label": "Airport Name",
+          "@Common.TextFor": {
+            "=": "Airport"
+          },
+          "length": 5,
+          "type": "cds.String"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.table.sairport"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "id"
+              ],
+              "as": "Airport",
+              "key": true
+            },
+            {
+              "ref": [
+                "name"
+              ],
+              "as": "AirportName"
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.ermodel.zI_Flight": {
+      "kind": "entity",
+      "@Common.Label": "Flight",
+      "elements": {
+        "Airline": {
+          "@Common.Label": "Airline",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Airline"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FlightConnection": {
+          "@Common.IsDigitSequence": true,
+          "@Common.Label": "Flight Connection",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_FlightConnection"
+          },
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "FlightDate": {
+          "@Common.IsCalendarDate": true,
+          "@Common.Label": "Flight Date",
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "FlightPrice": {
+          "@Common.Label": "Flight Price",
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "Currency": {
+          "@Common.IsCurrencyCode": true,
+          "@Common.Label": "Currency",
+          "length": 5,
+          "type": "cds.String"
+        },
+        "AircraftType": {
+          "@Common.Label": "Aircraft Type",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AircraftType"
+          },
+          "length": 10,
+          "type": "cds.String"
+        },
+        "MaximumNumberOfSeats": {
+          "@Common.Label": "Total Number Of Seats",
+          "type": "cds.Integer"
+        },
+        "NumberOfOccupiedSeats": {
+          "@Common.Label": "Occupied Seats",
+          "type": "cds.Integer"
+        },
+        "CurrentBookingsTotalAmount": {
+          "@Common.Label": "Total of Current Bookings",
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 17,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "_Airline": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "Airline"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Airline",
+                "Airline"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airline",
+          "type": "cds.Association"
+        },
+        "_FlightConnection": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "Airline"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_FlightConnection",
+                "Airline"
+              ]
+            },
+            "and",
+            {
+              "ref": [
+                "FlightConnection"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_FlightConnection",
+                "FlightConnection"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_FlightConnection",
+          "type": "cds.Association"
+        },
+        "_AircraftType": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "AircraftType"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_AircraftType",
+                "AircraftType"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_AircraftType",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.table.sflight"
+            ]
+          },
+          "mixin": {
+            "_Airline": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "Airline"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Airline",
+                    "Airline"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_Airline",
+              "type": "cds.Association"
+            },
+            "_FlightConnection": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "Airline"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_FlightConnection",
+                    "Airline"
+                  ]
+                },
+                "and",
+                {
+                  "ref": [
+                    "$projection",
+                    "FlightConnection"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_FlightConnection",
+                    "FlightConnection"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_FlightConnection",
+              "type": "cds.Association"
+            },
+            "_AircraftType": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "AircraftType"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_AircraftType",
+                    "AircraftType"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_AircraftType",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "carrid"
+              ],
+              "as": "Airline",
+              "key": true
+            },
+            {
+              "ref": [
+                "connid"
+              ],
+              "as": "FlightConnection",
+              "key": true
+            },
+            {
+              "ref": [
+                "fldate"
+              ],
+              "as": "FlightDate",
+              "key": true
+            },
+            {
+              "ref": [
+                "price"
+              ],
+              "as": "FlightPrice"
+            },
+            {
+              "ref": [
+                "currency"
+              ],
+              "as": "Currency"
+            },
+            {
+              "ref": [
+                "planetype"
+              ],
+              "as": "AircraftType"
+            },
+            {
+              "ref": [
+                "seatsmax"
+              ],
+              "as": "MaximumNumberOfSeats"
+            },
+            {
+              "ref": [
+                "seatsocc"
+              ],
+              "as": "NumberOfOccupiedSeats"
+            },
+            {
+              "ref": [
+                "paymentsum"
+              ],
+              "as": "CurrentBookingsTotalAmount"
+            },
+            {
+              "ref": [
+                "_Airline"
+              ]
+            },
+            {
+              "ref": [
+                "_FlightConnection"
+              ]
+            },
+            {
+              "ref": [
+                "_AircraftType"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.ermodel.zI_FlightConnection": {
+      "kind": "entity",
+      "@Analytics.datCategory": {
+        "#": "DIMENSION"
+      },
+      "@Common.Label": "Flight Connection",
+      "@Hierarchy.leveled.label": "Connections by Departure and Destination Airport",
+      "@Hierarchy.leveled.levels": [
+        {
+          "element": {
+            "=": "AirportFrom"
+          },
+          "order": {
+            "by": {
+              "=": "AirportFrom"
+            },
+            "direction": {
+              "#": "ASC"
+            }
+          }
+        },
+        {
+          "element": {
+            "=": "AirportTo"
+          },
+          "order": {
+            "by": {
+              "=": "AirportTo"
+            },
+            "direction": {
+              "#": "ASC"
+            }
+          }
+        },
+        {
+          "element": {
+            "=": "Airline"
+          },
+          "order": {
+            "by": {
+              "=": "Airline"
+            },
+            "direction": {
+              "#": "ASC"
+            }
+          }
+        },
+        {
+          "element": {
+            "=": "FlightConnection"
+          }
+        }
+      ],
+      "@Hierarchy.leveled.name": "ConnectionByAirport",
+      "elements": {
+        "Airline": {
+          "@Common.Label": "Airline",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Airline"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FlightConnection": {
+          "@Common.IsDigitSequence": true,
+          "@Common.Label": "Flight Connection",
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "CountryFrom": {
+          "@Common.Label": "Departure Country",
+          "length": 3,
+          "type": "cds.String"
+        },
+        "CityFrom": {
+          "@Common.Label": "Departure City",
+          "length": 20,
+          "type": "cds.String"
+        },
+        "AirportFrom": {
+          "@Common.Label": "Departure Airport",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AirportFrom"
+          },
+          "length": 3,
+          "type": "cds.String"
+        },
+        "CountryTo": {
+          "@Common.Label": "Destination Country",
+          "length": 3,
+          "type": "cds.String"
+        },
+        "CityTo": {
+          "@Common.Label": "Destination City",
+          "length": 20,
+          "type": "cds.String"
+        },
+        "AirportTo": {
+          "@Common.Label": "Destination Airport",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AirportTo"
+          },
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FlightDurationInMinutes": {
+          "@Common.Label": "Flight Duration (min)",
+          "type": "cds.Integer"
+        },
+        "DepartureTime": {
+          "@Common.Label": "Departure Time",
+          "length": 6,
+          "type": "cds.String"
+        },
+        "ArrivalTime": {
+          "@Common.Label": "Arrival Time",
+          "length": 6,
+          "type": "cds.String"
+        },
+        "ArrivalDateShiftInDays": {
+          "@Common.Label": "Arrival n day(s) later",
+          "type": "cds.Integer"
+        },
+        "Distance": {
+          "@Common.Label": "Distance",
+          "@Common.Unit": {
+            "=": "DistanceUnit"
+          },
+          "precision": 9,
+          "scale": 4,
+          "type": "cds.Decimal"
+        },
+        "DistanceUnit": {
+          "@Common.IsUnitOfMeasure": true,
+          "@Common.Label": "Distance Unit",
+          "length": 3,
+          "type": "cds.String"
+        },
+        "_Airline": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "Airline"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Airline",
+                "Airline"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airline",
+          "type": "cds.Association"
+        },
+        "_AirportFrom": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "AirportFrom"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_AirportFrom",
+                "Airport"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airport",
+          "type": "cds.Association"
+        },
+        "_AirportTo": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "AirportTo"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_AirportTo",
+                "Airport"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airport",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.table.spfli"
+            ]
+          },
+          "mixin": {
+            "_Airline": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "Airline"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_Airline",
+                    "Airline"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_Airline",
+              "type": "cds.Association"
+            },
+            "_AirportFrom": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "AirportFrom"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_AirportFrom",
+                    "Airport"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_Airport",
+              "type": "cds.Association"
+            },
+            "_AirportTo": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "AirportTo"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_AirportTo",
+                    "Airport"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_Airport",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "carrid"
+              ],
+              "as": "Airline",
+              "key": true
+            },
+            {
+              "ref": [
+                "connid"
+              ],
+              "as": "FlightConnection",
+              "key": true
+            },
+            {
+              "ref": [
+                "countryfr"
+              ],
+              "as": "CountryFrom"
+            },
+            {
+              "ref": [
+                "cityfrom"
+              ],
+              "as": "CityFrom"
+            },
+            {
+              "ref": [
+                "airpfrom"
+              ],
+              "as": "AirportFrom"
+            },
+            {
+              "ref": [
+                "countryto"
+              ],
+              "as": "CountryTo"
+            },
+            {
+              "ref": [
+                "cityto"
+              ],
+              "as": "CityTo"
+            },
+            {
+              "ref": [
+                "airpto"
+              ],
+              "as": "AirportTo"
+            },
+            {
+              "ref": [
+                "fltime"
+              ],
+              "as": "FlightDurationInMinutes"
+            },
+            {
+              "ref": [
+                "deptime"
+              ],
+              "as": "DepartureTime"
+            },
+            {
+              "ref": [
+                "arrtime"
+              ],
+              "as": "ArrivalTime"
+            },
+            {
+              "ref": [
+                "period"
+              ],
+              "as": "ArrivalDateShiftInDays"
+            },
+            {
+              "ref": [
+                "distance"
+              ],
+              "as": "Distance"
+            },
+            {
+              "ref": [
+                "distid"
+              ],
+              "as": "DistanceUnit"
+            },
+            {
+              "ref": [
+                "_Airline"
+              ]
+            },
+            {
+              "ref": [
+                "_AirportFrom"
+              ]
+            },
+            {
+              "ref": [
+                "_AirportTo"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.starschema": {
+      "kind": "context",
+      "@Common.Label": "Star Schema"
+    },
+    "my.flights.starschema.zI_FlightByAirport": {
+      "kind": "entity",
+      "@Analytics.dataCategory": {
+        "#": "CUBE"
+      },
+      "@Common.Label": "Flight",
+      "elements": {
+        "Airline": {
+          "@Analytics.Dimension": true,
+          "@Common.Label": "Airline",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Airline"
+          },
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "FlightConnection": {
+          "@Analytics.Dimension": true,
+          "@Common.IsDigitSequence": true,
+          "@Common.Label": "Flight Connection",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_FlightConnection"
+          },
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "FlightDate": {
+          "@Analytics.Dimension": true,
+          "@Common.IsCalendarDate": true,
+          "@Common.Label": "Flight Date",
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "AircraftType": {
+          "@Analytics.Dimension": true,
+          "@Common.Label": "Aircraft Type",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AircraftType"
+          },
+          "length": 10,
+          "type": "cds.String"
+        },
+        "AirportFrom": {
+          "@Analytics.Dimension": true,
+          "@Common.Label": "Departure Airport",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AirportFrom"
+          },
+          "length": 3,
+          "type": "cds.String"
+        },
+        "AirportTo": {
+          "@Analytics.Dimension": true,
+          "@Common.Label": "Destination Airport",
+          "@ObjectModel.foreignKey.association": {
+            "=": "_AirportTo"
+          },
+          "length": 3,
+          "type": "cds.String"
+        },
+        "Currency": {
+          "@Analytics.Dimension": true,
+          "@Common.IsCurrencyCode": true,
+          "@Common.Label": "Currency",
+          "length": 5,
+          "type": "cds.String"
+        },
+        "MaximumNumberOfSeats": {
+          "@Analytics.Measure": true,
+          "@Common.Label": "Total Number Of Seats",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "type": "cds.Integer"
+        },
+        "NumberOfOccupiedSeats": {
+          "@Analytics.Measure": true,
+          "@Common.Label": "Occupied Seats",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "type": "cds.Integer"
+        },
+        "FlightPrice": {
+          "@Analytics.Measure": true,
+          "@Common.Label": "Flight Price",
+          "@DefaultAggregation": {
+            "#": "MIN"
+          },
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "CurrentBookingsTotalAmount": {
+          "@Analytics.Measure": true,
+          "@Common.Label": "Total of Current Bookings",
+          "@DefaultAggregation": {
+            "#": "SUM"
+          },
+          "@Measures.ISOCurrency": {
+            "=": "Currency"
+          },
+          "precision": 17,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "_AirportFrom": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "AirportFrom"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_AirportFrom",
+                "Airport"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airport",
+          "type": "cds.Association"
+        },
+        "_AirportTo": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "AirportTo"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_AirportFrom",
+                "Airport"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airport",
+          "type": "cds.Association"
+        },
+        "_Airline": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "$projection",
+                "Airline"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Airline",
+                "Airline"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_Airline",
+          "type": "cds.Association"
+        },
+        "_FlightConnection": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "$projection",
+                "Airline"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_FlightConnection",
+                "Airline"
+              ]
+            },
+            "and",
+            {
+              "ref": [
+                "$projection",
+                "FlightConnection"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_FlightConnection",
+                "FlightConnection"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_FlightConnection",
+          "type": "cds.Association"
+        },
+        "_AircraftType": {
+          "cardinality": {
+            "max": 1,
+            "min": 0
+          },
+          "on": [
+            {
+              "ref": [
+                "$projection",
+                "AircraftType"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_AircraftType",
+                "AircraftType"
+              ]
+            }
+          ],
+          "target": "my.flights.ermodel.zI_AircraftType",
+          "type": "cds.Association"
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "my.flights.ermodel.zI_Flight"
+            ]
+          },
+          "mixin": {
+            "_AirportFrom": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "AirportFrom"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_AirportFrom",
+                    "Airport"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_Airport",
+              "type": "cds.Association"
+            },
+            "_AirportTo": {
+              "cardinality": {
+                "max": 1,
+                "min": 0
+              },
+              "on": [
+                {
+                  "ref": [
+                    "$projection",
+                    "AirportTo"
+                  ]
+                },
+                "=",
+                {
+                  "ref": [
+                    "_AirportFrom",
+                    "Airport"
+                  ]
+                }
+              ],
+              "target": "my.flights.ermodel.zI_Airport",
+              "type": "cds.Association"
+            }
+          },
+          "columns": [
+            {
+              "ref": [
+                "Airline"
+              ]
+            },
+            {
+              "ref": [
+                "FlightConnection"
+              ]
+            },
+            {
+              "ref": [
+                "FlightDate"
+              ]
+            },
+            {
+              "ref": [
+                "AircraftType"
+              ]
+            },
+            {
+              "ref": [
+                "_FlightConnection",
+                "AirportFrom"
+              ]
+            },
+            {
+              "ref": [
+                "_FlightConnection",
+                "AirportTo"
+              ]
+            },
+            {
+              "ref": [
+                "Currency"
+              ]
+            },
+            {
+              "ref": [
+                "MaximumNumberOfSeats"
+              ]
+            },
+            {
+              "ref": [
+                "NumberOfOccupiedSeats"
+              ]
+            },
+            {
+              "ref": [
+                "FlightPrice"
+              ]
+            },
+            {
+              "ref": [
+                "CurrentBookingsTotalAmount"
+              ]
+            },
+            {
+              "ref": [
+                "_AirportFrom"
+              ]
+            },
+            {
+              "ref": [
+                "_AirportTo"
+              ]
+            },
+            {
+              "ref": [
+                "_Airline"
+              ]
+            },
+            {
+              "ref": [
+                "_FlightConnection"
+              ]
+            },
+            {
+              "ref": [
+                "_AircraftType"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "my.flights.table": {
+      "kind": "context",
+      "@Common.Label": "Table"
+    },
+    "my.flights.table.sairport": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "name": {
+          "length": 5,
+          "type": "cds.String"
+        }
+      }
+    },
+    "my.flights.table.saplane": {
+      "kind": "entity",
+      "elements": {
+        "planetype": {
+          "key": true,
+          "length": 10,
+          "type": "cds.String"
+        },
+        "producer": {
+          "length": 5,
+          "type": "cds.String"
+        }
+      }
+    },
+    "my.flights.table.scarr": {
+      "kind": "entity",
+      "elements": {
+        "carrid": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "carrname": {
+          "length": 20,
+          "type": "cds.String"
+        },
+        "currcode": {
+          "length": 5,
+          "type": "cds.String"
+        },
+        "url": {
+          "length": 255,
+          "type": "cds.String"
+        }
+      }
+    },
+    "my.flights.table.sflight": {
+      "kind": "entity",
+      "elements": {
+        "carrid": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "connid": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "fldate": {
+          "key": true,
+          "length": 8,
+          "type": "cds.String"
+        },
+        "price": {
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "currency": {
+          "length": 5,
+          "type": "cds.String"
+        },
+        "planetype": {
+          "length": 10,
+          "type": "cds.String"
+        },
+        "seatsmax": {
+          "type": "cds.Integer"
+        },
+        "seatsocc": {
+          "type": "cds.Integer"
+        },
+        "paymentsum": {
+          "precision": 17,
+          "scale": 2,
+          "type": "cds.Decimal"
+        }
+      }
+    },
+    "my.flights.table.spfli": {
+      "kind": "entity",
+      "elements": {
+        "carrid": {
+          "key": true,
+          "length": 3,
+          "type": "cds.String"
+        },
+        "connid": {
+          "key": true,
+          "length": 4,
+          "type": "cds.String"
+        },
+        "countryfr": {
+          "length": 3,
+          "type": "cds.String"
+        },
+        "cityfrom": {
+          "length": 20,
+          "type": "cds.String"
+        },
+        "airpfrom": {
+          "length": 3,
+          "type": "cds.String"
+        },
+        "countryto": {
+          "length": 3,
+          "type": "cds.String"
+        },
+        "cityto": {
+          "length": 20,
+          "type": "cds.String"
+        },
+        "airpto": {
+          "length": 3,
+          "type": "cds.String"
+        },
+        "fltime": {
+          "type": "cds.Integer"
+        },
+        "deptime": {
+          "length": 6,
+          "type": "cds.String"
+        },
+        "arrtime": {
+          "length": 6,
+          "type": "cds.String"
+        },
+        "period": {
+          "type": "cds.Integer"
+        },
+        "distance": {
+          "precision": 9,
+          "scale": 4,
+          "type": "cds.Decimal"
+        },
+        "distid": {
+          "length": 3,
+          "type": "cds.String"
+        }
+      }
+    }
+  },
+  "version": {
+    "creator": "CDS Compiler v1.1.1",
+    "csn": "0.1.99"
+  }
+}
