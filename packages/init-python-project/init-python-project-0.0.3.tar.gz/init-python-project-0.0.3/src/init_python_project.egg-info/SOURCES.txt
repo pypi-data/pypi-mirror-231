@@ -1,0 +1,98 @@
+.bumpversion.cfg
+.gitignore
+.gitmodules
+.pre-commit-config.yaml
+CHANGELOG.md
+MANIFEST.in
+Makefile
+README.md
+mkdocs.yaml
+noxfile.py
+pyproject.toml
+.github/workflows/docs.yaml
+.vscode/cspell.json
+.vscode/extensions.json
+.vscode/settings.json
+.vscode/terms.txt
+docs/_nav.md
+docs/index.md
+docs/assets/custom.css
+docs/assets/magiclink.css
+docs/assets/magiclink.js
+docs/developer-guide/documentation.md
+docs/developer-guide/examples.md
+docs/developer-guide/supported-remotes.md
+docs/developer-guide/template/Calculated Variables.md
+docs/developer-guide/template/index.md
+docs/reference/changelog.md
+docs/reference/terms.md
+docs/reference/tooling/bumpversion.md
+docs/reference/tooling/git.md
+docs/reference/tooling/github.md
+docs/reference/tooling/gitlab.md
+docs/reference/tooling/index.md
+docs/reference/tooling/mkdocs.md
+docs/reference/tooling/pre-commit.md
+docs/reference/tooling/pytest.md
+docs/reference/tooling/sphinx.md
+docs/user-guide/first-project.md
+docs/user-guide/getting-started.md
+docs/user-guide/next-steps.md
+docs/user-guide/prepare-release.md
+docs/user-guide/project-structure.md
+docs/user-guide/questions.html.jinja
+docs/user-guide/topics/ci.md
+docs/user-guide/topics/cli.md
+docs/user-guide/topics/documentation.md
+docs/user-guide/topics/markup-languages.md
+docs/user-guide/topics/task-execution.md
+docs/user-guide/topics/testing.md
+docs/user-guide/topics/versioning.md
+docs/util/abbreviations.md
+docs/util/macros.py
+src/init_python_project/__main__.py
+src/init_python_project/cli.py
+src/init_python_project/copier.yaml
+src/init_python_project.egg-info/PKG-INFO
+src/init_python_project.egg-info/SOURCES.txt
+src/init_python_project.egg-info/dependency_links.txt
+src/init_python_project.egg-info/entry_points.txt
+src/init_python_project.egg-info/requires.txt
+src/init_python_project.egg-info/top_level.txt
+src/init_python_project/template/.gitignore.jinja
+src/init_python_project/template/CHANGELOG.md.jinja
+src/init_python_project/template/Makefile.jinja
+src/init_python_project/template/README.md.jinja
+src/init_python_project/template/context
+src/init_python_project/template/pyproject.toml.jinja
+src/init_python_project/template/{% if docs == 'mkdocs' %}mkdocs.yml{% endif %}.jinja
+src/init_python_project/template/{% if remote.startswith('gitlab') %}.gitlab-ci.yml{% endif %}.jinja
+src/init_python_project/template/{% if use_bumpversion %}.bumpversion.cfg{% endif %}.jinja
+src/init_python_project/template/{% if use_precommit %}.pre-commit-config.yaml{% endif %}.jinja
+src/init_python_project/template/{{ _copier_conf.answers_file }}.jinja
+src/init_python_project/template/src/{{package_name}}/__init__.py
+src/init_python_project/template/src/{{package_name}}/__main__.py
+src/init_python_project/template/src/{{package_name}}/cli.py.jinja
+src/init_python_project/template/src/{{package_name}}/simple.py
+src/init_python_project/template/tests/test_cli.py.jinja
+src/init_python_project/template/tests/test_simple.py.jinja
+src/init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/index.md
+src/init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/macros.py
+src/init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/reference.md.jinja
+src/init_python_project/template/{% if docs == 'mkdocs' %}docs{% endif %}/requirements.txt
+src/init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/changelog.md
+src/init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/conf.py.jinja
+src/init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/index.md
+src/init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/requirements.txt
+src/init_python_project/template/{% if docs == 'sphinx' and docs_template=='none' %}docs{% endif %}/_static/.gitkeep
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/.git
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/.gitlab-ci.yml
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/README.md
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/requirements.txt
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/source/conf.py
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/source/_static/texmf/fonts/doc/fonts/adobe/frutiger.txt
+src/init_python_project/template/{% if docs_template == 'sphinx-fhg-iis' %}docs{% endif %}/source/integration/guide_3.md
+src/init_python_project/template/{% if remote == 'github' %}.github{% endif %}/workflows/ci.yaml.jinja
+tests/test_cli.py
+tests/test_package.py
+tests/test_template.py
