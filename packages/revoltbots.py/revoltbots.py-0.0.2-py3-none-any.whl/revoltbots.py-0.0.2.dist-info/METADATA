@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: revoltbots.py
+Version: 0.0.2
+Summary: A small package for the revoltbots api!
+Author-email: Xynnix <admin@revoltbots.org>
+Project-URL: Homepage, https://github.com/revoltbots/revoltbots.py
+Project-URL: Bug Tracker, https://github.com/revoltbots/revoltbots.py/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RevoltBots.py
+For Use with the RevoltBotList API!
+
+
+## Installation
+```bash
+pip3 install revoltbots.py
+```
+
+## Example Usage:
+```py
+from revoltbots import RBL
+RBList = RBL.RevoltBots(ApiKey="xxxxx", botId="xxxxx")
+
+def post():
+    """ POST Stats """
+    res = RBList.postStats(3)
+    print(res)
+
+def getStats():
+    """ GET Stats """
+    res = RBList.getStats()
+    print(res)
+
+
+def checkVotes():
+    """ GET Votes """
+    res = RBList.checkVotes()
+    print(res)
+
+
+def getVoter():
+    """ Check Voter """
+    res = RBList.checkVoter(userId="id")
+    print(res)
+
+```
