@@ -1,0 +1,93 @@
+{
+  "url": "https://api.github.com/gists/957047cb8d5275d46ba2a0360a789e86",
+  "forks_url": "https://api.github.com/gists/957047cb8d5275d46ba2a0360a789e86/forks",
+  "commits_url": "https://api.github.com/gists/957047cb8d5275d46ba2a0360a789e86/commits",
+  "id": "957047cb8d5275d46ba2a0360a789e86",
+  "node_id": "G_kwDOAE9AldoAIDk1NzA0N2NiOGQ1Mjc1ZDQ2YmEyYTAzNjBhNzg5ZTg2",
+  "git_pull_url": "https://gist.github.com/957047cb8d5275d46ba2a0360a789e86.git",
+  "git_push_url": "https://gist.github.com/957047cb8d5275d46ba2a0360a789e86.git",
+  "html_url": "https://gist.github.com/jonathanagustin/957047cb8d5275d46ba2a0360a789e86",
+  "files": {
+    "crumbcutter.json": {
+      "filename": "crumbcutter.json",
+      "type": "application/json",
+      "language": "JSON",
+      "raw_url": "https://gist.githubusercontent.com/jonathanagustin/957047cb8d5275d46ba2a0360a789e86/raw/2786d9bd8254ae2c15374cb5f7ee6871881ba192/crumbcutter.json",
+      "size": 57,
+      "truncated": false,
+      "content": "{ \n  \"project_name\": \"Index\", \n  \"author\": \"Anonymous\"\n}\n"
+    },
+    "index.html": {
+      "filename": "index.html",
+      "type": "text/html",
+      "language": "HTML",
+      "raw_url": "https://gist.githubusercontent.com/jonathanagustin/957047cb8d5275d46ba2a0360a789e86/raw/27b3448465f32f8e19f415867314930c18401ae8/index.html",
+      "size": 255,
+      "truncated": false,
+      "content": "<!doctype html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title>{{ crumbcutter.project_name }}</title>\n    </head>\n\n    <body>\n        <h1>{{ cookiecutter.project_name }}</h1>\n        <p>by {{ crumbcutter.author }}</p>\n    </body>\n</html>\n"
+    }
+  },
+  "public": true,
+  "created_at": "2023-09-21T08:14:03Z",
+  "updated_at": "2023-09-21T08:14:03Z",
+  "description": "crumbcutter-index",
+  "comments": 0,
+  "user": null,
+  "comments_url": "https://api.github.com/gists/957047cb8d5275d46ba2a0360a789e86/comments",
+  "owner": {
+    "login": "jonathanagustin",
+    "id": 5193877,
+    "node_id": "MDQ6VXNlcjUxOTM4Nzc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5193877?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jonathanagustin",
+    "html_url": "https://github.com/jonathanagustin",
+    "followers_url": "https://api.github.com/users/jonathanagustin/followers",
+    "following_url": "https://api.github.com/users/jonathanagustin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanagustin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jonathanagustin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jonathanagustin/subscriptions",
+    "organizations_url": "https://api.github.com/users/jonathanagustin/orgs",
+    "repos_url": "https://api.github.com/users/jonathanagustin/repos",
+    "events_url": "https://api.github.com/users/jonathanagustin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jonathanagustin/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "forks": [
+
+  ],
+  "history": [
+    {
+      "user": {
+        "login": "jonathanagustin",
+        "id": 5193877,
+        "node_id": "MDQ6VXNlcjUxOTM4Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5193877?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jonathanagustin",
+        "html_url": "https://github.com/jonathanagustin",
+        "followers_url": "https://api.github.com/users/jonathanagustin/followers",
+        "following_url": "https://api.github.com/users/jonathanagustin/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jonathanagustin/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jonathanagustin/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jonathanagustin/subscriptions",
+        "organizations_url": "https://api.github.com/users/jonathanagustin/orgs",
+        "repos_url": "https://api.github.com/users/jonathanagustin/repos",
+        "events_url": "https://api.github.com/users/jonathanagustin/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jonathanagustin/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "version": "3a17dce25bbaf037b40da36665baeb32e8a67615",
+      "committed_at": "2023-09-21T08:14:03Z",
+      "change_status": {
+        "total": 16,
+        "additions": 16,
+        "deletions": 0
+      },
+      "url": "https://api.github.com/gists/957047cb8d5275d46ba2a0360a789e86/3a17dce25bbaf037b40da36665baeb32e8a67615"
+    }
+  ],
+  "truncated": false
+}
