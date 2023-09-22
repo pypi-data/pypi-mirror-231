@@ -1,0 +1,12 @@
+filename: Bi
+graph_data_path: /data/home/yzhong/Cylinder/Bi_check/bulk/graph_data.npz
+hamiltonian_path: /data/home/yzhong/Cylinder/Bi_check/bulk/version_0/target_hamiltonian.npy
+
+k_path: [[0.0,0.0,-0.5],[0.0,0.0,0.0],[0.0,0.0,0.5]]
+label: [$M_bar$, $G$, $M$]
+
+nao_max: 19
+nk: 30
+num_wfns: 3
+save_dir: /data/home/yzhong/Cylinder/Bi_check/bulk/version_0
+soc_switch: true
