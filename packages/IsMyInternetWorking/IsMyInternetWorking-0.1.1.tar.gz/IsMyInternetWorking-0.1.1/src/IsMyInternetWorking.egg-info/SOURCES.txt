@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/IsMyInternetWorking/__init__.py
+src/IsMyInternetWorking/main.py
+src/IsMyInternetWorking.egg-info/PKG-INFO
+src/IsMyInternetWorking.egg-info/SOURCES.txt
+src/IsMyInternetWorking.egg-info/dependency_links.txt
+src/IsMyInternetWorking.egg-info/top_level.txt
