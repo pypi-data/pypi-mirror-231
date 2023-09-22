@@ -1,0 +1,3 @@
+[console_scripts]
+netio=Netio.cli:main
+
