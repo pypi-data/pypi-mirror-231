@@ -1,0 +1,9 @@
+pgpq-0.8.0.dist-info/METADATA,sha256=VwANrV87a6CSBTg0N5oPAG-VhFci-mvis8TN9ckZa04,3444
+pgpq-0.8.0.dist-info/WHEEL,sha256=D4MAgkmE6BB0mrQfAYg7YVN_yIH_HUW2ubOEV_ehcsE,120
+pgpq/encoders.py,sha256=MJ4ll-RSZWVtov7OGOYUz9vRBGS_Fa44gV8c2_F9jT4,1770
+pgpq/schema.py,sha256=Z_dQIcX4McJtu09Fh9xvKpWzrE8b2yHmqs3LGDXVJJk,581
+pgpq/__init__.py,sha256=eLeN7htwMIivO8FRPljFCqnH9Zuj912JiGeHQBaTcJY,139
+pgpq/_pgpq.pyi,sha256=i9my3g-T01ZsZBkntyV2lMesoO6V4A0d1K5YHfHM8ww,6078
+pgpq/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgpq/_pgpq.abi3.so,sha256=094MbGtjWsxKE3Wfp8qOG7Re6W869VZ922hOEioEiTg,1937204
+pgpq-0.8.0.dist-info/RECORD,,
