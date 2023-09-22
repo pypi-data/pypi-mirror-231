@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-code-extractor = extract_code_jupyter.cli:main
