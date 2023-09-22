@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: flask_attachments
+Version: 0.1.0
+Summary: Flask Attachments provides a way to integrate arbitrary media with SQLAlchemy in a Flask website.
+Home-page: https://github.com/alexrudy/flask_attachments
+Author: Alex Rudy
+Author-email: opensource@alexrudy.net
+License: BSD license,
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# Flask Attachments
+
+
+[![PyPI](https://img.shields.io/pypi/v/flask_attachments.svg)](https://pypi.python.org/pypi/flask_attachments)
+
+[![Tests](https://github.com/alexrudy/flask-attachments/workflows/Tests/badge.svg)](https://github.com/alexrudy/flask-attachments/workflows/Tests/)
+
+Flask Attachments provides a way to integrate arbitrary media with SQLAlchemy in a Flask website.
+
+Useful if you can't have all of your media statically defined, and need to allow users or administrators
+to upload binary blobs of data.
+
+
+* Free software: BSD license
