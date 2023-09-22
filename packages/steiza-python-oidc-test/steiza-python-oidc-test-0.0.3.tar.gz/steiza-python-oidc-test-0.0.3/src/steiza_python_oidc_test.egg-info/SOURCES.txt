@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/steiza-python-oidc-test/__init__.py
+src/steiza_python_oidc_test.egg-info/PKG-INFO
+src/steiza_python_oidc_test.egg-info/SOURCES.txt
+src/steiza_python_oidc_test.egg-info/dependency_links.txt
+src/steiza_python_oidc_test.egg-info/top_level.txt
