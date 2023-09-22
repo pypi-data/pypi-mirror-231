@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+json_streamer/__init__.py
+json_streamer/json.py
+json_streamer/parser.py
+json_streamer.egg-info/PKG-INFO
+json_streamer.egg-info/SOURCES.txt
+json_streamer.egg-info/dependency_links.txt
+json_streamer.egg-info/top_level.txt
+tests/test_json_stream.py
