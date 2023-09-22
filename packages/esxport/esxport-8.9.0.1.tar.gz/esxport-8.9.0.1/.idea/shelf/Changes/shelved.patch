@@ -1,0 +1,135 @@
+Index: src/esxport.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Main export module.\"\"\"\nimport contextlib\nimport csv\nimport json\nimport sys\nimport time\nfrom collections.abc import Callable\nfrom functools import wraps\nfrom pathlib import Path\nfrom typing import Any, Self, TypeVar\n\nfrom elasticsearch.exceptions import ConnectionError\nfrom loguru import logger\nfrom tqdm import tqdm\n\nfrom src.click_opt.cli_options import CliOptions\nfrom src.constant import FLUSH_BUFFER, RETRY_DELAY, TIMES_TO_TRY\nfrom src.elastic import ElasticsearchClient\nfrom src.exceptions import IndexNotFoundError\n\nF = TypeVar(\"F\", bound=Callable[..., Any])\n\n\n# Retry decorator for functions with exceptions\ndef retry(\n    exception_to_check: type[BaseException],\n    tries: int = TIMES_TO_TRY,\n    delay: int = RETRY_DELAY,\n) -> Callable[[F], F]:\n    \"\"\"Retryn connection.\"\"\"\n\n    def deco_retry(f: Any) -> Any:\n        @wraps(f)\n        def f_retry(*args: Any, **kwargs: dict[Any, Any]) -> Any:\n            mtries = tries\n            while mtries > 0:\n                try:\n                    return f(*args, **kwargs)\n                except exception_to_check as e:\n                    logger.error(e)\n                    logger.info(f\"Retrying in {delay} seconds ...\")\n                    time.sleep(delay)\n                    mtries -= 1\n            try:\n                return f(*args, **kwargs)\n            except exception_to_check as e:\n                logger.exception(f\"Fatal Error: {e}\")\n                sys.exit(1)\n\n        return f_retry\n\n    return deco_retry\n\n\nclass EsXport(object):\n    \"\"\"Main class.\"\"\"\n\n    def __init__(self: Self, opts: CliOptions, es_client: ElasticsearchClient) -> None:\n        self.search_args: dict[str, Any] = {}\n        self.opts = opts\n        self.num_results = 0\n        self.scroll_ids: list[str] = []\n        self.scroll_time = \"30m\"\n\n        self.csv_headers: list[str] = []\n        self.tmp_file = f\"{opts.output_file}.tmp\"\n        self.rows_written = 0\n\n        self.es_client = es_client\n\n    @retry(ConnectionError, tries=TIMES_TO_TRY)\n    def _check_indexes(self: Self) -> None:\n        \"\"\"Check if input indexes exist.\"\"\"\n        indexes = self.opts.index_prefixes\n        if \"_all\" in indexes:\n            indexes = [\"_all\"]\n        else:\n            indexes_status = self.es_client.indices_exists(index=indexes)\n            if not indexes_status:\n                msg = f\"Any of index(es) {', '.join(self.opts.index_prefixes)} does not exist in {self.opts.url}.\"\n                raise IndexNotFoundError(\n                    msg,\n                )\n        self.opts.index_prefixes = indexes\n\n    def _validate_fields(self: Self) -> None:\n        all_fields_dict: dict[str, list[str]] = {}\n        indices_names = list(self.opts.index_prefixes)\n        all_expected_fields = self.opts.fields.copy()\n        for sort_query in self.opts.sort:\n            sort_key = next(iter(sort_query.keys()))\n            parts = sort_key.split(\".\")\n            sort_param = parts[0] if len(parts) > 0 else sort_key\n            all_expected_fields.append(sort_param)\n        if \"_all\" in all_expected_fields:\n            all_expected_fields.remove(\"_all\")\n\n        for index in indices_names:\n            response: dict[str, Any] = self.es_client.get_mapping(index=index)\n            all_fields_dict[index] = []\n            for field in response[index][\"mappings\"][\"properties\"]:\n                all_fields_dict[index].append(field)\n        all_es_fields = {value for values_list in all_fields_dict.values() for value in values_list}\n\n        for element in all_expected_fields:\n            if element not in all_es_fields:\n                logger.error(f\"Fields {element} doesn't exist in any index.\")\n                sys.exit(1)\n\n    def _prepare_search_query(self: Self) -> None:\n        \"\"\"Prepares search query from input.\"\"\"\n        self.search_args = {\n            \"index\": \",\".join(self.opts.index_prefixes),\n            \"scroll\": self.scroll_time,\n            \"size\": self.opts.scroll_size,\n            \"terminate_after\": self.opts.max_results,\n            \"body\": self.opts.query,\n        }\n        if self.opts.sort:\n            self.search_args[\"sort\"] = self.opts.sort\n\n        if \"_all\" not in self.opts.fields:\n            self.search_args[\"_source_includes\"] = \",\".join(self.opts.fields)\n\n        if self.opts.debug:\n            logger.debug(\"Using these indices: {}.\".format(\", \".join(self.opts.index_prefixes)))\n            logger.debug(f\"Query {self.opts.query}\")\n            logger.debug(\"Output field(s): {}.\".format(\", \".join(self.opts.fields)))\n            logger.debug(f\"Sorting by: {self.opts.sort}.\")\n\n    @retry(ConnectionError, tries=TIMES_TO_TRY)\n    def next_scroll(self: Self, scroll_id: str) -> Any:\n        \"\"\"Paginate to the next page.\"\"\"\n        return self.es_client.scroll(scroll=self.scroll_time, scroll_id=scroll_id)\n\n    def _write_to_temp_file(self: Self, res: Any) -> None:\n        \"\"\"Write to temp file.\"\"\"\n        hit_list = []\n        total_size = int(min(self.opts.max_results, self.num_results))\n        bar = tqdm(\n            desc=self.tmp_file,\n            total=total_size,\n            unit=\"docs\",\n            colour=\"green\",\n        )\n\n        while self.rows_written != total_size:\n            if res[\"_scroll_id\"] not in self.scroll_ids:\n                self.scroll_ids.append(res[\"_scroll_id\"])\n\n            if not res[\"hits\"][\"hits\"]:\n                logger.info(\"Scroll[{}] expired(multiple reads?). Saving loaded data.\".format(res[\"_scroll_id\"]))\n                break\n            for hit in res[\"hits\"][\"hits\"]:\n                self.rows_written += 1\n                bar.update(1)\n                hit_list.append(hit)\n                if len(hit_list) == FLUSH_BUFFER:\n                    self._flush_to_file(hit_list)\n                    hit_list = []\n            res = self.next_scroll(res[\"_scroll_id\"])\n        bar.close()\n        self._flush_to_file(hit_list)\n\n    @retry(ConnectionError, tries=TIMES_TO_TRY)\n    def search_query(self: Self) -> Any:\n        \"\"\"Search the index.\"\"\"\n        self._validate_fields()\n        self._prepare_search_query()\n        res = self.es_client.search(**self.search_args)\n        self.num_results = res[\"hits\"][\"total\"][\"value\"]\n\n        logger.info(f\"Found {self.num_results} results.\")\n\n        if self.num_results > 0:\n            self._write_to_temp_file(res)\n\n    def _flush_to_file(self: Self, hit_list: list[dict[str, Any]]) -> None:\n        \"\"\"Flush the search results to a temporary file.\"\"\"\n\n        def add_meta_fields() -> None:\n            if self.opts.meta_fields:\n                for fields in self.opts.meta_fields:\n                    data[fields] = hit.get(fields, None)\n\n        with Path(self.tmp_file).open(mode=\"a\", encoding=\"utf-8\") as tmp_file:\n            for hit in hit_list:\n                data = hit[\"_source\"]\n                data.pop(\"_meta\", None)\n                add_meta_fields()\n                tmp_file.write(json.dumps(data))\n                tmp_file.write(\"\\n\")\n\n    def _write_to_csv(self: Self) -> None:\n        \"\"\"Write content to CSV file.\"\"\"\n        if self.rows_written > 0:\n            with Path(self.tmp_file).open() as f:\n                first_line = json.loads(f.readline().strip(\"\\n\"))\n                self.csv_headers = first_line.keys()\n            with Path(self.opts.output_file).open(mode=\"w\", encoding=\"utf-8\") as output_file:\n                csv_writer = csv.DictWriter(output_file, fieldnames=self.csv_headers, delimiter=self.opts.delimiter)\n                csv_writer.writeheader()\n                bar = tqdm(\n                    desc=self.opts.output_file,\n                    total=self.rows_written,\n                    unit=\"docs\",\n                    colour=\"green\",\n                )\n                with Path(self.tmp_file).open(encoding=\"utf-8\") as file:\n                    for _timer, line in enumerate(file, start=1):\n                        bar.update(1)\n                        csv_writer.writerow(json.loads(line))\n\n                bar.close()\n        else:\n            logger.info(\n                f'There is no docs with selected field(s): {\",\".join(self.opts.fields)}.',\n            )\n        Path(self.tmp_file).unlink()\n\n    def _clean_scroll_ids(self: Self) -> None:\n        \"\"\"Clear all scroll ids.\"\"\"\n        with contextlib.suppress(Exception):\n            self.es_client.clear_scroll(scroll_id=\"_all\")\n\n    def export(self: Self) -> None:\n        \"\"\"Export the data.\"\"\"\n        self._check_indexes()\n        self.search_query()\n        self._write_to_csv()\n        self._clean_scroll_ids()\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/esxport.py b/src/esxport.py
+--- a/src/esxport.py	(revision fb98d021a29f96aabc45e8d3065d2932ba2c947e)
++++ b/src/esxport.py	(date 1694952152343)
+@@ -1,6 +1,5 @@
+ """Main export module."""
+ import contextlib
+-import csv
+ import json
+ import sys
+ import time
+@@ -17,6 +16,7 @@
+ from src.constant import FLUSH_BUFFER, RETRY_DELAY, TIMES_TO_TRY
+ from src.elastic import ElasticsearchClient
+ from src.exceptions import IndexNotFoundError
++from src.writer import Writer
+ 
+ F = TypeVar("F", bound=Callable[..., Any])
+ 
+@@ -61,8 +61,6 @@
+         self.num_results = 0
+         self.scroll_ids: list[str] = []
+         self.scroll_time = "30m"
+-
+-        self.csv_headers: list[str] = []
+         self.tmp_file = f"{opts.output_file}.tmp"
+         self.rows_written = 0
+ 
+@@ -191,41 +189,26 @@
+                 tmp_file.write(json.dumps(data))
+                 tmp_file.write("\n")
+ 
+-    def _write_to_csv(self: Self) -> None:
+-        """Write content to CSV file."""
+-        if self.rows_written > 0:
+-            with Path(self.tmp_file).open() as f:
+-                first_line = json.loads(f.readline().strip("\n"))
+-                self.csv_headers = first_line.keys()
+-            with Path(self.opts.output_file).open(mode="w", encoding="utf-8") as output_file:
+-                csv_writer = csv.DictWriter(output_file, fieldnames=self.csv_headers, delimiter=self.opts.delimiter)
+-                csv_writer.writeheader()
+-                bar = tqdm(
+-                    desc=self.opts.output_file,
+-                    total=self.rows_written,
+-                    unit="docs",
+-                    colour="green",
+-                )
+-                with Path(self.tmp_file).open(encoding="utf-8") as file:
+-                    for _timer, line in enumerate(file, start=1):
+-                        bar.update(1)
+-                        csv_writer.writerow(json.loads(line))
+-
+-                bar.close()
+-        else:
+-            logger.info(
+-                f'There is no docs with selected field(s): {",".join(self.opts.fields)}.',
+-            )
+-        Path(self.tmp_file).unlink()
+-
+     def _clean_scroll_ids(self: Self) -> None:
+         """Clear all scroll ids."""
+         with contextlib.suppress(Exception):
+             self.es_client.clear_scroll(scroll_id="_all")
+ 
++    def _export(self: Self) -> None:
++        """Export the data."""
++        with Path(self.tmp_file).open() as f:
++            first_line = json.loads(f.readline().strip("\n"))
++            csv_headers = first_line.keys()
++        Writer.write_to_csv(
++            csv_header=csv_headers,
++            total_records=self.rows_written,
++            out_file=self.opts.output_file,
++            delimiter=self.opts.delimiter,
++        )
++
+     def export(self: Self) -> None:
+         """Export the data."""
+         self._check_indexes()
+         self.search_query()
+-        self._write_to_csv()
+         self._clean_scroll_ids()
++        self._export()
+Index: src/writer.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/writer.py b/src/writer.py
+new file mode 100644
+--- /dev/null	(date 1694952113062)
++++ b/src/writer.py	(date 1694952113062)
+@@ -0,0 +1,36 @@
++"""Write Data to file."""
++import csv
++import json
++from collections.abc import Callable
++from pathlib import Path
++from typing import Any, TypeVar
++
++from tqdm import tqdm
++
++F = TypeVar("F", bound=Callable[..., Any])
++
++
++class Writer(object):
++    """Write Data to file."""
++
++    @staticmethod
++    def write_to_csv(total_records: int, out_file: str, csv_header: list[str], delimiter: str) -> None:
++        """Write content to CSV file."""
++        temp_file = out_file + ".tmp"
++        Path(out_file).unlink(missing_ok=True)
++        with Path(out_file).open(mode="w", encoding="utf-8") as output_file:
++            csv_writer = csv.DictWriter(output_file, fieldnames=csv_header, delimiter=delimiter)
++            csv_writer.writeheader()
++            bar = tqdm(
++                desc=out_file,
++                total=total_records,
++                unit="docs",
++                colour="green",
++            )
++            with Path(temp_file).open(encoding="utf-8") as file:
++                for _timer, line in enumerate(file, start=1):
++                    bar.update(1)
++                    csv_writer.writerow(json.loads(line))
++
++            bar.close()
++        Path(temp_file).unlink(missing_ok=True)

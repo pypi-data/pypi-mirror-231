@@ -1,0 +1,35 @@
+Index: src/exceptions.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Project Exceptions.\"\"\"\n\n\nclass EsXportError(Exception):\n    \"\"\"Project Base Exception.\"\"\"\n\n\nclass IndexNotFoundError(EsXportError):\n    \"\"\"Index provided does not exist.\"\"\"\n\n\nclass FieldNotFoundError(EsXportError):\n    \"\"\"Field provided does not exist.\"\"\"\n\n\nclass ESConnectionError(EsXportError):\n    \"\"\"Elasticsearch connection error.\"\"\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/exceptions.py b/src/exceptions.py
+--- a/src/exceptions.py	(revision 23f240c2709f892c076ff34765f90ea0c4788a67)
++++ b/src/exceptions.py	(date 1695198332897)
+@@ -13,5 +13,9 @@
+     """Field provided does not exist."""
+ 
+ 
++class MetaFieldNotFoundError(FieldNotFoundError):
++    """Meta Field provided does not exist."""
++
++
+ class ESConnectionError(EsXportError):
+     """Elasticsearch connection error."""
+Index: src/strings.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Common used strings.\"\"\"\nindex_not_found = \"Any of index(es) {} does not exist in {}.\"\nusing_indexes = \"Using indices: {indexes}.\"\nusing_query = \"Using query: {query}.\"\noutput_fields = \"Output fields : {fields}.\"\nsorting_by = \"Sorting by: {sort}.\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/strings.py b/src/strings.py
+--- a/src/strings.py	(revision 23f240c2709f892c076ff34765f90ea0c4788a67)
++++ b/src/strings.py	(date 1695198332898)
+@@ -4,3 +4,4 @@
+ using_query = "Using query: {query}."
+ output_fields = "Output fields : {fields}."
+ sorting_by = "Sorting by: {sort}."
++meta_field_not_found = "Meta Field {field} not found"
