@@ -1,0 +1,10 @@
+belorthography/__init__.py,sha256=4xpNeVvDtriLk02nJd2tddHmIHngSg57Kp-FrlLVzZk,51
+belorthography/cases.py,sha256=6Av6ezxoJob8Ob5hYvxh4MANyBGT-hPhIHBX9VbtTvs,486
+belorthography/diff_mode.py,sha256=PLrS4bkeej3bbqd67uq_AKjOndhCDbzyXFty81Awv4Q,610
+belorthography/engine.py,sha256=iHLCnjbt2b_6HVm-lD6K8Tq_Up6jeGGsBBhyVP-A7as,526
+belorthography/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+belorthography/converters/translit_cyr_nar_to_lat.py,sha256=gcVFQIkX_HICW8RItCHPJQmGdFj4T1IxETS-TmdM4Vg,232
+belorthography/converters/translit_cyr_taras_to_lat.py,sha256=YuBljmhdnwZngTdiwHHfsT1iT60V33I-nZr4JuQcmL8,26775
+belorthography-0.0.1.dist-info/METADATA,sha256=_c186Klc4dR8E5ld8gkQnu6Y101d8-1kIpnaHr7s0Ng,2448
+belorthography-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+belorthography-0.0.1.dist-info/RECORD,,
