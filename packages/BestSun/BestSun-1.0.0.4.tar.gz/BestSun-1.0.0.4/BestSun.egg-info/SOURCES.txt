@@ -1,0 +1,10 @@
+setup.py
+BestSun.egg-info/PKG-INFO
+BestSun.egg-info/SOURCES.txt
+BestSun.egg-info/dependency_links.txt
+BestSun.egg-info/requires.txt
+BestSun.egg-info/top_level.txt
+test/Forecast_API.py
+test/Weather_API.py
+test/__init__.py
+test/get_battery_percentage.py
