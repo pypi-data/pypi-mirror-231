@@ -1,0 +1,8 @@
+setup.py
+kafkawrapper/__init__.py
+kafkawrapper/producer.py
+kafkawrapper.egg-info/PKG-INFO
+kafkawrapper.egg-info/SOURCES.txt
+kafkawrapper.egg-info/dependency_links.txt
+kafkawrapper.egg-info/requires.txt
+kafkawrapper.egg-info/top_level.txt
