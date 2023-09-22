@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: Nano-Utils
+Version: 2.3.5
+Summary: Utility functions used throughout the various nlesc-nano repositories.
+Author-email: Bas van Beek <b.f.van.beek@vu.nl>
+Project-URL: Homepage, https://github.com/nlesc-nano/Nano-Utils
+Project-URL: Bug Tracker, https://github.com/nlesc-nano/Nano-Utils/issues
+Project-URL: Documentation, https://nano-utils.readthedocs.io/en/latest/includeme.html
+Keywords: python-3,python-3-7,python-3-8,python-3-9,python-3-10,python-3-11,libraries
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.md
+Requires-Dist: packaging >=1.16.8
+Requires-Dist: typing-extensions >=3.10.0 ; python_version < "3.8"
+Provides-Extra: doc
+Requires-Dist: sphinx <7,>=2.4 ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: pydocstyle[toml] >=6.1 ; extra == 'lint'
+Requires-Dist: Flake8-pyproject >=1.0.1 ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Requires-Dist: types-PyYAML ; extra == 'lint'
+Requires-Dist: numpy >=1.21 ; extra == 'lint'
+Requires-Dist: ipython ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: nano-utils[test-no-optional] ; extra == 'test'
+Requires-Dist: schema !=0.7.5,>=0.7.1 ; extra == 'test'
+Requires-Dist: pyyaml >=5.1 ; extra == 'test'
+Requires-Dist: h5py ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+Requires-Dist: ipython >=5.0.0 ; extra == 'test'
+Provides-Extra: test-no-optional
+Requires-Dist: assertionlib >=3.2.1 ; extra == 'test-no-optional'
+Requires-Dist: pytest >=6.0.0 ; extra == 'test-no-optional'
+Requires-Dist: pytest-cov ; extra == 'test-no-optional'
+
+.. image:: https://readthedocs.org/projects/nano-utils/badge/?version=latest
+    :target: https://Nano-Utils.readthedocs.io/en/latest/includeme.html
+.. image:: https://badge.fury.io/py/Nano-Utils.svg
+    :target: https://badge.fury.io/py/Nano-Utils
+.. image:: https://github.com/nlesc-nano/Nano-Utils/workflows/Tests/badge.svg
+    :target: https://github.com/nlesc-nano/Nano-Utils/actions?query=workflow%3ATests
+.. image:: https://codecov.io/gh/nlesc-nano/Nano-Utils/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/nlesc-nano/Nano-Utils
+.. image:: https://zenodo.org/badge/268804056.svg
+   :target: https://zenodo.org/badge/latestdoi/268804056
+
+|
+
+.. image:: https://img.shields.io/badge/python-3.7-blue.svg
+    :target: https://docs.python.org/3.7/
+.. image:: https://img.shields.io/badge/python-3.8-blue.svg
+    :target: https://docs.python.org/3.8/
+.. image:: https://img.shields.io/badge/python-3.9-blue.svg
+    :target: https://docs.python.org/3.9/
+.. image:: https://img.shields.io/badge/python-3.10-blue.svg
+    :target: https://docs.python.org/3.10/
+.. image:: https://img.shields.io/badge/python-3.11-blue.svg
+    :target: https://docs.python.org/3.11/
+
+##########
+Nano-Utils
+##########
+Utility functions used throughout the various nlesc-nano repositories.
+
+
+Installation
+************
+* PyPi: ``pip install Nano-Utils``
+* GitHub: ``pip install git+https://github.com/nlesc-nano/Nano-Utils@master``
