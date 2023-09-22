@@ -1,0 +1,8 @@
+packaging
+dataclasses-json
+requests
+
+[tests]
+requests_mock
+flake8
+coverage
