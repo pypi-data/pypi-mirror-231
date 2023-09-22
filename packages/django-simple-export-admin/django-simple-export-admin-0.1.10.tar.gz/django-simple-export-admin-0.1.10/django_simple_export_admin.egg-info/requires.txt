@@ -1,0 +1,6 @@
+openpyxl
+zenutils
+xlsxhelper
+django
+django-static-fontawesome
+django-changelist-toolbar-admin
