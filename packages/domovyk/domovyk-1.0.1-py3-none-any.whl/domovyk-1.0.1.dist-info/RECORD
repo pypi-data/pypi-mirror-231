@@ -1,0 +1,15 @@
+domovyk/.DS_Store,sha256=PTBLjTaBZrCDgp9K9Gj2yma6G_l6LNr86lma68RjLj8,6148
+domovyk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domovyk/bel.py,sha256=eeAj-7MK2JHC7O1_4tB6xK5xxfz7u-vXj7_u5caEUcQ,20961
+domovyk/bulg.py,sha256=xpeKdo-HA2QmsI0hTJogLV6sgm-ZxJiBBNIVRNUA1eo,18701
+domovyk/carp.py,sha256=fsZzJaVOMObHMg4O4c7MNZIR9J0Awj74uOnApUooF0Q,17527
+domovyk/church.py,sha256=4Fb7KQJX1yWLWVmwzK3mYESymEqgLBZu_4g4iKUxoIA,23121
+domovyk/mac.py,sha256=p6mrYNwnZi872vAuexWO7Y8kvr8v_KyxRUzk82NqleU,11881
+domovyk/rus.py,sha256=-qdVcL4ZK_gDnLz6BV9vuC7hnf0b2q7BB_sUNWMrUbY,17844
+domovyk/serb.py,sha256=quq11xWvWUC5P1lKQ5lJnbXYc_BcuXUqW7FPZiw00Qk,12864
+domovyk/translit.py,sha256=lV4RMf4aKYVE_KqSRFspGslcghw2lgsGILV6dr7C2WQ,3548
+domovyk/ukr.py,sha256=j6R1MFsGcZW0wIs41Qfvscfuu_-OBUhHGUNjpTM_Ru8,17435
+domovyk-1.0.1.dist-info/METADATA,sha256=eeEmvzJJWnolCcHUN04FNHjdNa8j3iQyoTUhRO4df_A,43429
+domovyk-1.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+domovyk-1.0.1.dist-info/licenses/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+domovyk-1.0.1.dist-info/RECORD,,
