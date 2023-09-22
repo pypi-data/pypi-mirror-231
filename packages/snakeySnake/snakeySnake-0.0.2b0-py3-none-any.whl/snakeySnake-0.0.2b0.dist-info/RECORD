@@ -1,0 +1,14 @@
+snakeySnake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snakeySnake/__main__.py,sha256=ensrRQMBxepm9LSScUHq3GvteiXcyFk2E3ieeAvRSZE,128
+snakeySnake/button.py,sha256=FfQcHmGfrA3qJUVhcw7nCOpNyrofuqWTphROQLZpnw4,2364
+snakeySnake/enums.py,sha256=YuHSOH2e1JATwI86r2EwKKW72MTtYDnvwxPHmYUgpZQ,300
+snakeySnake/game.py,sha256=G8DVNOd9mh3bKEl9h_A1F8VXkTm59JvMyxR9R03SCuk,10798
+snakeySnake/scoreboard.py,sha256=KSMRpk870-xZQWR05zGbUyGy13IuUH3KdMWWQyZNncs,3265
+snakeySnake/snake.py,sha256=omy2jcDHtGD-USQT47M6HOzVQ9T5XM7NS4Ff1PTIoyY,5470
+snakeySnake/data/apple.png,sha256=_db4sbGs2-u6_q2HuRF3DoeX7gxqc6P5Sdfd5bqLqQI,19921
+snakeySnake-0.0.2b0.dist-info/LICENSE,sha256=4mT_lp7iCFlMUtNrV3g-_f4HZNeYjhDSH7HBDmBmxxs,1073
+snakeySnake-0.0.2b0.dist-info/METADATA,sha256=eTzchqTZ0DeTB7wS9fFQRP8pcQCJFNy_XVOzVyHSNGU,1756
+snakeySnake-0.0.2b0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+snakeySnake-0.0.2b0.dist-info/entry_points.txt,sha256=jTtoKB2dNK2RByM9Yg-ycW6uXi-reAKwoi7wc6rwTwQ,56
+snakeySnake-0.0.2b0.dist-info/top_level.txt,sha256=gBop31fUbHRjz2_oEiTEgQqOcWG1A7s3AQozaH5JLDU,12
+snakeySnake-0.0.2b0.dist-info/RECORD,,
