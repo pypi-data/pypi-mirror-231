@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aes128
+Version: 0.0.3
+Summary: encrypt decrypt password using aes 128.
+Author-email: ABOULOIFA Najib <najib.abouloifa@gmail.com>
+Project-URL: Homepage, https://github.com/ABNajib
+Project-URL: Bug Tracker, https://github.com/ABNajib
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
