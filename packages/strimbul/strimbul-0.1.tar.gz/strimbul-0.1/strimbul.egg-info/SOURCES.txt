@@ -1,0 +1,11 @@
+README.md
+setup.py
+strimbul/__init__.py
+strimbul/main.py
+strimbul/new_page.py
+strimbul.egg-info/PKG-INFO
+strimbul.egg-info/SOURCES.txt
+strimbul.egg-info/dependency_links.txt
+strimbul.egg-info/entry_points.txt
+strimbul.egg-info/requires.txt
+strimbul.egg-info/top_level.txt
