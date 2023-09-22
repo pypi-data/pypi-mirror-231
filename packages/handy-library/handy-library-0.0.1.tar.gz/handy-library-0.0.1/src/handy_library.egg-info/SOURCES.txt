@@ -1,0 +1,15 @@
+LICENCE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/handy-library/__init__.py
+src/handy-library/file_system.py
+src/handy-library/tools.py
+src/handy-library/utils.py
+src/handy_library.egg-info/PKG-INFO
+src/handy_library.egg-info/SOURCES.txt
+src/handy_library.egg-info/dependency_links.txt
+src/handy_library.egg-info/requires.txt
+src/handy_library.egg-info/top_level.txt
+tests/test_tools.py
