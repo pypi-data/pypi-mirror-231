@@ -1,0 +1,8 @@
+setup.py
+mindthegap/__init__.py
+mindthegap/passwordmanagerclass.py
+python_local_passwords.egg-info/PKG-INFO
+python_local_passwords.egg-info/SOURCES.txt
+python_local_passwords.egg-info/dependency_links.txt
+python_local_passwords.egg-info/requires.txt
+python_local_passwords.egg-info/top_level.txt
