@@ -1,0 +1,16 @@
+datasphere/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasphere/auth.py,sha256=8VI_jXnXbkIdUbmbptthxGKF-5DpxVda5jce_81U_5Y,3244
+datasphere/client.py,sha256=iU7x_47v5hrCfel_HhUbO1U41zq4fYvIWui34-XvQx4,7981
+datasphere/config.py,sha256=oC11Z-0AmwVeVsDgqRCUDhEhT6H7wWKjCgmxnjqM49A,14104
+datasphere/files.py,sha256=7WrlrT92ausdim9L50xR2olqimf31Mrkz3QFDjFZJ9s,2748
+datasphere/main.py,sha256=Dy_BwP3MJpZ9mXFf1YG_8I-ySzsHufbtJrELleb0nHE,4954
+datasphere/pyenv.py,sha256=BgL_VgU-vXbWc-VroZWiSSw3BzDhud1VHaXMM6R49rc,975
+datasphere/utils.py,sha256=sjm4jKb8_dCBl_T0tN5ECftOm7XaKS9aY126wkn7OuA,1883
+datasphere/logs/__init__.py,sha256=A00lpnUKg-q3y_b-cN3jKF9urkGTGjb2Yz_gGc9WCLs,22
+datasphere/logs/config.py,sha256=4Thw_kdabnJ8iDCl6L0kmS-XqgtOpsxwDMg6sP7wuh8,890
+datasphere/logs/logging.yaml,sha256=_aKMFe8dgGiGf0ojR8-DOEln7XyV1UwepyLmXo6Taog,1597
+datasphere-0.0rc1.dist-info/METADATA,sha256=1L0Rc6iZGcO3n2UH--B6ONe5wIxjUpMwMPInndBUM5E,663
+datasphere-0.0rc1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+datasphere-0.0rc1.dist-info/entry_points.txt,sha256=wcHYsPi-j_b93Db2m-US3XgdsxJDNOh7kuHvzpAhsRk,52
+datasphere-0.0rc1.dist-info/top_level.txt,sha256=Zwc_Z8Sc2ml6TmvfVQ8WLFzTXjkNDn7mNv7933R-FKs,11
+datasphere-0.0rc1.dist-info/RECORD,,
