@@ -1,0 +1,6 @@
+setup.py
+fake_fingerprint.egg-info/PKG-INFO
+fake_fingerprint.egg-info/SOURCES.txt
+fake_fingerprint.egg-info/dependency_links.txt
+fake_fingerprint.egg-info/requires.txt
+fake_fingerprint.egg-info/top_level.txt
