@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genexpsim"
+version = "0.1.1"
+description = "Gene expression simulation for circadian clock and coupled cells"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+]
+authors = [
+    {name = "Robert Wolff", email = "mahlzahn@posteo.de"},
+]
+license = {text = "GNU General Public License v3 or later (GPLv3+)"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Topic :: Utilities",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+
+[project.optional-dependencies]
+full = [
+    "argcomplete",
+]
+
+[project.scripts]
+genexpsim= "genexpsim.__main__:main"
+
+[project.urls]
+Source = "https://codeberg.org/mahlzahn/genexpsim"
+Issues = "https://codeberg.org/mahlzahn/genexpsim/issues"
