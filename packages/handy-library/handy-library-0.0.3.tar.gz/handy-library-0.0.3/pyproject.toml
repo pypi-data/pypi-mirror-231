@@ -1,0 +1,37 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handy-library"
+version = "0.0.3"
+description = "A library that makes it very convenient to perform standard actions in Python"
+readme = "README.md"
+authors = [{ name = "SVJA7IK", email = "svja7ik@gmail.com" }]
+license = { file = "LICENSE.md" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["handy library", "handylib", "universal library"]
+dependencies = [
+    "loguru==0.7.2; python_version>='3.10'",
+    "rich==13.5.3; python_version>='3.10'",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/SVJA7IK/HandyLibrary"
+
+[tool.bumpver]
+current_version = "0.0.3"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/handylib/__init__.py" = ["{version}"]
