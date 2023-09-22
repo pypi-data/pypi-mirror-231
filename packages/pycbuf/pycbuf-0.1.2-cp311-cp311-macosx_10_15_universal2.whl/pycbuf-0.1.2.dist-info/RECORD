@@ -1,0 +1,10 @@
+pycbuf/__init__.py,sha256=TbuvQx0OJcD945kVnc8zPvU_jiOKCmrf66CEBtIsiM8,31
+pycbuf/pycbuf.so,sha256=nLuO1BhmOq6ZyGQz3Mu1tOLrf8LeO_Z5CTcpBSJ00sA,722342
+pycbuf-0.1.2.data/data/lib/libuloglib.dylib,sha256=KfuLg9Ea96ef7d4hbVWl-Ck4xDHF7R-MJP1F154n4IM,350349
+pycbuf-0.1.2.data/data/lib/libcbuf_parse_dynamic.dylib,sha256=NRJ7hcW5tThnydDpP9-of0NqzVuOhVXN4yrtVYfZIZc,549240
+pycbuf-0.1.2.data/data/lib/libcbuf_stream.a,sha256=9qox4phmIGgVVnfS1kx0NeImstett8Xw48WA73Pqh4g,739664
+pycbuf-0.1.2.dist-info/RECORD,,
+pycbuf-0.1.2.dist-info/WHEEL,sha256=A76CNlb1JjaR3ne1Ed7cr51b1rYtV_PftIBEDpZzDwc,110
+pycbuf-0.1.2.dist-info/top_level.txt,sha256=kUmnnwXRj9ZA5HpZq-S2kjUSvlfpyFajXEoOuv90Nfg,7
+pycbuf-0.1.2.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pycbuf-0.1.2.dist-info/METADATA,sha256=tBkioDX8v1g8VjwBJelWB6rMHudoB8Otot1xdbKY9Mc,632
