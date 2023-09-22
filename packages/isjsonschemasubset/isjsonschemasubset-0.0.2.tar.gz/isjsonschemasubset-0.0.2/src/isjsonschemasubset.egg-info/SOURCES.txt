@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/isjsonschemasubset/__init__.py
+src/isjsonschemasubset.egg-info/PKG-INFO
+src/isjsonschemasubset.egg-info/SOURCES.txt
+src/isjsonschemasubset.egg-info/dependency_links.txt
+src/isjsonschemasubset.egg-info/requires.txt
+src/isjsonschemasubset.egg-info/top_level.txt
+tests/test_issubset.py
+tests/test_schema_versions.py
