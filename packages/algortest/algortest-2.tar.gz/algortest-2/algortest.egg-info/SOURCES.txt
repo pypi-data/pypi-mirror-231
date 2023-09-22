@@ -1,0 +1,9 @@
+setup.py
+algortest/__init__.py
+algortest/core.py
+algortest/test.py
+algortest.egg-info/PKG-INFO
+algortest.egg-info/SOURCES.txt
+algortest.egg-info/dependency_links.txt
+algortest.egg-info/requires.txt
+algortest.egg-info/top_level.txt
