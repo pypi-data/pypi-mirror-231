@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: huvr_client
+Version: 0.3.3
+Summary: A python client for the HUVRdata API.
+Home-page: https://github.com/huvrdata/huvr-client
+Author: HUVRdata
+Author-email: api@huvrdata.com
+Keywords: huvr_client
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: !=2.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+License-File: LICENSE
+Requires-Dist: requests
+
+# HUVR Client
+
+A Python client (with examples) to connect to HUVRdata.
+
+You must be an active customer of HUVRdata.com for this library to be useful.
+
+The client is a thin wrapper around the Python `requests` library. It is provided as
+a convenience to help customers access their data.
+
+## API Docs
+
+The API docs are available at [docs.huvrdata.app](https://docs.huvrdata.app).
+
+<!-- TODO -->
+<!-- ## Installation -->
+<!-- ## Usage -->
