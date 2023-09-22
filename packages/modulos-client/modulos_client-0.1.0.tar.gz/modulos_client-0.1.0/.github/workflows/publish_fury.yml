@@ -1,0 +1,30 @@
+name: Publish to Fury.io
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Get tags
+      run: git fetch --tags origin
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install build twine
+    - name: Build package
+      run: python3 -m build
+    - name: Publish package
+      run: twine upload dist/* --repository-url https://push.fury.io/modulos -u ${{secrets.FURY_AUTH}} -p ""
