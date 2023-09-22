@@ -1,0 +1,7 @@
+translator/consts.py,sha256=CP-uG2lXin6SZs_BJJbBloG8tjwMJeDPIpweTTWfQ1I,4976
+translator/translator.py,sha256=fbQX_0yBv4dCBTnYatD5QraruDJoqMnc0su1fg7A0QA,8113
+translator/utils.py,sha256=rVg5ZGCXfWBV--2gq5Ag8542vzeAlG1CwjPOyxbQKt8,12612
+translator_cli-0.3.7.dist-info/LICENSE,sha256=SgPcbrZ8JV8XFUN27DuZr2PCGCDTrTZwPbTrdqz5084,34666
+translator_cli-0.3.7.dist-info/METADATA,sha256=s6flpV98rWbAV22E23pk5iQKecy9Y_jdxUDGPne0YJ0,697
+translator_cli-0.3.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+translator_cli-0.3.7.dist-info/RECORD,,
