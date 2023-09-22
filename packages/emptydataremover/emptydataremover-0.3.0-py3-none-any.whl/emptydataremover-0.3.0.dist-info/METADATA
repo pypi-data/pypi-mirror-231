@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: emptydataremover
+Version: 0.3.0
+Summary: This project detects and deletes non-labelled images
+Home-page: https://github.com/yusufesatt/empty-data-remover
+Author: yusufesat
+Author-email: yusuf.esat0@hotmail.com
+Keywords: empty data remover,non labelled images remover
+License-File: LICENSE
+
