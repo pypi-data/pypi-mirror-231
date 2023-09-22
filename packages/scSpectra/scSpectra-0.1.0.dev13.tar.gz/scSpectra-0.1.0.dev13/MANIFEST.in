@@ -1,0 +1,3 @@
+include VERSION
+include Spectra/data/default_gene_sets.json
+include Spectra/data/sample_data.h5ad
