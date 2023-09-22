@@ -1,0 +1,176 @@
+[tool.poetry]
+name = "datanommer.models"
+version = "1.1.0"
+description = "SQLAlchemy models for datanommer"
+authors = [
+  "Fedora Infrastructure <admin@fedoraproject.org>"
+]
+license = "GPL-3.0-or-later"
+readme = "README.rst"
+repository = "https://github.com/fedora-infra/datanommer"
+homepage = "https://github.com/fedora-infra/datanommer"
+packages = [
+    { include = "datanommer/models" },
+    { include = "datanommer/models/testing"},
+    { include = "datanommer/models/alembic" },
+]
+include = [
+    { path = "*.ini", format = "sdist" },
+    { path = "*.txt", format = "sdist" },
+    { path = "*.cfg", format = "sdist" },
+    { path = "*.rst", format = "sdist" },
+    { path = "*.xml", format = "sdist" },
+    { path = "tests/*", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.3.24"
+alembic = "^1.6.5"
+psycopg2 = "^2.9.1"
+fedora-messaging = ">=2.1.0"
+anitya-schema = {version = "*", optional = true}
+bodhi-messages = {version = "*", optional = true}
+ci-messages = {version = "*", optional = true}
+copr-messaging = {version = "*", optional = true}
+discourse2fedmsg-messages = {version = "*", optional = true}
+fedocal-messages = {version = "*", optional = true}
+fedorainfra-ansible-messages = {version = "*", optional = true}
+fedora-elections-messages = {version = "*", optional = true}
+fedora-messaging-the-new-hotness-schema = {version = "*", optional = true}
+fedora-planet-messages = {version = "*", optional = true}
+koji-fedoramessaging-messages = {version = "^1.2.2", optional = true}
+mdapi-messages = {version = "*", optional = true}
+noggin-messages = {version = "*", optional = true}
+nuancier-messages = {version = "*", optional = true}
+pagure-messages = {version = "*", optional = true}
+
+[tool.poetry.dev-dependencies]
+pre-commit = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+pytest = "*"
+liccheck = "*"
+pytest-cov = "*"
+pytest-postgresql = "*"
+pytest-mock = "*"
+bodhi-messages = "*"
+towncrier = "*"
+
+[tool.poetry.extras]
+schemas = [
+  "anitya-schema",
+  "bodhi-messages",
+  "ci-messages",
+  "copr-messaging",
+  "discourse2fedmsg-messages",
+  "fedocal-messages",
+  "fedorainfra-ansible-messages",
+  "fedora-elections-messages",
+  "fedora-messaging-the-new-hotness-schema",
+  "fedora-planet-messages",
+  "koji-fedoramessaging-messages",
+  "mdapi-messages",
+  "noggin-messages",
+  "nuancier-messages",
+  "pagure-messages",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.liccheck]
+authorized_licenses = [
+  "bsd",
+  "new bsd",
+  "simplified bsd",
+  "apache",
+  "apache 2.0",
+  "apache software",
+  "Apache License 2.0",
+  "Apache License, Version 2.0",
+  "gnu lgpl",
+  "gpl v2",
+  "GNU General Public License v2 or later (GPLv2+)",
+  "GNU General Public License v3 (GPLv3)",
+  "GNU General Public License v3 or later (GPLv3+)",
+  "GNU Library or Lesser General Public License (LGPL)",
+  "GNU Lesser General Public License v2 or later (LGPLv2+)",
+  "GNU Lesser General Public License v3 (LGPLv3)",
+  "GNU Lesser General Public License v3 or later (LGPLv3+)",
+  "GPLv3+",
+  "LGPLv2+",
+  "gpl v3",
+  "lgpl with exceptions or zpl",
+  "isc",
+  "isc license (iscl)",
+  "mit",
+  "python software foundation",
+  "zpl 2.1",
+  "mpl-2.0",
+  "MPL 2.0",
+  "Mozilla Public License 2.0 (MPL 2.0)",
+  "lgpl",
+  "CC0 (copyright waived)",
+  "Public Domain",
+  "Public Domain <http://unlicense.org>",
+  "Zope Public",
+  "The Unlicense (Unlicense)",
+]
+
+[tool.liccheck.authorized_packages]
+twisted = "23.8.0"
+
+
+[tool.towncrier]
+package = "datanommer.models"
+directory = "news/"
+title_format = "v{version}"
+issue_format = "{issue}"
+template = "../tools/towncrier/template.rst.j2"
+underlines = "=^-"
+wrap = true
+all_bullets = true
+
+  [[tool.towncrier.type]]
+  directory = "bic"
+  name = "Backwards Incompatible Changes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "dependency"
+  name = "Dependency Changes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "feature"
+  name = "Features"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "bug"
+  name = "Bug Fixes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "dev"
+  name = "Development Improvements"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "docs"
+  name = "Documentation Improvements"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "other"
+  name = "Other Changes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "author"
+  name = "Contributors"
+  showcontent = true
