@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ml-twopointone
+Version: 0.1.0
+Summary: Package including some functions frequently used in machine learning and data science
+Author: Eugine Eering, D. Ata
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+This is a package that provides implementations of three functions important in machine learning and data science:
+
+- Transposing matrices with `transpose2d`
+- Cross-correlation (commonly called convolution) of matrices with kernels with `convolution2d`
+- Sampling a 1D array / list using a sliding window with `window1d`
