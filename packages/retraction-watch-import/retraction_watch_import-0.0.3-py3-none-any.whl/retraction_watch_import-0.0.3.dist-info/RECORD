@@ -1,0 +1,7 @@
+retraction_watch_import/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retraction_watch_import/importer.py,sha256=6iL4Mw6vtTMySk89CdZtzPwe2kCgXlxlY31zuehn3F8,19311
+retraction_watch_import/run_import.py,sha256=qLpR64tMvjF30ZHvEFNSLGkjOnWBJDMhNwUKVT82qS8,220
+retraction_watch_import-0.0.3.dist-info/METADATA,sha256=51h_gn_dF34GWM1sVwkHrUtG34aOKWr2pVBYwTvg8WQ,2678
+retraction_watch_import-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+retraction_watch_import-0.0.3.dist-info/top_level.txt,sha256=On9-XUz1DJdXl8XtQDo4mg43sdU_OymRX1x0ayeyqqQ,24
+retraction_watch_import-0.0.3.dist-info/RECORD,,
