@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: jeol_parser
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License: MIT
+Requires-Python: >=3.7
