@@ -1,0 +1,10 @@
+galaxyxml/__init__.py,sha256=Nx8U3X8hwfVqTXV4Bl8r38HvBiM4qIacTpJN0IDdXNg,2029
+galaxyxml/tool/__init__.py,sha256=S8ZWPuCLTcF15IwXTyWQpL-36mgLTxBVx9g4L3NOpAs,8678
+galaxyxml/tool/import_xml.py,sha256=c5vMkbtxfTDVB7wc-1W6KpO6g3MFrqFfbQclJZjzz10,29884
+galaxyxml/tool/parameters/__init__.py,sha256=XvIogMIt3swBZOzWLXnK80l262g31T2NbNf-jNJiupA,29604
+galaxyxml-0.5.3.data/data/LICENSE.TXT,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+galaxyxml-0.5.3.dist-info/LICENSE.TXT,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+galaxyxml-0.5.3.dist-info/METADATA,sha256=MJy-UVRSQNbjvWYa_xVSGZ4wSn3jQnAhSGC3mnkaDJE,3342
+galaxyxml-0.5.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+galaxyxml-0.5.3.dist-info/top_level.txt,sha256=ypP2XKsxXPcxhcgwHz9Z5UuR-krolYUF6NqHbOHDdAA,10
+galaxyxml-0.5.3.dist-info/RECORD,,
