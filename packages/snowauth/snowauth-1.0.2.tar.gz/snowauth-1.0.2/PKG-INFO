@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: snowauth
+Version: 1.0.2
+Summary: A package for the simple local management of snowpark for python connections.
+Home-page: https://github.com/sfc-gh-dwilczak/snowauth
+Author: Branden Ciranni, Daniel Wilczak
+Author-email: daniel.wilczak@snowflake.com
+License: mit
+Keywords: Snowflake,Snowpark
+Classifier: Topic :: Printing
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: snowflake-snowpark-python
+Requires-Dist: toml
+
+# Snowauth.
+A package for the simple local management of snowpark for python connections.
+
+## Documentation 
+Documentation can be found here: [Wiki](https://sfc-gh-dwilczak.github.io/snowauth/)
+
+## Example
+
+```python
+import snowauth
+
+session = snowauth.connect('example_connection')
+```
+
+
+## Setup
+
+```
+pip install snowauth
+```
+
+After installing `snowauth`, set up your snowflake credentials:
+
+1. Create the `.snowauth` folder and the `snowflake.conf` file that will store different snowflake credentials.
+    ```
+    mkdir ~/.snowauth
+
+    mkfile ~/.snowauth/snowflake.conf
+    ```
+2. Add your snowflake credentials.
+
+    Example:
+    ```toml
+    [example_connection]
+    account = "ACCOUNT_NAME"
+    user = "USER"
+    password = "PASSWORD"
+    role = "ACCOUNTADMIN"
+    warehouse = "EXAMPLE_WH"
+    ```
+
+
+
+Then, to create a snowpark session in 1 line.
+
+```python
+import snowauth
+
+session = snowauth.connect('example_connection')
+```
+
+
+
+### Output:
+```
+<snowflake.snowpark.session.Session: account=...>
+```
