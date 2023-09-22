@@ -1,0 +1,39 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.7.1,<4"]
+
+[project]
+name = "ralf-jhuapl"
+description = "A lightweight library to support the development of applications using LLMs."
+readme = "README.md"
+# license = "MIT"
+dependencies = [
+    "openai",
+    "numpy",
+    "PyYAML",
+    "sentence-transformers",
+    "tiktoken",
+]
+dynamic = [
+    "version",
+]
+requires-python = ">=3.9"
+# readme = "README.md"
+# license = {file = "LICENSE"}
+authors = [
+  { name = "JHUAPL", email = "ralf@jhuapl.edu" },
+]
+maintainers = [
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+Documentation = "https://ralf-test.readthedocs.io/en/latest/"
+Source = "https://github.com/jhuapl-fomo/ralf"
+
+[tool.flit.module]
+name = "ralf"
