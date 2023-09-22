@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: plover-stenobee
+Version: 0.3.17.8
+Summary: Plover plugin for StenoBee Credits ( Emily Paulfioravanti Kaoffie Jen and many others )
+Home-page: https://github.com/Tink-Bell/StenoBee
+Author: Emily Easteal
+Author-email: emily@easteal.dev
+Keywords: plover plover_plugin
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: plover
+
+# stenobee System
+
+> Plover plugin for the stenobee system created by @tinkeringmatt and Emily with help from Kaoffie
+
+![stenobee system layout](newlayout.png)
