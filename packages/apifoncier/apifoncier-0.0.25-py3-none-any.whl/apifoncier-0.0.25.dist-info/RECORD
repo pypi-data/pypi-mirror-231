@@ -1,0 +1,15 @@
+apifoncier/__init__.py,sha256=MNdJxLoSEmPBXK6cgYkaGRZb9xo-yE4UKjb5Vjv0up8,215
+apifoncier/cartofriches.py,sha256=TmUXdpbS6neIGue_JAR1xqi6U9l9XDtC9KMc10ClItg,4144
+apifoncier/config.py,sha256=wdAOgO1DOOy6tzv-cWHyL0PK-SCEso3q8RxwV3UzttA,414
+apifoncier/dv3f.py,sha256=a6uo4VEfIPsyE-uqukN7kdkDDGT8H0fP7rDegFAEmNM,6943
+apifoncier/dvf_opendata.py,sha256=-r9i0Migf0enyyhCnkSHncjrvWkCCYd5yzyGWmOcTww,6372
+apifoncier/exceptions.py,sha256=yeKdeEbXNJTglutQ0SuVADjASVaPQlZJHyOsmEcqSOc,417
+apifoncier/ff.py,sha256=3UqAyUoTxIFWNnLVPdJrKhu21c0kwKd13zip0hRMeXA,19590
+apifoncier/ind_conso_espace.py,sha256=dfKfEIaJnuCYeAPkXdkOS-kmtfnItiRXZfuARIlczCA,2192
+apifoncier/ind_prix.py,sha256=-Kz1-E80X89F5vVoOSpTSAm94QZvGHY7JmfoICDf2kM,5895
+apifoncier/utils.py,sha256=C_Rfw17mfKD0dsA5fRggmesH3-VzLxBe-l8cBayKDOY,10792
+apifoncier-0.0.25.dist-info/LICENSE,sha256=Wb6-hTTvc7GnVOZu0x932Iw1qgrvyojyWnQR_Ttb6gk,1084
+apifoncier-0.0.25.dist-info/METADATA,sha256=hzGbTCJzWHYbpTDPahumWEJ8X14Q9Ldmu8Ly5HgGveU,2387
+apifoncier-0.0.25.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+apifoncier-0.0.25.dist-info/top_level.txt,sha256=jV3ii1a53PSmh7mFLxnYdOrfVrkxoJQh2bj4VO4jP4A,11
+apifoncier-0.0.25.dist-info/RECORD,,
