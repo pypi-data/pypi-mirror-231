@@ -1,0 +1,101 @@
+# TimeLens
+A tool to better understand your convolutional neural network for time series.
+
+## Example Usage
+### Activation Maximization
+Basic setup for activation maximization:
+- Import all the relevant tools from the library
+- Instantiate the AMTrainer class with your PyTorch CNN and the device you want to perform the actions on
+- Create an AM input by using different methods (See: [AM Inputs](timelens/am/am_inputs.py))
+- Create an array of penalties (Order matters!) (See: [AM Penalties](timelens/am/am_penalty.py))
+    - The one used here is the recommended one
+- Perform AM for a whole layer or only for a single unit by calling the activation maximization methods on the class object
+
+```python
+from timelens.am.am_trainer import AMTrainer
+from timelens.am.am_inputs import sin_ts, square_ts
+
+am_trainer = AMTrainer(cnn, device)
+
+# c: channels | t: time series length | vmax: maximum amplitude | freq: frequency of sine
+input_ts = sin_ts(c=6, t=125, vmax=0.3, freq=0.5)
+
+penalties = [
+    {   
+        'penalty': 'eap',
+        'weight': 0.1,
+        'th': 0.6827,
+    },
+    {
+        'penalty': 'l2',
+        'weight': 0.1,
+    },
+    {
+        'penalty': 'tv',
+        'weight': 0.1,
+    },
+]
+
+am_result = am_trainer.activation_maximization_layer(input_ts, 'conv_layers.conv0', penalties = penalties, th_clip = 0.6827, iterations = 5000)
+
+am_result = am_trainer.activation_maximization(input_ts, 'conv_layers.conv0', 0, penalties = penalties, th_clip = 0.6827, iterations = 5000)
+
+```
+
+### Evaluation
+The following code assumes that you already ran the code in the previous section.
+- Set the comparison data for dynamic time warping (train_data is torch.utils.data.TensorDataset here)
+- Call the evaluation method with different evaluation calculations (See: [AMResult](timelens/am/am_result.py))
+    - This function will consume a lot of RAM/VRAM (depending on device), so keep this in mind
+    - The amount of RAM/VRAM depends on the size of your comparison data
+
+```python
+# the am_result variable from the previous example stores an object of the class AMResult
+am_result.set_original_data(train_data.tensors[0])
+
+mean_dtw_loss = am_result.evaluate('dtw')
+```
+
+### Visualizations 
+This example shows how timelens can be used to get basic visualizations
+- Import CNNViz
+- Instantiate a CNNViz object using the PyTorch CNN and the device
+- Retrieve kernel or feature map visualizations for the whole layer or for a specific unit
+
+```python
+from timelens.cnn.cnn_viz import CNNViz
+
+cnn_viz = CNNViz(cnn, device)
+
+layer_name = 'conv_layers.conv0'
+idx_kernel = 0
+input_ts = ... # provide a training sample from your dataset here -> it will be fed through your network
+
+kernels = cnn_viz.plot_layer_kernels(layer_name)
+kernel = cnn_viz.plot_specific_kernel(layer_name, idx_kernel)
+
+feature_maps = cnn_viz.plot_layer_feature_maps(layer_name, input_ts) 
+feature_map = cnn_viz.plot_specific_feature_maps(layer_name, idx_kernel, input_ts) 
+```
+
+### Raw Network
+This example shows how timelens can be used to get basic raw data about your network
+- Import CNNRaw
+- Instantiate a CNNRaw object using the PyTorch CNN and the device
+- Retrieve kernel data or feature maps for the whole layer or for a specific unit
+
+```python
+from timelens.cnn.cnn_raw import CNNRaw
+
+cnn_raw = CNNRaw(cnn, device)
+
+layer_name = 'conv_layers.conv0'
+idx_kernel = 0
+input_ts = ... # provide a training sample from your dataset here -> it will be fed through your network
+
+kernels = cnn_raw.get_layer_kernels(layer_name)
+kernel = cnn_raw.get_specific_kernel(layer_name, idx_kernel)
+
+feature_maps = cnn_raw.get_layer_feature_maps(layer_name, input_ts) 
+feature_map = cnn_raw.get_specific_feature_maps(layer_name, idx_kernel, input_ts) 
+```
