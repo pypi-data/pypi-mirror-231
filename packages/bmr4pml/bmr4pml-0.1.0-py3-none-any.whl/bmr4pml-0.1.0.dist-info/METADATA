@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: bmr4pml
+Version: 0.1.0
+Summary: Bayesian model reduction for probabilistic machine learning
+Home-page: https://github.com/dimarkov/bmr4pml
+Author: dimarkov
+Author-email: 5038100+dimarkov@users.noreply.github.com
+Maintainer: dimarkov
+Maintainer-email: 5038100+dimarkov@users.noreply.github.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: jax
+Requires-Dist: numpyro
+Requires-Dist: optax
+Requires-Dist: equinox
+Requires-Dist: tensorflow-datasets
+Requires-Dist: tf-nightly-cpu
+Requires-Dist: tfp-nightly
+Provides-Extra: interactive
+Requires-Dist: matplotlib ; extra == 'interactive'
+Requires-Dist: seaborn ; extra == 'interactive'
+Requires-Dist: jupyter ; extra == 'interactive'
+
