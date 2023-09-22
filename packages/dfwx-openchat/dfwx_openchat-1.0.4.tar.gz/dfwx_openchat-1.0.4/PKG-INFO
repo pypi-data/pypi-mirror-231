@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dfwx_openchat
+Version: 1.0.4
+Summary: A package for dfwx_openchat.
+Home-page: UNKNOWN
+Author: DavidTaylor1987
+Author-email: domainseller@foxmail.com
+License: Apache License 2.0
+Description: run "python setup.py install" to install
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
