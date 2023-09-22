@@ -1,0 +1,10 @@
+at_hkust/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+at_hkust/auth.py,sha256=5phWIqlpWhDxfCJrMXe1vbF_E4Tm6cPvdN4AT-qfNbk,4930
+at_hkust/fbs.py,sha256=1zG--kRDeo541QXyXGyAqSsyFl44tIWra2RaDBvGFak,13684
+at_hkust/main.py,sha256=5YnpFwDFTo1Zld3AIiffLjEH3BbvIHgHW5-AvcOiaDM,218
+at_hkust/setup.py,sha256=wSela1DkxJdjuqkr3areVNPuRhU_pTJhuDglK1ejunQ,811
+at_hkust/ui.py,sha256=FgnrXSnTVBbE5MP6zKydCtoCe46OrPnjll4SVyow01E,12186
+fbs_autobook_at_hkust-1.0.3.dist-info/entry_points.txt,sha256=41nY8ysYNWOw3H9u9xUsqDmYxh8AztBb3irh37-SEZY,60
+fbs_autobook_at_hkust-1.0.3.dist-info/METADATA,sha256=b93-JXCoZrW30c-x13t7645WJV3sbH9WG_yJnggxIhQ,2909
+fbs_autobook_at_hkust-1.0.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fbs_autobook_at_hkust-1.0.3.dist-info/RECORD,,
