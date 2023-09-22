@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ehiden
+Version: 0.1.1
+Summary: 
+Author: HGS-Interman
+Author-email: naofumi.higashikawauchi@interman.co.jp
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: pymupdf (>=1.23.3,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# e-hiden
+
+佐川急便のe飛伝モジュール
+DM伝票の登録、PDFの作成、PDFの伝票毎の分割が可能です。
+
+## 動作テスト
+
+```shell
+pytest tests --id=your_username --pw=your_password
+```
+
