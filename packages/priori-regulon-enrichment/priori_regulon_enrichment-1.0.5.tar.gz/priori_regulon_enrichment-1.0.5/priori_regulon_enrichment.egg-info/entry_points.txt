@@ -1,0 +1,3 @@
+[console_scripts]
+priori = priori.priori:main
+

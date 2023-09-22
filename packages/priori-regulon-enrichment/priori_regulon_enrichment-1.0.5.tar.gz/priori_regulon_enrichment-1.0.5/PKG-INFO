@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: priori_regulon_enrichment
+Version: 1.0.5
+Summary: Priori predicts transcription factor activity from RNA sequencing data using prior, literature-supported regulatory relationship information.
+Home-page: https://github.com/ohsu-comp-bio/regulon-enrichment
+Author: Joseph Estabrook, William Yashar, & Emek Demir
+Author-email: yashar@ohsu.edu
+License: UNKNOWN
+Download-URL: https://github.com/ohsu-comp-bio/regulon-enrichment/archive/refs/tags/v1.0.5.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
