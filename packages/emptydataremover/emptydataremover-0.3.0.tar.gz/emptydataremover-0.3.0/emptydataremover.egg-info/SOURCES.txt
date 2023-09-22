@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+emptydataremover.egg-info/PKG-INFO
+emptydataremover.egg-info/SOURCES.txt
+emptydataremover.egg-info/dependency_links.txt
+emptydataremover.egg-info/top_level.txt
