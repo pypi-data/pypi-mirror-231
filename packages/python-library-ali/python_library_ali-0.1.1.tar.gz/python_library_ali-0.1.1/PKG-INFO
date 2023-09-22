@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: python-library-ali
+Version: 0.1.1
+Summary: 
+Author: Ali Sultani
+Author-email: aliakbar.su@hotmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+## This is a sample project for testing poetry publishing to pypi
