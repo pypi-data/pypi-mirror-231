@@ -1,0 +1,9 @@
+examples/mda_plot2d.py,sha256=8cdLxTNE2i7Ngah4_4gSxlalpc2jDs1TzVhyMc0rsg4,795
+examples/mda_plot3d.py,sha256=KFbt4BGrDVjHtHW3mxqv76zvOkt3qpvVWpuXWS2xXTU,953
+examples/run.py,sha256=r_3ePHcJiySj0FTzT03VZ21HvobZ0UMdECoBwGRA9P0,69
+mdapy/__init__.py,sha256=D5TfHdMykveaG0A_rXiDkEScFJVQwTPjWvyqoZIKBUY,31
+mdapy/mda.py,sha256=i3DxYFfib6yH_7oa-E9zcsrk0Cgd9mrhbX1f76kkVtA,4254
+ihc_mdapy-0.1.0.dist-info/METADATA,sha256=dyrv3ehmuOVa243rn4LYe7nITjD1Z9ChBHVIsQxuAJA,3872
+ihc_mdapy-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ihc_mdapy-0.1.0.dist-info/licenses/LICENSE,sha256=TAchGv3xdK_nWeIAdKPuL4ojH7m-sRKmj05UnSELfek,1087
+ihc_mdapy-0.1.0.dist-info/RECORD,,
