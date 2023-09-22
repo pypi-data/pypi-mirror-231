@@ -1,0 +1,7 @@
+charset_normalizer<4,>=2
+idna<4,>=2.5
+urllib3.future<3,>=2.0.933
+wassima<2,>=1.0.0
+
+[socks]
+PySocks!=1.5.7,>=1.5.6
