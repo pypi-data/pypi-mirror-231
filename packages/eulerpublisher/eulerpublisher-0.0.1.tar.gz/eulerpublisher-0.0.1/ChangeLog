@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+0.0.1
+-----
+
+* Merge: enhance the code robustness of publishing container and aws image
+* Add code for building AMI image
+* !1 Initialize EulerPublisher code
+* Initialize EulerPublisher code
+* Initial commit
