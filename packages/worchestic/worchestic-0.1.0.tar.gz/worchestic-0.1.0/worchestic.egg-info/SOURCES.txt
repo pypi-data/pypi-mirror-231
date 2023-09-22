@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+tests/test_matrix.py
+worchestic/signals.py
+worchestic/vid_matrix.py
+worchestic.egg-info/PKG-INFO
+worchestic.egg-info/SOURCES.txt
+worchestic.egg-info/dependency_links.txt
+worchestic.egg-info/requires.txt
+worchestic.egg-info/top_level.txt
