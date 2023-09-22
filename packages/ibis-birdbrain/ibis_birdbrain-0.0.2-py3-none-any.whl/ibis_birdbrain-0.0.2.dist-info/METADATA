@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ibis-birdbrain
+Version: 0.0.2
+Summary: AI for Ibis
+Project-URL: Homepage, https://github.com/lostmygithubaccount/ibis-birdbrain
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/ibis-birdbrain/issues
+Author-email: Cody <cody@dkdc.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: html2text
+Requires-Dist: ibis-framework[deltalake,duckdb,polars]
+Requires-Dist: ipython
+Requires-Dist: marvin[ddg]~=1.3.0
+Requires-Dist: openai
+Requires-Dist: pillow
+Requires-Dist: plotly
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: streamlit
+Requires-Dist: toml
+Requires-Dist: typer[all]
+Description-Content-Type: text/markdown
+
+# ibis-birdbrain
+An avian analytics AI
