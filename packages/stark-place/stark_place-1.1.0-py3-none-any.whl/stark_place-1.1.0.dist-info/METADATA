@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: stark-place
+Version: 1.1.0
+Summary: S.T.A.R.K. Platform Library And Community Extensions
+Home-page: https://pypi.org/project/stark-place/
+License: CC BY-NC-SA 4.0
+Keywords: python,open-source,natural-language-processing,framework,cross-platform,natural-language,voice,voice-commands,python3,voice-recognition,speech-recognition,speech-to-text,community-project,voice-assistant,voice-interface,NLP,machine-learning,AI,text-analysis,stark,stark-place,stark-engine,mark parker
+Author: Mark Parker
+Author-email: mark@parker-programs.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://stark.markparker.me
+Project-URL: Repository, https://github.com/MarkParker5/STARK-PLACE
+Description-Content-Type: text/markdown
+
+# S.T.A.R.K. Platform Library And Community Extensions
+
+Check the [documentation](https://stark.markparker.me/contributing-and-shared-usage-stark-place)
+
