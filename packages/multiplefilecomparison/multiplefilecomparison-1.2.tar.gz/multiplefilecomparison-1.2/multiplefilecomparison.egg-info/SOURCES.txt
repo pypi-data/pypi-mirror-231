@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+multiplefilecomparison/__init__.py
+multiplefilecomparison/docx_and_pdf.py
+multiplefilecomparison/excel_compare.py
+multiplefilecomparison.egg-info/PKG-INFO
+multiplefilecomparison.egg-info/SOURCES.txt
+multiplefilecomparison.egg-info/dependency_links.txt
+multiplefilecomparison.egg-info/requires.txt
+multiplefilecomparison.egg-info/top_level.txt
