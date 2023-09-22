@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ml-twopointone"
+version = "0.1.0"
+description = "Package including some functions frequently used in machine learning and data science"
+authors = ["Eugine Eering, D. Ata"]
+readme = "package-README.md"
+include = ["ml_twopointone"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
