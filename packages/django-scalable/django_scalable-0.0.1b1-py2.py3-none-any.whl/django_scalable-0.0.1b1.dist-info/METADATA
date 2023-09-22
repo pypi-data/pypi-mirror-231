@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: django-scalable
+Version: 0.0.1b1
+Summary: Django-Scalable - the application introducing tools for scalable Django applications
+Home-page: https://github.com/nnseva/django-scalable
+Author: Vsevolod Novikov
+Author-email: nnseva@gmail.com
+License: LGPL
+Keywords: django scalable split-and-merge split merge
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: django
+
+Django-Scalable
+===============
+
+The Django-Scalable package introduces a base abstract Scalable class,
+inherited from the Model class, and some number of utilities, appropriate
+to spread processing a huge set of instances to any number of workers
+running in parallel.
+
+See details at the home page: https://github.com/nnseva/django-scalable
