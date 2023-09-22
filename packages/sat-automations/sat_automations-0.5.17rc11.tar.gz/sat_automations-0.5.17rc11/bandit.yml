@@ -1,0 +1,2 @@
+exclude_dirs: ["tests", "example", "sat_automations/conftest.py"]
+skips: ["B608"]
