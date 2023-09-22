@@ -1,0 +1,12 @@
+addons_installer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addons_installer/_version.py,sha256=mvdFOhMFM8hVk_8uk8__NhVlEtQsaOpKQObDfghbz7s,240
+addons_installer/addons_installer.py,sha256=rTinrgPmSW5ryKAX7Cn183FmDpOC-LZydxCSZWysY1g,6558
+addons_installer/api.py,sha256=8M_qgy6X9UeF--Na-0T1CD5qq5uEZ0HMRyYqJILCZV0,5756
+addons_installer/cli.py,sha256=Ajc7dfI9bjrcQToN3rfDBQLwge8kvxKm4yELI9TanDs,2944
+addons_installer/git_addons.py,sha256=pA27ZAUWKLwY7oUxYgmt8bYwNAp7wSAy6QIWVZcuhcg,9598
+addons_installer/local_addons.py,sha256=uPQa1eM-SI3IL6UBgGV0E088IFABEhD0kKEuXQ5CaGs,1231
+addons_installer-3.4.0.dist-info/METADATA,sha256=SjS3zjZ4t_WkKFPynS-C6ZynyNF_4YyXlms9oM0nTXY,344
+addons_installer-3.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+addons_installer-3.4.0.dist-info/entry_points.txt,sha256=XRt8giWQes2prAaUM3TvRJ-hwgSkl66fUTmqYTFhhvY,75
+addons_installer-3.4.0.dist-info/top_level.txt,sha256=jA7b74hWH54S_wntri5j7b9Hc2IbLi0cs3KQMyRj-wU,17
+addons_installer-3.4.0.dist-info/RECORD,,
