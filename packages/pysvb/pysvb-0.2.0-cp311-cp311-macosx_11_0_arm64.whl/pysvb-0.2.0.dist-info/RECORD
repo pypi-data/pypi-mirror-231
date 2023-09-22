@@ -1,0 +1,8 @@
+pysvb-0.2.0.dist-info/METADATA,sha256=nAANqe8QJpXozPwPPWHJD_w3DeQ366dfui0YIP9ubnk,390
+pysvb-0.2.0.dist-info/WHEEL,sha256=V5sWd_lSU9LGVrarVpn3OrgKqDnXZrPlHhth-Q0Htxg,104
+pysvb/__init__.py,sha256=jK_DTvja-CqrcAn2V3rk3-O27YvNz2YYqLM1niNf9g8,46
+pysvb/__pycache__/test.cpython-311-pytest-7.4.2.pyc,sha256=OlnfFl8ZTAKYJD-8ujoCXBzz5VgdWwEq-N2jdM5ll_A,18820
+pysvb/__pycache__/__init__.cpython-311.pyc,sha256=cW6a7BSA-AZ84GfMm8v3z3lAQrKywGagCTvqUXgFcUw,246
+pysvb/test.py,sha256=TsrRk6fZ_OyKmg1uSPBgz-0zLx7ghgSGzIlUIhBtk0A,3344
+pysvb/_lowlevel.cpython-311-darwin.so,sha256=Dy7rnsIE8kKaoQkVF99SPSLZwR4gL_bEZaPUnVABkOY,1142658
+pysvb-0.2.0.dist-info/RECORD,,
