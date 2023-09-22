@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/unipoll_api.egg-info/PKG-INFO
+src/unipoll_api.egg-info/SOURCES.txt
+src/unipoll_api.egg-info/dependency_links.txt
+src/unipoll_api.egg-info/entry_points.txt
+src/unipoll_api.egg-info/requires.txt
+src/unipoll_api.egg-info/top_level.txt
+tests/test_1_accounts.py
+tests/test_2_workspaces.py
+tests/test_3_groups.py
+tests/test_4_permissions.py
