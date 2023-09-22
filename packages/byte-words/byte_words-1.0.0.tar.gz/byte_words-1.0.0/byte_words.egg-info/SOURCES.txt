@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+byte_words/__init__.py
+byte_words/byte_words.py
+byte_words.egg-info/PKG-INFO
+byte_words.egg-info/SOURCES.txt
+byte_words.egg-info/dependency_links.txt
+byte_words.egg-info/entry_points.txt
+byte_words.egg-info/top_level.txt
