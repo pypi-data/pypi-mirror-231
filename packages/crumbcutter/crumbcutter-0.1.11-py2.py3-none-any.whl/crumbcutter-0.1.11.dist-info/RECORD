@@ -1,0 +1,12 @@
+crumbcutter/VERSION.txt,sha256=ZtYDVhcsyv3TNPypvzMkPIQJIWpzPc3g1mok_XDugTI,7
+crumbcutter/__init__.py,sha256=Q99XIjrtnatXjHBTsINn4yRJE8wQ8x32qR0UFWFkNjE,474
+crumbcutter/__main__.py,sha256=pkh9tdYzHS7VZgOUkqx3gc9uoPXkzgX6jWWKNj5Y7hI,95
+crumbcutter/cli.py,sha256=cpvyLBwLuLQZWOR29za8wyQVMe7_fZl0ZRnOoXz5qsE,1795
+crumbcutter/crumbcutter.py,sha256=1Ch1e4wVsMjQ50qiK-nO5W1rtCRyLPWv-Somz9zpEGs,5942
+crumbcutter-0.1.11.dist-info/AUTHORS.rst,sha256=GLmeuMmLtKMQoTCJMMW7jtdD7p3MRF2y3uzvq7ofnDI,127
+crumbcutter-0.1.11.dist-info/LICENSE,sha256=9qWcSqrVJAbv4cm0ibAxjpCECkuZMY4u31gR0yLNGiU,1069
+crumbcutter-0.1.11.dist-info/METADATA,sha256=G91ffH7Ol4kwMREL1uGGIOAwu2giU7zvoZJb283Ohf8,3338
+crumbcutter-0.1.11.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+crumbcutter-0.1.11.dist-info/entry_points.txt,sha256=NVLTnwfy7AyAM9tRx6EeJIuU64itpw0KSRmni_6yxNI,53
+crumbcutter-0.1.11.dist-info/top_level.txt,sha256=Fup-pO7Go0s2JDrPhUZIkvd0j5sWzsp7wfgU1bS8s6Y,12
+crumbcutter-0.1.11.dist-info/RECORD,,
