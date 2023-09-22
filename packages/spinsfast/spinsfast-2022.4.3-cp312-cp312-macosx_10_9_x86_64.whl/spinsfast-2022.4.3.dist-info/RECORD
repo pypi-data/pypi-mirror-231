@@ -1,0 +1,9 @@
+spinsfast-2022.4.3.dist-info/RECORD,,
+spinsfast-2022.4.3.dist-info/LICENSE,sha256=EqxQR_KvBSLwZ5ixWJ_8RZm8KckflU14dOAyBjTnd8A,35122
+spinsfast-2022.4.3.dist-info/WHEEL,sha256=keHNpQgVCtZmnassXI38bYehVkiZ8Lrud_k-zLyqsEg,111
+spinsfast-2022.4.3.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+spinsfast-2022.4.3.dist-info/top_level.txt,sha256=19x_G4jehzLSzGDR4A145MnHS4kM8yBbThPSAgJh1lE,10
+spinsfast-2022.4.3.dist-info/METADATA,sha256=_uaGhZH5jWfdoWzkKYad5Fmc97gyTurAB6-cRUJsQNg,519
+spinsfast/__init__.py,sha256=VB_WHgsKugG-GbFlk-l_LfsBabotuPA0ed7jDOBznu8,11911
+spinsfast/cextension.cpython-312-darwin.so,sha256=9wTcReetQKEFO2yHez1aFWOE7cQcnurmFn_gByB7aoY,101968
+spinsfast/.dylibs/libfftw3.3.dylib,sha256=Bu8o09Rc5xCoFzVtE2pQFwP2b7nZOKBCKr2Bh6T17A0,2816496
