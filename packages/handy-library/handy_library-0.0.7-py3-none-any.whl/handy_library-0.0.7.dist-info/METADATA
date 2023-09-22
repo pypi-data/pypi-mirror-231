@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: handy-library
+Version: 0.0.7
+Summary: A library that makes it very convenient to perform standard actions in Python
+Author-email: SVJA7IK <svja7ik@gmail.com>
+Project-URL: Homepage, https://github.com/SVJA7IK/HandyLibrary
+Keywords: handy library,handylib,universal library
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE.md
+Requires-Dist: loguru ==0.7.2 ; python_version >= "3.10"
+Requires-Dist: rich ==13.5.3 ; python_version >= "3.10"
+
+# HandyLibrary
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-31013/)
+
+A library that makes it very convenient to perform standard actions in Python
+## Installation
+### Using PyPI
+The latest stable release is available on PyPI, and you can install it by saying
+```
+python -m pip install handy-library 
+```
+
+## Example
+Example of configuring automatic creation of `config.json`
+```
+from handylib.tools import ConfigLoader
+
+cl = ConfigLoader()
+cl.load_config("config.json", [cl.ConfigParam('test', value=[1, 2, 3], description="Params", value_type=list)])
+```
+The `config.json` file that resulted from the output
+```
+{
+    "test_1_description": "Params",
+    "test_1": [1, 2, 3],
+    "test_2": 0.123,
+    "test_3": true
+}
+```
