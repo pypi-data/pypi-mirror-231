@@ -1,0 +1,12 @@
+ralf_dialogue/__init__.py,sha256=taJAHiK1x_nSD3qgrpk84Lp0zTwIVCtE14lMA1wrkcY,94
+ralf_dialogue/conversation.py,sha256=2IQCRUMj_gWszKI9Kdrock4AIUgWDLB9wkTvnTA5zbA,10714
+ralf_dialogue/dialogue.py,sha256=JpVhxwXlryqdCiaHRsM5VEd5mSYDPEWDDo-AH2DN9ZQ,1648
+ralf_dialogue/planners.py,sha256=Gz67Ja1S5Z6i4dkqTkynzWImPVT3hmffgjNB03l7Sc8,1876
+ralf_dialogue/services.py,sha256=oxg6AqyDxUhB7H6vtUwbv4ZxyL-hwwpvj7UEdFk798U,1130
+ralf_dialogue/world_state.py,sha256=tplN0rchmH4_zslBsXcHYZ4LHLgjOKyZ6wQgY1kjeaw,3318
+ralf_dialogue/ralf_data/models.yml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ralf_dialogue/ralf_data/prompts.yml,sha256=vXOKfiyU_TuhN2tzZ95kDzW2wCct9yzeuSdubnVTr7Q,4242
+ralf_dialogue_jhuapl-0.0.3.dist-info/LICENSE,sha256=MyIa9-o0hwbAXu9sfADOsSvnuwxXgtCNowp8QR_SJfE,1112
+ralf_dialogue_jhuapl-0.0.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+ralf_dialogue_jhuapl-0.0.3.dist-info/METADATA,sha256=Naf40V8qyYOwkGtvMh0dBpx_G4aa-1k_OuA15t2dVQ4,3880
+ralf_dialogue_jhuapl-0.0.3.dist-info/RECORD,,
