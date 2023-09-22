@@ -1,0 +1,11 @@
+include **/py.typed
+include **/*.pyi
+exclude .readthedocs.yaml
+exclude .gitignore
+exclude CHANGELOG.rst
+exclude CODE_OF_CONDUCT.rst
+exclude codecov.yaml
+exclude CONTRIBUTING.rst
+exclude docs/**
+exclude tests/**
+exclude types/**
