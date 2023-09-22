@@ -1,0 +1,10 @@
+setup.py
+hungdinh97_distributions/Binomialdistribution.py
+hungdinh97_distributions/Gaussiandistribution.py
+hungdinh97_distributions/Generaldistribution.py
+hungdinh97_distributions/__init__.py
+hungdq97_distributions.egg-info/PKG-INFO
+hungdq97_distributions.egg-info/SOURCES.txt
+hungdq97_distributions.egg-info/dependency_links.txt
+hungdq97_distributions.egg-info/not-zip-safe
+hungdq97_distributions.egg-info/top_level.txt
