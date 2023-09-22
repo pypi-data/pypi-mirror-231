@@ -1,0 +1,13 @@
+caf/distribute/__init__.py,sha256=3e8gRpKXon-PvLdbtdgduhuzxPXVq9FNYLM2QeXLZyw,35
+caf/distribute/_version.py,sha256=bKA7UhxnZd5qFl_JBYq-_h1Q9ie8QEGE9BFQSOcBK0I,434
+caf/distribute/cost_functions.py,sha256=qTlVlPHuF-10ycmFzBjnn07RMYQ8o-bcOlZClESDXRs,9854
+caf/distribute/furness.py,sha256=rWjbzy1bUCLLTrreecubt2UVrgNXHYszeAjxgBf9igQ,5216
+caf/distribute/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caf/distribute/gravity_model/__init__.py,sha256=MPNUgQWKDfZGdg47alwx3QXBp4gE5WnoeLW8pSOl8Fw,385
+caf/distribute/gravity_model/core.py,sha256=npyYVQY3rQcfr4DvR5LOxfBZFkTPyuZWLIPSpvJpbFA,48712
+caf/distribute/gravity_model/single_area.py,sha256=abNxn6o_zXNfL6Po-vHc6gLw9gw2d_H3cDE3uSkrjJk,9564
+caf.distribute-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+caf.distribute-0.1.0.dist-info/METADATA,sha256=3sXKQF0p4sWu5s7LoPT20D4h9fhxcJphl35dbD8-40c,44943
+caf.distribute-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+caf.distribute-0.1.0.dist-info/top_level.txt,sha256=8dRylPLtiVOyfFCERkOsT62REE5eORmV3dStT58kC9o,4
+caf.distribute-0.1.0.dist-info/RECORD,,
