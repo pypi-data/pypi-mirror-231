@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ehiden
+Version: 0.1.0
+Summary: 
+Author: HGS-Interman
+Author-email: naofumi.higashikawauchi@interman.co.jp
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# e-hiden
+
+佐川急便のe飛伝モジュール
+
+## テスト
+
+```shell
+pytest tests --id=your_username --pw=your_password
+```
+
