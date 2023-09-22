@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: radix-engine-toolkit
+Version: 0.12.1
+Summary: A Python wrapper around the Radix Engine Toolkit that provides Radix Ledger primitives to Python.
+Home-page: https://github.com/radixdlt/radix-engine-toolkit
+Author: radixdlt
+License: Apache-2.0
+Project-URL: Bug Tracker, https://github.com/radixdlt/radix-engine-toolkit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Long Description
