@@ -1,0 +1,28 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "_beacon",
+        "type": "address"
+      }
+    ],
+    "name": "BeaconDeployed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "getBeaconAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
