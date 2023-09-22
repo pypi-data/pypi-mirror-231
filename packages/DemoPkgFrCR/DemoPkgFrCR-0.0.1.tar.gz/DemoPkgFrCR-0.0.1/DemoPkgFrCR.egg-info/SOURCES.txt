@@ -1,0 +1,7 @@
+setup.py
+DemoPkgFrCR/FileIngest.py
+DemoPkgFrCR/__init__.py
+DemoPkgFrCR.egg-info/PKG-INFO
+DemoPkgFrCR.egg-info/SOURCES.txt
+DemoPkgFrCR.egg-info/dependency_links.txt
+DemoPkgFrCR.egg-info/top_level.txt
