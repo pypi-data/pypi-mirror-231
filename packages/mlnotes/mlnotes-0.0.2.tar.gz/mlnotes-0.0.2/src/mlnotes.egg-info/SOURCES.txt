@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mlnotes/__init__.py
+src/mlnotes/__main__.py
+src/mlnotes/mlnotes.py
+src/mlnotes.egg-info/PKG-INFO
+src/mlnotes.egg-info/SOURCES.txt
+src/mlnotes.egg-info/dependency_links.txt
+src/mlnotes.egg-info/top_level.txt
