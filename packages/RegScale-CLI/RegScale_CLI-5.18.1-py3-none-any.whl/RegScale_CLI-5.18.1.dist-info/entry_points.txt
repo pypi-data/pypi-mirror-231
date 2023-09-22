@@ -1,0 +1,5 @@
+[console_scripts]
+regscale = regscale.regscale:cli
+regscale-airflow-upload-dags = regscale.airflow.azure.upload_dags:main
+regscale-rest = regscale.core.server.flask_api:run_app
+
