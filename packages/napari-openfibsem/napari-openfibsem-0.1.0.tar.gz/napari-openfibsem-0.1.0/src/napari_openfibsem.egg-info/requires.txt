@@ -1,0 +1,10 @@
+fibsem>=0.2.4
+autolamella>=0.2.4
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
