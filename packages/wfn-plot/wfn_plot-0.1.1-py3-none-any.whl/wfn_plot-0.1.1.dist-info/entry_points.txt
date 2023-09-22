@@ -1,0 +1,3 @@
+[console_scripts]
+chg_cal = wfn_plot.chg_cal:main
+wfn_export = wfn_plot.wfn_export:main
