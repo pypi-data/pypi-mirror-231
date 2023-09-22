@@ -1,0 +1,39 @@
+ModalScreen {
+    align: center middle;
+}
+
+Input {
+    width: 100%;
+}
+
+Input.remove {
+    display: none;
+}
+
+RichLog.remove {
+    display: none;
+}
+
+Button {
+    width: auto;
+}
+
+#h_scroll {
+    height: 5fr;
+    width: auto;
+}
+
+#v_scroll {
+    width: 2fr;
+    border: round;
+}
+
+#dicom_info_container {
+    width: 5fr;
+    border: round;
+}
+
+#rich_log {
+    height: 4;
+    border: hkey;
+}

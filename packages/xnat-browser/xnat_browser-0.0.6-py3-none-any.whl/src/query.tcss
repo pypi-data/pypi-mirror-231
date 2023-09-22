@@ -1,0 +1,14 @@
+#query_button {
+    width: 100%;
+}
+
+#query_input {
+    width: 2fr;
+    border: round;
+}
+
+#data_table {
+    width: 3fr;
+    border: round;
+    height: 100%
+}
