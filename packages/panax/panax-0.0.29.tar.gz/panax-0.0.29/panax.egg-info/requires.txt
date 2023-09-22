@@ -1,0 +1,4 @@
+Click
+pymysql
+sqlalchemy==1.4.46
+sqlalchemy-migrate
