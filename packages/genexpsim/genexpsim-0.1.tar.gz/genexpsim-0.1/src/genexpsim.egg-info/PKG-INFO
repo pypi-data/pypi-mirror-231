@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: genexpsim
+Version: 0.1
+Summary: Gene expression simulation for circadian clock and coupled cells
+Author-email: mahlzahn <mahlzahn@posteo.de>
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Source, https://codeberg.org/mahlzahn/genexpsim
+Project-URL: Issues, https://codeberg.org/mahlzahn/genexpsim/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: full
+Requires-Dist: argcomplete; extra == "full"
+
+# genexpsim – Gene expression simulation for circadian clock and coupled cells
+
+## Introduction
+Currently three observables (also called levels) are simulated:
+* Number of active genes $`n_\text{g}(t)\in[0,N_\text{gc}]`$
+* Number of mRNA molecules $`n_\text{m}(t)`$
+* Number of protein molecules $`n_\text{p}(t)`$
+
+with gene copy number $`N_\text{gc}=2`$ (command-line option `--ngc`) and six processes with different rates:
+
+process | rate $`r_i(t)`$ | default constant | command-line option
+------- | --------------- | ---------------- | -------------------
+DNA inactivation | $`k_\text{off}\cdot n_\text{g}(t)`$ | $`k_\text{off}=8\,\text{h}^{-1}=\frac{1}{7.5\,\text{min}}`$ | `--koff`
+DNA activation | $`k_\text{on}\cdot\left(N_\text{gc}-n_\text{g}(t)\right)`$ | $`k_\text{on}=1.5\,\text{h}^{-1}=\frac{1}{20\,\text{min}}`$ | `--kon`
+mRNA transcription | $`k_\text{m}\cdot n_\text{g}(t)`$ | $`k_\text{m}=225\,\text{h}^{-1}=3.75\,\text{min}^{-1}`$ | `--km`
+mRNA degradation | $`\gamma_\text{m}\cdot n_\text{m}(t)`$ | $`\gamma_\text{m}=0.75\,\text{h}^{-1}=\frac{\ln2}{55\,\text{min}}`$ | `--gm`
+protein translation | $`k_\text{p}\cdot n_\text{m}(t)`$ | $`k_\text{p}=1.25\,\text{h}^{-1}`$ | `--kp`
+protein degradation | $`\gamma_\text{p}\cdot n_\text{p}(t)`$ | $`\gamma_\text{p}=0.35\,\text{h}^{-1}`$ | `--gp`
+
+Variable rates are implemented either DNA activation, DNA inactivation or mRNA transcription. Then for the respective rate the constant $`k_i`$ is replaced by
+```math
+k_i\rightarrow k_i\left(1-\beta_i\cos(\omega_i t-\phi_i)\right)
+```
+with frequency $`\omega_i`$, phase $`\phi_i`$ and amplitude $`\beta_i\in[-1,1]`$ which can be set via command-line options `--omega`, `--phi` and `--beta` respectively.
+
+## Usage
+The genexpsim package includes classes for different kinds of simulation:
+* `genexpsim.GES`: single cell simulation with constant rates
+* `genexpsim.GESCircadianDNAActivation`, `genexpsim.GESCircadianDNAInactivation`, `genexpsim.GESCircadianRNATranscription`: single cell simulation with variable rates for DNA activation, DNA inactivation or mRNA transcription
+* `genexpsim.GESNetworkCircadian`: multiple cell simulation with variable rates for DNA activation, DNA inactivation or mRNA transcription
+* `genexpsim.GESMultiGenes`: single cell simulation with multiple genes, variable rates for DNA activation, inactivation or mRNA transcription are possible
+
+It can be used with
+```python
+import genexpsim
+sim = genexpsim.GES(duration=120.0)
+sim.init_constants(koff=8.0, kon=1.5, km=225.0, gm=0.75, kp=1.25, gp=0.35)
+sim.run()
+sim.plot_rates()
+sim.plot_events_levels()
+sim.print_summary()
+```
+The simulation object is firstly created (here with a duration of 120 hours). Then different constants are initialised and then the simulation is started with `run()`. The functions `plot_rates()` and `plot_events_levels()` are for plotting rates, events and levels. The function `print_summary()` prints a summary of rates and levels. These last three functions can take file names as input argument. If omitted, then the figures are shown interactively and the summary is printed on stdout. See details in the documentation of the class (e.g. with `help(genexpsim.GES)`).
+
+## Command-line script
+The script `genexpsim.py` can be used to run the different simulations. A single cell simulation with constant rates can be obtained with
+```sh
+python3 genexpsim.py -dpsv sim0_1c_output_dir
+```
+Here the options `-d`, `-p` and `-s` stand for dumping the simulation to a pickle (`.pkl`) file, plotting the results to `.png` files and printing a summary in a `.txt` file, respectively. The option `-v` is for increased verbosity (`-vv` increases even more). The results are saved in the given directory (here `sim0_1c_output_dir`). All options can be seen with
+```sh
+python3 genexpsim.py -h
+```
+A multi-cell simulation, e.g. for variable DNA activation can be obtained with
+```sh
+python3 genexpsim.py -dpsv -t 120 -n 100 --variable_process DNA_activation --domega 0.01 sim1_100c_output_dir
+```
+where `-t` specifies the duration of simulation in hours (default: 24.0) and `-n` the number of coupled cells. The parameter `--domega` specifies the standard deviation on omega for the randomly chosen omega per cell.
+
+If the machine has several CPUs the number of CPUs to be used can be set with the option `--n_cpus`:
+```sh
+python3 genexpsim.py -dpsv -t 120 -n 100 --variable_process DNA_activation --domega 0.01 --n_cpus 4 sim1_100c_output_dir
+```
+
+A previously saved simulation file can be plotted and summarised without rerunning the simulation with
+```sh
+python3 genexpsim.py -psv --dump_file sim0_1c_output_dir/seed_None_24.0h.pkl
+```
+
+## Dependencies
+* mandatory for the package: [matplotlib](https://matplotlib.org/) and [numpy](https://numpy.org/)
+* optional for the script: [argcomplete](https://kislyuk.github.io/argcomplete/) for bash completion of command-line options
+
+## Copyright
+Copyright 2021-2023 Robert Wolff <mahlzahn@posteo.de>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
