@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+django_scalable.egg-info/PKG-INFO
+django_scalable.egg-info/SOURCES.txt
+django_scalable.egg-info/dependency_links.txt
+django_scalable.egg-info/not-zip-safe
+django_scalable.egg-info/requires.txt
+django_scalable.egg-info/top_level.txt
+scalable/__init__.py
+scalable/apps.py
+scalable/models.py
