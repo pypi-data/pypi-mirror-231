@@ -1,0 +1,21 @@
+[package]
+name = "parallel-podcast-parser"
+version = "0.3.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "py_podcast_parser"
+crate-type = ["cdylib"]
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+reqwest = { version = "0.11", features = ["blocking"] }
+roxmltree = "0.18.0"
+chrono = "0.4.26"
+dateparser = "0.2.0"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3.28"
+pyo3 = { version = "0.19", features = ["extension-module"] }
+pyo3-asyncio = { version = "0.19", features = ["tokio-runtime"] }
+
