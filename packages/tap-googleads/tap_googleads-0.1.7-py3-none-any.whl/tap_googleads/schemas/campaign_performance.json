@@ -1,0 +1,68 @@
+{
+    "type": "object",
+    "properties": {
+        "_sdc_primary_key": {
+            "type": "string"
+        },
+        "campaign": {
+            "type": "object",
+            "properties": {
+                "resourceName": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "startDate": {
+                    "type": "string"
+                },
+                "endDate": {
+                    "type": "string"
+                },
+                "advertisingChannelType": {
+                    "type": "string"
+                },
+                "AdvertisingChannelSubType": {
+                    "type": "string"
+                }
+            }
+        },
+        "metrics": {
+            "type": "object",
+            "properties": {
+                "conversions": {
+                    "type": "number"
+                },
+                "clicks": {
+                    "type": "string"
+                },
+                "costMicros": {
+                    "type": "string"
+                },
+                "ctr": {
+                    "type": "number"
+                },
+                "averageCpc": {
+                    "type": "number"
+                },
+                "impressions": {
+                    "type": "string"
+                }
+            }
+        },
+        "segments": {
+            "type": "object",
+            "properties": {
+                "device": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
