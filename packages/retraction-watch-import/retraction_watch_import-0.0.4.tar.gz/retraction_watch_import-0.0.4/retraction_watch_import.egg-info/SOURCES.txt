@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+retraction_watch_import/__init__.py
+retraction_watch_import/importer.py
+retraction_watch_import/run_import.py
+retraction_watch_import.egg-info/PKG-INFO
+retraction_watch_import.egg-info/SOURCES.txt
+retraction_watch_import.egg-info/dependency_links.txt
+retraction_watch_import.egg-info/requires.txt
+retraction_watch_import.egg-info/top_level.txt
