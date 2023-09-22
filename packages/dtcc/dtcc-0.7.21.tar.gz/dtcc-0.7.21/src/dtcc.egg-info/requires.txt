@@ -1,0 +1,13 @@
+dtcc-model>=0.7.21
+dtcc-io>=0.7.21
+dtcc-data>=0.7.21
+dtcc-builder>=0.7.21
+dtcc-viewer>=0.7.21
+dtcc-wrangler>=0.7.21
+
+[docs]
+sphinx
+sphinx-immaterial
+
+[test]
+pytest
