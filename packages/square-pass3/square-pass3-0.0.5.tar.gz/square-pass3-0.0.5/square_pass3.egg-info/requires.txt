@@ -1,0 +1,9 @@
+rich
+colorama
+prettytable
+pycryptodome
+pyperclip
+psutil
+setuptools
+wheel
+PyYAML
