@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/multi_collinearity.egg-info/PKG-INFO
+src/multi_collinearity.egg-info/SOURCES.txt
+src/multi_collinearity.egg-info/dependency_links.txt
+src/multi_collinearity.egg-info/top_level.txt
+src/multicollinearity/__init__.py
+src/multicollinearity/feature_reduction.py
+src/multicollinearity/main.py
