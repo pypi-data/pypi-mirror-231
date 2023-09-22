@@ -1,0 +1,16 @@
+Pillow
+tqdm
+jsonpickle
+humanfriendly
+numpy
+matplotlib
+opencv-python
+requests
+pyqtree
+scikit-learn
+pandas
+seaborn
+PyYAML
+torch
+torchvision
+yolov5
