@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+examples/0.0.2/wxai_langchain_interface.ipynb
+src/wxai_langchain/__init__.py
+src/wxai_langchain/credentials.py
+src/wxai_langchain/llm.py
+src/wxai_langchain.egg-info/PKG-INFO
+src/wxai_langchain.egg-info/SOURCES.txt
+src/wxai_langchain.egg-info/dependency_links.txt
+src/wxai_langchain.egg-info/requires.txt
+src/wxai_langchain.egg-info/top_level.txt

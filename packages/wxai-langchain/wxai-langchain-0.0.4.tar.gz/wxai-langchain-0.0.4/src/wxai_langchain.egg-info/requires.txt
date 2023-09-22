@@ -1,0 +1,11 @@
+urllib3<2
+requests>=2.31.0
+pydantic<=1.10.10
+langchain>=0.0.200
+ibm_cloud_sdk_core>=3.16.7
+aiohttp>=3.8.4
+ibm-watson-machine-learning>=1.0.311
+
+[dev]
+python-dotenv>=1.0.0
+datasets==2.11.0
