@@ -1,0 +1,6 @@
+setuptools>=64.0
+
+[dev]
+pytest
+pytest-xdist
+filelock
