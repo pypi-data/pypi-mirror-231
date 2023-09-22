@@ -1,0 +1,7 @@
+asgiref
+django
+pysaml2
+okta
+
+[dev]
+env-pipes
