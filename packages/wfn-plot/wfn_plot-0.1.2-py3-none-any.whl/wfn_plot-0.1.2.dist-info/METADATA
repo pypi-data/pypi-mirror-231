@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wfn-plot
+Version: 0.1.2
+Summary: wfn_plot
+Download-URL: 
+Author: Yang Zhong
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: numpy
+
+UNKNOWN
+
