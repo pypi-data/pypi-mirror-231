@@ -1,0 +1,13 @@
+dagster_insights/__init__.py,sha256=916DmtX5wdy5-hrDAPpkyd1chdx3tVzhY7zyuDQhz-8,207
+dagster_insights/client.py,sha256=9MXxdPiJiFNO31ZhbigTkzUy8K_jf1564l656kViRYU,11228
+dagster_insights/exceptions.py,sha256=_GrycqbxxqHSnxKveff-sJz9L-UHi4iRg-U_rGAEss8,138
+dagster_insights/model.py,sha256=SHViVf5Yo0yPIV66tJfEZ8D9argettZsIXUCWb7gdF0,286
+dagster_insights/query.py,sha256=Bo8J81X9rhOtjr_VeYWue1pqkMw9WHHgIJeB43Z5ef8,675
+dagster_insights/resource.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagster_insights/version.py,sha256=zJqpDCTjOK_8UUTArYG8Z1_m1MefgAGZk1YNGY1V3U0,24
+dagster_insights/dbt/__init__.py,sha256=W_I6qyIahvLAwq7Zpsb2Vbxt51OxEuoag7UhDbk60KI,137
+dagster_insights/dbt/snowflake.py,sha256=lUYC9fFjYLT1Z7fsh4WVnzuuzgBBO-7Q64aeQ7V2yPY,1728
+dagster_insights-0.0.0rc2.dist-info/METADATA,sha256=rhjojbteI8Bl3rw-Y7X2vJ03i_SQoVfu-cfiEcRfdMA,525
+dagster_insights-0.0.0rc2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_insights-0.0.0rc2.dist-info/top_level.txt,sha256=1EJbV2WT9fQJivuDPBHUHVkeB0fFT4c2m_taGxfyR2s,17
+dagster_insights-0.0.0rc2.dist-info/RECORD,,

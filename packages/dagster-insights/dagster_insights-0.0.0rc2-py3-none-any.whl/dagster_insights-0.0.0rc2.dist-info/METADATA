@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dagster-insights
+Version: 0.0.0rc2
+Author: Elementl
+Author-email: hello@elementl.com
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: dagster
+Requires-Dist: requests
+Requires-Dist: snowflake-connector-python
+Requires-Dist: snowflake.sqlalchemy
+Requires-Dist: gql[requests] (>=3.0.0)
+Provides-Extra: tests
+Requires-Dist: freezegun ; extra == 'tests'
+
