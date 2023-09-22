@@ -1,0 +1,9 @@
+# FOLDERS
+.vscode
+.venv
+.env
+dist
+
+# FILES
+.coverage
+*.pyc
