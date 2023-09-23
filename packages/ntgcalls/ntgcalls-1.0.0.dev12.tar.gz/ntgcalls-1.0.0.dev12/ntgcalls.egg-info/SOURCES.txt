@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ntgcalls.egg-info/PKG-INFO
+ntgcalls.egg-info/SOURCES.txt
+ntgcalls.egg-info/dependency_links.txt
+ntgcalls.egg-info/not-zip-safe
+ntgcalls.egg-info/requires.txt
+ntgcalls.egg-info/top_level.txt
