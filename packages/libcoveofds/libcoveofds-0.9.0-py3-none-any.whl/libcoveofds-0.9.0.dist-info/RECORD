@@ -1,0 +1,15 @@
+libcoveofds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libcoveofds/additionalfields.py,sha256=jonHj4WCG3knXxNWdniz6RuPijEklmYjY68hm4ZcJ_Y,562
+libcoveofds/cli.py,sha256=0YG2QDwXeaMbyVFyTd8H-Tk_-gL1HrI0Y8P5S_u9EjI,5520
+libcoveofds/geojson.py,sha256=ItaZtOEdsPPUXvL4glhIUmSElloEOUkZWWEue9PzY-k,21466
+libcoveofds/jsonschemavalidate.py,sha256=GbESGkkePfkbzO2Z0FJZwytHmZ6ksNQ0azy71cUx3mw,2569
+libcoveofds/python_validate.py,sha256=G9k7WXJZocfYPts7ksHSj7iDIzPPZzVZHIQzlTDxmPI,35356
+libcoveofds/schema.py,sha256=U5x9U3athcSVlYocNZ2cS3fEjF7qp9qwZZtmKWbFN10,1702
+libcoveofds/data/schema-0-3-0-network-only.json,sha256=GJseAUaVkWKRrmLuXBjMhoepT-yKkLZErQRXfz3_rok,173896
+libcoveofds/data/schema-0-3-0.json,sha256=HySTXgPLZsndQAZKk5EIE8WFkaNfpP2ID1Kq6iQP0A8,208627
+libcoveofds-0.9.0.dist-info/LICENSE,sha256=zE4-9cOPGVWExfiIp8K5ni7tSGocE6Pz_-q0iK8pyxw,900
+libcoveofds-0.9.0.dist-info/METADATA,sha256=r_bEmYcp4ReS62H0c-mgNKJGIdSYaLiWEv4-Oteoox0,988
+libcoveofds-0.9.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+libcoveofds-0.9.0.dist-info/entry_points.txt,sha256=InTAa_etv4j64VNJPg9kBXoInmIEsYFHg91vqpa03XQ,52
+libcoveofds-0.9.0.dist-info/top_level.txt,sha256=JiCYeQlKoOZt6RxfisqLkKizTLuzE9dVlG4Q0phcUYA,12
+libcoveofds-0.9.0.dist-info/RECORD,,
