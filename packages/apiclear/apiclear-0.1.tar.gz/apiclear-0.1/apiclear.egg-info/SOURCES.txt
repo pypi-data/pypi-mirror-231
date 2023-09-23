@@ -1,0 +1,7 @@
+setup.py
+apiclear.egg-info/PKG-INFO
+apiclear.egg-info/SOURCES.txt
+apiclear.egg-info/dependency_links.txt
+apiclear.egg-info/top_level.txt
+clearapi/__init__.py
+clearapi/colors.py
