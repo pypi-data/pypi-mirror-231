@@ -1,0 +1,6 @@
+dagster==1.4.16
+dagster-gcp==0.20.16
+pyspark
+
+[test]
+pandas-gbq
