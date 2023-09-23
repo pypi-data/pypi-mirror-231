@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ovos_launcher/__init__.py
+ovos_launcher/__main__.py
+ovos_launcher/version.py
+ovos_launcher.egg-info/PKG-INFO
+ovos_launcher.egg-info/SOURCES.txt
+ovos_launcher.egg-info/dependency_links.txt
+ovos_launcher.egg-info/entry_points.txt
+ovos_launcher.egg-info/requires.txt
+ovos_launcher.egg-info/top_level.txt

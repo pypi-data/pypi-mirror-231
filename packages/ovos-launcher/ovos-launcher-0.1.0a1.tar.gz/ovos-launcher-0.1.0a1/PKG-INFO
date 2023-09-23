@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ovos-launcher
+Version: 0.1.0a1
+Summary: single app ovos launcher
+Home-page: https://github.com/OpenVoiceOS/ovos-launcher
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+
+UNKNOWN
+
