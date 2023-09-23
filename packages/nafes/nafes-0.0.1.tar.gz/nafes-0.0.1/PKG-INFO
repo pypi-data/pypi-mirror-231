@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: nafes
+Version: 0.0.1
+Summary: A python project for prototype-based feature selection
+Home-page: https://github.com/naotoo1/nafes
+Author: Nana Abeka Otoo
+Author-email: nanaabekaotoo@gmail.com
+License: MIT license
+Keywords: nafes
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nafes
+
+
+[![image](https://img.shields.io/pypi/v/nafes.svg)](https://pypi.python.org/pypi/nafes)
+[![image](https://img.shields.io/conda/vn/conda-forge/nafes.svg)](https://anaconda.org/conda-forge/nafes)
+[![python: 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-31011/)
+[![github](https://img.shields.io/badge/version-0.0.2-yellow.svg)](https://github.com/naotoo1/nafes)
+[![pypi](https://img.shields.io/badge/pypi-0.0.1-orange.svg)](https://pypi.org/project/prosemble)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+
+**A python project for protottype-based feature selection**
+
+
+-   Free software: MIT license
+-   Documentation: https://naotoo1.github.io/nafes
+    
+
+## Features
+
+-   TODO
+
+
