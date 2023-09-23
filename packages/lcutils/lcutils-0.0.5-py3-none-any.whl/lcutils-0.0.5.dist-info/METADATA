@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lcutils
+Version: 0.0.5
+Summary: some useful python utils
+Author: lcqbug
+Requires-Dist: faker
+Requires-Dist: requests
+
