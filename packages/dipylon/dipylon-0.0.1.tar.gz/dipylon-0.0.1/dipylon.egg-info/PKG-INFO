@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dipylon
+Version: 0.0.1
+Summary: Gateway for financial markets information from various online resources
+Home-page: https://github.com/jkubo/dipylon
+Author: Jay Kubo
+Author-email: jaykubo@outlook.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Provides: dipylon
+License-File: LICENSE
