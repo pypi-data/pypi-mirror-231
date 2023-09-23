@@ -1,0 +1,2 @@
+[console_scripts]
+wyse = wyse.cli:main
