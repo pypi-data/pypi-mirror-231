@@ -1,0 +1,10 @@
+xia_engine_gitlab_project/__init__.py,sha256=GnkRM-Hp3VcHUN_1oqVdvN7IrpWvY-q3HyMXGyo0_eU,490
+xia_engine_gitlab_project/engine.cpython-311-darwin.so,sha256=sx762yZFJxx5X3ImBJL0yvY92sS2p35mEkvPPfRx4lE,288872
+xia_engine_gitlab_project/engine_issue.cpython-311-darwin.so,sha256=eYQGLCJCRI6xCoi_p_YAWt0vWGbNPRjqgMZKDU8O9Bg,373296
+xia_engine_gitlab_project/engine_milestone.cpython-311-darwin.so,sha256=bmKTf5stFfPzY6R2KLvgdtOwzKEHVJzuKCD2KKy2K_k,339176
+xia_engine_gitlab_project/engine_notes.cpython-311-darwin.so,sha256=NLyY2aLUYyuRTLqHnnziaatNU1t3esIfsISJJGUZzOM,407584
+xia_engine_gitlab_project-0.0.2.dist-info/LICENSE.txt,sha256=tD0rSGnB8vNV6UoUGoKEidmeuDcUaIEovxOKg2yfdmk,156
+xia_engine_gitlab_project-0.0.2.dist-info/METADATA,sha256=TvnIKzlTmy6lCICvvwQL02CFW3Rtv3SlWU22jCUc5dA,442
+xia_engine_gitlab_project-0.0.2.dist-info/WHEEL,sha256=h6AHtO7cSDs0NqJlOU-pxFlAjKPuMapTPklGT2yNXZQ,109
+xia_engine_gitlab_project-0.0.2.dist-info/top_level.txt,sha256=3qG9qF64iqKBn0kXwzdpZ8765sikDsTAxnmfQsnfRwQ,26
+xia_engine_gitlab_project-0.0.2.dist-info/RECORD,,
