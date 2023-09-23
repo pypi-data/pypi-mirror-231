@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mikes-toolbox2
+Version: 0.0.1
+Summary: Testing publishing a package to pypi
+License: MIT
+Author: Mike Huls
+Author-email: mikehuls42@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Mike's toolbox 2
+This package is the result of a demonstration from an article that details how to create a package and publish it to pypi.org.
+There is no useful conde contained in this package.
+
+Check out the article [here](mikehuls.com/articles?tags=pypi) 
