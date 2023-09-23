@@ -1,0 +1,16 @@
+geopandas>=0.10
+numpy>=1.21
+packaging>=21.3
+pooch>=1.4
+rasterio>=1.2
+shapely>=1.8
+xarray>=0.20
+
+[full]
+cartopy>=0.20
+matplotlib>=3.5
+cf_xarray>=0.7
+
+[plot]
+cartopy>=0.20
+matplotlib>=3.5
