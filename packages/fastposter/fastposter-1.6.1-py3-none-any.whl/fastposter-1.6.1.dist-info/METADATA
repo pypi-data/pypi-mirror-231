@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fastposter
+Version: 1.6.1
+Summary: A Python client for fastposter cloud
+Home-page: https://github.com/psoho/fastposter-client-python
+Author: Alex
+Author-email: service@fastposter.net
+License: MIT License (MIT)
+Project-URL: Documentation, https://fastposter.net/doc/sdk/python.html
+Project-URL: Source, https://github.com/psoho/fastposter-client-python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.31.0)
+
+# fastposter 让海报开发更简单
+
+一分钟完成海报开发
+
+开发文档 https://fastposter.net/doc/sdk/python.html
+
+
