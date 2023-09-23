@@ -1,0 +1,2 @@
+[console_scripts]
+strimbul = strimbul.__init__:main_init
