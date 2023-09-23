@@ -1,0 +1,15 @@
+lizhiphysicsl/Units.py,sha256=Y2t8z9-PwZxlHk9RRxy0LQKiTdHD8MgpnUY5DhAPFBo,3828
+lizhiphysicsl/__init__.py,sha256=AgsdvZP0NLSBheTQXcBB9MhhEbHhmM01zQa1p9jnX-w,115
+lizhiphysicsl/density.py,sha256=qK8EGSsydp3HdzmLb06eUNi0AzAgt3kT6z0MwintJMM,871
+lizhiphysicsl/phymath.py,sha256=HlH-4CkvzrSEsctEXo_nOpXKa6flAbH11dY_jHEQUS4,12866
+lizhiphysicsl/pressure.py,sha256=qfMLnjoB2WDdqBPaMEdrqKXHic2tcc5tqNL34zOGxik,9941
+lizhiphysicsl/velocity.py,sha256=jSZGhI5ZzkGXsUV9qgPQD9jWhmjoVk1pVAhucUNcI2E,5734
+lizhiphysicsl/middle_school/__init__.py,sha256=NI1jZCpZ1_cDTN2hOzABN_ItY-0H4ACqX6BCa91aOa0,93
+lizhiphysicsl/middle_school/density.py,sha256=apeeoZjK0t4dPDnGEq6WwG6mz8ITv2GhsdmEwDhI9IU,488
+lizhiphysicsl/middle_school/phymath.py,sha256=HlH-4CkvzrSEsctEXo_nOpXKa6flAbH11dY_jHEQUS4,12866
+lizhiphysicsl/middle_school/pressure.py,sha256=RsxfLFVQEKzpCie5yinlVzVmAt4K5BpSHSJo0_wbgEU,921
+lizhiphysicsl/middle_school/veloity.py,sha256=-YvLai51wquD0_kJ-HMH8174S7xJJRFVTL2sqQE2_aM,1287
+lizhiphysics-0.1.1.dist-info/METADATA,sha256=lxBPa8K08z3tATx5FO7CpjhCIFG2AzcS22moygBlqQU,933
+lizhiphysics-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lizhiphysics-0.1.1.dist-info/top_level.txt,sha256=_wNhEUK_VUU8mgwz4DRTdC7sPY37_B40Mi0kFZQO3kg,14
+lizhiphysics-0.1.1.dist-info/RECORD,,
