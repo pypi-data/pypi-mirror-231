@@ -1,0 +1,8 @@
+setup.py
+example_package_joerdis/__init__.py
+example_package_joerdis/add.py
+example_package_joerdis.egg-info/PKG-INFO
+example_package_joerdis.egg-info/SOURCES.txt
+example_package_joerdis.egg-info/dependency_links.txt
+example_package_joerdis.egg-info/top_level.txt
+tests/test.py
