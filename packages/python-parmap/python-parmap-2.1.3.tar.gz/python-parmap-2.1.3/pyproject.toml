@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-parmap"
+version = "2.1.3"
+description = "Simple trivial parallelization"
+authors = ["Fergal <fergal.mullally@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/fergalm/parmap"
+packages = [
+    { include="parmap", from="."}
+]
+
+[tool.poetry.dependencies]
+python = ">3.7"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
