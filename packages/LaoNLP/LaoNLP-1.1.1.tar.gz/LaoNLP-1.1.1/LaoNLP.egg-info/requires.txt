@@ -1,0 +1,13 @@
+pythainlp>=3.0.0
+
+[anyascii]
+anyascii>=0.3.2
+
+[full]
+anyascii>=0.3.2
+gensim
+huggingface-hub
+
+[word_vector]
+gensim
+huggingface-hub
