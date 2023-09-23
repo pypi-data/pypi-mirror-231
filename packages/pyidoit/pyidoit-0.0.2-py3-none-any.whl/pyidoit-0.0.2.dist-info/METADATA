@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pyidoit
+Version: 0.0.2
+Summary: An Simple python i-doit Client.
+Home-page: https://github.com/Zaker237/pyidoit
+Download-URL: https://github.com/Zaker237/pyidoit/archive/v0.0.1.tar.gz
+Author: Alex Mboutchouang
+Author-email: Alex Mboutchouang <mboutchouang@gmail.com>
+Project-URL: Source, https://github.com/Zaker237/pyidoit
+Project-URL: Bug Tracker, https://github.com/Zaker237/pyidoit/issues
+Project-URL: Changelog, https://github.com/Zaker237/pyidoit/blob/master/CHANGELOG.md
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: standard
+
+# pyidoit
+A Simple and Easy-to-use python client for  [i-doit](https://www.i-doit.com/)'s JSON-RPC API
+
+## Installation
+
+```console
+$ pip install pyidoit
+```
+
+## Example
+
+* Create a file python file(`main.py`) with:
+
+```Python
+from pyidoit import IDoitClient
+
+PYIDOIT_HOST = "http://localhost/idoit-22/src/jsonrpc.php"
+PYIDOIT_API_KEY = "XXXXX-XXXXX-XXX"
+
+def main():
+    client = IDoitClient(
+        host=PYIDOIT_HOST,
+        apikey=PYIDOIT_API_KEY,
+        username="",
+        password="",
+    )
+
+    data = client.cmdb_objects_read()
+    print(data)
+
+if __name__ == "__main__":
+    main()
+```
+
+Then run the file
+
+```console
+$ python main.py
+```
+
+
+## CONTRIBUTION GUIDE LINES
