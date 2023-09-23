@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: argparse-app
+Version: 0.0.1
+Summary: argparse_app.
+Home-page: https://github.com/ayasyrev/argparse_app
+Author: Yasyrev Andrei
+Author-email: a.yasyrev@gmail.com
+License: apache2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: coverage[toml]; extra == "test"
+Requires-Dist: flake8; extra == "test"
+
+# app
+template for repo
+
+Source at src
