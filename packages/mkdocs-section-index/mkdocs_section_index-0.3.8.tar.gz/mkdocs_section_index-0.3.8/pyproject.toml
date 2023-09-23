@@ -1,0 +1,143 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mkdocs-section-index"
+description = "MkDocs plugin to allow clickable sections that lead to an index page"
+readme = "README.md"
+license = "MIT"
+keywords = ["mkdocs", "mkdocs-plugin"]
+authors = [
+    {name = "Oleh Prypin", email = "oleh@pryp.in"},
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing :: Markup :: Markdown",
+    "Typing :: Typed",
+]
+dynamic = ["version"]
+requires-python = ">=3.7"
+dependencies = [
+    "mkdocs >=1.2",
+]
+
+[project.urls]
+Documentation = "https://oprypin.github.io/mkdocs-section-index/"
+Source = "https://github.com/oprypin/mkdocs-section-index"
+Issues = "https://github.com/oprypin/mkdocs-section-index/issues"
+History = "https://github.com/oprypin/mkdocs-section-index/releases"
+
+[project.entry-points."mkdocs.plugins"]
+section-index = "mkdocs_section_index.plugin:SectionIndexPlugin"
+
+[tool.hatch.version]
+path = "mkdocs_section_index/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["/mkdocs_section_index", "/tests"]
+
+[tool.hatch.envs.default.scripts]
+all = [
+    "hatch run style:fix",
+    "hatch run types:check",
+    "hatch run test:test",
+]
+
+[tool.hatch.envs.test]
+dependencies = [
+    "pytest",
+    "pytest-golden",
+    "testfixtures >=6.15.0",
+    "MechanicalSoup >=0.12.0",
+    "mkdocs-material >=6.1.5",
+    "mkdocs-nature >=0.5",
+    #min "jinja2 >=2.11.0",
+    #min "markupsafe >=2.0.1",
+]
+[tool.hatch.envs.test.scripts]
+test = [
+    "pytest -q",
+    "mkdocs build -f example/mkdocs.yml --strict",
+]
+
+[tool.hatch.envs.types]
+dependencies = [
+    "mypy",
+]
+[tool.hatch.envs.types.scripts]
+check = [
+    "mypy mkdocs_section_index"
+]
+
+[tool.hatch.envs.style]
+skip-install = true
+dependencies = [
+    "ruff",
+    "isort",
+    "black",
+]
+[tool.hatch.envs.style.scripts]
+fix = [
+    "ruff check --fix mkdocs_section_index tests",
+    "format",
+]
+format = [
+    "isort -q mkdocs_section_index tests",
+    "black -q mkdocs_section_index tests",
+]
+
+[tool.hatch.envs.docs]
+detached = true
+dependencies = [
+    "mkdocs >=1.2",
+    "mkdocs-material >=7.3.6",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.ruff]
+select = [
+    "F", "W", "E", "UP", "YTT", "C4", "FA", "PIE", "T20", "RSE", "TCH", "DTZ",
+    "B002", "B003", "B005", "B007", "B009", "B012", "B013", "B014", "B015", "B018", "B020", "B021", "B023", "B026", "B033", "B034", "B905",
+    "COM818",
+    "PERF101",
+    "PGH002", "PGH004", "PGH005",
+    "PLE", "PLW0120", "PLW0127",
+    "RUF001", "RUF007", "RUF010", "RUF100", "RUF200",
+    "SIM101", "SIM107", "SIM201", "SIM202", "SIM208", "SIM210", "SIM211", "SIM300", "SIM401", "SIM910",
+]
+ignore = ["E501", "E731"]
+[tool.ruff.flake8-comprehensions]
+allow-dict-calls-with-keyword-arguments = true
+
+[tool.mypy]
+ignore_missing_imports = true
+warn_unreachable = true
+no_implicit_optional = true
+show_error_codes = true
+
+[tool.pytest.ini_options]
+addopts = "--tb=native"
+enable_assertion_pass_hook = true
+filterwarnings = ["ignore::DeprecationWarning:.*:",
+                  "default::DeprecationWarning:mkdocs_section_index.*:"]
+testpaths = ["tests"]
