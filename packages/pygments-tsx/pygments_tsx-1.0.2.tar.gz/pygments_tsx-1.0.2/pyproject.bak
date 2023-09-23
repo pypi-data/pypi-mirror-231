@@ -1,0 +1,50 @@
+[build-system]
+requires = [
+  "hatchling",
+  "setuptools",
+  "setuptools_scm[toml]>=6.0",
+  "build",
+  "hatch-requirements-txt"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "pygments_tsx"
+license = "MIT"
+authors = [
+  { name="Jason Nichols", email="github@startupos.dev" },
+  { name="Sean Conrad", email="github@startupos.dev"}
+]
+description = "A plugin for adding TSX support to Pygments based off the work of the JSX plugin."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: JavaScript",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development",
+    "Topic :: Text Editors"
+]
+dynamic = ["dependencies", "version"]
+
+[project.urls]
+"Homepage" = "https://github.com/StartupOS/pygments_tsx"
+"Bug Tracker" = "https://github.com/StartupOS/pygments_tsx/issues"
+"Source" = "https://github.com/StartupOS/pygments_tsx"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.hatch.version]
+path = "VERSION.py"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[project.entry-points."pygments.lexers"]
+jsx="tsx:JsxLexer"
+tsx="tsx:TypeScriptXLexer"

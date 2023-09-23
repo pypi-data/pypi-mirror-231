@@ -1,0 +1,5 @@
+jsx-lexer==2.0.1
+Pygments==2.16.1
+pytest
+pytest-cov
+flake8
