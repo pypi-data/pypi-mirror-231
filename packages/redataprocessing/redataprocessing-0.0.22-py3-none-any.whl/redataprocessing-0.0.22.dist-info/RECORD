@@ -1,0 +1,11 @@
+redataprocessing/__init__.py,sha256=d5TY5MGe5kkh723osRzQIjXDD5xa4kHWvtySIOvt67I,226
+redataprocessing/sreality.py,sha256=kALBcdQ88gw-gpDDUjGTno6dMrktQfzJiXAcHzoZq_E,18457
+redataprocessing/sreality_api_dictionaries.py,sha256=QHpQ9bRtxSQPL-VxZFzCaCtfMN0QP5ay-3Qahh7nEK0,5528
+redataprocessing/sreality_description_asyncio.py,sha256=8MTfpnGDeOGbFESXwmWujpkqSkOJjeDg6oTr1956F58,3624
+redataprocessing/sreality_description_download_decoding.py,sha256=E_mGYIkkgqGo0vb85HKm6YPOFYFkv2h37HNGGHrs_FM,10699
+redataprocessing/test.py,sha256=pJ-EEcM9VV_ET-TntG0BkS2jP4UCruqyJl4-6P7Czxs,839
+redataprocessing-0.0.22.dist-info/LICENSE,sha256=4mT_lp7iCFlMUtNrV3g-_f4HZNeYjhDSH7HBDmBmxxs,1073
+redataprocessing-0.0.22.dist-info/METADATA,sha256=CuCV__Nf1rSbfNMOJpe6Ue42-M3x2TieTSi8IJUfXSs,2671
+redataprocessing-0.0.22.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+redataprocessing-0.0.22.dist-info/top_level.txt,sha256=vPAff3VzgGxTY7OvRACa9vSjTOKnryJbdMUKWn278SE,17
+redataprocessing-0.0.22.dist-info/RECORD,,
