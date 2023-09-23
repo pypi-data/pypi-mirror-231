@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lab-converter
+Version: 0.1.3
+Summary: This package contains modules that convert values in the LAB colorspace to values in different colorspaces, such as RGB and XYZ, and different color codes such as hexidecimal. 
+Author: Justin Cohen
+Author-email: jcohen@curtispackaging.com
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colormath (>=3.0.0,<4.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: pytest (>=7.4.2,<8.0.0)
+Requires-Dist: pytest-cov (>=4.1.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+## LAB Converter Python Package
+
+### Prerequisites
+#### ___Hex Conversion .csv___
+In order to convert lab values to a hex code for a given color, down load [this csv](https://drive.google.com/file/d/1PflPAkflHUm5UClnMx_HRDw14ry535QZ/view?usp=sharing) containing hex codes mapped to the corresponding rbg value.
+
+### Installation
+```
+pip install lab_converter
+```
+
+### Usage
+```
+from lab_converter import lab2hex
+
+hex = lab2hex(52.9, 8.88, 54.53, hex_conversion_csv_path="./Base10_Hex.csv")
+
+print(hex)
+```
+
+
+
