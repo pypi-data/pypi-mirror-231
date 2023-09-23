@@ -1,0 +1,33 @@
+[project]
+name = "wyse"
+description = "Coming soon..."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+version = "v0.0.0"
+classifiers = [
+  "Development Status :: 3 - Alpha"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project.scripts]
+wyse = "wyse.cli:main"
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''
