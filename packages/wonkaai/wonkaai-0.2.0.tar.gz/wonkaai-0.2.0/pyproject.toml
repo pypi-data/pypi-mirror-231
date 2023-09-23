@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wonkaai"
+version = "0.2.0"
+description = ""
+authors = ["AntoinePercy <a@meetwonka.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pendulum = "^2.1.2"
+langchain = "^0.0.297"
+openai = "^0.28.0"
+pandas = "^2.1.1"
+pytest = "^7.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
