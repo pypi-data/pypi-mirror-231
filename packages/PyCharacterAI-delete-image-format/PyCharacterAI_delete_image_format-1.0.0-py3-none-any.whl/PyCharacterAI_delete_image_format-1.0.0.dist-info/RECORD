@@ -1,0 +1,10 @@
+PyCharacterAI/__init__.py,sha256=3ByULg1BgmWLKMX7ZhAvsoUFTEL1JS2Op5q_OHVtSYQ,62
+PyCharacterAI/chat.py,sha256=K1LGHLc063ID2zOX2VKqqF_n0hU7OymdhAntsZNbOOQ,11699
+PyCharacterAI/client.py,sha256=4CcyzI6xLFXq5L8W2-DPis2lTYSVjlsK2pwkkYGW9Sg,11632
+PyCharacterAI/message.py,sha256=b9aefjGW5RS_-ZlyoZZfNsTYcWNWAUJQla-IBm46YEU,5132
+PyCharacterAI/requester.py,sha256=2VrlKW099G1ClENfiFZJ8bQef_jSFrjyy4dce4msJ8M,7004
+PyCharacterAI_delete_image_format-1.0.0.dist-info/LICENSE,sha256=bbvibJu_ZoX0eBmyaea-z-6MletmrgSsipEr3zZfYlc,1061
+PyCharacterAI_delete_image_format-1.0.0.dist-info/METADATA,sha256=F-rViZbMEcKkk1dMbuC_SyBwtR9xpjkeItsAo6vpY4s,4161
+PyCharacterAI_delete_image_format-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PyCharacterAI_delete_image_format-1.0.0.dist-info/top_level.txt,sha256=m8_ZGwQBDNhWtAlbsgWpTwJW4qpk8_gFz7QUy5lxp7U,14
+PyCharacterAI_delete_image_format-1.0.0.dist-info/RECORD,,
