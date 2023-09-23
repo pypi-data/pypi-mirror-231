@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: t-export
+Version: 0.1.0
+Summary: Telegram chats export tool.
+License: MIT
+Author: RuslanUC
+Author-email: dev_ruslan_uc@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Typing :: Typed
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: pyrogram (>=2.0.106,<3.0.0)
+Requires-Dist: tgcrypto (>=1.2.5,<2.0.0)
+Project-URL: Homepage, https://github.com/RuslanUC/t-export
+Project-URL: Repository, https://github.com/RuslanUC/t-export
+Description-Content-Type: text/markdown
+
+## Telegram export tool.
