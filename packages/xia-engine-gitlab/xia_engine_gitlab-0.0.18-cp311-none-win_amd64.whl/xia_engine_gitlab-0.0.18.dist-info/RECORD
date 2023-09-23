@@ -1,0 +1,17 @@
+xia_engine_gitlab/__init__.py,sha256=tVQFRPBST67L4MRKjRJ6VFXXQxS1dIJE8ApeQmcS_Fs,2097
+xia_engine_gitlab/engine.cp311-win_amd64.pyd,sha256=2r3NT5QfsILw5mEZkhryGYHK5lr8NoKWZUElJ7MTn0o,454144
+xia_engine_gitlab/engine_code.cp311-win_amd64.pyd,sha256=OjftgfTedpFPFv1Sd8JPrYQumz7nuaiE_9i1mFTIxX4,407552
+xia_engine_gitlab/engine_discussion.cp311-win_amd64.pyd,sha256=EdGg1aWjkgx6pe5JCQwqusJNUNyQHzuAeJaFneO7HDI,516096
+xia_engine_gitlab/engine_group.cp311-win_amd64.pyd,sha256=LN5NCM8w1Hr5pCLwUiT-dcnY2o8M6JbpH7ns7dTiNPk,370688
+xia_engine_gitlab/engine_issue.cp311-win_amd64.pyd,sha256=TmtK-eKVcsuAaZG2EjPx4RXK2fQrZlu8Lc6peFlYrrQ,453632
+xia_engine_gitlab/engine_merge_request.cp311-win_amd64.pyd,sha256=BqelF1ahOOsD-JNB97ZLZmtLiZTnLEif8qFkJyCECyY,456192
+xia_engine_gitlab/engine_milestone.cp311-win_amd64.pyd,sha256=jnTh09jOcHsqppvQil5nsF4Gnvb9ShT-MCe1f62-dms,436224
+xia_engine_gitlab/engine_notes.cp311-win_amd64.pyd,sha256=cLsTVZRh7QZoEeRMyhgNrP3vwTiaQDCtBeolMa7yKy8,603648
+xia_engine_gitlab/engine_project.cp311-win_amd64.pyd,sha256=k8GaFRQSpzUM0nSoLy-u-Qq6tHt2IXp1RQvfCi2erRM,363520
+xia_engine_gitlab/engine_snippet.cp311-win_amd64.pyd,sha256=qBVWtKamMLLluLqujNHeSQaRiWVI3P2nvUQr33Xkl8s,348672
+xia_engine_gitlab/engine_wiki.cp311-win_amd64.pyd,sha256=v9jpc9VX2VSD7BDkSInSVEF5drKqLfe7eCX0dyNyisc,340992
+xia_engine_gitlab-0.0.18.dist-info/LICENSE.txt,sha256=acfisNP7eGyC12wEJebDnGs-4E_4-FYjTwMe5NB_owk,156
+xia_engine_gitlab-0.0.18.dist-info/METADATA,sha256=GX0X2BfrYPuZCsK7kTvR7FGug0aZowCngdYmm1Y6Hl8,421
+xia_engine_gitlab-0.0.18.dist-info/WHEEL,sha256=-iDqJSrp03B1Tru3gLOBW8bUvJe-ZxOd3ZTfLCIkKMI,100
+xia_engine_gitlab-0.0.18.dist-info/top_level.txt,sha256=M7sLUSOZXkpf0H-F8KKMud32oMPLpOqYrKnzxhVFgKk,18
+xia_engine_gitlab-0.0.18.dist-info/RECORD,,
