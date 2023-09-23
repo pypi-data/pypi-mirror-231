@@ -1,0 +1,3 @@
+[console_scripts]
+statiq = statiq.cli.commands:main
+
