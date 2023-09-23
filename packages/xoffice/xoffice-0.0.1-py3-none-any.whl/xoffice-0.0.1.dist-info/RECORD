@@ -1,0 +1,17 @@
+xoffice/__init__.py,sha256=-_mXsaYgqe4st_95wuDRs0w4hjpVP1VLZdbf7MynHXc,215
+xoffice/excel.py,sha256=GGZM4avace87cko67FbZwYbwATh3GdcmEFELpFpHEuA,2740
+xoffice/excel2word.py,sha256=1UGpsVtmheVK1oqMKPwng9MadjQwggpAdWf5tfvMn_Y,1678
+xoffice/mail.py,sha256=8goxbND3vJ8StwB98HZ34QW5VdaOEt9OT39i14pyPko,3272
+xoffice/pdf.py,sha256=8q3AKnF1R5sh7uw1_kwPY6utPhPN825zIAbrC_LVjCo,3572
+xoffice/utils.py,sha256=5xFO1ZCVzREuuImevSXM47c9jU-vEOEswuxQXL4C1FQ,2314
+xoffice/word.py,sha256=a9_JiZ6BfQWHx0o0uFuB42h5UX-pN3UZ1NzMv-yMZLo,6874
+xoffice/example/data.xlsx,sha256=gz4Ea7bqSyIzeVhvZMB7mdGu7WU6loj0_BNYSDzDbJI,1891543
+xoffice/example/template.docx,sha256=Dfk0Feopd_7j3rVS3ycBKs4bTyWiQhIbFI7hMx2p1BE,19914
+xoffice/example/test.md,sha256=ueiKBAGgQ1GZaJ8tTYkmMJmC7lzW8Kxg4w5tLHedDT0,1355
+xoffice/example/pdf-test/001.jpg,sha256=OvOTza2gu033AdadCchZfODYo1-rfz1iA7kmjVI4_1E,22098
+xoffice/example/pdf-test/002.png,sha256=2zdc75ZS13N7_so7oPCLdHXEMXH9snplmJKuWtE7bR0,1846909
+xoffice/templates/md.css,sha256=hWJPBsrwOSKTmvAeN1etbB6UdGP1CG0PO7no97wbld0,2775
+xoffice-0.0.1.dist-info/METADATA,sha256=35r_R1wejIYujESdUB04GXCVgkidvH170wCOOAvXqYw,1804
+xoffice-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+xoffice-0.0.1.dist-info/licenses/LICENSE,sha256=Wzo0WgoroxKkBnRY2bWk9EAdUpFkzz9-Gk06TZvh73g,1092
+xoffice-0.0.1.dist-info/RECORD,,
