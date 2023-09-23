@@ -1,0 +1,8 @@
+pyramid==1.10.8
+Chameleon==3.10.1
+zope.interface
+pyramid_chameleon
+iso8601
+pytz
+translationstring
+bs4
