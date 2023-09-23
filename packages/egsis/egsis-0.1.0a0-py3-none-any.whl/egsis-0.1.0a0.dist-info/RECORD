@@ -1,0 +1,13 @@
+egsis/.ipynb_checkpoints/model-checkpoint.py,sha256=_w_7a4TzF8wnoWploIitJ9CYOJqfiUIUgLfv6XVqCQY,5119
+egsis/__init__.py,sha256=NRB-yweYUe6L6HaZMF8whQ9FmhONLK38RDFb8XlOhtk,155
+egsis/complex_networks.py,sha256=R5ZLLK3fJdJOmHMc0HOibGJZPGQZxiwgry2w86mfS3k,3593
+egsis/features.py,sha256=pEs9T-Db6ZV7cl6ag4wQRAMLaljrlKfolnkUPPGbUs4,4838
+egsis/labeling.py,sha256=G04KRHmAxS9Lv8TvwxclFHku4_lNPyoaXlyoAgTGPzg,1502
+egsis/lcu.py,sha256=1PrXL-QKGCsnfubknDGak44Jm8gE2VLKrHzsVcMNeQo,9866
+egsis/main.py,sha256=XELlKh-2MEtCSE9QLD7DPRVw8q17qUv6a2E6qL4pUX8,112
+egsis/model.py,sha256=_w_7a4TzF8wnoWploIitJ9CYOJqfiUIUgLfv6XVqCQY,5119
+egsis/superpixels.py,sha256=oMr301i8wwnI4w7mhC08EwfaEgAxU7eFfBis5Sf0z2c,3186
+egsis-0.1.0a0.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+egsis-0.1.0a0.dist-info/METADATA,sha256=36BiqRHQD8XUvHjcitOjpgU9Degbikr57V56mygdJv8,2686
+egsis-0.1.0a0.dist-info/licenses/LICENSE,sha256=-0wdpST55mfAnE6s49OzgZ_6Pb_HklZp4nXENIpLoxs,1499
+egsis-0.1.0a0.dist-info/RECORD,,
