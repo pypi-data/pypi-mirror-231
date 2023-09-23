@@ -1,0 +1,16 @@
+delayedarray/BinaryIsometricOp.py,sha256=kf3EXmOXi4Lx7duUU2t2XO84OcQVCJ8p9opx4SBo_3k,5110
+delayedarray/Cast.py,sha256=q3YwuJiiMr_tct0JZ8tjW4GWkxBpJnezyGp2ojdJaQM,2364
+delayedarray/Combine.py,sha256=yXV8_0Dqx42MimEzLJBzUw5UzSoaUOXMXb8h7e50Qoc,5485
+delayedarray/DelayedArray.py,sha256=KINrC5yCXSfNMCXrHRyrtlb2euNtmsHZQWKXkoJ6ykQ,33164
+delayedarray/Round.py,sha256=slmUd53ZwQ2f_GY3iDHubhFyeVSdvKZ8-vkiqawBpjk,2680
+delayedarray/Subset.py,sha256=XSgy9rvRKQtFBDzNYiWoGNeHA5o1hOkLT5eBR3nPVLU,5514
+delayedarray/Transpose.py,sha256=Qf4Zg1rM2ApzhcUntZ6-z8FQ0kPiGUmttwzi2FcRwyc,3784
+delayedarray/UnaryIsometricOpSimple.py,sha256=4KA9SzR3OVAvGOFcYGosJEu124hLuaVsNsx85E1JY8Y,3481
+delayedarray/UnaryIsometricOpWithArgs.py,sha256=QvNlUYZK43AiLVLVFDrsfu0D5QbpbjJ6yeMrj38Sp4M,8735
+delayedarray/__init__.py,sha256=MNUCKbdnOclEVg69aKFTl-17BvyzuMk7Rb_7rT9Uq8w,1018
+delayedarray/utils.py,sha256=o9gtXhv9dsfnXbpTv4CbQF9u3kDLWYQPGfxof5oNJqg,6672
+DelayedArray-0.2.3.dist-info/LICENSE.txt,sha256=_ZYy-yJu4VYJhg2bPkJCIRLxu40AyNFxUhWN80saVRc,1076
+DelayedArray-0.2.3.dist-info/METADATA,sha256=hGBlpW7TWX4xQofWTQfcwnDAUPz6PaCfJw4ZCRPDO9g,8391
+DelayedArray-0.2.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+DelayedArray-0.2.3.dist-info/top_level.txt,sha256=BuVDnV9q4ZTmlZ6OQ073wlfgIzC3VymhDmBkAOIMxI8,13
+DelayedArray-0.2.3.dist-info/RECORD,,
