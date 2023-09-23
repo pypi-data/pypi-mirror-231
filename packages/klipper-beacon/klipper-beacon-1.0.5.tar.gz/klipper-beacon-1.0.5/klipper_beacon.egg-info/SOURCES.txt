@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+klipper_beacon/__init__.py
+klipper_beacon/beacon.py
+klipper_beacon.egg-info/PKG-INFO
+klipper_beacon.egg-info/SOURCES.txt
+klipper_beacon.egg-info/dependency_links.txt
+klipper_beacon.egg-info/requires.txt
+klipper_beacon.egg-info/top_level.txt

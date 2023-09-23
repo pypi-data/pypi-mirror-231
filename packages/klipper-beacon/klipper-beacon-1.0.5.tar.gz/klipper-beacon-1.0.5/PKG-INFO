@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: klipper-beacon
+Version: 1.0.5
+Summary: Beacon component for Klipper
+License: GPL-3.0
+License-File: LICENSE
+Requires-Dist: numpy>=1.16.6
+Requires-Dist: klipper-klippy-l
