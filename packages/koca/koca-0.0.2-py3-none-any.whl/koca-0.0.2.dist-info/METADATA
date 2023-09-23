@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: koca
+Version: 0.0.2
+Summary: A small koca package
+Home-page: https://github.com/Ewkoll/koca
+Author: ewkoll
+Author-email: ideath@operatorworld.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# koca
+
+包装Flask，提供注解的方法写CRUD
