@@ -1,0 +1,17 @@
+openbb/__init__.py,sha256=Zg7k2Y4nFBZ7VlMZxFRK9avZInCzr_o8-ZxinsBpUMk,1373
+openbb/package/__extensions__.py,sha256=T-gxA-bUYSw0sWZFdLXYhhkvuq4-6llGIhLRRE0UjyQ,1560
+openbb/package/__init__.py,sha256=xkbNmdAWApoBSAB9P07RPLebCqsgmPh7G1vOqNAIKjo,50
+openbb/package/crypto.py,sha256=kvDHEQv18yUeUsmHmtXFWGZjOk-8U5pywMwfUxqSzQg,5073
+openbb/package/economy.py,sha256=PyhLSc4LRz3UMsDwNiIUVzW5KKN1ISNlrTR-Eu_3fuM,15964
+openbb/package/extension_map.json,sha256=ww07f_2DymLfLz0jSNu5Mpk4dtbTtu8rMwTD94v_Pdk,369
+openbb/package/fixedincome.py,sha256=n9P-eLxVZ_0aFtRdq66VG65uwsmRSfDgPAIpL96tAhQ,23881
+openbb/package/forex.py,sha256=fw4HbK-He1Wpiudf2ruv4za6yB04h6C0BWYRNza-07g,8928
+openbb/package/module_map.json,sha256=HkWObfuoL7gtM7-kGcZJaNXu0WXHRU4rDkTUWPcSAws,2583
+openbb/package/news.py,sha256=sdhfTVHwU5-uezq8J9FF2fJFRuiXJJB9g2HS1iUna14,4942
+openbb/package/stocks.py,sha256=Sbnx_vQlbDsZurI2hHs5RTGfZQn9YhTVMa5cROM4GoQ,31143
+openbb/package/stocks_ca.py,sha256=Wjrsk4nFokI0GXwdsqhPZ6C7VOOTobUM0-0K7pFnTQE,2346
+openbb/package/stocks_fa.py,sha256=K03YeP6vvuAhCJUdnhLdFgWaf8ZyyMV6irisX215i-0,124322
+openbb/package/stocks_options.py,sha256=0GlndDxHhqvoUfR7tMuxeYSIRA1gNwieR4fWF52Qbuw,4415
+openbb-4.0.0a2.dist-info/METADATA,sha256=rw9i5QelhCLedmjbGiIDWN1xoWw7b7SV_mD1u-Op5iM,5551
+openbb-4.0.0a2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+openbb-4.0.0a2.dist-info/RECORD,,
