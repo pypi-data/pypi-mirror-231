@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: revGigaChat
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Denis Ponomar
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: telethon
+
+UNKNOWN
+
