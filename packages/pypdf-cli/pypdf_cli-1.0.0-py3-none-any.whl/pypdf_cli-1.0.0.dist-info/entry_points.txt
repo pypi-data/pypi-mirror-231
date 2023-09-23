@@ -1,0 +1,3 @@
+[console_scripts]
+pypdf-cli=pypdf_cli:cli
+
