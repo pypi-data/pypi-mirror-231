@@ -1,0 +1,60 @@
+site_name: mkdocs-jupyter demo
+site_description: mkdocs-jupyter demo website
+site_url: https://mkdocs-jupyter.danielfrg.com
+site_author: Daniel Rodriguez
+copyright: Copyright &copy; 2023 Daniel Rodrigue
+repo_url: https://github.com/danielfrg/cloud.danielfrg.com
+edit_uri: ""
+site_dir: dist
+
+nav:
+  - Home: index.md
+  - Demo Markdown: demo-md.md
+  - Jupyter Notebook Cells: demo-nb.ipynb
+  - Jupyter Notebook Markdown: demo-nb-md.ipynb
+  - A .py file (jupytext): demo-script.py
+  - Ruby NB: ruby.ipynb
+  - Variational inference nb: variational-inference-nb.ipynb
+  - Variational inference script: variational-inference-script.py
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+
+extra:
+  analytics:
+    provider: google
+    property: G-3673QMK9C4
