@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mikes-toolbox2
+Version: 0.0.2
+Summary: Testing publishing a package to pypi
+License: MIT
+Author: Mike Huls
+Author-email: mikehuls42@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Mike's toolbox 2
+This package is the result of an article that demonstrates how to create a package and publish it in a few easy steps.
+There is no useful code contained in this package.
+
+Usefull links:  
+- Find the article [here](mikehuls.com) or [here](https://mikehuls.medium.com/creating-and-publishing-your-own-python-package-for-absolute-beginners-7656c893f387)   
+- Find the source code for creating the package on [Github](https://github.com/mike-huls/mikes-toolbox2)
+
+Read more / connect:
+- [Personal website](https://mikehuls.com)
+- [Medium profile](https://mikehuls.medium.com)
+- [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Mike_Huls.svg?style=social&label=Follow%20Mike_Huls)](https://twitter.com/Mike_Huls)
+
