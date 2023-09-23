@@ -1,0 +1,16 @@
+mycroft_classic_listener/__init__.py,sha256=r7b_VnzNxUlouVBl9ZzWQEOf_cUZbIpsxmO3MRb1UPw,578
+mycroft_classic_listener/__main__.py,sha256=_Z85pd1hqvGrMtim8ZyuPXUGh4Va6ph8LQ2D2SDtLvY,1399
+mycroft_classic_listener/data_structures.py,sha256=Hj-2-jmwU8Xvu2NV0xhpQ4v4fbIZewrlw-kIeJqMZl0,3488
+mycroft_classic_listener/listener.py,sha256=JVinG4AmXfosYm_A0NuT97S-9M_OPYV0CtTkqRPQyUY,16353
+mycroft_classic_listener/mic.py,sha256=irHRWtN7NoZZL6oUI7GJdhA3Paa5p3brm0nmUHXDc_g,28915
+mycroft_classic_listener/service.py,sha256=5w_9ej-kUwRaTbTnEVPaPZtmPKznBOhvYHJc65vJ9jM,7587
+mycroft_classic_listener/version.py,sha256=tnwL6H7F2rKiYfzZqG80Wt82MT0mHbzZ38RjwaJcsgs,114
+mycroft_classic_listener/res/snd/acknowledge.mp3,sha256=QlsYCc5sIvFPYjEE6WyL5wdYLRfKMPn9716lxTok63s,6268
+mycroft_classic_listener/res/snd/error.mp3,sha256=z7ZI-rm2S-A-lIj03RF87KNQ3YF68oCW9nrGQ2evXCk,13290
+mycroft_classic_listener/res/snd/start_listening.wav,sha256=zK0SMMc21d3e6oJ9XORK-zbow4rHFixo7OA8swllsUA,67090
+mycroft_classic_listener-0.0.2a1.dist-info/LICENSE.md,sha256=bgJeE7gnPRqTJq1DMpXUnpsSktPSeP5tLg7mRYn5DpU,10867
+mycroft_classic_listener-0.0.2a1.dist-info/METADATA,sha256=eU5Mr3TRmzBVKdYHIY0QtdFdy_DzseKP4SytnHIopPU,888
+mycroft_classic_listener-0.0.2a1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mycroft_classic_listener-0.0.2a1.dist-info/entry_points.txt,sha256=UN1KAes9d56WGyL8NhvT8ClsHOx_XtzRon-tYRMT9zo,85
+mycroft_classic_listener-0.0.2a1.dist-info/top_level.txt,sha256=bwyCG07iVq7ToS-gtP6G_qAL8SUt_gjiqpPOSBpvi-c,25
+mycroft_classic_listener-0.0.2a1.dist-info/RECORD,,
