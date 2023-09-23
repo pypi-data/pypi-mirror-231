@@ -1,0 +1,6 @@
+celery_signals/__init__.py,sha256=iJtnpgr8Lz9VLfxO1Ba_hJuNh-ZCIx1GZ8PhkdmFkA0,37
+celery_signals/receivers.py,sha256=aEk5yNDZkorGvop_tH1kzIXoneGSgVX8ZRxq6V_ZNvQ,1941
+celery_signal_receivers-0.1.0.dist-info/LICENSE,sha256=LmYw8xcyDjXw0O8GSwSJKQfSCS7FK8MiYcDJK-iNy8s,1074
+celery_signal_receivers-0.1.0.dist-info/METADATA,sha256=5G7h4iCX86a8mm5GnTmXnB-PNy0GJBpUQZTWKtPYtmI,4309
+celery_signal_receivers-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+celery_signal_receivers-0.1.0.dist-info/RECORD,,
