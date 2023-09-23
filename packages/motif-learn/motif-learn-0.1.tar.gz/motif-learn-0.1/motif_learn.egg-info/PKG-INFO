@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: motif-learn
+Version: 0.1
+Summary: Zernike feature representation and manifold learning of scanning transmission electron microscopy images
+Home-page: https://github.com/jiadongdan/motif-learn
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: Jiadong Dan
+Author-email: 
+License: MIT
+Keywords: feature dimension reduction,manifold learning,Zernike Polynomials
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+README.md
