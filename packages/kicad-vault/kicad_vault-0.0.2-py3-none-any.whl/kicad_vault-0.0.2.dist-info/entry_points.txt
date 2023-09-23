@@ -1,0 +1,2 @@
+[console_scripts]
+kicad-vault = kicad_vault.main:main
