@@ -1,0 +1,178 @@
+#!/usr/bin/env python3 
+from dipylon import coincodex, unusualwhales, yfinance, coindesk, coinmc, earnings, nasdaq, quiverquant
+from dipylon import table, methods
+import os, argparse
+from datetime import datetime, timedelta
+import plotly.figure_factory
+
+# import sys, os
+# SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# sys.path.append(os.path.dirname(SCRIPT_DIR))
+
+class defaults:
+	prefix = f"{os.path.expanduser('~')}/Downloads/"
+	suffix = f"{datetime.now().strftime('%s')}.csv"
+	crypto = 'bitcoin'
+	stock  = 'nvda'
+	start_date = datetime.now().strftime('%Y%m%d')
+	end_date = (datetime.now()+timedelta(days=7)).strftime('%Y%m%d')
+
+def print_result(result, verbose=True):
+	res_dict = {x:result.__dict__[x] for x in result.__dict__ if not x.startswith('_')}
+	if verbose:
+		for k,v in res_dict.items():
+			print(f"# {k}")
+			print(f"{v}\n")
+
+def main():
+	arg = argparse.ArgumentParser()
+	arg.add_argument('-v', '--verbose', default=False, action='store_true', help='Verbose output')
+	arg.add_argument('-e', '--export', default=False, action='store_true', help='Export output to downloads folder')
+	subs = arg.add_subparsers(dest='source', help='Different source selection')
+	sub_cc = subs.add_parser('cc', help='CoinCodex (Source: coincodex.com)')
+	group_cc = sub_cc.add_mutually_exclusive_group(required=True)
+	group_cc.add_argument('-s', '--stock', help=f"Requires specifying stock (example: {defaults.stock.upper()})")
+	group_cc.add_argument('-c', '--crypto', help=f"Requires specifying crypto (example: {defaults.crypto.lower()})")
+	sub_uw = subs.add_parser('uw', help='Unusual Whales (Source: unusualwhales.com)')
+	sub_uw.add_argument('-o', '--option', default=False, action='store_true', help='Option information (default: %(default)s)')
+	sub_uw.add_argument('-m', '--market', default=False, action='store_true', help='Market information (default: %(default)s)')
+	sub_uw.add_argument('-c', '--crypto', default=False, action='store_true', help='Crypto information (default: %(default)s)')
+	sub_uw.add_argument('-t', '--ticker', help='Company/Ticker information')
+	sub_yf = subs.add_parser('yf', help='Yahoo Finance (Source: finance.yahoo.com)')
+	sub_yf.add_argument('-t', '--ticker', default=f"{methods.slug_to_ticker(defaults.crypto)}-USD", help='Ticker (default: %(default)s)')
+	sub_yf.add_argument('-r', '--range', default='24h', help='Time Range (default: %(default)s)')
+	sub_cm = subs.add_parser('cm', help='CoinMarketCap (Source: coinmarketcap.com)')
+	sub_cm.add_argument('-s', '--slug', default=defaults.crypto, help='Slug (default: %(default)s)')
+	sub_cm.add_argument('-l', '--limit', default=10, type=int, help='Limit (default: %(default)s)')
+	sub_cd = subs.add_parser('cd', help='CoinDesk (Source: coindesk.com)')
+	sub_cd.add_argument('-s', '--symbol', default=methods.slug_to_ticker(defaults.crypto), help='Symbol (default: %(default)s)')
+	sub_ew = subs.add_parser('ew', help='Earnings Whispers (Source: earningswhispers.com)')
+	sub_ew.add_argument('-s', '--start', default=defaults.start_date, help='From (default: %(default)s)')
+	sub_ew.add_argument('-e', '--end', default=defaults.end_date, help='To (default: %(default)s)')
+	sub_nd = subs.add_parser('nd', help='NASDAQ (Source: nasdaq.com)')
+	sub_nd.add_argument('-t', '--ticker', default=defaults.stock, help='Ticker (default: %(default)s)')
+	sub_nd.add_argument('-l', '--limit', default=30, help='Limit (default: %(default)s)')
+	sub_qq = subs.add_parser('qq', help='Quiver Quantitative (Source: quiverquant.com)')
+	group_qq = sub_qq.add_mutually_exclusive_group(required=True)
+	group_qq.add_argument('-c', '--congress', default=False, action='store_true', help='US Congress trading')
+	group_qq.add_argument('-s', '--senate', default=False, action='store_true', help='US Senate trading')
+	group_qq.add_argument('-r', '--house', default=False, action='store_true', help='US House of Representatives trading')
+	group_qq.add_argument('-e', '--election', default=False, action='store_true', help='Election contributions')
+	group_qq.add_argument('-d', '--dcinsider', default=False, action='store_true', help='DC Insider scores')
+	group_qq.add_argument('-g', '--govcontract', default=False, action='store_true', help='US Government contracts')
+	group_qq.add_argument('-l', '--lobbying', default=False, action='store_true', help='Lobbying')
+	group_qq.add_argument('-q', '--inflation', default=False, action='store_true', help='Inflation')
+	group_qq.add_argument('-i', '--insiders', default=False, action='store_true', help='Insiders')
+	# group_qq.add_argument('--insidertracker', default=False, action='store_true', help='Insider tracker')
+	group_qq.add_argument('-z', '--stocksplits', default=False, action='store_true', help='Stock splits')
+	args = arg.parse_args()
+
+	match args.source:
+		case 'cc':
+			if args.stock:
+				res = coincodex.get_stock_prediction(args.stock)
+			if args.crypto:
+				res = coincodex.get_crypto_prediction(args.crypto)
+			print_result(res, args.verbose)
+			if args.export:
+				print('Exporting not yet implemented for this method')
+		case 'uw':
+			result = []
+			if args.option:
+				res = unusualwhales.get_option_all()
+				result.append(res)
+				print_result(res, args.verbose)
+			if args.market:
+				res = unusualwhales.get_market_all()
+				result.append(res)
+				print_result(res, args.verbose)
+			if args.crypto:
+				res = unusualwhales.get_crypto_all()
+				result.append(res)
+				print_result(res, args.verbose)
+			if args.ticker:
+				res = unusualwhales.get_company_all(args.ticker)
+				result.append(res)
+				print_result(res, args.verbose)
+			if args.export:
+				print('Exporting not yet implemented for this method')
+		case 'yf':
+			try:
+				df = yfinance.get_timeseries(args.ticker, range=args.range)
+			except:
+				print(f"Could not find timeseries data for {args.ticker} in {args.range}")
+				os._exit(1)
+			fig = plotly.figure_factory.create_candlestick(df.open, df.high, df.low, df.close, dates=df.index)
+			fig.show()
+			if args.verbose:
+				print(df)
+			if args.export:
+				df.to_csv(f"{defaults.prefix}/YahooFinance_{args.ticker}-{args.range}_{defaults.suffix}")
+		case 'cm':
+			try:
+				res = coinmc.get_market_pairs(ticker_to_slug(args.slug) if args.slug.isupper() else args.slug)
+			except:
+				print(f"Could not find price for the slug {args.slug}")
+				os._exit(1)
+			print(f"{res.symbol}: {sum(res.prices)}")
+			if args.export and args.verbose:
+				print('Export option unavailable for this command')
+		case 'cd':
+			try:
+				args.symbol = methods.slug_to_ticker(args.symbol) if args.symbol.islower() else args.symbol
+				res = coindesk.get_price(args.symbol)
+			except:
+				print(f"Could not find price for the symbol {args.symbol}")
+				os._exit(1)
+			print(f"{res.iso}: {res.ohlc}")
+			if args.export and args.verbose:
+				print('Export option unavailable for this command')
+		case 'ew':
+			try:
+				df = earnings.get_caldata_range(args.start, args.end)
+			except:
+				print(f"Could not get earnings information between {args.start} and {args.end}")
+				os._exit(1)
+			if args.verbose:
+				print(df)
+			if args.export:
+				df.to_csv(f"{defaults.prefix}/EarningsWhisper_{args.start}-{args.end}_{defaults.suffix}")
+		case 'nd':
+			try:
+				df = nasdaq.get_insider_trades(args.ticker, limit=args.limit)
+			except:
+				print(f"Could not get insider trades for {args.ticker} with limit of {args.limit}")
+				os._exit(1)
+			if args.verbose:
+				print(df)
+			if args.export:
+				df.to_csv(f"{defaults.prefix}/NASDAQ_{args.ticker}-{args.limit}_{defaults.suffix}")
+		case 'qq':
+			if args.congress:
+				res = quiverquant.get_congress_trading()
+			if args.senate:
+				res = quiverquant.get_senate_trading()
+			if args.house:
+				res = quiverquant.get_house_trading()
+			if args.election:
+				res = quiverquant.get_election_contributions()
+			if args.dcinsider:
+				res = quiverquant.get_dc_insider_scores()
+			if args.govcontract:
+				res = quiverquant.get_gov_contracts()
+			if args.lobbying:
+				res = quiverquant.get_lobbying()
+			if args.inflation:
+				res = quiverquant.get_inflation()
+			if args.insiders:
+				res = quiverquant.get_insiders()
+			# if args.insidertracker:
+			# 	res = quiverquant.get_insider_tracker()
+			if args.stocksplits:
+				res = quiverquant.get_stock_splits()
+			print_result(res)
+			if args.export:
+				print('Exporting not yet implemented for this method')
+			
+if __name__ == '__main__':
+	main()
