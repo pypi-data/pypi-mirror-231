@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-verilog-diagrams
+Version: 0.1.1
+Summary: Compatibility stub for renamed to sphinxcontrib-hdl-diagrams.
+Home-page: https://github.com/SymbiFlow/sphinxcontrib-hdl-diagrams
+Author: The SymbiFlow Authors
+Author-email: symbiflow@lists.librecores.org
+License: Apache 2.0
+Description-Content-Type: text/x-rst
+Requires-Dist: sphinxcontrib-hdl-diagrams
+
+``sphinxcontrib-hdl-diagrams`` replaces ``sphinxcontrib-verilog-diagrams``
+==========================================================================
+
+sphinxcontrib-verilog-diagrams was renamed to
+`sphinxcontrib-hdl-diagrams <https://github.com/SymbiFlow/sphinxcontrib-hdl-diagrams>`_
+as it now supports more langauges than just verilog!
+
+This stub module remains for backwards compatibility, but you should update to
+using the new name.
