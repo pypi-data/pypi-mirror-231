@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: blackjack-amiyuki7
+Version: 0.1.dev1
+Summary: Blackjack made with pygame
+Author-email: Alexander Xie <amiyuki788@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pygame>=2.5.1
+Requires-Dist: loguru>=0.7.2
+Project-URL: Home, https://github.com/amiyuki7/blackjack
+
+# blackjack
+
