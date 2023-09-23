@@ -1,0 +1,9 @@
+setup.py
+mycliapp/__init__.py
+mycliapp/main.py
+mycliapp.egg-info/PKG-INFO
+mycliapp.egg-info/SOURCES.txt
+mycliapp.egg-info/dependency_links.txt
+mycliapp.egg-info/entry_points.txt
+mycliapp.egg-info/requires.txt
+mycliapp.egg-info/top_level.txt
