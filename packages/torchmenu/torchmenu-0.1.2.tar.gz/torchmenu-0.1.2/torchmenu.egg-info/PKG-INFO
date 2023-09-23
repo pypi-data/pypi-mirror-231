@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: torchmenu
+Version: 0.1.2
+Summary: TorchServe GUI
+Home-page: https://github.com/williamcorsel/TorchMenu
+Author: William Corsel
+License: Apache License 2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit==1.27.0
+Requires-Dist: httpx==0.25.0
+Requires-Dist: pydantic==2.3.0
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+# TorchMenu
+
+A simple [streamlit](https://github.com/streamlit/streamlit) web application to manage your model deployment with [TorchServe](https://github.com/pytorch/serve). It is designed to tap into your currently deployed TorchServe instance using its APIs.
+
+![Home Page](etc/home.png)
+
+Current features include:
+
+- View loaded models, including their versions and metrics
+- Model management: load, unload, and delete models
+- Show and edit the server `config.properties` file
+
+## Installation
+
+```bash
+pip install torchmenu
+```
+
+### Development
+
+```bash
+git clone https://github.com/williamcorsel/TorchMenu.git
+cd TorchMenu
+pip install -e .[dev]
+pre-commit install
+```
+
+## Usage
+
+To launch the application, run the following command:
+
+```bash
+torchmenu
+```

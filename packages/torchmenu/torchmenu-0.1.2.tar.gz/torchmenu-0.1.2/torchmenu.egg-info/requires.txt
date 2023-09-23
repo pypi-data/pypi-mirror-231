@@ -1,0 +1,7 @@
+streamlit==1.27.0
+httpx==0.25.0
+pydantic==2.3.0
+
+[dev]
+pre-commit
+flake8
