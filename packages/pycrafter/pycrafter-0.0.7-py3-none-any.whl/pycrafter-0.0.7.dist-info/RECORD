@@ -1,0 +1,13 @@
+crafter/__init__.py,sha256=NQE4Tl-mQ3Xxg0EXNvDtOrXGYxsEyAxgQaa8OR6n3q4,55
+crafter/core.py,sha256=A8rT7AuHNMeoygYbCRinm3oON94RFk8g0qgrNyiw_wQ,5054
+crafter/craft_utils.py,sha256=t4QZPvska6iu4RkVl_f7WuSifWSB-641zY1OjipNwH8,10210
+crafter/file_utils.py,sha256=23qLfT9Ltq2mbD84Xh-YehPmN_FIXBVkXb4V4JSmeLw,6961
+crafter/image_utils.py,sha256=Y1jKZwrebEPuMOMd0srt7Zb1p6hadG1HQaAHSrhs75I,2450
+crafter/predict.py,sha256=Zm6Hn9tOJ7HqZxJyLTBHsrpEONHHAqQDxuyM5h4rHHQ,4115
+crafter/resources/__init__.py,sha256=SPnMZodc1T7UAfJEblDxfkZF4gmJ5kbzPiSuz6erOoc,80
+crafter/resources/craftnet.onnx,sha256=Nk9-lXn3QQkAE85__Yq2rrfpRisSy0sCR-N3L4hNn2I,83058279
+crafter/resources/refinenet.onnx,sha256=teHI46sBgGAAwxwyWXCvhiDj3jIeq4Sya1_ngMN9kPY,1827784
+pycrafter-0.0.7.dist-info/METADATA,sha256=H2hCX4VhdB4C3tV34w2WK2Z9VQ9DowFBz2KSpOXMrdI,1996
+pycrafter-0.0.7.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pycrafter-0.0.7.dist-info/licenses/LICENSE,sha256=7qe1rmajH9dcHvUXBLMgUaHSjDaXAqVKPbo9Glq3OsM,1070
+pycrafter-0.0.7.dist-info/RECORD,,
