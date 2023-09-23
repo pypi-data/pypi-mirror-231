@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+example_emmo00/__init__.py
+example_emmo00/main.py
+example_emmo00.egg-info/PKG-INFO
+example_emmo00.egg-info/SOURCES.txt
+example_emmo00.egg-info/dependency_links.txt
+example_emmo00.egg-info/top_level.txt
