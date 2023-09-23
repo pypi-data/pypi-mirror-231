@@ -1,0 +1,2 @@
+[console_scripts]
+llama-quantize = llama_quantizer.quantization:main
