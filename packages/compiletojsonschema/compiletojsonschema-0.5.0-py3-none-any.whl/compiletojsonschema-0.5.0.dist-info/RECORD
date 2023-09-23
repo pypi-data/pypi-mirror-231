@@ -1,0 +1,14 @@
+compiletojsonschema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compiletojsonschema/compiletojsonschema.py,sha256=7qlsWos3zelHnDnvU0RZLEM-0c7L7ywif0_c47-l8cE,3858
+compiletojsonschema/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compiletojsonschema/cli/__main__.py,sha256=OjDyYkSLoYYvL1l1RU2EtRefeJWnuJP4JQm9bGaJ4-I,922
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_codelist.py,sha256=4vNF8f_heWDD0hY9bRdMnfaaycl4jI7m81fR1Q1Tiek,3056
+tests/test_error.py,sha256=6yU1jH3c4wSQR9j5uAN5NRta7PkAXTne1Kr1XVf3_Zc,277
+tests/test_set_additional_properties_false_everywhere.py,sha256=ArkYBLXfYgNx01rLUwcSYVXuKeVoPNLqmJoUZxGxPCk,1755
+tests/test_simple.py,sha256=5zgx5YlDpsW5rqraCH-cpaW0qtHSd1Fm5-Ehke-CDhs,4388
+compiletojsonschema-0.5.0.dist-info/METADATA,sha256=62h-5mzE6GiYhwwWD-w8CqHlCa_Rc177JlZst-MB1xw,916
+compiletojsonschema-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+compiletojsonschema-0.5.0.dist-info/entry_points.txt,sha256=feNCClOkx5pEDE-z1LWgc6PrC4xVgo0HbQdj2Kvnk1I,77
+compiletojsonschema-0.5.0.dist-info/top_level.txt,sha256=UFUHCo-O_53ViWN6cHrzWWFGJyk0SSwDNPCN6dpPQ_Q,26
+compiletojsonschema-0.5.0.dist-info/RECORD,,
