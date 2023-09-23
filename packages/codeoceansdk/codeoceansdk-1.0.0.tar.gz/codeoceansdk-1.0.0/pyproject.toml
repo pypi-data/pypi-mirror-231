@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "codeoceansdk"
+version = "1.0.0"
+authors = [
+  { name="June Snedecor", email="june@codeocean.com" },
+]
+description = "A set of functions to interact with the Code Ocean API"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pandas", "requests"]
+license = "MIT"
+
+[project.urls]
+"Homepage" = "https://github.com/codeocean/codeoceansdk-py"
+"Bug Tracker" = "https://github.com/codeocean/codeoceansdk-py/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/codeoceansdk"]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-skip-slow"]
+doc = ["pdoc"]
