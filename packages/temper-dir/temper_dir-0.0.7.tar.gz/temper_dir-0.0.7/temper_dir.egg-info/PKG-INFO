@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: temper-dir
+Version: 0.0.7
+Summary: A simple CLI tool to create temporary directories
+Author: Itay Shoshani
+License-File: LICENSE
+
+# temper
+Daily temporary directory

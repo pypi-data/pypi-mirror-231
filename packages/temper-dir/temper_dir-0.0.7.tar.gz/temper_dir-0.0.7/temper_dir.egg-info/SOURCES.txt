@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+temper_dir/__main__.py
+temper_dir/dir_creator.py
+temper_dir.egg-info/PKG-INFO
+temper_dir.egg-info/SOURCES.txt
+temper_dir.egg-info/dependency_links.txt
+temper_dir.egg-info/top_level.txt
+temper_dir/tests/test_basic.py
