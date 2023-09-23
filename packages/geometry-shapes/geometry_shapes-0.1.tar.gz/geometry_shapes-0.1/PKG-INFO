@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: geometry_shapes
+Version: 0.1
+Summary: A simple package to work with geometric shapes.
+Home-page: https://github.com/upretisaurav7/geometry_shapes
+Author: Saurav Upreti
+Author-email: upretisaurav7@gmail.com
+License: MIT
+Keywords: geometry shapes
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Geometry Shapes
+
+A simple Python package to work with basic geometric shapes. Calculate the area and perimeter (or circumference) of circles, rectangles, and right-angled triangles.
+
+## Installation
+
+You can install `geometry_shapes` via pip:
+
+```bash
+pip install geometry_shapes
+```
+
+```bash
+from geometry_shapes import circle_area, circumference
+
+radius = 5
+print(circle_area(radius))  # prints the area of the circle
+print(circumference(radius))  # prints the circumference of the circle
+```
+
+```bash
+from geometry_shapes import rectangle_area, rectangle_perimeter
+
+length = 4
+width = 6
+print(rectangle_area(length, width))  # prints the area of the rectangle
+print(rectangle_perimeter(length, width))  # prints the perimeter of the rectangle
+```
+
+```bash
+from geometry_shapes import triangle_area, triangle_perimeter
+
+base = 3
+height = 4
+print(triangle_area(base, height))  # prints the area of the triangle
+print(triangle_perimeter(base, height))  # prints the perimeter of the triangle
+```
+
