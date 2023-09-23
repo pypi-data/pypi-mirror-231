@@ -1,0 +1,12 @@
+"dockup/__init__,py",sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dockup/__main__.py,sha256=Bh3kBSMvHqhDSNpJQ0VtivyM3HsEZ4wAt7diUbwDHok,572
+dockup/config.py,sha256=E4F_nAk-c9-1sMDkInyxMohfYgCHdNrLHE0bciy0Rgw,573
+dockup/docker_compose.py,sha256=37C0LmM72nvCcm8Tu0QbXBf1VkTNpYI-gvcEUganr4M,1339
+dockup/docker_file.py,sha256=rbceAJSybkR3YgXgS53n3x1jAuXHILqSBbvJ8MQMLck,1450
+dockup/dockup.py,sha256=16lVcTNXOwQ5BlmEojdKFErF9ZNWfbcjHJNuwu91oZ8,1519
+dockup/proxy_cfg.py,sha256=Qud9F4DdAz3dYs_WwGfKtEVElI66_gVc0iUIWFvLo6Y,3100
+dockup/utils.py,sha256=XjXRNLzQSk_zPM65ZcIFimNd84p8akwka7S8ozeXXjM,263
+dockup-0.0.11.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+dockup-0.0.11.dist-info/METADATA,sha256=pXynWogAZH2LLbF-VGiBOAjH0t01rUID1R5-3Ml-aZ4,2948
+dockup-0.0.11.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dockup-0.0.11.dist-info/RECORD,,
