@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: enpkg-interfaces
+Version: 0.0.5
+Summary: Module providing interfaces for the ENPKG project.
+Home-page: https://github.com/enpkg/enpkg
+Author: Luca Cappelletti
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.0
