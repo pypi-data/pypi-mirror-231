@@ -1,0 +1,6 @@
+django-restql==0.15.3
+drf-yasg==1.21.5
+django-filter==22.1
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+user_agents
