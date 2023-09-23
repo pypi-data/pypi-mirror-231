@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastapi-directory-routing
+Version: 0.0.1
+Summary: The file system-based FastAPI router automatically generates the routing structure from the file system.
+Author: Ebubekir Karanfil
+Author-email: karanfilebubekir@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+<h1>fastapi-directory-routing</h1>
+<p>
+  <em>Create routes easily</em></br>
+  <sub>The file system-based FastAPI router automatically generates the routing structure from the file system.</sub>
+</p>
+

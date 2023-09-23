@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+fastapi_directory_routing/__init__.py
+fastapi_directory_routing/__version__.py
+fastapi_directory_routing.egg-info/PKG-INFO
+fastapi_directory_routing.egg-info/SOURCES.txt
+fastapi_directory_routing.egg-info/dependency_links.txt
+fastapi_directory_routing.egg-info/top_level.txt
+fastapi_directory_routing/core/__init__.py
+fastapi_directory_routing/core/directory_router.py
+tests/__init__.py
