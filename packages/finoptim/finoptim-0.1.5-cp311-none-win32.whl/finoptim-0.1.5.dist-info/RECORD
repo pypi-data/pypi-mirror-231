@@ -1,0 +1,13 @@
+finoptim-0.1.5.dist-info/METADATA,sha256=8e1__DNFPs2nqqwXff-W1rEniJ_zcs8m94Id3K4CWvM,5721
+finoptim-0.1.5.dist-info/WHEEL,sha256=uvjz18__ZM544B6zvuJy8UqOf4LqdrTTypCjtVtBZE4,91
+finoptim-0.1.5.dist-info/license_files/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+finoptim/cost_and_coverage.py,sha256=4j5NmJ4jOTYYSnuJdUqvZXOImVqFs0ZkGPDgppnQBRw,13867
+finoptim/final_results.py,sha256=yPyfx2BDNjcFXn8wFKz7ko3trmLxvpk6_WxVdZskAwE,3111
+finoptim/optimisation.py,sha256=u7mkjsuNEK8koRmDJ4GFYjYZdW2DZ3YW17TjgtrK1HU,12351
+finoptim/prices/aws.py,sha256=1667XibzEXH1dT3ziVjeayTQNdTeqFGnrXqqV-_k-tM,10335
+finoptim/prices/azure.py,sha256=m4wAN-SVseXA81iQ413XhMR_9fzOa1xwivOI4gW-EOI,47
+finoptim/prices/__init__.py,sha256=i_s7pGOTBQa3UHEaRBccNIEm-Pt8xYL9rbhYlHLBnuo,40
+finoptim/validations.py,sha256=YEg_b9JE4_CEP-GuOVvRBIKLjFoDDQYBHMn7SJxQl5I,3457
+finoptim/__init__.py,sha256=Xbp9o3TLUEDFyQoAJSb9jJbCwfPXOa_hRgjS5X8qD5E,153
+finoptim/rust_as_backend.cp311-win32.pyd,sha256=rWPyrgYnGYqwAYbw9s9CxGVKJEV0CxDH_L_LBWON6cU,738304
+finoptim-0.1.5.dist-info/RECORD,,
