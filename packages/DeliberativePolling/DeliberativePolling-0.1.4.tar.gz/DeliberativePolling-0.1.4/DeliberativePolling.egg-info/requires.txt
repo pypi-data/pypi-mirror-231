@@ -1,0 +1,9 @@
+pandas
+threading
+numpy
+openpyxl
+pyreadstat
+statsmodels
+scipy
+docx
+tqdm
