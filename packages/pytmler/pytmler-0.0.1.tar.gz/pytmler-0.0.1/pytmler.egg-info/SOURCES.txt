@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+__init__.py
+htmler.py
+setup.py
+pytmler.egg-info/PKG-INFO
+pytmler.egg-info/SOURCES.txt
+pytmler.egg-info/dependency_links.txt
+pytmler.egg-info/requires.txt
+pytmler.egg-info/top_level.txt
