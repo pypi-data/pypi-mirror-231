@@ -1,0 +1,2 @@
+[console_scripts]
+scraibe = scraibe.cli:cli
