@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nike-id-scraper
+Version: 0.1
+Summary: A Python package for scraping Nike Indonesia website.
+Author: hasan ash 
+Author-email: hasan40p30m@gmail.com
+License: MIT
+License-File: LICENSE
