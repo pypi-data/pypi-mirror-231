@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: myhydra
+Version: 0.1
+Summary: This Package can be used to insert Hydra Job Status and Data Quality Metrics Elastic Open Search
+Home-page: UNKNOWN
+Author: Prasad Dandi
+Author-email: Prasad_Dandi2@comcast.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
