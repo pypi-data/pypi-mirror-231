@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../spectral-datawrappers"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../sc-poc"
+		},
+		{
+			"path": "../../modeler-credit-scoring-poc"
+		},
+		{
+			"path": "../../validators-service"
+		}
+	],
+	"settings": {
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.python"
+		},
+		"python.formatting.provider": "none"
+	}
+}
