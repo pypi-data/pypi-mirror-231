@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyidoit"
+dynamic = ["version"]
+description = "An Simple python i-doit Client."
+readme = "README.md"
+license = {file = "LICENSE.md"}
+requires-python = ">=3.7"
+authors = [
+    { name = "Alex Mboutchouang", email = "mboutchouang@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.optional-dependencies]
+standard = [
+]
+
+[project.urls]
+"Source" = "https://github.com/Zaker237/pyidoit"
+"Bug Tracker" = "https://github.com/Zaker237/pyidoit/issues"
+"Changelog" = "https://github.com/Zaker237/pyidoit/blob/master/CHANGELOG.md"
+
+[tool.hatch.version]
+path = "pyidoit/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/pyidoit",
+]
+
+[tool.ruff]
+select = ["E", "F", "I"]
+ignore = ["B904", "B028"]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 88
+exclude = ["venv", ".git", "__pycache__"]
