@@ -1,0 +1,9 @@
+flwr_datasets/__init__.py,sha256=qCd33mbS7wx1aIyL9UiSMfRmTojKnYBySajpkim0MTU,801
+flwr_datasets/federated_dataset.py,sha256=zLxe-pbDv0QZ7ghsdt4Q7t0mi-wMFDhEGjWVoXDpOMU,5663
+flwr_datasets/partitioner/__init__.py,sha256=c0hKv8vK4bsrOcot73KXmuj9TwwWsvYQV-O7IoJvjzU,865
+flwr_datasets/partitioner/iid_partitioner.py,sha256=9iuFAUPYOQwmPt1lh48TEKKulY_b0dmlH2TQ1CjC41k,1812
+flwr_datasets/partitioner/partitioner.py,sha256=MUQ3VUR29dlupW9Ryvf2p-hvc8SLwTAxIp9EbWIyHXI,2838
+flwr_datasets/utils.py,sha256=6E7hoGTGkbKAGDyO5FWPnObFIp9PupucSsh5sJ4bFp8,2020
+flwr_datasets-0.0.1.dist-info/METADATA,sha256=A4O60yZOpHLqVSJkAj03f1OEnbRIOJNINxEyE7LBEmU,5316
+flwr_datasets-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+flwr_datasets-0.0.1.dist-info/RECORD,,
