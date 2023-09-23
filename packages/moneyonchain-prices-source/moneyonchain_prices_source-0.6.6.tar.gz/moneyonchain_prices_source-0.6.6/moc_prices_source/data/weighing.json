@@ -1,0 +1,36 @@
+{
+    "btc_usd_bitstamp": 0.22,
+    "btc_usd_bitfinex": 0.18,
+    "btc_usd_kraken":   0.18,
+    "btc_usd_coinbase": 0.25,
+    "btc_usd_gemini":   0.17,
+
+    "rif_btc_binance":    1,
+    "rif_btc_bithumbpro": 0,
+    "rif_btc_sovryn":     0,
+    "rif_btc_mexc":       0,
+    "rif_btc_coingecko":  0,
+
+    "rif_usdt_binance": 1,
+    
+    "rif_usdt_ma_binance": 1,
+
+    "eth_btc_bitstamp": 0.25,
+    "eth_btc_bitfinex": 0.25,
+    "eth_btc_kraken":   0.25,
+    "eth_btc_binance":  0.25,
+    "eth_btc_gemini":   0,
+    
+    "btc_usdt_binance":  0.80,
+    "btc_usdt_bitfinex": 0.05,
+    "btc_usdt_kraken":   0.05,
+    "btc_usdt_coinbase": 0.10,
+    
+    "bnb_usdt_binance": 1,
+
+    "moc_btc_sovryn": 1,
+
+    "usdt_usd_bitstamp": 0.15,
+    "usdt_usd_coinbase": 0.45,
+    "usdt_usd_kraken":   0.40
+}
