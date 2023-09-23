@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: mat-edge-generator
+Version: 0.2.2
+Summary: This library is used for creating a MAT edge starting from a simple configuration file
+Home-page: UNKNOWN
+Author: Filippo Ghelfi
+Author-email: f.ghelfi@40-factory.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+**Introduzione**
+
+Il bsw-generator è un software per generare in maniera automatica dei bsw standard adatti al MAT
+
+**Configurazione**
+
+Per configurare il software occorre compilare un file configBsw.json. 
+Vengono ora descritte le chiavi che compongono questa configurazione, si tenga conto che ogni qual volta è indicato la dicitura "variabile" si intende un input del BSW. Nel caso questo input non arrivi direttamente dal PLC ma necessiti essere calcolato, è necessario indicare la variabile come *utils.-nome variabile-*. Tutte le variabili utils verranno predisposte in un aspect dedicato da compilare manualmente
+
+La configurazione viene fatta per ogni sotto macchina (inclusa la linea) e, per ogni macchina, presenta le seguenti chiavi:
+
+- cycle: DICT (OPT) contenente le seguenti chiavi:
+
+    id: STR variabile usata per capire la variazione dei cicli
+
+    aux_var: LIST OF STR lista di variabili ausiliarie da inserire nella storicizzazione dei cicli
+
+- phase: DICT(OPT) dizionario delle fasi - possibile solo se esiste il dizionario cycle:
+
+    id: STR variabile usata per capire la variazione delle fasi
+
+    aux_var: LIST OF STR lista di variabili ausiliarie da inserire nella storicizzazione delle fasi
+    
+- state: DICT contenente le seguenti chiavi
+
+    var: STR variabile usata per lo stato
+
+    faulty: LIST OF INT lista di interi di stati di fault
+
+    productive: LIST OF INT lista di interi di stati produttivi
+
+    external: LIST OF INT lista di interi di fermate di stop a causa esterna
+
+    possible_vals: LIST OF INT lista di interi di tutti gli stati possibili
+
+- mainCounter (OPT): DICT contenente le seguenti chiavi:
+
+    id: STR variabile usata per il contatore incrementale di produzione
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- badCounter (OPT): DICT contenente le seguenti chiavi:
+
+    id: STR variabile usata per il contatore incrementale degli scarti
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- scrapReasons(OPT): LIST OF DICT, ogni DICT contiene le seguenti chiavi:
+
+    id: STR variabile usata per il contatore della causa di scarto ennesima
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- goodCounter (OPT): DICT contenente le seguenti chiavi:
+
+    id: STR variabile usata per il contatore incrementale dei pezzi buoni
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- idealSpeed (OPT): DICT contenente le seguenti chiavi:
+
+    id: STR variabile usata per la velocità ideale
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- aggr: LIST Lista degli aggregati della macchina
+
+- counters (OPT): LIST OF DICT, ogni DICT contiene le seguenti chiavi:
+
+    id: STR variabile usata per il contatore generico ennesimo
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- consIntegral (OPT): LIST OF DICT, ogni DICT contiene le seguenti chiavi:
+    id: STR variabile usata per il consumabile da integrare nel tempo
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- consSum (OPT): LIST OF DICT, ogni DICT contiene le seguenti chiavi:
+
+    id: STR variabile usata per il consumabile da sommare
+
+    scale: NUM indica eventuali scalature da fare sul dato
+
+- raws (OPT): LIST OF DICT, ogni DICT contiene le seguenti chiavi:
+
+    sampling: INT intero che indica il sampling time in millisecondi
+
+    sendToMqtt: BOOL se True, l'aspect raw verrà reso disponibile in uscita su canale MQTT
+
+    vars:   
+
+    - LIST lista di variabili da acquisire senza modifiche 
+
+    - DICT con chiavi corrispondenti alle variabili da registrare e valori uguali ai loro datatype (es. "var_01": "float")
+
+- warnings (OPT): LIST OF STRING, Lista contenente le variabili usate per i warnings (dati di tipo booleano)
+
+- alarms (OPT): LIST OF STRING, Lista contenente le variabili usate per gli alarms (dati di tipo booleano)
+
+- breakdowns (OPT): DICT, contenente le seguenti chiavi:
+
+    mode: STR indica la modalità di ricerca di breakdown, possibili valori sono:
+
+        'pre' : solo gli allarmi iniziati prima del breakdown possono essere causa
+
+        'post': solo gli allarmi iniziati dopo il breakdown possono essere causa
+
+        'prepost': sia gli allarmi iniziati prima che dopo il breakdown possono essere causa
+
+    params: LIST OF STRING, Lista dei parametri da acquisire ad inzio e fine breakdown
+
+- buttons (OPT): LIST OF STRING, Lista contenente le variabili usate per i bottoni (dati di tipo booleano)
+
+- snapshot : BOOL, Se True, verranno crati gli snapshot del BSW in output per tutti gli aspect RAW.
+
+- recipe (OPT): 
+
+    Option 1:
+
+    - LIST OF STRING, Lista contenente le variabili usate come parametri di ricetta
+
+    Option 2:
+
+    - DICT con chiavi corrispondenti alle variabili da registrare e valori uguali ai loro datatype (es. "var_01": "float")
+
