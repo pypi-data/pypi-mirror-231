@@ -1,0 +1,228 @@
+Metadata-Version: 2.1
+Name: kot_cloud_telegram
+Version: 0.5.4
+Summary: Hot reload, remote controlled and expandable telegram bot.
+Home-page: https://github.com/KOT-database/KOT-Cloud-Telegram
+License: MIT
+Description: # KOT Cloud Telegram
+        
+        Hot reload, remote controlled and expandable telegram bot.
+        
+        [Website](https://kotdatabase.dev/kot-update) | [Discord](https://discord.gg/QtnKf532Er) | [Twitter](https://twitter.com/)
+        
+        
+        ![ıntro (1280 x 640 px) (2)](https://github.com/KOT-database/KOT-Cloud-Telegram/assets/41792982/ad598e1f-0553-4ff3-b1cc-a4882ad92c4b)
+        
+        
+        ## Installation
+        You can install KOT by pip3:
+        
+        ```console
+        pip3 install kot_cloud_telegram
+        ```
+        
+        
+        
+        ## Implementing
+        In this point you can use any [KOT Cloud](https://docs.kotdatabase.dev/kot_cloud.html).
+        
+        
+        We will use the Free cloud for these examples and for free `YOUR_CLOUD_KEY`:
+        ```console
+        KOT cloud_key
+        ```
+        >YOUR_CLOUD_KEY = "cloud-***"
+        
+        Also you can set any string for `YOUR_GLOBAL_ENCRYPTION_KEY` example: 
+        > YOUR_GLOBAL_ENCRYPTION_KEY = "Thisismypass"
+        
+        ### Basic
+        
+        ```python
+        from kot_cloud_telegram import KOT_Cloud_Telegram
+        from kot import KOT_Cloud
+        
+        YOUR_CLOUD_KEY = ""
+        YOUR_GLOBAL_ENCRYPTION_KEY = ""
+        BOT_TOKEN = ""
+        
+        cloud = KOT_Cloud(YOUR_CLOUD_KEY)
+        telegram = KOT_Cloud_Telegram(YOUR_GLOBAL_ENCRYPTION_KEY, cloud)
+        telegram.deploy(BOT_TOKEN) 
+        
+        # ------- BOT ------- 
+        
+        
+        @telegram.command(description="Welcome, send an hi") # Define a function that can call with /hi in telegram
+        def hi(arguments, message):
+            telegram.reply_to(message,f"Hello, welcome {arguments[0]}")
+        
+        
+        # ------- BOT ------- 
+        
+        telegram.run()
+        ```
+        ![image](https://github.com/KOT-database/KOT-Cloud-Telegram/assets/41792982/9ee65177-8e45-450d-913f-84e320896cff)
+        
+        ### Advanced: With Hot Reload
+        
+        #### Runner
+        
+        Save the below code as `run.py`.
+        ```python
+        from kot_cloud_telegram import KOT_Cloud_Telegram
+        from kot import KOT_Cloud
+        
+        YOUR_CLOUD_KEY = ""
+        YOUR_GLOBAL_ENCRYPTION_KEY = ""
+        BOT_TOKEN = ""
+        
+        cloud = KOT_Cloud(YOUR_CLOUD_KEY)
+        telegram = KOT_Cloud_Telegram(YOUR_GLOBAL_ENCRYPTION_KEY, cloud)
+        telegram.deploy(BOT_TOKEN) 
+        
+        
+        # ------- BOT ------- 
+        
+        
+        telegram.deploy("BOT_TOKEN") 
+        telegram.run()
+        ```
+        
+        And run the `run.py`.
+        
+        If you are an linux user you can use for sending to background:
+        ```console
+        nohup python3 run.py >> run.log &
+        ```
+        
+        #### Editor
+        
+        Use the below code for editing your bot:
+        
+        ```python
+        from kot_cloud_telegram import KOT_Cloud_Telegram
+        from kot import KOT_Cloud
+        
+        YOUR_CLOUD_KEY = ""
+        YOUR_GLOBAL_ENCRYPTION_KEY = ""
+        BOT_TOKEN = ""
+        
+        cloud = KOT_Cloud(YOUR_CLOUD_KEY)
+        telegram = KOT_Cloud_Telegram(YOUR_GLOBAL_ENCRYPTION_KEY, cloud)
+        telegram.deploy(BOT_TOKEN) 
+        
+        
+        # ------- BOT ------- 
+        
+        @telegram.command(description="Welcome, send an hi")
+        def hi(arguments, message):
+            telegram.reply_to(message,f"Hello, welcome {arguments[0]}")
+        
+        ```
+        
+        ## Functions:
+        - telegram.clear_commands()
+        - telegram.delete_command("COMMAND_NAME")
+        - telegram.send_message(CHAT_ID, "Hi")
+        - telegram.restrict(BOOL)
+        - telegram.allowed_users([IDS])
+        
+        
+        ## Example Commands
+        
+        ```python
+        from kot import requires
+        
+        @telegram.command(description="Echo command")
+        def echo(arguments, message):
+            telegram.reply_to(message, "I am online")
+        
+        @telegram.command(description="Pings a website and returns the status")
+        @requires("requests")
+        def ping(arguments, message):
+            import requests
+            
+            website_url = arguments[0]
+            try:
+                response = requests.get(website_url)
+                if response.status_code == 200:
+                    telegram.reply_to(message, f"The website {website_url} is up and running.")
+                else:
+                    telegram.reply_to(message, f"The website {website_url} returned a status code {response.status_code}.")
+            except requests.exceptions.RequestException:
+                telegram.reply_to(message, f"Failed to reach the website {website_url}.")
+        
+        
+        @telegram.command(description="Generates a random number within a given range")
+        def random_number(arguments, message):
+            import random
+        
+            try:
+                min_value = int(arguments[0])
+                max_value = int(arguments[1])
+                if min_value <= max_value:
+                    random_num = random.randint(min_value, max_value)
+                    telegram.reply_to(message, f"The random number is: {random_num}")
+                else:
+                    telegram.reply_to(message, "Invalid range. Please provide a minimum value less than or equal to the maximum value.")
+            except ValueError:
+                telegram.reply_to(message, "Invalid arguments. Please provide numeric values for minimum and maximum range.")
+        
+        
+        ```
+        
+        ![image](https://github.com/KOT-database/KOT-Cloud-Telegram/assets/41792982/350ead86-3a45-4bb8-b639-1a0bd360039e)
+        
+        
+        ## Docker
+        We supports docker for runners.
+        
+        Firstly edit the `.env.template` and rename as `.env`
+        
+        
+        After if you want to use Free:
+        
+        ```console
+        docker run --env-file .env -d --name KOT_CLOUD_TELEGRAM_FREE ghcr.io/kot-database/kot_cloud_telegram:latest python3 run_Free.py
+        ```
+        
+        For Pro:
+        
+        
+        ```console
+        docker run --env-file .env -d --name KOT_CLOUD_TELEGRAM_PRO ghcr.io/kot-database/kot_cloud_telegram:latest python3 run_Pro.py
+        ```
+        
+        or Dedicated:
+        
+        
+        ```console
+        docker run --env-file .env -d --name KOT_CLOUD_TELEGRAM_DEDICATED ghcr.io/kot-database/kot_cloud_telegram:latest python3 run_Dedicated.py
+        ```
+        
+        
+        And after you can use the editor.
+        
+        
+        ## Contributing
+        Contributions to KOT Cloud Telegram are welcome! If you have any suggestions or find a bug, please open an issue on the GitHub repository. If you want to contribute code, please fork the repository and create a pull request.
+        
+        ## License
+        KOT Cloud Telegram is released under the MIT License.
+        
+        <h2 align="center">
+            Contributors
+        </h2>
+        <p align="center">
+            Thank you for your contribution!
+        </p>
+        <p align="center">
+            <a href="https://github.com/KOT-database/KOT-Cloud-Telegram/graphs/contributors">
+              <img src="https://contrib.rocks/image?repo=KOT-database/KOT-Cloud-Telegram" />
+            </a>
+        </p>
+        
+Platform: UNKNOWN
+Requires-Python: >= 3
+Description-Content-Type: text/markdown
