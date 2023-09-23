@@ -1,0 +1,8 @@
+LICENSE
+PString.py
+README.md
+pyproject.toml
+pstring.egg-info/PKG-INFO
+pstring.egg-info/SOURCES.txt
+pstring.egg-info/dependency_links.txt
+pstring.egg-info/top_level.txt

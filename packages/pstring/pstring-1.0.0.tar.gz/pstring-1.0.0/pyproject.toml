@@ -1,0 +1,21 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pstring"
+version = "1.0.0"
+description = "PString is a str class that recognizes IPA symbols."
+readme = "README.md"
+authors = [{ name = "Caio Rocha", email = "caiocedrola@ice.ufjf.br" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ipa", "phoneme", "phonetics"]
+dependencies = []
+requires-python = ">=3.7"
