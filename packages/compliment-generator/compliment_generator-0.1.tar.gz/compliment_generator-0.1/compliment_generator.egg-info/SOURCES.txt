@@ -1,0 +1,6 @@
+compliment_generator.py
+setup.py
+compliment_generator.egg-info/PKG-INFO
+compliment_generator.egg-info/SOURCES.txt
+compliment_generator.egg-info/dependency_links.txt
+compliment_generator.egg-info/top_level.txt
