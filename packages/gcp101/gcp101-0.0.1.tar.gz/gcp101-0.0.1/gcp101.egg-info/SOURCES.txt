@@ -1,0 +1,11 @@
+setup.py
+gcp101/__init__.py
+gcp101/bq.py
+gcp101/gcs.py
+gcp101.egg-info/PKG-INFO
+gcp101.egg-info/SOURCES.txt
+gcp101.egg-info/dependency_links.txt
+gcp101.egg-info/top_level.txt
+gcp101/src/__init__.py
+gcp101/src/entities.py
+tests/tests.py
