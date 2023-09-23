@@ -1,0 +1,10 @@
+basilsweepercrawler/__init__.py,sha256=oTt_5w34QlkCs5ONGl8-fFq4Ik67soaUYKuNYJSNuNc,107
+basilsweepercrawler/github_scraper.py,sha256=lml1TezpO6KIvm-sq45x1N00EBg5Gk4mmDK8raXWPi0,5492
+basilsweepercrawler/linkedin_scraper.py,sha256=61siS9Od13ijBRgN9bjpN6ETLFwqi9O3olX64SOJY0U,15176
+basilsweepercrawler/web_sweepers.py,sha256=R9OOk3Yf_OFAn1a_NYQJkHsOW2pniOCiMpLLe2pm7Rw,10289
+basilsweepercrawler/tests/test_github_scraper.py,sha256=PdB358Us9MoAaVPf_I2ldWhK0AvBIIUN51i_JfmVSoE,5215
+basilsweepercrawler/tests/test_web_sweepers.py,sha256=np_Jn4bXXr462cnJBF7ij6g17T3J2TKyExGqT-F96AU,10250
+basilsweepercrawler-0.0.11.dist-info/METADATA,sha256=U-iPCbAqy3xGPV58ZQ314hJK7WCQuRmGVK0BwNHHpmI,390
+basilsweepercrawler-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+basilsweepercrawler-0.0.11.dist-info/top_level.txt,sha256=r0bQVJtwI2XxMKPe_ERLOW1k8xIezGlgl69h1QdOB2Y,20
+basilsweepercrawler-0.0.11.dist-info/RECORD,,
