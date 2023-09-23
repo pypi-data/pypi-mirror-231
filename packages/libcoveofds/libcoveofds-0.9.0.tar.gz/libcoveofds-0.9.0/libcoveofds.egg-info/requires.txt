@@ -1,0 +1,12 @@
+json-merge-patch
+jsonschema
+libcove2
+rfc3987
+
+[dev]
+Sphinx
+black==22.3.0
+flake8
+isort
+mypy
+pytest
