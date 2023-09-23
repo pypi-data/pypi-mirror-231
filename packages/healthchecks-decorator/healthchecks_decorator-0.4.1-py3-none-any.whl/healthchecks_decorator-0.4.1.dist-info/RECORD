@@ -1,0 +1,8 @@
+healthchecks_decorator/__init__.py,sha256=TjlRdxycj_mQJtjN-NjV8fc6uw-frJzNGGEF-UCFme8,93
+healthchecks_decorator/decorator.py,sha256=vfoA3ui2zT_G2kzWnVjNkOXAIAExcl-_V3XDz5Q80YE,4969
+healthchecks_decorator/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+healthchecks_decorator-0.4.1.dist-info/entry_points.txt,sha256=zjrV1gPhFkeGrqpPlMDtfPheEQzhi2NpzKllwhaGa1Y,79
+healthchecks_decorator-0.4.1.dist-info/LICENSE.rst,sha256=NdI-aVBbdPeuu3Il-u4I_EWNjIVbXV5adwNEFtMA7P0,1088
+healthchecks_decorator-0.4.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+healthchecks_decorator-0.4.1.dist-info/METADATA,sha256=ojSqsKbi7LiqrbskqD2ncLA7qL2iDikGTrkWJLCTC8g,6002
+healthchecks_decorator-0.4.1.dist-info/RECORD,,
