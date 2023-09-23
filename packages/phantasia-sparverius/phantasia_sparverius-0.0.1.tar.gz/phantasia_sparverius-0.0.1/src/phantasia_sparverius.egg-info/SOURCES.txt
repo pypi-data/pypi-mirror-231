@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/phantasia_sparverius/__init__.py
+src/phantasia_sparverius.egg-info/PKG-INFO
+src/phantasia_sparverius.egg-info/SOURCES.txt
+src/phantasia_sparverius.egg-info/dependency_links.txt
+src/phantasia_sparverius.egg-info/top_level.txt

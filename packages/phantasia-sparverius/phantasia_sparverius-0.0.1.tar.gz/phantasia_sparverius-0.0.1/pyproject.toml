@@ -1,0 +1,15 @@
+[project]
+name = "phantasia_sparverius"
+version = "0.0.1"
+authors = [
+  { name="Richard Kent", email="qpotizo@gmail.com" },
+]
+description = "Phantasi"
+
+[project.urls]
+"Homepage" = "https://github.com/sparverius/phantasia"
+"Bug Tracker" = "https://github.com/sparverius/phantasia/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
