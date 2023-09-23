@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+excel_worker/__init__.py
+excel_worker/main.py
+excel_worker.egg-info/PKG-INFO
+excel_worker.egg-info/SOURCES.txt
+excel_worker.egg-info/dependency_links.txt
+excel_worker.egg-info/requires.txt
+excel_worker.egg-info/top_level.txt
