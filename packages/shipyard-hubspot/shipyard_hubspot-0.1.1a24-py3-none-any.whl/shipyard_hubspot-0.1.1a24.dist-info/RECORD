@@ -1,0 +1,11 @@
+shipyard_hubspot/__init__.py,sha256=hXDt0MrVJktJD4ba-6Gsps5SHFqxlFFn1HpSdSA8D80,155
+shipyard_hubspot/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_hubspot/cli/authtest.py,sha256=a0BVe4EW70T4inUbt0DLYhRyefBlsockTSZo9uUOi7k,204
+shipyard_hubspot/cli/csv_headers_assist.py,sha256=15UWPo1P5n3qn-H1llrcXnfc3KVe4byW7i3Oo1bGwdo,3393
+shipyard_hubspot/cli/export_list.py,sha256=As7DuTNlD013Y_LO99jKRFmCZr8Cpm2Jq0hEMehD3hI,2369
+shipyard_hubspot/cli/upload_data.py,sha256=fQQTx4wVSXvEmwtEnAZAQauBzuB04L7vhW60jKC0TBM,5467
+shipyard_hubspot/hubspot.py,sha256=tDYQM0lTLqZOBiKndaYThwi-w5J53oVblLb_4ubNEM0,11803
+shipyard_hubspot/hubspot_utils.py,sha256=N1iL14jrGhvTDYOjKhr1WeGB4OMnZKzS6ke6owSRhBo,12257
+shipyard_hubspot-0.1.1a24.dist-info/METADATA,sha256=LfUbnVKNdbjByLa-UHuC42tIE1K-Ywn2tqZiwePE_YI,1707
+shipyard_hubspot-0.1.1a24.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_hubspot-0.1.1a24.dist-info/RECORD,,
