@@ -1,0 +1,4 @@
+[console_scripts]
+build = drf_swagger_utils.Command:main
+create_app = drf_swagger_utils.Command:main
+
