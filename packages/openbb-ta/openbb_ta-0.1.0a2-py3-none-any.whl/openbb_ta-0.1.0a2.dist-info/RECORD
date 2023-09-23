@@ -1,0 +1,7 @@
+openbb_ta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_ta/ta_helpers.py,sha256=LUfTzrU7CfKDom6YhGDdlGk96WMLErH28xWPJpAspjY,15864
+openbb_ta/ta_router.py,sha256=_B20Pc2tg6VAbgj9ElFOR0cwG4moL5ouUcJq7m4-itE,47046
+openbb_ta-0.1.0a2.dist-info/METADATA,sha256=jvfPjz48g8vNNIZdOlR-MfUK8AQL3ENcRRtRBiAndv0,1242
+openbb_ta-0.1.0a2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+openbb_ta-0.1.0a2.dist-info/entry_points.txt,sha256=YqmdoY7hKG7aq6wi0DK2gjQzvaYVJWtLcSU74fqdRDU,55
+openbb_ta-0.1.0a2.dist-info/RECORD,,
