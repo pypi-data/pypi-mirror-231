@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: researchpal
+Version: 0.0.1
+Summary: Python library for generating literature review
+Home-page: UNKNOWN
+Author: Dr.Ali Chaudhry
+Author-email: ali@naseem.education
+License: MIT
+Description: UNKNOWN
+Keywords: researchpal,literature review,generate literature review,python literature
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
