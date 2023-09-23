@@ -1,0 +1,117 @@
+version: '2.4'
+
+services:
+
+  redis:
+    container_name: redis
+    image: redis:5.0.10
+    restart: always
+    mem_limit: 256M
+    ports:
+    - 6379:6379
+    networks:
+    - mat
+
+  influxdb:
+    container_name: influxdb
+    image: influxdb:1.8.2
+    restart: always
+    volumes:
+    - ./dynamics/influxdb/data:/var/lib/influxdb
+    environment:
+    - INFLUXDB_DB=db0
+    - INFLUXDB_ADMIN_USER=40f
+    - INFLUXDB_ADMIN_PASSWORD=<PASSWORD>
+    - INFLUXDB_HTTP_AUTH_ENABLED=true
+    - INFLUXDB_DATA_INDEX_VERSION=tsi1
+    ports:
+    - 8086:8086
+    mem_limit: 2048M
+    networks:
+    - mat
+
+  eclipse-mosquitto:
+    container_name: eclipse-mosquitto
+    image: eclipse-mosquitto:1.6.12
+    restart: always
+    mem_limit: 256M
+    ports:
+    - 1883:1883
+    - 1884:1884
+    networks:
+    - mat
+
+  bsw:
+    container_name: bsw
+    image: matcontainerregistry.azurecr.io/mat-edge-bsw:latest
+    init: true
+    restart: always
+    volumes:
+    - ./config/bsw/config.json:/app/config.json
+    - ./config/bsw/mapping.json:/app/mapping.json
+    - ./config/bsw/customMethod/:/app/customMethod/
+    - ./dynamics/bsw/activeAlarms/:/app/activeAlarms/
+    - ./dynamics/E2C/factoryedge/sync/ASSETIDTOSUB/:/app/mind/
+    - ./dynamics/E2C/factoryedge/sync/ASSETIDTOSUB/rawPickles:/app/mind/rawPickles/
+    - ./dynamics/bsw/logs/:/app/logs/
+    - ./dynamics/bsw/persistence/:/app/persistence/
+    mem_limit: 1024M
+    stop_grace_period: 5s
+    depends_on:
+    - redis
+    - influxdb
+    networks:
+    - mat
+  
+  influx-to-json:
+    container_name: influx-to-json
+    image: matcontainerregistry.azurecr.io/mat-bsw-edge-writer-mdsp:V1.1
+    restart: always
+    volumes:
+        - ./config/E2C/influx-to-json/config.json:/app/config.json
+        - ./dynamics/E2C/influx-to-json/cache/:/app/cache/ # contiene i timestamp degli ultimi dati letti da influxdb
+        - ./dynamics/E2C/influx-to-json/logs/:/app/logs/
+        - ./dynamics/E2C/influx-to-json/temp/:/app/temp/
+        - ./dynamics/E2C/json-to-npz/sync/:/app/sync/ # json genrati da e2c-influx-to-json da convertire in npz
+    mem_limit: 256M
+    depends_on:
+        - "influxdb"
+    networks:
+      - mat
+      
+  json-to-npz:
+    container_name: json-to-nz
+    image:  matcontainerregistry.azurecr.io/mat-bsw-npz-edge:V1.2
+    restart: always
+    volumes:
+        - ./config/E2C/influx-to-json/config.json:/app/config.json # deve essere lo stesso di e2c-influx-to-json
+        - ./dynamics/E2C/json-to-npz/sync/:/app/sync/ # json genrati da e2c-influx-to-json da convertire in npz
+        - ./dynamics/E2C/json-to-npz/rotate/:/app/rotate/
+        - ./dynamics/E2C/factoryedge/sync/:/app/factoryedge/sync/ # npz da genrati da npz-manager da inviare a midnpshere
+        - ./dynamics/E2C/json-to-npz/tmp/:/app/factoryedge/tmp/ # contiene npz non chiusi
+        - ./dynamics/E2C/json-to-npz/logs/:/app/logs/
+    environment:
+        - F40_ENVIROMENT=EDGE
+        - F40_POLLING_TIME=20
+        - F40_WORKER=writer
+    mem_limit: 512M
+
+  factoryedge-E2C:
+    container_name: factoryedge-E2C
+    image: matcontainerregistry.azurecr.io/factoryedge-e2azure:V1.1
+    restart: always
+    volumes:
+      - ./config/E2C/factoryedge/config.json:/app/config.json
+      - ./config/E2C/factoryedge/profiles/:/app/profiles/
+      - ./dynamics/E2C/factoryedge/logs/:/app/logs/
+      - ./dynamics/E2C/factoryedge/temp/:/app/temp/
+      - ./dynamics/E2C/factoryedge/sync/:/app/sync/
+    mem_limit: 512M
+    depends_on:
+      - "eclipse-mosquitto"
+    networks:
+      - mat
+
+networks:
+  mat:
+    name: mat

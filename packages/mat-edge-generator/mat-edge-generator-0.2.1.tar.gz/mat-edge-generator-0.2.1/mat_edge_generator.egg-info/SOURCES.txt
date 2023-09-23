@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+mat_edge_generator.egg-info/PKG-INFO
+mat_edge_generator.egg-info/SOURCES.txt
+mat_edge_generator.egg-info/dependency_links.txt
+mat_edge_generator.egg-info/requires.txt
+mat_edge_generator.egg-info/top_level.txt
+template/EDGE/docker-compose.yml
