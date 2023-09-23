@@ -1,0 +1,42 @@
+{
+    "definitions": {
+        "store_400": {
+            "kind": "entity",
+            "elements": {
+                "transaction_id": {
+                    "type": "cds.Int64"
+                },
+                "store_id": {
+                    "type": "cds.Int64",
+                    "@hint": "Potential foreign key"
+                },
+                "article_id": {
+                    "type": "cds.Int64"
+                },
+                "category": {
+                    "type": "cds.String",
+                    "length": 8
+                },
+                "name": {
+                    "type": "cds.String",
+                    "length": 8
+                },
+                "size": {
+                    "type": "cds.String",
+                    "length": 4
+                },
+                "transaction_date": {
+                    "type": "cds.String",
+                    "length": 19
+                }
+            },
+            "@description": "csn-file is generated"
+        }
+    },
+    "version": {
+        "creator": "pycsn",
+        "csn": "0.1.99",
+        "@format": "0.0.1",
+        "@creation_date": "2023-08-29"
+    }
+}

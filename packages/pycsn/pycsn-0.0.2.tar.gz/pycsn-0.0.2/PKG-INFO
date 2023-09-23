@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: pycsn
+Version: 0.0.2
+Summary: Creates cds and csn-files from pandas DataFrame.
+Project-URL: Documentation, https://github.tools.sap/hda-xpm-frontrunner/pyscn#readme
+Project-URL: Issues, https://github.com/unknown/pycsn/issues
+Project-URL: Source, https://github.com/unknown/pycsn
+Author-email: Thorsten Hapke <thorsten.hapke@sap.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pycsn
+
+Python package supporting cds for table definitions in the first place. The data type is a ```dict``` and therefore using csn/json as the primary formatn from which a cds-document can be created. 
+
+Use cases:
+- Commandline: creating csn-file from csv-file that can be then adjusted
+- Use package for creating a csn-file in a python script, e.g.
+  1. Create csn from pd.DataFrame with index as primary keys
+  2. Add annotations
+
+
+Commandline
+```shell
+usage: pycsn [-h] [filename] [csn]
+
+Creates csn-file from pandas DataFrame.
+
+positional arguments:
+  filename    Data Filename (csv) or folder (delta)
+  csn         csn-file (optional)
+
+options:
+  -h, --help  show this help message and exit
+```
+
+
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pycsn.svg)](https://pypi.org/project/pycsn)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pycsn.svg)](https://pypi.org/project/pycsn)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+
+
+## Installation
+
+```console
+pip install pycsn
+```
+
+### For testing
+
+#### Install cds
+Install the cds cli tool "cds-dk"
+
+```shell
+npm add -g @sap/cds-dk
+```
+
+#### Local Database
+
+Because the final destination of a table is HANA, you should test if the resulting sql-statement (CREATE TABLE) works. sqlite is recommended by SAP CAP. 
+
+For MacOs:
+```shell
+brew install sqlite
+```
+
+## Testing
+
+**pyscn** is using a ```dict``` a its primary data format. 
+
+
+
+## Example Data
+
+table : store
+columns : 
+    transaction_id: 
+    store_id: 
+    
+
+## License
+
+`pycsn` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

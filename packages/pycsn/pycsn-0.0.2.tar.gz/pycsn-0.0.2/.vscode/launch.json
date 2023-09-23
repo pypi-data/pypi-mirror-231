@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [    
+        {
+            "name": "pycsn data/store_300.csv",
+            "type": "python",
+            "request": "launch",
+            "program": "src/pycsn/pycsn.py",
+            "console": "integratedTerminal",
+            "args": [
+                "data/store_300.csv",
+            ]
+        },
+        {
+            "name": "pycsn data/store_300.csv data/stores.csv",
+            "type": "python",
+            "request": "launch",
+            "program": "src/pycsn/pycsn.py",
+            "console": "integratedTerminal",
+            "args": [
+                "data/store_300.csv",
+                "data/stores.csv"
+            ]
+        },
+        {
+            "name": "pycsn data/store_300.csv data/store_400.csv -p transaction_id store_id ",
+            "type": "python",
+            "request": "launch",
+            "program": "src/pycsn/pycsn.py",
+            "console": "integratedTerminal",
+            "args": [
+                "data/store_300.csv",
+                "data/store_400.csv",
+                "-p",
+                "transaction_id",
+                "store_id",
+            ]
+        }
+    ]
+}

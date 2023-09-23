@@ -1,0 +1,252 @@
+{
+  "definitions": {
+    "Entity": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "type": "cds.Integer"
+        }
+      }
+    },
+    "HumanName": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "first": {
+          "type": "cds.String"
+        },
+        "middle": {
+          "type": "cds.String"
+        },
+        "bind": {
+          "type": "cds.String"
+        },
+        "last": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "JobCategory": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "name": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "Job": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "title": {
+          "type": "cds.String"
+        },
+        "description": {
+          "type": "cds.String"
+        },
+        "category": {
+          "type": "cds.Association",
+          "target": "JobCategory"
+        }
+      }
+    },
+    "Currency": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "name": {
+          "type": "cds.String"
+        },
+        "symbol": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "TaxCategory": {
+      "kind": "entity",
+      "elements": {
+        "id": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "name": {
+          "type": "cds.String"
+        },
+        "multiplier": {
+          "type": "cds.Integer"
+        }
+      }
+    },
+    "Salery": {
+      "kind": "entity",
+      "elements": {
+        "entityRef": {
+          "type": "cds.Association",
+          "key": true,
+          "target": "Entity",
+          "cardinality": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        "currencyRef": {
+          "type": "cds.Association",
+          "target": "Currency",
+          "cardinality": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        "tax": {
+          "type": "cds.Association",
+          "target": "TaxCategory",
+          "cardinality": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        "amount": {
+          "type": "cds.Integer"
+        }
+      }
+    },
+    "Human": {
+      "kind": "entity",
+      "elements": {
+        "entityRef": {
+          "type": "cds.Association",
+          "key": true,
+          "target": "Entity",
+          "cardinality": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        "name": {
+          "type": "cds.Association",
+          "target": "HumanName",
+          "cardinality": {
+            "max": 1,
+            "min": 1
+          }
+        }
+      }
+    },
+    "Employee": {
+      "kind": "entity",
+      "elements": {
+        "humanRef": {
+          "type": "cds.Association",
+          "target": "Human",
+          "cardinality": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        "jobRef": {
+          "type": "cds.Association",
+          "target": "Job"
+        },
+        "saleryRef": {
+          "type": "cds.Association",
+          "target": "Salery"
+        }
+      }
+    },
+    "ViewSelect": {
+      "kind": "entity",
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "Employee"
+            ]
+          },
+          "columns": [
+            {
+              "func": "CONCAT",
+              "args": [
+                {
+                  "ref": [
+                    "saleryRef",
+                    "amount"
+                  ]
+                },
+                {
+                  "ref": [
+                    "saleryRef",
+                    "currencyRef",
+                    "symbol"
+                  ]
+                }
+              ],
+              "as": "money"
+            }
+          ]
+        }
+      }
+    },
+    "ViewUnion": {
+      "kind": "entity",
+      "query": {
+        "SET": {
+          "op": "union",
+          "args": [
+            {
+              "SELECT": {
+                "from": {
+                  "ref": [
+                    "Employee"
+                  ]
+                },
+                "columns": [
+                  {
+                    "ref": [
+                      "saleryRef",
+                      "amount"
+                    ],
+                    "as": "money"
+                  }
+                ]
+              }
+            },
+            {
+              "SELECT": {
+                "from": {
+                  "ref": [
+                    "Salery"
+                  ]
+                },
+                "columns": [
+                  {
+                    "ref": [
+                      "amount"
+                    ],
+                    "as": "money"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  }
+}

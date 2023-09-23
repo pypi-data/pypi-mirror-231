@@ -1,0 +1,127 @@
+{
+  "definitions": {
+    "Flight01": {
+      "kind": "entity",
+      "elements": {
+        "Airline": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "Airline",
+          "length": 3
+        },
+        "FlightConnection": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "Flight Connection",
+          "length": 4
+        },
+        "FlightDate": {
+          "type": "cds.String",
+          "key": true,
+          "@Common.Label": "Flight Date",
+          "length": 8
+        },
+        "FlightPrice": {
+          "type": "cds.Decimal",
+          "@Common.Label": "Flight Price",
+          "precision": 15,
+          "scale": 2
+        },
+        "Currency": {
+          "type": "cds.String",
+          "@Common.Label": "Currency",
+          "length": 5
+        },
+        "AircraftType": {
+          "type": "cds.String",
+          "@Common.Label": "Aircraft Type",
+          "length": 10
+        },
+        "MaximumNumberOfSeats": {
+          "type": "cds.Integer",
+          "@Common.Label": "Total Number Of Seats"
+        },
+        "NumberOfOccupiedSeats": {
+          "type": "cds.Integer",
+          "@Common.Label": "Occupied Seats"
+        },
+        "CurrentBookingsTotalAmount": {
+          "type": "cds.Decimal",
+          "@Common.Label": "Total of Current Bookings",
+          "precision": 17,
+          "scale": 2
+        }
+      },
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "Flight00"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "Airline"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "FlightConnection"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "FlightDate"
+              ],
+              "key": true
+            },
+            {
+              "ref": [
+                "FlightPrice"
+              ]
+            },
+            {
+              "ref": [
+                "Currency"
+              ]
+            },
+            {
+              "ref": [
+                "AircraftType"
+              ]
+            },
+            {
+              "ref": [
+                "MaximumNumberOfSeats"
+              ]
+            },
+            {
+              "ref": [
+                "NumberOfOccupiedSeats"
+              ]
+            },
+            {
+              "ref": [
+                "CurrentBookingsTotalAmount"
+              ]
+            }
+          ]
+        }
+      },
+      "@Common.Label": "Flight00",
+      "@DataWarehouse.businessDefinition.description": "Flight (01: + amount/currency semantics, + category: fact)",
+      "@DataWarehouse.sqlEditor.query": "SELECT \n    \"Airline\",\n    \"FlightConnection\",\n    \"FlightDate\",\n    \"FlightPrice\",\n    \"Currency\",\n    \"AircraftType\",\n    \"MaximumNumberOfSeats\",\n    \"NumberOfOccupiedSeats\",\n    \"CurrentBookingsTotalAmount\" \nfrom Flight00"
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "View Editor",
+    "kind": "sap.dwc.viewmodel"
+  },
+  "$version": "0.2"
+}

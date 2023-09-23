@@ -1,0 +1,29 @@
+{
+  "definitions": {
+    "saplane": {
+      "kind": "entity",
+      "elements": {
+        "planetype": {
+          "type": "cds.String",
+          "@Common.Label": "Plane Type",
+          "length": 10
+        },
+        "producer": {
+          "type": "cds.String",
+          "@Common.Label": "Producer",
+          "length": 5
+        }
+      },
+      "@Common.Label": "Business Name for sAplane",
+      "@DataWarehouse.businessDefinition.description": "Table Desc for saplane"
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "Table Editor",
+    "kind": "sap.dwc.entity"
+  },
+  "$version": "0.2"
+}

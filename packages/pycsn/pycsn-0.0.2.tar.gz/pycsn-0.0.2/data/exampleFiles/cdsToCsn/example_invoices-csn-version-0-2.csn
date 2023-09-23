@@ -1,0 +1,302 @@
+{
+  "namespace": "test.supplier.invoices",
+  "definitions": {
+    "test.supplier.invoices.Company": {
+      "kind": "entity",
+      "elements": {
+        "COMPANY_ID": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "NAME": {
+          "type": "cds.String"
+        },
+        "COUNTRY": {
+          "type": "cds.String"
+        },
+        "SENT_INVOICES": {
+          "type": "cds.Association",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "test.supplier.invoices.Invoice",
+          "on": [
+            {
+              "ref": [
+                "SENT_INVOICES",
+                "BILL_FROM"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        },
+        "RECEIVED_INVOICES": {
+          "type": "cds.Association",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "test.supplier.invoices.Invoice",
+          "on": [
+            {
+              "ref": [
+                "RECEIVED_INVOICES",
+                "BILL_TO"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "test.supplier.invoices.Invoice": {
+      "kind": "entity",
+      "elements": {
+        "BILL_FROM": {
+          "key": true,
+          "type": "cds.Association",
+          "target": "test.supplier.invoices.Company",
+          "keys": [
+            {
+              "ref": [
+                "COMPANY_ID"
+              ]
+            }
+          ]
+        },
+        "INVOICE_NUMBER": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "BILL_TO": {
+          "type": "cds.Association",
+          "target": "test.supplier.invoices.Company",
+          "keys": [
+            {
+              "ref": [
+                "COMPANY_ID"
+              ]
+            }
+          ]
+        },
+        "INVOICE_DATE": {
+          "type": "cds.Date"
+        },
+        "DUE_DATE": {
+          "type": "cds.Date"
+        },
+        "CURRENCY": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "ITEMS": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "test.supplier.invoices.InvoiceItem",
+          "on": [
+            {
+              "ref": [
+                "ITEMS",
+                "INVOICE"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "test.supplier.invoices.InvoiceItem": {
+      "kind": "entity",
+      "elements": {
+        "INVOICE": {
+          "key": true,
+          "type": "cds.Association",
+          "target": "test.supplier.invoices.Invoice",
+          "keys": [
+            {
+              "ref": [
+                "BILL_FROM"
+              ]
+            },
+            {
+              "ref": [
+                "INVOICE_NUMBER"
+              ]
+            }
+          ]
+        },
+        "ITEM_ID": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "SERVICE": {
+          "type": "cds.Association",
+          "target": "test.supplier.invoices.Service",
+          "keys": [
+            {
+              "ref": [
+                "SERVICE_ID"
+              ]
+            }
+          ]
+        },
+        "AMOUNT": {
+          "type": "cds.Decimal",
+          "precision": 20,
+          "scale": 2
+        }
+      }
+    },
+    "test.supplier.invoices.Service": {
+      "kind": "entity",
+      "elements": {
+        "SERVICE_ID": {
+          "key": true,
+          "type": "cds.Integer"
+        },
+        "SERVICE_NAME": {
+          "type": "cds.String",
+          "length": 100
+        },
+        "INVOICE_ITEMS": {
+          "type": "cds.Association",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "test.supplier.invoices.InvoiceItem",
+          "on": [
+            {
+              "ref": [
+                "INVOICE_ITEMS",
+                "SERVICE"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "test.supplier.invoices.viewBillerInvoiceHeaders": {
+      "kind": "entity",
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "test.supplier.invoices.Invoice"
+            ]
+          },
+          "columns": [
+            {
+              "ref": [
+                "BILL_FROM",
+                "COMPANY_ID"
+              ],
+              "as": "SupplierId"
+            },
+            {
+              "ref": [
+                "INVOICE_NUMBER"
+              ],
+              "as": "InvoiceNumber"
+            },
+            {
+              "ref": [
+                "BILL_TO",
+                "COMPANY_ID"
+              ],
+              "as": "ReceiverId"
+            },
+            {
+              "ref": [
+                "DUE_DATE"
+              ],
+              "as": "DueDate"
+            },
+            {
+              "func": "SUM",
+              "args": [
+                {
+                  "ref": [
+                    "ITEMS",
+                    "AMOUNT"
+                  ]
+                }
+              ],
+              "as": "InvoiceAmount"
+            },
+            {
+              "ref": [
+                "CURRENCY"
+              ],
+              "as": "InvoiceCurrency"
+            }
+          ],
+          "groupBy": [
+            {
+              "ref": [
+                "BILL_FROM",
+                "COMPANY_ID"
+              ]
+            },
+            {
+              "ref": [
+                "INVOICE_NUMBER"
+              ]
+            }
+          ]
+        }
+      },
+      "elements": {
+        "SupplierId": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "InvoiceNumber": {
+          "type": "cds.Integer"
+        },
+        "ReceiverId": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "DueDate": {
+          "type": "cds.Date"
+        },
+        "InvoiceAmount": {},
+        "InvoiceCurrency": {
+          "type": "cds.String",
+          "length": 3
+        }
+      },
+      "$syntax": "entity"
+    }
+  },
+  "version": {
+    "csn": "0.2"
+  },
+  "meta": {
+    "creator": "CDS Compiler v1.10.0"
+  },
+  "$version": "0.2"
+}

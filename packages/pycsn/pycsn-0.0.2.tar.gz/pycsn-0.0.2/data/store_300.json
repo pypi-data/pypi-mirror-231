@@ -1,0 +1,39 @@
+{
+    "definitions": {
+        "store_300": {
+            "kind": "entity",
+            "elements": {
+                "transaction_id": {
+                    "type": "cds.Int64",
+                    "key": true
+                },
+                "store_id": {
+                    "type": "cds.String"
+                },
+                "article_id": {
+                    "type": "cds.Int64"
+                },
+                "category": {
+                    "type": "cds.String",
+                    "length": 8
+                },
+                "name": {
+                    "type": "cds.String",
+                    "length": 8
+                },
+                "size": {
+                    "type": "cds.String",
+                    "length": 3
+                },
+                "transaction_date": {
+                    "type": "cds.String",
+                    "length": 10
+                }
+            }
+        }
+    },
+    "version": {
+        "creator": "pyscn",
+        "csn": "0.1.99"
+    }
+}
