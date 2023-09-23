@@ -1,0 +1,35 @@
+import json
+from typing import Text, Dict
+
+from pitrix.base.base_api import BaseApi
+
+
+class QingCloudBaseApi(BaseApi):
+    """云平台接口测试基类，各业务如需扩展可以继承此基类"""
+
+    def __init__(self):
+        super(QingCloudBaseApi, self).__init__()
+        self.region = self.config.get('region')
+        self.zones = self.config.get('zone')
+        self.zone = self.config.get('zone')[0]
+        self.owner = self.config.get('user_id')
+
+    def get_payload(self, *, action: Text, body: Dict, method: Text = None, api_path="/portal_api/") -> Dict:
+        """
+        云平台接口请求体构造
+            action：动作指令
+            body：
+            method：data中的method
+            api_path：接口路由，默认/portal_api/
+        """
+        http_data = {
+            'api_path': api_path,
+            'method': 'post',
+            'params': {'action': action},
+            'data': {
+                'params': json.dumps(body),
+            }
+        }
+        if method is not None:
+            http_data['data']['method'] = method
+        return http_data
