@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+OpenTrepWrapper/OpenTrepWrapper.py
+OpenTrepWrapper/__init__.py
+OpenTrepWrapper/cli.py
+OpenTrepWrapper/utilities.py
+OpenTrepWrapper.egg-info/PKG-INFO
+OpenTrepWrapper.egg-info/SOURCES.txt
+OpenTrepWrapper.egg-info/dependency_links.txt
+OpenTrepWrapper.egg-info/entry_points.txt
+OpenTrepWrapper.egg-info/top_level.txt
