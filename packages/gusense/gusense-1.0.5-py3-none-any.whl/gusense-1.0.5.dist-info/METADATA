@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gusense
+Version: 1.0.5
+Summary: This is API util
+Home-page: https://www.python.org
+Author: wugp
+Author-email: 284250692@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (!=2.9.0)
+Requires-Dist: lxml (>=4.2.3)
+Requires-Dist: monotonic (>=1.5)
+
+UNKNOWN
+
