@@ -1,0 +1,11 @@
+PyYAML<7,>=6
+Click<9,>=8
+
+[marshmallow]
+marshmallow>=3
+
+[pydantic]
+pydantic>=0.28
+
+[trafaret]
+trafaret>=1.2.0
