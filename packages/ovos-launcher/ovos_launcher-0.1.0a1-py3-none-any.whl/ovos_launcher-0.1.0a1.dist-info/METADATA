@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ovos-launcher
+Version: 0.1.0a1
+Summary: single app ovos launcher
+Home-page: https://github.com/OpenVoiceOS/ovos-launcher
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Requires-Dist: fann2 (<1.1.0,>=1.0.7)
+Requires-Dist: mycroft-classic-listener (>=0.0.2a1)
+Requires-Dist: ovos-PHAL-plugin-alsa (==0.0.3)
+Requires-Dist: ovos-PHAL-plugin-oauth (==0.0.3a1)
+Requires-Dist: ovos-PHAL-plugin-system (==0.0.4)
+Requires-Dist: ovos-PHAL (==0.0.5a12)
+Requires-Dist: ovos-audio-plugin-simple (==0.0.2a4)
+Requires-Dist: ovos-audio (==0.0.2a17)
+Requires-Dist: ovos-backend-client (==0.1.0a12)
+Requires-Dist: ovos-bus-client (==0.0.5)
+Requires-Dist: ovos-classifiers (==0.0.0a37)
+Requires-Dist: ovos-config (==0.0.11a13)
+Requires-Dist: ovos-core (==0.0.8a37)
+Requires-Dist: ovos-dinkum-listener (==0.0.3a11)
+Requires-Dist: ovos-gui (==0.0.3)
+Requires-Dist: ovos-lingua-franca (==0.4.8a7)
+Requires-Dist: ovos-listener (==0.0.2)
+Requires-Dist: ovos-messagebus (==0.0.4a2)
+Requires-Dist: ovos-microphone-plugin-alsa (==0.0.0)
+Requires-Dist: ovos-ocp-files-plugin (==0.13.0)
+Requires-Dist: ovos-ocp-m3u-plugin (==0.0.2a1)
+Requires-Dist: ovos-ocp-news-plugin (==0.0.3)
+Requires-Dist: ovos-ocp-rss-plugin (==0.0.2)
+Requires-Dist: ovos-ocp-youtube-plugin (==0.0.2a1)
+Requires-Dist: ovos-phal-plugin-connectivity-events (==0.0.3)
+Requires-Dist: ovos-phal-plugin-ipgeo (==0.0.2)
+Requires-Dist: ovos-plugin-common-play (==0.0.6a8)
+Requires-Dist: ovos-plugin-manager (==0.0.24a8)
+Requires-Dist: ovos-skill-date-time (==0.2.3a5)
+Requires-Dist: ovos-skill-fallback-unknown (==0.0.4a1)
+Requires-Dist: ovos-skill-hello-world (==0.0.4a3)
+Requires-Dist: ovos-skill-naptime (==0.2.3a1)
+Requires-Dist: ovos-skill-personal (==0.0.4a2)
+Requires-Dist: ovos-skill-somafm (==0.0.1)
+Requires-Dist: ovos-skill-stop (==0.3.0a4)
+Requires-Dist: ovos-skill-volume (==0.0.2a3)
+Requires-Dist: ovos-skill-weather (==0.0.1a13)
+Requires-Dist: ovos-stt-plugin-server (==0.0.4a2)
+Requires-Dist: ovos-stt-plugin-vosk (==0.2.0a1)
+Requires-Dist: ovos-translate-server-plugin (==0.0.0a5)
+Requires-Dist: ovos-tts-plugin-mimic (==0.2.9a1)
+Requires-Dist: ovos-tts-plugin-server (==0.0.2a6)
+Requires-Dist: ovos-utils (==0.0.36a7)
+Requires-Dist: ovos-vad-plugin-precise (==0.0.1)
+Requires-Dist: ovos-vad-plugin-webrtcvad (==0.0.1)
+Requires-Dist: ovos-workshop (==0.0.13a3)
+Requires-Dist: ovos-ww-plugin-pocketsphinx (==0.1.3)
+Requires-Dist: ovos-ww-plugin-precise-lite (==0.1.2)
+Requires-Dist: ovos-ww-plugin-vosk (==0.1.1)
+Requires-Dist: padaos (<0.2,>=0.1)
+Requires-Dist: padatious (<0.5.0,>=0.4.8)
+Requires-Dist: rich-click
+Requires-Dist: skill-ddg (==0.0.2a2)
+Requires-Dist: skill-news (==0.0.4a2)
+Requires-Dist: tflite-runtime
+
+UNKNOWN
+
