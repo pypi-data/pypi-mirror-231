@@ -1,0 +1,8 @@
+setup.py
+azure_blob_connector.egg-info/PKG-INFO
+azure_blob_connector.egg-info/SOURCES.txt
+azure_blob_connector.egg-info/dependency_links.txt
+azure_blob_connector.egg-info/requires.txt
+azure_blob_connector.egg-info/top_level.txt
+mindthegap/AzureBlob.py
+mindthegap/__init__.py
