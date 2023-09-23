@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+qaoa/__init__.py
+qaoa/qaoa.py
+qaoa.egg-info/PKG-INFO
+qaoa.egg-info/SOURCES.txt
+qaoa.egg-info/dependency_links.txt
+qaoa.egg-info/requires.txt
+qaoa.egg-info/top_level.txt
