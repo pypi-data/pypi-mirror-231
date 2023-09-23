@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mycliapp
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: databricks-sql-connector
+
+UNKNOWN
+
