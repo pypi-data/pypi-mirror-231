@@ -1,0 +1,2 @@
+[console_scripts]
+temper = temper_dir.__main__:main
