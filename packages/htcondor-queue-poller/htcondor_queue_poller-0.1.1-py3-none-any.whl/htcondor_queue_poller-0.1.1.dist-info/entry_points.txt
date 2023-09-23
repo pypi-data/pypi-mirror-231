@@ -1,0 +1,3 @@
+[console_scripts]
+htcondor_queue_poller=htcondor_queue_poller:main
+

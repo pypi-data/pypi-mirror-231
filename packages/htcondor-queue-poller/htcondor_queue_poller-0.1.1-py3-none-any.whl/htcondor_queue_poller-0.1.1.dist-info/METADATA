@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: htcondor-queue-poller
+Version: 0.1.1
+Summary: Script to check whether jobs are queued in the HTCondor overlay batch system. Can be used in combination with the Stopper decorator of the cobald-hep-plugins package to force the demand of COBalD to be zero as long as no jobs are handled by HTCondor.
+License: MIT
+Keywords: cobald,tardis,High Energy Physics
+Author: Manuel Giffels
+Author-email: giffels@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: htcondor (==10.*)
+Project-URL: Bug Tracker, https://gitlab-p4n.aip.de/compute4punch/htcondor-queue-poller/-/issues
+Project-URL: repository, https://gitlab-p4n.aip.de/compute4punch/htcondor-queue-poller
+Description-Content-Type: text/markdown
+
+# htcondor-queue-poller
+
+Script to check whether job are queued in the HTCondor. Can be used in combination with the `Stopper` decorator of the [`cobald-hep-plugins`](https://github.com/MatterMiners/cobald-hep-plugins) package to force the demand of `COBalD` to be Zero as long as no jobs are handled by HTCondor.
