@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: urnc
+Version: 0.2.11
+Summary: A package to convert UR FIDS jupyter notebooks
+Author-email: Michael Huttner <michael@mhuttner.com>
+Project-URL: Homepage, https://github.com/spang-lab/urnc
+Project-URL: Bug Tracker, https://github.com/spang-lab/urnc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nbconvert>=7.8.0
+Requires-Dist: semver>=3.0.1
+Requires-Dist: click>=8.1.3
+Requires-Dist: PyYaml>=6.0.1
+Requires-Dist: tomli_w>=1.0.0
+Requires-Dist: GitPython>=3.1.31
+
+# URNC
+
+UR FIDS notebook converter
+
+## Installation
+
+```bash
+pip install --upgrade git+https://github.com/spang-lab/urnc.git
+```
+
+## Usage
+
+```txt
+urnc [-h] [-i EXT] [-f] [-v] [--version] input
+
+Convert Notebooks for UR FIDS Courses
+
+positional arguments:
+  input              The input folder, it will be searched recursively
+
+options:
+  -h, --help         show this help message and exit
+  -i EXT, --ext EXT  The output file extension, use '' for inplace conversion
+  -f, --force        Overwrite existing files
+  -v, --verbose      Verbose Log output
+  --version          show program's version number and exit
+```
+
+## Contribution FAQ
+
+### Where to increase the version?
+
+Only in [pyprocject.toml](pyproject.toml).
+
+### When to tag a commit?
+
+Whenever you want the Dockerfile to be rebuilt and pushed. Important: make sure your tag uses the same version as [pyproject.toml](pyproject.toml).
