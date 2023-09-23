@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: loadsure_data
+Version: 0.1.0
+Summary: This package contains all the classes we use on the data team to complete API integrations and also classes to update, create and delete things related to BigQuery and Firebase
+Home-page: https://github.com/Loadsure/packages-py.git
+Author: Loadsure Data Team
+Author-email: data-team@loadsure.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+License-File: LICENSE.txt
+
+# packages-py
+GitHub repository for packages developed by the data team that need to be reused in different processes
+
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [0.0.1] - 2023-09-22
+
+### Added
+
+- Holistics Class.
+- Sentry Class.
+- Sanctions Class.
+
