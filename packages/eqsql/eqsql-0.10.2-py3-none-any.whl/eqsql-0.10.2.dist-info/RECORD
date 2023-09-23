@@ -1,0 +1,15 @@
+eqsql/__init__.py,sha256=KniWsK3VleHLcYbbhl5YHxNYNRusZE0zJco_WyUvAwI,23
+eqsql/db_tools.py,sha256=6mxMUOTUYedyVZS3bSQcFFlzMHSSqGMa2E64VgExQLg,12922
+eqsql/eq.py,sha256=c_MUy4sNPReKWaBa0XJAzwQ67xnnvVF3vRBKCUKZCsg,55853
+eqsql/proxies.py,sha256=3GCk1vKgNd8WPnqXR6bKDosAHo2T7TSBwYb8DW4G7KY,951
+eqsql/worker_pool.py,sha256=UlI2a51quDHgu3tqSA9AGfTXT_3DsumMteeqscKZYwU,8786
+eqsql/workflow.sql,sha256=yRH49wR0AQA9SEIwBaO6FvyUf2oPZdCGw0QBD8OQUWc,1773
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_eq.py,sha256=a7zCGjDODP1N8hK0tR8q9s2osQWzEw2Umc59B1KkpQc,25861
+test/test_pools.py,sha256=Apz4ij3ogWDowQsIKpRDwtZDb8oWOm0qMwMxF5Lt3uY,7265
+test/utils.py,sha256=VtPXc3f2HsOcfq0y1AcJP9A1SSGMqH2fVaQGvyx51M4,310
+eqsql-0.10.2.dist-info/LICENSE.txt,sha256=sMoIfqT84161R5HbbJFLSoVCoi_Dex07H_hqldPazpI,1773
+eqsql-0.10.2.dist-info/METADATA,sha256=VQzrjWsjF5XvXrkb5nGcWvUkmpqqBDVQtpUjod3a2EA,2415
+eqsql-0.10.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+eqsql-0.10.2.dist-info/top_level.txt,sha256=brGIKT_ppq3c4uGObFxh5YOH3e9h6Y45GRDPgu1IC1U,11
+eqsql-0.10.2.dist-info/RECORD,,
