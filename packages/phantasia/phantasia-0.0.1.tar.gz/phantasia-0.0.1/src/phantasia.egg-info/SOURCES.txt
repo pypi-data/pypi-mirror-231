@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/phantasia/__init__.py
+src/phantasia.egg-info/PKG-INFO
+src/phantasia.egg-info/SOURCES.txt
+src/phantasia.egg-info/dependency_links.txt
+src/phantasia.egg-info/top_level.txt
