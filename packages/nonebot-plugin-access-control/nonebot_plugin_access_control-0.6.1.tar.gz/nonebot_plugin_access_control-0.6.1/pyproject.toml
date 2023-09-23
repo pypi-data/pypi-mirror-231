@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "nonebot-plugin-access-control"
+version = "0.6.1"
+description = ""
+authors = ["ssttkkl <huang.wen.long@hotmail.com>"]
+license = "MIT"
+readme = "README.MD"
+repository = "https://github.com/bot-ssttkkl/nonebot-plugin-access-control"
+packages = [
+    { include = "nonebot_plugin_access_control", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = ">=2.0.0"
+nonebot-plugin-datastore = ">=1.0.0"
+nonebot-plugin-apscheduler = ">=0.2.0"
+nonebot-plugin-session = ">=0.1.0"
+shortuuid = ">=1.0.11"
+nonebot-plugin-alconna = "^0.24.0"
+pytimeparser = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+nonebot-plugin-datastore = {extras = ["cli"], version = "^1.1.0"}
+nb-cli = "^1.2.2"
+nonebot-adapter-onebot = "*"
+nonebot-adapter-kaiheila = "*"
+nonebot-adapter-qqguild = "*"
+nonebot-adapter-telegram = "*"
+nonebot-adapter-console = "*"
+nonebot-adapter-feishu = "*"
+asyncpg = "^0.27.0"
+setuptools = "^68.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.nonebot]
+plugins = ["nonebot_plugin_access_control", "nonebot_plugin_ac_demo"]
