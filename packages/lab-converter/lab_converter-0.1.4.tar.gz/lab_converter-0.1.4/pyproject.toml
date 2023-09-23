@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lab-converter"
+version = "0.1.4"
+description = "This package contains modules that convert values in the LAB colorspace to values in different colorspaces, such as RGB and XYZ, and different color codes such as hexidecimal. "
+authors = ["Justin Cohen <jcohen@curtispackaging.com>"]
+readme = "README.md"
+packages = [{include = "lab_converter"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+colormath = "^3.0.0"
+pandas = "^2.1.1"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
