@@ -1,0 +1,20 @@
+reactivex
+
+[:platform_system == "Linux"]
+ptyprocess
+
+[:platform_system == "Windows" or platform_system == "Darwin"]
+bleak
+
+[:python_version < "3.8"]
+mypy-extensions
+importlib-metadata<4.3,>=1.1.0
+
+[dev]
+pytest
+pytest-asyncio
+flake8-pyproject
+pylint
+mypy
+isort
+black
