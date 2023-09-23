@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: telegram-bot-logger
+Version: 0.0.1
+Summary: Is a simple and synchronous logging handlers with sending logs to Telegram.
+Home-page: https://github.com/arynyklas/telegram_bot_logger
+Author: Aryn Yklas
+Author-email: arynyklas@gmail.com
+License: UNKNOWN
+Keywords: telegram,logger,logging,telegram_logger
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
