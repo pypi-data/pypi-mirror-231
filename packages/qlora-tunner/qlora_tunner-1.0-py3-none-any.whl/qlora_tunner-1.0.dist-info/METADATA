@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qlora-tunner
+Version: 1.0
+Summary: A Python package for Qlora fine-tuning open-source Large language models
+Author: Kirouane Ayoub
+Author-email: ayoubkirouane3@email.com
+Requires-Dist: accelerate ==0.21.0
+Requires-Dist: peft ==0.4.0
+Requires-Dist: bitsandbytes ==0.40.2
+Requires-Dist: transformers ==4.31.0
+Requires-Dist: trl ==0.4.7
+Requires-Dist: xformers
+Requires-Dist: datasets
+
