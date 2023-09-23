@@ -1,0 +1,13 @@
+[console_scripts]
+build_docker = srai_core.script.build_docker:main
+create_repository = srai_core.script.create_repository:main
+deploy_docker_local = srai_core.script.deploy_docker_local:main
+deploy_docker_remote_ssh = srai_core.script.deploy_docker_remote_ssh:main
+docker_logs_ssh = srai_core.script.docker_logs_ssh:main
+list_commands = srai_core.script.list_commands:main
+list_container_status = srai_core.script.list_container_status:main
+list_containers_ssh = srai_core.script.list_containers_ssh:main
+list_images = srai_core.script.list_images:main
+release_code_public = srai_core.script.release_code_public:main
+release_docker_aws_local = srai_core.script.release_docker_aws_local:main
+release_docker_aws_ssh = srai_core.script.release_docker_aws_ssh:main
