@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+scipy
+torch
+tensorflow
+keras
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric
+
+[dev]
+setuptools
+wheel
+pytest
