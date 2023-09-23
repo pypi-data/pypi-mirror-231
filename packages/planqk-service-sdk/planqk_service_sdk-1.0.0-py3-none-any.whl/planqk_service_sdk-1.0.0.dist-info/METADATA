@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: planqk-service-sdk
+Version: 1.0.0
+Summary: Python SDK to execute PlanQK managed services
+Home-page: https://github.com/planqk/planqk-quantum
+Author: Anaqor AG
+Author-email: info@anaqor.io
+License: apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Authlib ==1.2.1
+Requires-Dist: httpx ==0.23.3
+Requires-Dist: pydantic ==1.10.7
+
+# PlanQK Service SDK
+
+## Installation
+
+The package is released on PyPI and can be installed via `pip`:
+
+```bash
+pip install --upgrade planqk-service-sdk
+```
+
+## Development
+
+To create a new Conda environment, run:
+
+```bash
+conda env create -f environment.yml
+```
+
+Then, to activate the environment:
+
+```bash
+conda activate planqk-service-sdk
+```
+
+To install the package in development mode, run:
+
+```bash
+pip install -e .
+```
+
+
