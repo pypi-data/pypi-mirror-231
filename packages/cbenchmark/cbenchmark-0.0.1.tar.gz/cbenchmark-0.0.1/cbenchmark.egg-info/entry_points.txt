@@ -1,0 +1,3 @@
+[console_scripts]
+cb = cbenchmark.cli:run
+
