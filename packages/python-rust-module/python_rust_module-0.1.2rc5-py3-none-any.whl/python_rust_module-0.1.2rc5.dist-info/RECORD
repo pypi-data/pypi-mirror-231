@@ -1,0 +1,5 @@
+python_rust_module/__init__.py,sha256=XCLOjbT4no7JanyUURQzzHQaMr-n1LWIx3TSePBtviE,31
+python_rust_module/sum.py,sha256=jxmVK9XyUr4XbXroJsh4z0ArdyNVGtxHq8ZeelgkR6M,553
+python_rust_module-0.1.2rc5.dist-info/METADATA,sha256=4_EA7fRS2YxYGuqwgCkHX_0AseqV5cN3vgSglzEh_0Q,804
+python_rust_module-0.1.2rc5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+python_rust_module-0.1.2rc5.dist-info/RECORD,,
