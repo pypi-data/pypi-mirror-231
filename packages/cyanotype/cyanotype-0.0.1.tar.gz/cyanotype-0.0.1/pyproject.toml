@@ -1,0 +1,15 @@
+[project]
+name = "cyanotype"
+version = "0.0.1"
+authors = [
+  { name="Richard Kent", email="qpotizo@gmail.com" },
+]
+description = "Cyanotype"
+
+[project.urls]
+"Homepage" = "https://github.com/sparverius/cyanotype"
+"Bug Tracker" = "https://github.com/sparverius/cyanotype/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
