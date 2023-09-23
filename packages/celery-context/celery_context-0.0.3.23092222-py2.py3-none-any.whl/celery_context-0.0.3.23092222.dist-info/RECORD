@@ -1,0 +1,8 @@
+celery_context/__init__.py,sha256=kEt_ET2pEAxsNYj6qqo44vnhvLNrJ3X_BX67xGCg5hY,352
+celery_context/model.py,sha256=Jg9VVygtXHe05XKnDG2j7O7HWxYUMidVs-_uUkeWqL0,4439
+celery_context/trace_logger.py,sha256=P06Yg4boAx0JGVovYDYazZGRAeIzRC0tOSKR8Z-mvok,1374
+celery_context-0.0.3.23092222.dist-info/LICENSE,sha256=DiEz4gwHdYAEvPaI0_jYHv8mbX_unE1DTjP26yhDg7Y,1088
+celery_context-0.0.3.23092222.dist-info/METADATA,sha256=u_7aQgLYVVgdTNHa0EXep0wzNOZt0D4F_4sYyXxsDLI,1899
+celery_context-0.0.3.23092222.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+celery_context-0.0.3.23092222.dist-info/top_level.txt,sha256=LgGFQ_6KNEem09NgQU8QavjVK7m1Vg0eP8Md9QUAYbI,15
+celery_context-0.0.3.23092222.dist-info/RECORD,,
