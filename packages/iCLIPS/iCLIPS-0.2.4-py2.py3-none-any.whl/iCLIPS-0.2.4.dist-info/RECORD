@@ -1,0 +1,13 @@
+iCLIPS-0.2.4.data/data/share/jupyter/kernels/clips/kernel.css,sha256=pFDpUUECMRNjpBXuMuAJbZCLwDW9EezHt7gPzgJ2nzY,56
+iCLIPS-0.2.4.data/data/share/jupyter/kernels/clips/kernel.js,sha256=pwjtOrZmwwnMcplbyIpdUOrtKV15JlPdXA9mT-q5KnQ,1398
+iCLIPS-0.2.4.data/data/share/jupyter/kernels/clips/kernel.json,sha256=CXPJKx6kiFu2MiMbMdov9kZcR39AcuO9qlLG9R5qkiU,162
+iclips/__init__.py,sha256=FYXJfYO-FDw46ivvIJEIxGU77agdryty0OLc50zg700,718
+iclips/__main__.py,sha256=Ju4Ylhb8NgynN9vVb93rIUi_66NVqoYEmzoywVnSRXk,807
+iclips/clips_kernel.py,sha256=5Pw479FoMHyLTkHoLGb-vjU386_o_Yln-jgv_B4Llu8,9749
+iclips/clips_pygments.py,sha256=OHP8KgWtScbhHOpIIgVVhTXV21DRfb-UUJp0eqREIXE,2219
+iclips/common.py,sha256=RVfhT2JMhNCcrlPG-dhIuTcXwYGDgIgSkn2iArwwqmg,6423
+iCLIPS-0.2.4.dist-info/METADATA,sha256=nFkbwWpvLdJldla0SYkHrPwKBQYC5VyHtwTjSPM36EI,1479
+iCLIPS-0.2.4.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+iCLIPS-0.2.4.dist-info/entry_points.txt,sha256=B3-3VMTcDn5HiFr0vJpe3_xQWBcTjjCQUpGuyFEZCTc,108
+iCLIPS-0.2.4.dist-info/top_level.txt,sha256=4LdKYFEhhp32SxxBTl4NoYC357RAXJkgHVO5ouyQfOs,7
+iCLIPS-0.2.4.dist-info/RECORD,,
