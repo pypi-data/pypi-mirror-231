@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datacake
+Version: 0.0.1
+Summary: Makes your data flatter than a pancake.
+Author-email: Jeff Myers II <j3f9y.f@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pancake
+Makes your data flatter than a pancake.
