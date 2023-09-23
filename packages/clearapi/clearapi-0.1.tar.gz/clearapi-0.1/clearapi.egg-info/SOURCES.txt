@@ -1,0 +1,5 @@
+setup.py
+clearapi.egg-info/PKG-INFO
+clearapi.egg-info/SOURCES.txt
+clearapi.egg-info/dependency_links.txt
+clearapi.egg-info/top_level.txt
