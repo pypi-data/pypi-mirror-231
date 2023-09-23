@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: powerline-tailscale
+Version: 1.0.1
+Summary: A Powerline segment for showing the status of Tailscale
+Home-page: https://github.com/usrme/powerline-tailscale
+Author: Üllar Seerme
+License: MIT
+Keywords: powerline tailscale
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Terminals
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+License-File: LICENSE
+
