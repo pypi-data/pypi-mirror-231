@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pygments_tsx
+Version: 1.0.2
+Summary: A plugin for adding TSX support to Pygments based off the work of the JSX plugin.
+Project-URL: Homepage, https://github.com/StartupOS/pygments_tsx
+Project-URL: Bug Tracker, https://github.com/StartupOS/pygments_tsx/issues
+Project-URL: Source, https://github.com/StartupOS/pygments_tsx
+Author-email: Jason Nichols <github@startupos.dev>, Sean Conrad <github@startupos.dev>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Editors
+Requires-Python: >=3.9
+Requires-Dist: flake8
+Requires-Dist: jsx-lexer==2.0.1
+Requires-Dist: pygments==2.16.1
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Description-Content-Type: text/markdown
+
+[![codecov](https://codecov.io/gh/StartupOS/pygments_tsx/graph/badge.svg?token=ZXQYCYKLSZ)](https://codecov.io/gh/StartupOS/pygments_tsx)
+
+## What is this?
+This package includes lexers for JSX and TSX files for Pygment.
+Pull requests are requested, and the code is released under the MIT License. We make no warranties this thing works, just doing our best.
+
+## To use
+Either:
+`pip install pygments-tsx`
+
+or add us to your requirements wherever they may be these days. (Looking at you, SetupTools, Poetry, PyPi... get it together.)
+
+## Acknowledgments
+This includes [Flavio Curella](https://github.com/fcurella)'s awesome package [JSX Lexer](https://github.com/fcurella/jsx-lexer), and includes the ideas and some code from [Igor Hatarist](https://github.com/hatarist)'s stab at this same problem [pygments-tsx](https://github.com/hatarist/pygments-tsx). Flaws were introduced by StartupOS, good stuff came from them.
+
+There's also a hack in here for forcing pygments to accept classes programatically. That was based on discussions in this [thread](https://github.com/pygments/pygments/issues/1096), and specifically suggestions from [Vincent Bernat](https://github.com/vincentbernat) and [Jean Abou-Samra](https://github.com/jeanas)
