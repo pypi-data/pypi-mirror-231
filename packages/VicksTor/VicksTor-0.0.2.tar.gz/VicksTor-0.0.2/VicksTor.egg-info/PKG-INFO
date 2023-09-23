@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: VicksTor
+Version: 0.0.2
+Summary: Hosting Flask on Tor Browser.
+Home-page: https://github.com/imvickykumar999/Flask-XAMPP-Onion-Host
+Author: Vicky Kumar
+License: MIT
+Keywords: Hosting,Flask,Tor Browser
+
+import VicksTor
