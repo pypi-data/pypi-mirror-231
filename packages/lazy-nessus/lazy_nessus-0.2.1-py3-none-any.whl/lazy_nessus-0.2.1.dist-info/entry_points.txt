@@ -1,0 +1,2 @@
+[console_scripts]
+nessus-cli = lazy-nessus.main:main
