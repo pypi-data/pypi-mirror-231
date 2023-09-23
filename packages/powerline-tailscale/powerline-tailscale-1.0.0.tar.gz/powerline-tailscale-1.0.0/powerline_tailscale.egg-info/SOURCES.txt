@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+powerline_tailscale/__init__.py
+powerline_tailscale/segments.py
+powerline_tailscale.egg-info/PKG-INFO
+powerline_tailscale.egg-info/SOURCES.txt
+powerline_tailscale.egg-info/dependency_links.txt
+powerline_tailscale.egg-info/top_level.txt
