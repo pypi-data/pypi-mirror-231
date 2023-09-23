@@ -1,0 +1,14 @@
+{% for entry in files %}
+{% if entry.file_type == "css"%}
+<link rel="stylesheet" href="{{entry.path}}"{% if entry.options %}
+{% for key, value in entry.options.items %}
+  {{ key }}="{{ value }}"
+{% endfor %}
+{% endif %}/>
+{% elif entry.file_type == "js"%}
+<script src="{{entry.path}}"{% if entry.options %}
+{% for key, value in entry.options.items %}
+  {{ key }}="{{ value }}"
+{% endfor %}
+{% endif %}></script>
+{% endif %} {% endfor %}
