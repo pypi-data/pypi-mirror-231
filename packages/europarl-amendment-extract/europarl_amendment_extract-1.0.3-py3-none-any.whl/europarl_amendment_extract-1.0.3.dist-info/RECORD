@@ -1,0 +1,10 @@
+ep_amendment_extract/__init__.py,sha256=u0Xxy4F-VIt73uQc23UU55nzeyRe-abu86wuGcUmydE,77
+ep_amendment_extract/am_labeler.py,sha256=-pzss9-McLVFcGQpK9l8BWdbkiacVHylC-sAmzcloCE,2587
+ep_amendment_extract/diff.py,sha256=ouY3cGenIB_fGlvBhRAo0qxK3CBAw0Se06GMQgT_wns,2313
+ep_amendment_extract/dossier_retriever.py,sha256=XnLp4ecuobbjsVqzqeQsZf6dSpvpwpKJNNrIA7o_vbI,2305
+ep_amendment_extract/meps.py,sha256=3tXVBBzDhRPMq9Z92_b9phG-f1fwcZi2yBWov4cnudQ,3528
+ep_amendment_extract/parser.py,sha256=SXe8lWnF_sNPYmQ3oDCnDMEOVjcnmoC1qeiN4cb_e8Q,11979
+europarl_amendment_extract-1.0.3.dist-info/METADATA,sha256=N_qPNEH4kI5xq7O_4VZ5XxY1hEX-ZttZJRfoM6qakyg,1778
+europarl_amendment_extract-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+europarl_amendment_extract-1.0.3.dist-info/top_level.txt,sha256=Sl-n8GNXFVztki5UgTaQRIUho--7nC2fteSQ7OJDDQc,21
+europarl_amendment_extract-1.0.3.dist-info/RECORD,,
