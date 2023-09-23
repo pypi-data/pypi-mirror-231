@@ -1,0 +1,33 @@
+  #Dust model
+  AdustT:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.1
+    ref: 1.0
+    proposal: 0.02
+    latex: A_\mathrm{dustT}
+  beta_dustT:
+    prior:
+      dist: norm
+      loc: 1.51
+      scale: 0.01
+    ref: 1.51
+    proposal: 0.01
+    latex: \beta_\mathrm{dustT}
+  AdustP:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.1
+    ref: 1.0
+    proposal: 0.02
+    latex: A_\mathrm{dustP}
+  beta_dustP:
+    prior:
+      dist: norm
+      loc: 1.59
+      scale: 0.01
+    ref: 1.59
+    proposal: 0.01
+    latex: \beta_\mathrm{dustP}
