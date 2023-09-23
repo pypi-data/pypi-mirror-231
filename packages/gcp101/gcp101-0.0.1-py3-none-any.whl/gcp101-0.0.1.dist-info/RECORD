@@ -1,0 +1,9 @@
+gcp101/__init__.py,sha256=CbD8PAfbFngjDUwkPKIzn8auZzWb4cqRapWstxpQmvg,65
+gcp101/bq.py,sha256=15RRR9j9BoIh69IjpT1bVdZc7FYbZ5L_1r7ZyKSL3tY,1666
+gcp101/gcs.py,sha256=JmbLMs0wMliYEDJXKpGmzGplc3maY8m7bU1JwCsn51E,1308
+gcp101/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcp101/src/entities.py,sha256=pXEnQKvGD-l0q-QjixookU0ZiNmyXl49gawOHlnL5y4,119
+gcp101-0.0.1.dist-info/METADATA,sha256=k4ig5bjfUp0d6jNKYkRQwichcZFtypNTpnuo8rkifrs,621
+gcp101-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gcp101-0.0.1.dist-info/top_level.txt,sha256=FyZTm4iyLB38C9o-wJOiy146KP4PfbByd8msb6jts4I,7
+gcp101-0.0.1.dist-info/RECORD,,
