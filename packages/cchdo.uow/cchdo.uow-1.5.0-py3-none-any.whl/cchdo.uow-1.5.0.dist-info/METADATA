@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: cchdo.uow
+Version: 1.5.0
+Author-email: cchdo <cchdo@ucsd.edu>
+License: BSD 3-clause
+Project-URL: Homepage, https://cchdo.ucsd.edu/
+Project-URL: Documentation, https://cchdo.github.io/hdo-uow/
+Project-URL: Repository, https://github.com/cchdo/hdo-uow.git
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: Click >=7.1.2
+Requires-Dist: jsonschema >=3.2.0
+Requires-Dist: requests >=2.24.0
+Requires-Dist: cchdo.auth >=1.0.0
+Requires-Dist: rich
+Requires-Dist: jq
+Provides-Extra: complete
+Requires-Dist: cchdo.uow[dev,docs] ; extra == 'complete'
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: requests-mock ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx >=3.2.1 ; extra == 'docs'
+Requires-Dist: furo ; extra == 'docs'
+
+cchdo.uow
+=========
