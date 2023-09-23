@@ -1,0 +1,6 @@
+setup.py
+colorsss.egg-info/PKG-INFO
+colorsss.egg-info/SOURCES.txt
+colorsss.egg-info/dependency_links.txt
+colorsss.egg-info/requires.txt
+colorsss.egg-info/top_level.txt
