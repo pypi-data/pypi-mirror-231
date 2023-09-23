@@ -1,0 +1,8 @@
+kit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kit/file_utils.py,sha256=FTFycD7q5l0eqtyeFE2L_HdDsY3h-5FlIl5f2RQMV6o,3599
+kit/media.py,sha256=LYwS5mC59MKzSCJY_PBhylVqeo77AnU5MZ-mcYbsmDo,3349
+kit/stream.py,sha256=fV0IXPzxUNGB1B2EtBFcHwwA92f41Wp9CNQ78n4_4UE,4224
+generalkit-0.0.3.dist-info/METADATA,sha256=vHj0Le1BY1aQ4qWkTdDq_viyVezGCy8SrvG_Sbcoz88,500
+generalkit-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+generalkit-0.0.3.dist-info/top_level.txt,sha256=Wh8NybCdodruW2XJkMaiPRVwzagV9GR8krPSAh-QPfg,4
+generalkit-0.0.3.dist-info/RECORD,,
