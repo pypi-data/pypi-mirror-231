@@ -1,0 +1,9 @@
+fastapi_directory_routing/__init__.py,sha256=Clk5HYpEqeb9Qpd4m54ak_R41VGDEcjrplOw7au-cjI,34
+fastapi_directory_routing/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+fastapi_directory_routing/core/__init__.py,sha256=_N_uNhuoSxvsnvcyrbXoW1G5u4FWspoVe-jYX00HDPM,46
+fastapi_directory_routing/core/directory_router.py,sha256=qCrGHcW9YFa2QXVOOmmMPe1MbTMa0IrobPGgkZeCLt8,2662
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_directory_routing-0.0.1.dist-info/METADATA,sha256=lAYmd17SLOJZXqJZIXwZ3UIFCJYSZtMHFcY0GrQKILw,504
+fastapi_directory_routing-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fastapi_directory_routing-0.0.1.dist-info/top_level.txt,sha256=DGU7VSCMvUkHJPSKjY8e0pJvxn3Gno_UznfLKoblQYk,32
+fastapi_directory_routing-0.0.1.dist-info/RECORD,,
