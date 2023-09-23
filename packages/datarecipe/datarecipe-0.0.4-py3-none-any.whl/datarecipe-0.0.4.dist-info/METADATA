@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datarecipe
+Version: 0.0.4
+Summary: A recipe for every data baker
+Home-page: https://github.com/Adward-Chen/databaker/tree/main
+Author: Hanfan Chen
+Author-email: HanfanC@outlook.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: markdown
+License-File: LICENSE.txt
+
+# Empty temporarily
