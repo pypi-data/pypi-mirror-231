@@ -1,0 +1,357 @@
+# `pytzen`
+----
+
+## Disclaimer:
+This library is offered 'as-is' with **no official support, maintenance, or warranty**. Primarily, `pytzen` is an experimentation, which may not be apt for production settings. Users are encouraged to delve into the library but should note that the developers won't actively address arising issues.
+
+## Code Access:
+The associated GitHub repository is private. Direct access to the source code's versioning or issue tracking is restricted. However, the source code is available on this page and in the **Download files** section:
+- **Source Distribution**: `pytzen-*.tar.gz`
+- **Built Distribution**: `pytzen-*-py3-none-any.whl`
+
+## Usage Caution:
+We are not liable for issues stemming from the library's usage in production environments. Users should extensively test and vet the library in a safe space before expansive implementation.
+
+----
+
+## Why?
+
+The `Prototype` class is a tool tailored for data scientists operating primarily within the Jupyter Notebook environment. It's designed to simplify and expedite the process of class generation and prototyping, especially for dynamic model applications. Here's what it brings to the table:
+
+- **Dynamic Class Creation**: Using a simple JSON configuration file, `Prototype` helps you create Python classes with predefined attributes, inputs, and methods. This allows for dynamic and on-the-fly class instantiation, saving time and effort.
+  
+- **Auto-Documentation**: Leveraging the information from the JSON configuration, `Prototype` automatically generates documentation for each class. This ensures that every created class comes with clear and consistent docstrings, enhancing understandability.
+  
+- **Rapid Prototyping**: `Prototype` is designed for an interactive environment like Jupyter Notebook. It allows for quick class definition, testing of models, and iterative tweaking—all without restarting the kernel or re-writing large chunks of code.
+  
+- **Config-Driven Design**: Whether you're pulling configuration details from external data sources or have a predefined set of attributes and methods, `Prototype` lets you mold classes as per your requirements. This is particularly useful when classes need to be generated based on changing data or configurations.
+  
+- **System Extensions**: If you have an existing system or application, `Prototype` can serve as a handy tool to enrich it. By facilitating the addition of new class plugins or extensions, it helps in expanding functionalities and adding new features seamlessly.
+
+Note: Always make sure that the JSON configuration files are structured correctly and kept secure, especially if they can influence the behavior of the generated classes. Incorrect configurations can lead to unexpected behaviors or vulnerabilities.
+
+## Usage
+
+
+```python
+import sys
+sys.path.append('/home/pytzen/lab/pytzen/src')
+import os
+os.environ['PROTOTYPE_PATH'] = '/home/pytzen/lab/pytzen/prototype'
+import inspect
+from pytzen.logs import Logger
+from pytzen.parser import VariablesParser
+from pytzen.prototype import Prototype
+```
+
+
+```python
+%%writefile pattern.py
+from pytzen.prototype import Prototype
+
+class ClassPattern(Prototype):
+
+    def _out_of_box_method(self):
+        self._out_of_box_attribute = 'oops'
+        print('I am a private method to be run inside another method.')
+
+    def some_method(self):
+        self.logs.info('Creating some_method.')
+        self.some_attribute = 'some_attribute'
+        print(f'Implemented some_method and {self.some_attribute}.')
+    
+    def another_method(self):
+        self._out_of_box_method()
+        self.logs.info('Creating another_method.')
+        self.data.shared_variable = 5
+```
+
+    Overwriting pattern.py
+
+
+
+```python
+from pattern import ClassPattern
+cp = ClassPattern(some_input='some_input', another_input='another_input')
+cp.some_method()
+cp.another_method()
+print(cp.config)
+print(cp.data.shared_variable)
+```
+
+    2023-09-22 23:55:09,513 - <class 'pattern.ClassPattern'> - INFO - Creating some_method.
+    2023-09-22 23:55:09,513 - <class 'pattern.ClassPattern'> - INFO - Creating another_method.
+
+
+    Implemented some_method and some_attribute.
+    I am a private method to be run inside another method.
+    {'var_str': 'defaultUser', 'var_int': 30, 'var_float': 5.9, 'var_bool': True}
+    5
+
+
+
+```python
+cp.status()
+```
+
+    2023-09-22 23:55:09,518 - <class 'pattern.ClassPattern'> - INFO - The attribute 'another_attribute' is not defined.
+    2023-09-22 23:55:09,519 - <class 'pattern.ClassPattern'> - INFO - The method 'yet_another_method' is not defined.
+    2023-09-22 23:55:09,520 - <class 'pattern.ClassPattern'> - INFO - The data 'shared_dataframe' is not defined.
+    2023-09-22 23:55:09,520 - <class 'pattern.ClassPattern'> - INFO - The object(s) {'_out_of_box_method', '_out_of_box_attribute'} was(were) not designed.
+
+
+
+```python
+print(cp.__doc__)
+```
+
+    Docstring explaining the class.
+    
+    Inputs:
+    - some_input: Docstring explaining the input.
+    - another_input: Docstring explaining another input.
+    
+    Attributes:
+    - some_attribute: Docstring explaining the attribute.
+    - another_attribute: Docstring explaining another attribute.
+    
+    Methods:
+    - some_method: Docstring explaining the method.
+    - another_method: Docstring explaining another method.
+    - yet_another_method: Yet a docstring explaining another method.
+    
+    Data:
+    - shared_variable: Docstring explaining the shared variable.
+    - shared_dataframe: Docstring explaining the shared dataframe.
+    
+
+
+## class `prototype.Prototype`
+```python
+import json
+import os
+from abc import ABC, abstractmethod
+import textwrap
+from pytzen.logs import Logger
+```
+
+
+```python
+print(inspect.getsource(Prototype))
+```
+
+    class Prototype(ABC):
+        config = None
+        data = None
+    
+        def __init__(self, log_level='INFO', **kwargs):
+            self._prototype_path = os.environ.get('PROTOTYPE_PATH', '.')
+            self._class_pattern = self._get_class_pattern()
+            self.__doc__ = self._generate_class_doc()
+            self._get_data()
+            self._create_objects(kwargs)
+            self._get_logger(log_level)
+            self._get_config()
+            
+        
+        def _get_class_pattern(self):
+            class_name = self.__class__.__name__
+            json_path = os.path.join(self._prototype_path, 
+                                     f'classes/{class_name}.json')
+            with open(json_path) as file:
+                class_pattern = json.load(file)
+            return class_pattern
+    
+        def _generate_class_doc(self, width=68, indent=' '*4):
+            doc_str = self._class_pattern['description'] + '\n'
+            def add_object(obj, doc_str):
+                doc_str += f'\n{obj.capitalize()}:\n'
+                for k, v in self._class_pattern[obj].items():
+                    line = f'- {k}: {v}'
+                    doc_str += textwrap.fill(text=line, width=width, 
+                                             subsequent_indent=indent) + '\n'
+                return doc_str
+            for obj in ['inputs', 'attributes', 'methods', 'data']:
+                if obj in self._class_pattern:
+                    doc_str = add_object(obj, doc_str)
+            return doc_str
+    
+        def _create_objects(self, kwargs):
+            if 'inputs' in self._class_pattern:
+                for input_name in self._class_pattern['inputs']:
+                    if input_name not in kwargs:
+                        raise ValueError(f'{input_name} must be provided!')
+                    setattr(self, input_name, kwargs[input_name])
+        
+        def _get_logger(self, log_level):
+            logger_name = str(self.__class__)
+            self.logs = Logger(name=logger_name, level=log_level)
+    
+        def _get_config(self):
+            if not Prototype.config:
+                config_path = os.path.join(self._prototype_path, 'config.json')
+                if os.path.exists(config_path):
+                    parser = VariablesParser(json_path=config_path, logs=self.logs)
+                    Prototype.config = parser.config
+        
+        def _get_data(self):
+            if not Prototype.data:
+                Prototype.data = SharedData()
+        
+        def status(self):
+            expected_objects = []
+            for inp in self._class_pattern.get('inputs', []):
+                expected_objects.append(inp)
+            for att_name in self._class_pattern.get('attributes', {}):
+                expected_objects.append(att_name)
+                if att_name not in self.__dict__:
+                    self.logs.info(f"The attribute '{att_name}' is not defined.")
+            for met_name in self._class_pattern.get('methods', {}):
+                expected_objects.append(met_name)
+                if not hasattr(self, met_name):
+                    self.logs.info(f"The method '{met_name}' is not defined.")
+            for data_name in self._class_pattern.get('data', {}):
+                expected_objects.append(data_name)
+                if data_name not in Prototype.data.__dict__:
+                    self.logs.info(f"The data '{data_name}' is not defined.")
+            all_methods = [attr for attr in dir(self) 
+                           if callable(getattr(self, attr)) 
+                           and attr in self.__class__.__dict__]
+            all_instance_attributes = set(self.__dict__.keys())
+            exclude = {'_class_pattern', '__doc__', 'logs', '_prototype_path'}
+            out_of_box = (all_instance_attributes | set(all_methods)) - \
+                set(expected_objects) - exclude
+            self.logs.info(f'The object(s) {out_of_box} was(were) not designed.')   
+    
+
+
+## class `logs.Logger`
+```python
+import logging
+import traceback
+```
+
+
+```python
+print(inspect.getsource(Logger))
+```
+
+    class Logger:
+    
+        def __init__(self, name: str, level: str) -> None:
+    
+            self.logger: logging.Logger = logging.getLogger(name)
+            self.logger.propagate = False
+            set_level = logging._nameToLevel[level]
+            self.logger.setLevel(set_level)
+            if not self.logger.handlers:
+                msg = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+                formats: str = msg
+                formatter = logging.Formatter(formats)
+                console_handler = logging.StreamHandler()
+                console_handler.setFormatter(formatter)
+                self.logger.addHandler(console_handler)
+    
+        def debug(self, message: str) -> None: 
+            self.logger.debug(message)
+    
+        def info(self, message: str) -> None: 
+            self.logger.info(message)
+    
+        def warning(self, message: str) -> None: 
+            self.logger.warning(message)
+    
+        def error(self, message: str) -> None:
+            self.logger.error(message)
+            print(traceback.format_exc())
+    
+        def critical(self, message: str) -> None:
+            self.logger.critical(message)
+            print(traceback.format_exc())
+    
+
+
+## class `parser.VariablesParser`
+```python
+import os
+import json
+import sys
+```
+
+
+```python
+print(inspect.getsource(VariablesParser))
+```
+
+    class VariablesParser:
+    
+        def __init__(self, json_path, logs):
+            self.logs = logs
+            self._config_dict = self._get_json(json_path)
+            self._arg_dict = self._get_args()
+            self._env_dict = self._get_env()
+            self._str_converters = {
+                'int': int,
+                'str': str,
+                'float': float,
+                'bool': lambda v: v.lower() in ['true', '1', 'yes', 'y']
+            }
+            self._native_converters = {
+                'bool': {1: True, 0: False}
+            }
+            self.config = self._generate_config()
+    
+        def _get_json(self, json_path):
+            with open(json_path, 'r') as file:
+                return json.load(file)
+    
+        def _get_args(self):
+            arg_dict = {}
+            for arg in sys.argv[1:]:
+                if arg.startswith('--'):
+                    key, value = arg[2:].split('=')
+                    arg_dict[key] = value
+            return arg_dict
+    
+        def _get_env(self):
+            env_dict = {}
+            for key in self._config_dict.keys():
+                if os.environ.get(key.upper()):
+                    env_dict[key] = os.environ.get(key.upper())
+            return env_dict
+    
+        def _generate_config(self):
+            output_config = {}
+            for var_name, details in self._config_dict.items():
+                var_type = details['type']
+                default_value = details['value']
+                args = self._arg_dict.get(var_name, default_value)
+                value = self._env_dict.get(var_name, args)
+                try:
+                    converted_value = self._convert_value(value, var_type)
+                    output_config[var_name] = converted_value
+                except Exception as e:
+                    error = (f'Error converting value for {var_name}. ' 
+                             f'Details: {str(e)}')
+                    self.logs.error(error)    
+            return output_config
+    
+        def _convert_value(self, value, var_type):
+            if isinstance(value, str):
+                try:
+                    return self._str_converters[var_type](value)
+                except KeyError:
+                    self.logs.error(f'Unsupported type: {var_type}.')
+            else:
+                if (var_type in self._native_converters 
+                    and value in self._native_converters[var_type]):
+                    return self._native_converters[var_type][value]
+                elif type(value).__name__ == var_type:
+                    return value
+                else:
+                    error = (f'Value type does not match expected type: {var_type}'
+                             ' or cannot be converted.')
+                    self.logs.error(error)
+                    raise ValueError(error)
+    
+
