@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "htcondor-queue-poller"
+version = "0.1.0"
+description = "Script to check whether jobs are queued in the HTCondor overlay batch system. Can be used in combination with the Stopper decorator of the cobald-hep-plugins package to force the demand of COBalD to be zero as long as no jobs are handled by HTCondor."
+authors = ["Manuel Giffels <giffels@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["cobald", "tardis", "High Energy Physics"]
+
+packages = [
+    { include = "htcondor-queue-poller.py" },
+]
+
+[tool.poetry.dependencies]
+python = "~=3.8"
+htcondor = "10.*"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[tool.poetry.scripts]
+htcondor-queue-poller = "htcondor-queue-poller:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://gitlab-p4n.aip.de/compute4punch/htcondor-queue-poller/-/issues"
+repository = "https://gitlab-p4n.aip.de/compute4punch/htcondor-queue-poller"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
