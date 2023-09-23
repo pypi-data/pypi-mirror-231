@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyocpp_heroyooki"
+version = "0.0.1"
+authors = [
+  { name="Denis Zyazev", email="denis.zyazev@gmail.com" },
+]
+description = "A small helper with shared components for building ocpp csms."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aio-pika==9.3.0",
+    "arrow==1.2.3",
+    "httpx==0.25.0",
+    "loguru==0.7.2",
+    "ocpp==0.19.0",
+    "pydantic==2.3.0"
+]
