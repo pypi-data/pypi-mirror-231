@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+nbagent/__init__.py
+nbagent/main.py
+nbagent.egg-info/PKG-INFO
+nbagent.egg-info/SOURCES.txt
+nbagent.egg-info/dependency_links.txt
+nbagent.egg-info/entry_points.txt
+nbagent.egg-info/requires.txt
+nbagent.egg-info/top_level.txt
