@@ -1,0 +1,11 @@
+codeoceansdk/Capsule.py,sha256=ZNY_SLL3eMeNAU31WYAcuz3hMKW4hf_iOhIaMdJt1Iw,8649
+codeoceansdk/CodeOcean.py,sha256=IdYwlw3AN9A0DZnrnuMWFoMTQ0u1jc-lvLr9ZuJ0QxU,3044
+codeoceansdk/Computation.py,sha256=0oCxBIbYuD6CS17xV44XQiHnG2K2MVBK29lLnlNQqA4,3887
+codeoceansdk/DataAsset.py,sha256=UxlBqUy02yk-bL2QcPnWGaCFYovRCWc98b0mGGCgvoc,13622
+codeoceansdk/IO.py,sha256=QQU74mz8ykhnaEYYZt7jaWNRxM-YXtC9EycEDUAXtSo,400
+codeoceansdk/Pipeline.py,sha256=NBtsglXUUtQ4pZ8p-WLhGo6WzDyeMkpoiYwGlSdVAFw,5875
+codeoceansdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codeoceansdk-1.0.0.dist-info/METADATA,sha256=rxKVN3NNP0eQg3K6Sc6fZuRJrz0yWKs-MNHwOMDxcVc,1658
+codeoceansdk-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+codeoceansdk-1.0.0.dist-info/licenses/LICENSE,sha256=wNSp_nQ3Oucx9GR1rab3jQUXUToC1k-qg4iInwp30q4,1093
+codeoceansdk-1.0.0.dist-info/RECORD,,

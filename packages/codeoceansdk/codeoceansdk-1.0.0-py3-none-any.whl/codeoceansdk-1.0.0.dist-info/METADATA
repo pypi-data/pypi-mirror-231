@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: codeoceansdk
+Version: 1.0.0
+Summary: A set of functions to interact with the Code Ocean API
+Project-URL: Homepage, https://github.com/codeocean/codeoceansdk-py
+Project-URL: Bug Tracker, https://github.com/codeocean/codeoceansdk-py/issues
+Author-email: June Snedecor <june@codeocean.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: requests
+Provides-Extra: doc
+Requires-Dist: pdoc; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-skip-slow; extra == 'test'
+Description-Content-Type: text/markdown
+
+![Code Ocean Logo](https://raw.githubusercontent.com/codeocean/branding/main/logo/CO_logo_135x72.png)
+# codeoceanapi-py
+Python api for capsules, data assets, etc. 
+
+## Documentation
+Documentation for the SDK can be found [here](https://codeocean.github.io/codeoceansdk-py/codeoceansdk.html) The documentation has been generated using pdoc by running the following command: 
+
+`pdoc src/codeoceansdk/ -o docs/`
+
+The original REST API documentation can be found in the [Code Ocean User Guide](https://docs.codeocean.com/user-guide/code-ocean-api)
+
+## Version
+
+This version is tested with the 2.13 release of the Code Ocean Platform.
+
+## pytest
+
+For pytests, please set the API_KEY environment variable.
+
+In order to include slower tests include --slow as an argument to pytest
+
+Install package as editable: 
+
+`pip install --editable .`
+
+Run pytest from codeoceansdk-py
+
+`pytest`
