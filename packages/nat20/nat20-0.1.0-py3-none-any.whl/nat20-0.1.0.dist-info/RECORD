@@ -1,0 +1,10 @@
+nat20/__init__.py,sha256=-8Jc1rHV74UFrH8qWF5n24Mo2-Pn8z7P_kBu1Bn12ks,16438
+nat20/__main__.py,sha256=nezNFUD8pFcSIb_mKVmWDt4yxfEJfU01Uqag1NsrbPM,179
+nat20/constants.py,sha256=qNmj31dv7_XVbMhKP66EG6stCTxA0NTAvaiQy67hUdo,606
+nat20/link.py,sha256=j5YcWM4FdDyzdIJf4ABD184NfvshPmvmCOwpIv9KTAE,4472
+nat20/messages.py,sha256=R3qunCdPkj4yfPCxeUEd5HysfTYZUtBztvRWlnbkV7s,14573
+nat20/msglib.py,sha256=IcFetiTkQnlC1_GgdV2v1RMxUJsqvBrwiyJb6tx_DQ8,5035
+nat20-0.1.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+nat20-0.1.0.dist-info/METADATA,sha256=wYT_7U8i5_22lKMr9TfKFWMDFHbA9gXuFZFLur7PevI,925
+nat20-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nat20-0.1.0.dist-info/RECORD,,
