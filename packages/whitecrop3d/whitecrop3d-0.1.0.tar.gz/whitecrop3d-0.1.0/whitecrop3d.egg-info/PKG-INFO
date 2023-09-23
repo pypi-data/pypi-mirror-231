@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: whitecrop3d
+Version: 0.1.0
+Summary: Crops unnecessary white background from images. Meant to be for 3D models previews.
+Home-page: https://github.com/yourusername/whitecrop3d
+Author: Dušan Jánsky
+Author-email: cisar2218@gmail.com
