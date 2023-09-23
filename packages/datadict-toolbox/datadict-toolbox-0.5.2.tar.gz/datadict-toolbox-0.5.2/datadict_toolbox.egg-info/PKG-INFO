@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: datadict-toolbox
+Version: 0.5.2
+Summary: A package to build a data dictionary from xml MS SQL SERVER file and select SQL query
+Home-page: https://github.com/LauNop/datadict-toolbox
+Author: Laurent NOPOLY
+Author-email: laurentnopoly@gmail.com
+License: MIT
+Keywords: python,data,dictionary,governance,SQL
+Classifier: Development Status :: 3 - Alpha 
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dictionary_ToolBox
+
+Dictionary_ToolBox est un projet python contenant des outils pour consitiuer un dictionnaire de donnÃ©es.
+
+## Contenu
+
+### ExtractFromDTSX.py (OpÃ©rationel) 
+ExtractFromDTSX permet de rÃ©cupÃ©rer des informations d'un fichier .dtsx pour analyser des packages SSIS, rÃ©cupÃ©rer leur mapping, leur requÃªte SQL et leur variable de configuration
+
+### ExtractFromXMLA.py (OpÃ©rationel)
+Ce fichier contient la classe abstraites Extractor dont hÃ©ritent les 2 classes suivantes ExtractorTabularCubeCatalog et ExtractorMultidimCubeCatalog pour extraire respectivement le dictionnaire de donnÃ©e des cubes tabulaires et multidimensionnelles
+
+Il permet Ã©galement de constituer le dictionnaire de donnÃ©es des cubes mutlidimensionnelle d'un catalogue de cubes.
+
+### GPTCall.py (Non conlcuant)
+Tentative de ICL (In Context Learning) avec les modÃ¨les de OpenAI text-davincii-03 et gpt-3.5-turbo afin de dÃ©terminer la structure d'une base de donnÃ©e depuis la requÃªte SQL qui a permis la construire. (Retro-engineering)
+
+## Configuration
+
+CrÃ©er un fichier .env dans lequel vous devrez renseigner votre OPENAI_API_KEY, DTSX_FOLDER, XMLA_FOLDER, EXCEL_REPO
+Dupliquer le fichier .env.example
+
+## Project status
+
+DÃ©veloppement de la solution pour que ExtractFromXMLA.py prenne en charge les cubes multidimensionnelle
+
+## Roadmap
+
+### En cours
+
+VÃ©rification de la solution multidim
+
+### PrÃ©vu
+
+### Fait
+
