@@ -1,0 +1,3 @@
+[console_scripts]
+vl53=vl53_400_lib.main:cli
+
