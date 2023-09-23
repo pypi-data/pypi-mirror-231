@@ -1,0 +1,5 @@
+[console_scripts]
+iclips = iclips.__main__:main
+
+[pygments.lexers]
+clips = iclips.clips_pygments:CLIPSLexer
