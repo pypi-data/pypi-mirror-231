@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: articulo
+Version: 0.1.0
+Summary: 
+Author: Mikhail Ivanov
+Author-email: ya.ivanov-m2014v@yandex.ru
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Articulo
+Tiny library for html articles parcing.
+
+## Usage
+Basic usage
+```python
+from articulo import Articulo
+
+# Step 1: initializing Articulo instance
+article = Articulo('https://info.cern.ch/')
+
+# Step 2: getting article properties. All properties resolves lazily.
+print(article.title) # title property returns article title as a string
+print(article.text) # text property returns article content as a string
+print(article.markup) # markup property returns article content as an html markup string
+```
