@@ -1,0 +1,5 @@
+cryptography
+eciespy
+pyjwt
+requests
+lightspark-crypto-python
