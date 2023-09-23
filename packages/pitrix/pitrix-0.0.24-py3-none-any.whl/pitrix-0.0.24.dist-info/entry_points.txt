@@ -1,0 +1,3 @@
+[console_scripts]
+pitrix=pitrix.cli:main
+

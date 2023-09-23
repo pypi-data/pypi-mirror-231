@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+import os
+from login import Login
+from pitrix.runner import run, processes_run, threads_run
+
+
+if __name__ == '__main__':
+    # testbm
+    run_command = "pitrix run -e testbm --mp --dist-mark 'iaas_debug' --no_login"
+    # testepcloud
+    # run_command = "pitrix run  -e testepcloud --mp --dist-mark 'iaas_debug' --no_login"
+    # qingcloud
+    # run_command = "pitrix run  -e qingcloud --mp --dist-mark 'iaas_debug' --no_login"
+    # qa
+    # run_command = "pitrix run  -e qacloud --mp --dist-mark 'iaas_debug' --no_login"
+    os.system(run_command)
+
+    # or
+    # run(['-m demo1'],login=Login())
+    # threads_run("testcases/test_scenario", login=Login())
+    # processes_run(['-m demo1','-m demo2','-m demo3'], login=Login())

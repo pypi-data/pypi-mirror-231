@@ -1,0 +1,141 @@
+import re
+import json
+from requests import request
+from pitrix.fixture import BaseLogin
+
+
+class BossLogin(BaseLogin):
+    def __init__(self):
+        super().__init__()
+        self.boss_host = self.env_vars.current_env_conf["boss_host"]
+        self.boss_account = self.env_vars.current_env_conf["boss_account"]
+
+    def login(self):
+        payload = {
+            "email": self.boss_account["user"],
+            "password": self.boss_account["pwd"]
+        }
+        data = {
+            "url": self.boss_host + "/auth/login_action/",
+            "method": "post",
+            "data": json.dumps(payload)
+        }
+        resp = request(**data)
+        boss2_sk = resp.cookies.get('boss2_sk')
+        # resp_login = {'boss2_sk': boss2_sk, 'host': self.boss_host}
+        return boss2_sk
+
+    def make_headers(self, boss2_sk):
+        headers = {
+            'Cookie': f'boss2_sk={boss2_sk}'
+        }
+        return headers
+
+
+class Login(BaseLogin):
+    def __init__(self):
+        super().__init__()
+        self.is_private = self.current_env_conf.get('private', True)
+        self.account_host = self.current_env_conf.get('submit_host')
+        self.zone = self.current_env_conf.get('zone')
+        self.csrf_token = ''
+        self.sid = ''
+
+    def _private_login(self):
+        data = {
+            'url': self.host + '/login',
+            'method': 'get',
+        }
+        resp = request(**data)
+        self.csrf_token = resp.cookies['csrftoken']
+        self.sid = resp.cookies['sid']
+
+        # return {'csrftoken': csrftoken, 'sid': sid}
+
+    def _public_login(self):
+        self.account_host = self.current_env_conf.get('submit_host')
+        resp = request("get", self.account_host + "/login")
+        self.csrf_token = resp.cookies['csrftoken']
+        self.sid = resp.cookies['sid']
+        # return {'csrftoken': csrftoken, 'sid': sid}
+
+    def _call_pre_login(self):
+        if self.is_private:
+            return self._private_login()
+        return self._public_login()
+
+    def login(self):
+        """
+        public:
+            ->: account/login(get)-->csrftoken,sid
+            ->: account/login(post) with csrftoken -->sk
+        private:
+            ->: console/login(post) -->csrftoken,sid
+            ->: console/login --> with csrftoken -->sk
+        ** pek2 need to verify=False
+        """
+
+        self._call_pre_login()
+
+        payload = {
+            'verifyType': 'passwd',
+            'loginType': 'email',
+            'email': self.account['user'],
+            'passwd': self.account['pwd'],
+            'csrfmiddlewaretoken': self.csrf_token,
+            'login_account_email_postfix': '@xxx.com'
+        }
+        submit_login_url = self.account_host + "/login/api/submit/"
+        if self.is_private is True:
+            del payload['verifyType']
+            del payload['loginType']
+            del payload['email']
+            payload['user'] = self.account['user']
+            submit_login_url = self.host + '/login/submit'
+            payload['login_server'] = 'qingcloud'
+            # if self.current_env == "testbm" or self.current_env == "testing":
+            #     payload['login_server'] = 'qingcloud'
+
+        data = {
+            'url': submit_login_url,
+            'method': 'post',
+            'headers': {
+                "Referer": self.host, 'Content-Type': 'application/x-www-form-urlencoded',
+                "Cookie": f'csrftoken={self.csrf_token}'
+            },
+            'data': payload
+        }
+
+        resp_submit = request(**data)
+        if self.is_private is False:
+            sk = resp_submit.cookies.get('sk')
+        else:
+            pattern = "sk\": \"(.+?)\","
+            try:
+                sk = re.findall(pattern, resp_submit.text)[0]
+            except IndexError:
+                pattern = "sk: '(.+?)',"
+                sk = re.findall(pattern, resp_submit.text)[0]
+
+        resp_login = {
+            "sk": sk,
+            "host": self.host,
+            "csrftoken": self.csrf_token,
+            "sid": self.sid
+        }
+        headers = self.make_headers(resp_login)
+
+        request(url=self.host + '/', method='get', headers=headers)
+        request(url=self.host + f'/{self.zone}', method='get', headers=headers)
+
+        return resp_login
+
+    def make_headers(self, resp_login):
+        headers = {
+            'Cookie': f'csrftoken={resp_login["csrftoken"]};sid={resp_login["sid"]};sk={resp_login["sk"]};console_ver=3',
+            'X-CSRFToken': resp_login["csrftoken"], "Referer": resp_login['host']}
+        return headers
+
+
+if __name__ == '__main__':
+    ...

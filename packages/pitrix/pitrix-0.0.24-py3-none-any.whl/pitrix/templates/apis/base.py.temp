@@ -1,0 +1,178 @@
+# --coding:utf-8--
+import base64
+import copy
+import hmac
+import time
+
+from typing import Text, Callable, Dict
+from datetime import datetime
+from hashlib import sha256
+from urllib import parse
+from urllib.parse import urlencode, quote
+from dataclasses import is_dataclass
+from pitrix.fixture import db_config
+from pitrix.utils.json_tool import json_dump
+
+from apis.common.base import QingCloudBaseApi
+
+
+class IaasHttpRequest:
+    def __init__(self):
+        self._zone = db_config.get('zone')
+        self._ak = db_config.get("qy_access_key_id")
+        self.params_model = None
+        self._common_params = None
+
+    @property
+    def common_params(self):
+        self._common_params = {
+            "access_key_id": self._ak,
+            "zone": self._zone,
+            "signature_method": "HmacSHA256",
+            "signature_version": 1,
+            "version": 1,
+            "expires": time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time() + 60)),
+            "time_stamp": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        }
+        return self._common_params
+
+    def build(self, params_model) -> dict:
+        """构造iaas请求体"""
+        request_data = self._to_dict(params_model)
+        self.params_model = copy.copy(request_data)
+        request_data.update(self.common_params)
+        return self._parse_data(request_data)
+
+    @staticmethod
+    def _to_dict(params_model) -> dict:
+        if is_dataclass(params_model):
+            params_model = params_model.all_fields
+        elif not isinstance(params_model, dict):
+            raise TypeError(f"params_model参数类型错误，类型：{type(params_model)}")
+        dic = {}
+        for k, v in params_model.items():
+            if v is not None:
+                dic[k] = v
+        return dic
+
+    def _parse_data(self, base_params: Dict) -> Dict:
+        """
+        解析嵌套字典
+        :param base_params:
+        e.g ->
+        {"instance":"i-xxxxxx",
+        "rules":[{"priority":10},{"priority":20}],
+        "status":["running","stopped"]}
+        :return:
+        e.g ->
+        {"instance":"i-xxxxxx",
+        "rules.1.priority":10,
+        "rules.2.priority":20,
+        "status.1":"running",
+        "status.2":"stopped"}
+        """
+        params = {}
+        for key, values in base_params.items():
+            if values is None:
+                continue
+            if isinstance(values, list):
+                for i in range(1, len(values) + 1):
+                    if isinstance(values[i - 1], dict):
+                        for sk, sv in values[i - 1].items():
+                            if isinstance(sv, dict) or isinstance(sv, list):
+                                sv = json_dump(sv)
+                            params['%s.%d.%s' % (key, i, sk)] = sv
+                    else:
+                        params['%s.%d' % (key, i)] = values[i - 1]
+            else:
+                params[key] = values
+        params = self.__sort_value(params)
+        return params
+
+    @staticmethod
+    def __sort_value(data: Dict) -> Dict:
+        """
+        对参数名进行升序排列
+        :param data: {"b":123, "a",12}
+        :return:
+            sorted_data: {"a",12, "b":123}
+        """
+        keys = sorted(data.keys())
+        sorted_data = {key: data[key] for key in keys}
+        return sorted_data
+
+
+class IaasBaseApi(QingCloudBaseApi):
+    def __init__(self):
+        super(IaasBaseApi, self).__init__()
+        self._sk = self.config.get("qy_secret_access_key")
+        self.api_url = self.config.get("api_host") + "/iaas/"
+        self._request_builder = IaasHttpRequest()
+
+    # @aomaker.retry(retry_condition=lambda resp: resp.get("ret_code") != 0)
+    def send_http_by_sign(self, method: Text, http_data):
+        """通过签名认证的方式发送http请求"""
+        new_http_data = self._request_builder.build(http_data)
+        signature = self._get_signature(method, new_http_data)
+
+        http_data = {
+            "url": self.api_url,
+            "data": self._request_builder.params_model
+        }
+        hooks = self.get_response_hook(http_data)
+
+        if method.lower() == "get":
+            response = self.request(url=signature, method=method, hooks=hooks)
+        else:
+            new_http_data["signature"] = signature
+            response = self.request(url=self.api_url, data=new_http_data, method='post', hooks=hooks)
+
+        resp = getattr(response, "json_data")
+        return resp
+
+    def _get_signature(self, method: Text, data: Dict) -> Text:
+        """根据请求方法，获取对应签名"""
+        mapping = {
+            "get": self.__signature_of_get_method,
+            "post": self.__signature_of_post_method
+        }
+        try:
+            method: Callable = mapping[method.lower()]
+            signature = method(data)
+        except KeyError:
+            raise KeyError(f"不支持的请求方法：{method},当前仅支持GET、POST方法！")
+        return signature
+
+    def __signature_of_get_method(self, data: Text) -> Text:
+        """
+        针对get请求，生成签名后的iaas_url
+        :param data:
+        :return:
+        """
+        #  请求数据进行url编码
+        data = parse.urlencode(data)
+        string_to_sign = "GET" + "\n" + "/iaas/" + "\n" + data
+        new_string = string_to_sign.replace('+', '%20')  # 编码时空格要转换成 “%20” , 而不是 “+”
+        h = hmac.new(self._sk.encode(), digestmod=sha256)
+        h.update(new_string.encode())
+        sign = base64.b64encode(h.digest()).strip()
+        signature = parse.quote_plus(sign)
+        iaas_url = f'{self.api_url}?{data}&signature={signature}'
+        return iaas_url
+
+    def __signature_of_post_method(self, data: Dict) -> Text:
+        """
+        针对post请求，生成签名
+        :param data:
+        :return:
+        """
+        params_string = urlencode(sorted(data.items()), quote_via=quote)
+        string_to_sign = '\n'.join(['POST', '/iaas/', params_string])
+        digestmod = 'SHA256' if data.get('signature_method', 'HmacSHA256') == 'HmacSHA256' else 'SHA1'
+        h = hmac.new(
+            key=self._sk.encode(),
+            msg=string_to_sign.encode(),
+            digestmod=digestmod,
+        )
+        signature = base64.b64encode(h.digest()).decode()
+        return signature
