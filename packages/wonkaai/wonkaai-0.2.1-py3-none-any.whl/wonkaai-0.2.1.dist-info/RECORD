@@ -1,0 +1,12 @@
+wonkaai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wonkaai/chat/__init__.py,sha256=By01mi6YI-UYXaAvanFUIKDs9Q4fwZfmClBQ0sAomBI,192
+wonkaai/chat/Chat.py,sha256=ZrlPu7f7UdlQN0B-uha198o3mXEtAquoFgnO6TndjXM,641
+wonkaai/chat/ChatFunction.py,sha256=VZkUFzTUTdlZb-tfZEg8nzggAZwDC1kUdqrQZu4Owo0,2403
+wonkaai/chat/ChatFunctionMultiple.py,sha256=Po0c5asI1EFsA9CIBxEQgwcABBCTJKzC9a92-ZMuzUs,1961
+wonkaai/doc_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wonkaai/doc_reader/DocReader.py,sha256=46Hup95KkcVE-GS7V0DpRneWlJgOmadWgm8QgSHsZ8A,929
+wonkaai/result_analyser/__init__.py,sha256=zNFhwzhCB07owimfXoQeTsYLZ_1KKRo8n-r8SwWCc_4,80
+wonkaai/result_analyser/ResultAnalyser.py,sha256=8prxAqp5KJKCPLpaI0M_yg0FtlwhfQsUS4_q2awgSnw,2150
+wonkaai-0.2.1.dist-info/METADATA,sha256=4tJ9CNtWbtjscK-_eC4OQ2F6YqGUoknlMDGIInd-qcU,665
+wonkaai-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+wonkaai-0.2.1.dist-info/RECORD,,
