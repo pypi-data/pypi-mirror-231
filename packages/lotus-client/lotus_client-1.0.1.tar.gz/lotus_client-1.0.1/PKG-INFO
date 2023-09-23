@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lotus_client
+Version: 1.0.1
+Summary: Lotus API
+Home-page: 
+Author: do_trieu_hai
+Author-email: dotrieuhai2k@gmail.com
+Keywords: Swagger,Lotus API
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Lotus is an open-core pricing and billing engine. We enable API companies to automate and optimize their custom usage-based pricing for any metric.  # noqa: E501
+    
