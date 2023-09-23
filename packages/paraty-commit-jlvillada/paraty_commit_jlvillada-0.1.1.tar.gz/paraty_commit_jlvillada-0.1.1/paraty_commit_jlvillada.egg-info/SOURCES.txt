@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+paraty_commit_jlvillada.egg-info/PKG-INFO
+paraty_commit_jlvillada.egg-info/SOURCES.txt
+paraty_commit_jlvillada.egg-info/dependency_links.txt
+paraty_commit_jlvillada.egg-info/top_level.txt
