@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: enermap
+Version: 0.0.1
+Summary: python for visulizing energy for local authoity councils
+Home-page: https://github.com/elgenied/enermap
+Author: Elgenied Elqurashi
+Author-email: e.elqurashi@surrey.ac.uk
+License: MIT license
+Keywords: enermap
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# enermap
+
+
+[![image](https://img.shields.io/pypi/v/enermap.svg)](https://pypi.python.org/pypi/enermap)
+[![image](https://img.shields.io/conda/vn/conda-forge/enermap.svg)](https://anaconda.org/conda-forge/enermap)
+
+
+**python for visulizing energy for local authoity councils**
+
+
+-   Free software: MIT license
+-   Documentation: https://elgenied.github.io/enermap
+    
+
+## Features
+
+-   TODO

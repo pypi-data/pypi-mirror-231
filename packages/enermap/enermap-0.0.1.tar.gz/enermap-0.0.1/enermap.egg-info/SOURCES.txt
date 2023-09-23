@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+enermap/__init__.py
+enermap/common.py
+enermap/enermap.py
+enermap.egg-info/PKG-INFO
+enermap.egg-info/SOURCES.txt
+enermap.egg-info/dependency_links.txt
+enermap.egg-info/not-zip-safe
+enermap.egg-info/top_level.txt
+tests/test_enermap.py
