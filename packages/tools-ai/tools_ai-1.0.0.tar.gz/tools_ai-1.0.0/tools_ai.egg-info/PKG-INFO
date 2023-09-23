@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tools-ai
+Version: 1.0.0
+Summary: Library for ai tools
+Home-page: https://github.com/nxSlayer/tools_ai
+Author: nxSlayer
+Author-email: princediscordslay@gmail.com
+License: MIT
+Keywords: tools_ai,toolsai
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+
+Made by nxSlayer
