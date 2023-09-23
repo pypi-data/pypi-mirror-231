@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: omicron-gap
+Version: 0.0.6
+Summary: Fill gaps in omicron triggers manager
+Author-email: Joseph Areeda <joseph.areeda@ligo.org>
+Project-URL: Bug Tracker, https://git.ligo.org/joseph-areeda/omicron-gap/-/issues
+Project-URL: Source Code, https://git.ligo.org/joseph-areeda/omicron-gap.git
+License-File: LICENSE
