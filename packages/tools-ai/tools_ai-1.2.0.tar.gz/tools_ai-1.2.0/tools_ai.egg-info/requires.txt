@@ -1,0 +1,4 @@
+requests
+websocket-client
+bs4
+setuptools

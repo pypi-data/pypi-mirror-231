@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tools_ai/__init__.py
+tools_ai/tools_ai.py
+tools_ai.egg-info/PKG-INFO
+tools_ai.egg-info/SOURCES.txt
+tools_ai.egg-info/dependency_links.txt
+tools_ai.egg-info/requires.txt
+tools_ai.egg-info/top_level.txt
