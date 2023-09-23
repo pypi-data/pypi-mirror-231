@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyRobustRegressionLib
+Version: 1.2
+Summary: A library that implements algorithms for linear and non-linear robust regression.
+Home-page: https://github.com/bschulz81/robustregression
+Author: Benjamin Schulz
+License: MIT License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+License-File: LICENSE
+
+A library that implements algorithms for linear and non-linear robust regression. It contains a module with functions for ordinary linear and median regreession, a module with functions for non-linear regression, a module for statistical estimators and a module for simple Matrix and Vector calculations
