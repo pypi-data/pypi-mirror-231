@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shamhyper
+Version: 0.0.1
+Summary: ShamHyper functions and quality of life things.
+Home-page: https://github.com/ShamHyper/shamhyper-lib
+Author: ShamHyper
+Author-email: makar.shatc@gmail.com
+Project-URL: GitHub, https://github.com/ShamHyper/shamhyper-lib
+Keywords: shamhyper help lib
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+WIP

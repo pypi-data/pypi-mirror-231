@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+PyDeepLib/__init__.py
+PyDeepLib/colors.py
+shamhyper.egg-info/PKG-INFO
+shamhyper.egg-info/SOURCES.txt
+shamhyper.egg-info/dependency_links.txt
+shamhyper.egg-info/requires.txt
+shamhyper.egg-info/top_level.txt
