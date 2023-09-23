@@ -1,0 +1,6 @@
+numpy
+
+[dev]
+pytest
+flake8
+numba

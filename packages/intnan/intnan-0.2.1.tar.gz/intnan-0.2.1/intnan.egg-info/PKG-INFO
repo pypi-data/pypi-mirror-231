@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: intnan
+Version: 0.2.1
+Summary: Function collection for handling integers with NaNs.
+Author-email: Michael Löffler <ml@occam.com.ua>
+License: BSD 2-Clause License
+        
+        Copyright (c) 2022, Michael
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: source, https://github.com/ml31415/intnan
+Project-URL: tracker, https://github.com/ml31415/intnan/issues
+Keywords: integer,nan,missing values,intnan
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: numba; extra == "dev"
+
+[![GitHub Workflow CI Status](https://img.shields.io/github/actions/workflow/status/ml31415/intnan/python-package.yml?branch=master&logo=github&style=flat)](https://github.com/ml31415/intnan/actions)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/intnan.svg)](https://pypi.org/project/intnan)
+[![PyPI](https://img.shields.io/pypi/v/intnan.svg?style=flat)](https://pypi.org/project/intnan/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# intnan
+
+Integer data types lack special values for `-inf`, `inf` and `NaN`. Especially
+`NaN` as an indication for missing data would be useful in many scientific contexts.
+
+Of course there is `numpy.ma.MaskedArray` around for the very same reason. Nevertheless,
+it might sometimes be annoying to carry a separate mask array around. And in those cases,
+using a set of `numpy`-compatible functions for the same job will do just fine.
+
+This package provides such an implementation for several standard `numpy` functions, that 
+treat integer arrays in such a way, that the lowest negative integer resembles `NaN`.
+
+The library provides an implementation using only standard `numpy` functions and
+another implementation using `numba`, for functions that allow major speed gains. 
+The `numba` implementation is automatically selected, when it is available for import.
+
+## functions
+
+The following list of functions is provided by `intnan`.
+
+- nanval(x)
+- isnan(x)
+- fix_invalid(x, copy=True, fill_value=0)
+- asfloat(x)
+- anynan(x)
+- allnan(x)
+- nanmax(x)
+- nanmin(x)
+- nanmaximum(x, y)
+- nanminimum(x, y)
+- nansum(x)
+- nanprod(x)
+- nancumsum(x)
+- nanmean(x)
+- nanvar(x, ddof=0)
+- nanstd(x, ddof=0)
+- nanequal(x, y)
+- nanclose(x, y, delta=sys.float_info.epsilon)
