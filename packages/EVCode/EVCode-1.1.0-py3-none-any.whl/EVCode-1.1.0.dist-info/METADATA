@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: EVCode
+Version: 1.1.0
+Summary: 一个通过SMTP进行邮箱验证码发送的项目
+Author: lidongxun967
+Author-email: debug967@outlook.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+
