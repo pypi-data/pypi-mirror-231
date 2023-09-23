@@ -1,0 +1,6 @@
+[console_scripts]
+wuttapos = wuttapos.commands:main
+
+[wuttapos.commands]
+open = wuttapos.commands:Open
+status = wuttapos.commands:Status
