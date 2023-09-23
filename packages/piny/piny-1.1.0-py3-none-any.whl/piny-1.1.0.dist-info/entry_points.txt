@@ -1,0 +1,2 @@
+[console_scripts]
+piny = piny.cli:cli
