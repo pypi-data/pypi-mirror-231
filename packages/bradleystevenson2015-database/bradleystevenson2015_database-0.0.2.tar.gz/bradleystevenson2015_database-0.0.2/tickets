@@ -1,0 +1,4 @@
+ticket-001: Create the Database file that we use (CHECK)
+ticket-002: Create the ability to read from a JSON file for the table types (CHECK)
+ticket-003: Create a regular object table (CHECK)
+ticket-004: Create an object table (CHECK)
