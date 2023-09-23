@@ -1,0 +1,10 @@
+outpostspawner/__init__.py,sha256=2bUr28qmd7oVDwSUeul3N7MtWXCnXmuvMjCNG8qvNQw,189
+outpostspawner/api_events.py,sha256=iP5CAhO268T9vux9pOVayf2ctMfuPqJocgzsvaa6NQY,5295
+outpostspawner/api_setup_tunnel.py,sha256=oYqmD0hlV8BejqFDZTi6jmySNdM_K4UAdkqgGeEiUws,3186
+outpostspawner/eventspawner.py,sha256=eUbzjs_GDkfb1sXlWhVT2cAdIkT0zu9TV91R8kcDam8,13519
+outpostspawner/outpostspawner.py,sha256=5cd_O023bnlOTf-gKPUReqiT6EfWw-eBicLKWVrSa_o,58718
+jupyterhub_outpostspawner-0.0.1.dist-info/LICENSE,sha256=dk2Yc1sUc5TLag7h0BsSuhEKOfhznVUW3pD6Ssg4pVA,1517
+jupyterhub_outpostspawner-0.0.1.dist-info/METADATA,sha256=nODXrIi2z0tAiGHHJCdMegrf34iJlweqnkGXm_TpkUw,2668
+jupyterhub_outpostspawner-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jupyterhub_outpostspawner-0.0.1.dist-info/top_level.txt,sha256=iKAzxq3hHz8SFJOd01QVOvzXDv3MVpNT55E5qLFcczQ,15
+jupyterhub_outpostspawner-0.0.1.dist-info/RECORD,,
