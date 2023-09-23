@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+./pygdtf/utils/__init__.py
+pygdtf/__init__.py
+pygdtf/value.py
+pygdtf.egg-info/PKG-INFO
+pygdtf.egg-info/SOURCES.txt
+pygdtf.egg-info/dependency_links.txt
+pygdtf.egg-info/top_level.txt
+pygdtf/utils/__init__.py
+tests/test_library.py
