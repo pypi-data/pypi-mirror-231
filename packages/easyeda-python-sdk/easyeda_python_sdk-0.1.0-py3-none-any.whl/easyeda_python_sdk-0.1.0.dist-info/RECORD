@@ -1,0 +1,8 @@
+easyeda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyeda/core/__init__.py,sha256=MAp5U0ol2rgrzLIv-wOAHiso6u3_CW-_WZ_w2N7YonE,102
+easyeda/core/canvas.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyeda/core/layers.py,sha256=LBVOcr9OrQksovKzc4hqVvVt3eZ8orveIJCOVt0yDW4,457
+easyeda/core/pcb.py,sha256=OO6QIQkGKi8IN5upJJGHiv9Z95ppe79KPvopnrBetDg,11
+easyeda_python_sdk-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+easyeda_python_sdk-0.1.0.dist-info/METADATA,sha256=85oCcMd_6fcNz2Yz0JC4H5C_3bStqRKgFCXTkDc_BtE,432
+easyeda_python_sdk-0.1.0.dist-info/RECORD,,
