@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+VHHHATISpy/__init__.py
+VHHHATISpy/get_ATIS.py
+VHHHATISpy.egg-info/PKG-INFO
+VHHHATISpy.egg-info/SOURCES.txt
+VHHHATISpy.egg-info/dependency_links.txt
+VHHHATISpy.egg-info/requires.txt
+VHHHATISpy.egg-info/top_level.txt
