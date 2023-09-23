@@ -1,0 +1,11 @@
+README.md
+setup.py
+MarketDataManager/__init__.py
+MarketDataManager/client.py
+MarketDataManager.egg-info/PKG-INFO
+MarketDataManager.egg-info/SOURCES.txt
+MarketDataManager.egg-info/dependency_links.txt
+MarketDataManager.egg-info/requires.txt
+MarketDataManager.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client .py
