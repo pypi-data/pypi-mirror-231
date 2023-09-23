@@ -1,0 +1,7 @@
+setup.py
+fishdata/__init__.py
+fishdata/data.py
+fishdata.egg-info/PKG-INFO
+fishdata.egg-info/SOURCES.txt
+fishdata.egg-info/dependency_links.txt
+fishdata.egg-info/top_level.txt
