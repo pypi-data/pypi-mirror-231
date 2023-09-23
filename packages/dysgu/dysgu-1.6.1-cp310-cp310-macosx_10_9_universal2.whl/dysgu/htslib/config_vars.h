@@ -1,0 +1,5 @@
+#define HTS_CC "gcc"
+#define HTS_CPPFLAGS "-I/usr/local/opt/ruby/include"
+#define HTS_CFLAGS "-Wall -g -O2 -fvisibility=hidden"
+#define HTS_LDFLAGS "-L/usr/local/opt/ruby/lib -fvisibility=hidden "
+#define HTS_LIBS "-ldeflate -llzma -lbz2 -lz   -lcurl "
