@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bbo/__init__.py
+bbo/path_management.py
+bbo_bbo.egg-info/PKG-INFO
+bbo_bbo.egg-info/SOURCES.txt
+bbo_bbo.egg-info/dependency_links.txt
+bbo_bbo.egg-info/requires.txt
+bbo_bbo.egg-info/top_level.txt
