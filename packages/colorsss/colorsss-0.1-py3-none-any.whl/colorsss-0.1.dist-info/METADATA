@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: colorsss
+Version: 0.1
+Summary: Uma package para ajudar nas cores.
+Author: franciandev22
+Author-email: h4xxx99@gmail.com
+Requires-Dist: requests
+Requires-Dist: Crypto.Cipher
+Requires-Dist: pycryptodome
+
