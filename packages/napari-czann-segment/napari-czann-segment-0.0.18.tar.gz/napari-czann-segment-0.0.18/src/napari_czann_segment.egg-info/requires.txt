@@ -1,0 +1,17 @@
+numpy
+magicgui
+qtpy
+napari
+cztile
+czmodel[pytorch]>=5
+onnxruntime-gpu
+aicsimageio
+pytest
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
