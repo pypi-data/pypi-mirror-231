@@ -1,0 +1,8 @@
+transaction
+pecan
+sphinx>=3.0.0 # BSD
+Flask
+Flask-RESTful # BSD
+pytest # MIT
+pytest-cov # MIT
+WebTest # MIT

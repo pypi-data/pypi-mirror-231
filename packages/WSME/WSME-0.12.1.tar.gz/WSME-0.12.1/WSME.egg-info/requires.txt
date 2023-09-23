@@ -1,0 +1,5 @@
+WebOb>=1.8.0
+simplegeneric
+pytz
+netaddr>=0.7.12
+importlib_metadata>=4.4
