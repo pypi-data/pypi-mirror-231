@@ -1,0 +1,9 @@
+opentraveldata/.gitignore,sha256=Nd1AysOP1HxLRGCmHFNtlII27QmqBjHmvL_YLEy7q3U,33
+opentraveldata/LICENSE,sha256=DZkuzl5Ac7D6fy1DZTvgQ_1c7EOqRfYhDxJTjT_r2ZU,1057
+opentraveldata/__init__.py,sha256=0Op_pZ3rDBLK2VDTwt0aHzoiux6SNVgddDwZkKpqzyo,91
+opentraveldata/csvwriter.py,sha256=AtGgK01DhUFaJg93glzoMKymz3SYblw4icfDM9sHyPk,911
+opentraveldata/opentraveldata.py,sha256=2HZMKSw7XZEpuVJmvF3VLQcXuFz2wwOdGmudUN-liBI,36135
+opentraveldata-0.0.9.post2.dist-info/METADATA,sha256=JvMF_ZvFMhwc9HDBIc21u11pztzw_z3RRCF99McMZB0,15925
+opentraveldata-0.0.9.post2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+opentraveldata-0.0.9.post2.dist-info/top_level.txt,sha256=hLwJO_ZlYnv7a7OZkUuwxs3mo1gIRuIpI5A6AjlMMoY,15
+opentraveldata-0.0.9.post2.dist-info/RECORD,,
