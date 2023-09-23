@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Cachian
+Version: 0.1
+Summary: Python lru_cache but with TTL
+Home-page: https://github.com/ianteohsc/cachian
+Download-URL: https://github.com/ianteohsc/cachian/archive/refs/tags/v0.1.tar.gz
+Author: Ian Teoh
+Author-email: ian.teoh@gmail.com
+License: MIT
+Keywords: LRU,cache,ttl
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
