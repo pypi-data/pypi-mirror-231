@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: azure-blob-connector
+Version: 0.0.13
+Summary: A package for interacting with the Microsoft Blob storage
+Home-page: UNKNOWN
+Author: dave_the_noob
+Author-email: dave.dawson86@gmail.com
+License: UNKNOWN
+Keywords: python,blob,azure,azure blob,storage container,blob storage container
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: azure.storage.blob
+Requires-Dist: pandas
+Requires-Dist: typing
+
+Within this package you can upload/download files and/or stream files directly into dataframes
+
+
