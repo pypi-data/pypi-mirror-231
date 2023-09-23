@@ -1,0 +1,15 @@
+.bumpversion.cfg
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+pyproject.toml
+setup.py
+csp/__init__.py
+csp.egg-info/PKG-INFO
+csp.egg-info/SOURCES.txt
+csp.egg-info/dependency_links.txt
+csp.egg-info/requires.txt
+csp.egg-info/top_level.txt
+csp/tests/test_all.py
