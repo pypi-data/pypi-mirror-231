@@ -1,0 +1,3 @@
+[openassetio.manager_plugin]
+plugin_package_or_module=AyonOpenAssetIOManager
+
