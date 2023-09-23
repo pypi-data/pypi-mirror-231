@@ -1,0 +1,9 @@
+MarketDataManager/__init__.py,sha256=_5xoxBvqik7-PeMx5hwvFygQoUHpV34lQIJj__e4LaA,26
+MarketDataManager/client.py,sha256=gQLA4wJQPs0xNnjOB_izmdgFTfIEzDcGsvdwWRMpki0,11548
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client .py,sha256=aUp7tEwGFpP8yVuequfvpzUiQIuMfRYMLKnV1iiD7IA,24294
+MarketDataManager-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+MarketDataManager-0.1.dist-info/METADATA,sha256=4LLRakHvY8_IRKIvBaZiUIZe1JdlLc6D5y3rNKz3WJY,4033
+MarketDataManager-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MarketDataManager-0.1.dist-info/top_level.txt,sha256=XHGjtRsawKFJfQ6WIf9DRchkNnDP_ekiFfVTcrhuFrA,24
+MarketDataManager-0.1.dist-info/RECORD,,
