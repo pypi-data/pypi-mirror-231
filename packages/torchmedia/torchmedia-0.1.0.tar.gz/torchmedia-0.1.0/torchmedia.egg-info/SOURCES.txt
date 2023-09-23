@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+torchmedia/__init__.py
+torchmedia.egg-info/PKG-INFO
+torchmedia.egg-info/SOURCES.txt
+torchmedia.egg-info/dependency_links.txt
+torchmedia.egg-info/top_level.txt
