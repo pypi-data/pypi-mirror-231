@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mongolian2ipa
+Version: 0.0.2
+Summary: Mongolian text to International Phonetic Alphabet
+Home-page: https://github.com/mnmonherdene1234/mongolian-to-ipa
+Author: mnmonherdene
+Author-email: mnmonherdene1234@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Mongolian to IPA
+This project is not completed
+
+Do not use production

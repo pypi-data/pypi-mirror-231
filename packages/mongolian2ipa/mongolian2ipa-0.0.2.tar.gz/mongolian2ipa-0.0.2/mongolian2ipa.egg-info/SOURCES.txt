@@ -1,0 +1,11 @@
+README.md
+setup.py
+mongolian2ipa.egg-info/PKG-INFO
+mongolian2ipa.egg-info/SOURCES.txt
+mongolian2ipa.egg-info/dependency_links.txt
+mongolian2ipa.egg-info/top_level.txt
+mongolian_to_ipa/__init__.py
+mongolian_to_ipa/char_convertor.py
+mongolian_to_ipa/helpers.py
+mongolian_to_ipa/mongolia_ipa_dictionary.py
+tests/tests.py
