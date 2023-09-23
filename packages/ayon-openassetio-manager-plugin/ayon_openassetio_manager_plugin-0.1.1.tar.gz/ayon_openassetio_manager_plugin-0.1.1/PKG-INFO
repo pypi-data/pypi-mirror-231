@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ayon-openassetio-manager-plugin
+Version: 0.1.1
+Summary: AYON Manager Plugin for OpenAssetIO hosts.
+Author: input.io
+Author-email: info@ynput.io
+Requires-Python: >=3.9.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openassetio
+Requires-Dist: openassetio-mediacreation
+Requires-Dist: requests
+Project-URL: Bug Tracker, https://github.com/ynput/ayon-openassetio-manager-plugin/issues
+Project-URL: Discussions, https://community.ynput.io/
