@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pysatdata.egg-info/PKG-INFO
+pysatdata.egg-info/SOURCES.txt
+pysatdata.egg-info/dependency_links.txt
+pysatdata.egg-info/requires.txt
+pysatdata.egg-info/top_level.txt
