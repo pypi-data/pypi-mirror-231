@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cmdpkg
+Version: 0.2.0
+Summary: Run Commands In Different Ways
+Home-page: https://github.com/DavOstx7/cmdpkg
+License: MIT
+Author: dav ost
+Author-email: davidost2003@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dataclasses (>=0.6,<0.7)
+Project-URL: Repository, https://github.com/DavOstx7/cmdpkg
+Description-Content-Type: text/markdown
+
+# cmdpkg
+
+This is the code for the cmdpkg - where you can run your runnables in different ways
+
+## Features
+
+* Use your simple commands (cmds) or extend them using a Command object.
+* Run your commands in a process or shell like environment using a Runner object.
+* Fine tune your runner object using different Settings and Models objects.
+
+## Requirements
+
+* Python ^3.6.
+* Any OS
+
+## Installation
+
+pip install cmdpkg
