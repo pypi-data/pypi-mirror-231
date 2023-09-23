@@ -1,0 +1,8 @@
+jsonref
+jsonschema
+
+[test]
+black==22.10.0
+flake8
+isort
+pytest
