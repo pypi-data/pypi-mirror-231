@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ep_amendment_extract/__init__.py
+ep_amendment_extract/am_labeler.py
+ep_amendment_extract/diff.py
+ep_amendment_extract/dossier_retriever.py
+ep_amendment_extract/meps.py
+ep_amendment_extract/parser.py
+europarl_amendment_extract.egg-info/PKG-INFO
+europarl_amendment_extract.egg-info/SOURCES.txt
+europarl_amendment_extract.egg-info/dependency_links.txt
+europarl_amendment_extract.egg-info/requires.txt
+europarl_amendment_extract.egg-info/top_level.txt
