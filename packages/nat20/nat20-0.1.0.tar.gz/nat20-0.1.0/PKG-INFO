@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nat20
+Version: 0.1.0
+Summary: Access Pixels dice with async and bleak
+Home-page: https://github.com/AstraLuma/nat20
+License: LGPL-3.0-or-later
+Author: Jamie Bliss
+Author-email: jamie@ivyleav.es
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aioevents (>=0.2,<0.3)
+Requires-Dist: bleak (>=0.20.2,<0.21.0)
+Requires-Dist: typing-extensions (>=4.6.0,<5.0.0)
+Project-URL: Documentation, https://nat20.readthedocs.io/en/stable/
+Project-URL: Repository, https://github.com/AstraLuma/nat20
+Description-Content-Type: text/markdown
+
+# nat20
+
+A Pixel dice access module based on bleak.
+
+Status: experimental
+
+To run, install Python 3.11 and Poetry and then:
+
+```
+$ poetry install
+$ poetry run python -m pixelize
+```
+

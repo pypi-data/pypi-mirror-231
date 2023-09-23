@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "nat20"
+version = "0.1.0"
+description = "Access Pixels dice with async and bleak"
+authors = ["Jamie Bliss <jamie@ivyleav.es>"]
+license = "LGPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/AstraLuma/nat20"
+documentation = "https://nat20.readthedocs.io/en/stable/"
+packages = [{include = "nat20"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bleak = "^0.20.2"
+typing-extensions = "^4.6.0"
+aioevents = "^0.2"
+
+
+[tool.poetry.group.tui.dependencies]
+textual = ">=0.28.1,<0.34.0"
+art = "^6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+watchgha = "^2.1.1"
+textual-dev = "^1.0.1"
+
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=6,<8"
+sphinx-autobuild = "^2021.3.14"
+sphinx-rtd-theme = "^1.2.2"
+# sphinxcontrib-prettyspecialmethods = "^0.1.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.0"
+pytest-mock = "^3.11.1"
+flake8 = "^6.0.0"
+
+
+[tool.pytest.ini_options]
+minversion = "7.4"
+testpaths = [
+    "tests",
+]
+required_plugins = "pytest-asyncio pytest-mock"
+asyncio_mode = "auto"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
