@@ -1,0 +1,2 @@
+[console_scripts]
+uow = cchdo.uow.__main__:cli
