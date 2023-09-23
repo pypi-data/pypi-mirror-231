@@ -1,0 +1,6 @@
+psutil
+runtimepy>=2.12.3
+textual
+uvloop
+plotext
+numpy
