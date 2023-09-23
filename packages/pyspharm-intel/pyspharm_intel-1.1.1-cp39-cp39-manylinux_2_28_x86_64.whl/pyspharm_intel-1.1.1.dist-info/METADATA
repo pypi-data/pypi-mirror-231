@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyspharm-intel
+Version: 1.1.1
+Summary: Python Spherical Harmonic Transform Module
+Home-page: https://github.com/shenyulu/pyspharm-intel
+Author: Shen yulu
+Author-email: shenyulu2020@gmail.com
+License-File: LICENSE.spherepack
+Requires-Dist: numpy >=1.24.3
+Requires-Dist: intel-fortran-rt
+
