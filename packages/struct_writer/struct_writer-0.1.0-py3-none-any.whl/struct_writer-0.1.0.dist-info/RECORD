@@ -1,0 +1,11 @@
+pyproject.toml,sha256=GU2hk9LGGxawaNnTjoA-p3mNju6AfWm1PKMB2Dk9kEo,2078
+README.md,sha256=HklcsmGbQxG-fU2FRmlSUpIuLdZavECrZHZKRnCiA8k,3863
+struct_writer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+struct_writer/default_template.py,sha256=IU0NBSrzdKy2qxyF3c08sjPecfzaPKWNjAuLusdYrbg,1763
+struct_writer/generate_structured_code.py,sha256=B-YMhlDulHczsQcZFecMq6ANiiIIohshsIZecJVag5A,9539
+struct_writer-0.1.0.dist-info/entry_points.txt,sha256=stlHRRysOSX20oTqxyL4H6o-NxnSBAtlbOFqvIisbI8,77
+struct_writer-0.1.0.dist-info/LICENSE,sha256=5x1Sh9VUFF2MkHCEDTmkJhKUq_Jz_-VXMWVXKBU3_0s,1070
+struct_writer-0.1.0.dist-info/license.rtf,sha256=oK4nJ5JJaPcBUNuVLSFqAUX5x6TaJRXbbaJ042w3Nr8,1279
+struct_writer-0.1.0.dist-info/METADATA,sha256=r9flxuhX0teLcPimEuu5G3M7XzagO93FzXWm_EjPXeI,4544
+struct_writer-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+struct_writer-0.1.0.dist-info/RECORD,,
