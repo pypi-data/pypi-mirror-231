@@ -1,0 +1,2 @@
+pep440
+pytest-cov
