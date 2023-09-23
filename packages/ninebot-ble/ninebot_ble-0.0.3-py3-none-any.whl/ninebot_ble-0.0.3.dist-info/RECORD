@@ -1,0 +1,12 @@
+ninebot_ble/__init__.py,sha256=NTqYMHWJAsiTSo1hkDMoLzPbZnSpmnGrFiPxLPIWnbE,851
+ninebot_ble/__main__.py,sha256=xPfJEHkyFaVbNp3S2TcatelA-NhfWRBaeNdcJYSOkEk,4234
+ninebot_ble/register.py,sha256=jAmQAFAXD76SUyF3WBykpyHKUepxMWkSGLEN8HbEaNU,10969
+ninebot_ble/sensor.py,sha256=bPxhLhYRz_pOksjFgsY45-W236L5jcqSpFXRH-EmpEo,2357
+ninebot_ble/serial_parser.py,sha256=5U6Pz0EeiL3BY0ksiiJIQQQ8mD8_OPkqUrB3tjlq1ao,2468
+ninebot_ble/transport.py,sha256=ReKzVvX63QAs93lw1IJ4ck8szrYPjyLOluQrOaHb2Q8,9777
+ninebot_ble-0.0.3.dist-info/LICENSE,sha256=3XgpDFgMr9thr3vuPoy5bEf6LomSWaILkavZ9JfOcaw,1064
+ninebot_ble-0.0.3.dist-info/METADATA,sha256=HoCQmgkXGOX1sdlaYvPSrE_sVbh5Aw-LZXF_BqlUDns,1392
+ninebot_ble-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ninebot_ble-0.0.3.dist-info/entry_points.txt,sha256=tNy1GtmlgCXjOMd9U0P1iZiWsIA3KyUTJx6X0SVvz9Y,64
+ninebot_ble-0.0.3.dist-info/top_level.txt,sha256=8PxnGnBMmHsCFtzv9eKoTOylBzkDOsF-kTB8ofU6DT4,12
+ninebot_ble-0.0.3.dist-info/RECORD,,
