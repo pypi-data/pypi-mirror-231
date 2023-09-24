@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+EasyGraph_py.egg-info/PKG-INFO
+EasyGraph_py.egg-info/SOURCES.txt
+EasyGraph_py.egg-info/dependency_links.txt
+EasyGraph_py.egg-info/requires.txt
+EasyGraph_py.egg-info/top_level.txt
+easy_graph/__init__.py
+easy_graph/easy_graph.py
+tests/test.py
