@@ -1,0 +1,2 @@
+[console_scripts]
+natsume = natsume.cli:main
