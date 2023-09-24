@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: myhydra
+Version: 0.2
+Summary: This Package can be used to insert Hydra Job Status and Data Quality Metrics to Elastic Open Search
+Home-page: UNKNOWN
+Author: Prasad Dandi
+Author-email: Prasad_Dandi2@comcast.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+# My Hydra Package
+
+https://pypi.org/manage/projects/
+
+## How to use
+
+pip install myhydra
+
+## Functions
+update_project_metadata(project, app, dataset, jobid, dayid=None)
+Arguments:
+project - Name of the project
+app - Name of the application
+dataset - Name of the Dataset
+jobid - JobID  Example: Databricks JobId
+dayid - dayid being processed
+
+insert_hydra_job_status(environment, status, source = None, input=None, output = None)
+Arguments:
+environment - Provide environment value. It will take one of the value ['DEV', 'QA', 'STAG', 'PROD']. For any other value it throws ValueError Exception
+status - Provide job status value. It will take one of the value ['START', 'SUCCESS', 'FAILURE']. For any other value it throws ValueError Exception
+source - Data source value. Example: RTDP D2A
+input -
+output -
+
+
+
+
+Change Log
+===========
+
+Version 0.1 (2023-09-22)
+------------------------
+Initial Version
+Functions - update_project_metadata, insert_hydra_job_status
+
+Version 0.2 (2023-09-23)
+-------------------------
+Changes -
+            1. README.md and CHANGELOG.txt added
+
