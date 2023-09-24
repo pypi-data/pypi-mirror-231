@@ -1,0 +1,14 @@
+README.md
+license.txt
+pyproject.toml
+CypherWeb/__init__.py
+CypherWeb.egg-info/PKG-INFO
+CypherWeb.egg-info/SOURCES.txt
+CypherWeb.egg-info/dependency_links.txt
+CypherWeb.egg-info/top_level.txt
+cypherweb/__init__.py
+cypherweb.egg-info/PKG-INFO
+cypherweb.egg-info/SOURCES.txt
+cypherweb.egg-info/dependency_links.txt
+cypherweb.egg-info/requires.txt
+cypherweb.egg-info/top_level.txt
