@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ssl-oauth"
+version = "1.0.0"
+description = "#test"
+authors = ["Nikita <nmamizerov@gmail.ru>"]
+readme = "README.md"
+packages = [{include = "oauth"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
