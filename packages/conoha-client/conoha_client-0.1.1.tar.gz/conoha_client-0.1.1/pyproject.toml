@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "conoha-client"
+version = "0.1.1"
+description = ""
+authors = ["Shogo Goto <gotoadmn0605@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-openstackclient = "^6.2.0"
+python-dateutil = "^2.8.2"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-watch = "^4.2.0"
+jedi-language-server = "^0.41.0"
+neovim = "^0.3.1"
+ruff = "^0.0.290"
+taskipy = "^1.12.0"
+ruff-lsp = "^0.0.39"
+pre-commit = "^3.4.0"
+
+[tool.poetry.scripts]
+conoha-client = "conoha_client.pra:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["ALL"]
+
+ignore = [
+  "ANN101", # selfの型注釈いれろ
+  "ANN102"  # clsの型注釈いれろ
+  ]
+
+exclude = [
+  "test_*"
+  ]
+
+
+[tool.taskipy.tasks]
+test       = "pytest -s -v"
+test-watch = "pytest-watch -- -v -s --durations=0 --ff"
+lint       = "ruff check ."
+lintfix    = "ruff . --fix"
+pre-commit = "pre-commit install"
