@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+numwords_to_nums/__init__.py
+numwords_to_nums/constants.py
+numwords_to_nums/numwords_to_nums.py
+numwords_to_nums/rules.py
+numwords_to_nums/text_processing_helpers.py
+numwords_to_nums/tokens_basic.py
+numwords_to_nums/tokens_rules.py
+numwords_to_nums.egg-info/PKG-INFO
+numwords_to_nums.egg-info/SOURCES.txt
+numwords_to_nums.egg-info/dependency_links.txt
+numwords_to_nums.egg-info/top_level.txt
+tests/test_numwords_to_nums.py

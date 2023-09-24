@@ -1,0 +1,17 @@
+[project]
+name = "numwords_to_nums"
+version = "1.2.0"
+description = "Python library for converting numerical words (textual numbers) to numbers"
+readme = "README.md"
+authors = [{ name = "Sarthak", email = "sarthak6jan16@gmail.com" }, { name = "Arpit", email = "joshia296@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["text2numbers", "words2numbers", "digits", "numbers", "ordinal numbers", "converter", "text to digits", 'words to numbers']
+dependencies = [
+]
+
+
