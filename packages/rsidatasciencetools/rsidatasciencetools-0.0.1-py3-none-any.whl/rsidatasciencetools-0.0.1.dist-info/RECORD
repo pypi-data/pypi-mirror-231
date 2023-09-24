@@ -1,0 +1,10 @@
+rsidatasciencetools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsidatasciencetools/add.py,sha256=VMW4y5DsCgRIXfMZWJIL_Hxj74CSc8LwwCD44QFoAwA,29
+rsidatasciencetools/subtract.py,sha256=oprI7v0SuL4cG5YqCJcoKLdYznTEP-fALe28NvJfwP8,34
+rsidatasciencetools/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsidatasciencetools/extras/divide.py,sha256=crYThphpYeAvmRfYQeKZ9PMBcp5YRW7V9Suui7MfJ1o,32
+rsidatasciencetools/extras/multiply.py,sha256=_edfwom9MThkFOI0rHEcQEyYVOuTijKWfSE_dEvSg-k,34
+rsidatasciencetools-0.0.1.dist-info/METADATA,sha256=sXTNIYRmJoUp04IhT2M6HWlDI2Q7c1LQgA1-XLbNv4c,534
+rsidatasciencetools-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+rsidatasciencetools-0.0.1.dist-info/licenses/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+rsidatasciencetools-0.0.1.dist-info/RECORD,,
