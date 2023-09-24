@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: idli_coco
+Version: 2.1.1
+Description-Content-Type: text/markdown
+
+# 
+This package is installed using the follpwing command:
+```
+pip install idli_coco
+```
+
+## Usage
+```bash
+idli_coco
+```
