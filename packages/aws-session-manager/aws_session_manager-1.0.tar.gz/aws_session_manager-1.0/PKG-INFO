@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: aws_session_manager
+Version: 1.0
+Summary: A command line UI to manage AWS Session Manager sessions
+License-File: LICENSE
