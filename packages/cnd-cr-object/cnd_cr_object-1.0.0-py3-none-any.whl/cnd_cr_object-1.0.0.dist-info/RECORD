@@ -1,0 +1,7 @@
+cnd_cr_object/VERSION,sha256=GWZm1qfrRYP7nLHhWZcQELLim1t1Kqc_RW4OIGG2Ql8,5
+cnd_cr_object/__init__.py,sha256=BMtnwrdOVlJ2GVs656Y9tvaQdGX5-S7C-iLFI2QMUmM,99
+cnd_cr_object/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+cnd_cr_object/cr_object.py,sha256=LUUN8EnrWeaF_j_5dPgETA0b8Ffni9AQUKZZTy7UV5M,574
+cnd_cr_object-1.0.0.dist-info/METADATA,sha256=dBcc-h02mcVGGAyrKE8Id2vCx8RZZEYRDhg9PtIKVuc,539
+cnd_cr_object-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cnd_cr_object-1.0.0.dist-info/RECORD,,

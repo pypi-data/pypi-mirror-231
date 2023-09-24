@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cnd_cr_object
+Version: 1.0.0
+Summary: Scaffold for a custom ressource in vmware Aria Orchestrator
+Author: Denis Fabien <denis@changendevops.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: cndprint
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+CndCrObject
+
+Class parent to create a custom resource with Aria Orchestrator (Vmware)
