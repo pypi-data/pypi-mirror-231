@@ -1,0 +1,12 @@
+numwords_to_nums/__init__.py,sha256=ha9ldSsxvP3juiuzEImHdssBPcvBx1Y_QkJ_i6-7_1U,48
+numwords_to_nums/constants.py,sha256=Jy5wQZ7UolT_Zakhpboho-lJb36aOSPtT9QVDz0waY8,1425
+numwords_to_nums/numwords_to_nums.py,sha256=zKcFuE9Gf6rTcUxmjWOcOEw0qJ48tGx4IhgE-F2aATk,14213
+numwords_to_nums/rules.py,sha256=yVwrCjIM1iIF4PYtt-EINHbgCCfdJgaYbL3HDrUyb8s,8023
+numwords_to_nums/text_processing_helpers.py,sha256=UbdguGIwBDlYDsNvC_0MWnD407AW3ISuJoWIujThmkM,2430
+numwords_to_nums/tokens_basic.py,sha256=oTi4XKw1SPmvXabRq6RLRxHytTk8FKC5AsEqZCfF16g,8836
+numwords_to_nums/tokens_rules.py,sha256=jITUkClEtq9AxF7xHqEZsq2ZPcqWT_ir39oo0SS-vs0,2737
+numwords_to_nums-1.2.0.dist-info/LICENSE.md,sha256=pfUWOkF7BkQ7LVFpg8Jy9L4e8N5PfxVfwbIRIJO9DZg,1071
+numwords_to_nums-1.2.0.dist-info/METADATA,sha256=zlSux7cYWRwcl0PPpVuBoj3wRbDYnje_NeaOKagcico,17825
+numwords_to_nums-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+numwords_to_nums-1.2.0.dist-info/top_level.txt,sha256=zX_4502f_SFTqajfE58dv_6RXjHpTNK7QFk-5QO5Vnc,17
+numwords_to_nums-1.2.0.dist-info/RECORD,,
