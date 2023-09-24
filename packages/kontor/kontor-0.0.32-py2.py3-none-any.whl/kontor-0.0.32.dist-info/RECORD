@@ -1,0 +1,11 @@
+kontor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kontor/applicant.py,sha256=l27PutjKRCByVrDhepnPqQJ0NGEyuu4BaYVSzWcjqPY,13803
+kontor/bureau.py,sha256=ih8RleEAa0zErkYoR9RlMj1q2omjRATCq5eJ15hTiX4,34945
+kontor/defines.py,sha256=HlyaR5U_WcU8aX-Pe7pcw8TmuIJssepFXxdhB_XFFRc,7799
+kontor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kontor-0.0.32.dist-info/LICENSE,sha256=imddkRSBuxQ5M3yoUwq7p45eyjByQlMIDQgho8UPEMQ,1499
+kontor-0.0.32.dist-info/METADATA,sha256=Havxw9sXraAGyXnSFMn7qUZWLonWIxhlSlCto2JKxV8,4967
+kontor-0.0.32.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+kontor-0.0.32.dist-info/top_level.txt,sha256=a-Z_f9g2nEkJ_jyiltxmXW9Z1OxeK6DVlW5aM8Tolxw,7
+kontor-0.0.32.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kontor-0.0.32.dist-info/RECORD,,
