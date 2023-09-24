@@ -1,0 +1,10 @@
+webracecondition/__init__.py,sha256=eWnf9lIejPdrAUbMhZhABZou2D8KvN8S5rG1mlgRLi8,949
+webracecondition/engine.py,sha256=wRv-SSc6rXoZ1qKt2UvsdoNUUdlVW0h0T0ZgRT0l758,3742
+webracecondition/frames.py,sha256=5IaAXgGSMNZvPwI5185MQBx8jo_NSWGRBQvN1AneyOo,7484
+webracecondition/h2_connection.py,sha256=ZIVz4eRsa-qYtmg8b_WbnyMdVySA6Vkgj_BK4LnA7wM,5784
+webracecondition/h2_tls_connection.py,sha256=stjocxlGHO3EMBaQDeOXt4BPk9Rk1fkM0dXOw5KvRiQ,2412
+webracecondition/roundtrip.py,sha256=kk9mzWbvrTsDdHfzudV0D85KO2kBhtGoWqPwn_0qAJM,3039
+webracecondition-0.0.4.dist-info/LICENSE,sha256=6rFabbKz03zbGKtbUvCkGsW2rRlaopqa41YtZSCERgI,1070
+webracecondition-0.0.4.dist-info/METADATA,sha256=EVVGr15TVwYgmooFQO0MPd-JN3QD-riHFYXp_aNQDVo,1133
+webracecondition-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+webracecondition-0.0.4.dist-info/RECORD,,
