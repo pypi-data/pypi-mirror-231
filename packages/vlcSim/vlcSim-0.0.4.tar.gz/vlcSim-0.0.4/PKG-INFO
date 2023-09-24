@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vlcSim
+Version: 0.0.4
+Summary: Python Package of Event-Oriented Simulation for visible light communication
+Home-page: https://gitlab.com/DaniloBorquez/simvlc/
+Author: Danilo Bórquez-Paredes
+Author-email: danilo.borquez.p@uai.cl
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
