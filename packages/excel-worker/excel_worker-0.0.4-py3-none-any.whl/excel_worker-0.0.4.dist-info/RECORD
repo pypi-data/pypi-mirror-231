@@ -1,0 +1,9 @@
+excel_worker/__init__.py,sha256=4_h9meXMCLqsSk-Gd_Ga7oN72OBsncettC62vkLG6vE,21
+excel_worker/main.py,sha256=gcwy5nP87uQss35UxP-IQsU0baedO916aYL4zbtqIzE,11930
+excel_worker/types/__init__.py,sha256=I4nN2hpLbUSKm1V18bsyFIbJeUSFb-JcHvgsBy45doo,25
+excel_worker/types/excel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excel_worker/types/settings.py,sha256=Mitxe198KR8BOxwrixAA1L_59tf4ZYCynkE8jTH12KY,1539
+excel_worker-0.0.4.dist-info/METADATA,sha256=Rp7UrkgINfcTfcCcVc6B_e5CuJYt6I4Pfba1aSejDIQ,697
+excel_worker-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+excel_worker-0.0.4.dist-info/top_level.txt,sha256=vYRaEqOyNxSPHQJgcXfEd2K6gqAqp2iRBz-KzxVQxHQ,13
+excel_worker-0.0.4.dist-info/RECORD,,
