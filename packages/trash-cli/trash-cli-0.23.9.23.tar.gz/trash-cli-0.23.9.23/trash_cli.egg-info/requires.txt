@@ -1,0 +1,9 @@
+psutil
+six
+
+[:python_version < "3.8"]
+typing
+typing_extensions
+
+[completion]
+shtab
