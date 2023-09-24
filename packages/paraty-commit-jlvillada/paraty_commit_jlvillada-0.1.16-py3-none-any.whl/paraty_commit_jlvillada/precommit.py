@@ -1,0 +1,22 @@
+import os
+import pkg_resources
+import paraty_commit_jlvillada
+import shutil
+
+def main():
+    print("hello, this is pre-commit paraty")
+    project_path = os.getcwd()
+    package_name = 'paraty_commit_jlvillada'
+    package_path = pkg_resources.resource_filename(package_name, '')
+
+    files = os.listdir(package_path)
+    files = [file for file in files if os.path.isfile(os.path.join(package_path, file))]
+
+    for file in files:
+        file_name_path = os.path.join(project_path, file)
+        shutil.copy(file, file_name_path)
+
+    print("Ruta del paquete personalizado:", package_path)
+
+if __name__ == '__main__':
+   main()
