@@ -1,0 +1,9 @@
+dashboard_builder/__init__.py,sha256=umBZWDPaogw9dQ5gClB6jHGiwzSGmKRU1In-kSRq43A,274
+dashboard_builder/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dashboard_builder/components/inputs.py,sha256=Lm0L6lPRSPDbp4H5zMvnluIKtrnHkwFcvx1LOfY84G0,10541
+dashboard_builder/components/managers.py,sha256=HqsGIlDitV6lRD-fJXL-NrOVcWVpHshucBatWcHm-dI,4755
+dashboard_builder/components/outputs.py,sha256=_k4lj9XWTkw7OFF4rwQEvFYKImdifbqNq_ZGK5t_Lro,4665
+dashboard_builder/templates/base.html,sha256=Qwhg_0kF4n9mKGPNV2eqR3O8TxUEEw1CNXQP9PMn1rU,1725
+dashboard_builder-0.2.0.dist-info/METADATA,sha256=8iv4aiNiN-SMhtJjfqiLDpbu3G6dRG-saaYyCnqUuS4,11425
+dashboard_builder-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dashboard_builder-0.2.0.dist-info/RECORD,,
