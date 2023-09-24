@@ -1,0 +1,5 @@
+include LICENSE.md
+include README.md
+exclude seance/output.wav
+exclude seance/response.mp3
+exclude seance/old.txt
