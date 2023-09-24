@@ -1,0 +1,3 @@
+[console_scripts]
+kopfkino = kopfkino.cli:main
+
