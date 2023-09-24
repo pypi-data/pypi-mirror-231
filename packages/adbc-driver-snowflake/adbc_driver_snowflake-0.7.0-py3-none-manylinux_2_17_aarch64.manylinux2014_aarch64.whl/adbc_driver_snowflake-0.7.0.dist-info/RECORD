@@ -1,0 +1,12 @@
+adbc_driver_snowflake/libadbc_driver_snowflake.so,sha256=qHAf98pIo8Sp682YFZz0cCj2sMpr4KNTr5cD4HlQaGo,50608344
+adbc_driver_snowflake/__init__.py,sha256=wuF3oPsiMQbw2z5uO876sKH1r5-zr58Gmwx2QO-cwV4,6349
+adbc_driver_snowflake/_version.py,sha256=90XJ0YVfNMVV5LO2o_Od-JbLxo9qkDrMSXCUFootTSw,7108
+adbc_driver_snowflake/dbapi.py,sha256=L0FwKmq_twE8I60X-TZE7qBTMGsJ1N27udLhXHzhy1U,4014
+adbc_driver_snowflake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adbc_driver_snowflake/_static_version.py,sha256=eB9eDqfSE8AbJTRv47jian2sd2IoI9m0PdJiABZru08,60
+adbc_driver_snowflake-0.7.0.dist-info/top_level.txt,sha256=8LQ43oEJqm5o65Tnom50KZUIrQHc4EksN3Rnk5Q8RPk,22
+adbc_driver_snowflake-0.7.0.dist-info/LICENSE.txt,sha256=T4Dw5GuGwOJpxv53IRsF9jZuTDjsqVasQRIvhwtO5Zs,85448
+adbc_driver_snowflake-0.7.0.dist-info/WHEEL,sha256=_wJNZjhpR7n12Fr1JoK61rpvd3d5lECSPgcZ_WtULgk,148
+adbc_driver_snowflake-0.7.0.dist-info/METADATA,sha256=loZ1-_DXm1UREASPDhECO1n_CD4EMN14YJaORt3HsBY,2675
+adbc_driver_snowflake-0.7.0.dist-info/NOTICE.txt,sha256=ork4LFdNC7tkM_o0ZVZZBsBc3mUQAnu9tKovmU3-w60,166
+adbc_driver_snowflake-0.7.0.dist-info/RECORD,,
