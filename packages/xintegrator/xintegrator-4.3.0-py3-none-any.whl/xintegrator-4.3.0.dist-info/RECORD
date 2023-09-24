@@ -1,0 +1,6 @@
+xintegrator/__init__.py,sha256=DOap6G0wtbukmvEvgAjfugx9Ms5DwvwECUYAALJ7hEM,59
+xintegrator/integration.py,sha256=BkAvbdTaHXKWX1DjC4FLNUXwtDYnnA-Q90tT_VLPSrI,8663
+xintegrator/sentiment_analyzer.py,sha256=A0k7-zwJgSo2oWDoIT_mBLBtYk1i4DlFpk1lVxGH82k,1400
+xintegrator-4.3.0.dist-info/METADATA,sha256=zxJmbuwRxod_sQclwmfMef488f0Mn4h6vV2_yogq9Mw,547
+xintegrator-4.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+xintegrator-4.3.0.dist-info/RECORD,,
