@@ -1,0 +1,11 @@
+tosholi/__init__.py,sha256=SIEaBS4QKr1BkoWEiov5Dla6WR0RsIFrj7Ldx54ATiI,298
+tosholi/format.py,sha256=XwS7eaNfY6bOXa6aAgk4zzy0DpYmjhsKokQY9Lr8rhg,1087
+tosholi/parse.py,sha256=DrHgJc80-fM8OS1GF_7dqm2PZrhjX8SRm1_vxFCKIOE,1589
+tosholi/protocols.py,sha256=r5aOv_4GHPC6XPEXY4bxmOGcNI3ZwPqQXPr0EeeqCqg,392
+tosholi/py.typed,sha256=pjZ3eoQ8Dd_pUFc1LeRQwf07qFBz7wDueGr3aO8b8gg,56
+tosholi/validate.py,sha256=k75BuRgYa_D3Kd55gGtWm4VQhef6mxdCJFlHBDqnF9w,6249
+tosholi-0.1.0.dist-info/LICENSE,sha256=SMc3f3-FJF-WPZb0UZAJgFvIb3kVg8Qeo7UC_kpXkpc,1065
+tosholi-0.1.0.dist-info/METADATA,sha256=gGmsHkr9cpP1ctsLexLpJgNv2aP74XnB1eGnLZB2KvA,4146
+tosholi-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tosholi-0.1.0.dist-info/top_level.txt,sha256=qTAAA8C705eHKvrUR6uyeTO8Fq7u6k_ghqkIC3aiKlA,8
+tosholi-0.1.0.dist-info/RECORD,,
