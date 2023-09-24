@@ -1,0 +1,12 @@
+cmdpkg/__init__.py,sha256=Wta8N8QfoozFZA07McH6UPGrg17VO3jQsNQnTah3M7E,176
+cmdpkg/_typing.py,sha256=AkM7p95SVRS7eG7a4ZXAkBfOLYd8Mz0OZKcVq0yZRCY,195
+cmdpkg/base.py,sha256=P9K5rv3YMKkDGf2keBmwcqe9oCoVh1RlcUFqH7ofDBk,1713
+cmdpkg/command.py,sha256=jbKDc4lgZlJ7VlZ_norvuZfFfP1FyjO9KPmk84zZJrw,2907
+cmdpkg/models.py,sha256=y5TR0U-vsd2tbhee9UfMwKNduqqj1tUcENhxTc1rMLk,960
+cmdpkg/process.py,sha256=YzzC8zukbJ5SivwWlpb7p1LrF5IHNUxibAiZQhNgM4c,1958
+cmdpkg/shell.py,sha256=hQ6x81FGkzZ0-4PZ5NHkxRT3Uk9uL51iaQbTDcPehWs,592
+cmdpkg/utils.py,sha256=qu_N3y7_TMKeunAGv6_DHyWDz5sbfJbleOTa4HMKqnY,325
+cmdpkg-0.2.1.dist-info/LICENSE,sha256=ubz8OdHeQ3n23XaviuXkhdGOrO5HPhjwY0G03NhLz4M,1086
+cmdpkg-0.2.1.dist-info/METADATA,sha256=_8obHij6uBczAlT90pMqrqHc8O3T3Aw9B7sRtQZjb0A,1191
+cmdpkg-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cmdpkg-0.2.1.dist-info/RECORD,,
