@@ -1,0 +1,9 @@
+pytest
+
+[test]
+pytest
+pytest-cov
+pytest-houdini
+pytest-mock
+pytest-sugar
+tox
