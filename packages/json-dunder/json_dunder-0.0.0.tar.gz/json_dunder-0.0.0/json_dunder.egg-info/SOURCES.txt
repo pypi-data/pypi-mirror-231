@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+json_dunder/__init__.py
+json_dunder/json_dunder.py
+json_dunder.egg-info/PKG-INFO
+json_dunder.egg-info/SOURCES.txt
+json_dunder.egg-info/dependency_links.txt
+json_dunder.egg-info/top_level.txt
