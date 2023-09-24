@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: terrapin-orm
+Version: 0.0.2
+Summary: Asynchronous orm for Postgresql
+Home-page: https://github.com/evstratbg/terrapin-orm.git
+License: MIT
+Author: Bogdan
+Author-email: evstrat.bg@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: asyncpg (>=0.28.0,<0.29.0)
+Project-URL: Repository, https://github.com/evstratbg/terrapin-orm.git
+Description-Content-Type: text/markdown
+
+### ORM Fields for PostgreSQL
+
+A simple set of classes for representing PostgreSQL fields in your Python application. These classes provide methods for generating SQL definitions and indexes.
+
+
