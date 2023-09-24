@@ -1,0 +1,6 @@
+lark
+networkx
+pyvis
+rich
+beautifulsoup4
+requests
