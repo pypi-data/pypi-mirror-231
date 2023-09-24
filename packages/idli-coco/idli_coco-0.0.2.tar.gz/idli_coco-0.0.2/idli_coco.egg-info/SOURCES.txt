@@ -1,0 +1,10 @@
+README.md
+setup.py
+idli_coco/__init__.py
+idli_coco/main.py
+idli_coco.egg-info/PKG-INFO
+idli_coco.egg-info/SOURCES.txt
+idli_coco.egg-info/dependency_links.txt
+idli_coco.egg-info/entry_points.txt
+idli_coco.egg-info/requires.txt
+idli_coco.egg-info/top_level.txt
