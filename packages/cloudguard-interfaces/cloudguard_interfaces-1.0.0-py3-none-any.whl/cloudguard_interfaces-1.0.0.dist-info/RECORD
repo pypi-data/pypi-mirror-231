@@ -1,0 +1,15 @@
+cloudguard_interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudguard_interfaces/config.py,sha256=mxOoUmPCDTMn8aqkhEW8X4qmAD4RkauM35ipXAC3UCs,63
+cloudguard_interfaces/main.py,sha256=uUuL7KgxvnWV4nxIr9c_rN1GKGJiM1foQ1XstLCwv6Y,1095
+cloudguard_interfaces/providers/aws/config.py,sha256=JvlttqWa1t7rRS7Z3mefcYXU3lLd35oFO9zmsZ7b7ac,25
+cloudguard_interfaces/providers/aws/interface.py,sha256=MUihbzVz4BYzYi77zGMpHGbN6QUnQFnS2J6Tsv36Lkg,28
+cloudguard_interfaces/providers/azure/config.py,sha256=vxvvZFgixw-1HbaStDDLip32RTYbgb4bEPDFGQ3iTvM,27
+cloudguard_interfaces/providers/azure/interface.py,sha256=sNAdFvFpigZ6vxJAKDTODVAPkKSvzfC1y9xXY5GFiGA,30
+cloudguard_interfaces/providers/gcp/config.py,sha256=vcvfv0DVVcYb7R2xGsNkqzO7Vd2XKn2ViObaLJbEZ5k,860
+cloudguard_interfaces/providers/gcp/interface.py,sha256=gPDxoE1UMjI2FSgMlHd6GKahC0tpYDihY0a2KFYbaiw,28
+cloudguard_interfaces/providers.py,sha256=ZZzWMf45-n8dmGS6SxQM0d31PpxjIOVMyGb7GqTcYPQ,287
+cloudguard_interfaces/utils/json.py,sha256=RpcrUNCE1D_aaH8lRBNGhuzpHG7f1PjudguTqDyOjuo,252
+cloudguard_interfaces-1.0.0.dist-info/LICENSE,sha256=1_NWvu4Rl3AfceWX-2wK5qTSQuIOqMPTIX98ffQk4HM,1065
+cloudguard_interfaces-1.0.0.dist-info/METADATA,sha256=s5KwLOZboUny7ETudPX4HmC5FLd7a0ql_hqHCJlbxa8,768
+cloudguard_interfaces-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cloudguard_interfaces-1.0.0.dist-info/RECORD,,
