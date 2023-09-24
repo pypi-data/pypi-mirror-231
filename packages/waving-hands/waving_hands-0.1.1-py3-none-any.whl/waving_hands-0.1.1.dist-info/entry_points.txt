@@ -1,0 +1,2 @@
+[console_scripts]
+waving-hands = waving_hands.waving_hands:main
