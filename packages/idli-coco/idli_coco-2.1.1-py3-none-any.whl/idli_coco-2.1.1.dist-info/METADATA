@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: idli-coco
+Version: 2.1.1
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: Pillow
+
+# 
+This package is installed using the follpwing command:
+```
+pip install idli_coco
+```
+
+## Usage
+```bash
+idli_coco
+```
