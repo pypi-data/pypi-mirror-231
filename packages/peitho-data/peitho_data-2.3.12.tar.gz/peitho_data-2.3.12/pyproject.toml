@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peitho_data"
+version = "2.3.12"
+authors = [
+  { name="Jiaqi liu", email="jack20220723@gmail.com" },
+]
+description = "An opinionated Python package on Big Data Analytics"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://github.com/QubitPi/peitho-data"
+"Bug Tracker" = "https://github.com/QubitPi/peitho-data/issues"
