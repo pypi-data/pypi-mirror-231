@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: conoha-client
+Version: 0.1.1
+Summary: 
+Author: Shogo Goto
+Author-email: gotoadmn0605@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: python-openstackclient (>=6.2.0,<7.0.0)
+Description-Content-Type: text/markdown
+
+# 開発環境構築
+
+## リポジトリのインストール
+```bash
+git clone https://github.com/shogogoto/conoha-client.git
+```
+
+## パッケージのインストール
+プロジェクトルートで以下を実行
+```bash
+poetry install
+```
+
+## vimで編集準備
+jediのpython補完が効くようにjedi-language-server packageがあるvenv環境に入ってからvi編集を始める
+```bash
+poetry shell
+vi ???
+```
+
+## pre-commit設定
+git commit前にlinterを動かす準備
+```bash
+poetry run task pre-commit
+```
+
+# テスト実行
+プロジェクトルートで以下を実行
+```bash
+poetry run task test
+```
+ファイルを追加・更新することを検知して、自動でユニットテストを実行したい場合は以下
+```bash
+poetry run task test-watch
+```
+
