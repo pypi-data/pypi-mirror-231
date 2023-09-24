@@ -1,0 +1,15 @@
+*.egg-info/
+*.pyc
+*.pyo
+.*.swp
+.coverage
+.idea/
+.ropeproject/
+/.*_cache/
+/.python-version
+/.tox/
+__pycache__/
+_build/
+build/
+dist/
+htmlcov/
