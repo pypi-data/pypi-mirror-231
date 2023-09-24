@@ -1,0 +1,2 @@
+[console_scripts]
+true-detector = true_detector:main

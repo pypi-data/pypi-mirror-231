@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: true-detector
+Version: 0.0.2
+Summary: True detector, which identify dead code
+Author-email: Stepan Rasputnyi <rasputny.stepan@gmail.com>
+Project-URL: Homepage, https://github.com/BigBlackWolf/true-detector
+Project-URL: Bug Tracker, https://github.com/BigBlackWolf/true-detector/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+
+# True Detector
+
+A tool designed to identify unused code.
+
+# Quick start
+
+Install with pip
+```shell script
+pip install true-detector
+```
+
+Run the script
+```shell script
+true-detector
+```
+
+# Manual setup
+
+Clone repository
+```shell script
+git clone https://github.com/BigBlackWolf/true-detector.git
+cd true-detector
+```
+
+Create virtual environment and install dependancies
+```shell script
+python -m virtualenv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+Run the command against needed directory
+```shell script
+python src/true_detector/main.py
+```

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/true_detector/__init__.py
+src/true_detector/abstract.py
+src/true_detector/main.py
+src/true_detector/utils.py
+src/true_detector.egg-info/PKG-INFO
+src/true_detector.egg-info/SOURCES.txt
+src/true_detector.egg-info/dependency_links.txt
+src/true_detector.egg-info/entry_points.txt
+src/true_detector.egg-info/requires.txt
+src/true_detector.egg-info/top_level.txt
+tests/test_true_detector.py
