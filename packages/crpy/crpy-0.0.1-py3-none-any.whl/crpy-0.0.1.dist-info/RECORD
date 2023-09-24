@@ -1,0 +1,15 @@
+crpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crpy/auth.py,sha256=Q3RmQIwEYgqdZ0vNeNY1b_WcKJCVhDgADhDMmOPz8SQ,1600
+crpy/cmd.py,sha256=Yasdj9aeSAfNArDGGYRAGy7T3u3UZU-Izj8a95AAfoM,7028
+crpy/common.py,sha256=fu9t5vHN7DUTnWhWbTvwOgKpJQGRsxzQsNj2R4Se1kc,2316
+crpy/registry.py,sha256=AIdoYJaZ4DfPmXtccFEEatXM8wOHu_Lv2-GEzQifu50,24616
+crpy/storage.py,sha256=CYLROBRJgV3gkHvm_-pTKoc-tDV95xW99AWe7SWAvXA,2288
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=MiLb0fQJQF_NI5RCL0Xt4J_u_grqKSPISnJeiybLbHw,215
+tests/test_registry_endpoints.py,sha256=NKIOyFqH1zi7wxrtrf4clgU1QZzbnDHe6zv2Zl6N2lE,1945
+tests/test_url_parser.py,sha256=RdE6csw0c9kTfF2IhC_67CLlz05pahbLrtlWdeIU3XA,1682
+crpy-0.0.1.dist-info/METADATA,sha256=ygVdXzcYUI2L9hfOC5wrUxjzKAm6Jn8wZysE1y6Nswc,4786
+crpy-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+crpy-0.0.1.dist-info/entry_points.txt,sha256=ivaKF6QEnBgmMzdb425lwwXWOt9iW1JMF55YH8b0SqE,39
+crpy-0.0.1.dist-info/top_level.txt,sha256=UVumvPAPk4wkU9XPnY6RhGFxHluB8MHy_hsfjbYTk2M,11
+crpy-0.0.1.dist-info/RECORD,,
