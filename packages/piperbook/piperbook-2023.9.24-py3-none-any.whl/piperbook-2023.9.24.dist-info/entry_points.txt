@@ -1,0 +1,3 @@
+[console_scripts]
+piperbook=piperbook:app.run
+
