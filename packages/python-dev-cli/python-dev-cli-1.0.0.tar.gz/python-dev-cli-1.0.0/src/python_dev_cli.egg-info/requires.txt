@@ -1,0 +1,8 @@
+jinja2
+
+[dev]
+black
+build
+pip-tools
+pre-commit
+ruff
