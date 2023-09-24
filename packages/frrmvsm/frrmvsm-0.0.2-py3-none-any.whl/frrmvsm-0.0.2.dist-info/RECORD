@@ -1,0 +1,9 @@
+my_first_module/__init__.py,sha256=nn2i2iqdAQWVIU9e8xw5ywPQgjYGarGce_f0cdi5vI0,105
+my_first_module/add.py,sha256=0BCx7Z3X4d3Nig1DjJ9XfbJ9Xb372Xf2d_ghyIxW-MI,33
+my_first_module/divide.py,sha256=43Ik02mSfyGSg4w04m1BAEL7k_MpLPG9X2E9b4CI4-o,34
+my_first_module/multiply.py,sha256=5zaJUIp6UBxaxNVJ5UmifiIYNX03UYIQ-uddJjsaYq8,36
+my_first_module/subtract.py,sha256=LqkVaS_AB6psAOhA2rVT0GstqMbxAAMrJ7OHcHW8RiQ,36
+frrmvsm-0.0.2.dist-info/METADATA,sha256=a0kwRbVqHxahiThLq2SoQHcgnHjQj2IuHZ0yR45iLZk,581
+frrmvsm-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+frrmvsm-0.0.2.dist-info/top_level.txt,sha256=7gw6YTcZBEKW9VvGYTbHeOvK6K9OFV7Lfbif_LdyD2Q,16
+frrmvsm-0.0.2.dist-info/RECORD,,
