@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+jsthon/__errors__.py
+jsthon/__init__.py
+jsthon/__main__.py
+jsthon.egg-info/PKG-INFO
+jsthon.egg-info/SOURCES.txt
+jsthon.egg-info/dependency_links.txt
+jsthon.egg-info/not-zip-safe
+jsthon.egg-info/requires.txt
+jsthon.egg-info/top_level.txt
