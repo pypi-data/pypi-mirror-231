@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+speakWin_2/__init__.py
+speakWin_2/speakWin.py
+speakWin_2.egg-info/PKG-INFO
+speakWin_2.egg-info/SOURCES.txt
+speakWin_2.egg-info/dependency_links.txt
+speakWin_2.egg-info/not-zip-safe
+speakWin_2.egg-info/top_level.txt
