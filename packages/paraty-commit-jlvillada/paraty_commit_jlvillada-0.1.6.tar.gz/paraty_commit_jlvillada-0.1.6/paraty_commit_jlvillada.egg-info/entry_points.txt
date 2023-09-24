@@ -1,0 +1,2 @@
+[console_scripts]
+my_executable = precommit:main
