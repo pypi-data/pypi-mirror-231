@@ -1,0 +1,1 @@
+from testranunculus.app import run
