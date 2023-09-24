@@ -1,0 +1,8 @@
+tract_python-0.2.12.dist-info/METADATA,sha256=PnQJiOMUxswBvqYEv90ezXsYK_OTIUj7EKKJua6xZpY,3207
+tract_python-0.2.12.dist-info/WHEEL,sha256=EZnhreljZTl3waRecp2zMPHGIvGZA6SrvaJp-rSxdUs,94
+tract_python-0.2.12.dist-info/license_files/LICENSE,sha256=yYqvVBAExS_E__ObYploQZ6VfJ74r0QhQUDWoCqlwKc,1086
+tract_python/__init__.py,sha256=NR35J0K0xcgBpiM4-OcAwtzzBWGkC8ca2hVPGOEy3hc,4837
+tract_python/tract_python/__init__.py,sha256=hsVZR7agC05B2LKh1o3-Xj95Uziyiy2NP0_kS0aEM4k,136
+tract_python/tract_python/ffi.py,sha256=m_C6CTv2uvTe49Q7UC1w2r42S5DsKQlKZYJzaEW8Vlw,1143
+tract_python/tract_python/native.so,sha256=0tojzS0bEZGwXDkeSDL3ZWGO6SJQipbnpS_OjYBx9g0,17505280
+tract_python-0.2.12.dist-info/RECORD,,
