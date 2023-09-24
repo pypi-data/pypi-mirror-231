@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ripple-energy
+Version: 1.0.0
+Project-URL: Documentation, https://github.com/unknown/ripple-energy#readme
+Project-URL: Issues, https://github.com/unknown/ripple-energy/issues
+Project-URL: Source, https://github.com/unknown/ripple-energy
+Author-email: daniel <daniel.edward.george.hitchcock@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: pydantic~=2.0.3
+Requires-Dist: requests~=2.31.0
+Requires-Dist: typing
+Description-Content-Type: text/markdown
+
+# Ripple Energy
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ripple-energy.svg)](https://pypi.org/project/ripple-energy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ripple-energy.svg)](https://pypi.org/project/ripple-energy)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install ripple-energy
+```
+
+## License
+
+`ripple-energy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
