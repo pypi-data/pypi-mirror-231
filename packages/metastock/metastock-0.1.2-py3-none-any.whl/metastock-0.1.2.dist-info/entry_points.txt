@@ -1,0 +1,3 @@
+[console_scripts]
+pystock=metastock.main:app
+
