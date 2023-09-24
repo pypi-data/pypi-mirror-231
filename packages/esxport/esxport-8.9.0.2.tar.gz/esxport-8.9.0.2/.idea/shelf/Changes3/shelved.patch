@@ -1,0 +1,15 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>dist\nbuild\n*.egg-info\n*.pyc\n*.*~\n.DS_Store\n*.sublime-*\n*.csv\n*.crt\n.venv\n*.tmp\n*query.json\n**coverage**\n**version\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision c029dd0b7df979375e7a35217040ed292ee26c36)
++++ b/.gitignore	(date 1695389508671)
+@@ -12,3 +12,4 @@
+ *query.json
+ **coverage**
+ **version
++**scannerwork**

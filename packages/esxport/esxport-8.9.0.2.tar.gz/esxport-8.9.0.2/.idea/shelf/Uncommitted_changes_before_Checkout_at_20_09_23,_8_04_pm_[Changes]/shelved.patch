@@ -1,0 +1,58 @@
+Index: test/esxport/search_query_test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Search API Test cases.\"\"\"\nimport inspect\nimport json\nfrom pathlib import Path\nfrom test.esxport._export_test import TestExport\nfrom test.esxport._prepare_search_query_test import TestSearchQuery\nfrom unittest.mock import Mock, patch\n\nimport pytest\nfrom typing_extensions import Self\n\nfrom src.esxport import EsXport\nfrom src.exceptions import MetaFieldNotFoundError\n\n\nclass TestVSearchQuery:\n    \"\"\"Search API Test cases.\"\"\"\n\n    def test_data_not_flused_when_results_are_zero(self: Self, mocker: Mock, esxport_obj: EsXport) -> None:\n        \"\"\"Test that export is not called if no of records are zero.\"\"\"\n        esxport_obj.opts.output_file = f\"{inspect.stack()[0].function}.csv\"\n        mocker.patch.object(\n            esxport_obj,\n            \"_validate_fields\",\n            return_value=None,\n        )\n        with patch.object(esxport_obj, \"_write_to_temp_file\") as mock_write_to_temp_file:\n            esxport_obj.search_query()\n            mock_write_to_temp_file.assert_not_called()\n            assert Path(f\"{esxport_obj.opts.output_file}.tmp\").exists() is False\n\n    def test_data_flused_when_results_are_non_zero(self: Self, mocker: Mock, esxport_obj_with_data: EsXport) -> None:\n        \"\"\"Test that export is not called if no of records are zero.\"\"\"\n        esxport_obj_with_data.opts.output_file = f\"{inspect.stack()[0].function}.csv\"\n        mocker.patch.object(\n            esxport_obj_with_data,\n            \"_validate_fields\",\n            return_value=None,\n        )\n        with patch.object(esxport_obj_with_data, \"_write_to_temp_file\") as mock_write_to_temp_file:\n            esxport_obj_with_data.search_query()\n            mock_write_to_temp_file.assert_called_once_with(esxport_obj_with_data.es_client.search())\n        TestExport.rm_export_file(f\"{inspect.stack()[0].function}.csv\")\n\n    def test_data_flused_when_results_are_non_zero1(self: Self, mocker: Mock, esxport_obj_with_data: EsXport) -> None:\n        \"\"\"Test that export is not called if no of records are zero.\"\"\"\n        self.out_file = esxport_obj_with_data.opts.output_file\n        mocker.patch.object(\n            esxport_obj_with_data,\n            \"_validate_fields\",\n            return_value=None,\n        )\n        esxport_obj_with_data.search_query()\n        assert Path(f\"{esxport_obj_with_data.opts.output_file}.tmp\").exists() is True\n        TestExport.rm_export_file(f\"{inspect.stack()[0].function}.csv\")\n\n    def test_meta_fields_are_flushed(self: Self, mocker: Mock, esxport_obj_with_data: EsXport) -> None:\n        \"\"\"Test that meta fields are dumped.\"\"\"\n        esxport_obj_with_data.opts.output_file = f\"{inspect.stack()[0].function}.csv\"\n        esxport_obj_with_data.opts.meta_fields = [\"_score\", \"_id\"]\n        mocker.patch.object(\n            esxport_obj_with_data,\n            \"_validate_fields\",\n            return_value=None,\n        )\n        esxport_obj_with_data.search_query()\n        with Path(f\"{inspect.stack()[0].function}.csv.tmp\").open() as f:\n            first_line = json.loads(f.readline().strip(\"\\n\"))\n            assert first_line.keys() == esxport_obj_with_data.es_client.search()[\"hits\"][\"hits\"][0][\"_source\"].keys()\n\n    def test_invalid_meta_fields_raises_exception(\n        self: Self,\n        mocker: Mock,\n        esxport_obj_with_data: EsXport,\n    ) -> None:\n        \"\"\"Test that invalid meta fields raised exception.\"\"\"\n        self.out_file = esxport_obj_with_data.opts.output_file\n        random_strings = [TestSearchQuery.random_string(10) for _ in range(5)]\n        esxport_obj_with_data.opts.meta_fields = random_strings\n        mocker.patch.object(\n            esxport_obj_with_data,\n            \"_validate_fields\",\n            return_value=None,\n        )\n        with pytest.raises(MetaFieldNotFoundError):\n            esxport_obj_with_data.search_query()\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/esxport/search_query_test.py b/test/esxport/search_query_test.py
+--- a/test/esxport/search_query_test.py	
++++ b/test/esxport/search_query_test.py	
+@@ -84,3 +84,18 @@
+         )
+         with pytest.raises(MetaFieldNotFoundError):
+             esxport_obj_with_data.search_query()
++
++    def test_data_is_flused_on_buffer_hit(
++        self: Self,
++        esxport_obj_with_data: EsXport,
++    ) -> None:
++        """Test that invalid meta fields raised exception."""
++        data = esxport_obj_with_data.es_client.search()
++        no_of_records = data["hits"]["total"]["value"]
++        flush_size = 1
++        with patch.object(esxport_obj_with_data, "_flush_to_file") as mock_flush_to_file, patch(
++            "src.esxport.FLUSH_BUFFER",
++            flush_size,
++        ):
++            esxport_obj_with_data.search_query()
++            assert mock_flush_to_file.call_count == no_of_records / flush_size + 1
+Index: test/conftest.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Conftest for Pytest.\"\"\"\nfrom __future__ import annotations\n\nfrom typing import Any\nfrom unittest.mock import Mock\n\nimport pytest\n\nfrom src.click_opt.cli_options import CliOptions\nfrom src.esxport import EsXport\n\n\n@pytest.fixture()\ndef cli_options() -> CliOptions:\n    \"\"\"Mock Click CLI options.\"\"\"\n    query: dict[str, Any] = {\"query\": {\"match_all\": {}}}\n    return CliOptions(\n        {\n            \"query\": query,\n            \"output_file\": \"output.csv\",\n            \"url\": \"http://localhost:9200\",\n            \"user\": \"admin\",\n            \"password\": \"password\",\n            \"index_prefixes\": [\"index1\", \"index2\"],\n            \"fields\": [\"field1\", \"field2\"],\n            \"sort\": [],\n            \"delimiter\": \",\",\n            \"max_results\": 100,\n            \"scroll_size\": 100,\n            \"meta_fields\": [],\n            \"verify_certs\": True,\n            \"ca_certs\": None,\n            \"client_cert\": None,\n            \"client_key\": None,\n            \"debug\": False,\n        },\n    )\n\n\n@pytest.fixture()\ndef es_client_without_data() -> Mock:\n    \"\"\"Mock ElasticSearch Client.\"\"\"\n    mock_client = Mock()\n    mock_client.search.return_value = {\n        \"_scroll_id\": \"abc\",\n        \"hits\": {\n            \"total\": {\n                \"value\": 0,\n            },\n            \"hits\": None,\n        },\n    }\n    return mock_client\n\n\n@pytest.fixture()\ndef es_client_with_data() -> Mock:\n    \"\"\"Mock ElasticSearch Client.\"\"\"\n    mock_client = Mock()\n    mock_client.search.return_value = {\n        \"_scroll_id\": \"abc\",\n        \"hits\": {\n            \"total\": {\n                \"value\": 2,\n            },\n            \"hits\": [\n                {\n                    \"_index\": \"index1\",\n                    \"_id\": \"ABC\",\n                    \"_score\": 2,\n                    \"_source\": {\n                        \"test_id\": \"ABC\",\n                    },\n                },\n                {\n                    \"_index\": \"index1\",\n                    \"_id\": \"DEF\",\n                    \"_score\": 1,\n                    \"_source\": {\n                        \"test_id\": \"DEF\",\n                    },\n                },\n            ],\n        },\n    }\n    return mock_client\n\n\n@pytest.fixture()\ndef esxport_obj(cli_options: CliOptions, es_client_without_data: Mock) -> EsXport:\n    \"\"\"Mocked EsXport class.\"\"\"\n    return EsXport(cli_options, es_client_without_data)\n\n\n@pytest.fixture()\ndef esxport_obj_with_data(cli_options: CliOptions, es_client_with_data: Mock) -> EsXport:\n    \"\"\"Mocked EsXport class.\"\"\"\n    return EsXport(cli_options, es_client_with_data)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/conftest.py b/test/conftest.py
+--- a/test/conftest.py	
++++ b/test/conftest.py	
+@@ -83,6 +83,18 @@
+             ],
+         },
+     }
++    mock_client.get_mapping.return_value = {
++        "index1": {
++            "mappings": {
++                "properties": ["test_id"],
++            },
++        },
++        "index2": {
++            "mappings": {
++                "properties": ["field1", "field2", "field3"],
++            },
++        },
++    }
+     return mock_client
+ 
+ 

@@ -1,0 +1,18 @@
+Index: .github/workflows/pytest.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>name: Pytest\non:\n  push:\n    branches: [master]\n  pull_request:\n    branches: [master]\n  workflow_dispatch:\n\nconcurrency:\n  group: ${{ github.workflow }}-${{ github.ref }}\n  cancel-in-progress: true\n\n\njobs:\n  tests:\n    name: >-\n      Pytest - Python ${{ matrix.PYTHON_VERSION }}\n    timeout-minutes: 15\n    runs-on: ubuntu-latest\n    strategy:\n      fail-fast: false\n      matrix:\n        include:\n          - { PYTHON_VERSION: '3.6' }\n          - { PYTHON_VERSION: '3.7' }\n          - { PYTHON_VERSION: '3.8' }\n          - { PYTHON_VERSION: '3.9' }\n          - { PYTHON_VERSION: '3.10' }\n          - { PYTHON_VERSION: '3.11' }\n          - { PYTHON_VERSION: '3.12' }\n    steps:\n      - name: \"Checkout to repository\"\n        uses: actions/checkout@v4\n\n      - name: \"Setup Python\"\n        uses: actions/setup-python@v4\n        with:\n          python-version: ${{ matrix.PYTHON_VERSION }}\n          cache: 'pip'\n          allow-prereleases: true\n\n      - name: Display Python version\n        run: python -c \"import sys; print(sys.version)\"\n\n\n      - name: Install Requirements\n        run: |\n          python -m pip install --upgrade pip\n          pip install -r requirements.txt\n\n      - name: \"Run tests\"\n        uses: pavelzw/pytest-action@v2\n        with:\n          report-title: >-\n            Pytest - Python ${{ matrix.PYTHON_VERSION }}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.github/workflows/pytest.yml b/.github/workflows/pytest.yml
+--- a/.github/workflows/pytest.yml	(revision aeb985ba9f6a0749ddbe837cae1be20dc920041b)
++++ b/.github/workflows/pytest.yml	(date 1695013932875)
+@@ -42,7 +42,6 @@
+       - name: Display Python version
+         run: python -c "import sys; print(sys.version)"
+ 
+-
+       - name: Install Requirements
+         run: |
+           python -m pip install --upgrade pip

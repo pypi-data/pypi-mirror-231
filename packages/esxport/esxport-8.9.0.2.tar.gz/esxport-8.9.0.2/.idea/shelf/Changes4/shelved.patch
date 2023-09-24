@@ -1,0 +1,162 @@
+Index: src/__init__.py
+===================================================================
+diff --git a/src/__init__.py b/src/__init__.py
+deleted file mode 100644
+--- a/src/__init__.py	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ /dev/null	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
+@@ -1,3 +0,0 @@
+-"""EsXport CLi."""
+-
+-__version__ = "8.9.0"
+Index: test/conftest.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Conftest for Pytest.\"\"\"\nfrom typing import Any\nfrom unittest.mock import Mock\n\nimport pytest\n\nfrom src.click_opt.cli_options import CliOptions\n\n\n@pytest.fixture()\ndef cli_options() -> CliOptions:\n    \"\"\"Mock Click CLI options.\"\"\"\n    query: dict[str, Any] = {\"query\": {\"match_all\": {}}}\n    return CliOptions(\n        {\n            \"query\": query,\n            \"output_file\": \"output.csv\",\n            \"url\": \"http://localhost:9200\",\n            \"user\": \"admin\",\n            \"password\": \"password\",\n            \"index_prefixes\": [\"index1\", \"index2\"],\n            \"fields\": [\"field1\", \"field2\"],\n            \"sort\": [],\n            \"delimiter\": \",\",\n            \"max_results\": 100,\n            \"scroll_size\": 100,\n            \"meta_fields\": [],\n            \"verify_certs\": True,\n            \"ca_certs\": None,\n            \"client_cert\": None,\n            \"client_key\": None,\n            \"debug\": False,\n        },\n    )\n\n\n@pytest.fixture()\ndef mock_es_client() -> Mock:\n    \"\"\"Mock ElasticSearch Client.\"\"\"\n    mock_client = Mock()\n    mock_client.search.return_value = {\n        \"hits\": {\n            \"total\": {\n                \"value\": 0,\n            },\n        },\n    }\n    return mock_client\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/conftest.py b/test/conftest.py
+--- a/test/conftest.py	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ b/test/conftest.py	(date 1695492434309)
+@@ -4,7 +4,7 @@
+ 
+ import pytest
+ 
+-from src.click_opt.cli_options import CliOptions
++from src import CliOptions
+ 
+ 
+ @pytest.fixture()
+Index: src/esxport.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/esxport.py b/src/esxport/esxport.py
+rename from src/esxport.py
+rename to src/esxport/esxport.py
+--- a/src/esxport.py	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ b/src/esxport/esxport.py	(date 1695492378688)
+@@ -13,10 +13,10 @@
+ from loguru import logger
+ from tqdm import tqdm
+ 
+-from src.click_opt.cli_options import CliOptions
+-from src.constant import FLUSH_BUFFER, RETRY_DELAY, TIMES_TO_TRY
+-from src.elastic import ElasticsearchClient
+-from src.exceptions import IndexNotFoundError
++from src.esxport.click_opt.cli_options import CliOptions
++from src.esxport.constant import FLUSH_BUFFER, RETRY_DELAY, TIMES_TO_TRY
++from src.esxport.elastic import ElasticsearchClient
++from src.esxport.exceptions import IndexNotFoundError
+ 
+ F = TypeVar("F", bound=Callable[..., Any])
+ 
+Index: src/esxport_cli.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/esxport_cli.py b/src/esxport/esxport_cli.py
+rename from src/esxport_cli.py
+rename to src/esxport/esxport_cli.py
+--- a/src/esxport_cli.py	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ b/src/esxport/esxport_cli.py	(date 1695492705175)
+@@ -4,14 +4,9 @@
+ 
+ import click
+ from click import Context, Parameter
+-from click_params import URL
++from click_params import URL, JSON
+ 
+-from src import esxport
+-from src.__init__ import __version__
+-from src.click_opt.cli_options import CliOptions
+-from src.click_opt.click_custom import JSON, sort
+-from src.constant import META_FIELDS
+-from src.elastic import ElasticsearchClient
++from src.esxport.constant import META_FIELDS
+ 
+ 
+ def print_version(ctx: Context, _: Parameter, value: bool) -> None:  # noqa: FBT001
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[build-system]\nrequires = [\"hatchling\"]\nbuild-backend = \"hatchling.build\"\n\n[project]\nname = \"esxport\"\ndynamic = [\"version\"]\ndescription = \"An adept Python CLI utility designed for querying Elasticsearch and exporting result as a CSV file.\"\nreadme = {file = \"README.md\", content-type = \"text/markdown\"}\nrequires-python = \"==3.11.*\"\nlicense = {file = \"LICENSE\"}\nauthors = [\n    { name = \"Nikhil Badyal\", email = \"nikhill773384@gmail.com\" },\n]\nkeywords = [\n    \"bulk\",\n    \"csv\",\n    \"elasticsearch\",\n    \"es\",\n    \"export\",\n]\nclassifiers = [\n    \"Development Status :: 5 - Production/Stable\",\n    \"Environment :: Console\",\n    \"Intended Audience :: Developers\",\n    \"Intended Audience :: System Administrators\",\n    \"License :: OSI Approved :: Apache Software License\",\n    \"Programming Language :: Python :: 3.11\",\n    \"Topic :: Database\",\n    \"Topic :: Internet\",\n    \"Topic :: System :: Systems Administration\",\n    \"Topic :: Text Processing\",\n    \"Topic :: Utilities\",\n]\ndependencies = [\n    \"click-params==0.4.1\",\n    \"click==8.1.7\",\n    \"elasticsearch==8.9.0\",\n    \"loguru==0.7.2\",\n    \"tqdm==4.66.1\",\n]\n\n[project.urls]\nHomepage = \"https://github.com/nikhilbadyal/esxport\"\nRepository = \"https://github.com/nikhilbadyal/esxport.git\"\n[project.scripts]\nesxport = \"src.esxport_cli:cli\"\n\n\n[tool.hatch.version]\npath = \"src/__init__.py\"\n\n[tool.ruff]\nline-length = 120\nselect = [\"ALL\"]\nignore = [\n    \"ANN401\", #Disallow Any\n    \"D401\", #Imperative mood\n    \"RUF012\", #ignore till https://github.com/astral-sh/ruff/issues/5243\n    \"UP004\" #useless-object-inheritance\n]\ntarget-version = \"py311\"\nfix = true\nshow-fixes = true\n[tool.ruff.pydocstyle]\nconvention = \"numpy\"\n\n[tool.ruff.per-file-ignores]\n\"**test.py\" = [\"S101\",\"SLF001\",\"PT019\",\"S311\"]\n\n\n[tool.docformatter]\nrecursive = true\nwrap-summaries = 120\nwrap-descriptions = 120\n\n[tool.black]\nline-length = 120\n\n[pycodestyle]\nmax-line-length = 120\nexclude = [\"venv\"]\n\n\n[tool.mypy]\nignore_missing_imports = true\ncheck_untyped_defs = true\nwarn_unused_ignores = true\nwarn_redundant_casts = true\nwarn_unused_configs = true\n\n[tools.pytest]\npythonpath = [\"src\"]\n\n[tool.pytest.ini_options]\naddopts = \"--cov --ff -x --no-cov-on-fail\"\n\n[tool.coverage.run]\nbranch = true\nparallel = true\n\n[tool.coverage.report]\nskip_covered = true\nskip_empty = true\nshow_missing=true\nsort=\"-Stmts\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ b/pyproject.toml	(date 1695492557022)
+@@ -44,11 +44,11 @@
+ Homepage = "https://github.com/nikhilbadyal/esxport"
+ Repository = "https://github.com/nikhilbadyal/esxport.git"
+ [project.scripts]
+-esxport = "src.esxport_cli:cli"
++esxport = "esxport.esxport_cli:cli"
+ 
+ 
+ [tool.hatch.version]
+-path = "src/__init__.py"
++path = "src/esxport/__init__.py"
+ 
+ [tool.ruff]
+ line-length = 120
+Index: src/elastic.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/elastic.py b/src/esxport/elastic.py
+rename from src/elastic.py
+rename to src/esxport/elastic.py
+--- a/src/elastic.py	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ b/src/esxport/elastic.py	(date 1695492378657)
+@@ -4,8 +4,8 @@
+ 
+ import elasticsearch
+ 
+-from src.click_opt.cli_options import CliOptions
+-from src.constant import CONNECTION_TIMEOUT
++from src.esxport.click_opt.cli_options import CliOptions
++from src.esxport.constant import CONNECTION_TIMEOUT
+ 
+ F = TypeVar("F", bound=Callable[..., Any])
+ 
+Index: test/esxport/_prepare_search_query_test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Export testing.\"\"\"\nimport string\nfrom random import choice, randint\nfrom typing import Any, Self\nfrom unittest.mock import patch\n\nfrom src.click_opt.cli_options import CliOptions\nfrom src.elastic import ElasticsearchClient\nfrom src.esxport import EsXport\n\n\n@patch(\"src.esxport.EsXport._validate_fields\")\nclass TestSearchQuery:\n    \"\"\"Tests that a search query with valid input parameters is successful.\"\"\"\n\n    @staticmethod\n    def random_string(str_len: int = 20) -> str:\n        \"\"\"Generates a random string.\"\"\"\n        characters = string.ascii_letters + string.digits\n        return \"\".join(choice(characters) for _ in range(str_len))\n\n    @staticmethod\n    def random_number(upper: int = 100, lower: int = 10000) -> int:\n        \"\"\"Generates a random number.\"\"\"\n        return randint(upper, lower)\n\n    def test_index(\n        self: Self,\n        _: Any,\n        mock_es_client: ElasticsearchClient,\n        cli_options: CliOptions,\n    ) -> None:\n        \"\"\"Arr, matey!.\n\n        Let's test if our search query be successful, with valid input parameters!.\n        \"\"\"\n        random_strings = [self.random_string(10) for _ in range(5)]\n        cli_options.index_prefixes = random_strings\n        indexes = \",\".join(random_strings)\n\n        es_export = EsXport(cli_options, mock_es_client)\n        es_export._prepare_search_query()\n        assert es_export.search_args[\"index\"] == indexes\n\n    def test_size(\n        self: Self,\n        _: Any,\n        mock_es_client: ElasticsearchClient,\n        cli_options: CliOptions,\n    ) -> None:\n        \"\"\"Arr, matey!.\n\n        Let's test if our search query be successful, with valid input parameters!.\n        \"\"\"\n        page_size = randint(100, 9999)\n        cli_options.scroll_size = page_size\n\n        es_export = EsXport(cli_options, mock_es_client)\n        es_export._prepare_search_query()\n        assert es_export.search_args[\"size\"] == page_size\n\n    def test_query(\n        self: Self,\n        _: Any,\n        mock_es_client: ElasticsearchClient,\n        cli_options: CliOptions,\n    ) -> None:\n        \"\"\"Arr, matey!.\n\n        Let's test if our search query be successful, with valid input parameters!.\n        \"\"\"\n        expected_query: dict[str, Any] = {\"query\": {\"match_all\": {}}}\n        cli_options.query = expected_query\n\n        es_export = EsXport(cli_options, mock_es_client)\n        es_export._prepare_search_query()\n        assert es_export.search_args[\"body\"] == expected_query\n\n    def test_terminate_after(\n        self: Self,\n        _: Any,\n        mock_es_client: ElasticsearchClient,\n        cli_options: CliOptions,\n    ) -> None:\n        \"\"\"Arr, matey!.\n\n        Let's test if our search query be successful, with valid input parameters!.\n        \"\"\"\n        random_max = self.random_number()\n        cli_options.max_results = random_max\n\n        es_export = EsXport(cli_options, mock_es_client)\n        es_export._prepare_search_query()\n        assert es_export.search_args[\"terminate_after\"] == random_max\n\n    def test_sort(\n        self: Self,\n        _: Any,\n        mock_es_client: ElasticsearchClient,\n        cli_options: CliOptions,\n    ) -> None:\n        \"\"\"Arr, matey!.\n\n        Let's test if our search query be successful, with valid input parameters!.\n        \"\"\"\n        random_sort = [{self.random_string(): \"asc\"}, {self.random_string(): \"desc\"}]\n        cli_options.sort = random_sort\n\n        es_export = EsXport(cli_options, mock_es_client)\n        es_export._prepare_search_query()\n        assert es_export.search_args[\"sort\"] == random_sort\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/esxport/_prepare_search_query_test.py b/test/esxport/_prepare_search_query_test.py
+--- a/test/esxport/_prepare_search_query_test.py	(revision 01a3af2398fbaf4485d057cfe0f4e13168b623fa)
++++ b/test/esxport/_prepare_search_query_test.py	(date 1695492436842)
+@@ -4,9 +4,7 @@
+ from typing import Any, Self
+ from unittest.mock import patch
+ 
+-from src.click_opt.cli_options import CliOptions
+-from src.elastic import ElasticsearchClient
+-from src.esxport import EsXport
++from src import CliOptions, ElasticsearchClient, EsXport
+ 
+ 
+ @patch("src.esxport.EsXport._validate_fields")
+diff --git a/src/constant.py b/src/esxport/constant.py
+rename from src/constant.py
+rename to src/esxport/constant.py
+diff --git a/src/click_opt/cli_options.py b/src/esxport/click_opt/cli_options.py
+rename from src/click_opt/cli_options.py
+rename to src/esxport/click_opt/cli_options.py
+diff --git a/src/click_opt/__init__.py b/src/esxport/click_opt/__init__.py
+rename from src/click_opt/__init__.py
+rename to src/esxport/click_opt/__init__.py
+diff --git a/src/click_opt/click_custom.py b/src/esxport/click_opt/click_custom.py
+rename from src/click_opt/click_custom.py
+rename to src/esxport/click_opt/click_custom.py
+diff --git a/src/exceptions.py b/src/esxport/exceptions.py
+rename from src/exceptions.py
+rename to src/esxport/exceptions.py
