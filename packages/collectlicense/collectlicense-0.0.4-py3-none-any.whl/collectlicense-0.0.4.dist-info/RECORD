@@ -1,0 +1,13 @@
+collectlicense/__init__.py,sha256=fYXybquGPFv3In3CVqWrq7RRHM2yjfoKTWB0QK-r34w,77
+collectlicense/__main__.py,sha256=cKSSoWigwSHV0AXPG1H4wq6MxfgOwdKs-qomFldqOFw,652
+collectlicense/config.yml,sha256=3NelvZTpuoLsh6xpNeezyvHRvEVmYrLG_arTRZHsS5w,91
+collectlicense/logconf.yml,sha256=0HeNeKgO-UV1J3PXeBF9rM992Kt2fIhsynKagtvhLGA,433
+collectlicense/version.py,sha256=WasCJgRJ9qtOrtLYXqiIsOK7LNx2uJnP24D0lzgC148,50
+collectlicense/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+collectlicense/app/app.py,sha256=inz7GateRF24AnZZ3VCrU_PQNqPL1xs5jsVUk53CFwU,909
+collectlicense/app/common.py,sha256=pib7W538YkA17kz1-Q8sAvlxuA_jJKoaY-Dry7_y0D8,980
+collectlicense-0.0.4.dist-info/LICENSE,sha256=mPt_Lku3mrX4kXDn0RZB6HqLpYVJlLxBSEl369NI8lM,1091
+collectlicense-0.0.4.dist-info/METADATA,sha256=Dg83GDKxTLrcx77BTUmTNVXoBcdJgpDibXPZNr42G3c,2501
+collectlicense-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+collectlicense-0.0.4.dist-info/top_level.txt,sha256=sqeRiAAL4uIC7pazX6A1oQt9xvMNUo3Y2r0da9-BlHE,15
+collectlicense-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+collectlicense:
+    common:
+        CMD: pip-licenses --with-license-file --format=json
