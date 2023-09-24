@@ -1,0 +1,9 @@
+torch>=2.0.0
+einops>=0.6.1
+
+[surgery]
+mosaicml>=0.16.0
+transformers<4.33,>=4.11
+
+[triton]
+triton>=2.0.0
