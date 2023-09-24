@@ -1,0 +1,9 @@
+README.md
+setup.py
+DataNexus/__init__.py
+DataNexus/datanest.py
+DataNexus.egg-info/PKG-INFO
+DataNexus.egg-info/SOURCES.txt
+DataNexus.egg-info/dependency_links.txt
+DataNexus.egg-info/requires.txt
+DataNexus.egg-info/top_level.txt
