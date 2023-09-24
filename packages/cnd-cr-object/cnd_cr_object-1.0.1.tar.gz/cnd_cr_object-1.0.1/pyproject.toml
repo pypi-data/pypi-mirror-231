@@ -1,0 +1,26 @@
+[project]
+name = "cnd_cr_object"
+authors = [
+  { name="Denis Fabien <denis@changendevops.com>" },
+]
+description = "Scaffold for a custom ressource in vmware Aria Orchestrator"
+readme = "README.md"
+requires-python = ">=3.9"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version", "dependencies"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[tool.hatch.version]
+path = "src/cnd_cr_object/__version__.py"
+
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
