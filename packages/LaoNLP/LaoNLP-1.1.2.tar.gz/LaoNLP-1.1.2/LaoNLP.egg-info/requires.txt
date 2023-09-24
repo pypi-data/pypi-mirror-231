@@ -1,0 +1,9 @@
+pythainlp>=3.0.0
+
+[full]
+gensim
+huggingface-hub
+
+[word_vector]
+gensim
+huggingface-hub
