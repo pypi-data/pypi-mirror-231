@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+SamiLog.egg-info/PKG-INFO
+SamiLog.egg-info/SOURCES.txt
+SamiLog.egg-info/dependency_links.txt
+SamiLog.egg-info/top_level.txt
