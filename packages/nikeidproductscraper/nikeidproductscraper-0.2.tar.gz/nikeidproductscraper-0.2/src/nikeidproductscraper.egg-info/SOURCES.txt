@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/nikeidproductscraper.egg-info/PKG-INFO
+src/nikeidproductscraper.egg-info/SOURCES.txt
+src/nikeidproductscraper.egg-info/dependency_links.txt
+src/nikeidproductscraper.egg-info/requires.txt
+src/nikeidproductscraper.egg-info/top_level.txt
+src/spider/__init__.py
+src/spider/scraping_result.py
+src/spider/spider_links.py
+src/spider/spider_product.py
