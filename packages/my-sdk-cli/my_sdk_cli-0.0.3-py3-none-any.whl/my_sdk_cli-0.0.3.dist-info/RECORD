@@ -1,0 +1,10 @@
+my_sdk/__init__.py,sha256=4SlReLIReogfK8W9XRy1oQLqlECxy7eGpPUx4WB6Qm8,100
+my_sdk/__main__.py,sha256=cSv4G51g7EEHOY9fE8gYakhGFZqBfwpVW_sve0gMq3A,661
+my_sdk/module1.py,sha256=jlLVU0Rf3sbbX4nMRZ4T_g_CKE9Ck5rZwAF2fhEE1Ho,155
+my_sdk/module2.py,sha256=A33YWl20LuOOXt3GLdxtfCxLN3vZm-MeZoxkFHdAbfM,165
+my_sdk_cli-0.0.3.dist-info/LICENSE,sha256=OFSOkgbgrfAJKhj_0HzV-6Y3P4S9rGBFBTyKtfPp1gA,1093
+my_sdk_cli-0.0.3.dist-info/METADATA,sha256=4DF71g5afAJN_EhGKZIPlPrPl-eibv7bWMt2G4k-xso,616
+my_sdk_cli-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+my_sdk_cli-0.0.3.dist-info/entry_points.txt,sha256=zff4MqpJfAeGwxPu_oCMLMHVdwo5azlDaDzZV5V5aMs,52
+my_sdk_cli-0.0.3.dist-info/top_level.txt,sha256=aW2Kn7YYUXrjh-s3dPL3fz5j4c-Zm20qy-ptn5BiHRE,7
+my_sdk_cli-0.0.3.dist-info/RECORD,,
