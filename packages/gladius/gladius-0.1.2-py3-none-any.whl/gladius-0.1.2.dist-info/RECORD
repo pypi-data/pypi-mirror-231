@@ -1,0 +1,12 @@
+gladius/__init__.py,sha256=b9eHMwPxO8nCGuej9rLJMtV5saFrHtGqTWMwSu_pbsY,47
+gladius/component.py,sha256=EVvtb2nUEZgNWfPGireNHU0S0wE2t3pGQgnvNTyANnc,4915
+gladius/consts.py,sha256=sNcE_CPaEq-2BoQBEykNAJ1OMq_Rq_kCZIa2lJsqDto,3146
+gladius/daisyui.py,sha256=tdCWWYnDCBWrBs1BkKhn84sJymwp75Zzx-XeR7vcjM8,5900
+gladius/gladius.py,sha256=n3ITfBI_mek02lC-20lfD0F6_ht3POGzJfYYg37osPY,3798
+gladius/html5.py,sha256=EuUWqBJdoyGPfukRDOkA6kiUlALeRXYdeY6gRrPyZj4,1961
+gladius/static/favicon.png,sha256=6XOMBwvCoLGMsyAcuw-6VzENMC0kMvRFlhhpKlFf2iw,20244
+gladius/static/multi-path-deps.js,sha256=QlrLLtT440GRjvqpeVydlx-FKXuWECp9rFIRDIUeKrg,2021
+gladius-0.1.2.dist-info/LICENSE,sha256=lqYfQwEV64-Jziy1nkaKL5nEJrgxUq5gu6VP_0A6TNg,1068
+gladius-0.1.2.dist-info/METADATA,sha256=tTnW7KvZ_rIxLRs2CpcQ4trAWYBNdn66NSFI1HAU1wM,3875
+gladius-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gladius-0.1.2.dist-info/RECORD,,
