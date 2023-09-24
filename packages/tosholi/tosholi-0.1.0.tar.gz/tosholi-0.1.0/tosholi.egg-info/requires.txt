@@ -1,0 +1,17 @@
+dacite
+tomli-w
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+black
+covdefaults>=2.2
+coverage
+mypy
+pre-commit
+pytest
+pytest-cov
+ruff
+tox
+virtualenv
