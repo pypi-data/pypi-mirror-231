@@ -1,0 +1,9 @@
+setup.py
+msdataviewer/__init__.py
+msdataviewer/__main__.py
+msdataviewer.egg-info/PKG-INFO
+msdataviewer.egg-info/SOURCES.txt
+msdataviewer.egg-info/dependency_links.txt
+msdataviewer.egg-info/entry_points.txt
+msdataviewer.egg-info/requires.txt
+msdataviewer.egg-info/top_level.txt
