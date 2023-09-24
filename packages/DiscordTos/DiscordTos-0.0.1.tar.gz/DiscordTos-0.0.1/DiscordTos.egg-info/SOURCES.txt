@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+DiscordTos/__init__.py
+DiscordTos.egg-info/PKG-INFO
+DiscordTos.egg-info/SOURCES.txt
+DiscordTos.egg-info/dependency_links.txt
+DiscordTos.egg-info/top_level.txt
