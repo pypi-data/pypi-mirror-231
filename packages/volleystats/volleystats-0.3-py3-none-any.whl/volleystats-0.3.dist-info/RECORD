@@ -1,0 +1,17 @@
+volleystats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volleystats/items.py,sha256=gmCthwDCXcWO4MjhEX-5EnsN28THcUq2M4BgqCPMhp4,267
+volleystats/main.py,sha256=stLEZfopeNVxBG-lDKH3LsMP49Vp_yM0268HaFgLlcE,1982
+volleystats/middlewares.py,sha256=HZe6-yECEfIDFc_Ft3V70oPo_iLIOcao0Vt4iglJsZU,3658
+volleystats/pipelines.py,sha256=8JclErnOemHOYRNqighR301yNrR_MFEHTgdzVAN1D6c,365
+volleystats/settings.py,sha256=9XhvOfYy8F3myWe8Q22pTKbjYPq4UxURiq_6-b5Yogk,3306
+volleystats/utils.py,sha256=faKRLgVOF98vqrdfd2U6yIQJ4oAIq2j6Ldqhcwq_Nzw,1620
+volleystats/version.py,sha256=Cl7DWkrPP64Ofc2ILXnudFOdnCuKs2p0Pm7ykZOOPh4,19
+volleystats/spiders/__init__.py,sha256=ULwecZkx3_NTphkz7y_qiazBeUoHFnCCWnKSjoDCZj0,161
+volleystats/spiders/competition.py,sha256=sxalUtfxHq_s8fBwrYPP3avtlFFoItnRmmSbE4TXSfM,1660
+volleystats/spiders/match.py,sha256=K9V4qoeb-hbQ6ZfwOiptXEZgw6AJXFH7RUsbFxi30-k,5140
+volleystats-0.3.dist-info/LICENSE.md,sha256=y6kMGVaT1wXzGJRqJzKLA0C7Gv9h7tBtXwldm-ueFII,35149
+volleystats-0.3.dist-info/METADATA,sha256=-xbUj_jU_nHZHNDDEFG_D7YlNLIGVQEzPhQuyI7a3yI,2596
+volleystats-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+volleystats-0.3.dist-info/entry_points.txt,sha256=B2fjxUwftJzZsf3ZbiL4HIbVICe8xsxDsbDXcDJkelk,55
+volleystats-0.3.dist-info/top_level.txt,sha256=Hxe2U5Eby-K_PvXgFK7ALMqmATKvEAj9V4EXBAR8few,12
+volleystats-0.3.dist-info/RECORD,,
