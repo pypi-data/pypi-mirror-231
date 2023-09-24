@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: multiminio
+Version: 1.0.0
+Summary: MultiMinio: provides failover and health-checking for applications using multiple Minio object storage instances, ensuring uninterrupted access and resilience.
+Home-page: https://github.com/asuiu/multiminio
+License: MIT
+Author: Andrei Suiu
+Author-email: andrei.suiu@gmail.com
+Requires-Python: >=3.8,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: StrEnum (>=0.4.0)
+Requires-Dist: minio (>=7.0.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: streamerate (>=1)
+Requires-Dist: tsx (>=0.1.4)
+Project-URL: Repository, https://github.com/asuiu/multiminio
+Description-Content-Type: text/markdown
+
+# MultiMinio
+
+The **MultiMinio** library is designed to enhance the resilience and robustness of applications relying on Minio, a high-performance object storage server.
+
+This library acts as a wrapper around multiple Minio client instances, offering seamless failover and health-check capabilities.
+
+If one Minio instance becomes unreachable or is detected as unhealthy, the MultiMinio automatically reroutes requests to the next available Minio client,
+ensuring uninterrupted access to your object storage.
+
+With its built-in health check mechanism, configurable timeouts, and logging features, MultiMinio ensures optimal performance and reliability for
+mission-critical applications leveraging Minio's storage capabilities.
+
