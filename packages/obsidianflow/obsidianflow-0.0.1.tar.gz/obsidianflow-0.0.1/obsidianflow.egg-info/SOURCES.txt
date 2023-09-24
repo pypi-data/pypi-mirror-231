@@ -1,0 +1,8 @@
+README.md
+setup.py
+obsidianflow/__init__.py
+obsidianflow/client.py
+obsidianflow.egg-info/PKG-INFO
+obsidianflow.egg-info/SOURCES.txt
+obsidianflow.egg-info/dependency_links.txt
+obsidianflow.egg-info/top_level.txt

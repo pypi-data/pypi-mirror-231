@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: obsidianflow
+Version: 0.0.1
+Summary: Supercharge your business with AI
+Author: davnords
+Author-email: david.nordstromm@gmail.com
+Keywords: python,ai
+Description-Content-Type: text/markdown
+
+
+### This is ObsidianFlow's client package for Python
