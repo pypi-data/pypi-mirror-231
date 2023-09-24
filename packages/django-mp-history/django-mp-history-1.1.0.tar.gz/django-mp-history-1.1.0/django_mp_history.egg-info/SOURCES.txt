@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+django_mp_history.egg-info/PKG-INFO
+django_mp_history.egg-info/SOURCES.txt
+django_mp_history.egg-info/dependency_links.txt
+django_mp_history.egg-info/top_level.txt
+history/__init__.py
+history/admin.py
+history/models.py
+history/migrations/0001_initial.py
+history/migrations/__init__.py
