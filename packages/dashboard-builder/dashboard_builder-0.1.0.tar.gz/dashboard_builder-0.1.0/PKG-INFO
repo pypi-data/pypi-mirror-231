@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dashboard-builder
+Version: 0.1.0
+Summary: 
+Author: Hants Williams
+Author-email: hantsawilliams@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (>=2.3.3,<3.0.0)
+Requires-Dist: markdown (>=3.4.4,<4.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Dashboard Builder
+
+
+
+## Local Dev Notes
+
+Using poetry for managing dependencies and deploying. On my local machine also using pyenv for python version controll manager. So start up the remote 
+environment, can do the following:
+
+1. Set the python version - currently 3.10 for this project: `pyenv global 3.10.0`
+2. Tell poetry to use that: `poetry env use $(pyenv which python)` 
+3. Then can add things, e.g., `poetry add requests` 
+
+Once done there, can then generate the requirements.txt file with:
+```bash poetry export --output requirements.txt```
+
+For publishing: 
+1. Package the updates: ```bash poetry build``` 
+2. Once it has finished packing, can run ```bash poetry publish``` to get the latest/greatest version on pypi 
+
