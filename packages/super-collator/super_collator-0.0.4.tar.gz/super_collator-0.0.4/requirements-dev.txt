@@ -1,0 +1,16 @@
+black
+blackdoc
+build
+coverage[toml]
+hatchling
+lxml
+mypy
+pip
+pydocstyle
+pylint
+pytest
+sphinx
+sphinx-rtd-theme
+toml
+tox
+twine
