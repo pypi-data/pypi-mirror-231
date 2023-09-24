@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tools-part-2-nmzgnv"
+version = "0.0.1"
+description = "A Tinkoff Python AB hw-2 package"
+authors = ["nmzgnv <nick-mozg1@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "homework_docker", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.25.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
