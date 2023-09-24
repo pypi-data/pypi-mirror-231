@@ -1,0 +1,8 @@
+sharded_queue/__init__.py,sha256=T6yBhuzVCyao42gGwR7KPVNkvO2-V-DXkDL_NHFw7Yc,12704
+sharded_queue/drivers.py,sha256=XaJ-OL7_KgQpiJzdrC-dyDQEcgaMwTtGetyoz3wGT_M,4123
+sharded_queue/protocols.py,sha256=IdhgslYh-4hbpQj70wkFpO81hrdH-y58htRj331HfhQ,839
+sharded_queue/settings.py,sha256=-li9jpxecjQm-RwYGJ0htnnASAXxdkSeyuxJF8pwiWg,1548
+sharded_queue-0.1.8.dist-info/METADATA,sha256=W6P4-ZuX3mT_Kl7xa9h9RC3e65a8z7fR6IRHLdNQrEY,8649
+sharded_queue-0.1.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sharded_queue-0.1.8.dist-info/licenses/LICENSE,sha256=8EMX_FpwO3B7cIlsxxO25L97DqgAGKiEwD4oC6J8O1Y,1062
+sharded_queue-0.1.8.dist-info/RECORD,,
