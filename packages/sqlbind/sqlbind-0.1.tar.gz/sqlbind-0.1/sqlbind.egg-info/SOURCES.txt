@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+sqlbind.py
+sqlbind.egg-info/PKG-INFO
+sqlbind.egg-info/SOURCES.txt
+sqlbind.egg-info/dependency_links.txt
+sqlbind.egg-info/top_level.txt
