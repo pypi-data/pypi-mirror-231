@@ -1,0 +1,12 @@
+mimosa/__init__.py,sha256=pPhHQ1dnTL4nRAzfITV-fV9uilSc67m80TnqilAUhPU,110
+mimosa/cli.py,sha256=WXuwpcWx6QqQxdSaaC7fIC5CDtuGjtrSdJnV8J1vU4k,405
+mimosa/pipelines.py,sha256=WtE_7WPjU0ZUqYvpVQuXNL-5EWPDSaZTa5VeUc0Kfrs,5377
+mimosa/tmp.py,sha256=gOC88zS-auhqPNCbtsVRQHHkuXgXt3NIRnMwa6DYOTw,190
+mimosa/utilities.py,sha256=cCZbNGDKRjnZRyFXx-t3-QztGUfNxquykAdQ-f5ABMk,2624
+mimosa/wip.py,sha256=Xb4jxSYj7uPBp4aZst_rE31ff99UL4hFylG5XCbgf18,596
+mimosa/wip_incr.py,sha256=HH0vMGoE1ejdnXb1R2HHuOqQrIAlYoSgUZWXrhwl2vU,4340
+ternyxmimosa-0.0.1.dist-info/LICENSE.txt,sha256=ofcXQbhOui9_J19pnhY68PHVL6P5iiC-T9YcOMdsJyg,1072
+ternyxmimosa-0.0.1.dist-info/METADATA,sha256=wkNWqeempMZGFKYATY7emYi6n7GG-jvaM2Hw-PKdffY,7725
+ternyxmimosa-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ternyxmimosa-0.0.1.dist-info/entry_points.txt,sha256=ER_jwzUuJGCZhkw13S4S_px-nv4X_vvqdEBqyCtADH4,42
+ternyxmimosa-0.0.1.dist-info/RECORD,,
