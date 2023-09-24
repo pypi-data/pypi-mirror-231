@@ -1,0 +1,12 @@
+pgwidget/__init__.py,sha256=-7lk3XZcXmFG_3xSORYB62sERfEEzzjQBlzxbp2rj_0,1842
+pgwidget/engine.py,sha256=WhbsMKG20M6YCXMMA9sZFd3O850Ya8Xn5NgttB6DO5g,13225
+pgwidget/helper.py,sha256=gbPtLVid0PcXcRmmpw8fBOC56rZ07xANLBPlTAyIRME,1276
+pgwidget/pgwidget_core.py,sha256=NPP2XVCss2iMJ3Ao1EqQkyzGY8umphg2gIUD9uhUrPs,92206
+pgwidget/test.py,sha256=rgk1iHDsllVpm8Jy7IDI-kRqdlrPU-9jM03FFlFSopA,49
+pgwidget/test_entry_property.py,sha256=f4gJBLsB-lYIMcWXtnkkWDgqxc8OvY4cYfWaAVcf1AY,1041
+pgwidget/webengine.py,sha256=7ndDzXhsVXgLrPDPDGPpm1clDBpr9eIXXtDpclEkyFk,6576
+pgwidget-0.7.5.dist-info/LICENSE,sha256=LhjVfITw-wDY-BehxX1Dk-EB-5gW90Y7qwUvm6Fhei8,1090
+pgwidget-0.7.5.dist-info/METADATA,sha256=b8dD64aVJ_efCr9PqqyaxL0iCrLC558eReKL5-sIN-4,1734
+pgwidget-0.7.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pgwidget-0.7.5.dist-info/top_level.txt,sha256=RtnRt-mjc0DLQuQWBpj2pB1M7Nzea7CGLzr3gKKeIDA,9
+pgwidget-0.7.5.dist-info/RECORD,,
