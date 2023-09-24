@@ -1,0 +1,2 @@
+[console_scripts]
+faker-file-qt = faker_file_qt:main

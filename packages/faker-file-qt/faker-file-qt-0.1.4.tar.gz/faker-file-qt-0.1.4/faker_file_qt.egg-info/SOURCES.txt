@@ -1,0 +1,14 @@
+CHANGELOG.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+faker_file_qt.py
+pyproject.toml
+setup.cfg
+setup.py
+faker_file_qt.egg-info/PKG-INFO
+faker_file_qt.egg-info/SOURCES.txt
+faker_file_qt.egg-info/dependency_links.txt
+faker_file_qt.egg-info/entry_points.txt
+faker_file_qt.egg-info/requires.txt
+faker_file_qt.egg-info/top_level.txt
