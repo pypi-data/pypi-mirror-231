@@ -1,0 +1,15 @@
+graphic_novel/__init__.py,sha256=0Nmq-UGXeSjCwy2dWngMadLpUcKToL23s-0fnzhXjm8,13994
+graphic_novel/actions.py,sha256=4Wf-Hi3i_kHP0bHQ5zTHWHXi2_tvlt1pPF7yRbz54vU,2967
+graphic_novel/character_vn.py,sha256=u0rAziryA8psftRXgKXAytz4b49-MlcofS6gjgnnId4,1548
+graphic_novel/constants.py,sha256=jB_Ph2q9TFBCf-vg_BZBsIF2aI5TuV7ED80mHDoRYLY,536
+graphic_novel/input_handler.py,sha256=ZPO8Ie2OKE956C1xZLBcyFlgZ6oK6-KOxKTtEqDxlXI,1156
+graphic_novel/layout_commands.py,sha256=NnDpz2kaE6HMq0lFw_sVoisAfj_IWe3uPM7y_48SKJI,1637
+tests/__init__.py,sha256=njrvrjYgtD8mm8siVQ4z57rhpuF_nlSG_3FocBFvpRk,351
+tests/actions_test.py,sha256=HVNcB4jh9pRg0R_TDLoei0KF9Q_HqSqSbXJbHnZsi3w,4812
+tests/graphic_novel_test.py,sha256=d68SPVoDTjtsCeuhnR8Pv7vL-YExm1Bo_1MMNm6I7wI,1429
+tests/parser_test.py,sha256=VH9w9MtsNGa9IyUA7HnQUylB-7liDDa5DInekEp9FuY,5476
+graphic_novel_pyarcade-0.2.0.dist-info/LICENSE,sha256=IGskARcV_NxV26yMF_sTkWtqfOVi2JWopAmV39ke4FA,1107
+graphic_novel_pyarcade-0.2.0.dist-info/METADATA,sha256=Do6ZpOYY_61u7ciaVjYbqG7Rbc6oiXzocOgsRkA9uxE,2943
+graphic_novel_pyarcade-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+graphic_novel_pyarcade-0.2.0.dist-info/top_level.txt,sha256=MLtUgZWPMDzXQdV9p1DevBTanzRpfxOjwdbcwxNEY-I,20
+graphic_novel_pyarcade-0.2.0.dist-info/RECORD,,
