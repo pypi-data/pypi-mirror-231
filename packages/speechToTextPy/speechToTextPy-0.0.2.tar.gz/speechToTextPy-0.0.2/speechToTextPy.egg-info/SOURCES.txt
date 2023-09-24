@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+speechToTextPy/__init__.py
+speechToTextPy/speechToTextPy.py
+speechToTextPy.egg-info/PKG-INFO
+speechToTextPy.egg-info/SOURCES.txt
+speechToTextPy.egg-info/dependency_links.txt
+speechToTextPy.egg-info/not-zip-safe
+speechToTextPy.egg-info/top_level.txt
