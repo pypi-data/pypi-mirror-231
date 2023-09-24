@@ -1,0 +1,2 @@
+[console_scripts]
+idli_coco = idli_coco.main:run
