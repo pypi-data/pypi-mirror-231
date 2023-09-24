@@ -1,0 +1,12 @@
+README.md
+setup.py
+httpquest/__init__.py
+httpquest/exceptions.py
+httpquest/model.py
+httpquest/req.py
+httpquest/sess.py
+httpquest.egg-info/PKG-INFO
+httpquest.egg-info/SOURCES.txt
+httpquest.egg-info/dependency_links.txt
+httpquest.egg-info/requires.txt
+httpquest.egg-info/top_level.txt

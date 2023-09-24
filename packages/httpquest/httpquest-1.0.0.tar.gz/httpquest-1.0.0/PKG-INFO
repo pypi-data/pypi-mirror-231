@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: httpquest
+Version: 1.0.0
+Summary: A Python HTTP request library with advanced features, including error handling, exceptions, and proxy support.
+Home-page: https://github.com/cxstles/httpquest
+Author: cxstles
+Author-email: bio@fbi.ac
