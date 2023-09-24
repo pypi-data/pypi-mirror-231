@@ -1,0 +1,10 @@
+setup.py
+frrmvsm.egg-info/PKG-INFO
+frrmvsm.egg-info/SOURCES.txt
+frrmvsm.egg-info/dependency_links.txt
+frrmvsm.egg-info/top_level.txt
+my_first_module/__init__.py
+my_first_module/add.py
+my_first_module/divide.py
+my_first_module/multiply.py
+my_first_module/subtract.py
