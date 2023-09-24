@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jsthon
+Version: 0.2
+Summary: Easy to use, fast, productive json database for python
+Home-page: https://github.com/terribleMOTHMAN/JsthonDb
+Author: terribleMOTHMAN
+Author-email: paradox.smirnoff@gmail.com
+License: MIT License
+License-File: LICENSE
