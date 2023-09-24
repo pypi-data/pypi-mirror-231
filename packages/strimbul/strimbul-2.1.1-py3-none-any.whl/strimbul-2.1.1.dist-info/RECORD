@@ -1,0 +1,13 @@
+strimbul/__init__.py,sha256=AWOdTSUkJPaXExoMWba-p_N_RC9N4CoDpAOejxMilUk,22
+strimbul/app.py,sha256=RbSayQH8NALIN9VNXCi8gM5rRctSozp4jDOjr9mC-50,1219
+strimbul/create_files.py,sha256=sCz1wBMK_VsJzbjLUClRrnmfR8jumrqoEarg3F2LSVQ,1279
+strimbul/file1.py,sha256=1Z2wFn_ZwWtxRjBBlQpduioXqZAUv6rJ8-aYSUkzDiE,101
+strimbul/file2.py,sha256=UClsroN_C3pV5nn3oYH_npvORmWAZkF_MVIShAGuut8,101
+strimbul/file3.py,sha256=5RMxM7fb30hl7Y2V2D4q6NPjFhTK87skoESEDroFFV8,101
+strimbul/file4.py,sha256=Q_mrkhAyF68ED3pEmZyJcliEY7RLiOXg9zuIavR8i3Q,101
+strimbul/file5.py,sha256=Wtf_9PCMD8RbY3pGgpa-LIGs9nqDlkiyeVr1l19jxiI,101
+strimbul-2.1.1.dist-info/METADATA,sha256=wzi1WgFQp3z2bfqmbGe7DjiPVcuMxF4085yfEEobUqg,141
+strimbul-2.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+strimbul-2.1.1.dist-info/entry_points.txt,sha256=Ws9c3uNqxz6b4GteIcJWZ1f4QNT0NbEYqzyXz5ptvqc,47
+strimbul-2.1.1.dist-info/top_level.txt,sha256=Gvdviek8mBgZ4U99Skz29gw4UPFutdN8aO6l-X_vNUM,9
+strimbul-2.1.1.dist-info/RECORD,,
