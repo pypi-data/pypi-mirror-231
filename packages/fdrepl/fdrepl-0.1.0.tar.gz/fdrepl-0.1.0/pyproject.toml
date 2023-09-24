@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fdrepl"
+version = "0.1.0"
+description = "REPL for interacting with functional dependencies, their closures, and levels of normalization."
+authors = ["Gabe Fierro <gtfierro@mines.edu>"]
+license = "bsd-3-clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+
+[tool.poetry.scripts]
+fdrepl = 'fdrepl.repl:repl'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
