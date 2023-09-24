@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: SMPrecursorPrediction
+Version: 0.0.1
+Summary: SMPrecursorPrediction
+Author: João Cheixo, Joao Capela
+License: MIT
+Keywords: plants,secondary metabolism
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: biopython (==1.81)
+Requires-Dist: lxml (==4.9.2)
+Requires-Dist: BeautifulSoup4 (==4.12.2)
+Requires-Dist: html5lib (==1.1)
+Requires-Dist: luigi (==3.2.1)
+Requires-Dist: pandas (==2.0.1)
+Requires-Dist: networkx (==3.1)
+Requires-Dist: deepmol[all] (==1.0.7)
+Requires-Dist: retry
+Requires-Dist: IPython
+Provides-Extra: testing
+Requires-Dist: pytest (>=7.1.1) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.942) ; extra == 'testing'
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'testing'
+Requires-Dist: tox (>=3.25.0) ; extra == 'testing'
+
