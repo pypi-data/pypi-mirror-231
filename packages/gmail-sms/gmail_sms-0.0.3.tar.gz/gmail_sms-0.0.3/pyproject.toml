@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gmail_sms"
+version = "0.0.3"
+authors = [
+  { name="Esral Desta", email="esraldesta@gmail.com" },
+]
+description = "This is gmail_sms package used for sending emails to single as well as multiple users"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/esraldesta/gmail_sms"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
