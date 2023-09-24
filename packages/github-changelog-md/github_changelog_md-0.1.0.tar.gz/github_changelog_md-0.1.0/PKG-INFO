@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: github-changelog-md
+Version: 0.1.0
+Summary: Generate a Markdown Changelog from your Github repository.
+Home-page: https://github/com/seapagan/github-changelog-md
+License: MIT
+Author: Grant Ramsay
+Author-email: seapagan@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Bug Tracker, https://github/com/seapagan/github-changelog-md/issues
+Project-URL: Pull Requests, https://github/com/seapagan/github-changelog-md/pulls
+Project-URL: Repository, https://github/com/seapagan/github-changelog-md
+Description-Content-Type: text/markdown
+
+# Github Changelog Md <!-- omit in toc -->
+
+This is currently a placeholder for a project to create a tool to generate a
+Markdown changelog from a Github repository.
+
+- [Development setup](#development-setup)
+- [License](#license)
+- [Credits](#credits)
+
+## Development setup
+
+Install the dependencies using Poetry:
+
+```console
+$ poetry install
+```
+
+Then, activate the virtual environment:
+
+```console
+$ poetry shell
+```
+
+## License
+
+This project is released under the terms of the MIT license.
+
+## Credits
+
+The original Python boilerplate for this package was created using
+[Pymaker](https://github.com/seapagan/py-maker) by [Grant
+Ramsay](https://github.com/seapagan)
+
