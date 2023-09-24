@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sparckles
+Version: 0.1.0
+Summary: Easiest way to deploy python applications
+License: BSD-2.0
+Author: Sanskar Jethi
+Author-email: sansyrox@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+## Sparckles CLI
+
+Sparckles is a command line tool for deploying your python projects with just one command.
+
