@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gmail_sms
+Version: 0.0.2
+Summary: This is gmail_sms package used for sending emails to single as well as multiple users
+Project-URL: Homepage, https://github.com/esraldesta/gmail_sms
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Esral Desta <esraldesta@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+### This is gmail_sms package used for sending emails to single as well as multiple users
+
+## import the send_message function and pass the following parameters 
+
+gmail_user = 'example@gmail.com'
+gmail_app_password = 'gmail app password'  to create one https://myaccount.google.com/apppasswords  
+recipient = "recipientUser1@gmail.com , recipientUser2@gmail.com"
+subject = "How Are You"
+body = "selam, How are you"
