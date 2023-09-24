@@ -1,0 +1,2 @@
+[console_scripts]
+fast-flet = commands.cli:cli
