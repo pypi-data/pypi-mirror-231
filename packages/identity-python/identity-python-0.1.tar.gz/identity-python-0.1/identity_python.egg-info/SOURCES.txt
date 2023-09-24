@@ -1,0 +1,13 @@
+README.md
+setup.py
+identity_python/__init__.py
+identity_python/events.py
+identity_python/execution_environment.py
+identity_python/function.py
+identity_python/logger.py
+identity_python/registry.py
+identity_python/serializer.py
+identity_python.egg-info/PKG-INFO
+identity_python.egg-info/SOURCES.txt
+identity_python.egg-info/dependency_links.txt
+identity_python.egg-info/top_level.txt

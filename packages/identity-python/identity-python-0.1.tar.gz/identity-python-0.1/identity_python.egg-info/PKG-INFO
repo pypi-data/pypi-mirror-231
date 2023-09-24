@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: identity-python
+Version: 0.1
+Home-page: https://github.com/MamoonAhmad/identity-python
+Author: Mamoon Ahmed
+Author-email: engineer.mamoonahmed@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
