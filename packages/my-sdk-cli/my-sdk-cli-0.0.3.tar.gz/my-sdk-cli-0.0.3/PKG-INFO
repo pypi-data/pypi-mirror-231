@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: my-sdk-cli
+Version: 0.0.3
+Summary: My SDK CLI
+Author: Vivek-Yadav
+Author-email: Vivek Yadav <vy.code92@gmail.com>
+Project-URL: Homepage, https://github.com/Code-Xg9/code-wave-cli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Security policy
+
+## Reporting a vulnerability
+
+When you identify a vulnerability in HTTPie, please report it privately using one of the following channels:
