@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: catpig
+Version: 0.1.0
+Summary: A memory-hard key derivation function
+Home-page: https://github.com/hakavlad/catpig
+Author: Alexey Avramov
+Author-email: hakavlad@gmail.com
+License: CC0
+Project-URL: Homepage, https://github.com/hakavlad/catpig
+Project-URL: Bug Tracker, https://github.com/hakavlad/catpig/issues
+Project-URL: Documentation, https://github.com/hakavlad/catpig/blob/main/README.md
+Keywords: kdf
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+![Logo: кошка Свинья](https://i.imgur.com/5AHvXQm.jpeg)
+
+# catpig
+
+`catpig` is a memory-hard key derivation function.
+
+
+
