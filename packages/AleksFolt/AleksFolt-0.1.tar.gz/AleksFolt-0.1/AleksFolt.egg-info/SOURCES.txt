@@ -1,0 +1,6 @@
+AleksFolt.egg-info/PKG-INFO
+AleksFolt.egg-info/SOURCES.txt
+AleksFolt.egg-info/dependency_links.txt
+AleksFolt.egg-info/top_level.txt
+aleksfolt/math_operations.py
+aleksfolt/setup.py
