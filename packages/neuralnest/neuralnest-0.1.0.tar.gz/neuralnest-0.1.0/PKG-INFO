@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: neuralnest
+Version: 0.1.0
+Summary: NeuralNest: An open-source personal AI assistant designed for seamless data integration from various sources, offering versatile connections to Language Learning Models (LLMs), enhanced security, and human-in-the-loop options for a personalized AI experience.
+Author: Foxicution
+Author-email: foxicution@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: accelerate (>=0.22.0,<0.23.0)
+Requires-Dist: bitsandbytes (>=0.41.1,<0.42.0)
+Requires-Dist: llama-index (>=0.8.11,<0.9.0)
+Requires-Dist: protobuf (>=4.24.2,<5.0.0)
+Requires-Dist: pymilvus (>=2.3.0,<3.0.0)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0)
+Requires-Dist: sentencepiece (>=0.1.99,<0.2.0)
+Description-Content-Type: text/markdown
+
+# NeuralNest: Your Personal AI Assistant (WIP)
+
+**🚧 This project is currently under heavy development and might not have stable features yet. 🚧**
+
+NeuralNest aims to be an open-source personal AI assistant designed to seamlessly integrate data from various sources. With the vision to connect to different Language Learning Models (LLMs), both locally hosted and remote, NeuralNest will offer versatility and adaptability. The project will prioritize security and also plans to support human-in-the-loop options for a more personalized AI experience.
+
+## Planned Features
+
+- **Data Integration**: Easily fetch and integrate data from multiple sources.
+- **Versatile Connections**: Connect to various LLMs, both local and remote.
+- **Enhanced Security**: Multiple security levels to safeguard your data.
+- **Human-in-the-Loop**: Improve AI responses with human intervention options.
+
+## Installation (Coming Soon)
+
+Details on installation and setup will be provided as the project progresses.
+
+## Usage (Coming Soon)
+
+A comprehensive guide on how to use NeuralNest will be available once core features are implemented.
+
+## Contributing
+
+While the project is in its early stages, we appreciate any feedback or ideas. If you're interested in contributing or have suggestions, please open an issue to discuss.
+
+## License
+
+This project will be licensed under the MIT License. Details will be provided as the project matures.
+
