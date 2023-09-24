@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cypherweb
+Version: 0.0.1
+Summary: Query any web page with Cypher
+Author-email: Anas AIT AOMAR <anas1999@gmail.com>
+License: BSD (3-clause)
+Project-URL: repository, https://github.com/AnasAito/cypher-web
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: lark
+Requires-Dist: networkx
+Requires-Dist: pyvis
+Requires-Dist: rich
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+# Cypher for web
