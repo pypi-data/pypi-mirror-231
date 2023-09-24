@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rsidatasciencetools.egg-info/PKG-INFO
+rsidatasciencetools.egg-info/SOURCES.txt
+rsidatasciencetools.egg-info/dependency_links.txt
+rsidatasciencetools.egg-info/top_level.txt
