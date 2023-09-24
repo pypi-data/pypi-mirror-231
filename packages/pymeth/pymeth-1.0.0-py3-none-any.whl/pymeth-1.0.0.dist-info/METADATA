@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pymeth
+Version: 1.0.0
+Summary: A python package for using basic math algorithm
+Home-page: https://github.com/saurabhmehta1601/pymeth.git
+Download-URL: https://github.com/saurabhmehta1601/pymeth.git
+Author: Saurabh Mehta
+Author-email: saurabhmehta1601@gmail.com
+Maintainer: Saurabh Mehta
+Maintainer-email: saurabhmehta1601@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/saurabhmehta1601/pymeth/issues
+Keywords: Math,Algorithm,Binary Search
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pymeth
+A python package for basic algorithms
+
+## INSTALLATION
+
+### Installing from source code on GitHub
+You can clone this repository locally and install package from the source code.
+
+```sh
+git clone https://github.com/saurabhmehta1601/pymeth.git
+cd pymeth
+python setup.py install
+```
+
+### Installing directly with pip
+You can use pip to install pymeth with
+
+
+## Publishing package to PyPI
+
+1. Firstly, check the package version and metadata in setup.py.
+2. Create the binary distribution wheel file for the package with
+```
+python setup.py bdist_wheel
+```
+3. We will be using `twine` to upload package to PyPI, so if you have not installed it already install it with command :
+```
+pip install twine==4.0.2
+```
+4.Upload package with command
+
+NOTE: In order to upload python package you will need an account on PyPI with 2Factor Authentication enabled.
+``` 
+twine upload dist/*
+```
