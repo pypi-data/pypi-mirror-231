@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+#terminal{
+position:absolute;
+bottom:0px;
+height:300px;
+width:100%;
+resize:both;
+overflow:auto;
+}
+</style>
+</head>
+<body>
+
+<!--The div 'app' is a div that contains mechanisms to:
+1. Type input command and send it to the iframe
+2. Display the command status and time for the entered command
+-->
+<div id="app">
+  <input id="message" type="text" />
+  <button id="sendMessage">Execute Command</button><br>
+  <button id="CES">Command Execution Status</button><br>
+  <input id="Time" type="text" readonly/>
+</div>
+
+<div id="terminal">
+<!--To obtain the form page and enter ssh credentials
+http://localhost:8888-->
+<!--To bypass form if credentials are already known.Make sure password is entered in Base64 form. To obtain base64 form use the following command:
+echo -n 'password' | base64
+http://localhost:8888?hostname=<hostname>&&username=<username>&&password=<base_64_encoded>-->
+<iframe id="myFrame" src="http://localhost:8888" style="width:100%; height:100%;"></iframe>
+</div>
+</body>
+<script>
+//script to send command to the iframe.
+  var button = document.querySelector("#sendMessage");
+  function sendMessage() {
+    const message = document.querySelector("#message").value;
+    if(message.search('\\S')===-1)
+    alert("Empty command. Please enter a valid command");
+    else{
+    const iframe = document.querySelector("iframe");
+    iframe.contentWindow.postMessage(message, "*");}
+  }
+  button.addEventListener("click", sendMessage);
+</script>
+<script>
+//script to display messages recieved from iframe.
+  window.addEventListener('message', function(event) {
+  var x=JSON.parse(event.data);
+  if(x!=null){
+    console.log("Message received from the child: " + x.Command_Execution_Status+x.Execution_Time);
+    document.getElementById("Time").value=x.Execution_Time;    
+    if(x.Command_Execution_Status==='0')
+document.getElementById("CES").style.background='green';
+else
+document.getElementById("CES").style.background='red';
+}
+  });
+</script>
+</html>
