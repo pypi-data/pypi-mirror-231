@@ -1,0 +1,33 @@
+[project]
+name = "nonebot-plugin-bird-lg"
+version = "0.1.0"
+description = "Use command to get bird status in QQ."
+authors = [
+    { name = "student_2333", email = "lgc2333@126.com" },
+    { name = "XieXiLin", email = "support@xiexilin.com" },
+]
+dependencies = [
+    "nonebot2>=2.0.0",
+    "nonebot-adapter-onebot>=2.2.0",
+    "pydantic>=1.10.4,<2",
+    "httpx>=0.25.0",
+    "pandas>=2.0.3",
+    "matplotlib>=3.7.3",
+]
+requires-python = ">=3.8,<4.0"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/lgc-NB2Dev/nonebot-plugin-bird-lg"
+
+[tool.pdm.build]
+includes = []
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
