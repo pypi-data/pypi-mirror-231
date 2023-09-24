@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+my_sdk_cli.egg-info/PKG-INFO
+my_sdk_cli.egg-info/SOURCES.txt
+my_sdk_cli.egg-info/dependency_links.txt
+my_sdk_cli.egg-info/entry_points.txt
+my_sdk_cli.egg-info/top_level.txt

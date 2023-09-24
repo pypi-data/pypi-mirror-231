@@ -1,0 +1,2 @@
+[console_scripts]
+my-sdk-cli = __main__:main
