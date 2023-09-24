@@ -1,0 +1,1 @@
+from idlicious.app import run
