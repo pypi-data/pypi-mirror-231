@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: myhydra
+Version: 0.4
+Summary: This Package can be used to insert Hydra Job Status and Data Quality Metrics to Elastic Open Search
+Home-page: UNKNOWN
+Author: Prasad Dandi
+Author-email: Prasad_Dandi2@comcast.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+How to use 
+==========
+
+pip install myhydra
+
+Available Functions
+===================
+
+
+update_project_metadata
+-----------------------
+Arguments -
+
+project - 
+           Name of the project Ex: RTDP
+app     - 
+           Name of the application Ex: V4 Device Lookup Model
+dataset -
+           Name of the Dataset Ex: X1_Households
+jobid   -
+           JobID  Ex: Databricks JobId
+dayid   -
+           dayid being processed (Optional Parameter)
+
+insert_hydra_job_status
+-----------------------
+Arguments -
+
+environment -
+              Provide environment value. It will take one of the value ['DEV', 'QA', 'STAG', 'PROD']. For any other value it throws ValueError Exception
+status      - 
+              Provide job status value. It will take one of the value ['START', 'SUCCESS', 'FAILURE']. For any other value it throws ValueError Exception
+source      - 
+              Data source value. Example: RTDP D2A
+input       - 
+              Optional Parameter
+output      - 
+             Optional Parameter
+
+
+
+
+
+Change Log
+==========
+
+Version 0.1 (2023-09-22)
+------------------------
+Initial Version 
+
+Functions - 
+           update_project_metadata, insert_hydra_job_status
+
+Version 0.2 (2023-09-23)
+------------------------
+Changes -
+          README.md and CHANGELOG.txt added
+
+Version 0.2 (2023-09-23)
+------------------------
+Changes -
+          README.md and CHANGELOG.txt updated
+
