@@ -1,0 +1,13 @@
+shell_whiz/argparse.py,sha256=3U2JWrydsJ-4ha_YEI2M-NZso36sBiGxnzXbhslf8Uk,1796
+shell_whiz/cli.py,sha256=_JxTklfL9zAxE6VfnhKgES--2TUhXZW2rBbehUTXO2g,9760
+shell_whiz/config.py,sha256=OIfqTtgUT9ExPpSVyk6GOl4qsUWXV5W16QJ7Ol89JbA,1892
+shell_whiz/console.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+shell_whiz/constants.py,sha256=QMOiKLzdeDrIr_CuLupv3OV72aYHyuA_HWylzrHIIkU,349
+shell_whiz/exceptions.py,sha256=z_Mq_bMy1QJQ7bvMIYiKmzlgt2YE0Tt6o2ExNU18els,152
+shell_whiz/jsonschemas.py,sha256=sbCLL0R18TRWt2wgh56Lyjqw5YDnvdREglCr7o02iuk,985
+shell_whiz/openai.py,sha256=2jQuGweUYBG1e5l8quflwQTdHjS1bwtRAI6BsPTcgTo,7172
+shell_whiz-1.4.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+shell_whiz-1.4.1.dist-info/METADATA,sha256=sU_809B96g0UH8Cjm_vP0Rb4-5ACvI85F5hgulkXROw,6722
+shell_whiz-1.4.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+shell_whiz-1.4.1.dist-info/entry_points.txt,sha256=gT5fAEmAenSEetU8E5qmspmVM8SBVtXDjDY3OaskCiA,41
+shell_whiz-1.4.1.dist-info/RECORD,,
