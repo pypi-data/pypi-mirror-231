@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+attis/__init__.py
+attis/main.py
+attis.egg-info/PKG-INFO
+attis.egg-info/SOURCES.txt
+attis.egg-info/dependency_links.txt
+attis.egg-info/entry_points.txt
+attis.egg-info/top_level.txt
