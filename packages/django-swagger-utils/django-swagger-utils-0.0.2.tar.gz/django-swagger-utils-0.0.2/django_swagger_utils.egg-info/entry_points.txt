@@ -1,0 +1,3 @@
+[console_scripts]
+python manage.py = drf_swagger_utils.management.commands.custom_command:Command
+
