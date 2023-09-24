@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "==23.9.1"
+pytest = "==7.4.2"
+pytest-cov = "==4.1.0"
+
+[packages]
+pytest-bug = { editable = true, path = "." }
+
+[requires]
+python_version = "3.11"
+
+[pipenv]
+allow_prereleases = true
+
+[scripts]
+tests = "pytest tests"
+black = "black --line-length=120 pytest_bug"
