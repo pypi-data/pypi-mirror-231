@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: idli-coco
+Version: 1.1.6
+Requires-Dist: streamlit
+Requires-Dist: Pillow
+
