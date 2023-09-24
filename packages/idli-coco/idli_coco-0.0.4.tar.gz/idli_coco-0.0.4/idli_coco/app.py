@@ -1,0 +1,7 @@
+import streamlit as st
+
+def app():
+    st.image("https://as2.ftcdn.net/v2/jpg/02/86/14/97/1000_F_286149728_jCLJnMOT2Yj7AMSXgFmBHoVbnT3MnAYM.jpg")
+
+if __name__ == "__main__":
+    app()
