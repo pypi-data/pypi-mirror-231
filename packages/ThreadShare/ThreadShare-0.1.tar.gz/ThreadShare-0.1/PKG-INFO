@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ThreadShare
+Version: 0.1
+Home-page: https://github.com/benjamincham/ThreadShare
+Project-URL: Bug Tracker, https://github.com/benjamincham/ThreadShare/issues
+Project-URL: Changelog, https://github.com/benjamincham/ThreadShare/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+License-File: LICENSE
