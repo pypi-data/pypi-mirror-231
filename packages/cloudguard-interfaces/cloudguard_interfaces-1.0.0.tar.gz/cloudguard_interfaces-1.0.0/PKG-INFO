@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cloudguard-interfaces
+Version: 1.0.0
+Summary: Interfaces for cloudguard CLI
+Home-page: https://github.com/limebrew-org/
+License: MIT
+Keywords: python,aws,azure,gcp,cspm
+Author: deepraj1729
+Author-email: deeprajbaidyaofficial@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cloudguard-modules (>=1.0.2,<2.0.0)
+Project-URL: Repository, https://github.com/limebrew-org/cloudguard-interfaces
+Description-Content-Type: text/markdown
+
+# cloudguard-interfaces
+Interfaces for cloudguard CLI
+
