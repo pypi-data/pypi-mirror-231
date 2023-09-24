@@ -1,0 +1,6 @@
+pandas<2
+XlsxWriter==3.0.1
+
+[dev]
+black
+isort
