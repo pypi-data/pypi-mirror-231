@@ -1,0 +1,3 @@
+[console_scripts]
+byte-words = byte_words.byte_words:main
+
