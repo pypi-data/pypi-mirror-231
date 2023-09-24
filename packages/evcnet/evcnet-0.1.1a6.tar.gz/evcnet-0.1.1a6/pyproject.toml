@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "evcnet"
+version = "0.1.1-a6"
+description = ""
+authors = ["Henk Kraal <hkraal@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
